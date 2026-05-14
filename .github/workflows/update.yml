@@ -2,8 +2,8 @@ name: Update Market Data & Bot Trades
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every 30 minutes
-  workflow_dispatch:           # allow manual trigger
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -13,32 +13,33 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # CRITICAL: Gets all history so rebase works
 
       - name: Set up Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '22'
 
       - name: Fetch Polymarket data & get Gemini bot decision
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/update.mjs
 
-      - name: Commit updated data
+      - name: Commit and Push updated data
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. Pull the latest changes from GitHub first
-          git pull --rebase origin main
-          
-          # 2. Stage the new data files
           git add docs/data/markets.json docs/data/bot_trades.json
           
-          # 3. Only commit and push if there are actually new trades/data
+          # Only commit if there are changes
           if ! git diff --staged --quiet; then
             git commit -m "chore: update market data & bot trades [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            
+            # Re-pull everything right before pushing to catch any edits you made 2 minutes ago
+            git pull --rebase origin main
             git push origin main
           else
             echo "No changes to commit"
