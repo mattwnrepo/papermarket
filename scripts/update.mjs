@@ -24,8 +24,6 @@ function ensureDir(dir) {
 async function fetchMarkets() {
   console.log('📡 Fetching Polymarket markets…');
 
-  // Gamma API – public, no key required
-  // Returns top active markets sorted by volume
   const url =
     'https://gamma-api.polymarket.com/markets?' +
     new URLSearchParams({
@@ -39,21 +37,43 @@ async function fetchMarkets() {
   const raw = await fetchJSON(url);
 
   // Normalise to a clean shape for the frontend
-  const markets = raw.map((m) => ({
-    id: m.id,
-    question: m.question,
-    category: m.category || 'General',
-    endDate: m.endDate || null,
-    // outcomes: array of { id, title, price }  (price = implied probability 0–1)
-    outcomes: (m.outcomes || []).map((o, i) => ({
-      id: `${m.id}-${i}`,
-      title: o,
-      price: parseFloat((m.outcomePrices || [])[i] ?? '0.5'),
-    })),
-    volume: parseFloat(m.volume || '0'),
-    liquidity: parseFloat(m.liquidity || '0'),
-    lastUpdated: new Date().toISOString(),
-  }));
+  const markets = raw.map((m) => {
+    // 1. Determine outcomes. If m.outcomes is a string, parse it. 
+    // If it's missing, default to ["Yes", "No"] for binary markets.
+    let outcomeTitles = [];
+    try {
+      if (Array.isArray(m.outcomes)) {
+        outcomeTitles = m.outcomes;
+      } else if (typeof m.outcomes === 'string') {
+        outcomeTitles = JSON.parse(m.outcomes);
+      } else {
+        // Fallback for standard binary markets if outcomes are missing
+        outcomeTitles = ['Yes', 'No'];
+      }
+    } catch (e) {
+      outcomeTitles = ['Yes', 'No'];
+    }
+
+    // 2. Parse prices safely
+    const rawPrices = Array.isArray(m.outcomePrices) 
+      ? m.outcomePrices 
+      : JSON.parse(m.outcomePrices || '["0.5", "0.5"]');
+
+    return {
+      id: m.id,
+      question: m.question,
+      category: m.category || 'General',
+      endDate: m.endDate || null,
+      outcomes: outcomeTitles.map((title, i) => ({
+        id: `${m.id}-${i}`,
+        title: title,
+        price: parseFloat(rawPrices[i] ?? '0.5'),
+      })),
+      volume: parseFloat(m.volume || '0'),
+      liquidity: parseFloat(m.liquidity || '0'),
+      lastUpdated: new Date().toISOString(),
+    };
+  });
 
   console.log(`   ✅ ${markets.length} markets fetched`);
   return markets;
