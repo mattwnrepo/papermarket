@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PaperMarket — Beat the Bot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+<style>
+  /* ── Reset & Tokens ─────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0d0f14;
+    --surface:   #141720;
+    --border:    #1f2333;
+    --muted:     #3a3f55;
+    --text:      #e8eaf2;
+    --sub:       #7c82a0;
+    --yes:       #00d4a0;
+    --yes-dim:   #00d4a015;
+    --no:        #ff5a7e;
+    --no-dim:    #ff5a7e15;
+    --accent:    #6c8cff;
+    --gold:      #f5c842;
+    --radius:    14px;
+    --card:      #161b28;
+    --shadow:    0 4px 30px #00000050;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Noise texture overlay ──────────────────────────────── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    opacity: 0.6;
+  }
+
+  /* ── Layout ─────────────────────────────────────────────── */
+  .shell { position: relative; z-index: 1; }
+
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 28px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #0d0f14 0%, transparent 100%);
+    position: sticky; top: 0; z-index: 100;
+    backdrop-filter: blur(16px);
+  }
+
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800; font-size: 1.3rem;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  .logo span { color: var(--accent); }
+
+  .header-actions { display: flex; gap: 10px; align-items: center; }
+
+  .btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 500;
+    padding: 8px 16px; border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.18s ease;
+    white-space: nowrap;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .btn.primary:hover { opacity: 0.88; }
+  .btn.danger { border-color: var(--no); color: var(--no); }
+  .btn.danger:hover { background: var(--no-dim); }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
+
+  /* ── Scoreboard ─────────────────────────────────────────── */
+  .scoreboard {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 16px; margin-bottom: 32px;
+  }
+
+  .score-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    position: relative; overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .score-card.winner { border-color: var(--gold); }
+  .score-card::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 0% 0%, #6c8cff08 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .score-card.bot::after {
+    background: radial-gradient(ellipse at 100% 0%, #ff5a7e08 0%, transparent 70%);
+  }
+
+  .score-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--sub); margin-bottom: 8px;
+    display: flex; align-items: center; gap: 7px;
+  }
+  .score-label .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+    animation: pulse 2s infinite;
+  }
+  .score-card.bot .score-label .dot { background: var(--no); box-shadow: 0 0 8px var(--no); }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; } 50% { opacity: 0.4; }
+  }
+
+  .score-value {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.2rem; font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text);
+  }
+  .score-pnl {
+    font-size: 13px; font-weight: 500;
+    margin-top: 4px;
+  }
+  .score-pnl.pos { color: var(--yes); }
+  .score-pnl.neg { color: var(--no); }
+
+  .winner-badge {
+    position: absolute; top: 14px; right: 14px;
+    font-size: 11px; font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    background: var(--gold); color: #000;
+    padding: 3px 9px; border-radius: 20px;
+  }
+
+  .score-detail {
+    font-size: 12px; color: var(--sub); margin-top: 6px;
+  }
+
+  /* ── Tabs ───────────────────────────────────────────────── */
+  .tabs {
+    display: flex; gap: 4px; margin-bottom: 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px; padding: 4px;
+    width: fit-content;
+  }
+  .tab {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px; font-weight: 600;
+    padding: 8px 18px; border-radius: 7px;
+    cursor: pointer; border: none;
+    background: transparent; color: var(--sub);
+    transition: all 0.18s;
+  }
+  .tab.active { background: var(--accent); color: #fff; }
+  .tab:not(.active):hover { color: var(--text); }
+
+  /* ── Section title ──────────────────────────────────────── */
+  .section-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.85rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--sub);
+  }
+  .refresh-info {
+    font-size: 12px; color: var(--muted);
+  }
+
+  /* ── Market Cards ───────────────────────────────────────── */
+  .markets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 14px;
+  }
+
+  .market-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    transition: border-color 0.18s, transform 0.18s;
+    cursor: default;
+  }
+  .market-card:hover {
+    border-color: var(--muted);
+    transform: translateY(-2px);
+  }
+  .market-card.has-position { border-color: var(--accent); }
+
+  .market-category {
+    font-size: 10px; font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 8px;
+  }
+
+  .market-question {
+    font-size: 14px; line-height: 1.5;
+    font-weight: 500; color: var(--text);
+    margin-bottom: 14px;
+    min-height: 42px;
+  }
+
+  .probability-bar {
+    height: 6px; border-radius: 3px;
+    background: var(--border);
+    margin-bottom: 10px; overflow: hidden;
+  }
+  .probability-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(90deg, var(--yes), #00f5c0);
+    transition: width 0.6s ease;
+  }
+
+  .prob-labels {
+    display: flex; justify-content: space-between;
+    font-size: 12px; color: var(--sub);
+    margin-bottom: 14px;
+  }
+  .prob-yes { color: var(--yes); font-weight: 600; }
+  .prob-no  { color: var(--no);  font-weight: 600; }
+
+  .trade-controls {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .trade-btn {
+    font-family: 'Syne', sans-serif;
+    font-size: 12px; font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 9px 12px; border-radius: 8px;
+    border: 1px solid; cursor: pointer;
+    transition: all 0.15s;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+  }
+  .trade-btn .price { font-size: 10px; font-weight: 400; opacity: 0.7; }
+  .yes-btn {
+    background: var(--yes-dim); border-color: var(--yes);
+    color: var(--yes);
+  }
+  .yes-btn:hover { background: var(--yes); color: #000; }
+  .no-btn {
+    background: var(--no-dim); border-color: var(--no);
+    color: var(--no);
+  }
+  .no-btn:hover { background: var(--no); color: #fff; }
+
+  .stake-row {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 8px;
+  }
+  .stake-label { font-size: 12px; color: var(--sub); white-space: nowrap; }
+  .stake-slider {
+    flex: 1; -webkit-appearance: none;
+    height: 4px; border-radius: 2px;
+    background: var(--border); outline: none; cursor: pointer;
+  }
+  .stake-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px; height: 14px; border-radius: 50%;
+    background: var(--accent); cursor: pointer;
+    box-shadow: 0 0 6px var(--accent);
+  }
+  .stake-amount {
+    font-size: 12px; font-weight: 600;
+    color: var(--text); min-width: 48px; text-align: right;
+  }
+
+  .position-tag {
+    font-size: 11px; color: var(--accent);
+    background: #6c8cff15; border: 1px solid #6c8cff30;
+    border-radius: 5px; padding: 3px 8px;
+    display: inline-block; margin-top: 4px;
+  }
+
+  /* ── Dropped-from-top-20 market styles ──────────────────── */
+  .market-card.dropped {
+    border-color: var(--muted);
+    opacity: 0.85;
+  }
+  .market-card.dropped.has-position {
+    border-color: #f5c84260;
+    opacity: 1;
+  }
+  .dropped-badge {
+    font-size: 11px; font-weight: 600;
+    font-family: 'Syne', sans-serif;
+    color: var(--gold);
+    background: #f5c84210;
+    border: 1px solid #f5c84230;
+    border-radius: 5px; padding: 3px 8px;
+    display: inline-block; margin-bottom: 10px;
+  }
+
+  /* ── My Portfolio tab ───────────────────────────────────── */
+  .portfolio-section { margin-bottom: 28px; }
+
+  .trade-log {
+    display: flex; flex-direction: column; gap: 8px;
+    max-height: 480px; overflow-y: auto;
+  }
+  .trade-log::-webkit-scrollbar { width: 4px; }
+  .trade-log::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 2px; }
+
+  .log-entry {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .log-badge {
+    font-size: 10px; font-weight: 700;
+    font-family: 'Syne', sans-serif; letter-spacing: 0.08em;
+    padding: 3px 8px; border-radius: 5px; white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .log-badge.buy-yes { background: var(--yes-dim); color: var(--yes); border: 1px solid var(--yes); }
+  .log-badge.buy-no  { background: var(--no-dim);  color: var(--no);  border: 1px solid var(--no); }
+  .log-badge.sell    { background: #6c8cff15; color: var(--accent); border: 1px solid var(--accent); }
+  .log-question { font-size: 13px; color: var(--text); flex: 1; line-height: 1.4; }
+  .log-amount { font-size: 12px; color: var(--sub); white-space: nowrap; }
+  .log-pnl { font-size: 12px; font-weight: 600; white-space: nowrap; }
+  .log-pnl.pos { color: var(--yes); }
+  .log-pnl.neg { color: var(--no); }
+
+  .positions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px; margin-bottom: 20px;
+  }
+  .position-card {
+    background: var(--card);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+  .pos-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .pos-question { font-size: 13px; color: var(--text); line-height: 1.4; flex: 1; margin-right: 10px; }
+  .pos-outcome {
+    font-size: 10px; font-weight: 700; font-family: 'Syne', sans-serif;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 3px 8px; border-radius: 5px; white-space: nowrap;
+  }
+  .pos-outcome.yes { background: var(--yes-dim); color: var(--yes); }
+  .pos-outcome.no  { background: var(--no-dim);  color: var(--no); }
+  .pos-stats { display: flex; gap: 16px; margin-bottom: 12px; }
+  .pos-stat { }
+  .pos-stat-label { font-size: 10px; color: var(--sub); }
+  .pos-stat-value { font-size: 14px; font-weight: 600; color: var(--text); }
+
+  /* ── Bot activity tab ───────────────────────────────────── */
+  .bot-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 20px; margin-bottom: 14px;
+  }
+  .bot-reasoning {
+    font-size: 13px; line-height: 1.6; color: var(--sub);
+    font-style: italic; margin-bottom: 16px;
+    padding: 12px 16px;
+    background: #ff5a7e08; border-left: 2px solid var(--no);
+    border-radius: 0 8px 8px 0;
+  }
+
+  /* ── Empty state ────────────────────────────────────────── */
+  .empty {
+    text-align: center; padding: 60px 20px;
+    color: var(--sub);
+  }
+  .empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .empty-title { font-family: 'Syne', sans-serif; font-size: 1.1rem; margin-bottom: 6px; }
+
+  /* ── Modal ──────────────────────────────────────────────── */
+  .modal-bg {
+    position: fixed; inset: 0; z-index: 200;
+    background: #000000c0; backdrop-filter: blur(8px);
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; pointer-events: none; transition: opacity 0.2s;
+  }
+  .modal-bg.open { opacity: 1; pointer-events: all; }
+  .modal {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 18px; padding: 28px;
+    max-width: 420px; width: 90%;
+    transform: translateY(20px); transition: transform 0.25s;
+  }
+  .modal-bg.open .modal { transform: translateY(0); }
+  .modal-title {
+    font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 800;
+    margin-bottom: 16px; color: var(--text);
+  }
+  .modal-body { font-size: 13px; color: var(--sub); line-height: 1.6; margin-bottom: 20px; }
+  .modal-footer { display: flex; gap: 10px; justify-content: flex-end; }
+
+  /* ── Confirm trade ──────────────────────────────────────── */
+  .confirm-market { font-weight: 600; color: var(--text); font-size: 14px; margin-bottom: 10px; line-height: 1.4; }
+  .confirm-detail { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .confirm-detail span:first-child { color: var(--sub); }
+  .confirm-detail span:last-child { font-weight: 600; }
+
+  /* ── Toast ──────────────────────────────────────────────── */
+  #toast {
+    position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(20px);
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 22px;
+    font-size: 13px; color: var(--text);
+    opacity: 0; pointer-events: none;
+    transition: all 0.25s; z-index: 999;
+    white-space: nowrap;
+  }
+  #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  #toast.success { border-color: var(--yes); color: var(--yes); }
+  #toast.error   { border-color: var(--no);  color: var(--no); }
+
+  /* ── Loading skeleton ───────────────────────────────────── */
+  .skeleton {
+    border-radius: 6px;
+    background: linear-gradient(90deg, var(--border) 25%, var(--muted) 50%, var(--border) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+  }
+  @keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* ── Responsive ─────────────────────────────────────────── */
+  @media (max-width: 640px) {
+    header { padding: 14px 16px; }
+    .scoreboard { grid-template-columns: 1fr; }
+    .score-value { font-size: 1.8rem; }
+    main { padding: 20px 14px 60px; }
+    .markets-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+<!-- ── Header ─────────────────────────────────────────────── -->
+<header>
+  <div class="logo">Paper<span>Market</span></div>
+  <div class="header-actions">
+    <button class="btn" onclick="exportData()">Export</button>
+    <button class="btn" onclick="document.getElementById('importFile').click()">Import</button>
+    <button class="btn danger" onclick="confirmReset()">Reset</button>
+    <input id="importFile" type="file" accept=".json" style="display:none" onchange="importData(event)" />
+  </div>
+</header>
+
+<!-- ── Main ───────────────────────────────────────────────── -->
+<main>
+
+  <!-- Scoreboard -->
+  <div class="scoreboard" id="scoreboard">
+    <div class="score-card" id="userCard">
+      <div class="score-label"><span class="dot"></span> You</div>
+      <div class="score-value" id="userValue">$1,000.00</div>
+      <div class="score-pnl" id="userPnl">+$0.00 (0.00%)</div>
+      <div class="score-detail" id="userDetail">0 open positions · $1,000 cash</div>
+    </div>
+    <div class="score-card bot" id="botCard">
+      <div class="score-label"><span class="dot"></span> Bot (Gemini)</div>
+      <div class="score-value" id="botValue">$1,000.00</div>
+      <div class="score-pnl" id="botPnl">+$0.00 (0.00%)</div>
+      <div class="score-detail" id="botDetail">Loading…</div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active" onclick="setTab('markets')">Markets</button>
+    <button class="tab" onclick="setTab('portfolio')">My Portfolio</button>
+    <button class="tab" onclick="setTab('bot')">Bot Activity</button>
+  </div>
+
+  <!-- Markets Tab -->
+  <div id="tab-markets">
+    <div class="section-header">
+      <span class="section-title">Live Markets</span>
+      <span class="refresh-info" id="refreshInfo">Refreshes every 30 min</span>
+    </div>
+    <div class="markets-grid" id="marketsGrid">
+      <!-- Skeleton placeholders -->
+      <div class="market-card"><div class="skeleton" style="height:14px;width:60%;margin-bottom:10px"></div><div class="skeleton" style="height:40px;margin-bottom:14px"></div><div class="skeleton" style="height:6px;margin-bottom:10px"></div><div class="skeleton" style="height:36px"></div></div>
+      <div class="market-card"><div class="skeleton" style="height:14px;width:50%;margin-bottom:10px"></div><div class="skeleton" style="height:40px;margin-bottom:14px"></div><div class="skeleton" style="height:6px;margin-bottom:10px"></div><div class="skeleton" style="height:36px"></div></div>
+      <div class="market-card"><div class="skeleton" style="height:14px;width:70%;margin-bottom:10px"></div><div class="skeleton" style="height:40px;margin-bottom:14px"></div><div class="skeleton" style="height:6px;margin-bottom:10px"></div><div class="skeleton" style="height:36px"></div></div>
+    </div>
+  </div>
+
+  <!-- Portfolio Tab -->
+  <div id="tab-portfolio" style="display:none">
+    <div class="portfolio-section">
+      <div class="section-header"><span class="section-title">Open Positions</span></div>
+      <div class="positions-grid" id="positionsGrid"></div>
+    </div>
+    <div class="portfolio-section">
+      <div class="section-header"><span class="section-title">Trade History</span></div>
+      <div class="trade-log" id="tradeLog"></div>
+    </div>
+  </div>
+
+  <!-- Bot Tab -->
+  <div id="tab-bot" style="display:none">
+    <div class="bot-card">
+      <div class="section-title" style="margin-bottom:10px">Bot Strategy</div>
+      <div class="bot-reasoning" id="botReasoning">Loading bot data…</div>
+      <div class="section-title" style="margin-bottom:10px">Bot Trade History</div>
+      <div class="trade-log" id="botTradeLog"></div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<!-- ── Trade Confirm Modal ─────────────────────────────────── -->
+<div class="modal-bg" id="tradeModal">
+  <div class="modal">
+    <div class="modal-title">Confirm Trade</div>
+    <div class="modal-body" id="tradeModalBody"></div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('tradeModal')">Cancel</button>
+      <button class="btn primary" id="confirmTradeBtn">Place Trade</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Reset Confirm Modal ─────────────────────────────────── -->
+<div class="modal-bg" id="resetModal">
+  <div class="modal">
+    <div class="modal-title">Reset Portfolio?</div>
+    <div class="modal-body">This will wipe all your trades and reset your balance to $1,000 USDC. This cannot be undone.</div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('resetModal')">Cancel</button>
+      <button class="btn danger" onclick="doReset()">Yes, Reset</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Toast ───────────────────────────────────────────────── -->
+<div id="toast"></div>
+
+<script>
+// ── Config ──────────────────────────────────────────────────────────────────
+const REPO_RAW = './data'; // relative to docs/ — works with GitHub Pages /docs folder
+const STARTING_CASH = 1000;
+
+// ── State ────────────────────────────────────────────────────────────────────
+let markets = [];
+let botPortfolio = { cash: STARTING_CASH, totalValue: STARTING_CASH, positions: [], tradeLog: [], lastReasoning: '' };
+let pendingTrade = null;
+
+// ── localStorage helpers ─────────────────────────────────────────────────────
+function loadUserPortfolio() {
+  try {
+    const raw = localStorage.getItem('papermarket_portfolio');
+    if (raw) return JSON.parse(raw);
+  } catch {}
+  return { cash: STARTING_CASH, positions: [], tradeLog: [] };
+}
+
+function saveUserPortfolio(p) {
+  localStorage.setItem('papermarket_portfolio', JSON.stringify(p));
+}
+
+let userPortfolio = loadUserPortfolio();
+
+// ── Fetch remote data ────────────────────────────────────────────────────────
+async function fetchMarkets() {
+  try {
+    const res = await fetch(`${REPO_RAW}/markets.json?t=${Date.now()}`);
+    const data = await res.json();
+    markets = data.markets || [];
+    const updated = data.lastUpdated ? new Date(data.lastUpdated) : null;
+    if (updated) {
+      document.getElementById('refreshInfo').textContent =
+        `Last updated ${updated.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+    }
+  } catch (e) {
+    showToast('Could not load markets — using cached data', 'error');
+  }
+
+  // Ensure any market held by user or bot that dropped out of the top 20
+  // is still present so P&L can be calculated and the card stays visible.
+  const listedIds = new Set(markets.map(m => m.id));
+  const heldIds = new Set([
+    ...userPortfolio.positions.map(p => p.marketId),
+    ...(botPortfolio.positions || []).map(p => p.marketId),
+  ]);
+  const missingIds = [...heldIds].filter(id => !listedIds.has(id));
+
+  for (const id of missingIds) {
+    let fetched = null;
+    try {
+      const r = await fetch(`https://gamma-api.polymarket.com/markets/${id}`);
+      if (r.ok) {
+        const m = await r.json();
+        fetched = {
+          id: m.id,
+          question: m.question,
+          category: m.category || 'General',
+          endDate: m.endDate || null,
+          outcomes: (m.outcomes || []).map((o, i) => ({
+            id: `${m.id}-${i}`,
+            title: o,
+            price: parseFloat((m.outcomePrices || [])[i] ?? '0.5'),
+          })),
+          volume: parseFloat(m.volume || '0'),
+          liquidity: parseFloat(m.liquidity || '0'),
+          lastUpdated: new Date().toISOString(),
+          droppedFromTop: true,
+        };
+      }
+    } catch {}
+
+    if (fetched) {
+      markets.push(fetched);
+    } else {
+      // Fallback: reconstruct a stub from saved position data
+      const pos = userPortfolio.positions.find(p => p.marketId === id)
+               || (botPortfolio.positions || []).find(p => p.marketId === id);
+      if (pos) {
+        markets.push({
+          id,
+          question: pos.question,
+          category: 'General',
+          endDate: null,
+          outcomes: [
+            { id: `${id}-0`, title: 'Yes', price: pos.avgCost },
+            { id: `${id}-1`, title: 'No',  price: 1 - pos.avgCost },
+          ],
+          volume: 0,
+          liquidity: 0,
+          lastUpdated: null,
+          droppedFromTop: true,
+          stalePrices: true,
+        });
+      }
+    }
+  }
+}
+
+async function fetchBotPortfolio() {
+  try {
+    const res = await fetch(`${REPO_RAW}/bot_trades.json?t=${Date.now()}`);
+    botPortfolio = await res.json();
+  } catch {}
+}
+
+// ── Compute user portfolio value ─────────────────────────────────────────────
+function userTotalValue() {
+  const posValue = userPortfolio.positions.reduce((sum, pos) => {
+    const mkt = markets.find(m => m.id === pos.marketId);
+    const outcome = mkt?.outcomes.find(o => o.title.toLowerCase() === pos.outcome.toLowerCase())
+                 ?? mkt?.outcomes[0];
+    return sum + pos.shares * (outcome?.price ?? pos.avgCost);
+  }, 0);
+  return userPortfolio.cash + posValue;
+}
+
+// ── Render scoreboard ────────────────────────────────────────────────────────
+function renderScoreboard() {
+  const uv = userTotalValue();
+  const uPnl = uv - STARTING_CASH;
+  const uPct = (uPnl / STARTING_CASH) * 100;
+  document.getElementById('userValue').textContent = `$${fmt(uv)}`;
+  const uPnlEl = document.getElementById('userPnl');
+  uPnlEl.textContent = `${uPnl >= 0 ? '+' : ''}$${fmt(uPnl)} (${uPct >= 0 ? '+' : ''}${uPct.toFixed(2)}%)`;
+  uPnlEl.className = 'score-pnl ' + (uPnl >= 0 ? 'pos' : 'neg');
+  document.getElementById('userDetail').textContent =
+    `${userPortfolio.positions.length} open position${userPortfolio.positions.length !== 1 ? 's' : ''} · $${fmt(userPortfolio.cash)} cash`;
+
+  const bv = botPortfolio.totalValue ?? STARTING_CASH;
+  const bPnl = bv - STARTING_CASH;
+  const bPct = (bPnl / STARTING_CASH) * 100;
+  document.getElementById('botValue').textContent = `$${fmt(bv)}`;
+  const bPnlEl = document.getElementById('botPnl');
+  bPnlEl.textContent = `${bPnl >= 0 ? '+' : ''}$${fmt(bPnl)} (${bPct >= 0 ? '+' : ''}${bPct.toFixed(2)}%)`;
+  bPnlEl.className = 'score-pnl ' + (bPnl >= 0 ? 'pos' : 'neg');
+  const botLastTrade = botPortfolio.tradeLog?.slice(-1)[0];
+  document.getElementById('botDetail').textContent = botLastTrade
+    ? `Last trade: ${new Date(botLastTrade.ts).toLocaleDateString()}`
+    : 'No trades yet';
+
+  // Winner badge
+  document.getElementById('userCard').classList.toggle('winner', uv > bv);
+  document.getElementById('botCard').classList.toggle('winner', bv > uv);
+  const existingBadges = document.querySelectorAll('.winner-badge');
+  existingBadges.forEach(b => b.remove());
+  if (uv > bv) {
+    const badge = document.createElement('div');
+    badge.className = 'winner-badge';
+    badge.textContent = '🏆 Winning';
+    document.getElementById('userCard').appendChild(badge);
+  } else if (bv > uv) {
+    const badge = document.createElement('div');
+    badge.className = 'winner-badge';
+    badge.textContent = '🏆 Winning';
+    document.getElementById('botCard').appendChild(badge);
+  }
+}
+
+// ── Render markets ───────────────────────────────────────────────────────────
+function renderMarkets() {
+  const grid = document.getElementById('marketsGrid');
+  if (!markets.length) {
+    grid.innerHTML = `<div class="empty" style="grid-column:1/-1"><div class="empty-icon">📡</div><div class="empty-title">No market data yet</div><p>Markets will load after the first GitHub Actions run.</p></div>`;
+    return;
+  }
+
+  // Active top-20 markets first, then held-but-dropped markets at the bottom
+  const sorted = [...markets].sort((a, b) => {
+    if (a.droppedFromTop && !b.droppedFromTop) return 1;
+    if (!a.droppedFromTop && b.droppedFromTop) return -1;
+    return 0;
+  });
+
+  grid.innerHTML = sorted.map(m => {
+    const yesOutcome = m.outcomes.find(o => o.title === 'Yes') ?? m.outcomes[0];
+    const noOutcome  = m.outcomes.find(o => o.title === 'No')  ?? m.outcomes[1];
+    const yesPrice = yesOutcome?.price ?? 0.5;
+    const noPrice  = noOutcome?.price  ?? (1 - yesPrice);
+    const userPos = userPortfolio.positions.find(p => p.marketId === m.id);
+
+    // Badge for markets that dropped out of the top 20
+    const droppedBadge = m.droppedFromTop
+      ? `<div class="dropped-badge">${m.stalePrices ? '⚠️ Price unavailable — sell to unlock funds' : '📉 No longer in top 20'}</div>`
+      : '';
+
+    // Disable trading on stale-price markets (can still sell from Portfolio tab)
+    const tradeDisabled = m.stalePrices ? 'disabled' : '';
+    const tradeStyle   = m.stalePrices ? 'style="opacity:0.35;pointer-events:none"' : '';
+
+    return `
+    <div class="market-card ${userPos ? 'has-position' : ''} ${m.droppedFromTop ? 'dropped' : ''}" id="mcard-${m.id}">
+      ${droppedBadge}
+      <div class="market-category">${esc(m.category)}</div>
+      <div class="market-question">${esc(m.question)}</div>
+      <div class="probability-bar">
+        <div class="probability-fill" style="width:${(yesPrice * 100).toFixed(1)}%"></div>
+      </div>
+      <div class="prob-labels">
+        <span class="prob-yes">YES ${(yesPrice * 100).toFixed(0)}¢</span>
+        <span class="prob-no">NO ${(noPrice * 100).toFixed(0)}¢</span>
+      </div>
+      <div class="stake-row" ${tradeStyle}>
+        <span class="stake-label">Stake</span>
+        <input type="range" class="stake-slider" min="10" max="${Math.min(500, Math.floor(userPortfolio.cash))}" value="50" step="5"
+          oninput="updateStake('${m.id}', this.value)" id="stake-${m.id}" ${tradeDisabled} />
+        <span class="stake-amount" id="stakeAmt-${m.id}">$50</span>
+      </div>
+      <div class="trade-controls" ${tradeStyle}>
+        <button class="trade-btn yes-btn" onclick="openTrade('${m.id}', 'Yes')" ${tradeDisabled}>
+          BUY YES
+          <span class="price">${(yesPrice * 100).toFixed(1)}¢ per share</span>
+        </button>
+        <button class="trade-btn no-btn" onclick="openTrade('${m.id}', 'No')" ${tradeDisabled}>
+          BUY NO
+          <span class="price">${(noPrice * 100).toFixed(1)}¢ per share</span>
+        </button>
+      </div>
+      ${userPos ? `<span class="position-tag">📌 You hold ${userPos.shares.toFixed(1)} ${userPos.outcome} shares</span>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function updateStake(marketId, value) {
+  document.getElementById(`stakeAmt-${marketId}`).textContent = `$${value}`;
+}
+
+// ── Open trade modal ─────────────────────────────────────────────────────────
+function openTrade(marketId, outcome) {
+  const market = markets.find(m => m.id === marketId);
+  if (!market) return;
+  const stakeEl = document.getElementById(`stake-${marketId}`);
+  const amount = stakeEl ? parseFloat(stakeEl.value) : 50;
+  const outcomeObj = market.outcomes.find(o => o.title.toLowerCase() === outcome.toLowerCase())
+                  ?? market.outcomes[0];
+  const price = outcomeObj?.price ?? 0.5;
+  const shares = amount / price;
+
+  if (amount > userPortfolio.cash) {
+    showToast('Not enough cash!', 'error');
+    return;
+  }
+
+  pendingTrade = { marketId, outcome, amount, price, shares, question: market.question };
+
+  const outcomeClass = outcome.toLowerCase() === 'yes' ? 'prob-yes' : 'prob-no';
+  document.getElementById('tradeModalBody').innerHTML = `
+    <div class="confirm-market">${esc(market.question)}</div>
+    <div class="confirm-detail"><span>Outcome</span><span class="${outcomeClass}">${outcome}</span></div>
+    <div class="confirm-detail"><span>Stake</span><span>$${fmt(amount)}</span></div>
+    <div class="confirm-detail"><span>Price per share</span><span>${(price * 100).toFixed(1)}¢</span></div>
+    <div class="confirm-detail"><span>Shares received</span><span>${shares.toFixed(2)}</span></div>
+    <div class="confirm-detail"><span>Cash remaining</span><span>$${fmt(userPortfolio.cash - amount)}</span></div>
+  `;
+
+  document.getElementById('confirmTradeBtn').onclick = executeTrade;
+  openModal('tradeModal');
+}
+
+// ── Execute trade ────────────────────────────────────────────────────────────
+function executeTrade() {
+  if (!pendingTrade) return;
+  const { marketId, outcome, amount, price, shares, question } = pendingTrade;
+
+  if (amount > userPortfolio.cash) {
+    showToast('Insufficient funds', 'error');
+    closeModal('tradeModal');
+    return;
+  }
+
+  userPortfolio.cash -= amount;
+
+  const existing = userPortfolio.positions.find(
+    p => p.marketId === marketId && p.outcome === outcome
+  );
+  if (existing) {
+    const totalCost = existing.avgCost * existing.shares + amount;
+    existing.shares += shares;
+    existing.avgCost = totalCost / existing.shares;
+    existing.costBasis += amount;
+  } else {
+    userPortfolio.positions.push({ marketId, question, outcome, shares, avgCost: price, costBasis: amount });
+  }
+
+  userPortfolio.tradeLog.unshift({
+    ts: new Date().toISOString(),
+    action: 'BUY',
+    marketId, question, outcome, amount, price, shares
+  });
+
+  saveUserPortfolio(userPortfolio);
+  closeModal('tradeModal');
+  showToast(`Bought ${shares.toFixed(2)} ${outcome} shares ✓`, 'success');
+  renderMarkets();
+  renderScoreboard();
+  renderPortfolio();
+  pendingTrade = null;
+}
+
+// ── Sell a position ───────────────────────────────────────────────────────────
+function sellPosition(marketId, outcome) {
+  const pos = userPortfolio.positions.find(p => p.marketId === marketId && p.outcome === outcome);
+  if (!pos) return;
+  const mkt = markets.find(m => m.id === marketId);
+  const outcomeObj = mkt?.outcomes.find(o => o.title.toLowerCase() === outcome.toLowerCase()) ?? mkt?.outcomes[0];
+  const currentPrice = outcomeObj?.price ?? pos.avgCost;
+  const proceeds = pos.shares * currentPrice;
+  const pnl = proceeds - pos.costBasis;
+
+  userPortfolio.cash += proceeds;
+  userPortfolio.tradeLog.unshift({
+    ts: new Date().toISOString(),
+    action: 'SELL',
+    marketId, question: pos.question, outcome,
+    proceeds, costBasis: pos.costBasis,
+    pnl, price: currentPrice, shares: pos.shares
+  });
+  userPortfolio.positions = userPortfolio.positions.filter(
+    p => !(p.marketId === marketId && p.outcome === outcome)
+  );
+
+  saveUserPortfolio(userPortfolio);
+  showToast(`Sold for $${fmt(proceeds)} (${pnl >= 0 ? '+' : ''}$${fmt(pnl)})`, pnl >= 0 ? 'success' : 'error');
+  renderScoreboard();
+  renderMarkets();
+  renderPortfolio();
+}
+
+// ── Render portfolio tab ─────────────────────────────────────────────────────
+function renderPortfolio() {
+  // Open positions
+  const posGrid = document.getElementById('positionsGrid');
+  if (!userPortfolio.positions.length) {
+    posGrid.innerHTML = `<div class="empty" style="grid-column:1/-1"><div class="empty-icon">💼</div><div class="empty-title">No open positions</div><p>Head to Markets to place your first trade.</p></div>`;
+  } else {
+    posGrid.innerHTML = userPortfolio.positions.map(pos => {
+      const mkt = markets.find(m => m.id === pos.marketId);
+      const outcomeObj = mkt?.outcomes.find(o => o.title.toLowerCase() === pos.outcome.toLowerCase()) ?? mkt?.outcomes[0];
+      const currentPrice = outcomeObj?.price ?? pos.avgCost;
+      const currentValue = pos.shares * currentPrice;
+      const pnl = currentValue - pos.costBasis;
+      const pnlPct = (pnl / pos.costBasis) * 100;
+      return `
+        <div class="position-card">
+          <div class="pos-header">
+            <div class="pos-question">${esc(pos.question)}</div>
+            <div class="pos-outcome ${pos.outcome.toLowerCase()}">${pos.outcome}</div>
+          </div>
+          <div class="pos-stats">
+            <div class="pos-stat">
+              <div class="pos-stat-label">Current value</div>
+              <div class="pos-stat-value">$${fmt(currentValue)}</div>
+            </div>
+            <div class="pos-stat">
+              <div class="pos-stat-label">P&L</div>
+              <div class="pos-stat-value ${pnl >= 0 ? 'score-pnl pos' : 'score-pnl neg'}">${pnl >= 0 ? '+' : ''}$${fmt(pnl)} (${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(1)}%)</div>
+            </div>
+            <div class="pos-stat">
+              <div class="pos-stat-label">Shares</div>
+              <div class="pos-stat-value">${pos.shares.toFixed(2)}</div>
+            </div>
+          </div>
+          <button class="btn" onclick="sellPosition('${pos.marketId}','${pos.outcome}')" style="width:100%;font-size:12px">Sell Position</button>
+        </div>`;
+    }).join('');
+  }
+
+  // Trade log
+  const logEl = document.getElementById('tradeLog');
+  if (!userPortfolio.tradeLog.length) {
+    logEl.innerHTML = `<div class="empty"><div class="empty-icon">📋</div><div class="empty-title">No trades yet</div></div>`;
+    return;
+  }
+  logEl.innerHTML = userPortfolio.tradeLog.map(t => {
+    const badgeClass = t.action === 'SELL' ? 'sell' : t.outcome === 'Yes' ? 'buy-yes' : 'buy-no';
+    const label = t.action === 'SELL' ? 'SELL' : `BUY ${t.outcome}`;
+    const amountStr = t.action === 'SELL' ? `$${fmt(t.proceeds)}` : `$${fmt(t.amount)}`;
+    const pnlStr = t.action === 'SELL' && t.pnl != null
+      ? `<span class="log-pnl ${t.pnl >= 0 ? 'pos' : 'neg'}">${t.pnl >= 0 ? '+' : ''}$${fmt(t.pnl)}</span>`
+      : '';
+    return `
+      <div class="log-entry">
+        <div class="log-badge ${badgeClass}">${label}</div>
+        <div class="log-question">${esc(t.question)}</div>
+        <div class="log-amount">${amountStr}</div>
+        ${pnlStr}
+      </div>`;
+  }).join('');
+}
+
+// ── Render bot tab ────────────────────────────────────────────────────────────
+function renderBot() {
+  document.getElementById('botReasoning').textContent =
+    botPortfolio.lastReasoning || 'No reasoning available yet — bot will comment on its next trade cycle.';
+
+  const logEl = document.getElementById('botTradeLog');
+  const log = (botPortfolio.tradeLog || []).slice().reverse();
+  if (!log.length) {
+    logEl.innerHTML = `<div class="empty"><div class="empty-icon">🤖</div><div class="empty-title">Bot hasn't traded yet</div></div>`;
+    return;
+  }
+  logEl.innerHTML = log.map(t => {
+    const badgeClass = t.action === 'SELL' ? 'sell' : t.outcome === 'Yes' ? 'buy-yes' : 'buy-no';
+    const label = `${t.action} ${t.outcome}`;
+    const amountStr = t.action === 'SELL' ? `$${fmt(t.proceeds)}` : `$${fmt(t.amount)}`;
+    const date = new Date(t.ts).toLocaleDateString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    return `
+      <div class="log-entry">
+        <div class="log-badge ${badgeClass}">${label}</div>
+        <div class="log-question">${esc(t.question)}</div>
+        <div class="log-amount">${amountStr}</div>
+        <div class="log-amount" style="color:var(--muted)">${date}</div>
+      </div>`;
+  }).join('');
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+function setTab(name) {
+  ['markets','portfolio','bot'].forEach(t => {
+    document.getElementById(`tab-${t}`).style.display = t === name ? '' : 'none';
+  });
+  document.querySelectorAll('.tab').forEach((btn, i) => {
+    btn.classList.toggle('active', ['markets','portfolio','bot'][i] === name);
+  });
+  if (name === 'portfolio') renderPortfolio();
+  if (name === 'bot') renderBot();
+}
+
+// ── Import / Export ───────────────────────────────────────────────────────────
+function exportData() {
+  const data = { version: 1, portfolio: userPortfolio, exportedAt: new Date().toISOString() };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `papermarket-backup-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  showToast('Portfolio exported ✓', 'success');
+}
+
+function importData(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      if (data.portfolio) {
+        userPortfolio = data.portfolio;
+        saveUserPortfolio(userPortfolio);
+        renderScoreboard();
+        renderMarkets();
+        showToast('Portfolio imported ✓', 'success');
+      } else {
+        showToast('Invalid file format', 'error');
+      }
+    } catch {
+      showToast('Could not read file', 'error');
+    }
+  };
+  reader.readAsText(file);
+  e.target.value = '';
+}
+
+// ── Reset ─────────────────────────────────────────────────────────────────────
+function confirmReset() { openModal('resetModal'); }
+function doReset() {
+  userPortfolio = { cash: STARTING_CASH, positions: [], tradeLog: [] };
+  saveUserPortfolio(userPortfolio);
+  closeModal('resetModal');
+  renderScoreboard();
+  renderMarkets();
+  showToast('Portfolio reset to $1,000', 'success');
+}
+
+// ── Modal helpers ─────────────────────────────────────────────────────────────
+function openModal(id)  { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+document.querySelectorAll('.modal-bg').forEach(bg => {
+  bg.addEventListener('click', e => { if (e.target === bg) bg.classList.remove('open'); });
+});
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+let toastTimer;
+function showToast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'show ' + type;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = ''; }, 3000);
+}
+
+// ── Util ──────────────────────────────────────────────────────────────────────
+function fmt(n) { return Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
+  await Promise.all([fetchMarkets(), fetchBotPortfolio()]);
+  renderMarkets();
+  renderScoreboard();
+}
+
+init();
+</script>
+</body>
+</html>
