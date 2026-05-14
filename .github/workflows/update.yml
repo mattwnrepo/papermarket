@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # CRITICAL: Gets all history so rebase works
+          fetch-depth: 0 # This allows the bot to see history and fix conflicts
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -34,11 +34,10 @@ jobs:
           
           git add docs/data/markets.json docs/data/bot_trades.json
           
-          # Only commit if there are changes
           if ! git diff --staged --quiet; then
             git commit -m "chore: update market data & bot trades [$(date -u +'%Y-%m-%d %H:%M UTC')]"
             
-            # Re-pull everything right before pushing to catch any edits you made 2 minutes ago
+            # Sync with the remote main branch right before pushing
             git pull --rebase origin main
             git push origin main
           else
