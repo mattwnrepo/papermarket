@@ -139,7 +139,7 @@
 
   .score-value {
     font-family: 'Syne', sans-serif;
-    font-size: 2.0rem; font-weight: 650;
+    font-size: 2.0rem; font-weight: 700;
     letter-spacing: -0.03em;
     color: var(--text);
   }
@@ -467,6 +467,100 @@
     .header-actions { gap: 6px; }
     .btn { padding: 8px 10px; font-size: 13px; }
   }
+
+  /* ── Help Button ────────────────────────────────────────── */
+  .btn-help {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px; font-weight: 700;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--sub);
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.18s ease;
+    flex-shrink: 0;
+  }
+  .btn-help:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: #6c8cff10;
+  }
+
+  /* ── Help Modal ─────────────────────────────────────────── */
+  .help-modal {
+    max-width: 520px;
+    width: calc(100vw - 32px);  /* safe on mobile */
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    padding: 28px 24px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--muted) transparent;
+  }
+  .help-modal::-webkit-scrollbar { width: 4px; }
+  .help-modal::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 2px; }
+
+  .help-section { margin-bottom: 24px; }
+  .help-section:last-of-type { margin-bottom: 0; }
+
+  .help-section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 10px;
+    display: flex; align-items: center; gap: 7px;
+  }
+
+  .help-section-title .help-icon {
+    font-size: 14px; line-height: 1;
+  }
+
+  .help-section p {
+    font-size: 13px; color: var(--sub);
+    line-height: 1.65; margin-bottom: 8px;
+  }
+  .help-section p:last-child { margin-bottom: 0; }
+
+  .help-pills {
+    display: flex; flex-wrap: wrap; gap: 7px;
+    margin-top: 10px;
+  }
+  .help-pill {
+    font-size: 11px; font-weight: 600;
+    font-family: 'Syne', sans-serif;
+    padding: 4px 10px; border-radius: 20px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .help-pill.yes { color: var(--yes); border-color: var(--yes); background: var(--yes-dim); }
+  .help-pill.no  { color: var(--no);  border-color: var(--no);  background: var(--no-dim);  }
+  .help-pill.neutral { color: var(--accent); border-color: #6c8cff40; background: #6c8cff10; }
+
+  .help-divider {
+    border: none; border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+
+  .help-glossary {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 14px;
+    font-size: 12px;
+  }
+  .help-glossary dt {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700; color: var(--text);
+    white-space: nowrap; padding-top: 1px;
+  }
+  .help-glossary dd { color: var(--sub); line-height: 1.5; }
+
+  @media (max-width: 640px) {
+    .help-modal { padding: 20px 16px; }
+    .help-glossary { grid-template-columns: 1fr; gap: 2px; }
+    .help-glossary dt { margin-top: 8px; }
+    .help-glossary dt:first-child { margin-top: 0; }
+  }
 </style>
 </head>
 <body>
@@ -476,6 +570,7 @@
 <header>
   <div class="logo">Paper<span>Market</span></div>
   <div class="header-actions">
+    <button class="btn-help" onclick="openModal('helpModal')" title="How it works">?</button>
     <button class="btn" onclick="exportData()">↑ <span class="btn-label">Export</span></button>
     <button class="btn" onclick="document.getElementById('importFile').click()">↓ <span class="btn-label">Import</span></button>
     <button class="btn danger" onclick="confirmReset()">↺ <span class="btn-label">Reset</span></button>
@@ -568,6 +663,63 @@
     <div class="modal-footer">
       <button class="btn" onclick="closeModal('resetModal')">Cancel</button>
       <button class="btn danger" onclick="doReset()">Yes, Reset</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Help Modal ───────────────────────────────────────────── -->
+<div class="modal-bg" id="helpModal">
+  <div class="modal help-modal">
+    <div class="modal-title">How PaperMarket Works</div>
+
+    <div class="help-section">
+      <div class="help-section-title"><span class="help-icon">📈</span> Prediction Markets</div>
+      <p>A prediction market lets you bet on whether a real-world event will happen. Each question has two outcomes — <strong style="color:var(--yes)">YES</strong> and <strong style="color:var(--no)">NO</strong> — and the price of each reflects the crowd's estimated probability.</p>
+      <p>Prices are expressed in cents and always sum to roughly 100¢. If YES trades at 70¢, the market thinks there's a ~70% chance the event happens.</p>
+      <div class="help-pills">
+        <span class="help-pill yes">YES 70¢ → 70% likely</span>
+        <span class="help-pill no">NO 30¢ → 30% likely</span>
+      </div>
+    </div>
+
+    <hr class="help-divider" />
+
+    <div class="help-section">
+      <div class="help-section-title"><span class="help-icon">🛒</span> Shares, Stake & P&L</div>
+      <dl class="help-glossary">
+        <dt>Stake</dt>
+        <dd>The amount of USDC you spend on a trade. Set it with the slider on each market card.</dd>
+        <dt>Shares</dt>
+        <dd>What you receive in return. Each share pays out $1.00 if your chosen outcome wins, and $0 if it loses. Shares = Stake ÷ Price.</dd>
+        <dt>Price per share</dt>
+        <dd>The current market price in cents (e.g. 70¢). Cheaper shares mean the market considers that outcome less likely — but the payout is the same $1.00.</dd>
+        <dt>P&L</dt>
+        <dd>Profit & Loss. Current value of your position minus what you paid for it. Goes up if the market moves in your favour.</dd>
+      </dl>
+    </div>
+
+    <hr class="help-divider" />
+
+    <div class="help-section">
+      <div class="help-section-title"><span class="help-icon">🤖</span> The Bot</div>
+      <p>Your opponent is a <strong style="color:var(--text)">Gemini-powered AI</strong> that reads the same live markets every 30 minutes and decides whether to buy YES, buy NO, or hold. It starts with the same $1,000 USDC as you.</p>
+      <p>Check the <strong style="color:var(--text)">Bot Activity</strong> tab to see its latest reasoning and full trade history. The scoreboard at the top shows who is currently winning.</p>
+      <div class="help-pills">
+        <span class="help-pill neutral">Max 3 trades per cycle</span>
+        <span class="help-pill neutral">$10–$200 per trade</span>
+        <span class="help-pill neutral">Updates every 30 min</span>
+      </div>
+    </div>
+
+    <hr class="help-divider" />
+
+    <div class="help-section">
+      <div class="help-section-title"><span class="help-icon">💡</span> Quick Tips</div>
+      <p>Your portfolio is saved in your browser — use <strong style="color:var(--text)">Export</strong> to back it up or move it to another device. No real money is ever used; this is purely a paper trading simulator against live Polymarket prices.</p>
+    </div>
+
+    <div class="modal-footer" style="margin-top:24px">
+      <button class="btn primary" onclick="closeModal('helpModal')">Got it</button>
     </div>
   </div>
 </div>
