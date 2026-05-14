@@ -29,11 +29,17 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Pull the latest changes from GitHub first
+          git pull --rebase origin main
+          
+          # 2. Stage the new data files
           git add docs/data/markets.json docs/data/bot_trades.json
+          
+          # 3. Only commit and push if there are actually new trades/data
           if ! git diff --staged --quiet; then
             git commit -m "chore: update market data & bot trades [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-            git pull --rebase origin main
-            git push
+            git push origin main
           else
             echo "No changes to commit"
           fi
