@@ -130,12 +130,17 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   ]
 }`;
 
+  // 1. Updated fetch call with higher tokens and JSON instruction
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.7, maxOutputTokens: 512 },
+        generationConfig: { 
+          temperature: 0.7, 
+          maxOutputTokens: 1024, // Increased
+          response_mime_type: "application/json" // FORCES JSON output
+        },
       }),
     }
   );
@@ -150,11 +155,14 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
 
   let decision;
   try {
-    // Strip possible markdown fences
-    const clean = text.replace(/```json|```/g, '').trim();
-    decision = JSON.parse(clean);
+    // 2. Enhanced cleaner to remove ANY non-JSON text before/after
+    const startIdx = text.indexOf('{');
+    const endIdx = text.lastIndexOf('}') + 1;
+    const jsonString = text.substring(startIdx, endIdx);
+    
+    decision = JSON.parse(jsonString);
   } catch (e) {
-    console.error('Failed to parse Gemini response:', text);
+    console.error('❌ Failed to parse Gemini response. Raw text was:', text);
     return existingPortfolio;
   }
 
