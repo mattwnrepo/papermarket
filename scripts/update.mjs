@@ -4,7 +4,7 @@ import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 async function fetchJSON(url, opts = {}) {
-  // Use native global fetch (available in Node 18+)
+  // Native fetch is available globally in Node.js 18+
   const res = await fetch(url, opts);
   if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
   return res.json();
@@ -81,7 +81,6 @@ Your current portfolio: ${JSON.stringify(portfolioSummary)}
 Available markets: ${JSON.stringify(marketSummary)}
 Respond ONLY with JSON: {"reasoning": "...", "trades": [{"action": "BUY"|"SELL", "marketId": "...", "outcome": "Yes"|"No", "amount": 10}]}`;
 
-  // Use native global fetch here as well
   const res = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
     {
@@ -167,7 +166,7 @@ Respond ONLY with JSON: {"reasoning": "...", "trades": [{"action": "BUY"|"SELL",
   return portfolio;
 }
 
-// ─── 3. Main Logic ──────────────────────────────────────────────────────────
+// ─── 3. Main ────────────────────────────────────────────────────────────────
 
 function loadExistingPortfolio() {
   const path = 'docs/data/bot_trades.json';
