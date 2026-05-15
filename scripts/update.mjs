@@ -3,7 +3,7 @@
 // Outputs:  docs/data/markets.json   – current market snapshots
 //           docs/data/bot_trades.json – bot portfolio state
 //
-
+console.log("DEBUG: Running script... Fetch type is:", typeof fetch);
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 
 // ─── helpers ────────────────────────────────────────────────────────────────
