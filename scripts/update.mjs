@@ -44,21 +44,60 @@ function normaliseMarket(m, extra = {}) {
 // ─── 1. Fetch top-20 Polymarket markets ──────────────────────────────────────
 
 async function fetchMarkets() {
-  console.log('📡 Fetching Polymarket top-20 markets…');
+  console.log('📡 Fetching Polymarket markets (10-90% range)…');
 
   const url =
     'https://gamma-api.polymarket.com/markets?' +
     new URLSearchParams({
-      active:    'true',
-      closed:    'false',
-      limit:     '20',
-      order:     'volume24hr',
+      active: 'true',
+      closed: 'false',
+      limit: '100', // Increased to 100 so we have plenty left after filtering
+      order: 'volume24hr',
       ascending: 'false',
     });
 
   const raw = await fetchJSON(url);
-  const markets = raw.map(m => normaliseMarket(m));
-  console.log(`   ✅ ${markets.length} markets fetched`);
+
+  const markets = raw
+    .map((m) => {
+      // 1. Determine outcomes and parse prices
+      let outcomeTitles = [];
+      try {
+        outcomeTitles = Array.isArray(m.outcomes) ? m.outcomes : JSON.parse(m.outcomes || '["Yes", "No"]');
+      } catch (e) {
+        outcomeTitles = ['Yes', 'No'];
+      }
+
+      let prices = [];
+      try {
+        prices = Array.isArray(m.outcomePrices) ? m.outcomePrices : JSON.parse(m.outcomePrices || '["0.5", "0.5"]');
+      } catch (e) {
+        prices = ['0.5', '0.5'];
+      }
+
+      // We focus on the "Yes" price (usually index 0) for the filter
+      const yesPrice = parseFloat(prices[0] ?? '0.5');
+
+      return {
+        id: m.id,
+        question: m.question,
+        category: m.category || 'General',
+        endDate: m.endDate || null,
+        yesPrice: yesPrice, // Helper for our filter
+        outcomes: outcomeTitles.map((title, i) => ({
+          id: `${m.id}-${i}`,
+          title: title,
+          price: parseFloat(prices[i] ?? '0.5'),
+        })),
+        volume: parseFloat(m.volume || '0'),
+        liquidity: parseFloat(m.liquidity || '0'),
+        lastUpdated: new Date().toISOString(),
+      };
+    })
+    // ─── FILTER FOR 10% - 90% RANGE ───
+    .filter((m) => m.yesPrice >= 0.1 && m.yesPrice <= 0.9);
+
+  console.log(`   ✅ ${markets.length} unbiased markets fetched (after filtering)`);
   return markets;
 }
 
