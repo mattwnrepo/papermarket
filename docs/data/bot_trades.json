@@ -1,6 +1,6 @@
 {
-  "cash": 700,
-  "totalValue": 1000,
+  "cash": 550,
+  "totalValue": 1000.2779493514515,
   "positions": [
     {
       "marketId": "2159863",
@@ -25,6 +25,14 @@
       "shares": 3703.703703703704,
       "avgCost": 0.0135,
       "costBasis": 50
+    },
+    {
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "Yes",
+      "shares": 1428.5714285714287,
+      "avgCost": 0.105,
+      "costBasis": 150
     }
   ],
   "tradeLog": [
@@ -54,8 +62,17 @@
       "amount": 50,
       "price": 0.0135,
       "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
+    },
+    {
+      "ts": "2026-05-15T12:17:32.024Z",
+      "action": "BUY",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "Yes",
+      "amount": 150,
+      "price": 0.105,
+      "reasoning": "I am diversifying my portfolio by taking a value position on the US-Iran peace deal by May 31, 2026, while maintaining my existing core positions."
     }
   ],
-  "lastUpdated": "2026-05-15T11:32:16.476Z",
-  "lastReasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
+  "lastUpdated": "2026-05-15T12:17:32.024Z",
+  "lastReasoning": "I am diversifying my portfolio by taking a value position on the US-Iran peace deal by May 31, 2026, while maintaining my existing core positions."
 }
