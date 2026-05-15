@@ -3,7 +3,6 @@
 // Outputs:  docs/data/markets.json   – current market snapshots
 //           docs/data/bot_trades.json – bot portfolio state
 //
-// Requires Node.js 22+ (native fetch is used – no node-fetch dependency needed).
 
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 
