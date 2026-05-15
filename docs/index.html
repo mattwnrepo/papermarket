@@ -551,7 +551,7 @@ function checkLimitOrders() {
   if (!userPortfolio.limitOrders.length) return;
   let filled = 0;
   userPortfolio.limitOrders = userPortfolio.limitOrders.filter(order => {
-    const mkt = markets.find(m=>m.id===order.marketId);
+    const mkt = markets.find(m => m.id.toString() === pos.marketId.toString());
     if (!mkt) return true;
     const o = mkt.outcomes.find(o=>o.title.toLowerCase()===order.outcome.toLowerCase())??mkt.outcomes[0];
     const cp = o?.price??0.5;
@@ -575,7 +575,8 @@ function userTotalValue() {
   return userPortfolio.cash + userPortfolio.positions.reduce((s,pos) => {
     const mkt = markets.find(m=>m.id===pos.marketId);
     const o = mkt?.outcomes.find(o=>o.title.toLowerCase()===pos.outcome.toLowerCase());
-    return s + pos.shares*(o?.price??pos.avgCost);
+    const livePrice = o ? o.price : pos.avgCost;
+    return s + (pos.shares * livePrice);
   }, 0);
 }
 
