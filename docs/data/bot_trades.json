@@ -1,6 +1,6 @@
 {
-  "cash": 375,
-  "totalValue": 979.4141004147181,
+  "cash": 100,
+  "totalValue": 974.3183623047736,
   "positions": [
     {
       "marketId": "2159863",
@@ -48,6 +48,30 @@
       "outcome": "Yes",
       "shares": 114.50381679389312,
       "avgCost": 0.655,
+      "costBasis": 75
+    },
+    {
+      "marketId": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "shares": 576.3688760806917,
+      "avgCost": 0.1735,
+      "costBasis": 100
+    },
+    {
+      "marketId": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "outcome": "Yes",
+      "shares": 180.6684733514002,
+      "avgCost": 0.5535,
+      "costBasis": 100
+    },
+    {
+      "marketId": "2250026",
+      "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "shares": 230.76923076923077,
+      "avgCost": 0.325,
       "costBasis": 75
     }
   ],
@@ -105,8 +129,35 @@
       "amount": 75,
       "price": 0.655,
       "reasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves."
+    },
+    {
+      "ts": "2026-05-15T12:55:21.353Z",
+      "action": "BUY",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "amount": 100,
+      "price": 0.1735,
+      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions."
+    },
+    {
+      "ts": "2026-05-15T12:55:21.353Z",
+      "action": "BUY",
+      "question": "Will Finland win Eurovision 2026?",
+      "outcome": "Yes",
+      "amount": 100,
+      "price": 0.5535,
+      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions."
+    },
+    {
+      "ts": "2026-05-15T12:55:21.353Z",
+      "action": "BUY",
+      "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "amount": 75,
+      "price": 0.325,
+      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions."
     }
   ],
-  "lastUpdated": "2026-05-15T12:32:52.524Z",
-  "lastReasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves."
+  "lastUpdated": "2026-05-15T12:55:21.353Z",
+  "lastReasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions."
 }
