@@ -175,15 +175,15 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   ]
 }`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          temperature:        0.7,
-          maxOutputTokens:    1024,
-          response_mime_type: 'application/json',
+        generationConfig: { 
+          temperature: 0.1, // Lower temperature = more "robotic" and safe
+          maxOutputTokens: 1024,
+          response_mime_type: "application/json" 
         },
       }),
     }
