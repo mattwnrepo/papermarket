@@ -1,20 +1,22 @@
 // scripts/update.mjs
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 
-// ─── helpers ────────────────────────────────────────────────────────────────
+// ─── 1. Helpers ─────────────────────────────────────────────────────────────
 
+// NO node-fetch here. Node 20 uses the global fetch.
 async function fetchJSON(url, opts = {}) {
-  // Native fetch is available globally in Node.js 18+
   const res = await fetch(url, opts);
   if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
   return res.json();
 }
 
 function ensureDir(dir) {
-  mkdirSync(dir, { recursive: true });
+  if (!existsSync(dir)) {
+    mkdirSync(dir, { recursive: true });
+  }
 }
 
-// ─── 1. Fetch Polymarket markets ─────────────────────────────────────────────
+// ─── 2. Fetch Polymarket markets ─────────────────────────────────────────────
 
 async function fetchMarkets() {
   console.log('📡 Fetching Polymarket markets…');
@@ -50,7 +52,7 @@ async function fetchMarkets() {
   return markets;
 }
 
-// ─── 2. Ask Gemini for bot decisions ─────────────────────────────────────────
+// ─── 3. Gemini Decision Engine ───────────────────────────────────────────────
 
 async function getBotDecisions(markets, existingPortfolio) {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -64,117 +66,66 @@ async function getBotDecisions(markets, existingPortfolio) {
   const marketSummary = markets.map((m) => ({
     id: m.id,
     question: m.question,
-    category: m.category,
-    yesPrice: m.outcomes.find((o) => o.title === 'Yes')?.price ??
-               m.outcomes[0]?.price ?? 0.5,
-    volume: Math.round(m.volume),
+    yesPrice: m.outcomes.find((o) => o.title === 'Yes')?.price ?? m.outcomes[0]?.price ?? 0.5,
   }));
 
-  const portfolioSummary = {
-    cash: existingPortfolio.cash,
-    positions: existingPortfolio.positions,
-    totalValue: existingPortfolio.totalValue,
-  };
-
-  const prompt = `You are a balanced, moderate-risk prediction market trader with $${portfolioSummary.cash.toFixed(2)} USDC cash available.
-Your current portfolio: ${JSON.stringify(portfolioSummary)}
-Available markets: ${JSON.stringify(marketSummary)}
+  const prompt = `You are a prediction market trader with $${existingPortfolio.cash.toFixed(2)} USDC.
 Respond ONLY with JSON: {"reasoning": "...", "trades": [{"action": "BUY"|"SELL", "marketId": "...", "outcome": "Yes"|"No", "amount": 10}]}`;
 
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.7, maxOutputTokens: 512 },
-      }),
-    }
-  );
-
-  if (!res.ok) {
-    console.error('Gemini API error:', res.status);
-    return existingPortfolio;
-  }
-
-  const data = await res.json();
-  const text = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
-
-  let decision;
   try {
-    const clean = text.replace(/```json|```/g, '').trim();
-    decision = JSON.parse(clean);
-  } catch (e) {
-    console.error('Failed to parse Gemini response:', text);
-    return existingPortfolio;
-  }
+    // Using native fetch to call Gemini
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { temperature: 0.7, maxOutputTokens: 512 },
+        }),
+      }
+    );
 
-  const portfolio = structuredClone(existingPortfolio);
-  portfolio.lastUpdated = new Date().toISOString();
-  portfolio.lastReasoning = decision.reasoning ?? '';
+    if (!res.ok) throw new Error(`Gemini API Error: ${res.status}`);
 
-  for (const trade of decision.trades ?? []) {
-    const market = markets.find((m) => m.id === trade.marketId);
-    if (!market) continue;
+    const data = await res.json();
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '{}';
+    const cleanJson = text.replace(/```json|```/g, '').trim();
+    const decision = JSON.parse(cleanJson);
 
-    const outcomeObj = market.outcomes.find(
+    const portfolio = structuredClone(existingPortfolio);
+    portfolio.lastUpdated = new Date().toISOString();
+    portfolio.lastReasoning = decision.reasoning ?? '';
+
+    // Simplified Trade Logic
+    for (const trade of decision.trades ?? []) {
+      const market = markets.find((m) => m.id === trade.marketId);
+      if (!market) continue;
+
+      const outcomeObj = market.outcomes.find(
         (o) => o.title.toLowerCase() === trade.outcome.toLowerCase()
       ) ?? market.outcomes[0];
 
-    if (trade.action === 'BUY') {
-      const cost = Math.min(trade.amount, portfolio.cash);
-      if (cost < 1) continue;
-      const shares = cost / outcomeObj.price;
-      portfolio.cash -= cost;
-
-      const existing = portfolio.positions.find(
-        (p) => p.marketId === trade.marketId && p.outcome === trade.outcome
-      );
-      if (existing) {
-        const totalCost = (existing.avgCost * existing.shares) + cost;
-        existing.shares += shares;
-        existing.avgCost = totalCost / existing.shares;
-      } else {
+      if (trade.action === 'BUY' && portfolio.cash >= trade.amount) {
+        portfolio.cash -= trade.amount;
         portfolio.positions.push({
           marketId: trade.marketId,
           question: market.question,
           outcome: trade.outcome,
-          shares: shares,
-          avgCost: outcomeObj.price,
-          costBasis: cost,
+          shares: trade.amount / outcomeObj.price,
+          avgCost: outcomeObj.price
         });
       }
-    } else if (trade.action === 'SELL') {
-      const idx = portfolio.positions.findIndex(
-        (p) => p.marketId === trade.marketId && p.outcome === trade.outcome
-      );
-      if (idx !== -1) {
-        const pos = portfolio.positions[idx];
-        portfolio.cash += (pos.shares * outcomeObj.price);
-        portfolio.positions.splice(idx, 1);
-      }
     }
+
+    return portfolio;
+  } catch (e) {
+    console.error('❌ Bot decision failed:', e.message);
+    return existingPortfolio;
   }
-
-  portfolio.totalValue = portfolio.cash + portfolio.positions.reduce((sum, pos) => {
-    const m = markets.find(m => m.id === pos.marketId);
-    const price = m?.outcomes.find(o => o.title.toLowerCase() === pos.outcome.toLowerCase())?.price ?? pos.avgCost;
-    return sum + (pos.shares * price);
-  }, 0);
-
-  return portfolio;
 }
 
-// ─── 3. Main ────────────────────────────────────────────────────────────────
-
-function loadExistingPortfolio() {
-  const path = 'docs/data/bot_trades.json';
-  if (existsSync(path)) {
-    try { return JSON.parse(readFileSync(path, 'utf8')); } catch { }
-  }
-  return { cash: 1000, totalValue: 1000, positions: [], tradeLog: [], lastUpdated: new Date().toISOString(), lastReasoning: '' };
-}
+// ─── 4. Main Execution ──────────────────────────────────────────────────────
 
 (async () => {
   try {
@@ -182,13 +133,19 @@ function loadExistingPortfolio() {
     const markets = await fetchMarkets();
     writeFileSync('docs/data/markets.json', JSON.stringify({ markets, lastUpdated: new Date().toISOString() }, null, 2));
 
-    const existingPortfolio = loadExistingPortfolio();
-    const updatedPortfolio = await getBotDecisions(markets, existingPortfolio);
-    writeFileSync('docs/data/bot_trades.json', JSON.stringify(updatedPortfolio, null, 2));
+    const portfolioPath = 'docs/data/bot_trades.json';
+    let portfolio = { cash: 1000, totalValue: 1000, positions: [], lastUpdated: new Date().toISOString(), lastReasoning: '' };
+    
+    if (existsSync(portfolioPath)) {
+      portfolio = JSON.parse(readFileSync(portfolioPath, 'utf8'));
+    }
+
+    const updatedPortfolio = await getBotDecisions(markets, portfolio);
+    writeFileSync(portfolioPath, JSON.stringify(updatedPortfolio, null, 2));
 
     console.log('✅ Update complete');
   } catch (err) {
-    console.error('❌ Update failed:', err);
+    console.error('❌ Critical Failure:', err);
     process.exit(1);
   }
 })();
