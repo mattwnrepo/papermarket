@@ -9,16 +9,23 @@ import { mkdirSync } from 'fs';
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 async function fetchJSON(url, opts = {}) {
-  const { default: fetch } = await import('node-fetch');
-  const res = await fetch(url, opts);
+  // No need to import 'node-fetch' anymore
+  const res = await fetch(url, opts); 
   if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
   return res.json();
 }
 
-function ensureDir(dir) {
-  mkdirSync(dir, { recursive: true });
-}
-
+const res = await fetch(
+  `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
+  {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.7, maxOutputTokens: 512 },
+    }),
+  }
+);
 // ─── 1. Fetch Polymarket markets ─────────────────────────────────────────────
 
 async function fetchMarkets() {
