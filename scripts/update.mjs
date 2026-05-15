@@ -1,4 +1,4 @@
-mport { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
