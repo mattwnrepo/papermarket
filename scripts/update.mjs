@@ -1,16 +1,16 @@
 // scripts/update.mjs
 // Fetches live Polymarket markets and asks Gemini for bot trading decisions.
-// Outputs:  docs/data/markets.json   – current market snapshots
-//           docs/data/bot_trades.json – bot portfolio state
-//
-// Requires Node.js 22+ (native fetch is used – no node-fetch dependency needed).
+// Outputs:  data/markets.json   – current market snapshots
+//           data/bot_trades.json – bot portfolio state
 
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
+import { mkdirSync } from 'fs';
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 async function fetchJSON(url, opts = {}) {
-  const res = await fetch(url, opts);          // native fetch (Node 18+)
+  const { default: fetch } = await import('node-fetch');
+  const res = await fetch(url, opts);
   if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
   return res.json();
 }
@@ -24,6 +24,8 @@ function ensureDir(dir) {
 async function fetchMarkets() {
   console.log('📡 Fetching Polymarket markets…');
 
+  // Gamma API – public, no key required
+  // Returns top active markets sorted by volume
   const url =
     'https://gamma-api.polymarket.com/markets?' +
     new URLSearchParams({
@@ -37,43 +39,21 @@ async function fetchMarkets() {
   const raw = await fetchJSON(url);
 
   // Normalise to a clean shape for the frontend
-  const markets = raw.map((m) => {
-    // 1. Determine outcomes. If m.outcomes is a string, parse it. 
-    // If it's missing, default to ["Yes", "No"] for binary markets.
-    let outcomeTitles = [];
-    try {
-      if (Array.isArray(m.outcomes)) {
-        outcomeTitles = m.outcomes;
-      } else if (typeof m.outcomes === 'string') {
-        outcomeTitles = JSON.parse(m.outcomes);
-      } else {
-        // Fallback for standard binary markets if outcomes are missing
-        outcomeTitles = ['Yes', 'No'];
-      }
-    } catch (e) {
-      outcomeTitles = ['Yes', 'No'];
-    }
-
-    // 2. Parse prices safely
-    const rawPrices = Array.isArray(m.outcomePrices) 
-      ? m.outcomePrices 
-      : JSON.parse(m.outcomePrices || '["0.5", "0.5"]');
-
-    return {
-      id: m.id,
-      question: m.question,
-      category: m.category || 'General',
-      endDate: m.endDate || null,
-      outcomes: outcomeTitles.map((title, i) => ({
-        id: `${m.id}-${i}`,
-        title: title,
-        price: parseFloat(rawPrices[i] ?? '0.5'),
-      })),
-      volume: parseFloat(m.volume || '0'),
-      liquidity: parseFloat(m.liquidity || '0'),
-      lastUpdated: new Date().toISOString(),
-    };
-  });
+  const markets = raw.map((m) => ({
+    id: m.id,
+    question: m.question,
+    category: m.category || 'General',
+    endDate: m.endDate || null,
+    // outcomes: array of { id, title, price }  (price = implied probability 0–1)
+    outcomes: (m.outcomes || []).map((o, i) => ({
+      id: `${m.id}-${i}`,
+      title: o,
+      price: parseFloat((m.outcomePrices || [])[i] ?? '0.5'),
+    })),
+    volume: parseFloat(m.volume || '0'),
+    liquidity: parseFloat(m.liquidity || '0'),
+    lastUpdated: new Date().toISOString(),
+  }));
 
   console.log(`   ✅ ${markets.length} markets fetched`);
   return markets;
@@ -95,10 +75,8 @@ async function getBotDecisions(markets, existingPortfolio) {
     id: m.id,
     question: m.question,
     category: m.category,
-    yesPrice:
-      m.outcomes.find((o) => o.title === 'Yes')?.price ??
-      m.outcomes[0]?.price ??
-      0.5,
+    yesPrice: m.outcomes.find((o) => o.title === 'Yes')?.price ??
+               m.outcomes[0]?.price ?? 0.5,
     volume: Math.round(m.volume),
   }));
 
@@ -137,7 +115,10 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   ]
 }`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`, {
+  const { default: fetch } = await import('node-fetch');
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`,
+    {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -148,7 +129,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   );
 
   if (!res.ok) {
-    console.error('Gemini API error:', res.status, await res.text());
+    console.error('Gemini API error:', res.status);
     return existingPortfolio;
   }
 
@@ -198,7 +179,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
           marketId: trade.marketId,
           question: market.question,
           outcome: trade.outcome,
-          shares,
+          shares: shares,
           avgCost: outcomeObj.price,
           costBasis: cost,
         });
@@ -280,10 +261,7 @@ function loadExistingPortfolio() {
     ensureDir('docs/data');
 
     const markets = await fetchMarkets();
-    writeFileSync(
-      'docs/data/markets.json',
-      JSON.stringify({ markets, lastUpdated: new Date().toISOString() }, null, 2)
-    );
+    writeFileSync('docs/data/markets.json', JSON.stringify({ markets, lastUpdated: new Date().toISOString() }, null, 2));
     console.log('   💾 docs/data/markets.json written');
 
     const existingPortfolio = loadExistingPortfolio();
