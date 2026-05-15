@@ -1,6 +1,6 @@
 {
-  "cash": 550,
-  "totalValue": 1000.2779493514515,
+  "cash": 375,
+  "totalValue": 979.4141004147181,
   "positions": [
     {
       "marketId": "2159863",
@@ -33,6 +33,22 @@
       "shares": 1428.5714285714287,
       "avgCost": 0.105,
       "costBasis": 150
+    },
+    {
+      "marketId": "1962237",
+      "question": "US x Iran permanent peace deal by June 30, 2026?",
+      "outcome": "Yes",
+      "shares": 298.5074626865671,
+      "avgCost": 0.335,
+      "costBasis": 100
+    },
+    {
+      "marketId": "2204836",
+      "question": "Spurs vs. Timberwolves",
+      "outcome": "Yes",
+      "shares": 114.50381679389312,
+      "avgCost": 0.655,
+      "costBasis": 75
     }
   ],
   "tradeLog": [
@@ -71,8 +87,26 @@
       "amount": 150,
       "price": 0.105,
       "reasoning": "I am diversifying my portfolio by taking a value position on the US-Iran peace deal by May 31, 2026, while maintaining my existing core positions."
+    },
+    {
+      "ts": "2026-05-15T12:32:52.524Z",
+      "action": "BUY",
+      "question": "US x Iran permanent peace deal by June 30, 2026?",
+      "outcome": "Yes",
+      "amount": 100,
+      "price": 0.335,
+      "reasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves."
+    },
+    {
+      "ts": "2026-05-15T12:32:52.524Z",
+      "action": "BUY",
+      "question": "Spurs vs. Timberwolves",
+      "outcome": "Yes",
+      "amount": 75,
+      "price": 0.655,
+      "reasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves."
     }
   ],
-  "lastUpdated": "2026-05-15T12:17:32.024Z",
-  "lastReasoning": "I am diversifying my portfolio by taking a value position on the US-Iran peace deal by May 31, 2026, while maintaining my existing core positions."
+  "lastUpdated": "2026-05-15T12:32:52.524Z",
+  "lastReasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves."
 }
