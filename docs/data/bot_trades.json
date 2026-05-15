@@ -1,8 +1,61 @@
 {
-  "cash": 1000,
+  "cash": 700,
   "totalValue": 1000,
-  "positions": [],
-  "tradeLog": [],
-  "lastUpdated": "1970-01-01T00:00:00.000Z",
-  "lastReasoning": ""
+  "positions": [
+    {
+      "marketId": "2159863",
+      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
+      "outcome": "Yes",
+      "shares": 185.2995676343422,
+      "avgCost": 0.8095,
+      "costBasis": 150
+    },
+    {
+      "marketId": "1971905",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "Yes",
+      "shares": 338.98305084745766,
+      "avgCost": 0.295,
+      "costBasis": 100
+    },
+    {
+      "marketId": "573655",
+      "question": "Will Bitcoin hit $150k by June 30, 2026?",
+      "outcome": "Yes",
+      "shares": 3703.703703703704,
+      "avgCost": 0.0135,
+      "costBasis": 50
+    }
+  ],
+  "tradeLog": [
+    {
+      "ts": "2026-05-15T11:32:16.476Z",
+      "action": "BUY",
+      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
+      "outcome": "Yes",
+      "amount": 150,
+      "price": 0.8095,
+      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
+    },
+    {
+      "ts": "2026-05-15T11:32:16.476Z",
+      "action": "BUY",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "Yes",
+      "amount": 100,
+      "price": 0.295,
+      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
+    },
+    {
+      "ts": "2026-05-15T11:32:16.476Z",
+      "action": "BUY",
+      "question": "Will Bitcoin hit $150k by June 30, 2026?",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.0135,
+      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
+    }
+  ],
+  "lastUpdated": "2026-05-15T11:32:16.476Z",
+  "lastReasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles."
 }
