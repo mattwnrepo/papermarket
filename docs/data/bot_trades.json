@@ -1,15 +1,7 @@
 {
-  "cash": 23.41646531766831,
-  "totalValue": 815.7353797122613,
+  "cash": 100.51756438456945,
+  "totalValue": 780.8877449928746,
   "positions": [
-    {
-      "marketId": "2159863",
-      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
-      "outcome": "Yes",
-      "shares": 185.2995676343422,
-      "avgCost": 0.8095,
-      "costBasis": 150
-    },
     {
       "marketId": "1971905",
       "question": "Strait of Hormuz traffic returns to normal by end of June?",
@@ -43,28 +35,12 @@
       "costBasis": 100
     },
     {
-      "marketId": "2204836",
-      "question": "Spurs vs. Timberwolves",
-      "outcome": "Yes",
-      "shares": 114.50381679389312,
-      "avgCost": 0.655,
-      "costBasis": 75
-    },
-    {
       "marketId": "558936",
       "question": "Will France win the 2026 FIFA World Cup?",
       "outcome": "Yes",
       "shares": 576.3688760806917,
       "avgCost": 0.1735,
       "costBasis": 100
-    },
-    {
-      "marketId": "2250026",
-      "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "shares": 230.76923076923077,
-      "avgCost": 0.325,
-      "costBasis": 75
     },
     {
       "marketId": "703257",
@@ -104,6 +80,30 @@
       "outcome": "Yes",
       "shares": 26.548672566371685,
       "avgCost": 0.565,
+      "costBasis": 15
+    },
+    {
+      "marketId": "2214870",
+      "question": "Will the price of Bitcoin be above $78,000 on May 16?",
+      "outcome": "Yes",
+      "shares": 33.03964757709251,
+      "avgCost": 0.454,
+      "costBasis": 15
+    },
+    {
+      "marketId": "2203947",
+      "question": "LoL: ThunderTalk Gaming vs EDward Gaming (BO3) - LPL Group Nirvana",
+      "outcome": "Yes",
+      "shares": 32.25806451612903,
+      "avgCost": 0.465,
+      "costBasis": 15
+    },
+    {
+      "marketId": "2080224",
+      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
+      "outcome": "Yes",
+      "shares": 37.974683544303794,
+      "avgCost": 0.395,
       "costBasis": 15
     }
   ],
@@ -305,8 +305,68 @@
       "amount": 15,
       "price": 0.565,
       "reasoning": "Focusing on a mix of high-confidence sports bets and long-term value plays, while also selling a position that has significantly dropped in probability."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "SELL",
+      "marketId": "2159863",
+      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
+      "outcome": "Yes",
+      "proceeds": 7.59728227300803,
+      "price": 0.041,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "SELL",
+      "marketId": "2204836",
+      "question": "Spurs vs. Timberwolves",
+      "outcome": "Yes",
+      "proceeds": 114.50381679389312,
+      "price": 1,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "SELL",
+      "marketId": "2250026",
+      "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "BUY",
+      "marketId": "2214870",
+      "question": "Will the price of Bitcoin be above $78,000 on May 16?",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.454,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "BUY",
+      "marketId": "2203947",
+      "question": "LoL: ThunderTalk Gaming vs EDward Gaming (BO3) - LPL Group Nirvana",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.465,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:37:43.808Z",
+      "action": "BUY",
+      "marketId": "2080224",
+      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.395,
+      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
     }
   ],
-  "lastUpdated": "2026-05-16T10:21:46.710Z",
-  "lastReasoning": "Focusing on a mix of high-confidence sports bets and long-term value plays, while also selling a position that has significantly dropped in probability."
+  "lastUpdated": "2026-05-16T10:37:43.808Z",
+  "lastReasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
 }
