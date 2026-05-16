@@ -75,14 +75,6 @@
       "costBasis": 75
     },
     {
-      "marketId": "842005",
-      "question": "Will Australia win Eurovision 2026?",
-      "outcome": "Yes",
-      "shares": 222.84122562674096,
-      "avgCost": 0.1795,
-      "costBasis": 40
-    },
-    {
       "marketId": "703257",
       "question": "Will the US confirm that aliens exist before 2027?",
       "outcome": "Yes",
@@ -97,6 +89,14 @@
       "shares": 81.08108108108108,
       "avgCost": 0.185,
       "costBasis": 15
+    },
+    {
+      "marketId": "2267959",
+      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "shares": 185.8269203531467,
+      "avgCost": 0.295,
+      "costBasis": 54.81894150417828
     }
   ],
   "tradeLog": [
@@ -216,8 +216,28 @@
       "amount": 15,
       "price": 0.115,
       "reasoning": "I am diversifying my portfolio by taking a value-oriented position on the 2026 PGA Championship and increasing exposure to the high-volume US-Iran peace deal market while maintaining a small cash buffer."
+    },
+    {
+      "ts": "2026-05-16T08:44:34.208Z",
+      "action": "SELL",
+      "marketId": "842005",
+      "question": "Will Australia win Eurovision 2026?",
+      "outcome": "Yes",
+      "proceeds": 54.81894150417828,
+      "price": 0.246,
+      "reasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
+    },
+    {
+      "ts": "2026-05-16T08:44:34.208Z",
+      "action": "BUY",
+      "marketId": "2267959",
+      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "amount": 54.81894150417828,
+      "price": 0.295,
+      "reasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
     }
   ],
-  "lastUpdated": "2026-05-16T08:42:05.213Z",
-  "lastReasoning": "Rebalancing existing positions and taking a small, diversified bet on a new market with a moderate probability."
+  "lastUpdated": "2026-05-16T08:44:34.208Z",
+  "lastReasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
 }
