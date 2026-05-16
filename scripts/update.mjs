@@ -214,7 +214,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   ]
 }`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`, {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -222,7 +222,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
         generationConfig: { 
           temperature: 0.1, // Lower temperature = more "robotic" and safe
           maxOutputTokens: 1024,
-          response_mime_type: "application/json" 
+
         },
       }),
     }
@@ -289,6 +289,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       portfolio.tradeLog.push({
         ts:        new Date().toISOString(),
         action:    'BUY',
+        marketId:  trade.marketId,
         question:  market.question,
         outcome:   trade.outcome,
         amount:    cost,
@@ -307,6 +308,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       portfolio.tradeLog.push({
         ts:        new Date().toISOString(),
         action:    'SELL',
+        marketId:  trade.marketId,
         question:  market.question,
         outcome:   trade.outcome,
         proceeds,
@@ -364,20 +366,22 @@ function loadExistingPortfolio() {
     // Step 1: fresh top-20
     const topMarkets = await fetchMarkets();
 
-    // Step 2: re-fetch any held markets that fell out of top-20
-    const allMarkets = await refreshDroppedMarkets(topMarkets, existingPortfolio);
+    // Step 2: bot decisions first (so we know final positions before writing markets)
+    // Pass topMarkets only for BUY eligibility; refreshDroppedMarkets runs after
+    // so markets.json reflects actual open positions (not already-sold ones).
+    const allMarketsForBot = await refreshDroppedMarkets(topMarkets, existingPortfolio);
+    const updatedPortfolio = await getBotDecisions(allMarketsForBot, existingPortfolio);
+    writeFileSync('docs/data/bot_trades.json', JSON.stringify(updatedPortfolio, null, 2));
+    console.log('   💾 docs/data/bot_trades.json written');
 
-    // Step 3: write markets.json (top-20 + refreshed dropped markets)
+    // Step 3: re-fetch dropped markets based on FINAL positions (post-sell)
+    // This ensures sold positions no longer appear as droppedFromTop in markets.json
+    const allMarkets = await refreshDroppedMarkets(topMarkets, updatedPortfolio);
     writeFileSync(
       'docs/data/markets.json',
       JSON.stringify({ markets: allMarkets, lastUpdated: new Date().toISOString() }, null, 2)
     );
     console.log('   💾 docs/data/markets.json written');
-
-    // Step 4: bot decisions — tradeable markets only for BUY, all for SELL
-    const updatedPortfolio = await getBotDecisions(allMarkets, existingPortfolio);
-    writeFileSync('docs/data/bot_trades.json', JSON.stringify(updatedPortfolio, null, 2));
-    console.log('   💾 docs/data/bot_trades.json written');
 
     console.log('✅ Update complete');
   } catch (err) {
