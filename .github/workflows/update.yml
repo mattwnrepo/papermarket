@@ -5,6 +5,13 @@ on:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   
+# Cancel any in-progress run when a new one triggers.
+# This ensures only one run is ever writing to the repo at a time,
+# completely eliminating the race condition that causes merge conflicts.
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+ 
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -35,8 +42,4 @@ jobs:
           git add docs/data/markets.json docs/data/bot_trades.json
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update market data & bot trades [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-          # Pull and rebase before pushing to handle concurrent runs gracefully.
-          # Both files are always full JSON rewrites so rebase never produces
-          # a real conflict — the latest run's data simply lands on top.
-          git pull --rebase origin main
           git push
