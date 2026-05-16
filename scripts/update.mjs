@@ -364,15 +364,37 @@ function loadExistingPortfolio() {
     catch { /* fall through to default */ }
   }
 
-  // Repair positions whose marketId was never stored (bug from earlier versions).
-  // Match each broken position to the most recent BUY trade with the same question.
+  // ── Repair 1: backfill marketId on positions ──────────────────────────────
+  // Positions always have marketId (written correctly from the start).
+  // Build a question→marketId map from positions for use below.
+  const questionToId = new Map(portfolio.positions.map(p => [p.question, p.marketId]));
+
+  // ── Repair 2: backfill marketId on tradeLog entries that are missing it ───
+  // Early BUY entries (before the marketId fix) have question but no marketId.
+  // Match by question against positions first, then against later log entries.
+  let repaired = 0;
+  for (const t of portfolio.tradeLog) {
+    if (t.marketId) {
+      // Already has it — keep the question→id mapping up to date
+      if (t.question) questionToId.set(t.question, t.marketId);
+      continue;
+    }
+    const id = questionToId.get(t.question);
+    if (id) {
+      t.marketId = id;
+      repaired++;
+    }
+  }
+  if (repaired > 0) console.log(`🔧 Backfilled marketId on ${repaired} tradeLog entries`);
+
+  // ── Repair 3: repair positions whose marketId is still missing ────────────
   for (const pos of portfolio.positions) {
-    if (pos.marketId) continue; // already fine
+    if (pos.marketId) continue;
     const match = [...portfolio.tradeLog]
       .reverse()
       .find(t => t.action === 'BUY' && t.question === pos.question && t.marketId);
     if (match) {
-      console.log(`🔧 Repaired missing marketId for: ${pos.question?.slice(0, 60)}`);
+      console.log(`🔧 Repaired position marketId: ${pos.question?.slice(0, 60)}`);
       pos.marketId = match.marketId;
     } else {
       console.warn(`⚠️  Could not repair marketId for position: ${pos.question?.slice(0, 60)}`);
