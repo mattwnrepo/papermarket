@@ -221,7 +221,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: { 
           temperature: 0.1, // Lower temperature = more "robotic" and safe
-          maxOutputTokens: 1024,
+          maxOutputTokens: 4096,
 
         },
       }),
