@@ -1,6 +1,6 @@
 {
-  "cash": 188.2528919415132,
-  "totalValue": 705.6122947781544,
+  "cash": 103.63263877695624,
+  "totalValue": 713.481563941746,
   "positions": [
     {
       "marketId": "1919425",
@@ -9,14 +9,6 @@
       "shares": 2511.3871635610767,
       "avgCost": 0.10551937345424567,
       "costBasis": 150
-    },
-    {
-      "marketId": "2080224",
-      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
-      "outcome": "Yes",
-      "shares": 37.974683544303794,
-      "avgCost": 0.395,
-      "costBasis": 15
     },
     {
       "marketId": "842015",
@@ -30,16 +22,16 @@
       "marketId": "2169995",
       "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
       "outcome": "No",
-      "shares": 206.10141822263034,
-      "avgCost": 0.4851980198019802,
+      "shares": 284.8415757029453,
+      "avgCost": 0.5266085178395149,
       "costBasis": 50
     },
     {
       "marketId": "665374",
       "question": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "shares": 145.985401459854,
-      "avgCost": 0.6850000000000002,
+      "shares": 217.92784750301945,
+      "avgCost": 0.6883012048192773,
       "costBasis": 50
     }
   ],
@@ -622,8 +614,38 @@
       "amount": 50,
       "price": 0.685,
       "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T20:34:04.184Z",
+      "action": "SELL",
+      "marketId": "2080224",
+      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
+      "outcome": "Yes",
+      "proceeds": 15.379746835443038,
+      "price": 0.405,
+      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
+    },
+    {
+      "ts": "2026-05-16T20:34:04.184Z",
+      "action": "BUY",
+      "marketId": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.695,
+      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
+    },
+    {
+      "ts": "2026-05-16T20:34:04.184Z",
+      "action": "BUY",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.635,
+      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
     }
   ],
-  "lastUpdated": "2026-05-16T18:03:09.025Z",
-  "lastReasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+  "lastUpdated": "2026-05-16T20:34:04.184Z",
+  "lastReasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
 }
