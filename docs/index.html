@@ -602,10 +602,10 @@ function renderScoreboard() {
   uEl.className='score-pnl '+(uPnl>=0?'pos':'neg');
   document.getElementById('userDetail').textContent=`${userPortfolio.positions.length} open position${userPortfolio.positions.length!==1?'s':''} · $${fmt(userPortfolio.cash)} cash`;
  
-  // If simulation has no trades (all old entries lack marketId), fall back
-  // to rawBotPortfolio.totalValue so the scoreboard shows real data.
-  const hasSimTrades = (simulatedBot.tradeLog || []).length > 0;
-  const bv = hasSimTrades ? simulatedBot.totalValue : (rawBotPortfolio.totalValue ?? STARTING_CASH);
+  // simulatedBot is always the source of truth for the scoreboard.
+  // If it shows $1,000 it means the bot genuinely hasn't traded since you joined.
+  // The raw portfolio value is shown as a secondary reference in botDetail only.
+  const bv = simulatedBot.totalValue;
   const bPnl=bv-STARTING_CASH, bPct=(bPnl/STARTING_CASH)*100;
   document.getElementById('botValue').textContent=`$${fmt(bv)}`;
   const bEl=document.getElementById('botPnl');
@@ -939,7 +939,12 @@ function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').re
  
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
-  await Promise.all([fetchBotPortfolio(), fetchMarkets()]);
+  // Markets MUST load before bot portfolio — simulateBotFromJoinDate calculates
+  // totalValue by looking up live prices from the markets array. If markets is
+  // still [] when that runs, every position price lookup fails and the bot
+  // always shows $1,000 regardless of actual trades.
+  await fetchMarkets();
+  await fetchBotPortfolio();
   checkLimitOrders();
   renderCategoryFilter();
   renderMarkets();
