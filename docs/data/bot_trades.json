@@ -1,15 +1,7 @@
 {
-  "cash": 187.9788453974494,
-  "totalValue": 736.303831703595,
+  "cash": 137.9788453974494,
+  "totalValue": 737.6563848395664,
   "positions": [
-    {
-      "marketId": "1971905",
-      "question": "Strait of Hormuz traffic returns to normal by end of June?",
-      "outcome": "Yes",
-      "shares": 338.98305084745766,
-      "avgCost": 0.295,
-      "costBasis": 100
-    },
     {
       "marketId": "1919425",
       "question": "US x Iran permanent peace deal by May 31, 2026?",
@@ -81,6 +73,30 @@
       "shares": 61.34969325153374,
       "avgCost": 0.2445,
       "costBasis": 15
+    },
+    {
+      "marketId": "2267959",
+      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "shares": 400,
+      "avgCost": 0.125,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "shares": 123.45679012345678,
+      "avgCost": 0.405,
+      "costBasis": 50
+    },
+    {
+      "marketId": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "shares": 72.992700729927,
+      "avgCost": 0.685,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -462,8 +478,48 @@
       "amount": 50,
       "price": 0.195,
       "reasoning": "I am selling positions where the price has dropped significantly or the market is less appealing, and buying into markets with good value or where I have existing positions that are performing well."
+    },
+    {
+      "ts": "2026-05-16T10:56:51.086Z",
+      "action": "SELL",
+      "marketId": "1971905",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "Yes",
+      "proceeds": 100,
+      "price": 0.295,
+      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
+    },
+    {
+      "ts": "2026-05-16T10:56:51.086Z",
+      "action": "BUY",
+      "marketId": "2267959",
+      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.125,
+      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
+    },
+    {
+      "ts": "2026-05-16T10:56:51.086Z",
+      "action": "BUY",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.405,
+      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
+    },
+    {
+      "ts": "2026-05-16T10:56:51.086Z",
+      "action": "BUY",
+      "marketId": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.685,
+      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
     }
   ],
-  "lastUpdated": "2026-05-16T10:51:46.818Z",
-  "lastReasoning": "I am selling positions where the price has dropped significantly or the market is less appealing, and buying into markets with good value or where I have existing positions that are performing well."
+  "lastUpdated": "2026-05-16T10:56:51.086Z",
+  "lastReasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
 }
