@@ -1,30 +1,14 @@
 {
-  "cash": 254.15558541180002,
-  "totalValue": 718.2012145587355,
+  "cash": 188.2528919415132,
+  "totalValue": 705.6122947781544,
   "positions": [
     {
       "marketId": "1919425",
       "question": "US x Iran permanent peace deal by May 31, 2026?",
       "outcome": "Yes",
-      "shares": 2035.1966873706006,
-      "avgCost": 0.10564089521871821,
+      "shares": 2511.3871635610767,
+      "avgCost": 0.10551937345424567,
       "costBasis": 150
-    },
-    {
-      "marketId": "2099033",
-      "question": "Will Manchester City FC win on 2026-05-16?",
-      "outcome": "Yes",
-      "shares": 26.548672566371685,
-      "avgCost": 0.565,
-      "costBasis": 15
-    },
-    {
-      "marketId": "2214870",
-      "question": "Will the price of Bitcoin be above $78,000 on May 16?",
-      "outcome": "Yes",
-      "shares": 33.03964757709251,
-      "avgCost": 0.454,
-      "costBasis": 15
     },
     {
       "marketId": "2080224",
@@ -46,41 +30,17 @@
       "marketId": "2169995",
       "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
       "outcome": "No",
-      "shares": 123.45679012345678,
-      "avgCost": 0.405,
+      "shares": 206.10141822263034,
+      "avgCost": 0.4851980198019802,
       "costBasis": 50
     },
     {
       "marketId": "665374",
       "question": "Will the U.S. invade Iran before 2027?",
       "outcome": "No",
-      "shares": 72.992700729927,
-      "avgCost": 0.685,
+      "shares": 145.985401459854,
+      "avgCost": 0.6850000000000002,
       "costBasis": 50
-    },
-    {
-      "marketId": "2144487",
-      "question": "Will VfB Stuttgart win on 2026-05-16?",
-      "outcome": "Yes",
-      "shares": 22.3463687150838,
-      "avgCost": 0.895,
-      "costBasis": 20
-    },
-    {
-      "marketId": "2144533",
-      "question": "Will 1. FSV Mainz 05 win on 2026-05-16?",
-      "outcome": "Yes",
-      "shares": 24.539877300613497,
-      "avgCost": 0.815,
-      "costBasis": 20
-    },
-    {
-      "marketId": "2144493",
-      "question": "Will Bayer 04 Leverkusen win on 2026-05-16?",
-      "outcome": "Yes",
-      "shares": 31.007751937984494,
-      "avgCost": 0.645,
-      "costBasis": 20
     }
   ],
   "tradeLog": [
@@ -582,8 +542,88 @@
       "amount": 20,
       "price": 0.645,
       "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "SELL",
+      "marketId": "2099033",
+      "question": "Will Manchester City FC win on 2026-05-16?",
+      "outcome": "Yes",
+      "proceeds": 26.5353982300885,
+      "price": 0.9995,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "SELL",
+      "marketId": "2214870",
+      "question": "Will the price of Bitcoin be above $78,000 on May 16?",
+      "outcome": "Yes",
+      "proceeds": 33.02312775330397,
+      "price": 0.9995,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "SELL",
+      "marketId": "2144487",
+      "question": "Will VfB Stuttgart win on 2026-05-16?",
+      "outcome": "Yes",
+      "proceeds": 0.0111731843575419,
+      "price": 0.0005,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "SELL",
+      "marketId": "2144533",
+      "question": "Will 1. FSV Mainz 05 win on 2026-05-16?",
+      "outcome": "Yes",
+      "proceeds": 24.52760736196319,
+      "price": 0.9995,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "SELL",
+      "marketId": "2144493",
+      "question": "Will Bayer 04 Leverkusen win on 2026-05-16?",
+      "outcome": "Yes",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "BUY",
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.105,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "BUY",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.605,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
+    },
+    {
+      "ts": "2026-05-16T18:03:09.025Z",
+      "action": "BUY",
+      "marketId": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.685,
+      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
     }
   ],
-  "lastUpdated": "2026-05-16T14:42:20.329Z",
-  "lastReasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
+  "lastUpdated": "2026-05-16T18:03:09.025Z",
+  "lastReasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
 }
