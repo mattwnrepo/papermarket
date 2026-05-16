@@ -464,14 +464,22 @@ function saveUserPortfolio() { localStorage.setItem('papermarket_portfolio', JSO
 
 let userPortfolio = loadUserPortfolio();
 if (!userPortfolio.limitOrders) userPortfolio.limitOrders = [];
-if (!userPortfolio.joinedAt)    userPortfolio.joinedAt    = new Date().toISOString();
+// Normalise joinedAt — if it's missing or not a valid ISO date, reset it.
+// An invalid date causes simulateBotFromJoinDate to filter out ALL trades (NaN comparison).
+if (!userPortfolio.joinedAt || isNaN(new Date(userPortfolio.joinedAt).getTime())) {
+  userPortfolio.joinedAt = new Date().toISOString();
+  saveUserPortfolio();
+}
 
 // ── Fair bot simulation ───────────────────────────────────────────────────────
 // Only replays bot trades that happened AFTER the user joined, starting from
 // $1,000. This means every user competes on equal footing regardless of when
 // they sign up — the bot doesn't get an unfair head-start.
 function simulateBotFromJoinDate(rawBot, joinedAt) {
-  const joined = new Date(joinedAt).getTime();
+  const joinedTs = new Date(joinedAt).getTime();
+  // Guard: if joinedAt is invalid (NaN), treat as epoch so all trades are shown
+  // rather than silently returning an empty list and freezing the bot at $1,000.
+  const joined = isNaN(joinedTs) ? 0 : joinedTs;
   const trades = (rawBot.tradeLog || []).filter(t => new Date(t.ts).getTime() >= joined);
 
   let sim = { cash: STARTING_CASH, positions: [] };
@@ -551,7 +559,7 @@ function checkLimitOrders() {
   if (!userPortfolio.limitOrders.length) return;
   let filled = 0;
   userPortfolio.limitOrders = userPortfolio.limitOrders.filter(order => {
-    const mkt = markets.find(m => m.id.toString() === pos.marketId.toString());
+    const mkt = markets.find(m => m.id.toString() === order.marketId.toString());
     if (!mkt) return true;
     const o = mkt.outcomes.find(o=>o.title.toLowerCase()===order.outcome.toLowerCase())??mkt.outcomes[0];
     const cp = o?.price??0.5;
