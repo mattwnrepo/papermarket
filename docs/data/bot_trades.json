@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 867.4325205991544,
+  "cash": 38.9792231255646,
+  "totalValue": 851.1128379525233,
   "positions": [
     {
       "marketId": "2159863",
@@ -59,14 +59,6 @@
       "costBasis": 100
     },
     {
-      "marketId": "842015",
-      "question": "Will Finland win Eurovision 2026?",
-      "outcome": "Yes",
-      "shares": 180.6684733514002,
-      "avgCost": 0.5535,
-      "costBasis": 100
-    },
-    {
       "marketId": "2250026",
       "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
       "outcome": "Yes",
@@ -97,6 +89,14 @@
       "shares": 185.8269203531467,
       "avgCost": 0.295,
       "costBasis": 54.81894150417828
+    },
+    {
+      "marketId": "2223261",
+      "question": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
+      "outcome": "Yes",
+      "shares": 58.927519151443725,
+      "avgCost": 0.8485,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -236,8 +236,28 @@
       "amount": 54.81894150417828,
       "price": 0.295,
       "reasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
+    },
+    {
+      "ts": "2026-05-16T09:54:32.896Z",
+      "action": "SELL",
+      "marketId": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "outcome": "Yes",
+      "proceeds": 88.9792231255646,
+      "price": 0.4925,
+      "reasoning": "Rebalancing existing positions and taking a small, diversified bet on a high-probability e-sports market."
+    },
+    {
+      "ts": "2026-05-16T09:54:32.896Z",
+      "action": "BUY",
+      "marketId": "2223261",
+      "question": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.8485,
+      "reasoning": "Rebalancing existing positions and taking a small, diversified bet on a high-probability e-sports market."
     }
   ],
-  "lastUpdated": "2026-05-16T08:54:46.187Z",
-  "lastReasoning": "Rebalancing existing positions and making a new moderate-risk bet on a sports market."
+  "lastUpdated": "2026-05-16T09:54:32.896Z",
+  "lastReasoning": "Rebalancing existing positions and taking a small, diversified bet on a high-probability e-sports market."
 }
