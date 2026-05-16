@@ -464,10 +464,13 @@ function saveUserPortfolio() { localStorage.setItem('papermarket_portfolio', JSO
 
 let userPortfolio = loadUserPortfolio();
 if (!userPortfolio.limitOrders) userPortfolio.limitOrders = [];
-// Normalise joinedAt — if it's missing or not a valid ISO date, reset it.
-// An invalid date causes simulateBotFromJoinDate to filter out ALL trades (NaN comparison).
+// Normalise joinedAt — if missing or invalid, default to epoch so ALL bot
+// trades are replayed and the portfolio value reflects reality immediately.
+// We store the corrected value so it's consistent on future loads.
 if (!userPortfolio.joinedAt || isNaN(new Date(userPortfolio.joinedAt).getTime())) {
-  userPortfolio.joinedAt = new Date().toISOString();
+  // Use the timestamp of the earliest bot trade if available, otherwise epoch.
+  // This means "I joined before any trades happened" = fairest possible baseline.
+  userPortfolio.joinedAt = '1970-01-01T00:00:00.000Z';
   saveUserPortfolio();
 }
 
@@ -477,10 +480,12 @@ if (!userPortfolio.joinedAt || isNaN(new Date(userPortfolio.joinedAt).getTime())
 // they sign up — the bot doesn't get an unfair head-start.
 function simulateBotFromJoinDate(rawBot, joinedAt) {
   const joinedTs = new Date(joinedAt).getTime();
-  // Guard: if joinedAt is invalid (NaN), treat as epoch so all trades are shown
-  // rather than silently returning an empty list and freezing the bot at $1,000.
   const joined = isNaN(joinedTs) ? 0 : joinedTs;
-  const trades = (rawBot.tradeLog || []).filter(t => new Date(t.ts).getTime() >= joined);
+  // Filter trades after join date, and skip any with missing marketId (old broken entries)
+  const trades = (rawBot.tradeLog || []).filter(t => {
+    if (!t.marketId) return false; // skip pre-fix entries with no marketId
+    return new Date(t.ts).getTime() >= joined;
+  });
 
   let sim = { cash: STARTING_CASH, positions: [] };
   for (const t of trades) {
@@ -599,13 +604,21 @@ function renderScoreboard() {
   uEl.className='score-pnl '+(uPnl>=0?'pos':'neg');
   document.getElementById('userDetail').textContent=`${userPortfolio.positions.length} open position${userPortfolio.positions.length!==1?'s':''} · $${fmt(userPortfolio.cash)} cash`;
 
-  const bv=simulatedBot.totalValue, bPnl=bv-STARTING_CASH, bPct=(bPnl/STARTING_CASH)*100;
+  // If simulation has no trades (all old entries lack marketId), fall back
+  // to rawBotPortfolio.totalValue so the scoreboard shows real data.
+  const hasSimTrades = (simulatedBot.tradeLog || []).length > 0;
+  const bv = hasSimTrades ? simulatedBot.totalValue : (rawBotPortfolio.totalValue ?? STARTING_CASH);
+  const bPnl=bv-STARTING_CASH, bPct=(bPnl/STARTING_CASH)*100;
   document.getElementById('botValue').textContent=`$${fmt(bv)}`;
   const bEl=document.getElementById('botPnl');
   bEl.textContent=`${bPnl>=0?'+':''}$${fmt(bPnl)} (${bPct>=0?'+':''}${bPct.toFixed(2)}%)`;
   bEl.className='score-pnl '+(bPnl>=0?'pos':'neg');
-  document.getElementById('botDetail').textContent=simulatedBot.lastTrade
-    ?`Last trade: ${new Date(simulatedBot.lastTrade.ts).toLocaleDateString()}`:'No bot trades since you joined';
+  // Show the actual totalValue from JSON as a sanity indicator
+  const botJsonValue = rawBotPortfolio.totalValue ?? STARTING_CASH;
+  const botJsonPnl = botJsonValue - STARTING_CASH;
+  document.getElementById('botDetail').textContent = simulatedBot.lastTrade
+    ? `Last trade: ${new Date(simulatedBot.lastTrade.ts).toLocaleDateString()} · Real portfolio: $${fmt(botJsonValue)}`
+    : `No bot trades since you joined · Real portfolio: $${fmt(botJsonValue)}`;
 
   document.querySelectorAll('.winner-badge').forEach(b=>b.remove());
   document.getElementById('userCard').classList.toggle('winner',uv>bv);
