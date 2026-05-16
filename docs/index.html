@@ -24,13 +24,13 @@ body::before {
   opacity: 0.6;
 }
 .shell { position: relative; z-index: 1; }
-
+ 
 /* Header */
 header { display: flex; align-items: center; justify-content: space-between; padding: 18px 28px; border-bottom: 1px solid var(--border); background: linear-gradient(180deg,#0d0f14 0%,transparent 100%); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(16px); }
 .logo { font-family: 'Syne',sans-serif; font-weight: 700; font-size: 1.4rem; letter-spacing: -.02em; }
 .logo span { color: var(--accent); }
 .header-actions { display: flex; gap: 10px; align-items: center; }
-
+ 
 /* Buttons */
 .btn { font-family: 'DM Sans',sans-serif; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; transition: all .18s ease; white-space: nowrap; }
 .btn:hover { border-color: var(--accent); color: var(--accent); }
@@ -39,9 +39,9 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 .btn.danger { border-color: var(--no); color: var(--no); }
 .btn.danger:hover { background: var(--no-dim); }
 .btn.small { padding: 5px 10px; font-size: 12px; }
-
+ 
 main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
-
+ 
 /* Scoreboard */
 .scoreboard { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
 .score-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 24px; position: relative; overflow: hidden; transition: border-color .2s; }
@@ -57,24 +57,24 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .score-pnl.pos { color:var(--yes); } .score-pnl.neg { color:var(--no); }
 .score-detail { font-size:12px; color:var(--sub); margin-top:6px; }
 .winner-badge { position:absolute; top:14px; right:14px; font-size:11px; font-weight:700; font-family:'Syne',sans-serif; letter-spacing:.08em; text-transform:uppercase; background:var(--gold); color:#000; padding:3px 9px; border-radius:20px; }
-
+ 
 /* Tabs */
 .tabs { display:flex; gap:4px; margin-bottom:24px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:4px; width:fit-content; }
 .tab { font-family:'Syne',sans-serif; font-size:13px; font-weight:600; padding:8px 18px; border-radius:7px; cursor:pointer; border:none; background:transparent; color:var(--sub); transition:all .18s; }
 .tab.active { background:var(--accent); color:#fff; }
 .tab:not(.active):hover { color:var(--text); }
-
+ 
 /* Category chips */
 .cat-filter { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
 .cat-chip { font-family:'Syne',sans-serif; font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding:5px 12px; border-radius:20px; border:1px solid var(--border); background:transparent; color:var(--sub); cursor:pointer; transition:all .15s; }
 .cat-chip:hover { border-color:var(--muted); color:var(--text); }
 .cat-chip.active { background:var(--accent); border-color:var(--accent); color:#fff; }
-
+ 
 /* Section header */
 .section-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
 .section-title { font-family:'Syne',sans-serif; font-size:.85rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--sub); }
 .refresh-info { font-size:12px; color:var(--muted); }
-
+ 
 /* Market cards */
 .markets-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; }
 .market-card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:18px 20px; transition:border-color .18s,transform .18s; }
@@ -88,12 +88,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .probability-fill { height:100%; border-radius:3px; background:linear-gradient(90deg,var(--yes),#00f5c0); transition:width .6s ease; }
 .prob-labels { display:flex; justify-content:space-between; font-size:12px; color:var(--sub); margin-bottom:14px; }
 .prob-yes { color:var(--yes); font-weight:600; } .prob-no { color:var(--no); font-weight:600; }
-
+ 
 /* Trade mode toggle */
 .trade-mode { display:flex; gap:4px; margin-bottom:10px; }
 .mode-btn { font-size:11px; font-weight:700; font-family:'Syne',sans-serif; letter-spacing:.06em; text-transform:uppercase; padding:4px 10px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--sub); cursor:pointer; transition:all .15s; }
 .mode-btn.active { background:var(--surface); border-color:var(--accent); color:var(--accent); }
-
+ 
 .stake-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
 .stake-label { font-size:12px; color:var(--sub); white-space:nowrap; }
 .stake-input { flex:1; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:5px 8px; color:var(--text); font-size:13px; font-family:'DM Sans',sans-serif; outline:none; min-width:0; }
@@ -103,7 +103,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .limit-input { width:80px; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:5px 8px; color:var(--text); font-size:13px; font-family:'DM Sans',sans-serif; outline:none; }
 .limit-input:focus { border-color:var(--gold); }
 .limit-hint { font-size:11px; color:var(--sub); }
-
+ 
 .trade-controls { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px; }
 .trade-btn { font-family:'Syne',sans-serif; font-size:12px; font-weight:700; letter-spacing:.06em; padding:9px 12px; border-radius:8px; border:1px solid; cursor:pointer; transition:all .15s; display:flex; flex-direction:column; align-items:center; gap:2px; }
 .trade-btn .price { font-size:10px; font-weight:400; opacity:.7; }
@@ -114,7 +114,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .position-tag { font-size:11px; color:var(--accent); background:#6c8cff15; border:1px solid #6c8cff30; border-radius:5px; padding:3px 8px; display:inline-block; margin-top:4px; }
 .limit-orders-tag { font-size:11px; color:var(--gold); background:#f5c84215; border:1px solid #f5c84230; border-radius:5px; padding:3px 8px; display:inline-block; margin-top:4px; margin-left:4px; }
 .dropped-badge { font-size:11px; font-weight:600; font-family:'Syne',sans-serif; color:var(--gold); background:#f5c84210; border:1px solid #f5c84230; border-radius:5px; padding:3px 8px; display:inline-block; margin-bottom:10px; }
-
+ 
 /* Portfolio */
 .positions-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; margin-bottom:20px; }
 .position-card { background:var(--card); border:1px solid var(--accent); border-radius:var(--radius); padding:16px 18px; }
@@ -126,14 +126,14 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .pos-stats { display:flex; gap:16px; margin-bottom:12px; flex-wrap:wrap; }
 .pos-stat-label { font-size:10px; color:var(--sub); }
 .pos-stat-value { font-size:14px; font-weight:600; color:var(--text); }
-
+ 
 /* Limit orders list */
 .limit-list { display:flex; flex-direction:column; gap:8px; margin-bottom:24px; }
 .limit-entry { background:var(--card); border:1px solid #f5c84230; border-radius:10px; padding:12px 16px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
 .lbadge { font-size:10px; font-weight:700; font-family:'Syne',sans-serif; letter-spacing:.08em; text-transform:uppercase; padding:3px 8px; border-radius:5px; background:#f5c84215; color:var(--gold); border:1px solid #f5c84240; white-space:nowrap; }
 .lq { font-size:13px; color:var(--text); flex:1; line-height:1.4; }
 .ldetail { font-size:12px; color:var(--sub); white-space:nowrap; }
-
+ 
 /* Trade log */
 .trade-log { display:flex; flex-direction:column; gap:8px; max-height:480px; overflow-y:auto; }
 .trade-log::-webkit-scrollbar { width:4px; } .trade-log::-webkit-scrollbar-thumb { background:var(--muted); border-radius:2px; }
@@ -147,16 +147,16 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .log-amount { font-size:12px; color:var(--sub); white-space:nowrap; }
 .log-pnl { font-size:12px; font-weight:600; white-space:nowrap; }
 .log-pnl.pos { color:var(--yes); } .log-pnl.neg { color:var(--no); }
-
+ 
 /* Bot tab */
 .bot-card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:14px; }
 .bot-reasoning { font-size:13px; line-height:1.6; color:var(--sub); font-style:italic; margin-bottom:16px; padding:12px 16px; background:#ff5a7e08; border-left:2px solid var(--no); border-radius:0 8px 8px 0; }
-
+ 
 /* Empty */
 .empty { text-align:center; padding:60px 20px; color:var(--sub); }
 .empty-icon { font-size:2.5rem; margin-bottom:12px; }
 .empty-title { font-family:'Syne',sans-serif; font-size:1.1rem; margin-bottom:6px; }
-
+ 
 /* Modal */
 .modal-bg { position:fixed; inset:0; z-index:200; background:#000000c0; backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; transition:opacity .2s; }
 .modal-bg.open { opacity:1; pointer-events:all; }
@@ -174,17 +174,17 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 .sell-shares-input { flex:1; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:7px 10px; color:var(--text); font-size:14px; font-family:'DM Sans',sans-serif; outline:none; }
 .sell-shares-input:focus { border-color:var(--accent); }
 .sell-max-hint { font-size:11px; color:var(--sub); }
-
+ 
 /* Toast */
 #toast { position:fixed; bottom:28px; left:50%; transform:translateX(-50%) translateY(20px); background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px 22px; font-size:13px; color:var(--text); opacity:0; pointer-events:none; transition:all .25s; z-index:999; white-space:nowrap; }
 #toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
 #toast.success { border-color:var(--yes); color:var(--yes); }
 #toast.error   { border-color:var(--no);  color:var(--no); }
-
+ 
 /* Skeleton */
 .skeleton { border-radius:6px; background:linear-gradient(90deg,var(--border) 25%,var(--muted) 50%,var(--border) 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
 @keyframes shimmer { 0%{background-position:200% 0}100%{background-position:-200% 0} }
-
+ 
 /* Responsive */
 @media (max-width:640px) {
   header { padding:14px 16px; }
@@ -196,7 +196,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
   .header-actions { gap:6px; }
   .btn { padding:8px 10px; }
 }
-
+ 
 /* ── Help Button ────────────────────────────────────────── */
 .btn-help {
   font-family: 'Syne', sans-serif;
@@ -216,7 +216,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
   color: var(--accent);
   background: #6c8cff10;
 }
-
+ 
 /* ── Help Modal ─────────────────────────────────────────── */
 .help-modal {
   max-width: 520px;
@@ -268,7 +268,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
 </head>
 <body>
 <div class="shell">
-
+ 
 <header>
   <div class="logo">Paper<span>Market</span></div>
   <div class="header-actions">
@@ -279,7 +279,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
     <input id="importFile" type="file" accept=".json" style="display:none" onchange="importData(event)" />
   </div>
 </header>
-
+ 
 <main>
   <div class="scoreboard">
     <div class="score-card" id="userCard">
@@ -295,13 +295,13 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
       <div class="score-detail" id="botDetail">Loading…</div>
     </div>
   </div>
-
+ 
   <div class="tabs">
     <button class="tab active" onclick="setTab('markets')">Markets</button>
     <button class="tab" onclick="setTab('portfolio')">My Portfolio</button>
     <button class="tab" onclick="setTab('bot')">Bot Activity</button>
   </div>
-
+ 
   <div id="tab-markets">
     <div class="section-header">
       <span class="section-title">Live Markets</span>
@@ -314,7 +314,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
       <div class="market-card"><div class="skeleton" style="height:14px;width:70%;margin-bottom:10px"></div><div class="skeleton" style="height:40px;margin-bottom:14px"></div><div class="skeleton" style="height:6px;margin-bottom:10px"></div><div class="skeleton" style="height:36px"></div></div>
     </div>
   </div>
-
+ 
   <div id="tab-portfolio" style="display:none">
     <div class="section-header"><span class="section-title">Open Positions</span></div>
     <div class="positions-grid" id="positionsGrid"></div>
@@ -323,7 +323,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
     <div class="section-header"><span class="section-title">Trade History</span></div>
     <div class="trade-log" id="tradeLog"></div>
   </div>
-
+ 
   <div id="tab-bot" style="display:none">
     <div class="bot-card">
       <div class="section-title" style="margin-bottom:10px">Bot Strategy</div>
@@ -334,7 +334,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
   </div>
 </main>
 </div>
-
+ 
 <!-- Trade modal -->
 <div class="modal-bg" id="tradeModal">
   <div class="modal">
@@ -346,7 +346,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
     </div>
   </div>
 </div>
-
+ 
 <!-- Sell modal -->
 <div class="modal-bg" id="sellModal">
   <div class="modal">
@@ -358,7 +358,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
     </div>
   </div>
 </div>
-
+ 
 <!-- Reset modal -->
 <div class="modal-bg" id="resetModal">
   <div class="modal">
@@ -370,12 +370,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
     </div>
   </div>
 </div>
-
+ 
 <!-- Help modal -->
 <div class="modal-bg" id="helpModal">
   <div class="modal help-modal">
     <div class="modal-title">How PaperMarket Works</div>
-
+ 
     <div class="help-section">
       <div class="help-section-title"><span class="help-icon">📈</span> Prediction Markets</div>
       <p>A prediction market lets you bet on whether a real-world event will happen. Each question has two outcomes — <strong style="color:var(--yes)">YES</strong> and <strong style="color:var(--no)">NO</strong> — and the price of each reflects the crowd's estimated probability.</p>
@@ -385,9 +385,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
         <span class="help-pill no">NO 30¢ → 30% likely</span>
       </div>
     </div>
-
+ 
     <hr class="help-divider" />
-
+ 
     <div class="help-section">
       <div class="help-section-title"><span class="help-icon">🛒</span> Shares, Stake & P&L</div>
       <dl class="help-glossary">
@@ -403,9 +403,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
         <dd>Profit & Loss. Current value of your position minus what you paid for it. Goes up if the market moves in your favour.</dd>
       </dl>
     </div>
-
+ 
     <hr class="help-divider" />
-
+ 
     <div class="help-section">
       <div class="help-section-title"><span class="help-icon">🤖</span> The Bot</div>
       <p>Your opponent is a <strong style="color:var(--text)">Gemini-powered AI</strong> that reads the same live markets every 30 minutes and decides whether to buy YES, buy NO, or hold. It starts with the same $1,000 USDC as you — from the moment you join, not from when it started.</p>
@@ -416,40 +416,40 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
         <span class="help-pill neutral">Updates every 30 min</span>
       </div>
     </div>
-
+ 
     <hr class="help-divider" />
-
+ 
     <div class="help-section">
       <div class="help-section-title"><span class="help-icon">🏷️</span> Categories</div>
       <p>Use the category chips below the tabs to filter markets by topic — Politics, Crypto, Sports, and so on. Your open positions are always shown regardless of the active filter so you never lose track of them.</p>
     </div>
-
+ 
     <hr class="help-divider" />
-
+ 
     <div class="help-section">
       <div class="help-section-title"><span class="help-icon">💡</span> Quick Tips</div>
       <p>Your portfolio is saved in your browser — use <strong style="color:var(--text)">Export</strong> to back it up or move it to another device. No real money is ever used; this is purely a paper trading simulator against live Polymarket prices.</p>
     </div>
-
+ 
     <div class="modal-footer" style="margin-top:24px">
       <button class="btn primary" onclick="closeModal('helpModal')">Got it</button>
     </div>
   </div>
 </div>
-
+ 
 <div id="toast"></div>
-
+ 
 <script>
 const REPO_RAW = './data';
 const STARTING_CASH = 1000;
-
+ 
 let markets = [];
 let rawBotPortfolio = { cash: STARTING_CASH, totalValue: STARTING_CASH, positions: [], tradeLog: [], lastReasoning: '' };
 let simulatedBot = null;
 let activeCategory = 'All';
 let pendingTrade = null;
 let pendingSell = null;
-
+ 
 // ── localStorage ──────────────────────────────────────────────────────────────
 function loadUserPortfolio() {
   try {
@@ -461,19 +461,17 @@ function loadUserPortfolio() {
   return fresh;
 }
 function saveUserPortfolio() { localStorage.setItem('papermarket_portfolio', JSON.stringify(userPortfolio)); }
-
+ 
 let userPortfolio = loadUserPortfolio();
 if (!userPortfolio.limitOrders) userPortfolio.limitOrders = [];
-// Normalise joinedAt — if missing or invalid, default to epoch so ALL bot
-// trades are replayed and the portfolio value reflects reality immediately.
-// We store the corrected value so it's consistent on future loads.
-if (!userPortfolio.joinedAt || isNaN(new Date(userPortfolio.joinedAt).getTime())) {
-  // Use the timestamp of the earliest bot trade if available, otherwise epoch.
-  // This means "I joined before any trades happened" = fairest possible baseline.
-  userPortfolio.joinedAt = '1970-01-01T00:00:00.000Z';
+// Normalise joinedAt — if missing, invalid, or was incorrectly set to epoch
+// by a previous bug, reset to now so the user starts fresh from today.
+const _jt = new Date(userPortfolio.joinedAt).getTime();
+if (!userPortfolio.joinedAt || isNaN(_jt) || _jt === 0) {
+  userPortfolio.joinedAt = new Date().toISOString();
   saveUserPortfolio();
 }
-
+ 
 // ── Fair bot simulation ───────────────────────────────────────────────────────
 // Only replays bot trades that happened AFTER the user joined, starting from
 // $1,000. This means every user competes on equal footing regardless of when
@@ -486,7 +484,7 @@ function simulateBotFromJoinDate(rawBot, joinedAt) {
     if (!t.marketId) return false; // skip pre-fix entries with no marketId
     return new Date(t.ts).getTime() >= joined;
   });
-
+ 
   let sim = { cash: STARTING_CASH, positions: [] };
   for (const t of trades) {
     if (t.action === 'BUY') {
@@ -519,7 +517,7 @@ function simulateBotFromJoinDate(rawBot, joinedAt) {
   sim.lastReasoning = rawBot.lastReasoning || '';
   return sim;
 }
-
+ 
 // ── Fetch ─────────────────────────────────────────────────────────────────────
 async function fetchMarkets() {
   try {
@@ -529,7 +527,7 @@ async function fetchMarkets() {
     const u = data.lastUpdated ? new Date(data.lastUpdated) : null;
     if (u) document.getElementById('refreshInfo').textContent = `Last updated ${u.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`;
   } catch { showToast('Could not load markets', 'error'); }
-
+ 
   // Re-fetch any held markets that dropped from top 20
   const listedIds = new Set(markets.map(m=>m.id));
   const heldIds = new Set([...userPortfolio.positions.map(p=>p.marketId), ...(rawBotPortfolio.positions||[]).map(p=>p.marketId)]);
@@ -551,14 +549,14 @@ async function fetchMarkets() {
       volume:0, liquidity:0, lastUpdated:null, droppedFromTop:true, stalePrices:true });
   }
 }
-
+ 
 async function fetchBotPortfolio() {
   try {
     const res = await fetch(`${REPO_RAW}/bot_trades.json?t=${Date.now()}`);
     rawBotPortfolio = await res.json();
   } catch {}
 }
-
+ 
 // ── Limit order check ─────────────────────────────────────────────────────────
 function checkLimitOrders() {
   if (!userPortfolio.limitOrders.length) return;
@@ -582,7 +580,7 @@ function checkLimitOrders() {
   });
   if (filled) { saveUserPortfolio(); showToast(`${filled} limit order${filled>1?'s':''} filled! ✓`, 'success'); }
 }
-
+ 
 // ── Values ────────────────────────────────────────────────────────────────────
 function userTotalValue() {
   return userPortfolio.cash + userPortfolio.positions.reduce((s,pos) => {
@@ -592,18 +590,18 @@ function userTotalValue() {
     return s + (pos.shares * livePrice);
   }, 0);
 }
-
+ 
 // ── Scoreboard ────────────────────────────────────────────────────────────────
 function renderScoreboard() {
   simulatedBot = simulateBotFromJoinDate(rawBotPortfolio, userPortfolio.joinedAt);
-
+ 
   const uv=userTotalValue(), uPnl=uv-STARTING_CASH, uPct=(uPnl/STARTING_CASH)*100;
   document.getElementById('userValue').textContent=`$${fmt(uv)}`;
   const uEl=document.getElementById('userPnl');
   uEl.textContent=`${uPnl>=0?'+':''}$${fmt(uPnl)} (${uPct>=0?'+':''}${uPct.toFixed(2)}%)`;
   uEl.className='score-pnl '+(uPnl>=0?'pos':'neg');
   document.getElementById('userDetail').textContent=`${userPortfolio.positions.length} open position${userPortfolio.positions.length!==1?'s':''} · $${fmt(userPortfolio.cash)} cash`;
-
+ 
   // If simulation has no trades (all old entries lack marketId), fall back
   // to rawBotPortfolio.totalValue so the scoreboard shows real data.
   const hasSimTrades = (simulatedBot.tradeLog || []).length > 0;
@@ -619,14 +617,14 @@ function renderScoreboard() {
   document.getElementById('botDetail').textContent = simulatedBot.lastTrade
     ? `Last trade: ${new Date(simulatedBot.lastTrade.ts).toLocaleDateString()} · Real portfolio: $${fmt(botJsonValue)}`
     : `No bot trades since you joined · Real portfolio: $${fmt(botJsonValue)}`;
-
+ 
   document.querySelectorAll('.winner-badge').forEach(b=>b.remove());
   document.getElementById('userCard').classList.toggle('winner',uv>bv);
   document.getElementById('botCard').classList.toggle('winner',bv>uv);
   const wc = uv>bv?'userCard':bv>uv?'botCard':null;
   if (wc) { const b=document.createElement('div'); b.className='winner-badge'; b.textContent='🏆 Winning'; document.getElementById(wc).appendChild(b); }
 }
-
+ 
 // ── Category filter ───────────────────────────────────────────────────────────
 function renderCategoryFilter() {
   // Build distinct category list from real market data, excluding bare 'General'
@@ -638,7 +636,7 @@ function renderCategoryFilter() {
   ).join('');
 }
 function setCategory(cat) { activeCategory = cat; renderCategoryFilter(); renderMarkets(); }
-
+ 
 // ── Render markets ────────────────────────────────────────────────────────────
 function renderMarkets() {
   const grid = document.getElementById('marketsGrid');
@@ -646,10 +644,10 @@ function renderMarkets() {
     grid.innerHTML=`<div class="empty" style="grid-column:1/-1"><div class="empty-icon">📡</div><div class="empty-title">No market data yet</div><p>Markets appear after the first GitHub Actions run.</p></div>`;
     return;
   }
-
+ 
   // Positions the user holds (shown regardless of filter so they're always visible)
   const heldIds = new Set(userPortfolio.positions.map(p => p.marketId));
-
+ 
   let filtered;
   if (activeCategory === 'All') {
     filtered = markets;
@@ -663,7 +661,7 @@ function renderMarkets() {
   const sorted = [...filtered].sort((a, b) =>
     a.droppedFromTop && !b.droppedFromTop ? 1 : !a.droppedFromTop && b.droppedFromTop ? -1 : 0
   );
-
+ 
   grid.innerHTML = sorted.map(m => {
     const yO=m.outcomes.find(o=>o.title==='Yes')??m.outcomes[0];
     const nO=m.outcomes.find(o=>o.title==='No')??m.outcomes[1];
@@ -701,13 +699,13 @@ function renderMarkets() {
     </div>`;
   }).join('');
 }
-
+ 
 function setMode(marketId, mode) {
   document.getElementById(`mode-market-${marketId}`).classList.toggle('active', mode==='market');
   document.getElementById(`mode-limit-${marketId}`).classList.toggle('active', mode==='limit');
   document.getElementById(`limit-row-${marketId}`).style.display = mode==='limit'?'flex':'none';
 }
-
+ 
 // ── Trade modal ───────────────────────────────────────────────────────────────
 function openTrade(marketId, outcome) {
   const market = markets.find(m=>m.id===marketId); if (!market) return;
@@ -715,17 +713,17 @@ function openTrade(marketId, outcome) {
   const isLimit = document.getElementById(`mode-limit-${marketId}`)?.classList.contains('active');
   const lpRaw = document.getElementById(`limitprice-${marketId}`)?.value;
   const limitPrice = isLimit && lpRaw ? parseFloat(lpRaw)/100 : null;
-
+ 
   if (isNaN(amount)||amount<1) { showToast('Enter a valid stake amount','error'); return; }
   if (isLimit && (!limitPrice||limitPrice<=0||limitPrice>=1)) { showToast('Enter a valid limit price (1–99¢)','error'); return; }
   if (!isLimit && amount>userPortfolio.cash) { showToast('Not enough cash!','error'); return; }
-
+ 
   const oObj = market.outcomes.find(o=>o.title.toLowerCase()===outcome.toLowerCase())??market.outcomes[0];
   const cp = oObj?.price??0.5;
   const execPrice = isLimit ? limitPrice : cp;
   const shares = amount / execPrice;
   pendingTrade = { marketId, outcome, amount, price:execPrice, shares, question:market.question, isLimit, limitPrice };
-
+ 
   const oc = outcome.toLowerCase()==='yes'?'prob-yes':'prob-no';
   document.getElementById('tradeModalTitle').textContent = isLimit?'Place Limit Order':'Confirm Trade';
   document.getElementById('tradeModalBody').innerHTML = `
@@ -741,7 +739,7 @@ function openTrade(marketId, outcome) {
   document.getElementById('confirmTradeBtn').onclick = executeTrade;
   openModal('tradeModal');
 }
-
+ 
 function executeTrade() {
   if (!pendingTrade) return;
   const { marketId, outcome, amount, price, shares, question, isLimit, limitPrice } = pendingTrade;
@@ -761,7 +759,7 @@ function executeTrade() {
   showToast(`Bought ${shares.toFixed(2)} ${outcome} shares ✓`,'success');
   renderMarkets(); renderScoreboard(); renderPortfolio(); pendingTrade=null;
 }
-
+ 
 // ── Sell modal ────────────────────────────────────────────────────────────────
 function openSell(marketId, outcome) {
   const pos = userPortfolio.positions.find(p=>p.marketId===marketId&&p.outcome===outcome); if (!pos) return;
@@ -769,7 +767,7 @@ function openSell(marketId, outcome) {
   const o = mkt?.outcomes.find(o=>o.title.toLowerCase()===outcome.toLowerCase())??mkt?.outcomes[0];
   const cp = o?.price??pos.avgCost;
   pendingSell = { marketId, outcome, pos, currentPrice:cp };
-
+ 
   document.getElementById('sellModalBody').innerHTML = `
     <div class="confirm-market">${esc(pos.question)}</div>
     <div class="confirm-detail"><span>Outcome</span><span class="${outcome.toLowerCase()==='yes'?'prob-yes':'prob-no'}">${outcome}</span></div>
@@ -784,7 +782,7 @@ function openSell(marketId, outcome) {
   `;
   openModal('sellModal'); updateSellPreview();
 }
-
+ 
 function updateSellPreview() {
   if (!pendingSell) return;
   const shares = parseFloat(document.getElementById('sellSharesInput')?.value||0);
@@ -797,7 +795,7 @@ function updateSellPreview() {
     <div class="confirm-detail"><span>P&L</span><span class="log-pnl ${pnl>=0?'pos':'neg'}">${pnl>=0?'+':''}$${fmt(pnl)}</span></div>
   `;
 }
-
+ 
 function executeSell() {
   if (!pendingSell) return;
   let shares = parseFloat(document.getElementById('sellSharesInput')?.value||0);
@@ -813,13 +811,13 @@ function executeSell() {
   showToast(`Sold ${shares.toFixed(2)} shares · ${pnl>=0?'+':''}$${fmt(pnl)}`,pnl>=0?'success':'error');
   renderScoreboard(); renderMarkets(); renderPortfolio(); pendingSell=null;
 }
-
+ 
 // ── Cancel limit order ────────────────────────────────────────────────────────
 function cancelLimit(idx) {
   userPortfolio.limitOrders.splice(idx,1); saveUserPortfolio();
   renderPortfolio(); renderMarkets(); showToast('Limit order cancelled','');
 }
-
+ 
 // ── Portfolio tab ─────────────────────────────────────────────────────────────
 function renderPortfolio() {
   const pg = document.getElementById('positionsGrid');
@@ -841,7 +839,7 @@ function renderPortfolio() {
       </div>`;
     }).join('');
   }
-
+ 
   const ll = document.getElementById('limitList');
   if (!userPortfolio.limitOrders.length) {
     ll.innerHTML=`<div style="font-size:13px;color:var(--sub);padding:4px 0">No pending limit orders.</div>`;
@@ -854,7 +852,7 @@ function renderPortfolio() {
         <button class="btn small danger" onclick="cancelLimit(${i})">Cancel</button>
       </div>`).join('');
   }
-
+ 
   const tl = document.getElementById('tradeLog');
   if (!userPortfolio.tradeLog.length) {
     tl.innerHTML=`<div class="empty"><div class="empty-icon">📋</div><div class="empty-title">No trades yet</div></div>`; return;
@@ -867,7 +865,7 @@ function renderPortfolio() {
     return `<div class="log-entry"><div class="log-badge ${bc}">${label}</div><div class="log-question">${esc(t.question)}</div><div class="log-amount">${amt}</div>${pnlStr}</div>`;
   }).join('');
 }
-
+ 
 // ── Bot tab ───────────────────────────────────────────────────────────────────
 function renderBot() {
   if (!simulatedBot) simulatedBot = simulateBotFromJoinDate(rawBotPortfolio, userPortfolio.joinedAt);
@@ -882,7 +880,7 @@ function renderBot() {
     return `<div class="log-entry"><div class="log-badge ${bc}">${t.action} ${t.outcome}</div><div class="log-question">${esc(t.question)}</div><div class="log-amount">${amt}</div><div class="log-amount" style="color:var(--muted)">${date}</div></div>`;
   }).join('');
 }
-
+ 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
 function setTab(name) {
   ['markets','portfolio','bot'].forEach(t=>document.getElementById(`tab-${t}`).style.display=t===name?'':'none');
@@ -890,7 +888,7 @@ function setTab(name) {
   if (name==='portfolio') renderPortfolio();
   if (name==='bot') renderBot();
 }
-
+ 
 // ── Import / Export ───────────────────────────────────────────────────────────
 function exportData() {
   const blob=new Blob([JSON.stringify({version:2,portfolio:userPortfolio,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
@@ -914,7 +912,7 @@ function importData(e) {
   };
   reader.readAsText(file); e.target.value='';
 }
-
+ 
 // ── Reset ─────────────────────────────────────────────────────────────────────
 function confirmReset() { openModal('resetModal'); }
 function doReset() {
@@ -922,23 +920,23 @@ function doReset() {
   saveUserPortfolio(); closeModal('resetModal'); renderScoreboard(); renderMarkets();
   showToast('Portfolio reset to $1,000','success');
 }
-
+ 
 // ── Modals ────────────────────────────────────────────────────────────────────
 function openModal(id)  { document.getElementById(id).classList.add('open'); }
 function closeModal(id) { document.getElementById(id).classList.remove('open'); }
 document.querySelectorAll('.modal-bg').forEach(bg=>bg.addEventListener('click',e=>{ if(e.target===bg) bg.classList.remove('open'); }));
-
+ 
 // ── Toast ─────────────────────────────────────────────────────────────────────
 let toastTimer;
 function showToast(msg,type='') {
   const el=document.getElementById('toast'); el.textContent=msg; el.className='show '+type;
   clearTimeout(toastTimer); toastTimer=setTimeout(()=>{ el.className=''; },3000);
 }
-
+ 
 // ── Utils ─────────────────────────────────────────────────────────────────────
 function fmt(n) { return Number(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-
+ 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
   await Promise.all([fetchBotPortfolio(), fetchMarkets()]);
