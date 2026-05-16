@@ -1,6 +1,6 @@
 {
-  "cash": 100.51756438456945,
-  "totalValue": 780.8877449928746,
+  "cash": 296.56234050397245,
+  "totalValue": 780.0947934510243,
   "positions": [
     {
       "marketId": "1971905",
@@ -11,36 +11,12 @@
       "costBasis": 100
     },
     {
-      "marketId": "573655",
-      "question": "Will Bitcoin hit $150k by June 30, 2026?",
-      "outcome": "Yes",
-      "shares": 3703.703703703704,
-      "avgCost": 0.0135,
-      "costBasis": 50
-    },
-    {
       "marketId": "1919425",
       "question": "US x Iran permanent peace deal by May 31, 2026?",
       "outcome": "Yes",
       "shares": 1559.0062111801244,
       "avgCost": 0.10583665338645418,
       "costBasis": 150
-    },
-    {
-      "marketId": "1962237",
-      "question": "US x Iran permanent peace deal by June 30, 2026?",
-      "outcome": "Yes",
-      "shares": 298.5074626865671,
-      "avgCost": 0.335,
-      "costBasis": 100
-    },
-    {
-      "marketId": "558936",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "shares": 576.3688760806917,
-      "avgCost": 0.1735,
-      "costBasis": 100
     },
     {
       "marketId": "703257",
@@ -104,6 +80,30 @@
       "outcome": "Yes",
       "shares": 37.974683544303794,
       "avgCost": 0.395,
+      "costBasis": 15
+    },
+    {
+      "marketId": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "outcome": "Yes",
+      "shares": 30.67484662576687,
+      "avgCost": 0.489,
+      "costBasis": 15
+    },
+    {
+      "marketId": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "outcome": "Yes",
+      "shares": 66.3716814159292,
+      "avgCost": 0.226,
+      "costBasis": 15
+    },
+    {
+      "marketId": "559652",
+      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "shares": 61.34969325153374,
+      "avgCost": 0.2445,
       "costBasis": 15
     }
   ],
@@ -365,8 +365,68 @@
       "amount": 15,
       "price": 0.395,
       "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "SELL",
+      "marketId": "573655",
+      "question": "Will Bitcoin hit $150k by June 30, 2026?",
+      "outcome": "Yes",
+      "proceeds": 50,
+      "price": 0.0135,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "SELL",
+      "marketId": "1962237",
+      "question": "US x Iran permanent peace deal by June 30, 2026?",
+      "outcome": "Yes",
+      "proceeds": 91.04477611940297,
+      "price": 0.305,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "SELL",
+      "marketId": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "proceeds": 100.00000000000001,
+      "price": 0.1735,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "BUY",
+      "marketId": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.489,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "BUY",
+      "marketId": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.226,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
+    },
+    {
+      "ts": "2026-05-16T10:47:59.769Z",
+      "action": "BUY",
+      "marketId": "559652",
+      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "outcome": "Yes",
+      "amount": 15,
+      "price": 0.2445,
+      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
     }
   ],
-  "lastUpdated": "2026-05-16T10:37:43.808Z",
-  "lastReasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
+  "lastUpdated": "2026-05-16T10:47:59.770Z",
+  "lastReasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
 }
