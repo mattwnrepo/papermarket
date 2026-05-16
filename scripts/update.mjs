@@ -354,18 +354,32 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
 
 function loadExistingPortfolio() {
   const path = 'docs/data/bot_trades.json';
-  if (existsSync(path)) {
-    try { return JSON.parse(readFileSync(path, 'utf8')); }
-    catch { /* fall through */ }
-  }
-  return {
-    cash:          1000,
-    totalValue:    1000,
-    positions:     [],
-    tradeLog:      [],
-    lastUpdated:   new Date().toISOString(),
-    lastReasoning: '',
+  let portfolio = {
+    cash: 1000, totalValue: 1000, positions: [],
+    tradeLog: [], lastUpdated: new Date().toISOString(), lastReasoning: '',
   };
+
+  if (existsSync(path)) {
+    try { portfolio = JSON.parse(readFileSync(path, 'utf8')); }
+    catch { /* fall through to default */ }
+  }
+
+  // Repair positions whose marketId was never stored (bug from earlier versions).
+  // Match each broken position to the most recent BUY trade with the same question.
+  for (const pos of portfolio.positions) {
+    if (pos.marketId) continue; // already fine
+    const match = [...portfolio.tradeLog]
+      .reverse()
+      .find(t => t.action === 'BUY' && t.question === pos.question && t.marketId);
+    if (match) {
+      console.log(`🔧 Repaired missing marketId for: ${pos.question?.slice(0, 60)}`);
+      pos.marketId = match.marketId;
+    } else {
+      console.warn(`⚠️  Could not repair marketId for position: ${pos.question?.slice(0, 60)}`);
+    }
+  }
+
+  return portfolio;
 }
 
 // ─── main ─────────────────────────────────────────────────────────────────────
