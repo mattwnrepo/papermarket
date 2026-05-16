@@ -168,9 +168,12 @@ async function getBotDecisions(markets, existingPortfolio) {
 
   console.log('🤖 Asking Gemini for trading decisions…');
 
-  // Only offer the bot markets that are actively tradeable (not dropped/resolved)
   const tradeableMarkets = markets.filter(m => !m.droppedFromTop);
 
+  // Build a lookup map across ALL markets (including dropped/resolved)
+  const marketById = new Map(markets.map(m => [m.id, m]));
+
+  // Tradeable markets — bot can BUY or SELL these
   const marketSummary = tradeableMarkets.map(m => ({
     id:       m.id,
     question: m.question,
@@ -179,27 +182,67 @@ async function getBotDecisions(markets, existingPortfolio) {
     volume:   Math.round(m.volume),
   }));
 
+  // Positions the bot holds that dropped out of the top-20 or are resolved.
+  // Gemini must see these explicitly so it can SELL them.
+  // Without this they never appear in marketSummary and rot in the portfolio forever.
+  const heldDroppedPositions = existingPortfolio.positions
+    .filter(p => {
+      const m = marketById.get(p.marketId);
+      return !m || m.droppedFromTop;
+    })
+    .map(p => {
+      const m = marketById.get(p.marketId);
+      const outcomeObj = m?.outcomes.find(o => o.title.toLowerCase() === p.outcome.toLowerCase());
+      const currentPrice = outcomeObj?.price ?? p.avgCost;
+      return {
+        marketId:    p.marketId,
+        question:    p.question,
+        outcome:     p.outcome,
+        currentPrice,
+        boughtAt:    p.avgCost,
+        unrealisedPnl: ((currentPrice - p.avgCost) * p.shares).toFixed(2),
+        resolved:    m?.resolved ?? false,
+        action:      'SELL_ONLY',
+      };
+    });
+
   const portfolioSummary = {
     cash:       existingPortfolio.cash,
-    positions:  existingPortfolio.positions,
+    positions:  existingPortfolio.positions.map(p => ({
+      marketId:  p.marketId,
+      question:  p.question,
+      outcome:   p.outcome,
+      shares:    p.shares,
+      avgCost:   p.avgCost,
+      costBasis: p.costBasis,
+    })),
     totalValue: existingPortfolio.totalValue,
   };
+
+  const droppedSection = heldDroppedPositions.length > 0
+    ? `IMPORTANT — Positions you must consider selling (dropped/resolved markets):
+These no longer appear in the active market list. You CANNOT buy more of these.
+You SHOULD sell them to reclaim cash unless you expect a favourable resolution.
+${JSON.stringify(heldDroppedPositions, null, 2)}
+
+`
+    : '';
 
   const prompt = `You are a balanced, moderate-risk prediction market trader with $${portfolioSummary.cash.toFixed(2)} USDC cash available.
 
 Your current portfolio:
 ${JSON.stringify(portfolioSummary, null, 2)}
 
-Available markets (YES price = implied probability):
+Active markets you can BUY or SELL (YES price = implied probability):
 ${JSON.stringify(marketSummary, null, 2)}
 
-Rules:
-- You may BUY YES or BUY NO on any market, or HOLD (do nothing).
-- Each trade amount must be between $10 and $200 USDC.
-- Never spend more than you have in cash.
-- Max 3 new trades per update cycle.
+${droppedSection}Rules:
+- You may BUY YES or BUY NO on any active market, or HOLD (do nothing).
+- You may SELL any position including dropped/resolved ones listed above.
+- Each BUY amount must be between $10 and $200 USDC.
+- Never spend more cash than you have.
+- Max 3 new BUY trades per update cycle (SELLs are unlimited and encouraged for stale positions).
 - Balanced strategy: mix of high-confidence bets and value plays.
-- If you already hold a position, you may SELL it (provide the market id and outcome).
 
 Respond ONLY with a valid JSON object in this exact format (no markdown, no explanation):
 {
@@ -209,10 +252,11 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       "action": "BUY" | "SELL",
       "marketId": "<market id>",
       "outcome": "Yes" | "No",
-      "amount": <number in USDC>
+      "amount": 0
     }
   ]
 }`;
+
 
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
