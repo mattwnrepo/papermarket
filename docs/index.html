@@ -472,45 +472,38 @@ if (!userPortfolio.joinedAt || isNaN(_jt) || _jt === 0) {
   saveUserPortfolio();
 }
 
-// ── Fair bot simulation ───────────────────────────────────────────────────────
-// Two-pass replay:
-// Pass 1 — replay ALL trades before joinedAt to build the bot's exact opening
-//           position state (cash + positions) at the moment the user joined.
-//           Without this, SELLs of pre-join positions have nothing to close
-//           (findIndex → -1), get skipped, and the bot value freezes at $1,000.
-// Pass 2 — continue from that opening state through post-join trades.
-//           The scoreboard shows totalValue vs STARTING_CASH so every user
-//           still competes on equal footing regardless of when they joined.
-function simulateBotFromJoinDate(rawBot, joinedAt) {
-  const joinedTs = new Date(joinedAt).getTime();
-  const joined   = isNaN(joinedTs) ? 0 : joinedTs;
-  const allTrades = (rawBot.tradeLog || []).filter(t => t.marketId);
+// ── Bot snapshot & simulation ─────────────────────────────────────────────────
+// On first visit (or reset), we snapshot the full bot_trades.json into
+// localStorage as botSnapshotAtJoin. The simulation then only replays trades
+// whose ts is strictly AFTER that snapshot's lastUpdated timestamp.
+//
+// This is the only correct way to give both sides a fair $1,000 start:
+// - The snapshot captures the exact portfolio boundary at join time
+// - Post-snapshot SELLs always have a matching position (they were opened after
+//   the boundary, so they exist in the simulation's position list)
+// - No pre-join replay needed — the boundary IS the clean starting point
 
-  // ── Pass 1: build opening position state from pre-join trades ─────────────
-  let preJoinCash = STARTING_CASH;
-  const preJoinPositions = [];
-  for (const t of allTrades.filter(t => new Date(t.ts).getTime() < joined)) {
-    if (t.action === 'BUY') {
-      const cost = Math.min(t.amount, preJoinCash);
-      if (cost < 1) continue;
-      const price = t.price || 0.5;
-      const shares = cost / price;
-      preJoinCash -= cost;
-      const ex = preJoinPositions.find(p => p.marketId===t.marketId && p.outcome===t.outcome);
-      if (ex) { const tc=ex.avgCost*ex.shares+cost; ex.shares+=shares; ex.avgCost=tc/ex.shares; ex.costBasis+=cost; }
-      else preJoinPositions.push({ marketId:t.marketId, question:t.question, outcome:t.outcome, shares, avgCost:price, costBasis:cost });
-    } else if (t.action === 'SELL') {
-      const idx = preJoinPositions.findIndex(p => p.marketId===t.marketId && p.outcome===t.outcome);
-      if (idx===-1) continue;
-      preJoinCash += preJoinPositions[idx].shares * (t.price || preJoinPositions[idx].avgCost);
-      preJoinPositions.splice(idx, 1);
-    }
-  }
+function saveBotSnapshot(rawBot) {
+  localStorage.setItem('papermarket_bot_snapshot', JSON.stringify(rawBot));
+}
 
-  // ── Pass 2: continue from opening state through post-join trades ───────────
-  const postJoinTrades = allTrades.filter(t => new Date(t.ts).getTime() >= joined);
-  let sim = { cash: preJoinCash, positions: preJoinPositions.map(p => ({ ...p })) };
-  for (const t of postJoinTrades) {
+function loadBotSnapshot() {
+  try {
+    const raw = localStorage.getItem('papermarket_bot_snapshot');
+    return raw ? JSON.parse(raw) : null;
+  } catch { return null; }
+}
+
+function simulateBotFromSnapshot(rawBot, snapshot) {
+  // Trades that happened strictly after the snapshot was taken
+  const snapshotTs = new Date(snapshot.lastUpdated).getTime();
+  const postTrades = (rawBot.tradeLog || [])
+    .filter(t => t.marketId && new Date(t.ts).getTime() > snapshotTs);
+
+  // Start from clean $1,000 — the snapshot is the boundary
+  let sim = { cash: STARTING_CASH, positions: [] };
+
+  for (const t of postTrades) {
     if (t.action === 'BUY') {
       const cost = Math.min(t.amount, sim.cash);
       if (cost < 1) continue;
@@ -522,7 +515,7 @@ function simulateBotFromJoinDate(rawBot, joinedAt) {
       else sim.positions.push({ marketId:t.marketId, question:t.question, outcome:t.outcome, shares, avgCost:price, costBasis:cost });
     } else if (t.action === 'SELL') {
       const idx = sim.positions.findIndex(p => p.marketId===t.marketId && p.outcome===t.outcome);
-      if (idx===-1) continue;
+      if (idx===-1) continue; // opened before snapshot — cannot appear post-snapshot by design
       sim.cash += sim.positions[idx].shares * (t.price || sim.positions[idx].avgCost);
       sim.positions.splice(idx, 1);
     }
@@ -533,8 +526,8 @@ function simulateBotFromJoinDate(rawBot, joinedAt) {
     const o   = mkt?.outcomes.find(o => o.title.toLowerCase()===pos.outcome.toLowerCase());
     return s + pos.shares*(o?.price??pos.avgCost);
   }, 0);
-  sim.tradeLog      = postJoinTrades;
-  sim.lastTrade     = postJoinTrades.slice(-1)[0] || null;
+  sim.tradeLog      = postTrades;
+  sim.lastTrade     = postTrades.slice(-1)[0] || null;
   sim.lastReasoning = rawBot.lastReasoning || '';
   return sim;
 }
@@ -575,6 +568,12 @@ async function fetchBotPortfolio() {
   try {
     const res = await fetch(`${REPO_RAW}/bot_trades.json?t=${Date.now()}`);
     rawBotPortfolio = await res.json();
+    // On first visit there is no snapshot yet — save the current bot state as
+    // the baseline. Both the user and the bot effectively start from $1,000
+    // at this exact moment, competing on equal footing from here forward.
+    if (!loadBotSnapshot()) {
+      saveBotSnapshot(rawBotPortfolio);
+    }
   } catch {}
 }
 
@@ -614,7 +613,10 @@ function userTotalValue() {
 
 // ── Scoreboard ────────────────────────────────────────────────────────────────
 function renderScoreboard() {
-  simulatedBot = simulateBotFromJoinDate(rawBotPortfolio, userPortfolio.joinedAt);
+  const botSnapshot = loadBotSnapshot();
+  simulatedBot = botSnapshot
+    ? simulateBotFromSnapshot(rawBotPortfolio, botSnapshot)
+    : { cash: STARTING_CASH, positions: [], tradeLog: [], totalValue: STARTING_CASH, lastReasoning: '', lastTrade: null };
 
   const uv=userTotalValue(), uPnl=uv-STARTING_CASH, uPct=(uPnl/STARTING_CASH)*100;
   document.getElementById('userValue').textContent=`$${fmt(uv)}`;
@@ -887,7 +889,12 @@ function renderPortfolio() {
 
 // ── Bot tab ───────────────────────────────────────────────────────────────────
 function renderBot() {
-  if (!simulatedBot) simulatedBot = simulateBotFromJoinDate(rawBotPortfolio, userPortfolio.joinedAt);
+  if (!simulatedBot) {
+    const botSnapshot = loadBotSnapshot();
+    simulatedBot = botSnapshot
+      ? simulateBotFromSnapshot(rawBotPortfolio, botSnapshot)
+      : { cash: STARTING_CASH, positions: [], tradeLog: [], totalValue: STARTING_CASH, lastReasoning: '', lastTrade: null };
+  }
   document.getElementById('botReasoning').textContent = simulatedBot.lastReasoning||'Bot has not traded since you joined.';
   const tl = document.getElementById('botTradeLog');
   const log = (simulatedBot.tradeLog||[]).slice().reverse();
@@ -910,7 +917,7 @@ function setTab(name) {
 
 // ── Import / Export ───────────────────────────────────────────────────────────
 function exportData() {
-  const blob=new Blob([JSON.stringify({version:2,portfolio:userPortfolio,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
+  const blob=new Blob([JSON.stringify({version:2,portfolio:userPortfolio,botSnapshot:loadBotSnapshot(),exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`papermarket-${new Date().toISOString().slice(0,10)}.json`; a.click();
   showToast('Portfolio exported ✓','success');
 }
@@ -924,6 +931,8 @@ function importData(e) {
         userPortfolio=data.portfolio;
         if (!userPortfolio.limitOrders) userPortfolio.limitOrders=[];
         if (!userPortfolio.joinedAt) userPortfolio.joinedAt=new Date().toISOString();
+        if (data.botSnapshot) saveBotSnapshot(data.botSnapshot);
+        simulatedBot = null;
         saveUserPortfolio(); renderScoreboard(); renderMarkets();
         showToast('Portfolio imported ✓','success');
       } else showToast('Invalid file','error');
@@ -936,7 +945,12 @@ function importData(e) {
 function confirmReset() { openModal('resetModal'); }
 function doReset() {
   userPortfolio={ cash:STARTING_CASH, positions:[], tradeLog:[], limitOrders:[], joinedAt:new Date().toISOString() };
-  saveUserPortfolio(); closeModal('resetModal'); renderScoreboard(); renderMarkets();
+  saveUserPortfolio();
+  // Clear the bot snapshot so it resets to the current bot state.
+  // Both sides start fresh from $1,000 at this moment.
+  saveBotSnapshot(rawBotPortfolio);
+  simulatedBot = null;
+  closeModal('resetModal'); renderScoreboard(); renderMarkets();
   showToast('Portfolio reset to $1,000','success');
 }
 
