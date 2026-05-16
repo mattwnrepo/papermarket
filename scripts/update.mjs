@@ -219,21 +219,43 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { 
-          temperature: 0.1, // Lower temperature = more "robotic" and safe
-          maxOutputTokens: 4096,
-
+        generationConfig: {
+          temperature: 0.1,
+          maxOutputTokens: 8192,
+          thinkingConfig: { thinkingBudget: 0 }, // disable thinking — saves tokens, avoids truncation
         },
       }),
     }
   );
 
+  // Helper: recalculate totalValue from live market prices.
+  // Always called before returning so the scoreboard never freezes at $1,000
+  // even when Gemini fails to respond or returns unparseable JSON.
+  function recalcValue(portfolio) {
+    portfolio.totalValue =
+      portfolio.cash +
+      portfolio.positions.reduce((sum, pos) => {
+        const mkt = markets.find(m => m.id === pos.marketId);
+        const o   = mkt?.outcomes.find(o => o.title.toLowerCase() === pos.outcome.toLowerCase());
+        return sum + pos.shares * (o?.price ?? pos.avgCost);
+      }, 0);
+    portfolio.lastUpdated = new Date().toISOString();
+    return portfolio;
+  }
+
   if (!res.ok) {
     console.error('Gemini API error:', res.status, await res.text());
-    return existingPortfolio;
+    return recalcValue(structuredClone(existingPortfolio));
   }
 
   const data = await res.json();
+
+  // Log finish reason — helps debug truncation
+  const finishReason = data?.candidates?.[0]?.finishReason;
+  if (finishReason && finishReason !== 'STOP') {
+    console.warn(`⚠️  Gemini finishReason: ${finishReason} — response may be incomplete`);
+  }
+
   const text = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
 
   let decision;
@@ -243,7 +265,8 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
     decision = JSON.parse(text.substring(startIdx, endIdx));
   } catch (e) {
     console.error('❌ Failed to parse Gemini response. Raw text was:', text);
-    return existingPortfolio;
+    // Still update totalValue from live prices before saving
+    return recalcValue(structuredClone(existingPortfolio));
   }
 
   const portfolio = structuredClone(existingPortfolio);
@@ -319,16 +342,7 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
     }
   }
 
-  // Recalculate total value across ALL markets including dropped ones
-  portfolio.totalValue =
-    portfolio.cash +
-    portfolio.positions.reduce((sum, pos) => {
-      const market     = markets.find(m => m.id === pos.marketId);
-      const outcomeObj = market?.outcomes.find(
-        o => o.title.toLowerCase() === pos.outcome.toLowerCase()
-      );
-      return sum + pos.shares * (outcomeObj?.price ?? pos.avgCost);
-    }, 0);
+  recalcValue(portfolio);
 
   console.log(
     `   ✅ Bot made ${decision.trades?.length ?? 0} trade(s). Portfolio: $${portfolio.totalValue.toFixed(2)}`
