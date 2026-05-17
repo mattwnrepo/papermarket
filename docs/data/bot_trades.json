@@ -1,6 +1,6 @@
 {
-  "cash": 2.127042125215212,
-  "totalValue": 662.577642872778,
+  "cash": 148.6429798568683,
+  "totalValue": 672.2424980863404,
   "positions": [
     {
       "marketId": "2169995",
@@ -9,30 +9,6 @@
       "shares": 284.8415757029453,
       "avgCost": 0.5266085178395149,
       "costBasis": 50
-    },
-    {
-      "marketId": "692258",
-      "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-      "outcome": "Yes",
-      "shares": 148.25796886582654,
-      "avgCost": 0.6745,
-      "costBasis": 100
-    },
-    {
-      "marketId": "561978",
-      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
-      "outcome": "No",
-      "shares": 154.71892728210418,
-      "avgCost": 0.9695,
-      "costBasis": 150
-    },
-    {
-      "marketId": "553871",
-      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
-      "outcome": "No",
-      "shares": 103.8961038961039,
-      "avgCost": 0.9625,
-      "costBasis": 100
     },
     {
       "marketId": "558941",
@@ -49,6 +25,22 @@
       "shares": 62.208398133748055,
       "avgCost": 0.9645,
       "costBasis": 60
+    },
+    {
+      "marketId": "2159882",
+      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
+      "outcome": "No",
+      "shares": 103.19917440660475,
+      "avgCost": 0.969,
+      "costBasis": 100
+    },
+    {
+      "marketId": "2159870",
+      "question": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
+      "outcome": "No",
+      "shares": 103.51966873706004,
+      "avgCost": 0.966,
+      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -830,8 +822,58 @@
       "amount": 60,
       "price": 0.9645,
       "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with the highest positive edge, allocating available cash across the top two opportunities."
+    },
+    {
+      "ts": "2026-05-17T13:24:02.766Z",
+      "action": "SELL",
+      "marketId": "692258",
+      "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "outcome": "Yes",
+      "proceeds": 96.51593773165308,
+      "price": 0.651,
+      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-17T13:24:02.766Z",
+      "action": "SELL",
+      "marketId": "561978",
+      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "proceeds": 150,
+      "price": 0.9695,
+      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-17T13:24:02.766Z",
+      "action": "SELL",
+      "marketId": "553871",
+      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "outcome": "No",
+      "proceeds": 100,
+      "price": 0.9625,
+      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-17T13:24:02.766Z",
+      "action": "BUY",
+      "marketId": "2159882",
+      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.969,
+      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-17T13:24:02.766Z",
+      "action": "BUY",
+      "marketId": "2159870",
+      "question": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.966,
+      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
     }
   ],
-  "lastUpdated": "2026-05-17T11:44:08.639Z",
-  "lastReasoning": "Insufficient cash ($2.13 USDC) prevents making new BUY trades, as each trade must be between $20-$100 USDC."
+  "lastUpdated": "2026-05-17T13:24:02.766Z",
+  "lastReasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
 }
