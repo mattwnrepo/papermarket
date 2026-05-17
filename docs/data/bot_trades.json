@@ -1,6 +1,6 @@
 {
-  "cash": 271.920323778962,
-  "totalValue": 662.7641794999354,
+  "cash": 122.12704212521521,
+  "totalValue": 661.2501740299422,
   "positions": [
     {
       "marketId": "2169995",
@@ -19,20 +19,20 @@
       "costBasis": 100
     },
     {
-      "marketId": "2241871",
-      "question": "Iran closes its airspace by May 18?",
-      "outcome": "No",
-      "shares": 51.679586563307495,
-      "avgCost": 0.9675,
-      "costBasis": 50
-    },
-    {
       "marketId": "561978",
       "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
       "outcome": "No",
-      "shares": 51.57297576070139,
+      "shares": 154.71892728210418,
       "avgCost": 0.9695,
-      "costBasis": 50
+      "costBasis": 150
+    },
+    {
+      "marketId": "553871",
+      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "outcome": "No",
+      "shares": 103.8961038961039,
+      "avgCost": 0.9625,
+      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -764,8 +764,38 @@
       "amount": 50,
       "price": 0.9695,
       "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the strategy rules."
+    },
+    {
+      "ts": "2026-05-17T08:50:16.373Z",
+      "action": "SELL",
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
+      "outcome": "No",
+      "proceeds": 50.20671834625323,
+      "price": 0.9715,
+      "reasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-17T08:50:16.373Z",
+      "action": "BUY",
+      "marketId": "561978",
+      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9695,
+      "reasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-17T08:50:16.373Z",
+      "action": "BUY",
+      "marketId": "553871",
+      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9625,
+      "reasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-17T08:32:00.837Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the strategy rules."
+  "lastUpdated": "2026-05-17T08:50:16.373Z",
+  "lastReasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
 }
