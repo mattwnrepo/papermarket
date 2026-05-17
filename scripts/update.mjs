@@ -94,10 +94,12 @@ async function fetchMarkets() {
         lastUpdated: new Date().toISOString(),
       };
     })
-    // ─── FILTER FOR 10% - 90% RANGE ───
-    .filter((m) => m.yesPrice >= 0.1 && m.yesPrice <= 0.9);
+    // Keep almost everything — the bias strategy needs high (>0.82) and
+    // low (<0.18) probability markets. Only strip the near-certain (>0.97)
+    // where there's no meaningful contract value left.
+    .filter((m) => m.yesPrice >= 0.03 && m.yesPrice <= 0.97);
 
-  console.log(`   ✅ ${markets.length} unbiased markets fetched (after filtering)`);
+  console.log(`   ✅ ${markets.length} markets fetched (after filtering)`);
   return markets;
 }
 
@@ -226,32 +228,75 @@ ${JSON.stringify(heldDroppedPositions, null, 2)}
 `
     : '';
 
-  const prompt = `You are a mathematical arbitrageur and quantitative risk manager with $${portfolioSummary.cash.toFixed(2)} USDC cash available.
-Your goal is capital preservation and harvesting safe, mathematically sound yield. Every contract resolves strictly to $1.00 (Win) or $0.00 (Loss).
+  // ── Pre-compute statistical signals for each market ─────────────────────────
+  // Favourite-longshot bias: Polymarket crowds systematically overprice low-prob
+  // outcomes (exciting to bet on) and underprice high-prob outcomes (boring).
+  // Edge = how much the true win-rate exceeds the implied price, historically:
+  //   YES > 0.82 → crowd underprices by ~3-5% → positive edge, BUY YES
+  //   YES < 0.18 → crowd overprices the longshot → positive edge, BUY NO
+  //   0.40–0.60 → near-efficient, no statistical edge → AVOID
+  // Stop-loss rule: any held position down >25% from avgCost → SELL immediately.
+  const signals = marketSummary.map(m => {
+    const yp = m.yesPrice;
+    let signal = 'AVOID';
+    let edge = 0;
+    if (yp >= 0.82)      { signal = 'BUY_YES_FAVOURITE'; edge = +(( 0.88 - yp) * 100).toFixed(1); }
+    else if (yp <= 0.18) { signal = 'BUY_NO_LONGSHOT';   edge = +((yp - 0.12) * -100).toFixed(1); }
+    else if (yp >= 0.65) { signal = 'WEAK_YES';           edge = 0; }
+    else if (yp <= 0.35) { signal = 'WEAK_NO';            edge = 0; }
+    return { ...m, signal, edge };
+  });
+
+  const stopLossPositions = portfolioSummary.positions
+    .filter(p => {
+      const mkt = marketSummary.find(m => m.id === p.marketId);
+      if (!mkt) return false;
+      const currentPrice = p.outcome === 'Yes' ? mkt.yesPrice : 1 - mkt.yesPrice;
+      const pnlPct = (currentPrice - p.avgCost) / p.avgCost;
+      return pnlPct < -0.25; // down more than 25%
+    })
+    .map(p => ({ ...p, reason: 'STOP_LOSS: position down >25% from entry' }));
+
+  const prompt = `You are a systematic quantitative trader exploiting the favourite-longshot bias on Polymarket.
+You have $${portfolioSummary.cash.toFixed(2)} USDC cash. Every contract resolves to $1.00 (WIN) or $0.00 (LOSS).
+
+CORE STRATEGY — Favourite-Longshot Bias:
+Polymarket crowds systematically overprice exciting longshots and underprice boring favourites.
+Your only statistical edge comes from exploiting this bias. You have NO informational edge on outcomes.
+Do NOT try to predict events. Trade the bias mechanically.
+
+Signal key (pre-computed for you):
+- BUY_YES_FAVOURITE: YES price ≥ 0.82 → crowd underprices this, positive edge → consider BUY YES
+- BUY_NO_LONGSHOT:   YES price ≤ 0.18 → crowd overprices the longshot → consider BUY NO
+- WEAK_YES / WEAK_NO: mild signal, no strong edge → AVOID unless diversifying
+- AVOID: near 50/50, most efficient, no edge → DO NOT TRADE
 
 Your current portfolio:
 ${JSON.stringify(portfolioSummary, null, 2)}
 
-Active markets you can BUY or SELL (YES price = implied probability):
-${JSON.stringify(marketSummary, null, 2)}
+Markets with signals (only trade BUY_YES_FAVOURITE or BUY_NO_LONGSHOT signals):
+${JSON.stringify(signals, null, 2)}
 
-${droppedSection}Strict Risk Management Rules:
-1. CAPITAL PRESERVATION FIRST: You do not need to trade every cycle. If active markets are perfectly efficient and present no statistical edge, your optimal move is to HOLD and do absolutely nothing. Sitting on cash is a winning strategy.
-2. EVALUATE PROBABILITIES MATHEMATICALLY: You may buy highly priced favorites (above 0.70) or cheap underdogs (below 0.30) only if your internal calculations prove the contract is significantly mispriced by the crowd. Weigh the risk-to-reward ratio stringently before deploying cash.
-3. VALUE ARBITRAGE: Look for heavily traded markets where public sentiment is split or overreacting, leaving an exploitable premium between the contract price and real-world probability.
-4. HEDGING: If you hold a losing position and the market has flipped completely against you, you may SELL it at a loss to stop the bleeding, or BUY the opposing outcome to lock in an arbitrage hedge.
-5. You may BUY YES or BUY NO on active markets, or HOLD (do nothing).
-6. Max 2 new BUY trades per cycle. Each BUY must be between $20 and $100 USDC.
+${droppedSection}Stop-loss positions (MUST sell these — down >25%):
+${JSON.stringify(stopLossPositions, null, 2)}
 
-Respond ONLY with a valid JSON object in this exact format (no markdown, no prose outside the JSON structure):
+Rules:
+1. SELL all stop-loss positions first, no exceptions.
+2. SELL all dropped/resolved positions listed above.
+3. Only BUY markets with signal BUY_YES_FAVOURITE or BUY_NO_LONGSHOT and positive edge.
+4. Max 2 new BUY trades per cycle. Each BUY between $20–$100 USDC.
+5. If no strong signals exist, trades array should be empty — holding cash is correct.
+6. Never average down into a losing position.
+
+Respond ONLY with valid JSON, no markdown:
 {
-  "reasoning": "A brief one-sentence mathematical summary of your actions or decision to hold cash.",
+  "reasoning": "One sentence: which bias signals you acted on, or why you held cash.",
   "trades": [
     {
       "action": "BUY" | "SELL",
       "marketId": "<market id>",
       "outcome": "Yes" | "No",
-      "amount": 0
+      "amount": <number, 0 for SELL>
     }
   ]
 }`;
@@ -377,11 +422,21 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
   }
 
   recalcValue(portfolio);
+
+  // Trim trade log to last 200 entries to keep bot_trades.json lean.
+  // Older history isn't used by any UI calculation.
+  const MAX_LOG = 200;
+  if (portfolio.tradeLog.length > MAX_LOG) {
+    portfolio.tradeLog = portfolio.tradeLog.slice(-MAX_LOG);
+    console.log(`   ✂️  Trade log trimmed to ${MAX_LOG} entries`);
+  }
+
   console.log(
     `   ✅ Bot made ${decision.trades?.length ?? 0} trade(s). Portfolio: $${portfolio.totalValue.toFixed(2)}`
   );
   return portfolio;
 }
+
 
 // ─── 4. Load existing bot portfolio ──────────────────────────────────────────
 
@@ -397,37 +452,15 @@ function loadExistingPortfolio() {
     catch { /* fall through to default */ }
   }
 
-  // ── Repair 1: backfill marketId on positions ──────────────────────────────
-  // Positions always have marketId (written correctly from the start).
-  // Build a question→marketId map from positions for use below.
-  const questionToId = new Map(portfolio.positions.map(p => [p.question, p.marketId]));
-
-  // ── Repair 2: backfill marketId on tradeLog entries that are missing it ───
-  // Early BUY entries (before the marketId fix) have question but no marketId.
-  // Match by question against positions first, then against later log entries.
-  let repaired = 0;
-  for (const t of portfolio.tradeLog) {
-    if (t.marketId) {
-      // Already has it — keep the question→id mapping up to date
-      if (t.question) questionToId.set(t.question, t.marketId);
-      continue;
-    }
-    const id = questionToId.get(t.question);
-    if (id) {
-      t.marketId = id;
-      repaired++;
-    }
-  }
-  if (repaired > 0) console.log(`🔧 Backfilled marketId on ${repaired} tradeLog entries`);
-
-  // ── Repair 3: repair positions whose marketId is still missing ────────────
+  // Repair positions whose marketId was never stored (bug from earlier versions).
+  // Match each broken position to the most recent BUY trade with the same question.
   for (const pos of portfolio.positions) {
-    if (pos.marketId) continue;
+    if (pos.marketId) continue; // already fine
     const match = [...portfolio.tradeLog]
       .reverse()
       .find(t => t.action === 'BUY' && t.question === pos.question && t.marketId);
     if (match) {
-      console.log(`🔧 Repaired position marketId: ${pos.question?.slice(0, 60)}`);
+      console.log(`🔧 Repaired missing marketId for: ${pos.question?.slice(0, 60)}`);
       pos.marketId = match.marketId;
     } else {
       console.warn(`⚠️  Could not repair marketId for position: ${pos.question?.slice(0, 60)}`);
