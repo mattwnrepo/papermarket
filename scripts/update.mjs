@@ -166,14 +166,13 @@ async function getBotDecisions(markets, existingPortfolio) {
     return existingPortfolio;
   }
 
-  console.log('🤖 Asking Gemini for trading decisions…');
+  console.log('🤖 Asking Gemini for decisions…');
 
   const tradeableMarkets = markets.filter(m => !m.droppedFromTop);
 
   // Build a lookup map across ALL markets (including dropped/resolved)
   const marketById = new Map(markets.map(m => [m.id, m]));
 
-  // Tradeable markets — bot can BUY or SELL these
   const marketSummary = tradeableMarkets.map(m => ({
     id:       m.id,
     question: m.question,
@@ -182,9 +181,6 @@ async function getBotDecisions(markets, existingPortfolio) {
     volume:   Math.round(m.volume),
   }));
 
-  // Positions the bot holds that dropped out of the top-20 or are resolved.
-  // Gemini must see these explicitly so it can SELL them.
-  // Without this they never appear in marketSummary and rot in the portfolio forever.
   const heldDroppedPositions = existingPortfolio.positions
     .filter(p => {
       const m = marketById.get(p.marketId);
@@ -222,13 +218,14 @@ async function getBotDecisions(markets, existingPortfolio) {
   const droppedSection = heldDroppedPositions.length > 0
     ? `IMPORTANT — Positions you must consider selling (dropped/resolved markets):
 These no longer appear in the active market list. You CANNOT buy more of these.
-You SHOULD sell them to reclaim cash unless you expect a favourable resolution.
+You SHOULD sell them to reclaim cash unless you expect a highly favourable resolution.
 ${JSON.stringify(heldDroppedPositions, null, 2)}
 
 `
     : '';
 
-  const prompt = `You are a balanced, moderate-risk prediction market trader with $${portfolioSummary.cash.toFixed(2)} USDC cash available.
+  const prompt = `You are a mathematical arbitrageur and quantitative risk manager with $${portfolioSummary.cash.toFixed(2)} USDC cash available. 
+Your goal is capital preservation and harvesting safe, mathematically sound yield. Every contract resolves strictly to $1.00 (Win) or $0.00 (Loss).
 
 Your current portfolio:
 ${JSON.stringify(portfolioSummary, null, 2)}
@@ -236,17 +233,20 @@ ${JSON.stringify(portfolioSummary, null, 2)}
 Active markets you can BUY or SELL (YES price = implied probability):
 ${JSON.stringify(marketSummary, null, 2)}
 
-${droppedSection}Rules:
-- You may BUY YES or BUY NO on any active market, or HOLD (do nothing).
-- You may SELL any position including dropped/resolved ones listed above.
-- Each BUY amount must be between $10 and $200 USDC.
-- Never spend more cash than you have.
-- Max 3 new BUY trades per update cycle (SELLs are unlimited and encouraged for stale positions).
-- Balanced strategy: mix of high-confidence bets and value plays.
+${droppedSection}
+Strict Risk Management Rules:
+1. CAPITAL PRESERVATION FIRST: You do not need to trade every cycle. If active markets are perfectly efficient and present no statistical edge, your optimal move is to HOLD and do absolutely nothing. Sitting on cash is a winning strategy.
+2. EVALUATE PROBABILITIES MATHEMATICALLY: You may buy highly priced favorites (above 0.70) or cheap underdogs (below 0.30) only if your internal calculations prove the contract is significantly mispriced by the crowd. Weigh the risk-to-reward ratio stringently before deploying cash.
+3. VALUE ARBITRAGE: Look for heavily traded markets where public sentiment is split or overreacting, leaving an exploitable premium between the contract price and real-world probability.
+4. HEDGING: If you hold a losing position and the market has flipped completely against you, you may SELL it at a loss to stop the bleeding, or BUY the opposing outcome to lock in an arbitrage hedge.
+5. You may BUY YES or BUY NO on active markets, or HOLD (do nothing).
+6. Max 2 new BUY trades per cycle. Each BUY must be between $20 and $100 USDC.
 
-Respond ONLY with a valid JSON object in this exact format (no markdown, no explanation):
+In your internal reasoning space, look at your portfolio math, weigh candidate positions, and trade strictly when the risk-to-reward ratio is skewed in your favor.
+
+Respond ONLY with a valid JSON object in this exact format (no markdown, no prose outside the JSON structure):
 {
-  "reasoning": "One sentence summary of your strategy this cycle.",
+  "reasoning": "A brief one-sentence mathematical summary of your actions or decision to hold cash.",
   "trades": [
     {
       "action": "BUY" | "SELL",
@@ -257,24 +257,20 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   ]
 }`;
 
-
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {
-          temperature: 0.1,
+          temperature: 0.4,           // Increased from 0.1 for adaptive portfolio strategy
           maxOutputTokens: 8192,
-          thinkingConfig: { thinkingBudget: 0 }, // disable thinking — saves tokens, avoids truncation
+          thinkingConfig: { thinkingBudget: 2048 }, // Enabled thinking budget for calculating the prompt rules
         },
       }),
     }
   );
 
-  // Helper: recalculate totalValue from live market prices.
-  // Always called before returning so the scoreboard never freezes at $1,000
-  // even when Gemini fails to respond or returns unparseable JSON.
   function recalcValue(portfolio) {
     portfolio.totalValue =
       portfolio.cash +
@@ -293,8 +289,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   }
 
   const data = await res.json();
-
-  // Log finish reason — helps debug truncation
   const finishReason = data?.candidates?.[0]?.finishReason;
   if (finishReason && finishReason !== 'STOP') {
     console.warn(`⚠️  Gemini finishReason: ${finishReason} — response may be incomplete`);
@@ -309,7 +303,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
     decision = JSON.parse(text.substring(startIdx, endIdx));
   } catch (e) {
     console.error('❌ Failed to parse Gemini response. Raw text was:', text);
-    // Still update totalValue from live prices before saving
     return recalcValue(structuredClone(existingPortfolio));
   }
 
@@ -318,7 +311,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
   portfolio.lastReasoning = decision.reasoning ?? '';
 
   for (const trade of decision.trades ?? []) {
-    // Use full markets array so SELL works even on dropped positions
     const market = markets.find(m => m.id === trade.marketId);
     if (!market) continue;
 
@@ -327,7 +319,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       ?? market.outcomes[0];
 
     if (trade.action === 'BUY') {
-      // Never BUY into a market that has dropped out of the top-20
       if (market.droppedFromTop) continue;
 
       const cost = Math.min(trade.amount, portfolio.cash);
