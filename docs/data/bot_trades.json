@@ -1,6 +1,6 @@
 {
-  "cash": 148.6429798568683,
-  "totalValue": 672.2424980863404,
+  "cash": 210.76240886416917,
+  "totalValue": 674.2686144964407,
   "positions": [
     {
       "marketId": "2169995",
@@ -14,9 +14,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 62.14396685655101,
-      "avgCost": 0.9655,
-      "costBasis": 60
+      "shares": 134.6452615225272,
+      "avgCost": 0.9654999999999999,
+      "costBasis": 130
     },
     {
       "marketId": "1708109",
@@ -27,20 +27,12 @@
       "costBasis": 60
     },
     {
-      "marketId": "2159882",
-      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
       "outcome": "No",
-      "shares": 103.19917440660475,
-      "avgCost": 0.969,
-      "costBasis": 100
-    },
-    {
-      "marketId": "2159870",
-      "question": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
-      "outcome": "No",
-      "shares": 103.51966873706004,
-      "avgCost": 0.966,
-      "costBasis": 100
+      "shares": 72.53886010362694,
+      "avgCost": 0.965,
+      "costBasis": 70
     }
   ],
   "tradeLog": [
@@ -872,8 +864,48 @@
       "amount": 100,
       "price": 0.966,
       "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-17T15:41:15.281Z",
+      "action": "SELL",
+      "marketId": "2159882",
+      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
+      "outcome": "No",
+      "proceeds": 100.87719298245615,
+      "price": 0.9775,
+      "reasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-17T15:41:15.281Z",
+      "action": "SELL",
+      "marketId": "2159870",
+      "question": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
+      "outcome": "No",
+      "proceeds": 101.24223602484471,
+      "price": 0.978,
+      "reasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-17T15:41:15.281Z",
+      "action": "BUY",
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
+      "outcome": "No",
+      "amount": 70,
+      "price": 0.965,
+      "reasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-17T15:41:15.281Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 70,
+      "price": 0.9655,
+      "reasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-17T13:24:02.766Z",
-  "lastReasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
+  "lastUpdated": "2026-05-17T15:41:15.282Z",
+  "lastReasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
 }
