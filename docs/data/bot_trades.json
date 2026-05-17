@@ -1,6 +1,6 @@
 {
-  "cash": 10.762408864169174,
-  "totalValue": 674.0198937170629,
+  "cash": 0,
+  "totalValue": 668.1769291943181,
   "positions": [
     {
       "marketId": "2169995",
@@ -14,17 +14,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 238.21853961677886,
-      "avgCost": 0.9655,
-      "costBasis": 230
-    },
-    {
-      "marketId": "1708109",
-      "question": "Kharg Island no longer under Iranian control by May 31?",
-      "outcome": "No",
-      "shares": 62.208398133748055,
-      "avgCost": 0.9645,
-      "costBasis": 60
+      "shares": 259.0785343167599,
+      "avgCost": 0.9655000000000001,
+      "costBasis": 250.1403248828317
     },
     {
       "marketId": "2241871",
@@ -33,6 +25,14 @@
       "shares": 176.4889640537309,
       "avgCost": 0.9632330322265624,
       "costBasis": 170
+    },
+    {
+      "marketId": "2230484",
+      "question": "Cincinnati Reds vs. Cleveland Guardians",
+      "outcome": "No",
+      "shares": 1515.151515151515,
+      "avgCost": 0.033,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -924,8 +924,38 @@
       "amount": 100,
       "price": 0.962,
       "reasoning": "I exploited the favourite-longshot bias by buying 'No' on longshots and 'Yes' on favourites with the highest positive edge, ensuring each trade was within the $20-$100 range and staying within the two-trade limit."
+    },
+    {
+      "ts": "2026-05-17T19:50:36.463Z",
+      "action": "SELL",
+      "marketId": "1708109",
+      "question": "Kharg Island no longer under Iranian control by May 31?",
+      "outcome": "No",
+      "proceeds": 59.37791601866252,
+      "price": 0.9545,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position and buying two strong BUY_NO_LONGSHOT signals with positive edge."
+    },
+    {
+      "ts": "2026-05-17T19:50:36.463Z",
+      "action": "BUY",
+      "marketId": "2230484",
+      "question": "Cincinnati Reds vs. Cleveland Guardians",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.033,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position and buying two strong BUY_NO_LONGSHOT signals with positive edge."
+    },
+    {
+      "ts": "2026-05-17T19:50:36.463Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20.140324882831692,
+      "price": 0.9655,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position and buying two strong BUY_NO_LONGSHOT signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-17T16:09:45.798Z",
-  "lastReasoning": "I exploited the favourite-longshot bias by buying 'No' on longshots and 'Yes' on favourites with the highest positive edge, ensuring each trade was within the $20-$100 range and staying within the two-trade limit."
+  "lastUpdated": "2026-05-17T19:50:36.463Z",
+  "lastReasoning": "Exploited favourite-longshot bias by selling a dropped position and buying two strong BUY_NO_LONGSHOT signals with positive edge."
 }
