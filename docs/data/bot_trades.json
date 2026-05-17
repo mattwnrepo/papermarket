@@ -1,6 +1,6 @@
 {
-  "cash": 371.920323778962,
-  "totalValue": 661.3399716214205,
+  "cash": 271.920323778962,
+  "totalValue": 662.7641794999354,
   "positions": [
     {
       "marketId": "2169995",
@@ -17,6 +17,22 @@
       "shares": 148.25796886582654,
       "avgCost": 0.6745,
       "costBasis": 100
+    },
+    {
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
+      "outcome": "No",
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
+      "costBasis": 50
+    },
+    {
+      "marketId": "561978",
+      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "shares": 51.57297576070139,
+      "avgCost": 0.9695,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -728,8 +744,28 @@
       "proceeds": 100.39018952062429,
       "price": 0.9005,
       "reasoning": "Selling a slightly profitable 'Starmer out' position to reclaim cash, as it is a 'SELL_ONLY' market. No new buying opportunities meet the strict criteria for significant mispricing or arbitrage, prioritizing capital preservation."
+    },
+    {
+      "ts": "2026-05-17T08:32:00.837Z",
+      "action": "BUY",
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the strategy rules."
+    },
+    {
+      "ts": "2026-05-17T08:32:00.837Z",
+      "action": "BUY",
+      "marketId": "561978",
+      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9695,
+      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the strategy rules."
     }
   ],
-  "lastUpdated": "2026-05-17T08:25:16.558Z",
-  "lastReasoning": "Selling a slightly profitable 'Starmer out' position to reclaim cash, as it is a 'SELL_ONLY' market. No new buying opportunities meet the strict criteria for significant mispricing or arbitrage, prioritizing capital preservation."
+  "lastUpdated": "2026-05-17T08:32:00.837Z",
+  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the strategy rules."
 }
