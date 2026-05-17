@@ -1,6 +1,6 @@
 {
-  "cash": 271.5301342583377,
-  "totalValue": 660.9497821007963,
+  "cash": 371.920323778962,
+  "totalValue": 661.3399716214205,
   "positions": [
     {
       "marketId": "2169995",
@@ -16,14 +16,6 @@
       "outcome": "Yes",
       "shares": 148.25796886582654,
       "avgCost": 0.6745,
-      "costBasis": 100
-    },
-    {
-      "marketId": "2251595",
-      "question": "Starmer out by May 19, 2026?",
-      "outcome": "No",
-      "shares": 111.48272017837235,
-      "avgCost": 0.897,
       "costBasis": 100
     }
   ],
@@ -726,8 +718,18 @@
       "amount": 100,
       "price": 0.897,
       "reasoning": "The market for 'MicroStrategy sells any Bitcoin by June 30, 2026?' (ID: 692258) is mispriced, as the 'Yes' outcome at 0.6745 is significantly lower than the 'Yes' outcome for 'MicroStrategy sells any Bitcoin by May 31, 2026?' (ID: 2169995) at 0.335, despite the June 30th market having a longer timeframe and thus a higher probability of a 'Yes' outcome. This suggests an arbitrage opportunity by buying 'Yes' on the June 30th market, as the probability should be higher than the May 31st market's implied 'No' probability (1-0.335=0.665). Additionally, the 'Starmer out by May 19, 2026?' market (ID: 2251595) presents a strong 'No' opportunity, as the implied probability of 0.103 for 'Yes' is too high given the political stability and timeframe, making 'No' at 0.897 a favorable bet."
+    },
+    {
+      "ts": "2026-05-17T08:25:16.557Z",
+      "action": "SELL",
+      "marketId": "2251595",
+      "question": "Starmer out by May 19, 2026?",
+      "outcome": "No",
+      "proceeds": 100.39018952062429,
+      "price": 0.9005,
+      "reasoning": "Selling a slightly profitable 'Starmer out' position to reclaim cash, as it is a 'SELL_ONLY' market. No new buying opportunities meet the strict criteria for significant mispricing or arbitrage, prioritizing capital preservation."
     }
   ],
-  "lastUpdated": "2026-05-17T08:02:51.397Z",
-  "lastReasoning": "The market for 'MicroStrategy sells any Bitcoin by June 30, 2026?' (ID: 692258) is mispriced, as the 'Yes' outcome at 0.6745 is significantly lower than the 'Yes' outcome for 'MicroStrategy sells any Bitcoin by May 31, 2026?' (ID: 2169995) at 0.335, despite the June 30th market having a longer timeframe and thus a higher probability of a 'Yes' outcome. This suggests an arbitrage opportunity by buying 'Yes' on the June 30th market, as the probability should be higher than the May 31st market's implied 'No' probability (1-0.335=0.665). Additionally, the 'Starmer out by May 19, 2026?' market (ID: 2251595) presents a strong 'No' opportunity, as the implied probability of 0.103 for 'Yes' is too high given the political stability and timeframe, making 'No' at 0.897 a favorable bet."
+  "lastUpdated": "2026-05-17T08:25:16.558Z",
+  "lastReasoning": "Selling a slightly profitable 'Starmer out' position to reclaim cash, as it is a 'SELL_ONLY' market. No new buying opportunities meet the strict criteria for significant mispricing or arbitrage, prioritizing capital preservation."
 }
