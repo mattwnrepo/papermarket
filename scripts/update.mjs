@@ -169,8 +169,6 @@ async function getBotDecisions(markets, existingPortfolio) {
   console.log('🤖 Asking Gemini for decisions…');
 
   const tradeableMarkets = markets.filter(m => !m.droppedFromTop);
-
-  // Build a lookup map across ALL markets (including dropped/resolved)
   const marketById = new Map(markets.map(m => [m.id, m]));
 
   const marketSummary = tradeableMarkets.map(m => ({
@@ -187,18 +185,22 @@ async function getBotDecisions(markets, existingPortfolio) {
       return !m || m.droppedFromTop;
     })
     .map(p => {
-      const m = marketById.get(p.marketId);
+      const m          = marketById.get(p.marketId);
       const outcomeObj = m?.outcomes.find(o => o.title.toLowerCase() === p.outcome.toLowerCase());
-      const currentPrice = outcomeObj?.price ?? p.avgCost;
+      // If market is gone entirely, fall back to avgCost but flag it clearly
+      const currentPrice = outcomeObj?.price ?? null;
+      const unrealisedPnl = currentPrice !== null
+        ? ((currentPrice - p.avgCost) * p.shares).toFixed(2)
+        : 'unknown (market no longer available — recommend SELL to reclaim cash)';
       return {
-        marketId:    p.marketId,
-        question:    p.question,
-        outcome:     p.outcome,
-        currentPrice,
-        boughtAt:    p.avgCost,
-        unrealisedPnl: ((currentPrice - p.avgCost) * p.shares).toFixed(2),
-        resolved:    m?.resolved ?? false,
-        action:      'SELL_ONLY',
+        marketId:     p.marketId,
+        question:     p.question,
+        outcome:      p.outcome,
+        currentPrice: currentPrice ?? 'unavailable',
+        boughtAt:     p.avgCost,
+        unrealisedPnl,
+        resolved:     m?.resolved ?? false,
+        action:       'SELL_ONLY',
       };
     });
 
@@ -224,7 +226,7 @@ ${JSON.stringify(heldDroppedPositions, null, 2)}
 `
     : '';
 
-  const prompt = `You are a mathematical arbitrageur and quantitative risk manager with $${portfolioSummary.cash.toFixed(2)} USDC cash available. 
+  const prompt = `You are a mathematical arbitrageur and quantitative risk manager with $${portfolioSummary.cash.toFixed(2)} USDC cash available.
 Your goal is capital preservation and harvesting safe, mathematically sound yield. Every contract resolves strictly to $1.00 (Win) or $0.00 (Loss).
 
 Your current portfolio:
@@ -233,16 +235,13 @@ ${JSON.stringify(portfolioSummary, null, 2)}
 Active markets you can BUY or SELL (YES price = implied probability):
 ${JSON.stringify(marketSummary, null, 2)}
 
-${droppedSection}
-Strict Risk Management Rules:
+${droppedSection}Strict Risk Management Rules:
 1. CAPITAL PRESERVATION FIRST: You do not need to trade every cycle. If active markets are perfectly efficient and present no statistical edge, your optimal move is to HOLD and do absolutely nothing. Sitting on cash is a winning strategy.
 2. EVALUATE PROBABILITIES MATHEMATICALLY: You may buy highly priced favorites (above 0.70) or cheap underdogs (below 0.30) only if your internal calculations prove the contract is significantly mispriced by the crowd. Weigh the risk-to-reward ratio stringently before deploying cash.
 3. VALUE ARBITRAGE: Look for heavily traded markets where public sentiment is split or overreacting, leaving an exploitable premium between the contract price and real-world probability.
 4. HEDGING: If you hold a losing position and the market has flipped completely against you, you may SELL it at a loss to stop the bleeding, or BUY the opposing outcome to lock in an arbitrage hedge.
 5. You may BUY YES or BUY NO on active markets, or HOLD (do nothing).
 6. Max 2 new BUY trades per cycle. Each BUY must be between $20 and $100 USDC.
-
-In your internal reasoning space, look at your portfolio math, weigh candidate positions, and trade strictly when the risk-to-reward ratio is skewed in your favor.
 
 Respond ONLY with a valid JSON object in this exact format (no markdown, no prose outside the JSON structure):
 {
@@ -257,15 +256,17 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
   ]
 }`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
-      method: 'POST',
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+    {
+      method:  'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {
-          temperature: 0.4,           // Increased from 0.1 for adaptive portfolio strategy
+          temperature:    0.4,
           maxOutputTokens: 8192,
-          thinkingConfig: { thinkingBudget: 2048 }, // Enabled thinking budget for calculating the prompt rules
+          thinkingConfig: { thinkingBudget: 2048 },
         },
       }),
     }
@@ -306,8 +307,8 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
     return recalcValue(structuredClone(existingPortfolio));
   }
 
-  const portfolio = structuredClone(existingPortfolio);
-  portfolio.lastUpdated   = new Date().toISOString();
+  const portfolio        = structuredClone(existingPortfolio);
+  portfolio.lastUpdated  = new Date().toISOString();
   portfolio.lastReasoning = decision.reasoning ?? '';
 
   for (const trade of decision.trades ?? []) {
@@ -320,19 +321,18 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
 
     if (trade.action === 'BUY') {
       if (market.droppedFromTop) continue;
-
       const cost = Math.min(trade.amount, portfolio.cash);
       if (cost < 1) continue;
       const shares = cost / outcomeObj.price;
       portfolio.cash -= cost;
-
       const existing = portfolio.positions.find(
         p => p.marketId === trade.marketId && p.outcome === trade.outcome
       );
       if (existing) {
-        const totalCost  = existing.avgCost * existing.shares + cost;
-        existing.shares += shares;
-        existing.avgCost = totalCost / existing.shares;
+        const totalCost   = existing.avgCost * existing.shares + cost;
+        existing.shares  += shares;
+        existing.avgCost  = totalCost / existing.shares;
+        existing.costBasis += cost;
       } else {
         portfolio.positions.push({
           marketId:  trade.marketId,
@@ -343,7 +343,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
           costBasis: cost,
         });
       }
-
       portfolio.tradeLog.push({
         ts:        new Date().toISOString(),
         action:    'BUY',
@@ -378,7 +377,6 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no pros
   }
 
   recalcValue(portfolio);
-
   console.log(
     `   ✅ Bot made ${decision.trades?.length ?? 0} trade(s). Portfolio: $${portfolio.totalValue.toFixed(2)}`
   );
