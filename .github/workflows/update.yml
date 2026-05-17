@@ -4,11 +4,7 @@ on:
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
-  
 
-# Cancel any in-progress run when a new one triggers.
-# This ensures only one run is ever writing to the repo at a time,
-# completely eliminating the race condition that causes merge conflicts.
 concurrency:
   group: update-data
   cancel-in-progress: true
@@ -43,12 +39,14 @@ jobs:
           git add docs/data/markets.json docs/data/bot_trades.json
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update market data & bot trades [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-          # Retry loop: on conflict, fetch remote, re-stamp our fresh data on
-          # top of it, amend the commit, and push. JSON files are always full
-          # rewrites so this never loses data — latest run simply wins.
+          # Retry loop — set +e so a failed push doesn't kill the step.
+          set +e
           for i in 1 2 3; do
-            git push origin HEAD:main && echo "✅ Push succeeded (attempt $i)" && exit 0
-            echo "Push rejected, pulling remote and retrying (attempt $i)…"
+            git push origin HEAD:main
+            if [ $? -eq 0 ]; then
+              echo "✅ Push succeeded (attempt $i)" && exit 0
+            fi
+            echo "Push rejected, fetching remote and retrying (attempt $i)…"
             git fetch origin main
             git checkout origin/main -- .
             git checkout HEAD -- docs/data/markets.json docs/data/bot_trades.json
@@ -56,4 +54,5 @@ jobs:
             git diff --staged --quiet || git commit --amend --no-edit
             sleep $((i * 5))
           done
+          set -e
           echo "❌ All push attempts failed" && exit 1
