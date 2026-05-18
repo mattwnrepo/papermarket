@@ -1,22 +1,22 @@
 {
-  "cash": 256.0030728140322,
-  "totalValue": 606.1433976968639,
+  "cash": 107.45460210381964,
+  "totalValue": 607.5949269866513,
   "positions": [
     {
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 310.86517336388573,
+      "shares": 414.4384514581374,
       "avgCost": 0.9655,
-      "costBasis": 300.1403248828317
+      "costBasis": 400.1403248828317
     },
     {
-      "marketId": "2251595",
-      "question": "Starmer out by May 19, 2026?",
+      "marketId": "2161612",
+      "question": "Will Burnley FC win on 2026-05-18?",
       "outcome": "No",
-      "shares": 51.84033177812338,
+      "shares": 103.68066355624676,
       "avgCost": 0.9645,
-      "costBasis": 50
+      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -988,8 +988,38 @@
       "amount": 50,
       "price": 0.9645,
       "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
+    },
+    {
+      "ts": "2026-05-18T18:23:40.059Z",
+      "action": "SELL",
+      "marketId": "2251595",
+      "question": "Starmer out by May 19, 2026?",
+      "outcome": "No",
+      "proceeds": 51.45152928978746,
+      "price": 0.9925,
+      "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-18T18:23:40.059Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9655,
+      "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-18T18:23:40.059Z",
+      "action": "BUY",
+      "marketId": "2161612",
+      "question": "Will Burnley FC win on 2026-05-18?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9645,
+      "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-18T12:05:24.784Z",
-  "lastReasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
+  "lastUpdated": "2026-05-18T18:23:40.059Z",
+  "lastReasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
 }
