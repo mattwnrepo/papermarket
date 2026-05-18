@@ -1,22 +1,22 @@
 {
-  "cash": 107.45460210381964,
-  "totalValue": 607.5949269866513,
+  "cash": 111.13526566006641,
+  "totalValue": 611.275590542898,
   "positions": [
     {
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 414.4384514581374,
+      "shares": 466.22509050526327,
       "avgCost": 0.9655,
-      "costBasis": 400.1403248828317
+      "costBasis": 450.1403248828317
     },
     {
-      "marketId": "2161612",
-      "question": "Will Burnley FC win on 2026-05-18?",
+      "marketId": "2111563",
+      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by May 31?",
       "outcome": "No",
-      "shares": 103.68066355624676,
-      "avgCost": 0.9645,
-      "costBasis": 100
+      "shares": 51.54639175257732,
+      "avgCost": 0.97,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -1018,8 +1018,38 @@
       "amount": 100,
       "price": 0.9645,
       "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-18T22:13:44.863Z",
+      "action": "SELL",
+      "marketId": "2161612",
+      "question": "Will Burnley FC win on 2026-05-18?",
+      "outcome": "No",
+      "proceeds": 103.68066355624676,
+      "price": 1,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-18T22:13:44.863Z",
+      "action": "BUY",
+      "marketId": "2111563",
+      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by May 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.97,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-18T22:13:44.863Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9655,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-18T18:23:40.059Z",
-  "lastReasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-05-18T22:13:44.863Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
 }
