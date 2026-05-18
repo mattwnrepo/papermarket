@@ -1,30 +1,22 @@
 {
-  "cash": 0.7575757575757576,
-  "totalValue": 617.674489871348,
+  "cash": 256.0030728140322,
+  "totalValue": 606.1433976968639,
   "positions": [
-    {
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "shares": 284.8415757029453,
-      "avgCost": 0.5266085178395149,
-      "costBasis": 50
-    },
     {
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 259.0785343167599,
-      "avgCost": 0.9655000000000001,
-      "costBasis": 250.1403248828317
+      "shares": 310.86517336388573,
+      "avgCost": 0.9655,
+      "costBasis": 300.1403248828317
     },
     {
-      "marketId": "2241871",
-      "question": "Iran closes its airspace by May 18?",
+      "marketId": "2251595",
+      "question": "Starmer out by May 19, 2026?",
       "outcome": "No",
-      "shares": 176.4889640537309,
-      "avgCost": 0.9632330322265624,
-      "costBasis": 170
+      "shares": 51.84033177812338,
+      "avgCost": 0.9645,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -956,8 +948,48 @@
       "proceeds": 0.7575757575757576,
       "price": 0.0005,
       "reasoning": "Sold a dropped position to reclaim cash and opened two new positions by exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-18T12:05:24.784Z",
+      "action": "SELL",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "proceeds": 180.87440057137027,
+      "price": 0.635,
+      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
+    },
+    {
+      "ts": "2026-05-18T12:05:24.784Z",
+      "action": "SELL",
+      "marketId": "2241871",
+      "question": "Iran closes its airspace by May 18?",
+      "outcome": "No",
+      "proceeds": 174.37109648508613,
+      "price": 0.988,
+      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
+    },
+    {
+      "ts": "2026-05-18T12:05:24.784Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9655,
+      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
+    },
+    {
+      "ts": "2026-05-18T12:05:24.784Z",
+      "action": "BUY",
+      "marketId": "2251595",
+      "question": "Starmer out by May 19, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9645,
+      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
     }
   ],
-  "lastUpdated": "2026-05-17T22:39:26.440Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and opened two new positions by exploiting the favourite-longshot bias with positive edge."
+  "lastUpdated": "2026-05-18T12:05:24.784Z",
+  "lastReasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
 }
