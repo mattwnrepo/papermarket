@@ -1,6 +1,6 @@
 {
-  "cash": 111.13526566006641,
-  "totalValue": 611.275590542898,
+  "cash": 61.444544010581865,
+  "totalValue": 611.5848688934136,
   "positions": [
     {
       "marketId": "558941",
@@ -11,11 +11,19 @@
       "costBasis": 450.1403248828317
     },
     {
-      "marketId": "2111563",
-      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by May 31?",
+      "marketId": "1808970",
+      "question": "US obtains Iranian enriched uranium by May 31?",
       "outcome": "No",
-      "shares": 51.54639175257732,
-      "avgCost": 0.97,
+      "shares": 51.89413596263622,
+      "avgCost": 0.9635,
+      "costBasis": 50
+    },
+    {
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "shares": 52.35602094240838,
+      "avgCost": 0.955,
       "costBasis": 50
     }
   ],
@@ -1048,8 +1056,38 @@
       "amount": 50,
       "price": 0.9655,
       "reasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-19T10:49:02.250Z",
+      "action": "SELL",
+      "marketId": "2111563",
+      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by May 31?",
+      "outcome": "No",
+      "proceeds": 50.30927835051546,
+      "price": 0.976,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-19T10:49:02.250Z",
+      "action": "BUY",
+      "marketId": "1808970",
+      "question": "US obtains Iranian enriched uranium by May 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9635,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-19T10:49:02.250Z",
+      "action": "BUY",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.955,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-18T22:13:44.863Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
+  "lastUpdated": "2026-05-19T10:49:02.250Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
 }
