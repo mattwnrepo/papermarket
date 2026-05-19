@@ -1,14 +1,14 @@
 {
-  "cash": 0.004544010581867042,
-  "totalValue": 610.5988803101236,
+  "cash": 0.48098380115778383,
+  "totalValue": 609.9481789921122,
   "positions": [
     {
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 466.22509050526327,
+      "shares": 492.1184100288262,
       "avgCost": 0.9655,
-      "costBasis": 450.1403248828317
+      "costBasis": 475.1403248828317
     },
     {
       "marketId": "1808970",
@@ -16,14 +16,6 @@
       "outcome": "No",
       "shares": 51.89413596263622,
       "avgCost": 0.9635,
-      "costBasis": 50
-    },
-    {
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "shares": 52.35602094240838,
-      "avgCost": 0.955,
       "costBasis": 50
     },
     {
@@ -38,9 +30,9 @@
       "marketId": "553857",
       "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
       "outcome": "No",
-      "shares": 32.15070643642072,
-      "avgCost": 0.9555,
-      "costBasis": 30.72
+      "shares": 57.189830067093645,
+      "avgCost": 0.9568134742803729,
+      "costBasis": 54.72
     }
   ],
   "tradeLog": [
@@ -1122,8 +1114,38 @@
       "amount": 30.72,
       "price": 0.9555,
       "reasoning": "Exploited favourite-longshot bias by buying 'No' shares in highly overpriced longshot markets with positive edge, prioritizing the highest edge opportunities and avoiding averaging down into existing positions."
+    },
+    {
+      "ts": "2026-05-19T22:46:51.286Z",
+      "action": "SELL",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "proceeds": 49.47643979057592,
+      "price": 0.945,
+      "reasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-19T22:46:51.286Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9655,
+      "reasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-19T22:46:51.286Z",
+      "action": "BUY",
+      "marketId": "553857",
+      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "outcome": "No",
+      "amount": 24,
+      "price": 0.9585,
+      "reasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-19T18:18:04.385Z",
-  "lastReasoning": "Exploited favourite-longshot bias by buying 'No' shares in highly overpriced longshot markets with positive edge, prioritizing the highest edge opportunities and avoiding averaging down into existing positions."
+  "lastUpdated": "2026-05-19T22:46:51.286Z",
+  "lastReasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
 }
