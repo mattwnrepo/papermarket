@@ -1,6 +1,6 @@
 {
-  "cash": 331.12403876410383,
-  "totalValue": 610.8503620131637,
+  "cash": 231.22718471562524,
+  "totalValue": 608.8503200232642,
   "positions": [
     {
       "marketId": "1808970",
@@ -19,11 +19,19 @@
       "costBasis": 130.72
     },
     {
-      "marketId": "561260",
-      "question": "Will Thomas Massie win the 2028 US Presidential Election?",
+      "marketId": "553857",
+      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
       "outcome": "No",
       "shares": 103.14595152140278,
       "avgCost": 0.9695,
+      "costBasis": 100
+    },
+    {
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "shares": 104.71204188481676,
+      "avgCost": 0.955,
       "costBasis": 100
     }
   ],
@@ -1176,8 +1184,38 @@
       "amount": 100,
       "price": 0.962,
       "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
+    },
+    {
+      "ts": "2026-05-20T19:33:38.990Z",
+      "action": "SELL",
+      "marketId": "561260",
+      "question": "Will Thomas Massie win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "proceeds": 100.1031459515214,
+      "price": 0.9705,
+      "reasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-20T19:33:38.990Z",
+      "action": "BUY",
+      "marketId": "553857",
+      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9695,
+      "reasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-20T19:33:38.990Z",
+      "action": "BUY",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.955,
+      "reasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
     }
   ],
-  "lastUpdated": "2026-05-20T10:35:37.691Z",
-  "lastReasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
+  "lastUpdated": "2026-05-20T19:33:38.990Z",
+  "lastReasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
 }
