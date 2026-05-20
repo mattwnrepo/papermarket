@@ -1,15 +1,7 @@
 {
-  "cash": 0.48098380115778383,
-  "totalValue": 609.9481789921122,
+  "cash": 331.12403876410383,
+  "totalValue": 610.8503620131637,
   "positions": [
-    {
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 492.1184100288262,
-      "avgCost": 0.9655,
-      "costBasis": 475.1403248828317
-    },
     {
       "marketId": "1808970",
       "question": "US obtains Iranian enriched uranium by May 31?",
@@ -22,17 +14,17 @@
       "marketId": "1809560",
       "question": "Strait of Hormuz traffic returns to normal by end of May?",
       "outcome": "No",
-      "shares": 32.033368091762256,
-      "avgCost": 0.959,
-      "costBasis": 30.72
+      "shares": 135.9834720418662,
+      "avgCost": 0.9612932957010709,
+      "costBasis": 130.72
     },
     {
-      "marketId": "553857",
-      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "marketId": "561260",
+      "question": "Will Thomas Massie win the 2028 US Presidential Election?",
       "outcome": "No",
-      "shares": 57.189830067093645,
-      "avgCost": 0.9568134742803729,
-      "costBasis": 54.72
+      "shares": 103.14595152140278,
+      "avgCost": 0.9695,
+      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -1144,8 +1136,48 @@
       "amount": 24,
       "price": 0.9585,
       "reasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-20T10:35:37.690Z",
+      "action": "SELL",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 475.1403248828317,
+      "price": 0.9655,
+      "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
+    },
+    {
+      "ts": "2026-05-20T10:35:37.690Z",
+      "action": "SELL",
+      "marketId": "553857",
+      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "outcome": "No",
+      "proceeds": 55.50273008011438,
+      "price": 0.9705,
+      "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
+    },
+    {
+      "ts": "2026-05-20T10:35:37.690Z",
+      "action": "BUY",
+      "marketId": "561260",
+      "question": "Will Thomas Massie win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9695,
+      "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
+    },
+    {
+      "ts": "2026-05-20T10:35:37.690Z",
+      "action": "BUY",
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.962,
+      "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
     }
   ],
-  "lastUpdated": "2026-05-19T22:46:51.286Z",
-  "lastReasoning": "Sold a dropped position to free up cash and then bought into two longshot markets with the highest positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-05-20T10:35:37.691Z",
+  "lastReasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
 }
