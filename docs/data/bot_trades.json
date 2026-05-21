@@ -1,6 +1,6 @@
 {
-  "cash": 31.330330667146654,
-  "totalValue": 612.9617275443703,
+  "cash": 0,
+  "totalValue": 501.0323377540648,
   "positions": [
     {
       "marketId": "1808970",
@@ -51,12 +51,12 @@
       "costBasis": 50
     },
     {
-      "marketId": "2318793",
-      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
+      "marketId": "2241872",
+      "question": "Iran closes its airspace by May 21?",
       "outcome": "No",
-      "shares": 3333.3333333333335,
-      "avgCost": 0.03,
-      "costBasis": 100
+      "shares": 32.33264258735465,
+      "avgCost": 0.969,
+      "costBasis": 31.330330667146654
     }
   ],
   "tradeLog": [
@@ -1318,8 +1318,28 @@
       "amount": 100,
       "price": 0.9695,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
+    },
+    {
+      "ts": "2026-05-21T18:29:42.701Z",
+      "action": "SELL",
+      "marketId": "2318793",
+      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-05-21T18:29:42.701Z",
+      "action": "BUY",
+      "marketId": "2241872",
+      "question": "Iran closes its airspace by May 21?",
+      "outcome": "No",
+      "amount": 31.330330667146654,
+      "price": 0.969,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-21T11:58:59.074Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
+  "lastUpdated": "2026-05-21T18:29:42.701Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
 }
