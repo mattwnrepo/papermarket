@@ -1,6 +1,6 @@
 {
-  "cash": 231.33033066714665,
-  "totalValue": 609.9411468149831,
+  "cash": 31.330330667146654,
+  "totalValue": 612.9617275443703,
   "positions": [
     {
       "marketId": "1808970",
@@ -38,9 +38,9 @@
       "marketId": "2297854",
       "question": "US x Iran permanent peace deal by May 22, 2026?",
       "outcome": "No",
-      "shares": 53.76344086021505,
-      "avgCost": 0.93,
-      "costBasis": 50
+      "shares": 156.90939238161783,
+      "avgCost": 0.9559657183247924,
+      "costBasis": 150
     },
     {
       "marketId": "558940",
@@ -49,6 +49,14 @@
       "shares": 54.734537493158186,
       "avgCost": 0.9135,
       "costBasis": 50
+    },
+    {
+      "marketId": "2318793",
+      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
+      "outcome": "No",
+      "shares": 3333.3333333333335,
+      "avgCost": 0.03,
+      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -1290,8 +1298,28 @@
       "amount": 50,
       "price": 0.9135,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot 'Yes' outcomes with positive edge, specifically for 'US x Iran permanent peace deal by May 22, 2026?' and 'Will Portugal win the 2026 FIFA World Cup?'. Avoided averaging down into existing positions."
+    },
+    {
+      "ts": "2026-05-21T11:58:59.074Z",
+      "action": "BUY",
+      "marketId": "2318793",
+      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.03,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
+    },
+    {
+      "ts": "2026-05-21T11:58:59.074Z",
+      "action": "BUY",
+      "marketId": "2297854",
+      "question": "US x Iran permanent peace deal by May 22, 2026?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9695,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
     }
   ],
-  "lastUpdated": "2026-05-21T10:22:13.720Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot 'Yes' outcomes with positive edge, specifically for 'US x Iran permanent peace deal by May 22, 2026?' and 'Will Portugal win the 2026 FIFA World Cup?'. Avoided averaging down into existing positions."
+  "lastUpdated": "2026-05-21T11:58:59.074Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
 }
