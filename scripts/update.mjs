@@ -423,14 +423,6 @@ Respond ONLY with valid JSON, no markdown:
 
   recalcValue(portfolio);
 
-  // Trim trade log to last 200 entries to keep bot_trades.json lean.
-  // Older history isn't used by any UI calculation.
-  const MAX_LOG = 200;
-  if (portfolio.tradeLog.length > MAX_LOG) {
-    portfolio.tradeLog = portfolio.tradeLog.slice(-MAX_LOG);
-    console.log(`   ✂️  Trade log trimmed to ${MAX_LOG} entries`);
-  }
-
   console.log(
     `   ✅ Bot made ${decision.trades?.length ?? 0} trade(s). Portfolio: $${portfolio.totalValue.toFixed(2)}`
   );
@@ -487,6 +479,14 @@ function loadExistingPortfolio() {
     // so markets.json reflects actual open positions (not already-sold ones).
     const allMarketsForBot = await refreshDroppedMarkets(topMarkets, existingPortfolio);
     const updatedPortfolio = await getBotDecisions(allMarketsForBot, existingPortfolio);
+
+    // Trim trade log here — guaranteed to run even if Gemini skipped/failed
+    const MAX_LOG = 200;
+    if (updatedPortfolio.tradeLog.length > MAX_LOG) {
+      updatedPortfolio.tradeLog = updatedPortfolio.tradeLog.slice(-MAX_LOG);
+      console.log(`   ✂️  Trade log trimmed to ${MAX_LOG} entries`);
+    }
+
     writeFileSync('docs/data/bot_trades.json', JSON.stringify(updatedPortfolio, null, 2));
     console.log('   💾 docs/data/bot_trades.json written');
 
