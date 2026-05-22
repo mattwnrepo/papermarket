@@ -1,14 +1,14 @@
 {
-  "cash": 0,
-  "totalValue": 510.5599092076774,
+  "cash": 54.24193271113032,
+  "totalValue": 517.3362204419767,
   "positions": [
     {
       "marketId": "1808970",
       "question": "US obtains Iranian enriched uranium by May 31?",
       "outcome": "No",
-      "shares": 51.89413596263622,
-      "avgCost": 0.9635,
-      "costBasis": 50
+      "shares": 103.7344677407596,
+      "avgCost": 0.9639997406639005,
+      "costBasis": 100
     },
     {
       "marketId": "1809560",
@@ -27,14 +27,6 @@
       "costBasis": 50
     },
     {
-      "marketId": "2297854",
-      "question": "US x Iran permanent peace deal by May 22, 2026?",
-      "outcome": "No",
-      "shares": 156.90939238161783,
-      "avgCost": 0.9559657183247924,
-      "costBasis": 150
-    },
-    {
       "marketId": "558940",
       "question": "Will Portugal win the 2026 FIFA World Cup?",
       "outcome": "No",
@@ -46,9 +38,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 51.78663904712584,
+      "shares": 103.57327809425168,
       "avgCost": 0.9655,
-      "costBasis": 50
+      "costBasis": 100
     },
     {
       "marketId": "958443",
@@ -1378,8 +1370,38 @@
       "amount": 31.947735560194275,
       "price": 0.945,
       "reasoning": "Exploiting the favourite-longshot bias by selling resolved positions to reclaim cash and buying strong BUY_NO_LONGSHOT signals with positive edge, while adhering to the rule of not averaging down into losing positions."
+    },
+    {
+      "ts": "2026-05-22T21:46:08.706Z",
+      "action": "SELL",
+      "marketId": "2297854",
+      "question": "US x Iran permanent peace deal by May 22, 2026?",
+      "outcome": "No",
+      "proceeds": 154.24193271113032,
+      "price": 0.983,
+      "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-05-22T21:46:08.706Z",
+      "action": "BUY",
+      "marketId": "1808970",
+      "question": "US obtains Iranian enriched uranium by May 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9645,
+      "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-05-22T21:46:08.706Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9655,
+      "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-22T17:26:38.056Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge, avoiding averaging down on existing positions."
+  "lastUpdated": "2026-05-22T21:46:08.707Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
 }
