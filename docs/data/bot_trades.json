@@ -1,6 +1,6 @@
 {
-  "cash": 26.517800382716246,
-  "totalValue": 509.2295236875974,
+  "cash": 101.44333471415662,
+  "totalValue": 500.75447074347414,
   "positions": [
     {
       "marketId": "1809560",
@@ -14,9 +14,9 @@
       "marketId": "958443",
       "question": "Will the Iranian regime fall by June 30?",
       "outcome": "No",
-      "shares": 137.27324242431263,
-      "avgCost": 0.9612050624719917,
-      "costBasis": 131.94773556019427
+      "shares": 164.75510770928673,
+      "avgCost": 0.9618380744821179,
+      "costBasis": 158.46773556019428
     },
     {
       "marketId": "558937",
@@ -41,14 +41,6 @@
       "shares": 58.85815185403178,
       "avgCost": 0.8495,
       "costBasis": 50
-    },
-    {
-      "marketId": "2074235",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in May?",
-      "outcome": "No",
-      "shares": 103.25245224574083,
-      "avgCost": 0.9685,
-      "costBasis": 100
     }
   ],
   "tradeLog": [
@@ -1550,8 +1542,28 @@
       "amount": 100,
       "price": 0.9665,
       "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-23T22:38:35.728Z",
+      "action": "SELL",
+      "marketId": "2074235",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in May?",
+      "outcome": "No",
+      "proceeds": 101.44553433144037,
+      "price": 0.9825,
+      "reasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
+    },
+    {
+      "ts": "2026-05-23T22:38:35.728Z",
+      "action": "BUY",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "amount": 26.52,
+      "price": 0.965,
+      "reasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
     }
   ],
-  "lastUpdated": "2026-05-23T19:51:46.612Z",
-  "lastReasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-05-23T22:38:35.728Z",
+  "lastReasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
 }
