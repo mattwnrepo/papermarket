@@ -1,6 +1,6 @@
 {
-  "cash": 4.241932711130318,
-  "totalValue": 517.3600524061027,
+  "cash": 6.205254466786386,
+  "totalValue": 512.277456092219,
   "positions": [
     {
       "marketId": "1808970",
@@ -24,14 +24,6 @@
       "outcome": "No",
       "shares": 52.71481286241434,
       "avgCost": 0.9485,
-      "costBasis": 50
-    },
-    {
-      "marketId": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 54.734537493158186,
-      "avgCost": 0.9135,
       "costBasis": 50
     },
     {
@@ -59,19 +51,27 @@
       "costBasis": 25
     },
     {
-      "marketId": "2132780",
-      "question": "Will Bitcoin dip to $65,000 in May?",
-      "outcome": "No",
-      "shares": 53.10674455655868,
-      "avgCost": 0.9415,
-      "costBasis": 50
-    },
-    {
       "marketId": "1708109",
       "question": "Kharg Island no longer under Iranian control by May 31?",
       "outcome": "No",
       "shares": 52.11047420531527,
       "avgCost": 0.9595,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2308197",
+      "question": "Will the Iran ceasefire continue through May 24?",
+      "outcome": "Yes",
+      "shares": 58.47953216374269,
+      "avgCost": 0.855,
+      "costBasis": 50
+    },
+    {
+      "marketId": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "outcome": "No",
+      "shares": 58.85815185403178,
+      "avgCost": 0.8495,
       "costBasis": 50
     }
   ],
@@ -1474,8 +1474,48 @@
       "amount": 50,
       "price": 0.9595,
       "reasoning": "Identified two new BUY_NO_LONGSHOT opportunities with positive edge and no existing positions, adhering to the maximum trade limit and individual trade amount."
+    },
+    {
+      "ts": "2026-05-23T15:46:54.476Z",
+      "action": "SELL",
+      "marketId": "558940",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 49.945265462506846,
+      "price": 0.9125,
+      "reasoning": "Sold dropped positions and placed new buy orders on favourite-longshot bias signals with positive edge, avoiding averaging down into existing positions."
+    },
+    {
+      "ts": "2026-05-23T15:46:54.476Z",
+      "action": "SELL",
+      "marketId": "2132780",
+      "question": "Will Bitcoin dip to $65,000 in May?",
+      "outcome": "No",
+      "proceeds": 52.01805629314923,
+      "price": 0.9795,
+      "reasoning": "Sold dropped positions and placed new buy orders on favourite-longshot bias signals with positive edge, avoiding averaging down into existing positions."
+    },
+    {
+      "ts": "2026-05-23T15:46:54.476Z",
+      "action": "BUY",
+      "marketId": "2308197",
+      "question": "Will the Iran ceasefire continue through May 24?",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.855,
+      "reasoning": "Sold dropped positions and placed new buy orders on favourite-longshot bias signals with positive edge, avoiding averaging down into existing positions."
+    },
+    {
+      "ts": "2026-05-23T15:46:54.476Z",
+      "action": "BUY",
+      "marketId": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.8495,
+      "reasoning": "Sold dropped positions and placed new buy orders on favourite-longshot bias signals with positive edge, avoiding averaging down into existing positions."
     }
   ],
-  "lastUpdated": "2026-05-23T11:44:08.760Z",
-  "lastReasoning": "Identified two new BUY_NO_LONGSHOT opportunities with positive edge and no existing positions, adhering to the maximum trade limit and individual trade amount."
+  "lastUpdated": "2026-05-23T15:46:54.476Z",
+  "lastReasoning": "Sold dropped positions and placed new buy orders on favourite-longshot bias signals with positive edge, avoiding averaging down into existing positions."
 }
