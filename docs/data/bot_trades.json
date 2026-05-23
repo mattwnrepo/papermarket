@@ -1,6 +1,6 @@
 {
-  "cash": 54.24193271113032,
-  "totalValue": 517.3362204419767,
+  "cash": 104.24193271113032,
+  "totalValue": 517.3477750123343,
   "positions": [
     {
       "marketId": "1808970",
@@ -35,20 +35,28 @@
       "costBasis": 50
     },
     {
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 103.57327809425168,
-      "avgCost": 0.9655,
-      "costBasis": 100
-    },
-    {
       "marketId": "958443",
       "question": "Will the Iranian regime fall by June 30?",
       "outcome": "No",
       "shares": 33.80712757692516,
       "avgCost": 0.945,
       "costBasis": 31.947735560194275
+    },
+    {
+      "marketId": "2324252",
+      "question": "US x Iran permanent peace deal by May 26, 2026?",
+      "outcome": "No",
+      "shares": 27.3224043715847,
+      "avgCost": 0.915,
+      "costBasis": 25
+    },
+    {
+      "marketId": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 27.427317608337905,
+      "avgCost": 0.9115,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
@@ -1400,8 +1408,38 @@
       "amount": 50,
       "price": 0.9655,
       "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-05-23T07:26:30.292Z",
+      "action": "SELL",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 100,
+      "price": 0.9655,
+      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying longshot 'No' outcomes with positive edge."
+    },
+    {
+      "ts": "2026-05-23T07:26:30.292Z",
+      "action": "BUY",
+      "marketId": "2324252",
+      "question": "US x Iran permanent peace deal by May 26, 2026?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.915,
+      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying longshot 'No' outcomes with positive edge."
+    },
+    {
+      "ts": "2026-05-23T07:26:30.292Z",
+      "action": "BUY",
+      "marketId": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9115,
+      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying longshot 'No' outcomes with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-22T21:46:08.707Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+  "lastUpdated": "2026-05-23T07:26:30.292Z",
+  "lastReasoning": "Exploited favourite-longshot bias by selling a resolved position and buying longshot 'No' outcomes with positive edge."
 }
