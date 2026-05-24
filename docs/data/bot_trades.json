@@ -1,6 +1,6 @@
 {
-  "cash": 101.44333471415662,
-  "totalValue": 500.75447074347414,
+  "cash": 219.60739914666107,
+  "totalValue": 509.3185648330345,
   "positions": [
     {
       "marketId": "1809560",
@@ -11,14 +11,6 @@
       "costBasis": 130.72
     },
     {
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "shares": 164.75510770928673,
-      "avgCost": 0.9618380744821179,
-      "costBasis": 158.46773556019428
-    },
-    {
       "marketId": "558937",
       "question": "Will Brazil win the 2026 FIFA World Cup?",
       "outcome": "No",
@@ -27,19 +19,27 @@
       "costBasis": 25
     },
     {
-      "marketId": "2308197",
-      "question": "Will the Iran ceasefire continue through May 24?",
-      "outcome": "Yes",
-      "shares": 58.47953216374269,
-      "avgCost": 0.855,
-      "costBasis": 50
-    },
-    {
       "marketId": "553866",
       "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
       "outcome": "No",
       "shares": 58.85815185403178,
       "avgCost": 0.8495,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2074236",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+      "outcome": "No",
+      "shares": 51.92107995846314,
+      "avgCost": 0.963,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2132780",
+      "question": "Will Bitcoin dip to $65,000 in May?",
+      "outcome": "No",
+      "shares": 51.57297576070139,
+      "avgCost": 0.9695,
       "costBasis": 50
     }
   ],
@@ -1562,8 +1562,48 @@
       "amount": 26.52,
       "price": 0.965,
       "reasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
+    },
+    {
+      "ts": "2026-05-24T08:05:53.693Z",
+      "action": "SELL",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "proceeds": 160.8833626781185,
+      "price": 0.9765,
+      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T08:05:53.693Z",
+      "action": "SELL",
+      "marketId": "2308197",
+      "question": "Will the Iran ceasefire continue through May 24?",
+      "outcome": "Yes",
+      "proceeds": 57.280701754385966,
+      "price": 0.9795,
+      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T08:05:53.693Z",
+      "action": "BUY",
+      "marketId": "2074236",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.963,
+      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T08:05:53.693Z",
+      "action": "BUY",
+      "marketId": "2132780",
+      "question": "Will Bitcoin dip to $65,000 in May?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9695,
+      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-23T22:38:35.728Z",
-  "lastReasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
+  "lastUpdated": "2026-05-24T08:05:53.693Z",
+  "lastReasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
 }
