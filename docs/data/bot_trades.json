@@ -1,6 +1,6 @@
 {
-  "cash": 219.60739914666107,
-  "totalValue": 509.3185648330345,
+  "cash": 170.12312890426807,
+  "totalValue": 513.3599749798132,
   "positions": [
     {
       "marketId": "1809560",
@@ -35,11 +35,19 @@
       "costBasis": 50
     },
     {
-      "marketId": "2132780",
-      "question": "Will Bitcoin dip to $65,000 in May?",
+      "marketId": "2341184",
+      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
       "outcome": "No",
-      "shares": 51.57297576070139,
-      "avgCost": 0.9695,
+      "shares": 1666.6666666666667,
+      "avgCost": 0.03,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2132776",
+      "question": "Will Bitcoin reach $85,000 in May?",
+      "outcome": "No",
+      "shares": 52.576235541535226,
+      "avgCost": 0.951,
       "costBasis": 50
     }
   ],
@@ -1602,8 +1610,38 @@
       "amount": 50,
       "price": 0.9695,
       "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T11:55:29.380Z",
+      "action": "SELL",
+      "marketId": "2132780",
+      "question": "Will Bitcoin dip to $65,000 in May?",
+      "outcome": "No",
+      "proceeds": 50.51572975760701,
+      "price": 0.9795,
+      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T11:55:29.380Z",
+      "action": "BUY",
+      "marketId": "2341184",
+      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.03,
+      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T11:55:29.380Z",
+      "action": "BUY",
+      "marketId": "2132776",
+      "question": "Will Bitcoin reach $85,000 in May?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.951,
+      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-24T08:05:53.693Z",
-  "lastReasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-05-24T11:55:29.380Z",
+  "lastReasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
 }
