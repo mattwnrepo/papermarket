@@ -1,14 +1,14 @@
 {
-  "cash": 170.12312890426807,
-  "totalValue": 513.3599749798132,
+  "cash": 119.889484044455,
+  "totalValue": 476.59587552157984,
   "positions": [
     {
       "marketId": "1809560",
       "question": "Strait of Hormuz traffic returns to normal by end of May?",
       "outcome": "No",
-      "shares": 135.9834720418662,
-      "avgCost": 0.9612932957010709,
-      "costBasis": 130.72
+      "shares": 187.77011108899205,
+      "avgCost": 0.9624534967354271,
+      "costBasis": 180.72
     },
     {
       "marketId": "558937",
@@ -27,27 +27,19 @@
       "costBasis": 50
     },
     {
-      "marketId": "2074236",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
-      "outcome": "No",
-      "shares": 51.92107995846314,
-      "avgCost": 0.963,
-      "costBasis": 50
-    },
-    {
-      "marketId": "2341184",
-      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
-      "outcome": "No",
-      "shares": 1666.6666666666667,
-      "avgCost": 0.03,
-      "costBasis": 50
-    },
-    {
       "marketId": "2132776",
       "question": "Will Bitcoin reach $85,000 in May?",
       "outcome": "No",
       "shares": 52.576235541535226,
       "avgCost": 0.951,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2227281",
+      "question": "Will Manchester City FC win on 2026-05-24?",
+      "outcome": "Yes",
+      "shares": 58.47953216374269,
+      "avgCost": 0.855,
       "costBasis": 50
     }
   ],
@@ -1640,8 +1632,48 @@
       "amount": 50,
       "price": 0.951,
       "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T15:49:17.326Z",
+      "action": "SELL",
+      "marketId": "2074236",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+      "outcome": "No",
+      "proceeds": 49.76635514018692,
+      "price": 0.9585,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T15:49:17.326Z",
+      "action": "SELL",
+      "marketId": "2341184",
+      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T15:49:17.326Z",
+      "action": "BUY",
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9655,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-24T15:49:17.326Z",
+      "action": "BUY",
+      "marketId": "2227281",
+      "question": "Will Manchester City FC win on 2026-05-24?",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.855,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-24T11:55:29.380Z",
-  "lastReasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-05-24T15:49:17.326Z",
+  "lastReasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
 }
