@@ -1,22 +1,14 @@
 {
-  "cash": 69.59519328518485,
-  "totalValue": 425.6006954438997,
+  "cash": 47.45136385117439,
+  "totalValue": 429.67589423571235,
   "positions": [
     {
       "marketId": "1809560",
       "question": "Strait of Hormuz traffic returns to normal by end of May?",
       "outcome": "No",
-      "shares": 187.77011108899205,
-      "avgCost": 0.9624534967354271,
-      "costBasis": 180.72
-    },
-    {
-      "marketId": "558937",
-      "question": "Will Brazil win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 27.427317608337905,
-      "avgCost": 0.9115,
-      "costBasis": 25
+      "shares": 239.39633721186246,
+      "avgCost": 0.9637574354189721,
+      "costBasis": 230.72
     },
     {
       "marketId": "2132776",
@@ -35,11 +27,11 @@
       "costBasis": 50
     },
     {
-      "marketId": "2238716",
-      "question": "Will Club Atlético de Madrid win on 2026-05-24?",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
       "outcome": "No",
-      "shares": 52.91005291005291,
-      "avgCost": 0.945,
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
       "costBasis": 50
     }
   ],
@@ -1712,8 +1704,48 @@
       "amount": 50,
       "price": 0.945,
       "reasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
+    },
+    {
+      "ts": "2026-05-24T23:43:22.149Z",
+      "action": "SELL",
+      "marketId": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 24.97257268239166,
+      "price": 0.9105,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
+    },
+    {
+      "ts": "2026-05-24T23:43:22.149Z",
+      "action": "SELL",
+      "marketId": "2238716",
+      "question": "Will Club Atlético de Madrid win on 2026-05-24?",
+      "outcome": "No",
+      "proceeds": 52.883597883597886,
+      "price": 0.9995,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
+    },
+    {
+      "ts": "2026-05-24T23:43:22.149Z",
+      "action": "BUY",
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9685,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
+    },
+    {
+      "ts": "2026-05-24T23:43:22.149Z",
+      "action": "BUY",
+      "marketId": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-24T19:54:07.366Z",
-  "lastReasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
+  "lastUpdated": "2026-05-24T23:43:22.149Z",
+  "lastReasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
 }
