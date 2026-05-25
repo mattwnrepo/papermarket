@@ -1,6 +1,6 @@
 {
-  "cash": 231.98032180995244,
-  "totalValue": 431.98032180995244,
+  "cash": 31.980321809952443,
+  "totalValue": 432.1901853986198,
   "positions": [
     {
       "marketId": "2262267",
@@ -16,6 +16,22 @@
       "outcome": "No",
       "shares": 105.42962572482868,
       "avgCost": 0.9485,
+      "costBasis": 100
+    },
+    {
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "shares": 103.30578512396694,
+      "avgCost": 0.968,
+      "costBasis": 100
+    },
+    {
+      "marketId": "2328092",
+      "question": "Roland Garros ATP: Francisco Cerundolo vs Botic van de Zandschulp",
+      "outcome": "Yes",
+      "shares": 118.34319526627219,
+      "avgCost": 0.845,
       "costBasis": 100
     }
   ],
@@ -1788,8 +1804,28 @@
       "amount": 100,
       "price": 0.9485,
       "reasoning": "Sold all existing positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-25T18:18:33.220Z",
+      "action": "BUY",
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.968,
+      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshots with positive edge and 'Yes' on favourites with positive edge."
+    },
+    {
+      "ts": "2026-05-25T18:18:33.220Z",
+      "action": "BUY",
+      "marketId": "2328092",
+      "question": "Roland Garros ATP: Francisco Cerundolo vs Botic van de Zandschulp",
+      "outcome": "Yes",
+      "amount": 100,
+      "price": 0.845,
+      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshots with positive edge and 'Yes' on favourites with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-25T12:48:16.590Z",
-  "lastReasoning": "Sold all existing positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-05-25T18:18:33.220Z",
+  "lastReasoning": "Exploited favourite-longshot bias by buying 'No' on longshots with positive edge and 'Yes' on favourites with positive edge."
 }
