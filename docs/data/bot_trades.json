@@ -1,15 +1,7 @@
 {
-  "cash": 50.32351707622462,
-  "totalValue": 451.37011222442425,
+  "cash": 250.9588289906024,
+  "totalValue": 450.9588289906024,
   "positions": [
-    {
-      "marketId": "2262267",
-      "question": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
-      "outcome": "No",
-      "shares": 104.93179433368311,
-      "avgCost": 0.953,
-      "costBasis": 100
-    },
     {
       "marketId": "558939",
       "question": "Will Germany win the 2026 FIFA World Cup?",
@@ -19,19 +11,19 @@
       "costBasis": 100
     },
     {
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
       "outcome": "No",
-      "shares": 154.90537232726933,
-      "avgCost": 0.9683331039229179,
-      "costBasis": 150
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
+      "costBasis": 50
     },
     {
-      "marketId": "2074237",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 52.6592943654555,
-      "avgCost": 0.9495,
+      "shares": 51.84033177812338,
+      "avgCost": 0.9645,
       "costBasis": 50
     }
   ],
@@ -1854,8 +1846,58 @@
       "amount": 50,
       "price": 0.9495,
       "reasoning": "Sold a resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias, prioritizing new markets."
+    },
+    {
+      "ts": "2026-05-26T23:43:58.971Z",
+      "action": "SELL",
+      "marketId": "2262267",
+      "question": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
+      "outcome": "No",
+      "proceeds": 99.42287513116476,
+      "price": 0.9475,
+      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-26T23:43:58.971Z",
+      "action": "SELL",
+      "marketId": "1809560",
+      "question": "Strait of Hormuz traffic returns to normal by end of May?",
+      "outcome": "No",
+      "proceeds": 151.2650960775785,
+      "price": 0.9765,
+      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-26T23:43:58.971Z",
+      "action": "SELL",
+      "marketId": "2074237",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+      "outcome": "No",
+      "proceeds": 49.947340705634545,
+      "price": 0.9485,
+      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-26T23:43:58.971Z",
+      "action": "BUY",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-26T23:43:58.971Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9645,
+      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-26T19:29:39.126Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias, prioritizing new markets."
+  "lastUpdated": "2026-05-26T23:43:58.971Z",
+  "lastReasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
 }
