@@ -1,6 +1,6 @@
 {
-  "cash": 50.9588289906024,
-  "totalValue": 450.1576346536563,
+  "cash": 10.792162323935742,
+  "totalValue": 458.4910802886268,
   "positions": [
     {
       "marketId": "558939",
@@ -27,12 +27,20 @@
       "costBasis": 150
     },
     {
-      "marketId": "2354001",
-      "question": "US announces new Iran agreement/ceasefire extension by May 27?",
+      "marketId": "1472548",
+      "question": "Will Reza Pahlavi lead Iran in 2026?",
       "outcome": "No",
-      "shares": 111.11111111111111,
-      "avgCost": 0.9,
-      "costBasis": 100
+      "shares": 80.0854244527496,
+      "avgCost": 0.9365,
+      "costBasis": 75
+    },
+    {
+      "marketId": "2126542",
+      "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+      "outcome": "No",
+      "shares": 81.38903960933261,
+      "avgCost": 0.9215,
+      "costBasis": 75
     }
   ],
   "tradeLog": [
@@ -1924,8 +1932,38 @@
       "amount": 100,
       "price": 0.9,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with positive edge, adhering to the maximum trade limit and individual trade amount."
+    },
+    {
+      "ts": "2026-05-27T20:36:40.572Z",
+      "action": "SELL",
+      "marketId": "2354001",
+      "question": "US announces new Iran agreement/ceasefire extension by May 27?",
+      "outcome": "No",
+      "proceeds": 109.83333333333334,
+      "price": 0.9885,
+      "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-27T20:36:40.572Z",
+      "action": "BUY",
+      "marketId": "1472548",
+      "question": "Will Reza Pahlavi lead Iran in 2026?",
+      "outcome": "No",
+      "amount": 75,
+      "price": 0.9365,
+      "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-27T20:36:40.572Z",
+      "action": "BUY",
+      "marketId": "2126542",
+      "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+      "outcome": "No",
+      "amount": 75,
+      "price": 0.9215,
+      "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-27T12:32:53.368Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with positive edge, adhering to the maximum trade limit and individual trade amount."
+  "lastUpdated": "2026-05-27T20:36:40.573Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
 }
