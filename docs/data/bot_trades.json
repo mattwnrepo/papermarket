@@ -1,6 +1,6 @@
 {
-  "cash": 30.87086643657088,
-  "totalValue": 455.5432693644102,
+  "cash": 5.790781012118131,
+  "totalValue": 450.0516257178826,
   "positions": [
     {
       "marketId": "558939",
@@ -19,19 +19,27 @@
       "costBasis": 200
     },
     {
-      "marketId": "1472548",
-      "question": "Will Reza Pahlavi lead Iran in 2026?",
-      "outcome": "No",
-      "shares": 80.0854244527496,
-      "avgCost": 0.9365,
-      "costBasis": 75
-    },
-    {
       "marketId": "2111640",
       "question": "US-Iran nuclear deal by May 31?",
       "outcome": "No",
       "shares": 53.70569280343716,
       "avgCost": 0.931,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2354002",
+      "question": "US announces new Iran agreement/ceasefire extension by May 28?",
+      "outcome": "No",
+      "shares": 51.59958720330238,
+      "avgCost": 0.969,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "outcome": "No",
+      "shares": 53.908355795148246,
+      "avgCost": 0.9275,
       "costBasis": 50
     }
   ],
@@ -1994,8 +2002,38 @@
       "amount": 50,
       "price": 0.9625,
       "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
+    },
+    {
+      "ts": "2026-05-28T21:18:11.760Z",
+      "action": "SELL",
+      "marketId": "1472548",
+      "question": "Will Reza Pahlavi lead Iran in 2026?",
+      "outcome": "No",
+      "proceeds": 74.91991457554725,
+      "price": 0.9355,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-28T21:18:11.760Z",
+      "action": "BUY",
+      "marketId": "2354002",
+      "question": "US announces new Iran agreement/ceasefire extension by May 28?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.969,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-28T21:18:11.760Z",
+      "action": "BUY",
+      "marketId": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9275,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-28T12:52:36.917Z",
-  "lastReasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
+  "lastUpdated": "2026-05-28T21:18:11.760Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
 }
