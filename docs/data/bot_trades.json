@@ -1,6 +1,6 @@
 {
-  "cash": 10.792162323935742,
-  "totalValue": 459.1990454669857,
+  "cash": 30.87086643657088,
+  "totalValue": 455.5432693644102,
   "positions": [
     {
       "marketId": "558939",
@@ -11,20 +11,12 @@
       "costBasis": 100
     },
     {
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "shares": 51.679586563307495,
-      "avgCost": 0.9675,
-      "costBasis": 50
-    },
-    {
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 155.6286037033958,
-      "avgCost": 0.963833102852204,
-      "costBasis": 150
+      "shares": 207.57665565144777,
+      "avgCost": 0.9634994810583609,
+      "costBasis": 200
     },
     {
       "marketId": "1472548",
@@ -35,12 +27,12 @@
       "costBasis": 75
     },
     {
-      "marketId": "2126542",
-      "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+      "marketId": "2111640",
+      "question": "US-Iran nuclear deal by May 31?",
       "outcome": "No",
-      "shares": 81.38903960933261,
-      "avgCost": 0.9215,
-      "costBasis": 75
+      "shares": 53.70569280343716,
+      "avgCost": 0.931,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
@@ -1962,8 +1954,48 @@
       "amount": 75,
       "price": 0.9215,
       "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-28T12:52:36.917Z",
+      "action": "SELL",
+      "marketId": "2169995",
+      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "outcome": "No",
+      "proceeds": 43.69509043927649,
+      "price": 0.8455,
+      "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
+    },
+    {
+      "ts": "2026-05-28T12:52:36.917Z",
+      "action": "SELL",
+      "marketId": "2126542",
+      "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+      "outcome": "No",
+      "proceeds": 76.38361367335865,
+      "price": 0.9385,
+      "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
+    },
+    {
+      "ts": "2026-05-28T12:52:36.917Z",
+      "action": "BUY",
+      "marketId": "2111640",
+      "question": "US-Iran nuclear deal by May 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.931,
+      "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
+    },
+    {
+      "ts": "2026-05-28T12:52:36.917Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9625,
+      "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
     }
   ],
-  "lastUpdated": "2026-05-28T00:14:40.051Z",
-  "lastReasoning": "Holding cash because current balance is below the minimum required for new BUY trades ($20 USDC)."
+  "lastUpdated": "2026-05-28T12:52:36.917Z",
+  "lastReasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
 }
