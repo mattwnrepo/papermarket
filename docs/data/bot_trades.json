@@ -1,6 +1,6 @@
 {
-  "cash": 5.790781012118131,
-  "totalValue": 454.1783190963263,
+  "cash": 7.390368215420509,
+  "totalValue": 456.67370851326484,
   "positions": [
     {
       "marketId": "558939",
@@ -14,9 +14,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 207.57665565144777,
-      "avgCost": 0.9634994810583609,
-      "costBasis": 200
+      "shares": 233.55068162547374,
+      "avgCost": 0.963388325112295,
+      "costBasis": 225
     },
     {
       "marketId": "2111640",
@@ -27,43 +27,23 @@
       "costBasis": 50
     },
     {
-      "marketId": "2354002",
-      "question": "US announces new Iran agreement/ceasefire extension by May 28?",
-      "outcome": "No",
-      "shares": 51.59958720330238,
-      "avgCost": 0.969,
-      "costBasis": 50
-    },
-    {
       "marketId": "2133405",
       "question": "Iran closes its airspace by May 31?",
       "outcome": "No",
       "shares": 53.908355795148246,
       "avgCost": 0.9275,
       "costBasis": 50
+    },
+    {
+      "marketId": "2109455",
+      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
+      "outcome": "No",
+      "shares": 26.096033402922757,
+      "avgCost": 0.958,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-15T11:32:16.476Z",
-      "action": "BUY",
-      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
-      "outcome": "Yes",
-      "amount": 150,
-      "price": 0.8095,
-      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles.",
-      "marketId": "2159863"
-    },
-    {
-      "ts": "2026-05-15T11:32:16.476Z",
-      "action": "BUY",
-      "question": "Strait of Hormuz traffic returns to normal by end of June?",
-      "outcome": "Yes",
-      "amount": 100,
-      "price": 0.295,
-      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles.",
-      "marketId": "1971905"
-    },
     {
       "ts": "2026-05-15T11:32:16.476Z",
       "action": "BUY",
@@ -2032,8 +2012,38 @@
       "amount": 50,
       "price": 0.9275,
       "reasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-29T19:55:22.592Z",
+      "action": "SELL",
+      "marketId": "2354002",
+      "question": "US announces new Iran agreement/ceasefire extension by May 28?",
+      "outcome": "No",
+      "proceeds": 51.59958720330238,
+      "price": 1,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-29T19:55:22.592Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9625,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-29T19:55:22.592Z",
+      "action": "BUY",
+      "marketId": "2109455",
+      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.958,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-29T10:55:37.495Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-05-29T19:55:22.592Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
 }
