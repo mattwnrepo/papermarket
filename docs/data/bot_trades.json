@@ -1,6 +1,6 @@
 {
-  "cash": 5.503575762590316,
-  "totalValue": 455.0096072656787,
+  "cash": 0,
+  "totalValue": 455.6746075064067,
   "positions": [
     {
       "marketId": "558939",
@@ -14,9 +14,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 233.55068162547374,
-      "avgCost": 0.963388325112295,
-      "costBasis": 225
+      "shares": 240.0144296917445,
+      "avgCost": 0.9632297486045948,
+      "costBasis": 231.18903877345426
     },
     {
       "marketId": "2111640",
@@ -35,45 +35,15 @@
       "costBasis": 50
     },
     {
-      "marketId": "2126515",
-      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
       "outcome": "No",
-      "shares": 25.86652871184687,
-      "avgCost": 0.9665,
+      "shares": 26.17801047120419,
+      "avgCost": 0.955,
       "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-15T12:32:52.524Z",
-      "action": "BUY",
-      "question": "Spurs vs. Timberwolves",
-      "outcome": "Yes",
-      "amount": 75,
-      "price": 0.655,
-      "reasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves.",
-      "marketId": "2204836"
-    },
-    {
-      "ts": "2026-05-15T12:55:21.353Z",
-      "action": "BUY",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "amount": 100,
-      "price": 0.1735,
-      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions.",
-      "marketId": "558936"
-    },
-    {
-      "ts": "2026-05-15T12:55:21.353Z",
-      "action": "BUY",
-      "question": "Will Finland win Eurovision 2026?",
-      "outcome": "Yes",
-      "amount": 100,
-      "price": 0.5535,
-      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions.",
-      "marketId": "842015"
-    },
     {
       "ts": "2026-05-15T12:55:21.353Z",
       "action": "BUY",
@@ -2042,8 +2012,38 @@
       "amount": 25,
       "price": 0.957,
       "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
+    },
+    {
+      "ts": "2026-05-30T09:06:01.773Z",
+      "action": "SELL",
+      "marketId": "2126515",
+      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "proceeds": 25.68546301086394,
+      "price": 0.993,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-30T09:06:01.773Z",
+      "action": "BUY",
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.955,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-30T09:06:01.773Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 6.189038773454257,
+      "price": 0.9575,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-30T00:16:35.601Z",
-  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
+  "lastUpdated": "2026-05-30T09:06:01.773Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
 }
