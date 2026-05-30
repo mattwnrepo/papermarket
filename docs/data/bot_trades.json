@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 457.61575210326845,
+  "totalValue": 453.131001781235,
   "positions": [
     {
       "marketId": "558939",
@@ -33,27 +33,9 @@
       "shares": 54.05405405405405,
       "avgCost": 0.925,
       "costBasis": 50
-    },
-    {
-      "marketId": "2324483",
-      "question": "Spread: Paris Saint-Germain FC (-1.5)",
-      "outcome": "No",
-      "shares": 66.58807431050231,
-      "avgCost": 0.085,
-      "costBasis": 5.659986316392697
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T08:44:34.208Z",
-      "action": "BUY",
-      "marketId": "2267959",
-      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "amount": 54.81894150417828,
-      "price": 0.295,
-      "reasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
-    },
     {
       "ts": "2026-05-16T09:54:32.896Z",
       "action": "SELL",
@@ -2043,8 +2025,18 @@
       "amount": 5.659986316392697,
       "price": 0.085,
       "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
+    },
+    {
+      "ts": "2026-05-30T20:18:13.486Z",
+      "action": "SELL",
+      "marketId": "2324483",
+      "question": "Spread: Paris Saint-Germain FC (-1.5)",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy."
     }
   ],
-  "lastUpdated": "2026-05-30T16:36:15.802Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
+  "lastUpdated": "2026-05-30T20:18:13.486Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy."
 }
