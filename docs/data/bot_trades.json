@@ -1,6 +1,6 @@
 {
-  "cash": 7.390368215420509,
-  "totalValue": 456.67370851326484,
+  "cash": 5.503575762590316,
+  "totalValue": 455.0096072656787,
   "positions": [
     {
       "marketId": "558939",
@@ -27,53 +27,23 @@
       "costBasis": 50
     },
     {
-      "marketId": "2133405",
-      "question": "Iran closes its airspace by May 31?",
-      "outcome": "No",
-      "shares": 53.908355795148246,
-      "avgCost": 0.9275,
-      "costBasis": 50
-    },
-    {
       "marketId": "2109455",
       "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
       "outcome": "No",
-      "shares": 26.096033402922757,
-      "avgCost": 0.958,
+      "shares": 52.21933538829371,
+      "avgCost": 0.9574997389033942,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2126515",
+      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "shares": 25.86652871184687,
+      "avgCost": 0.9665,
       "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-15T11:32:16.476Z",
-      "action": "BUY",
-      "question": "Will Bitcoin hit $150k by June 30, 2026?",
-      "outcome": "Yes",
-      "amount": 50,
-      "price": 0.0135,
-      "reasoning": "I am balancing a high-probability bet on diplomatic rhetoric with value plays on maritime stability and long-term cryptocurrency growth cycles.",
-      "marketId": "573655"
-    },
-    {
-      "ts": "2026-05-15T12:17:32.024Z",
-      "action": "BUY",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "Yes",
-      "amount": 150,
-      "price": 0.105,
-      "reasoning": "I am diversifying my portfolio by taking a value position on the US-Iran peace deal by May 31, 2026, while maintaining my existing core positions.",
-      "marketId": "1919425"
-    },
-    {
-      "ts": "2026-05-15T12:32:52.524Z",
-      "action": "BUY",
-      "question": "US x Iran permanent peace deal by June 30, 2026?",
-      "outcome": "Yes",
-      "amount": 100,
-      "price": 0.335,
-      "reasoning": "I am diversifying my portfolio by adding a value play on the US-Iran peace deal and taking a moderate position on the Spurs vs. Timberwolves game while maintaining cash reserves.",
-      "marketId": "1962237"
-    },
     {
       "ts": "2026-05-15T12:32:52.524Z",
       "action": "BUY",
@@ -2042,8 +2012,38 @@
       "amount": 25,
       "price": 0.958,
       "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-30T00:16:35.601Z",
+      "action": "SELL",
+      "marketId": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "outcome": "No",
+      "proceeds": 48.11320754716981,
+      "price": 0.8925,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
+    },
+    {
+      "ts": "2026-05-30T00:16:35.601Z",
+      "action": "BUY",
+      "marketId": "2126515",
+      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9665,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
+    },
+    {
+      "ts": "2026-05-30T00:16:35.601Z",
+      "action": "BUY",
+      "marketId": "2109455",
+      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.957,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
     }
   ],
-  "lastUpdated": "2026-05-29T19:55:22.592Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-05-30T00:16:35.601Z",
+  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
 }
