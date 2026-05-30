@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 455.6746075064067,
+  "cash": 9.843355628126346,
+  "totalValue": 457.15350783163655,
   "positions": [
     {
       "marketId": "558939",
@@ -22,57 +22,20 @@
       "marketId": "2111640",
       "question": "US-Iran nuclear deal by May 31?",
       "outcome": "No",
-      "shares": 53.70569280343716,
-      "avgCost": 0.931,
-      "costBasis": 50
-    },
-    {
-      "marketId": "2109455",
-      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
-      "outcome": "No",
-      "shares": 52.21933538829371,
-      "avgCost": 0.9574997389033942,
-      "costBasis": 50
+      "shares": 74.67005339043925,
+      "avgCost": 0.9374574788902293,
+      "costBasis": 70
     },
     {
       "marketId": "1919425",
       "question": "US x Iran permanent peace deal by May 31, 2026?",
       "outcome": "No",
-      "shares": 26.17801047120419,
-      "avgCost": 0.955,
-      "costBasis": 25
+      "shares": 46.871233440681685,
+      "avgCost": 0.9600771453337186,
+      "costBasis": 45
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-15T12:55:21.353Z",
-      "action": "BUY",
-      "question": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "amount": 75,
-      "price": 0.325,
-      "reasoning": "I am diversifying my portfolio by adding a value play on the 2026 World Cup and increasing exposure to the high-volume Eurovision market while maintaining my existing positions.",
-      "marketId": "2250026"
-    },
-    {
-      "ts": "2026-05-15T18:13:09.382Z",
-      "action": "BUY",
-      "question": "Will Australia win Eurovision 2026?",
-      "outcome": "Yes",
-      "amount": 40,
-      "price": 0.1795,
-      "reasoning": "I am diversifying into the Eurovision market by betting on Australia as a value play and increasing my position in the US alien confirmation market, while maintaining cash reserves."
-    },
-    {
-      "ts": "2026-05-15T18:13:09.382Z",
-      "action": "BUY",
-      "question": "Will the US confirm that aliens exist before 2027?",
-      "outcome": "Yes",
-      "amount": 30,
-      "price": 0.135,
-      "reasoning": "I am diversifying into the Eurovision market by betting on Australia as a value play and increasing my position in the US alien confirmation market, while maintaining cash reserves.",
-      "marketId": "703257"
-    },
     {
       "ts": "2026-05-15T21:42:16.954Z",
       "action": "BUY",
@@ -2042,8 +2005,38 @@
       "amount": 6.189038773454257,
       "price": 0.9575,
       "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-30T12:51:50.439Z",
+      "action": "SELL",
+      "marketId": "2109455",
+      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
+      "outcome": "No",
+      "proceeds": 49.843355628126346,
+      "price": 0.9545,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-30T12:51:50.439Z",
+      "action": "BUY",
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9665,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-30T12:51:50.439Z",
+      "action": "BUY",
+      "marketId": "2111640",
+      "question": "US-Iran nuclear deal by May 31?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.954,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-05-30T09:06:01.773Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-05-30T12:51:50.439Z",
+  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
 }
