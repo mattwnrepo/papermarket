@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 453.131001781235,
+  "cash": 3.1019822692400254,
+  "totalValue": 453.99687978016647,
   "positions": [
     {
       "marketId": "558939",
@@ -19,53 +19,31 @@
       "costBasis": 231.18903877345426
     },
     {
-      "marketId": "2111640",
-      "question": "US-Iran nuclear deal by May 31?",
-      "outcome": "No",
-      "shares": 74.67005339043925,
-      "avgCost": 0.9374574788902293,
-      "costBasis": 70
-    },
-    {
       "marketId": "1927582",
       "question": "Will Satoshi's identity be revealed by December 31?",
       "outcome": "No",
       "shares": 54.05405405405405,
       "avgCost": 0.925,
       "costBasis": 50
+    },
+    {
+      "marketId": "558940",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 38.91050583657588,
+      "avgCost": 0.8995,
+      "costBasis": 35
+    },
+    {
+      "marketId": "2340843",
+      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
+      "outcome": "No",
+      "shares": 37.83783783783784,
+      "avgCost": 0.925,
+      "costBasis": 35
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T09:54:32.896Z",
-      "action": "SELL",
-      "marketId": "842015",
-      "question": "Will Finland win Eurovision 2026?",
-      "outcome": "Yes",
-      "proceeds": 88.9792231255646,
-      "price": 0.4925,
-      "reasoning": "Rebalancing existing positions and taking a small, diversified bet on a high-probability e-sports market."
-    },
-    {
-      "ts": "2026-05-16T09:54:32.896Z",
-      "action": "BUY",
-      "marketId": "2223261",
-      "question": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
-      "outcome": "Yes",
-      "amount": 50,
-      "price": 0.8485,
-      "reasoning": "Rebalancing existing positions and taking a small, diversified bet on a high-probability e-sports market."
-    },
-    {
-      "ts": "2026-05-16T10:21:46.710Z",
-      "action": "SELL",
-      "marketId": "2223261",
-      "question": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
-      "outcome": "Yes",
-      "proceeds": 14.437242192103712,
-      "price": 0.245,
-      "reasoning": "Focusing on a mix of high-confidence sports bets and long-term value plays, while also selling a position that has significantly dropped in probability."
-    },
     {
       "ts": "2026-05-16T10:21:46.710Z",
       "action": "BUY",
@@ -2035,8 +2013,38 @@
       "proceeds": 0,
       "price": 0,
       "reasoning": "Sold a resolved position to reclaim cash and then bought new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-05-30T23:44:51.684Z",
+      "action": "SELL",
+      "marketId": "2111640",
+      "question": "US-Iran nuclear deal by May 31?",
+      "outcome": "No",
+      "proceeds": 73.10198226924003,
+      "price": 0.979,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
+    },
+    {
+      "ts": "2026-05-30T23:44:51.684Z",
+      "action": "BUY",
+      "marketId": "558940",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 35,
+      "price": 0.8995,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
+    },
+    {
+      "ts": "2026-05-30T23:44:51.684Z",
+      "action": "BUY",
+      "marketId": "2340843",
+      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
+      "outcome": "No",
+      "amount": 35,
+      "price": 0.925,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
     }
   ],
-  "lastUpdated": "2026-05-30T20:18:13.486Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and then bought new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy."
+  "lastUpdated": "2026-05-30T23:44:51.684Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
 }
