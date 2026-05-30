@@ -1,6 +1,6 @@
 {
-  "cash": 9.843355628126346,
-  "totalValue": 457.15350783163655,
+  "cash": 0,
+  "totalValue": 457.61575210326845,
   "positions": [
     {
       "marketId": "558939",
@@ -27,45 +27,23 @@
       "costBasis": 70
     },
     {
-      "marketId": "1919425",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "marketId": "1927582",
+      "question": "Will Satoshi's identity be revealed by December 31?",
       "outcome": "No",
-      "shares": 46.871233440681685,
-      "avgCost": 0.9600771453337186,
-      "costBasis": 45
+      "shares": 54.05405405405405,
+      "avgCost": 0.925,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2324483",
+      "question": "Spread: Paris Saint-Germain FC (-1.5)",
+      "outcome": "No",
+      "shares": 66.58807431050231,
+      "avgCost": 0.085,
+      "costBasis": 5.659986316392697
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-15T21:42:16.954Z",
-      "action": "BUY",
-      "question": "Will Scottie Scheffler win the 2026 PGA Championship?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.185,
-      "reasoning": "I am diversifying my portfolio by taking a value-oriented position on the 2026 PGA Championship and increasing exposure to the high-volume US-Iran peace deal market while maintaining a small cash buffer.",
-      "marketId": "2234555"
-    },
-    {
-      "ts": "2026-05-15T21:42:16.954Z",
-      "action": "BUY",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.115,
-      "reasoning": "I am diversifying my portfolio by taking a value-oriented position on the 2026 PGA Championship and increasing exposure to the high-volume US-Iran peace deal market while maintaining a small cash buffer.",
-      "marketId": "1919425"
-    },
-    {
-      "ts": "2026-05-16T08:44:34.208Z",
-      "action": "SELL",
-      "marketId": "842005",
-      "question": "Will Australia win Eurovision 2026?",
-      "outcome": "Yes",
-      "proceeds": 54.81894150417828,
-      "price": 0.246,
-      "reasoning": "I am selling a position where the price has moved against me and buying into a new market with a moderate probability and good volume."
-    },
     {
       "ts": "2026-05-16T08:44:34.208Z",
       "action": "BUY",
@@ -2035,8 +2013,38 @@
       "amount": 20,
       "price": 0.954,
       "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-05-30T16:36:15.802Z",
+      "action": "SELL",
+      "marketId": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "outcome": "No",
+      "proceeds": 45.81663068826635,
+      "price": 0.9775,
+      "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
+    },
+    {
+      "ts": "2026-05-30T16:36:15.802Z",
+      "action": "BUY",
+      "marketId": "1927582",
+      "question": "Will Satoshi's identity be revealed by December 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.925,
+      "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
+    },
+    {
+      "ts": "2026-05-30T16:36:15.802Z",
+      "action": "BUY",
+      "marketId": "2324483",
+      "question": "Spread: Paris Saint-Germain FC (-1.5)",
+      "outcome": "No",
+      "amount": 5.659986316392697,
+      "price": 0.085,
+      "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
     }
   ],
-  "lastUpdated": "2026-05-30T12:51:50.439Z",
-  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions and added to an existing 'No' longshot position, exploiting the favourite-longshot bias with positive edge."
+  "lastUpdated": "2026-05-30T16:36:15.802Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
 }
