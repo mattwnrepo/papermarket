@@ -1,6 +1,6 @@
 {
-  "cash": 3.1019822692400254,
-  "totalValue": 455.22985876974883,
+  "cash": 0,
+  "totalValue": 455.5893182292083,
   "positions": [
     {
       "marketId": "558939",
@@ -14,17 +14,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 240.0144296917445,
-      "avgCost": 0.9632297486045948,
-      "costBasis": 231.18903877345426
-    },
-    {
-      "marketId": "1927582",
-      "question": "Will Satoshi's identity be revealed by December 31?",
-      "outcome": "No",
-      "shares": 54.05405405405405,
-      "avgCost": 0.925,
-      "costBasis": 50
+      "shares": 282.2643794714363,
+      "avgCost": 0.9625217894870155,
+      "costBasis": 271.6856156372889
     },
     {
       "marketId": "558940",
@@ -35,55 +27,15 @@
       "costBasis": 35
     },
     {
-      "marketId": "2340843",
-      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
+      "marketId": "1972137",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
       "outcome": "No",
-      "shares": 37.83783783783784,
-      "avgCost": 0.925,
-      "costBasis": 35
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:21:46.710Z",
-      "action": "BUY",
-      "marketId": "2263884",
-      "question": "Parma: Dayana Yastremska vs Jessica Bouzas Maneiro",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.835,
-      "reasoning": "Focusing on a mix of high-confidence sports bets and long-term value plays, while also selling a position that has significantly dropped in probability."
-    },
-    {
-      "ts": "2026-05-16T10:21:46.710Z",
-      "action": "BUY",
-      "marketId": "2099033",
-      "question": "Will Manchester City FC win on 2026-05-16?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.565,
-      "reasoning": "Focusing on a mix of high-confidence sports bets and long-term value plays, while also selling a position that has significantly dropped in probability."
-    },
-    {
-      "ts": "2026-05-16T10:37:43.808Z",
-      "action": "SELL",
-      "marketId": "2159863",
-      "question": "Will Trump say \"Iran\" during events with Xi Jinping?",
-      "outcome": "Yes",
-      "proceeds": 7.59728227300803,
-      "price": 0.041,
-      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
-    },
-    {
-      "ts": "2026-05-16T10:37:43.808Z",
-      "action": "SELL",
-      "marketId": "2204836",
-      "question": "Spurs vs. Timberwolves",
-      "outcome": "Yes",
-      "proceeds": 114.50381679389312,
-      "price": 1,
-      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
-    },
     {
       "ts": "2026-05-16T10:37:43.808Z",
       "action": "SELL",
@@ -2043,8 +1995,48 @@
       "amount": 35,
       "price": 0.925,
       "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
+    },
+    {
+      "ts": "2026-05-31T15:03:42.460Z",
+      "action": "SELL",
+      "marketId": "1927582",
+      "question": "Will Satoshi's identity be revealed by December 31?",
+      "outcome": "No",
+      "proceeds": 50.54054054054054,
+      "price": 0.935,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-31T15:03:42.460Z",
+      "action": "SELL",
+      "marketId": "2340843",
+      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
+      "outcome": "No",
+      "proceeds": 36.85405405405405,
+      "price": 0.974,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-31T15:03:42.460Z",
+      "action": "BUY",
+      "marketId": "1972137",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-05-31T15:03:42.460Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 40.49657686383462,
+      "price": 0.9585,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-05-31T09:50:33.892Z",
-  "lastReasoning": "My cash balance is too low ($3.10 USDC) to execute any new BUY trades, as each trade must be between $20-$100 USDC. Therefore, I am holding cash."
+  "lastUpdated": "2026-05-31T15:03:42.461Z",
+  "lastReasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
 }
