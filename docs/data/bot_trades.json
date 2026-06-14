@@ -1,6 +1,6 @@
 {
-  "cash": 216.1203351182557,
-  "totalValue": 449.70454241669336,
+  "cash": 218.70912486633154,
+  "totalValue": 452.3711531764423,
   "positions": [
     {
       "marketId": "558939",
@@ -19,63 +19,23 @@
       "costBasis": 35
     },
     {
-      "marketId": "2481461",
-      "question": "Will Iran close its airspace by June 15?",
+      "marketId": "2508397",
+      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
       "outcome": "No",
-      "shares": 52.27391531625719,
-      "avgCost": 0.9565,
+      "shares": 51.94805194805195,
+      "avgCost": 0.9625,
       "costBasis": 50
     },
     {
-      "marketId": "2481460",
-      "question": "Will Iran close its airspace by June 14?",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 52.32862375719518,
-      "avgCost": 0.9555,
+      "shares": 52.6592943654555,
+      "avgCost": 0.9495,
       "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "BUY",
-      "marketId": "559652",
-      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.2445,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
-    {
-      "ts": "2026-05-16T10:51:46.818Z",
-      "action": "SELL",
-      "marketId": "2267959",
-      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "proceeds": 23.228365044143338,
-      "price": 0.125,
-      "reasoning": "I am selling positions where the price has dropped significantly or the market is less appealing, and buying into markets with good value or where I have existing positions that are performing well."
-    },
-    {
-      "ts": "2026-05-16T10:51:46.818Z",
-      "action": "SELL",
-      "marketId": "2263884",
-      "question": "Parma: Dayana Yastremska vs Jessica Bouzas Maneiro",
-      "outcome": "Yes",
-      "proceeds": 6.736526946107785,
-      "price": 0.375,
-      "reasoning": "I am selling positions where the price has dropped significantly or the market is less appealing, and buying into markets with good value or where I have existing positions that are performing well."
-    },
-    {
-      "ts": "2026-05-16T10:51:46.818Z",
-      "action": "SELL",
-      "marketId": "2203947",
-      "question": "LoL: ThunderTalk Gaming vs EDward Gaming (BO3) - LPL Group Nirvana",
-      "outcome": "Yes",
-      "proceeds": 11.451612903225806,
-      "price": 0.355,
-      "reasoning": "I am selling positions where the price has dropped significantly or the market is less appealing, and buying into markets with good value or where I have existing positions that are performing well."
-    },
     {
       "ts": "2026-05-16T10:51:46.818Z",
       "action": "BUY",
@@ -2035,8 +1995,48 @@
       "amount": 50,
       "price": 0.9555,
       "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T23:19:43.111Z",
+      "action": "SELL",
+      "marketId": "2481461",
+      "question": "Will Iran close its airspace by June 15?",
+      "outcome": "No",
+      "proceeds": 51.411395713538944,
+      "price": 0.9835,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
+    },
+    {
+      "ts": "2026-06-14T23:19:43.111Z",
+      "action": "SELL",
+      "marketId": "2481460",
+      "question": "Will Iran close its airspace by June 14?",
+      "outcome": "No",
+      "proceeds": 51.17739403453689,
+      "price": 0.978,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
+    },
+    {
+      "ts": "2026-06-14T23:19:43.111Z",
+      "action": "BUY",
+      "marketId": "2508397",
+      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9625,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
+    },
+    {
+      "ts": "2026-06-14T23:19:43.111Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9495,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
     }
   ],
-  "lastUpdated": "2026-06-14T21:53:34.810Z",
-  "lastReasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-06-14T23:19:43.111Z",
+  "lastReasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
 }
