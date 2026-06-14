@@ -1,6 +1,6 @@
 {
-  "cash": 175.75932428793078,
-  "totalValue": 449.3435315863684,
+  "cash": 216.1203351182557,
+  "totalValue": 449.70454241669336,
   "positions": [
     {
       "marketId": "558939",
@@ -19,63 +19,23 @@
       "costBasis": 35
     },
     {
-      "marketId": "2508397",
-      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
+      "marketId": "2481461",
+      "question": "Will Iran close its airspace by June 15?",
       "outcome": "No",
-      "shares": 72.20216606498195,
-      "avgCost": 0.9695,
-      "costBasis": 70
+      "shares": 52.27391531625719,
+      "avgCost": 0.9565,
+      "costBasis": 50
     },
     {
-      "marketId": "1708086",
-      "question": "Kharg Island no longer under Iranian control by June 30?",
+      "marketId": "2481460",
+      "question": "Will Iran close its airspace by June 14?",
       "outcome": "No",
-      "shares": 72.20216606498195,
-      "avgCost": 0.9695,
-      "costBasis": 70
+      "shares": 52.32862375719518,
+      "avgCost": 0.9555,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "SELL",
-      "marketId": "1962237",
-      "question": "US x Iran permanent peace deal by June 30, 2026?",
-      "outcome": "Yes",
-      "proceeds": 91.04477611940297,
-      "price": 0.305,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "SELL",
-      "marketId": "558936",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "outcome": "Yes",
-      "proceeds": 100.00000000000001,
-      "price": 0.1735,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "BUY",
-      "marketId": "842015",
-      "question": "Will Finland win Eurovision 2026?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.489,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "BUY",
-      "marketId": "553866",
-      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.226,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
     {
       "ts": "2026-05-16T10:47:59.769Z",
       "action": "BUY",
@@ -2035,8 +1995,48 @@
       "amount": 70,
       "price": 0.9695,
       "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T21:53:34.810Z",
+      "action": "SELL",
+      "marketId": "2508397",
+      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
+      "outcome": "No",
+      "proceeds": 70.10830324909747,
+      "price": 0.971,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T21:53:34.810Z",
+      "action": "SELL",
+      "marketId": "1708086",
+      "question": "Kharg Island no longer under Iranian control by June 30?",
+      "outcome": "No",
+      "proceeds": 70.25270758122744,
+      "price": 0.973,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T21:53:34.810Z",
+      "action": "BUY",
+      "marketId": "2481461",
+      "question": "Will Iran close its airspace by June 15?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9565,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T21:53:34.810Z",
+      "action": "BUY",
+      "marketId": "2481460",
+      "question": "Will Iran close its airspace by June 14?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9555,
+      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-06-14T20:23:30.033Z",
-  "lastReasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-06-14T21:53:34.810Z",
+  "lastReasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
 }
