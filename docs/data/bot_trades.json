@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 451.7916377038956,
+  "cash": 175.75932428793078,
+  "totalValue": 449.3435315863684,
   "positions": [
     {
       "marketId": "558939",
@@ -11,53 +11,31 @@
       "costBasis": 100
     },
     {
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 334.6680702574783,
-      "avgCost": 0.9626749616770205,
-      "costBasis": 322.1765717096403
-    },
-    {
       "marketId": "558940",
       "question": "Will Portugal win the 2026 FIFA World Cup?",
       "outcome": "No",
       "shares": 38.91050583657588,
       "avgCost": 0.8995,
       "costBasis": 35
+    },
+    {
+      "marketId": "2508397",
+      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
+      "outcome": "No",
+      "shares": 72.20216606498195,
+      "avgCost": 0.9695,
+      "costBasis": 70
+    },
+    {
+      "marketId": "1708086",
+      "question": "Kharg Island no longer under Iranian control by June 30?",
+      "outcome": "No",
+      "shares": 72.20216606498195,
+      "avgCost": 0.9695,
+      "costBasis": 70
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:37:43.808Z",
-      "action": "BUY",
-      "marketId": "2203947",
-      "question": "LoL: ThunderTalk Gaming vs EDward Gaming (BO3) - LPL Group Nirvana",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.465,
-      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
-    },
-    {
-      "ts": "2026-05-16T10:37:43.808Z",
-      "action": "BUY",
-      "marketId": "2080224",
-      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
-      "outcome": "Yes",
-      "amount": 15,
-      "price": 0.395,
-      "reasoning": "Selling resolved and significantly dropped positions to free up cash, then making a few balanced buys on promising active markets."
-    },
-    {
-      "ts": "2026-05-16T10:47:59.769Z",
-      "action": "SELL",
-      "marketId": "573655",
-      "question": "Will Bitcoin hit $150k by June 30, 2026?",
-      "outcome": "Yes",
-      "proceeds": 50,
-      "price": 0.0135,
-      "reasoning": "Selling positions that are no longer active to free up cash, and buying into a few new markets with moderate risk and potential upside."
-    },
     {
       "ts": "2026-05-16T10:47:59.769Z",
       "action": "SELL",
@@ -2027,8 +2005,38 @@
       "amount": 50.49095607235142,
       "price": 0.9635,
       "reasoning": "Sold a dropped position to reclaim cash, then bought into two new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T20:23:30.033Z",
+      "action": "SELL",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 315.7593242879308,
+      "price": 0.9435,
+      "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T20:23:30.033Z",
+      "action": "BUY",
+      "marketId": "2508397",
+      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
+      "outcome": "No",
+      "amount": 70,
+      "price": 0.9695,
+      "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-14T20:23:30.033Z",
+      "action": "BUY",
+      "marketId": "1708086",
+      "question": "Kharg Island no longer under Iranian control by June 30?",
+      "outcome": "No",
+      "amount": 70,
+      "price": 0.9695,
+      "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-06-14T19:01:09.467Z",
-  "lastReasoning": "Despite identifying strong bias signals with positive edge, no trades were executed because the portfolio has $0.00 USDC cash and no positions were eligible for sale (stop-loss or resolved)."
+  "lastUpdated": "2026-06-14T20:23:30.033Z",
+  "lastReasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
 }
