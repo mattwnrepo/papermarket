@@ -1,6 +1,6 @@
 {
-  "cash": 72.20625145205585,
-  "totalValue": 455.51074451940553,
+  "cash": 0,
+  "totalValue": 456.5723121930175,
   "positions": [
     {
       "marketId": "558939",
@@ -22,9 +22,9 @@
       "marketId": "558941",
       "question": "Will Netherlands win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 157.9778830963665,
-      "avgCost": 0.9495000000000001,
-      "costBasis": 150
+      "shares": 212.85839313387459,
+      "avgCost": 0.9507891319254438,
+      "costBasis": 202.38344683080146
     },
     {
       "marketId": "558938",
@@ -41,29 +41,17 @@
       "shares": 56.08524957936063,
       "avgCost": 0.8915,
       "costBasis": 50
+    },
+    {
+      "marketId": "2326687",
+      "question": "Spread: Uruguay (-1.5)",
+      "outcome": "No",
+      "shares": 360.41462947735255,
+      "avgCost": 0.055,
+      "costBasis": 19.82280462125439
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "SELL",
-      "marketId": "559652",
-      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-      "outcome": "Yes",
-      "proceeds": 15,
-      "price": 0.2445,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "SELL",
-      "marketId": "2267959",
-      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "proceeds": 0.2,
-      "price": 0.0005,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
     {
       "ts": "2026-05-16T14:42:20.329Z",
       "action": "BUY",
@@ -2043,8 +2031,28 @@
       "amount": 50,
       "price": 0.8915,
       "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+    },
+    {
+      "ts": "2026-06-15T23:20:27.158Z",
+      "action": "BUY",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 52.38344683080146,
+      "price": 0.9545,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive statistical edge, prioritizing the highest edge opportunities. No stop-loss or dropped positions were found."
+    },
+    {
+      "ts": "2026-06-15T23:20:27.158Z",
+      "action": "BUY",
+      "marketId": "2326687",
+      "question": "Spread: Uruguay (-1.5)",
+      "outcome": "No",
+      "amount": 19.82280462125439,
+      "price": 0.055,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive statistical edge, prioritizing the highest edge opportunities. No stop-loss or dropped positions were found."
     }
   ],
-  "lastUpdated": "2026-06-15T21:25:52.640Z",
-  "lastReasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+  "lastUpdated": "2026-06-15T23:20:27.158Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive statistical edge, prioritizing the highest edge opportunities. No stop-loss or dropped positions were found."
 }
