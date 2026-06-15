@@ -1,6 +1,6 @@
 {
-  "cash": 9.514319671526323,
-  "totalValue": 452.9160755494865,
+  "cash": 72.20625145205585,
+  "totalValue": 455.51074451940553,
   "positions": [
     {
       "marketId": "558939",
@@ -27,81 +27,23 @@
       "costBasis": 150
     },
     {
-      "marketId": "2241674",
-      "question": "Israel closes its airspace by June 30?",
+      "marketId": "558938",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 105.82010582010582,
-      "avgCost": 0.945,
-      "costBasis": 100
+      "shares": 54.55537370430987,
+      "avgCost": 0.9165,
+      "costBasis": 50
     },
     {
-      "marketId": "2471081",
-      "question": "Will the price of Bitcoin be above $68,000 on June 15?",
+      "marketId": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 31.152647975077883,
-      "avgCost": 0.963,
-      "costBasis": 30
-    },
-    {
-      "marketId": "2354011",
-      "question": "Israel x Hezbollah permanent peace deal by June 15, 2026?",
-      "outcome": "No",
-      "shares": 32.06841261357563,
-      "avgCost": 0.9355,
-      "costBasis": 30
+      "shares": 56.08524957936063,
+      "avgCost": 0.8915,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:56:51.086Z",
-      "action": "BUY",
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.405,
-      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
-    },
-    {
-      "ts": "2026-05-16T10:56:51.086Z",
-      "action": "BUY",
-      "marketId": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.685,
-      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
-    },
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "SELL",
-      "marketId": "703257",
-      "question": "Will the US confirm that aliens exist before 2027?",
-      "outcome": "Yes",
-      "proceeds": 79.99999999999999,
-      "price": 0.135,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "SELL",
-      "marketId": "2234555",
-      "question": "Will Scottie Scheffler win the 2026 PGA Championship?",
-      "outcome": "Yes",
-      "proceeds": 65.81081081081082,
-      "price": 0.195,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "SELL",
-      "marketId": "553866",
-      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-      "outcome": "Yes",
-      "proceeds": 15.165929203539823,
-      "price": 0.2285,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
     {
       "ts": "2026-05-16T14:42:20.329Z",
       "action": "SELL",
@@ -2051,8 +1993,58 @@
       "amount": 30,
       "price": 0.9355,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
+    },
+    {
+      "ts": "2026-06-15T21:25:52.640Z",
+      "action": "SELL",
+      "marketId": "2241674",
+      "question": "Israel closes its airspace by June 30?",
+      "outcome": "No",
+      "proceeds": 100,
+      "price": 0.945,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+    },
+    {
+      "ts": "2026-06-15T21:25:52.640Z",
+      "action": "SELL",
+      "marketId": "2471081",
+      "question": "Will the price of Bitcoin be above $68,000 on June 15?",
+      "outcome": "No",
+      "proceeds": 31.152647975077883,
+      "price": 1,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+    },
+    {
+      "ts": "2026-06-15T21:25:52.640Z",
+      "action": "SELL",
+      "marketId": "2354011",
+      "question": "Israel x Hezbollah permanent peace deal by June 15, 2026?",
+      "outcome": "No",
+      "proceeds": 31.539283805451635,
+      "price": 0.9835,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+    },
+    {
+      "ts": "2026-06-15T21:25:52.640Z",
+      "action": "BUY",
+      "marketId": "558938",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9165,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
+    },
+    {
+      "ts": "2026-06-15T21:25:52.640Z",
+      "action": "BUY",
+      "marketId": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.8915,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
     }
   ],
-  "lastUpdated": "2026-06-15T18:10:36.423Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
+  "lastUpdated": "2026-06-15T21:25:52.640Z",
+  "lastReasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
 }
