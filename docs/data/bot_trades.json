@@ -1,6 +1,6 @@
 {
-  "cash": 69.51431967152632,
-  "totalValue": 453.6064166428996,
+  "cash": 9.514319671526323,
+  "totalValue": 454.24585093162307,
   "positions": [
     {
       "marketId": "558939",
@@ -33,29 +33,25 @@
       "shares": 105.82010582010582,
       "avgCost": 0.945,
       "costBasis": 100
+    },
+    {
+      "marketId": "2471081",
+      "question": "Will the price of Bitcoin be above $68,000 on June 15?",
+      "outcome": "No",
+      "shares": 31.152647975077883,
+      "avgCost": 0.963,
+      "costBasis": 30
+    },
+    {
+      "marketId": "2354011",
+      "question": "Israel x Hezbollah permanent peace deal by June 15, 2026?",
+      "outcome": "No",
+      "shares": 32.06841261357563,
+      "avgCost": 0.9355,
+      "costBasis": 30
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T10:56:51.086Z",
-      "action": "SELL",
-      "marketId": "1971905",
-      "question": "Strait of Hormuz traffic returns to normal by end of June?",
-      "outcome": "Yes",
-      "proceeds": 100,
-      "price": 0.295,
-      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
-    },
-    {
-      "ts": "2026-05-16T10:56:51.086Z",
-      "action": "BUY",
-      "marketId": "2267959",
-      "question": "Counter-Strike: MOUZ vs Spirit (BO3) - PGL Astana Playoffs",
-      "outcome": "Yes",
-      "amount": 50,
-      "price": 0.125,
-      "reasoning": "Selling a stale position to free up cash and then making a few balanced buys on markets with good potential."
-    },
     {
       "ts": "2026-05-16T10:56:51.086Z",
       "action": "BUY",
@@ -2035,8 +2031,28 @@
       "amount": 100,
       "price": 0.945,
       "reasoning": "Sold a resolved position and initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-15T13:23:27.349Z",
+      "action": "BUY",
+      "marketId": "2471081",
+      "question": "Will the price of Bitcoin be above $68,000 on June 15?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.963,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
+    },
+    {
+      "ts": "2026-06-15T13:23:27.349Z",
+      "action": "BUY",
+      "marketId": "2354011",
+      "question": "Israel x Hezbollah permanent peace deal by June 15, 2026?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.9355,
+      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
     }
   ],
-  "lastUpdated": "2026-06-15T07:02:27.882Z",
-  "lastReasoning": "Sold a resolved position and initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-06-15T13:23:27.349Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
 }
