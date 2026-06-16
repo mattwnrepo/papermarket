@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 456.6787413895844,
+  "totalValue": 435.84351862552325,
   "positions": [
     {
       "marketId": "558939",
@@ -41,27 +41,9 @@
       "shares": 56.08524957936063,
       "avgCost": 0.8915,
       "costBasis": 50
-    },
-    {
-      "marketId": "2326687",
-      "question": "Spread: Uruguay (-1.5)",
-      "outcome": "No",
-      "shares": 360.41462947735255,
-      "avgCost": 0.055,
-      "costBasis": 19.82280462125439
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "BUY",
-      "marketId": "2144487",
-      "question": "Will VfB Stuttgart win on 2026-05-16?",
-      "outcome": "Yes",
-      "amount": 20,
-      "price": 0.895,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
     {
       "ts": "2026-05-16T14:42:20.329Z",
       "action": "BUY",
@@ -2051,8 +2033,18 @@
       "amount": 19.82280462125439,
       "price": 0.055,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive statistical edge, prioritizing the highest edge opportunities. No stop-loss or dropped positions were found."
+    },
+    {
+      "ts": "2026-06-16T07:36:55.403Z",
+      "action": "SELL",
+      "marketId": "2326687",
+      "question": "Spread: Uruguay (-1.5)",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two new 'No' longshot positions with the highest positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-06-16T02:01:33.960Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive statistical edge, prioritizing the highest edge opportunities. No stop-loss or dropped positions were found."
+  "lastUpdated": "2026-06-16T07:36:55.403Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought two new 'No' longshot positions with the highest positive edge, exploiting the favourite-longshot bias."
 }
