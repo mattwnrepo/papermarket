@@ -2045,6 +2045,6 @@
       "reasoning": "Sold a resolved position to reclaim cash and then bought two new 'No' longshot positions with the highest positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-06-21T23:25:59.411Z",
-  "lastReasoning": "I identified two BUY_NO_LONGSHOT signals with positive edge and no existing positions, but I have no cash to execute new trades. I cannot sell existing positions to generate cash because none are in stop-loss, and I'm not instructed to sell profitable positions to fund new trades."
+  "lastUpdated": "2026-06-22T02:05:08.177Z",
+  "lastReasoning": "Insufficient cash to execute new BUY trades, despite identifying strong signals based on the favourite-longshot bias."
 }
