@@ -1,92 +1,180 @@
 {
   "markets": [
     {
-      "id": "1897299",
-      "question": "Will Mexico win on 2026-06-24?",
+      "id": "2323939",
+      "question": "Spread: Morocco (-1.5)",
       "category": "General",
-      "endDate": "2026-06-25T01:00:00Z",
-      "yesPrice": 0.505,
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.325,
       "outcomes": [
         {
-          "id": "1897299-0",
-          "title": "Yes",
-          "price": 0.505
+          "id": "2323939-0",
+          "title": "Morocco",
+          "price": 0.325
         },
         {
-          "id": "1897299-1",
-          "title": "No",
-          "price": 0.495
+          "id": "2323939-1",
+          "title": "Haiti",
+          "price": 0.675
         }
       ],
-      "volume": 3782445.6705960454,
-      "liquidity": 2545186.9033,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 16235685.88514599,
+      "liquidity": 136465.0666,
+      "lastUpdated": "2026-06-24T22:54:54.332Z"
     },
     {
       "id": "1897279",
       "question": "Will Morocco win on 2026-06-24?",
       "category": "General",
       "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.775,
+      "yesPrice": 0.635,
       "outcomes": [
         {
           "id": "1897279-0",
           "title": "Yes",
-          "price": 0.775
+          "price": 0.635
         },
         {
           "id": "1897279-1",
           "title": "No",
-          "price": 0.225
+          "price": 0.365
         }
       ],
-      "volume": 2649472.802588031,
-      "liquidity": 3136057.1526,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 11397740.350565186,
+      "liquidity": 671602.3712,
+      "lastUpdated": "2026-06-24T22:54:54.332Z"
     },
     {
-      "id": "2323939",
-      "question": "Spread: Morocco (-1.5)",
+      "id": "2481887",
+      "question": "Morocco vs. Haiti: Morocco O/U 2.5",
       "category": "General",
       "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.525,
+      "yesPrice": 0.79,
       "outcomes": [
         {
-          "id": "2323939-0",
-          "title": "Morocco",
-          "price": 0.525
+          "id": "2481887-0",
+          "title": "Over",
+          "price": 0.79
         },
         {
-          "id": "2323939-1",
-          "title": "Haiti",
-          "price": 0.475
+          "id": "2481887-1",
+          "title": "Under",
+          "price": 0.21
         }
       ],
-      "volume": 2450314.718195999,
-      "liquidity": 1735421.6559,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 4313032.889110006,
+      "liquidity": 17355.193,
+      "lastUpdated": "2026-06-24T22:54:54.332Z"
+    },
+    {
+      "id": "1897299",
+      "question": "Will Mexico win on 2026-06-24?",
+      "category": "General",
+      "endDate": "2026-06-25T01:00:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "1897299-0",
+          "title": "Yes",
+          "price": 0.515
+        },
+        {
+          "id": "1897299-1",
+          "title": "No",
+          "price": 0.485
+        }
+      ],
+      "volume": 4909539.731036066,
+      "liquidity": 2377336.6051,
+      "lastUpdated": "2026-06-24T22:54:54.332Z"
     },
     {
       "id": "1897281",
       "question": "Will Haiti win on 2026-06-24?",
       "category": "General",
       "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.075,
+      "yesPrice": 0.115,
       "outcomes": [
         {
           "id": "1897281-0",
           "title": "Yes",
-          "price": 0.075
+          "price": 0.115
         },
         {
           "id": "1897281-1",
           "title": "No",
-          "price": 0.925
+          "price": 0.885
         }
       ],
-      "volume": 2417835.4557569968,
-      "liquidity": 2411410.7413,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 4026350.009183989,
+      "liquidity": 486168.7646,
+      "lastUpdated": "2026-06-24T22:54:54.332Z"
+    },
+    {
+      "id": "2323929",
+      "question": "Spread: Brazil (-1.5)",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.845,
+      "outcomes": [
+        {
+          "id": "2323929-0",
+          "title": "Brazil",
+          "price": 0.845
+        },
+        {
+          "id": "2323929-1",
+          "title": "Scotland",
+          "price": 0.155
+        }
+      ],
+      "volume": 3613122.445411978,
+      "liquidity": 116583.4955,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2323934",
+      "question": "Scotland vs. Brazil: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.785,
+      "outcomes": [
+        {
+          "id": "2323934-0",
+          "title": "Over",
+          "price": 0.785
+        },
+        {
+          "id": "2323934-1",
+          "title": "Under",
+          "price": 0.215
+        }
+      ],
+      "volume": 2373213.7830129936,
+      "liquidity": 106801.9818,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "1897280",
+      "question": "Will Morocco vs. Haiti end in a draw?",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.235,
+      "outcomes": [
+        {
+          "id": "1897280-0",
+          "title": "Yes",
+          "price": 0.235
+        },
+        {
+          "id": "1897280-1",
+          "title": "No",
+          "price": 0.765
+        }
+      ],
+      "volume": 2340367.0280379984,
+      "liquidity": 534141.603,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "558936",
@@ -106,75 +194,9 @@
           "price": 0.8065
         }
       ],
-      "volume": 71062901.37949872,
-      "liquidity": 7006145.92763,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1897291",
-      "question": "Will Brazil win on 2026-06-24?",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.745,
-      "outcomes": [
-        {
-          "id": "1897291-0",
-          "title": "Yes",
-          "price": 0.745
-        },
-        {
-          "id": "1897291-1",
-          "title": "No",
-          "price": 0.255
-        }
-      ],
-      "volume": 2518501.0736859483,
-      "liquidity": 2710527.8202,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2323929",
-      "question": "Spread: Brazil (-1.5)",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "2323929-0",
-          "title": "Brazil",
-          "price": 0.475
-        },
-        {
-          "id": "2323929-1",
-          "title": "Scotland",
-          "price": 0.525
-        }
-      ],
-      "volume": 2227428.910585992,
-      "liquidity": 1070606.6073,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2481887",
-      "question": "Morocco vs. Haiti: Morocco O/U 2.5",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.465,
-      "outcomes": [
-        {
-          "id": "2481887-0",
-          "title": "Over",
-          "price": 0.465
-        },
-        {
-          "id": "2481887-1",
-          "title": "Under",
-          "price": 0.535
-        }
-      ],
-      "volume": 1797787.8390890006,
-      "liquidity": 568583.4972,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 71085008.68077095,
+      "liquidity": 6303732.27737,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "558938",
@@ -194,75 +216,75 @@
           "price": 0.8495
         }
       ],
-      "volume": 70954547.1890799,
-      "liquidity": 7900376.38842,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 71140051.5527178,
+      "liquidity": 7221257.25241,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
+      "id": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0345,
+      "yesPrice": 0.0545,
       "outcomes": [
         {
-          "id": "558943-0",
+          "id": "558937-0",
           "title": "Yes",
-          "price": 0.0345
+          "price": 0.0545
         },
         {
-          "id": "558943-1",
+          "id": "558937-1",
           "title": "No",
-          "price": 0.9655
+          "price": 0.9455
         }
       ],
-      "volume": 98574074.81955217,
-      "liquidity": 4675301.57347,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0775,
-      "outcomes": [
-        {
-          "id": "558940-0",
-          "title": "Yes",
-          "price": 0.0775
-        },
-        {
-          "id": "558940-1",
-          "title": "No",
-          "price": 0.9225
-        }
-      ],
-      "volume": 66741734.16860383,
-      "liquidity": 4259520.14931,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 53904649.45774796,
+      "liquidity": 2392143.27153,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1971905",
       "question": "Strait of Hormuz traffic returns to normal by end of June?",
       "category": "General",
       "endDate": "2026-06-30T00:00:00Z",
-      "yesPrice": 0.05,
+      "yesPrice": 0.0505,
       "outcomes": [
         {
           "id": "1971905-0",
           "title": "Yes",
-          "price": 0.05
+          "price": 0.0505
         },
         {
           "id": "1971905-1",
           "title": "No",
-          "price": 0.95
+          "price": 0.9495
         }
       ],
-      "volume": 34283716.37209036,
-      "liquidity": 266267.4998,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 34385270.59825433,
+      "liquidity": 257951.03939,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "558940",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.0785,
+      "outcomes": [
+        {
+          "id": "558940-0",
+          "title": "Yes",
+          "price": 0.0785
+        },
+        {
+          "id": "558940-1",
+          "title": "No",
+          "price": 0.9215
+        }
+      ],
+      "volume": 66844534.81297282,
+      "liquidity": 4214601.81176,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "558951",
@@ -282,75 +304,75 @@
           "price": 0.9685
         }
       ],
-      "volume": 67816474.11909752,
-      "liquidity": 3295328.53064,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 67832155.14164552,
+      "liquidity": 3263792.00084,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "558937",
-      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "id": "2323941",
+      "question": "Spread: Morocco (-2.5)",
       "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0495,
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.125,
       "outcomes": [
         {
-          "id": "558937-0",
-          "title": "Yes",
-          "price": 0.0495
+          "id": "2323941-0",
+          "title": "Morocco",
+          "price": 0.125
         },
         {
-          "id": "558937-1",
-          "title": "No",
-          "price": 0.9505
+          "id": "2323941-1",
+          "title": "Haiti",
+          "price": 0.875
         }
       ],
-      "volume": 53607426.096654944,
-      "liquidity": 2564579.41331,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 1149043.5221809994,
+      "liquidity": 40118.7836,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "558935",
-      "question": "Will England win the 2026 FIFA World Cup?",
+      "id": "1897306",
+      "question": "Will Korea Republic win on 2026-06-24?",
       "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.1085,
+      "endDate": "2026-06-25T01:00:00Z",
+      "yesPrice": 0.605,
       "outcomes": [
         {
-          "id": "558935-0",
+          "id": "1897306-0",
           "title": "Yes",
-          "price": 0.1085
+          "price": 0.605
         },
         {
-          "id": "558935-1",
+          "id": "1897306-1",
           "title": "No",
-          "price": 0.8915
+          "price": 0.395
         }
       ],
-      "volume": 56409868.75531964,
-      "liquidity": 6946984.40129,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 1772259.9216150215,
+      "liquidity": 1196034.649,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
+      "id": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0535,
+      "yesPrice": 0.0345,
       "outcomes": [
         {
-          "id": "558939-0",
+          "id": "558943-0",
           "title": "Yes",
-          "price": 0.0535
+          "price": 0.0345
         },
         {
-          "id": "558939-1",
+          "id": "558943-1",
           "title": "No",
-          "price": 0.9465
+          "price": 0.9655
         }
       ],
-      "volume": 64530310.597331226,
-      "liquidity": 2522808.79744,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 98636527.92577524,
+      "liquidity": 4305930.30289,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "558941",
@@ -370,75 +392,53 @@
           "price": 0.9505
         }
       ],
-      "volume": 64914201.639985755,
-      "liquidity": 1445693.55987,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 64999833.43998575,
+      "liquidity": 1382673.2429,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "1897286",
-      "question": "Will Scotland win on 2026-06-24?",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.085,
-      "outcomes": [
-        {
-          "id": "1897286-0",
-          "title": "Yes",
-          "price": 0.085
-        },
-        {
-          "id": "1897286-1",
-          "title": "No",
-          "price": 0.915
-        }
-      ],
-      "volume": 1188132.6557819983,
-      "liquidity": 2397755.4225,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1897306",
-      "question": "Will Korea Republic win on 2026-06-24?",
-      "category": "General",
-      "endDate": "2026-06-25T01:00:00Z",
-      "yesPrice": 0.615,
-      "outcomes": [
-        {
-          "id": "1897306-0",
-          "title": "Yes",
-          "price": 0.615
-        },
-        {
-          "id": "1897306-1",
-          "title": "No",
-          "price": 0.385
-        }
-      ],
-      "volume": 1552992.388936021,
-      "liquidity": 1323092.8408,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "558934",
-      "question": "Will Spain win the 2026 FIFA World Cup?",
+      "id": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.1385,
+      "yesPrice": 0.1075,
       "outcomes": [
         {
-          "id": "558934-0",
+          "id": "558935-0",
           "title": "Yes",
-          "price": 0.1385
+          "price": 0.1075
         },
         {
-          "id": "558934-1",
+          "id": "558935-1",
           "title": "No",
-          "price": 0.8615
+          "price": 0.8925
         }
       ],
-      "volume": 62506112.651110284,
-      "liquidity": 8765571.44649,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 56484944.93681866,
+      "liquidity": 4682722.87786,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "558939",
+      "question": "Will Germany win the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.0535,
+      "outcomes": [
+        {
+          "id": "558939-0",
+          "title": "Yes",
+          "price": 0.0535
+        },
+        {
+          "id": "558939-1",
+          "title": "No",
+          "price": 0.9465
+        }
+      ],
+      "volume": 64546949.42093124,
+      "liquidity": 2448505.9597,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "2633430",
@@ -458,141 +458,97 @@
           "price": 0.765
         }
       ],
-      "volume": 1170531.8194719988,
-      "liquidity": 668404.3877,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 1171931.9883159988,
+      "liquidity": 620145.0818,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "1897280",
-      "question": "Will Morocco vs. Haiti end in a draw?",
+      "id": "558934",
+      "question": "Will Spain win the 2026 FIFA World Cup?",
       "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.155,
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.1385,
       "outcomes": [
         {
-          "id": "1897280-0",
+          "id": "558934-0",
           "title": "Yes",
-          "price": 0.155
+          "price": 0.1385
         },
         {
-          "id": "1897280-1",
+          "id": "558934-1",
           "title": "No",
-          "price": 0.845
+          "price": 0.8615
         }
       ],
-      "volume": 974361.0630700005,
-      "liquidity": 1513659.6357,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2323945",
-      "question": "Morocco vs. Haiti: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "2323945-0",
-          "title": "Over",
-          "price": 0.585
-        },
-        {
-          "id": "2323945-1",
-          "title": "Under",
-          "price": 0.415
-        }
-      ],
-      "volume": 1222468.1736110046,
-      "liquidity": 1030468.3157,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2535468",
-      "question": "Strait of Hormuz traffic returns to normal by July 15?",
-      "category": "General",
-      "endDate": "2026-07-15T00:00:00Z",
-      "yesPrice": 0.285,
-      "outcomes": [
-        {
-          "id": "2535468-0",
-          "title": "Yes",
-          "price": 0.285
-        },
-        {
-          "id": "2535468-1",
-          "title": "No",
-          "price": 0.715
-        }
-      ],
-      "volume": 3159585.2842719965,
-      "liquidity": 219809.0579,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 62571178.19451727,
+      "liquidity": 8237688.55762,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1897315",
       "question": "Will Germany win on 2026-06-25?",
       "category": "General",
       "endDate": "2026-06-25T20:00:00Z",
-      "yesPrice": 0.541,
+      "yesPrice": 0.5475,
       "outcomes": [
         {
           "id": "1897315-0",
           "title": "Yes",
-          "price": 0.541
+          "price": 0.5475
         },
         {
           "id": "1897315-1",
           "title": "No",
-          "price": 0.459
+          "price": 0.4525
         }
       ],
-      "volume": 1640698.0266589697,
-      "liquidity": 729192.99546,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 1711032.3427859722,
+      "liquidity": 517458.25891,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "2323941",
-      "question": "Spread: Morocco (-2.5)",
+      "id": "2535468",
+      "question": "Strait of Hormuz traffic returns to normal by July 15?",
       "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.315,
+      "endDate": "2026-07-15T00:00:00Z",
+      "yesPrice": 0.295,
       "outcomes": [
         {
-          "id": "2323941-0",
-          "title": "Morocco",
-          "price": 0.315
+          "id": "2535468-0",
+          "title": "Yes",
+          "price": 0.295
         },
         {
-          "id": "2323941-1",
-          "title": "Haiti",
-          "price": 0.685
+          "id": "2535468-1",
+          "title": "No",
+          "price": 0.705
         }
       ],
-      "volume": 626026.0883169984,
-      "liquidity": 1074312.237,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 3175291.078153995,
+      "liquidity": 207208.1494,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "2323934",
-      "question": "Scotland vs. Brazil: O/U 2.5",
+      "id": "2323931",
+      "question": "Spread: Brazil (-2.5)",
       "category": "General",
       "endDate": "2026-06-24T22:00:00Z",
       "yesPrice": 0.535,
       "outcomes": [
         {
-          "id": "2323934-0",
-          "title": "Over",
+          "id": "2323931-0",
+          "title": "Brazil",
           "price": 0.535
         },
         {
-          "id": "2323934-1",
-          "title": "Under",
+          "id": "2323931-1",
+          "title": "Scotland",
           "price": 0.465
         }
       ],
-      "volume": 615692.3591889999,
-      "liquidity": 1199020.6556,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 583243.8397559995,
+      "liquidity": 73134.5411,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1897329",
@@ -612,31 +568,53 @@
           "price": 0.4765
         }
       ],
-      "volume": 1676773.1174340083,
-      "liquidity": 702430.20413,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 1703468.230843009,
+      "liquidity": 563003.88682,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "2176262",
       "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "category": "General",
       "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.465,
+      "yesPrice": 0.475,
       "outcomes": [
         {
           "id": "2176262-0",
           "title": "Yes",
-          "price": 0.465
+          "price": 0.475
         },
         {
           "id": "2176262-1",
           "title": "No",
-          "price": 0.535
+          "price": 0.525
         }
       ],
-      "volume": 8626856.117168058,
-      "liquidity": 782953.9812,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 8645054.264138062,
+      "liquidity": 773936.4918,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2323935",
+      "question": "Scotland vs. Brazil: O/U 3.5",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "2323935-0",
+          "title": "Over",
+          "price": 0.435
+        },
+        {
+          "id": "2323935-1",
+          "title": "Under",
+          "price": 0.565
+        }
+      ],
+      "volume": 438092.955911,
+      "liquidity": 41766.5717,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1897356",
@@ -656,31 +634,9 @@
           "price": 0.485
         }
       ],
-      "volume": 2311088.1491260123,
-      "liquidity": 721099.1819,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1897289",
-      "question": "Will Scotland vs. Brazil end in a draw?",
-      "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.175,
-      "outcomes": [
-        {
-          "id": "1897289-0",
-          "title": "Yes",
-          "price": 0.175
-        },
-        {
-          "id": "1897289-1",
-          "title": "No",
-          "price": 0.825
-        }
-      ],
-      "volume": 506413.10897999397,
-      "liquidity": 2476819.6842,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 2319167.3213360067,
+      "liquidity": 809028.5586,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1897363",
@@ -700,53 +656,75 @@
           "price": 0.795
         }
       ],
-      "volume": 620921.3173729974,
-      "liquidity": 535411.768,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 621297.1387909973,
+      "liquidity": 555810.968,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2323947",
+      "question": "Morocco vs. Haiti: O/U 4.5",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.855,
+      "outcomes": [
+        {
+          "id": "2323947-0",
+          "title": "Over",
+          "price": 0.855
+        },
+        {
+          "id": "2323947-1",
+          "title": "Under",
+          "price": 0.145
+        }
+      ],
+      "volume": 435487.124825,
+      "liquidity": 129058.0986,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1735324",
       "question": "Will Cole Young win the 2026 AL Platinum Glove award?",
       "category": "General",
       "endDate": "2026-12-19T00:00:00Z",
-      "yesPrice": 0.041,
+      "yesPrice": 0.0525,
       "outcomes": [
         {
           "id": "1735324-0",
           "title": "Yes",
-          "price": 0.041
+          "price": 0.0525
         },
         {
           "id": "1735324-1",
           "title": "No",
-          "price": 0.959
+          "price": 0.9475
         }
       ],
       "volume": 371973.98,
-      "liquidity": 849.29327,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "liquidity": 1194.89214,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "2323912",
-      "question": "South Africa vs. Korea Republic: O/U 2.5",
+      "id": "1897296",
+      "question": "Will Czechia win on 2026-06-24?",
       "category": "General",
       "endDate": "2026-06-25T01:00:00Z",
-      "yesPrice": 0.465,
+      "yesPrice": 0.245,
       "outcomes": [
         {
-          "id": "2323912-0",
-          "title": "Over",
-          "price": 0.465
+          "id": "1897296-0",
+          "title": "Yes",
+          "price": 0.245
         },
         {
-          "id": "2323912-1",
-          "title": "Under",
-          "price": 0.535
+          "id": "1897296-1",
+          "title": "No",
+          "price": 0.755
         }
       ],
-      "volume": 585084.9229609979,
-      "liquidity": 509647.7478,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 648562.0580760068,
+      "liquidity": 1523433.6516,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "1897303",
@@ -766,9 +744,9 @@
           "price": 0.845
         }
       ],
-      "volume": 418357.44782899885,
-      "liquidity": 1373091.7307,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 421503.73409599875,
+      "liquidity": 1435665.6746,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "567621",
@@ -788,318 +766,230 @@
           "price": 0.9415
         }
       ],
-      "volume": 36801444.67060933,
-      "liquidity": 604893.53204,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2595584",
-      "question": "Boston Red Sox vs. Colorado Rockies",
-      "category": "General",
-      "endDate": "2026-07-01T19:10:00Z",
-      "yesPrice": 0.07,
-      "outcomes": [
-        {
-          "id": "2595584-0",
-          "title": "Boston Red Sox",
-          "price": 0.07
-        },
-        {
-          "id": "2595584-1",
-          "title": "Colorado Rockies",
-          "price": 0.93
-        }
-      ],
-      "volume": 314336.0047639998,
-      "liquidity": 16297.3577,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1654959",
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.2345,
-      "outcomes": [
-        {
-          "id": "1654959-0",
-          "title": "Yes",
-          "price": 0.2345
-        },
-        {
-          "id": "1654959-1",
-          "title": "No",
-          "price": 0.7655
-        }
-      ],
-      "volume": 5794885.171787074,
-      "liquidity": 436817.70607,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2410575",
-      "question": "Will Bitcoin dip to $57,500 in June?",
-      "category": "General",
-      "endDate": "2026-07-01T04:00:00Z",
-      "yesPrice": 0.3535,
-      "outcomes": [
-        {
-          "id": "2410575-0",
-          "title": "Yes",
-          "price": 0.3535
-        },
-        {
-          "id": "2410575-1",
-          "title": "No",
-          "price": 0.6465
-        }
-      ],
-      "volume": 2633561.1255070004,
-      "liquidity": 63847.22695,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2658531",
-      "question": "Counter-Strike: Betclic Apogee Esports vs OG (BO3) - Super DraculaN Group B",
-      "category": "General",
-      "endDate": "2026-06-25T00:10:00Z",
-      "yesPrice": 0.52,
-      "outcomes": [
-        {
-          "id": "2658531-0",
-          "title": "Betclic Apogee Esports",
-          "price": 0.52
-        },
-        {
-          "id": "2658531-1",
-          "title": "OG",
-          "price": 0.48
-        }
-      ],
-      "volume": 299758.8105449997,
-      "liquidity": 21407.0597,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1897296",
-      "question": "Will Czechia win on 2026-06-24?",
-      "category": "General",
-      "endDate": "2026-06-25T01:00:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "1897296-0",
-          "title": "Yes",
-          "price": 0.255
-        },
-        {
-          "id": "1897296-1",
-          "title": "No",
-          "price": 0.745
-        }
-      ],
-      "volume": 543355.5868110064,
-      "liquidity": 1563739.6831,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2596498",
-      "question": "Will the price of Bitcoin be above $58,000 on June 25?",
-      "category": "General",
-      "endDate": "2026-06-25T16:00:00Z",
-      "yesPrice": 0.9545,
-      "outcomes": [
-        {
-          "id": "2596498-0",
-          "title": "Yes",
-          "price": 0.9545
-        },
-        {
-          "id": "2596498-1",
-          "title": "No",
-          "price": 0.0455
-        }
-      ],
-      "volume": 278380.803891,
-      "liquidity": 25733.04607,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 36802577.30915339,
+      "liquidity": 601317.63051,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "2585242",
       "question": "Spread: Morocco (-3.5)",
       "category": "General",
       "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.165,
+      "yesPrice": 0.04,
       "outcomes": [
         {
           "id": "2585242-0",
           "title": "Morocco",
-          "price": 0.165
+          "price": 0.04
         },
         {
           "id": "2585242-1",
           "title": "Haiti",
-          "price": 0.835
+          "price": 0.96
         }
       ],
-      "volume": 234701.01425799984,
-      "liquidity": 449598.2647,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 318157.8051759991,
+      "liquidity": 30807.23427,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "2323261",
-      "question": "Morocco leading at halftime?",
+      "id": "2323912",
+      "question": "South Africa vs. Korea Republic: O/U 2.5",
       "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.595,
+      "endDate": "2026-06-25T01:00:00Z",
+      "yesPrice": 0.465,
       "outcomes": [
         {
-          "id": "2323261-0",
-          "title": "Yes",
-          "price": 0.595
+          "id": "2323912-0",
+          "title": "Over",
+          "price": 0.465
         },
         {
-          "id": "2323261-1",
-          "title": "No",
-          "price": 0.405
+          "id": "2323912-1",
+          "title": "Under",
+          "price": 0.535
         }
       ],
-      "volume": 232689.0823450002,
-      "liquidity": 159422.001,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 590697.5721379978,
+      "liquidity": 521833.6638,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2410575",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "category": "General",
+      "endDate": "2026-07-01T04:00:00Z",
+      "yesPrice": 0.3455,
+      "outcomes": [
+        {
+          "id": "2410575-0",
+          "title": "Yes",
+          "price": 0.3455
+        },
+        {
+          "id": "2410575-1",
+          "title": "No",
+          "price": 0.6545
+        }
+      ],
+      "volume": 2636879.948449,
+      "liquidity": 64055.60469,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "1654959",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-07-29T00:00:00Z",
+      "yesPrice": 0.2325,
+      "outcomes": [
+        {
+          "id": "1654959-0",
+          "title": "Yes",
+          "price": 0.2325
+        },
+        {
+          "id": "1654959-1",
+          "title": "No",
+          "price": 0.7675
+        }
+      ],
+      "volume": 5797084.147273074,
+      "liquidity": 473821.80685,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2656896",
+      "question": "Seattle Mariners vs. Pittsburgh Pirates: O/U 7.5",
+      "category": "General",
+      "endDate": "2026-06-24T22:40:00Z",
+      "yesPrice": 0.605,
+      "outcomes": [
+        {
+          "id": "2656896-0",
+          "title": "Over",
+          "price": 0.605
+        },
+        {
+          "id": "2656896-1",
+          "title": "Under",
+          "price": 0.395
+        }
+      ],
+      "volume": 278398.279385,
+      "liquidity": 43274.166,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2596498",
+      "question": "Will the price of Bitcoin be above $58,000 on June 25?",
+      "category": "General",
+      "endDate": "2026-06-25T16:00:00Z",
+      "yesPrice": 0.9505,
+      "outcomes": [
+        {
+          "id": "2596498-0",
+          "title": "Yes",
+          "price": 0.9505
+        },
+        {
+          "id": "2596498-1",
+          "title": "No",
+          "price": 0.0495
+        }
+      ],
+      "volume": 298531.44412099966,
+      "liquidity": 29641.82231,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2323948",
+      "question": "Morocco vs. Haiti: O/U 5.5",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.575,
+      "outcomes": [
+        {
+          "id": "2323948-0",
+          "title": "Over",
+          "price": 0.575
+        },
+        {
+          "id": "2323948-1",
+          "title": "Under",
+          "price": 0.425
+        }
+      ],
+      "volume": 267547.7175109999,
+      "liquidity": 142307.3142,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
+    },
+    {
+      "id": "2323938",
+      "question": "Scotland vs. Brazil: Both Teams to Score",
+      "category": "General",
+      "endDate": "2026-06-24T22:00:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "2323938-0",
+          "title": "Yes",
+          "price": 0.355
+        },
+        {
+          "id": "2323938-1",
+          "title": "No",
+          "price": 0.645
+        }
+      ],
+      "volume": 238989.97996499986,
+      "liquidity": 34198.4844,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
       "id": "2554361",
       "question": "Mojtaba Khamenei seen in public by July 31?",
       "category": "General",
       "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.35,
+      "yesPrice": 0.345,
       "outcomes": [
         {
           "id": "2554361-0",
           "title": "Yes",
-          "price": 0.35
+          "price": 0.345
         },
         {
           "id": "2554361-1",
           "title": "No",
-          "price": 0.65
+          "price": 0.655
         }
       ],
-      "volume": 848941.8242509997,
-      "liquidity": 33022.9823,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 856423.1821279998,
+      "liquidity": 33241.1769,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     },
     {
-      "id": "2323946",
-      "question": "Morocco vs. Haiti: O/U 3.5",
+      "id": "2595586",
+      "question": "Baltimore Orioles vs. Los Angeles Angels",
       "category": "General",
-      "endDate": "2026-06-24T22:00:00Z",
-      "yesPrice": 0.355,
+      "endDate": "2026-07-01T20:07:00Z",
+      "yesPrice": 0.445,
       "outcomes": [
         {
-          "id": "2323946-0",
-          "title": "Over",
-          "price": 0.355
-        },
-        {
-          "id": "2323946-1",
-          "title": "Under",
-          "price": 0.645
-        }
-      ],
-      "volume": 242149.94955700013,
-      "liquidity": 1100922.7141,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "1654958",
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.755,
-      "outcomes": [
-        {
-          "id": "1654958-0",
-          "title": "Yes",
-          "price": 0.755
-        },
-        {
-          "id": "1654958-1",
-          "title": "No",
-          "price": 0.245
-        }
-      ],
-      "volume": 3674908.075021996,
-      "liquidity": 612662.9158,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2323901",
-      "question": "Ecuador vs. Germany: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-06-25T20:00:00Z",
-      "yesPrice": 0.555,
-      "outcomes": [
-        {
-          "id": "2323901-0",
-          "title": "Over",
-          "price": 0.555
-        },
-        {
-          "id": "2323901-1",
-          "title": "Under",
+          "id": "2595586-0",
+          "title": "Baltimore Orioles",
           "price": 0.445
-        }
-      ],
-      "volume": 246293.76005699983,
-      "liquidity": 177552.7363,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2410577",
-      "question": "Will Bitcoin dip to $52,500 in June?",
-      "category": "General",
-      "endDate": "2026-07-01T04:00:00Z",
-      "yesPrice": 0.049,
-      "outcomes": [
-        {
-          "id": "2410577-0",
-          "title": "Yes",
-          "price": 0.049
         },
         {
-          "id": "2410577-1",
-          "title": "No",
-          "price": 0.951
+          "id": "2595586-1",
+          "title": "Los Angeles Angels",
+          "price": 0.555
         }
       ],
-      "volume": 1598821.4107199993,
-      "liquidity": 75785.25485,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
-    },
-    {
-      "id": "2354012",
-      "question": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
-      "category": "General",
-      "endDate": "2026-06-30T00:00:00Z",
-      "yesPrice": 0.031,
-      "outcomes": [
-        {
-          "id": "2354012-0",
-          "title": "Yes",
-          "price": 0.031
-        },
-        {
-          "id": "2354012-1",
-          "title": "No",
-          "price": 0.969
-        }
-      ],
-      "volume": 2958472.4163949993,
-      "liquidity": 88384.28507,
-      "lastUpdated": "2026-06-24T21:38:41.279Z"
+      "volume": 223026.70567099954,
+      "liquidity": 68466.0563,
+      "lastUpdated": "2026-06-24T22:54:54.333Z"
     }
   ],
-  "lastUpdated": "2026-06-24T21:38:51.288Z"
+  "lastUpdated": "2026-06-24T22:55:01.912Z"
 }
