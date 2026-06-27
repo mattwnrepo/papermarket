@@ -1,14 +1,14 @@
 {
-  "cash": 4.489907255864701,
-  "totalValue": 435.42652836766274,
+  "cash": 0,
+  "totalValue": 435.33853990168814,
   "positions": [
     {
       "marketId": "558939",
       "question": "Will Germany win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 105.42962572482868,
-      "avgCost": 0.9485,
-      "costBasis": 100
+      "shares": 126.25211401217902,
+      "avgCost": 0.950479134063641,
+      "costBasis": 120
     },
     {
       "marketId": "558940",
@@ -35,53 +35,23 @@
       "costBasis": 50
     },
     {
-      "marketId": "1971905",
-      "question": "Strait of Hormuz traffic returns to normal by end of June?",
-      "outcome": "No",
-      "shares": 20.81165452653486,
-      "avgCost": 0.961,
-      "costBasis": 20
-    },
-    {
       "marketId": "558937",
       "question": "Will Brazil win the 2026 FIFA World Cup?",
       "outcome": "No",
       "shares": 21.197668256491784,
       "avgCost": 0.9435,
       "costBasis": 20
+    },
+    {
+      "marketId": "1897440",
+      "question": "Will Jordan win on 2026-06-27?",
+      "outcome": "No",
+      "shares": 4.9494937550181595,
+      "avgCost": 0.9555,
+      "costBasis": 4.729241282919851
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "SELL",
-      "marketId": "2214870",
-      "question": "Will the price of Bitcoin be above $78,000 on May 16?",
-      "outcome": "Yes",
-      "proceeds": 33.02312775330397,
-      "price": 0.9995,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "SELL",
-      "marketId": "2144487",
-      "question": "Will VfB Stuttgart win on 2026-05-16?",
-      "outcome": "Yes",
-      "proceeds": 0.0111731843575419,
-      "price": 0.0005,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "SELL",
-      "marketId": "2144533",
-      "question": "Will 1. FSV Mainz 05 win on 2026-05-16?",
-      "outcome": "Yes",
-      "proceeds": 24.52760736196319,
-      "price": 0.9995,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
     {
       "ts": "2026-05-16T18:03:09.025Z",
       "action": "SELL",
@@ -2051,8 +2021,38 @@
       "amount": 20,
       "price": 0.9435,
       "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
+    },
+    {
+      "ts": "2026-06-27T16:35:04.697Z",
+      "action": "SELL",
+      "marketId": "1971905",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "No",
+      "proceeds": 20.23933402705515,
+      "price": 0.9725,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
+    },
+    {
+      "ts": "2026-06-27T16:35:04.697Z",
+      "action": "BUY",
+      "marketId": "558939",
+      "question": "Will Germany win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9605,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
+    },
+    {
+      "ts": "2026-06-27T16:35:04.697Z",
+      "action": "BUY",
+      "marketId": "1897440",
+      "question": "Will Jordan win on 2026-06-27?",
+      "outcome": "No",
+      "amount": 4.729241282919851,
+      "price": 0.9555,
+      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
     }
   ],
-  "lastUpdated": "2026-06-27T15:21:13.002Z",
-  "lastReasoning": "Insufficient cash to make any new trades, as the minimum trade amount is $20 and current cash is $4.49 USDC. No stop-loss or resolved positions to sell."
+  "lastUpdated": "2026-06-27T16:35:04.697Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
 }
