@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 434.50200960856137,
+  "cash": 4.489907255864701,
+  "totalValue": 434.83426051528824,
   "positions": [
     {
       "marketId": "558939",
@@ -27,53 +27,31 @@
       "costBasis": 202.38344683080146
     },
     {
-      "marketId": "558938",
-      "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 54.55537370430987,
-      "avgCost": 0.9165,
-      "costBasis": 50
-    },
-    {
       "marketId": "558935",
       "question": "Will England win the 2026 FIFA World Cup?",
       "outcome": "No",
       "shares": 56.08524957936063,
       "avgCost": 0.8915,
       "costBasis": 50
+    },
+    {
+      "marketId": "1971905",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "No",
+      "shares": 20.81165452653486,
+      "avgCost": 0.961,
+      "costBasis": 20
+    },
+    {
+      "marketId": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 21.197668256491784,
+      "avgCost": 0.9435,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "BUY",
-      "marketId": "2144533",
-      "question": "Will 1. FSV Mainz 05 win on 2026-05-16?",
-      "outcome": "Yes",
-      "amount": 20,
-      "price": 0.815,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
-    {
-      "ts": "2026-05-16T14:42:20.329Z",
-      "action": "BUY",
-      "marketId": "2144493",
-      "question": "Will Bayer 04 Leverkusen win on 2026-05-16?",
-      "outcome": "Yes",
-      "amount": 20,
-      "price": 0.645,
-      "reasoning": "Selling stale positions to free up cash and reallocating to a mix of high-probability sports bets and a long-term value play."
-    },
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "SELL",
-      "marketId": "2099033",
-      "question": "Will Manchester City FC win on 2026-05-16?",
-      "outcome": "Yes",
-      "proceeds": 26.5353982300885,
-      "price": 0.9995,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
     {
       "ts": "2026-05-16T18:03:09.025Z",
       "action": "SELL",
@@ -2043,8 +2021,38 @@
       "proceeds": 0,
       "price": 0,
       "reasoning": "Sold a resolved position to reclaim cash and then bought two new 'No' longshot positions with the highest positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-27T11:57:13.390Z",
+      "action": "SELL",
+      "marketId": "558938",
+      "question": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 44.4899072558647,
+      "price": 0.8155,
+      "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
+    },
+    {
+      "ts": "2026-06-27T11:57:13.390Z",
+      "action": "BUY",
+      "marketId": "1971905",
+      "question": "Strait of Hormuz traffic returns to normal by end of June?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.961,
+      "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
+    },
+    {
+      "ts": "2026-06-27T11:57:13.390Z",
+      "action": "BUY",
+      "marketId": "558937",
+      "question": "Will Brazil win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9435,
+      "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
     }
   ],
-  "lastUpdated": "2026-06-27T10:26:31.174Z",
-  "lastReasoning": "Identified several strong BUY signals with positive edge exploiting the favourite-longshot bias, but no trades were executed due to having $0.00 USDC cash."
+  "lastUpdated": "2026-06-27T11:57:13.391Z",
+  "lastReasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
 }
