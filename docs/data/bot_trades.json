@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 436.2117000205334,
+  "cash": 4.9494937550181595,
+  "totalValue": 436.85650662133355,
   "positions": [
     {
       "marketId": "558939",
@@ -41,27 +41,9 @@
       "shares": 21.197668256491784,
       "avgCost": 0.9435,
       "costBasis": 20
-    },
-    {
-      "marketId": "1897440",
-      "question": "Will Jordan win on 2026-06-27?",
-      "outcome": "No",
-      "shares": 4.9494937550181595,
-      "avgCost": 0.9555,
-      "costBasis": 4.729241282919851
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "SELL",
-      "marketId": "2144493",
-      "question": "Will Bayer 04 Leverkusen win on 2026-05-16?",
-      "outcome": "Yes",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
     {
       "ts": "2026-05-16T18:03:09.025Z",
       "action": "BUY",
@@ -2051,8 +2033,18 @@
       "amount": 4.729241282919851,
       "price": 0.9555,
       "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
+    },
+    {
+      "ts": "2026-06-28T06:34:25.561Z",
+      "action": "SELL",
+      "marketId": "1897440",
+      "question": "Will Jordan win on 2026-06-27?",
+      "outcome": "No",
+      "proceeds": 4.9494937550181595,
+      "price": 1,
+      "reasoning": "Sold a resolved position to reclaim cash, but the amount was insufficient to make new trades within the specified $20-$100 range."
     }
   ],
-  "lastUpdated": "2026-06-28T01:55:05.960Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying YES on an underpriced favourite and BUY NO on overvalued longshots with positive edge, while avoiding existing positions and negative edge signals."
+  "lastUpdated": "2026-06-28T06:34:25.561Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash, but the amount was insufficient to make new trades within the specified $20-$100 range."
 }
