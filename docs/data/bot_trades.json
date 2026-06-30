@@ -1,6 +1,6 @@
 {
-  "cash": 29.58891183106539,
-  "totalValue": 400.38606912118564,
+  "cash": 6.142284109344729,
+  "totalValue": 377.29389350630845,
   "positions": [
     {
       "marketId": "558940",
@@ -43,63 +43,23 @@
       "costBasis": 159.5
     },
     {
-      "marketId": "2702189",
-      "question": "Wimbledon ATP: Tallon Griekspoor vs James Duckworth",
-      "outcome": "No",
-      "shares": 555.5555555555555,
-      "avgCost": 0.045,
+      "marketId": "2702245",
+      "question": "Wimbledon ATP: Frances Tiafoe vs Terence Atmane",
+      "outcome": "Yes",
+      "shares": 29.60331557134399,
+      "avgCost": 0.8445,
       "costBasis": 25
     },
     {
-      "marketId": "2707704",
-      "question": "Exact Score: Côte d'Ivoire 1 - 3 Norway?",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 26.55337227827934,
-      "avgCost": 0.9415,
+      "shares": 25.786487880350695,
+      "avgCost": 0.9695,
       "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T08:50:16.373Z",
-      "action": "BUY",
-      "marketId": "561978",
-      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9695,
-      "reasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-17T08:50:16.373Z",
-      "action": "BUY",
-      "marketId": "553871",
-      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9625,
-      "reasoning": "I sold a resolved position to reclaim cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-17T09:09:17.915Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 60,
-      "price": 0.9655,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with the highest positive edge, allocating available cash across the top two opportunities."
-    },
-    {
-      "ts": "2026-05-17T09:09:17.915Z",
-      "action": "BUY",
-      "marketId": "1708109",
-      "question": "Kharg Island no longer under Iranian control by May 31?",
-      "outcome": "No",
-      "amount": 60,
-      "price": 0.9645,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with the highest positive edge, allocating available cash across the top two opportunities."
-    },
     {
       "ts": "2026-05-17T13:24:02.766Z",
       "action": "SELL",
@@ -2059,8 +2019,48 @@
       "amount": 25,
       "price": 0.9415,
       "reasoning": "Sold existing positions to reclaim cash, then bought new BUY_NO_LONGSHOT signals with positive edge and BUY_YES_FAVOURITE signals with positive edge, avoiding averaging down into losing positions."
+    },
+    {
+      "ts": "2026-06-30T20:21:35.841Z",
+      "action": "SELL",
+      "marketId": "2702189",
+      "question": "Wimbledon ATP: Tallon Griekspoor vs James Duckworth",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-06-30T20:21:35.841Z",
+      "action": "SELL",
+      "marketId": "2707704",
+      "question": "Exact Score: Côte d'Ivoire 1 - 3 Norway?",
+      "outcome": "No",
+      "proceeds": 26.55337227827934,
+      "price": 1,
+      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-06-30T20:21:35.841Z",
+      "action": "BUY",
+      "marketId": "2702245",
+      "question": "Wimbledon ATP: Frances Tiafoe vs Terence Atmane",
+      "outcome": "Yes",
+      "amount": 25,
+      "price": 0.8445,
+      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-06-30T20:21:35.841Z",
+      "action": "BUY",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9695,
+      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-06-30T18:16:24.241Z",
-  "lastReasoning": "Sold existing positions to reclaim cash, then bought new BUY_NO_LONGSHOT signals with positive edge and BUY_YES_FAVOURITE signals with positive edge, avoiding averaging down into losing positions."
+  "lastUpdated": "2026-06-30T20:21:35.841Z",
+  "lastReasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
 }
