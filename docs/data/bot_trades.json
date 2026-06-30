@@ -1,6 +1,6 @@
 {
-  "cash": 26.188987955172934,
-  "totalValue": 440.1220533770028,
+  "cash": 198.9409518924806,
+  "totalValue": 399.931584665915,
   "positions": [
     {
       "marketId": "558940",
@@ -9,14 +9,6 @@
       "shares": 91.56980020203139,
       "avgCost": 0.9282536361602147,
       "costBasis": 85
-    },
-    {
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 212.85839313387459,
-      "avgCost": 0.9507891319254438,
-      "costBasis": 202.38344683080146
     },
     {
       "marketId": "558935",
@@ -43,55 +35,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2706370",
-      "question": "Spread: Morocco (-2.5)",
+      "marketId": "2069670",
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 1666.6666666666667,
-      "avgCost": 0.03,
-      "costBasis": 50
+      "shares": 20.75765438505449,
+      "avgCost": 0.9635,
+      "costBasis": 20
+    },
+    {
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 20.844189682126107,
+      "avgCost": 0.9595,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T20:34:04.184Z",
-      "action": "BUY",
-      "marketId": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.695,
-      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
-    },
-    {
-      "ts": "2026-05-16T20:34:04.184Z",
-      "action": "BUY",
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.635,
-      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
-    },
-    {
-      "ts": "2026-05-16T23:35:37.655Z",
-      "action": "SELL",
-      "marketId": "1919425",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "Yes",
-      "proceeds": 238.5817805383023,
-      "price": 0.095,
-      "reasoning": "Selling out of low-probability and slightly losing positions to free up cash, and then making a new balanced bet on a high-volume market with a moderate probability."
-    },
-    {
-      "ts": "2026-05-16T23:35:37.655Z",
-      "action": "SELL",
-      "marketId": "842015",
-      "question": "Will Finland win Eurovision 2026?",
-      "outcome": "Yes",
-      "proceeds": 0.015337423312883436,
-      "price": 0.0005,
-      "reasoning": "Selling out of low-probability and slightly losing positions to free up cash, and then making a new balanced bet on a high-volume market with a moderate probability."
-    },
     {
       "ts": "2026-05-16T23:35:37.655Z",
       "action": "SELL",
@@ -2051,8 +2011,48 @@
       "amount": 50,
       "price": 0.9495,
       "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+    },
+    {
+      "ts": "2026-06-30T05:49:46.020Z",
+      "action": "SELL",
+      "marketId": "558941",
+      "question": "Will Netherlands win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 212.75196393730766,
+      "price": 0.9995,
+      "reasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-30T05:49:46.020Z",
+      "action": "SELL",
+      "marketId": "2706370",
+      "question": "Spread: Morocco (-2.5)",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-30T05:49:46.020Z",
+      "action": "BUY",
+      "marketId": "2069670",
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9635,
+      "reasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-30T05:49:46.020Z",
+      "action": "BUY",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9595,
+      "reasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-06-30T01:27:08.849Z",
-  "lastReasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+  "lastUpdated": "2026-06-30T05:49:46.020Z",
+  "lastReasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
 }
