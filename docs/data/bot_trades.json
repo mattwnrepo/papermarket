@@ -1,6 +1,6 @@
 {
-  "cash": 0.0009518924805966833,
-  "totalValue": 399.87485237028443,
+  "cash": 4.606556459164565,
+  "totalValue": 399.83818049746253,
   "positions": [
     {
       "marketId": "558940",
@@ -35,20 +35,12 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2069670",
-      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 98.59885832900882,
-      "avgCost": 0.9635,
-      "costBasis": 95
-    },
-    {
       "marketId": "558963",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 124.22081305874947,
-      "avgCost": 0.9619966015154257,
-      "costBasis": 119.5
+      "shares": 165.77925461719104,
+      "avgCost": 0.9621227961744021,
+      "costBasis": 159.5
     },
     {
       "marketId": "561231",
@@ -57,39 +49,17 @@
       "shares": 25.7127827459232,
       "avgCost": 0.9505,
       "costBasis": 24.44
+    },
+    {
+      "marketId": "2707707",
+      "question": "Exact Score: Côte d'Ivoire 2 - 3 Norway?",
+      "outcome": "No",
+      "shares": 51.65289256198347,
+      "avgCost": 0.968,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T08:01:26.691Z",
-      "action": "SELL",
-      "marketId": "2132776",
-      "question": "Will Bitcoin reach $85,000 in May?",
-      "outcome": "No",
-      "proceeds": 50,
-      "price": 0.825,
-      "reasoning": "Sold a resolved market to reclaim cash and identified no new mispriced opportunities that meet strict risk management criteria for capital deployment, thus preserving capital."
-    },
-    {
-      "ts": "2026-05-17T08:02:51.396Z",
-      "action": "BUY",
-      "marketId": "692258",
-      "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-      "outcome": "Yes",
-      "amount": 100,
-      "price": 0.6745,
-      "reasoning": "The market for 'MicroStrategy sells any Bitcoin by June 30, 2026?' (ID: 692258) is mispriced, as the 'Yes' outcome at 0.6745 is significantly lower than the 'Yes' outcome for 'MicroStrategy sells any Bitcoin by May 31, 2026?' (ID: 2169995) at 0.335, despite the June 30th market having a longer timeframe and thus a higher probability of a 'Yes' outcome. This suggests an arbitrage opportunity by buying 'Yes' on the June 30th market, as the probability should be higher than the May 31st market's implied 'No' probability (1-0.335=0.665). Additionally, the 'Starmer out by May 19, 2026?' market (ID: 2251595) presents a strong 'No' opportunity, as the implied probability of 0.103 for 'Yes' is too high given the political stability and timeframe, making 'No' at 0.897 a favorable bet."
-    },
-    {
-      "ts": "2026-05-17T08:02:51.396Z",
-      "action": "BUY",
-      "marketId": "2251595",
-      "question": "Starmer out by May 19, 2026?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.897,
-      "reasoning": "The market for 'MicroStrategy sells any Bitcoin by June 30, 2026?' (ID: 692258) is mispriced, as the 'Yes' outcome at 0.6745 is significantly lower than the 'Yes' outcome for 'MicroStrategy sells any Bitcoin by May 31, 2026?' (ID: 2169995) at 0.335, despite the June 30th market having a longer timeframe and thus a higher probability of a 'Yes' outcome. This suggests an arbitrage opportunity by buying 'Yes' on the June 30th market, as the probability should be higher than the May 31st market's implied 'No' probability (1-0.335=0.665). Additionally, the 'Starmer out by May 19, 2026?' market (ID: 2251595) presents a strong 'No' opportunity, as the implied probability of 0.103 for 'Yes' is too high given the political stability and timeframe, making 'No' at 0.897 a favorable bet."
-    },
     {
       "ts": "2026-05-17T08:25:16.557Z",
       "action": "SELL",
@@ -2059,8 +2029,38 @@
       "amount": 24.44,
       "price": 0.9505,
       "reasoning": "Exploited the favourite-longshot bias by placing two BUY_NO_LONGSHOT trades with the highest positive edge, prioritizing markets with higher edge and ensuring trades are within the $20-$100 range and available cash."
+    },
+    {
+      "ts": "2026-06-30T16:08:35.647Z",
+      "action": "SELL",
+      "marketId": "2069670",
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 94.60560456668397,
+      "price": 0.9595,
+      "reasoning": "Sold a dropped position to generate cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+    },
+    {
+      "ts": "2026-06-30T16:08:35.647Z",
+      "action": "BUY",
+      "marketId": "2707707",
+      "question": "Exact Score: Côte d'Ivoire 2 - 3 Norway?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.968,
+      "reasoning": "Sold a dropped position to generate cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+    },
+    {
+      "ts": "2026-06-30T16:08:35.647Z",
+      "action": "BUY",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 40,
+      "price": 0.9625,
+      "reasoning": "Sold a dropped position to generate cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
     }
   ],
-  "lastUpdated": "2026-06-30T13:26:25.152Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying NO on longshots with the highest positive edge."
+  "lastUpdated": "2026-06-30T16:08:35.647Z",
+  "lastReasoning": "Sold a dropped position to generate cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
 }
