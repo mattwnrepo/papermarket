@@ -1,6 +1,6 @@
 {
-  "cash": 198.9409518924806,
-  "totalValue": 399.931584665915,
+  "cash": 48.9409518924806,
+  "totalValue": 400.0959873846417,
   "positions": [
     {
       "marketId": "558940",
@@ -38,40 +38,20 @@
       "marketId": "2069670",
       "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 20.75765438505449,
+      "shares": 98.59885832900882,
       "avgCost": 0.9635,
-      "costBasis": 20
+      "costBasis": 95
     },
     {
       "marketId": "558963",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 20.844189682126107,
-      "avgCost": 0.9595,
-      "costBasis": 20
+      "shares": 98.76626760420402,
+      "avgCost": 0.9618668630944225,
+      "costBasis": 95
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T23:35:37.655Z",
-      "action": "SELL",
-      "marketId": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "proceeds": 149.28057553956833,
-      "price": 0.685,
-      "reasoning": "Selling out of low-probability and slightly losing positions to free up cash, and then making a new balanced bet on a high-volume market with a moderate probability."
-    },
-    {
-      "ts": "2026-05-16T23:35:37.655Z",
-      "action": "BUY",
-      "marketId": "2222240",
-      "question": "New York Yankees vs. New York Mets",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.505,
-      "reasoning": "Selling out of low-probability and slightly losing positions to free up cash, and then making a new balanced bet on a high-volume market with a moderate probability."
-    },
     {
       "ts": "2026-05-17T04:17:48.983Z",
       "action": "SELL",
@@ -2051,8 +2031,28 @@
       "amount": 20,
       "price": 0.9595,
       "reasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-06-30T08:48:09.987Z",
+      "action": "BUY",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 75,
+      "price": 0.9625,
+      "reasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
+    },
+    {
+      "ts": "2026-06-30T08:48:09.987Z",
+      "action": "BUY",
+      "marketId": "2069670",
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 75,
+      "price": 0.9635,
+      "reasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
     }
   ],
-  "lastUpdated": "2026-06-30T05:49:46.020Z",
-  "lastReasoning": "Sold resolved and winning positions to reclaim cash, then placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-06-30T08:48:09.988Z",
+  "lastReasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
 }
