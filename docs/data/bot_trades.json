@@ -1,22 +1,14 @@
 {
-  "cash": 0,
-  "totalValue": 436.32637945179016,
+  "cash": 26.188987955172934,
+  "totalValue": 440.1220533770028,
   "positions": [
-    {
-      "marketId": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 126.25211401217902,
-      "avgCost": 0.950479134063641,
-      "costBasis": 120
-    },
     {
       "marketId": "558940",
       "question": "Will Portugal win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 38.91050583657588,
-      "avgCost": 0.8995,
-      "costBasis": 35
+      "shares": 91.56980020203139,
+      "avgCost": 0.9282536361602147,
+      "costBasis": 85
     },
     {
       "marketId": "558941",
@@ -49,39 +41,17 @@
       "shares": 5.533251822267367,
       "avgCost": 0.8945,
       "costBasis": 4.9494937550181595
+    },
+    {
+      "marketId": "2706370",
+      "question": "Spread: Morocco (-2.5)",
+      "outcome": "No",
+      "shares": 1666.6666666666667,
+      "avgCost": 0.03,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "BUY",
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.605,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
-    {
-      "ts": "2026-05-16T18:03:09.025Z",
-      "action": "BUY",
-      "marketId": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.685,
-      "reasoning": "Selling resolved and losing positions to free up cash, then re-investing in a mix of high-probability and value opportunities, while also increasing exposure to existing long-term positions."
-    },
-    {
-      "ts": "2026-05-16T20:34:04.184Z",
-      "action": "SELL",
-      "marketId": "2080224",
-      "question": "UFC Fight Night: Dooho Choi vs. Daniel Santos (Featherweight, Main Card)",
-      "outcome": "Yes",
-      "proceeds": 15.379746835443038,
-      "price": 0.405,
-      "reasoning": "I am selling a position with a low probability of success and buying into a high-volume market with a moderate probability, and increasing my position in a market where the price has dropped slightly."
-    },
     {
       "ts": "2026-05-16T20:34:04.184Z",
       "action": "BUY",
@@ -2051,8 +2021,38 @@
       "amount": 4.9494937550181595,
       "price": 0.8945,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Spain winning the 2026 FIFA World Cup and the US confirming aliens exist before 2027."
+    },
+    {
+      "ts": "2026-06-30T01:27:08.849Z",
+      "action": "SELL",
+      "marketId": "558939",
+      "question": "Will Germany win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 126.18898795517293,
+      "price": 0.9995,
+      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+    },
+    {
+      "ts": "2026-06-30T01:27:08.849Z",
+      "action": "BUY",
+      "marketId": "2706370",
+      "question": "Spread: Morocco (-2.5)",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.03,
+      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
+    },
+    {
+      "ts": "2026-06-30T01:27:08.849Z",
+      "action": "BUY",
+      "marketId": "558940",
+      "question": "Will Portugal win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9495,
+      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
     }
   ],
-  "lastUpdated": "2026-06-29T23:08:22.588Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically targeting markets where existing positions were profitable to avoid averaging down."
+  "lastUpdated": "2026-06-30T01:27:08.849Z",
+  "lastReasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
 }
