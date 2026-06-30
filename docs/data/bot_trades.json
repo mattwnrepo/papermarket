@@ -1,6 +1,6 @@
 {
-  "cash": 48.9409518924806,
-  "totalValue": 400.0959873846417,
+  "cash": 0.0009518924805966833,
+  "totalValue": 399.61002215112364,
   "positions": [
     {
       "marketId": "558940",
@@ -46,32 +46,20 @@
       "marketId": "558963",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 98.76626760420402,
-      "avgCost": 0.9618668630944225,
-      "costBasis": 95
+      "shares": 124.22081305874947,
+      "avgCost": 0.9619966015154257,
+      "costBasis": 119.5
+    },
+    {
+      "marketId": "561231",
+      "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "shares": 25.7127827459232,
+      "avgCost": 0.9505,
+      "costBasis": 24.44
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T04:17:48.983Z",
-      "action": "SELL",
-      "marketId": "2222240",
-      "question": "New York Yankees vs. New York Mets",
-      "outcome": "No",
-      "proceeds": 0.019801980198019802,
-      "price": 0.0005,
-      "reasoning": "Sold a resolved market to reclaim cash and identified a potential value arbitrage opportunity in a low-probability event, buying 'No' on a highly speculative Bitcoin price target for May."
-    },
-    {
-      "ts": "2026-05-17T04:17:48.983Z",
-      "action": "BUY",
-      "marketId": "2132776",
-      "question": "Will Bitcoin reach $85,000 in May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.825,
-      "reasoning": "Sold a resolved market to reclaim cash and identified a potential value arbitrage opportunity in a low-probability event, buying 'No' on a highly speculative Bitcoin price target for May."
-    },
     {
       "ts": "2026-05-17T08:01:26.691Z",
       "action": "SELL",
@@ -2051,8 +2039,28 @@
       "amount": 75,
       "price": 0.9635,
       "reasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
+    },
+    {
+      "ts": "2026-06-30T11:34:32.184Z",
+      "action": "BUY",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 24.5,
+      "price": 0.9625,
+      "reasoning": "Exploited the favourite-longshot bias by placing two BUY_NO_LONGSHOT trades with the highest positive edge, prioritizing markets with higher edge and ensuring trades are within the $20-$100 range and available cash."
+    },
+    {
+      "ts": "2026-06-30T11:34:32.184Z",
+      "action": "BUY",
+      "marketId": "561231",
+      "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+      "outcome": "No",
+      "amount": 24.44,
+      "price": 0.9505,
+      "reasoning": "Exploited the favourite-longshot bias by placing two BUY_NO_LONGSHOT trades with the highest positive edge, prioritizing markets with higher edge and ensuring trades are within the $20-$100 range and available cash."
     }
   ],
-  "lastUpdated": "2026-06-30T08:48:09.988Z",
-  "lastReasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
+  "lastUpdated": "2026-06-30T11:34:32.184Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by placing two BUY_NO_LONGSHOT trades with the highest positive edge, prioritizing markets with higher edge and ensuring trades are within the $20-$100 range and available cash."
 }
