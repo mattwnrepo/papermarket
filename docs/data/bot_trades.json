@@ -1,6 +1,6 @@
 {
-  "cash": 35.57551588716822,
-  "totalValue": 388.2035221508545,
+  "cash": 44.025808284829054,
+  "totalValue": 396.79258381738487,
   "positions": [
     {
       "marketId": "558940",
@@ -38,9 +38,9 @@
       "marketId": "567621",
       "question": "Will China invade Taiwan by end of 2026?",
       "outcome": "No",
-      "shares": 67.74948289308603,
-      "avgCost": 0.9594169169169169,
-      "costBasis": 65
+      "shares": 93.69655087440414,
+      "avgCost": 0.9605476312638318,
+      "costBasis": 90
     },
     {
       "marketId": "2707660",
@@ -51,53 +51,23 @@
       "costBasis": 25
     },
     {
-      "marketId": "2719358",
-      "question": "Belgium vs. Senegal: O/U 1.5",
-      "outcome": "Yes",
-      "shares": 58.47953216374269,
-      "avgCost": 0.855,
-      "costBasis": 50
-    },
-    {
       "marketId": "2721770",
       "question": "United States vs. Bosnia and Herzegovina: Team to Advance",
       "outcome": "Yes",
       "shares": 59.880239520958085,
       "avgCost": 0.835,
       "costBasis": 50
+    },
+    {
+      "marketId": "693485",
+      "question": "Will Lebanon recognize Israel by June 30?",
+      "outcome": "No",
+      "shares": 25.987525987525988,
+      "avgCost": 0.962,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-18T18:23:40.059Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9655,
-      "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-18T18:23:40.059Z",
-      "action": "BUY",
-      "marketId": "2161612",
-      "question": "Will Burnley FC win on 2026-05-18?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9645,
-      "reasoning": "Sold a profitable position to reclaim cash and then bought into two longshot 'No' outcomes with the highest positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-18T22:13:44.863Z",
-      "action": "SELL",
-      "marketId": "2161612",
-      "question": "Will Burnley FC win on 2026-05-18?",
-      "outcome": "No",
-      "proceeds": 103.68066355624676,
-      "price": 1,
-      "reasoning": "Sold a resolved position to reclaim cash and opened two new positions exploiting the favourite-longshot bias with positive edge."
-    },
     {
       "ts": "2026-05-18T22:13:44.863Z",
       "action": "BUY",
@@ -2067,8 +2037,38 @@
       "amount": 50,
       "price": 0.835,
       "reasoning": "I identified several BUY_YES_FAVOURITE and BUY_NO_LONGSHOT signals with positive edge and placed two new trades within the specified amount range, avoiding markets where I already held a position or had a negative edge."
+    },
+    {
+      "ts": "2026-07-01T22:23:48.650Z",
+      "action": "SELL",
+      "marketId": "2719358",
+      "question": "Belgium vs. Senegal: O/U 1.5",
+      "outcome": "Yes",
+      "proceeds": 58.450292397660824,
+      "price": 0.9995,
+      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
+    },
+    {
+      "ts": "2026-07-01T22:23:48.650Z",
+      "action": "BUY",
+      "marketId": "693485",
+      "question": "Will Lebanon recognize Israel by June 30?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.962,
+      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
+    },
+    {
+      "ts": "2026-07-01T22:23:48.650Z",
+      "action": "BUY",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9635,
+      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-01T20:57:12.851Z",
-  "lastReasoning": "I identified several BUY_YES_FAVOURITE and BUY_NO_LONGSHOT signals with positive edge and placed two new trades within the specified amount range, avoiding markets where I already held a position or had a negative edge."
+  "lastUpdated": "2026-07-01T22:23:48.650Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
 }
