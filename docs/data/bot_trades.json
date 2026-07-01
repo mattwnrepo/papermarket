@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 378.72600879049696,
+  "cash": 6.448753116901321,
+  "totalValue": 379.04401433014516,
   "positions": [
     {
       "marketId": "558940",
@@ -57,27 +57,9 @@
       "shares": 25.786487880350695,
       "avgCost": 0.9695,
       "costBasis": 25
-    },
-    {
-      "marketId": "2410575",
-      "question": "Will Bitcoin dip to $57,500 in June?",
-      "outcome": "No",
-      "shares": 6.451979106454547,
-      "avgCost": 0.952,
-      "costBasis": 6.142284109344729
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T13:24:02.766Z",
-      "action": "SELL",
-      "marketId": "561978",
-      "question": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
-      "outcome": "No",
-      "proceeds": 150,
-      "price": 0.9695,
-      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
-    },
     {
       "ts": "2026-05-17T13:24:02.766Z",
       "action": "SELL",
@@ -2067,8 +2049,18 @@
       "amount": 6.142284109344729,
       "price": 0.952,
       "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge and buying 'Yes' on favourite markets with positive edge, while adhering to cash limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-01T04:56:01.754Z",
+      "action": "SELL",
+      "marketId": "2410575",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "outcome": "No",
+      "proceeds": 6.448753116901321,
+      "price": 0.9995,
+      "reasoning": "Sold a highly profitable resolved position to reclaim cash, but did not have sufficient funds to initiate new trades within the specified range."
     }
   ],
-  "lastUpdated": "2026-07-01T00:16:45.998Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge and buying 'Yes' on favourite markets with positive edge, while adhering to cash limits and avoiding averaging down."
+  "lastUpdated": "2026-07-01T04:56:01.755Z",
+  "lastReasoning": "Sold a highly profitable resolved position to reclaim cash, but did not have sufficient funds to initiate new trades within the specified range."
 }
