@@ -1,6 +1,6 @@
 {
-  "cash": 55.228973800964525,
-  "totalValue": 389.16722948321836,
+  "cash": 135.57551588716822,
+  "totalValue": 388.51035313487614,
   "positions": [
     {
       "marketId": "558940",
@@ -35,89 +35,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2069636",
-      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 52.19206680584551,
-      "avgCost": 0.958,
-      "costBasis": 50
-    },
-    {
       "marketId": "567621",
       "question": "Will China invade Taiwan by end of 2026?",
       "outcome": "No",
-      "shares": 41.775456919060055,
-      "avgCost": 0.9575,
-      "costBasis": 40
+      "shares": 67.74948289308603,
+      "avgCost": 0.9594169169169169,
+      "costBasis": 65
     },
     {
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "marketId": "2707660",
+      "question": "Will Cabo Verde win on 2026-07-03?",
       "outcome": "No",
-      "shares": 41.2796697626419,
-      "avgCost": 0.969,
-      "costBasis": 40
-    },
-    {
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 41.25838060856111,
-      "avgCost": 0.9695,
-      "costBasis": 40
+      "shares": 26.001040041601662,
+      "avgCost": 0.9615,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T19:50:36.463Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 20.140324882831692,
-      "price": 0.9655,
-      "reasoning": "Exploited favourite-longshot bias by selling a dropped position and buying two strong BUY_NO_LONGSHOT signals with positive edge."
-    },
-    {
-      "ts": "2026-05-17T22:39:26.440Z",
-      "action": "SELL",
-      "marketId": "2230484",
-      "question": "Cincinnati Reds vs. Cleveland Guardians",
-      "outcome": "No",
-      "proceeds": 0.7575757575757576,
-      "price": 0.0005,
-      "reasoning": "Sold a dropped position to reclaim cash and opened two new positions by exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-05-18T12:05:24.784Z",
-      "action": "SELL",
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "proceeds": 180.87440057137027,
-      "price": 0.635,
-      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
-    },
-    {
-      "ts": "2026-05-18T12:05:24.784Z",
-      "action": "SELL",
-      "marketId": "2241871",
-      "question": "Iran closes its airspace by May 18?",
-      "outcome": "No",
-      "proceeds": 174.37109648508613,
-      "price": 0.988,
-      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
-    },
-    {
-      "ts": "2026-05-18T12:05:24.784Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9655,
-      "reasoning": "Sold dropped positions to free up cash, then bought two highest-edge favourite-longshot bias signals."
-    },
     {
       "ts": "2026-05-18T12:05:24.784Z",
       "action": "BUY",
@@ -2067,8 +2001,58 @@
       "amount": 40,
       "price": 0.9695,
       "reasoning": "Sold resolved and profitable positions to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge, prioritizing markets with higher edge and avoiding averaging down into existing positions."
+    },
+    {
+      "ts": "2026-07-01T19:20:07.612Z",
+      "action": "SELL",
+      "marketId": "2069636",
+      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 50.07828810020877,
+      "price": 0.9595,
+      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
+    },
+    {
+      "ts": "2026-07-01T19:20:07.612Z",
+      "action": "SELL",
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 40.14447884416925,
+      "price": 0.9725,
+      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
+    },
+    {
+      "ts": "2026-07-01T19:20:07.612Z",
+      "action": "SELL",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 40.12377514182568,
+      "price": 0.9725,
+      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
+    },
+    {
+      "ts": "2026-07-01T19:20:07.612Z",
+      "action": "BUY",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9625,
+      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
+    },
+    {
+      "ts": "2026-07-01T19:20:07.612Z",
+      "action": "BUY",
+      "marketId": "2707660",
+      "question": "Will Cabo Verde win on 2026-07-03?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9615,
+      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
     }
   ],
-  "lastUpdated": "2026-07-01T17:24:05.874Z",
-  "lastReasoning": "Sold resolved and profitable positions to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge, prioritizing markets with higher edge and avoiding averaging down into existing positions."
+  "lastUpdated": "2026-07-01T19:20:07.612Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
 }
