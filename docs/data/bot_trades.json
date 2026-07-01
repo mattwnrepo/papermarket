@@ -1,6 +1,6 @@
 {
-  "cash": 6.448753116901321,
-  "totalValue": 379.04401433014516,
+  "cash": 93.81847268710487,
+  "totalValue": 380.57275037109343,
   "positions": [
     {
       "marketId": "558940",
@@ -35,14 +35,6 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "558963",
-      "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 165.77925461719104,
-      "avgCost": 0.9621227961744021,
-      "costBasis": 159.5
-    },
-    {
       "marketId": "2702245",
       "question": "Wimbledon ATP: Frances Tiafoe vs Terence Atmane",
       "outcome": "Yes",
@@ -51,55 +43,23 @@
       "costBasis": 25
     },
     {
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
+      "marketId": "2069660",
+      "question": "Will Ousmane Dembele be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 25.786487880350695,
-      "avgCost": 0.9695,
-      "costBasis": 25
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2069636",
+      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 52.19206680584551,
+      "avgCost": 0.958,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-17T13:24:02.766Z",
-      "action": "SELL",
-      "marketId": "553871",
-      "question": "Will the Detroit Pistons win the 2026 NBA Finals?",
-      "outcome": "No",
-      "proceeds": 100,
-      "price": 0.9625,
-      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
-    },
-    {
-      "ts": "2026-05-17T13:24:02.766Z",
-      "action": "BUY",
-      "marketId": "2159882",
-      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.969,
-      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
-    },
-    {
-      "ts": "2026-05-17T13:24:02.766Z",
-      "action": "BUY",
-      "marketId": "2159870",
-      "question": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.966,
-      "reasoning": "Sold dropped positions to free up cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge, adhering to the favourite-longshot bias strategy."
-    },
-    {
-      "ts": "2026-05-17T15:41:15.281Z",
-      "action": "SELL",
-      "marketId": "2159882",
-      "question": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
-      "outcome": "No",
-      "proceeds": 100.87719298245615,
-      "price": 0.9775,
-      "reasoning": "Sold resolved positions to reclaim cash and initiated new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-17T15:41:15.281Z",
       "action": "SELL",
@@ -2059,8 +2019,48 @@
       "proceeds": 6.448753116901321,
       "price": 0.9995,
       "reasoning": "Sold a highly profitable resolved position to reclaim cash, but did not have sufficient funds to initiate new trades within the specified range."
+    },
+    {
+      "ts": "2026-07-01T08:53:11.173Z",
+      "action": "SELL",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 162.21500064292144,
+      "price": 0.9785,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
+    },
+    {
+      "ts": "2026-07-01T08:53:11.173Z",
+      "action": "SELL",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 25.154718927282104,
+      "price": 0.9755,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
+    },
+    {
+      "ts": "2026-07-01T08:53:11.173Z",
+      "action": "BUY",
+      "marketId": "2069660",
+      "question": "Will Ousmane Dembele be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
+    },
+    {
+      "ts": "2026-07-01T08:53:11.173Z",
+      "action": "BUY",
+      "marketId": "2069636",
+      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.958,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
     }
   ],
-  "lastUpdated": "2026-07-01T04:56:01.755Z",
-  "lastReasoning": "Sold a highly profitable resolved position to reclaim cash, but did not have sufficient funds to initiate new trades within the specified range."
+  "lastUpdated": "2026-07-01T08:53:11.173Z",
+  "lastReasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
 }
