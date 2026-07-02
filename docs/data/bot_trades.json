@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 397.09964427150413,
+  "totalValue": 406.67598964288595,
   "positions": [
     {
       "marketId": "558940",
@@ -51,71 +51,23 @@
       "costBasis": 25
     },
     {
-      "marketId": "2721770",
-      "question": "United States vs. Bosnia and Herzegovina: Team to Advance",
-      "outcome": "Yes",
-      "shares": 59.880239520958085,
-      "avgCost": 0.835,
-      "costBasis": 50
-    },
-    {
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 51.54639175257732,
-      "avgCost": 0.97,
-      "costBasis": 50
-    },
-    {
       "marketId": "2155000",
       "question": "Hantavirus pandemic in 2026?",
       "outcome": "No",
-      "shares": 19.939773950120642,
-      "avgCost": 0.9685,
-      "costBasis": 19.311671070691844
+      "shares": 30.221197913555812,
+      "avgCost": 0.9685000000000001,
+      "costBasis": 29.269230179278807
+    },
+    {
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 103.68066355624676,
+      "avgCost": 0.9645,
+      "costBasis": 100
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-19T10:49:02.250Z",
-      "action": "BUY",
-      "marketId": "1808970",
-      "question": "US obtains Iranian enriched uranium by May 31?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9635,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-19T10:49:02.250Z",
-      "action": "BUY",
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.955,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-19T18:18:04.385Z",
-      "action": "BUY",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "amount": 30.72,
-      "price": 0.959,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' shares in highly overpriced longshot markets with positive edge, prioritizing the highest edge opportunities and avoiding averaging down into existing positions."
-    },
-    {
-      "ts": "2026-05-19T18:18:04.385Z",
-      "action": "BUY",
-      "marketId": "553857",
-      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
-      "outcome": "No",
-      "amount": 30.72,
-      "price": 0.9555,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' shares in highly overpriced longshot markets with positive edge, prioritizing the highest edge opportunities and avoiding averaging down into existing positions."
-    },
     {
       "ts": "2026-05-19T22:46:51.286Z",
       "action": "SELL",
@@ -2075,8 +2027,48 @@
       "amount": 19.311671070691844,
       "price": 0.9685,
       "reasoning": "Sold a profitable, resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with the highest positive edge, avoiding averaging down into existing losing positions."
+    },
+    {
+      "ts": "2026-07-02T04:14:56.338Z",
+      "action": "SELL",
+      "marketId": "2721770",
+      "question": "United States vs. Bosnia and Herzegovina: Team to Advance",
+      "outcome": "Yes",
+      "proceeds": 59.880239520958085,
+      "price": 1,
+      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-02T04:14:56.338Z",
+      "action": "SELL",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 50.07731958762887,
+      "price": 0.9715,
+      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-02T04:14:56.338Z",
+      "action": "BUY",
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9645,
+      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-02T04:14:56.338Z",
+      "action": "BUY",
+      "marketId": "2155000",
+      "question": "Hantavirus pandemic in 2026?",
+      "outcome": "No",
+      "amount": 9.957559108586963,
+      "price": 0.9685,
+      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-01T23:52:45.873Z",
-  "lastReasoning": "Sold a profitable, resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with the highest positive edge, avoiding averaging down into existing losing positions."
+  "lastUpdated": "2026-07-02T04:14:56.338Z",
+  "lastReasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
 }
