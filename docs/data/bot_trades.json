@@ -1,6 +1,6 @@
 {
-  "cash": 0.2766267674883949,
-  "totalValue": 406.9493509889016,
+  "cash": 0.03177886411797459,
+  "totalValue": 406.91013869791925,
   "positions": [
     {
       "marketId": "558940",
@@ -38,58 +38,20 @@
       "marketId": "2707660",
       "question": "Will Cabo Verde win on 2026-07-03?",
       "outcome": "No",
-      "shares": 26.001040041601662,
-      "avgCost": 0.9615,
-      "costBasis": 25
+      "shares": 52.1107006160142,
+      "avgCost": 0.9594958311620635,
+      "costBasis": 50
     },
     {
       "marketId": "558945",
       "question": "Will Mexico win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 176.18195822222293,
-      "avgCost": 0.9649115137293146,
-      "costBasis": 170
-    },
-    {
-      "marketId": "693485",
-      "question": "Will Lebanon recognize Israel by June 30?",
-      "outcome": "No",
-      "shares": 51.24114531063809,
-      "avgCost": 0.9615169583075284,
-      "costBasis": 49.26923017927881
+      "shares": 202.1021241112846,
+      "avgCost": 0.9648587359360264,
+      "costBasis": 195
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-20T10:35:37.690Z",
-      "action": "BUY",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.962,
-      "reasoning": "Sold dropped positions to free up cash and then bought into two highest-edge BUY_NO_LONGSHOT opportunities."
-    },
-    {
-      "ts": "2026-05-20T19:33:38.990Z",
-      "action": "SELL",
-      "marketId": "561260",
-      "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-      "outcome": "No",
-      "proceeds": 100.1031459515214,
-      "price": 0.9705,
-      "reasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
-    },
-    {
-      "ts": "2026-05-20T19:33:38.990Z",
-      "action": "BUY",
-      "marketId": "553857",
-      "question": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9695,
-      "reasoning": "I sold a resolved position to reclaim cash and then bought into two longshot 'No' markets with positive edge, adhering to the favourite-longshot bias strategy."
-    },
     {
       "ts": "2026-05-20T19:33:38.990Z",
       "action": "BUY",
@@ -2059,8 +2021,38 @@
       "amount": 45,
       "price": 0.961,
       "reasoning": "Sold a dropped position to free up cash and bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-02T16:57:36.066Z",
+      "action": "SELL",
+      "marketId": "693485",
+      "question": "Will Lebanon recognize Israel by June 30?",
+      "outcome": "No",
+      "proceeds": 49.75515209662958,
+      "price": 0.971,
+      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-02T16:57:36.066Z",
+      "action": "BUY",
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9645,
+      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-02T16:57:36.066Z",
+      "action": "BUY",
+      "marketId": "2707660",
+      "question": "Will Cabo Verde win on 2026-07-03?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9575,
+      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-02T14:53:50.866Z",
-  "lastReasoning": "No trades were executed due to insufficient cash to meet the minimum trade amount of $20 USDC per position."
+  "lastUpdated": "2026-07-02T16:57:36.066Z",
+  "lastReasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
 }
