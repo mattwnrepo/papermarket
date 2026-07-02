@@ -1,26 +1,70 @@
 {
   "markets": [
     {
-      "id": "558935",
-      "question": "Will England win the 2026 FIFA World Cup?",
+      "id": "2719303",
+      "question": "Spread: Spain (-1.5)",
       "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0815,
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.48375,
       "outcomes": [
         {
-          "id": "558935-0",
-          "title": "Yes",
-          "price": 0.0815
+          "id": "2719303-0",
+          "title": "Spain",
+          "price": 0.48375
         },
         {
-          "id": "558935-1",
-          "title": "No",
-          "price": 0.9185
+          "id": "2719303-1",
+          "title": "Austria",
+          "price": 0.51625
         }
       ],
-      "volume": 72540918.57159255,
-      "liquidity": 4779615.83515,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 7174204.067906959,
+      "liquidity": 4264963.899125,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
+    },
+    {
+      "id": "2718913",
+      "question": "Will Spain win on 2026-07-02?",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.73125,
+      "outcomes": [
+        {
+          "id": "2718913-0",
+          "title": "Yes",
+          "price": 0.73125
+        },
+        {
+          "id": "2718913-1",
+          "title": "No",
+          "price": 0.26875
+        }
+      ],
+      "volume": 4180405.798784964,
+      "liquidity": 3190507.146825,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
+    },
+    {
+      "id": "558934",
+      "question": "Will Spain win the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.1085,
+      "outcomes": [
+        {
+          "id": "558934-0",
+          "title": "Yes",
+          "price": 0.1085
+        },
+        {
+          "id": "558934-1",
+          "title": "No",
+          "price": 0.8915
+        }
+      ],
+      "volume": 77645187.84592909,
+      "liquidity": 7148378.89663,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
       "id": "558945",
@@ -40,119 +84,97 @@
           "price": 0.9645
         }
       ],
-      "volume": 119993528.25888029,
-      "liquidity": 854037.80358,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "558936",
-      "question": "Will France win the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.3475,
-      "outcomes": [
-        {
-          "id": "558936-0",
-          "title": "Yes",
-          "price": 0.3475
-        },
-        {
-          "id": "558936-1",
-          "title": "No",
-          "price": 0.6525
-        }
-      ],
-      "volume": 88889826.28921963,
-      "liquidity": 7066148.01313,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2719303",
-      "question": "Spread: Spain (-1.5)",
-      "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.52375,
-      "outcomes": [
-        {
-          "id": "2719303-0",
-          "title": "Spain",
-          "price": 0.52375
-        },
-        {
-          "id": "2719303-1",
-          "title": "Austria",
-          "price": 0.47625
-        }
-      ],
-      "volume": 3694096.1969099753,
-      "liquidity": 1231297.70265,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 120156693.79434235,
+      "liquidity": 880706.87911,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
       "id": "558940",
       "question": "Will Portugal win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0635,
+      "yesPrice": 0.0595,
       "outcomes": [
         {
           "id": "558940-0",
           "title": "Yes",
-          "price": 0.0635
+          "price": 0.0595
         },
         {
           "id": "558940-1",
           "title": "No",
-          "price": 0.9365
+          "price": 0.9405
         }
       ],
-      "volume": 89155378.25516056,
-      "liquidity": 3982190.69187,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 89412587.8137306,
+      "liquidity": 4000896.08016,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
-      "id": "558934",
-      "question": "Will Spain win the 2026 FIFA World Cup?",
+      "id": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.1045,
+      "yesPrice": 0.3455,
       "outcomes": [
         {
-          "id": "558934-0",
+          "id": "558936-0",
           "title": "Yes",
-          "price": 0.1045
+          "price": 0.3455
         },
         {
-          "id": "558934-1",
+          "id": "558936-1",
           "title": "No",
-          "price": 0.8955
+          "price": 0.6545
         }
       ],
-      "volume": 76916226.29414514,
-      "liquidity": 7534610.45887,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 89060149.51629856,
+      "liquidity": 6882182.86686,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
-      "id": "2718913",
-      "question": "Will Spain win on 2026-07-02?",
+      "id": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
       "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.76375,
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.0805,
       "outcomes": [
         {
-          "id": "2718913-0",
+          "id": "558935-0",
           "title": "Yes",
-          "price": 0.76375
+          "price": 0.0805
         },
         {
-          "id": "2718913-1",
+          "id": "558935-1",
           "title": "No",
-          "price": 0.23625
+          "price": 0.9195
         }
       ],
-      "volume": 2830532.4804049344,
-      "liquidity": 1096083.376225,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 72735872.83537957,
+      "liquidity": 4589138.90311,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
+    },
+    {
+      "id": "2721761",
+      "question": "Spain vs. Austria: Team to Advance",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.86625,
+      "outcomes": [
+        {
+          "id": "2721761-0",
+          "title": "Spain",
+          "price": 0.86625
+        },
+        {
+          "id": "2721761-1",
+          "title": "Austria",
+          "price": 0.13375
+        }
+      ],
+      "volume": 2592904.0135440696,
+      "liquidity": 969583.023125,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
       "id": "558938",
@@ -172,9 +194,31 @@
           "price": 0.8155
         }
       ],
-      "volume": 90606266.58136152,
-      "liquidity": 8439129.62149,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 90720925.32617244,
+      "liquidity": 8386310.39154,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
+    },
+    {
+      "id": "1654959",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-07-29T00:00:00Z",
+      "yesPrice": 0.0965,
+      "outcomes": [
+        {
+          "id": "1654959-0",
+          "title": "Yes",
+          "price": 0.0965
+        },
+        {
+          "id": "1654959-1",
+          "title": "No",
+          "price": 0.9035
+        }
+      ],
+      "volume": 9282265.251419054,
+      "liquidity": 693384.56003,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
       "id": "558937",
@@ -194,75 +238,75 @@
           "price": 0.9355
         }
       ],
-      "volume": 72966117.82343124,
-      "liquidity": 4478591.75345,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "1654959",
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.0955,
-      "outcomes": [
-        {
-          "id": "1654959-0",
-          "title": "Yes",
-          "price": 0.0955
-        },
-        {
-          "id": "1654959-1",
-          "title": "No",
-          "price": 0.9045
-        }
-      ],
-      "volume": 9274008.212387057,
-      "liquidity": 729131.26421,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2721761",
-      "question": "Spain vs. Austria: Team to Advance",
-      "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.88125,
-      "outcomes": [
-        {
-          "id": "2721761-0",
-          "title": "Spain",
-          "price": 0.88125
-        },
-        {
-          "id": "2721761-1",
-          "title": "Austria",
-          "price": 0.11875
-        }
-      ],
-      "volume": 1828282.5718910587,
-      "liquidity": 810720.9286,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 73348099.94935523,
+      "liquidity": 4088381.46899,
+      "lastUpdated": "2026-07-02T18:41:23.356Z"
     },
     {
       "id": "2718919",
       "question": "Will Portugal win on 2026-07-02?",
       "category": "General",
       "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.57875,
+      "yesPrice": 0.58375,
       "outcomes": [
         {
           "id": "2718919-0",
           "title": "Yes",
-          "price": 0.57875
+          "price": 0.58375
         },
         {
           "id": "2718919-1",
           "title": "No",
-          "price": 0.42125
+          "price": 0.41625
         }
       ],
-      "volume": 2181123.692141991,
-      "liquidity": 886302.293225,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 2300986.3741269875,
+      "liquidity": 1372599.20735,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2718925",
+      "question": "Will Switzerland win on 2026-07-02?",
+      "category": "General",
+      "endDate": "2026-07-03T03:00:00Z",
+      "yesPrice": 0.49875,
+      "outcomes": [
+        {
+          "id": "2718925-0",
+          "title": "Yes",
+          "price": 0.49875
+        },
+        {
+          "id": "2718925-1",
+          "title": "No",
+          "price": 0.50125
+        }
+      ],
+      "volume": 1883131.1813599798,
+      "liquidity": 874585.931075,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2718915",
+      "question": "Will Austria win on 2026-07-02?",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.08375,
+      "outcomes": [
+        {
+          "id": "2718915-0",
+          "title": "Yes",
+          "price": 0.08375
+        },
+        {
+          "id": "2718915-1",
+          "title": "No",
+          "price": 0.91625
+        }
+      ],
+      "volume": 1646684.7674219983,
+      "liquidity": 616474.99985,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "560317",
@@ -282,97 +326,9 @@
           "price": 0.885
         }
       ],
-      "volume": 14210541.0269281,
-      "liquidity": 1816193.6545,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2718925",
-      "question": "Will Switzerland win on 2026-07-02?",
-      "category": "General",
-      "endDate": "2026-07-03T03:00:00Z",
-      "yesPrice": 0.51375,
-      "outcomes": [
-        {
-          "id": "2718925-0",
-          "title": "Yes",
-          "price": 0.51375
-        },
-        {
-          "id": "2718925-1",
-          "title": "No",
-          "price": 0.48625
-        }
-      ],
-      "volume": 1659704.035827984,
-      "liquidity": 541974.5763,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "1654958",
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.895,
-      "outcomes": [
-        {
-          "id": "1654958-0",
-          "title": "Yes",
-          "price": 0.895
-        },
-        {
-          "id": "1654958-1",
-          "title": "No",
-          "price": 0.105
-        }
-      ],
-      "volume": 7174061.824211031,
-      "liquidity": 968399.9614,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2718915",
-      "question": "Will Austria win on 2026-07-02?",
-      "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.07375,
-      "outcomes": [
-        {
-          "id": "2718915-0",
-          "title": "Yes",
-          "price": 0.07375
-        },
-        {
-          "id": "2718915-1",
-          "title": "No",
-          "price": 0.92625
-        }
-      ],
-      "volume": 1249971.3889520036,
-      "liquidity": 387720.570275,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2719273",
-      "question": "Portugal vs. Croatia: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.55625,
-      "outcomes": [
-        {
-          "id": "2719273-0",
-          "title": "Over",
-          "price": 0.55625
-        },
-        {
-          "id": "2719273-1",
-          "title": "Under",
-          "price": 0.44375
-        }
-      ],
-      "volume": 1154129.0701249985,
-      "liquidity": 530911.4602,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 14222893.410124106,
+      "liquidity": 1891563.2911,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719024",
@@ -392,53 +348,97 @@
           "price": 0.845
         }
       ],
-      "volume": 968116.4418550022,
-      "liquidity": 482131.4517,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 1278063.1988620174,
+      "liquidity": 650772.1757,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2758059",
-      "question": "Wimbledon ATP: James Duckworth vs Flavio Cobolli",
+      "id": "1654958",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
       "category": "General",
-      "endDate": "2026-07-09T13:30:00Z",
-      "yesPrice": 0.335,
+      "endDate": "2026-07-29T00:00:00Z",
+      "yesPrice": 0.895,
       "outcomes": [
         {
-          "id": "2758059-0",
-          "title": "James Duckworth",
-          "price": 0.335
+          "id": "1654958-0",
+          "title": "Yes",
+          "price": 0.895
         },
         {
-          "id": "2758059-1",
-          "title": "Flavio Cobolli",
-          "price": 0.665
+          "id": "1654958-1",
+          "title": "No",
+          "price": 0.105
         }
       ],
-      "volume": 857732.1376609994,
-      "liquidity": 168172.5653,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 7205864.438645032,
+      "liquidity": 1004208.3819,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719315",
       "question": "Spain vs. Austria: O/U 2.5",
       "category": "General",
       "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.57875,
+      "yesPrice": 0.57125,
       "outcomes": [
         {
           "id": "2719315-0",
           "title": "Over",
-          "price": 0.57875
+          "price": 0.57125
         },
         {
           "id": "2719315-1",
           "title": "Under",
-          "price": 0.42125
+          "price": 0.42875
         }
       ],
-      "volume": 850316.2981340002,
-      "liquidity": 416073.942025,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 1228767.711862,
+      "liquidity": 1490309.84555,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2718914",
+      "question": "Will Spain vs. Austria end in a draw?",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.18375,
+      "outcomes": [
+        {
+          "id": "2718914-0",
+          "title": "Yes",
+          "price": 0.18375
+        },
+        {
+          "id": "2718914-1",
+          "title": "No",
+          "price": 0.81625
+        }
+      ],
+      "volume": 1146457.3786249957,
+      "liquidity": 1310717.914775,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719273",
+      "question": "Portugal vs. Croatia: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-07-02T23:00:00Z",
+      "yesPrice": 0.55625,
+      "outcomes": [
+        {
+          "id": "2719273-0",
+          "title": "Over",
+          "price": 0.55625
+        },
+        {
+          "id": "2719273-1",
+          "title": "Under",
+          "price": 0.44375
+        }
+      ],
+      "volume": 1172104.9525819987,
+      "liquidity": 398330.279275,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719027",
@@ -458,9 +458,75 @@
           "price": 0.895
         }
       ],
-      "volume": 738716.4998430003,
-      "liquidity": 438935.2595,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 1002811.5461720022,
+      "liquidity": 472255.3289,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2718920",
+      "question": "Will Portugal vs. Croatia end in a draw?",
+      "category": "General",
+      "endDate": "2026-07-02T23:00:00Z",
+      "yesPrice": 0.24875,
+      "outcomes": [
+        {
+          "id": "2718920-0",
+          "title": "Yes",
+          "price": 0.24875
+        },
+        {
+          "id": "2718920-1",
+          "title": "No",
+          "price": 0.75125
+        }
+      ],
+      "volume": 1030450.650330008,
+      "liquidity": 515993.295375,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2747692",
+      "question": "Wimbledon ATP: Jakub Mensik vs Grigor Dimitrov",
+      "category": "General",
+      "endDate": "2026-07-09T10:00:00Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "2747692-0",
+          "title": "Jakub Mensik",
+          "price": 0.635
+        },
+        {
+          "id": "2747692-1",
+          "title": "Grigor Dimitrov",
+          "price": 0.365
+        }
+      ],
+      "volume": 803551.5477950001,
+      "liquidity": 174085.6017,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719031",
+      "question": "Exact Score: Spain 3 - 1 Austria?",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "2719031-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "2719031-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 780522.3183070027,
+      "liquidity": 639986.3563,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2721765",
@@ -480,31 +546,31 @@
           "price": 0.085
         }
       ],
-      "volume": 1099891.2944950017,
-      "liquidity": 428805.4387,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 1135326.4736610057,
+      "liquidity": 332260.7352,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2719031",
-      "question": "Exact Score: Spain 3 - 1 Austria?",
+      "id": "2719330",
+      "question": "Spain vs. Austria: Austria O/U 0.5",
       "category": "General",
       "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.085,
+      "yesPrice": 0.505,
       "outcomes": [
         {
-          "id": "2719031-0",
-          "title": "Yes",
-          "price": 0.085
+          "id": "2719330-0",
+          "title": "Over",
+          "price": 0.505
         },
         {
-          "id": "2719031-1",
-          "title": "No",
-          "price": 0.915
+          "id": "2719330-1",
+          "title": "Under",
+          "price": 0.495
         }
       ],
-      "volume": 587093.8237630015,
-      "liquidity": 826643.4734,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 642325.1146799986,
+      "liquidity": 244438.9113,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2718922",
@@ -524,251 +590,141 @@
           "price": 0.83125
         }
       ],
-      "volume": 806662.9393840026,
-      "liquidity": 579613.0599,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2747696",
-      "question": "Wimbledon ATP: Matteo Berrettini vs Arthur Fils",
-      "category": "General",
-      "endDate": "2026-07-09T10:00:00Z",
-      "yesPrice": 0.885,
-      "outcomes": [
-        {
-          "id": "2747696-0",
-          "title": "Matteo Berrettini",
-          "price": 0.885
-        },
-        {
-          "id": "2747696-1",
-          "title": "Arthur Fils",
-          "price": 0.115
-        }
-      ],
-      "volume": 517990.35941699956,
-      "liquidity": 111583.2155,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2744247",
-      "question": "Wimbledon WTA: Kamilla Rakhimova vs Maria Sakkari",
-      "category": "General",
-      "endDate": "2026-07-08T10:00:00Z",
-      "yesPrice": 0.405,
-      "outcomes": [
-        {
-          "id": "2744247-0",
-          "title": "Kamilla Rakhimova",
-          "price": 0.405
-        },
-        {
-          "id": "2744247-1",
-          "title": "Maria Sakkari",
-          "price": 0.595
-        }
-      ],
-      "volume": 492751.6216700005,
-      "liquidity": 102468.6197,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 877511.2501450002,
+      "liquidity": 798764.441475,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719322",
       "question": "Spain vs. Austria: Both Teams to Score",
       "category": "General",
       "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.455,
+      "yesPrice": 0.465,
       "outcomes": [
         {
           "id": "2719322-0",
           "title": "Yes",
-          "price": 0.455
+          "price": 0.465
         },
         {
           "id": "2719322-1",
           "title": "No",
-          "price": 0.545
+          "price": 0.535
         }
       ],
-      "volume": 497523.19787500054,
-      "liquidity": 447910.0945,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2718920",
-      "question": "Will Portugal vs. Croatia end in a draw?",
-      "category": "General",
-      "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.25625,
-      "outcomes": [
-        {
-          "id": "2718920-0",
-          "title": "Yes",
-          "price": 0.25625
-        },
-        {
-          "id": "2718920-1",
-          "title": "No",
-          "price": 0.74375
-        }
-      ],
-      "volume": 592298.990178007,
-      "liquidity": 424228.327875,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2719330",
-      "question": "Spain vs. Austria: Austria O/U 0.5",
-      "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "2719330-0",
-          "title": "Over",
-          "price": 0.475
-        },
-        {
-          "id": "2719330-1",
-          "title": "Under",
-          "price": 0.525
-        }
-      ],
-      "volume": 468182.3430410016,
-      "liquidity": 236608.497,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
-    },
-    {
-      "id": "2707660",
-      "question": "Will Cabo Verde win on 2026-07-03?",
-      "category": "General",
-      "endDate": "2026-07-03T22:00:00Z",
-      "yesPrice": 0.0425,
-      "outcomes": [
-        {
-          "id": "2707660-0",
-          "title": "Yes",
-          "price": 0.0425
-        },
-        {
-          "id": "2707660-1",
-          "title": "No",
-          "price": 0.9575
-        }
-      ],
-      "volume": 1131065.8482580006,
-      "liquidity": 488881.79388,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 586197.9090210003,
+      "liquidity": 349437.5045,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2721760",
       "question": "Portugal vs. Croatia: Team to Advance",
       "category": "General",
       "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.7125,
+      "yesPrice": 0.70625,
       "outcomes": [
         {
           "id": "2721760-0",
           "title": "Portugal",
-          "price": 0.7125
+          "price": 0.70625
         },
         {
           "id": "2721760-1",
           "title": "Croatia",
-          "price": 0.2875
+          "price": 0.29375
         }
       ],
-      "volume": 524880.075900998,
-      "liquidity": 157285.77175,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 655770.8147489994,
+      "liquidity": 266320.683625,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2691855",
+      "question": "Pittsburgh Pirates vs. Philadelphia Phillies",
+      "category": "General",
+      "endDate": "2026-07-09T16:35:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "2691855-0",
+          "title": "Pittsburgh Pirates",
+          "price": 0.465
+        },
+        {
+          "id": "2691855-1",
+          "title": "Philadelphia Phillies",
+          "price": 0.535
+        }
+      ],
+      "volume": 547695.2325299997,
+      "liquidity": 68682.7389,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2744265",
+      "question": "Wimbledon WTA: Jasmine Paolini vs Viktorija Golubic",
+      "category": "General",
+      "endDate": "2026-07-08T10:00:00Z",
+      "yesPrice": 0.88,
+      "outcomes": [
+        {
+          "id": "2744265-0",
+          "title": "Jasmine Paolini",
+          "price": 0.88
+        },
+        {
+          "id": "2744265-1",
+          "title": "Viktorija Golubic",
+          "price": 0.12
+        }
+      ],
+      "volume": 533588.0839430077,
+      "liquidity": 113128.6622,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719028",
       "question": "Exact Score: Spain 3 - 0 Austria?",
       "category": "General",
       "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.115,
+      "yesPrice": 0.105,
       "outcomes": [
         {
           "id": "2719028-0",
           "title": "Yes",
-          "price": 0.115
+          "price": 0.105
         },
         {
           "id": "2719028-1",
           "title": "No",
-          "price": 0.885
+          "price": 0.895
         }
       ],
-      "volume": 414042.85351700446,
-      "liquidity": 731847.9516,
-      "lastUpdated": "2026-07-02T16:57:26.511Z"
+      "volume": 539177.2965030109,
+      "liquidity": 809567.7166,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2176262",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "id": "2691857",
+      "question": "Cincinnati Reds vs. Milwaukee Brewers",
       "category": "General",
-      "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.275,
+      "endDate": "2026-07-09T18:10:00Z",
+      "yesPrice": 0.475,
       "outcomes": [
         {
-          "id": "2176262-0",
-          "title": "Yes",
-          "price": 0.275
+          "id": "2691857-0",
+          "title": "Cincinnati Reds",
+          "price": 0.475
         },
         {
-          "id": "2176262-1",
-          "title": "No",
-          "price": 0.725
+          "id": "2691857-1",
+          "title": "Milwaukee Brewers",
+          "price": 0.525
         }
       ],
-      "volume": 11525356.763645217,
-      "liquidity": 345633.5769,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2535468",
-      "question": "Strait of Hormuz traffic returns to normal by July 15?",
-      "category": "General",
-      "endDate": "2026-07-15T00:00:00Z",
-      "yesPrice": 0.085,
-      "outcomes": [
-        {
-          "id": "2535468-0",
-          "title": "Yes",
-          "price": 0.085
-        },
-        {
-          "id": "2535468-1",
-          "title": "No",
-          "price": 0.915
-        }
-      ],
-      "volume": 5921318.755134948,
-      "liquidity": 287709.9547,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2718914",
-      "question": "Will Spain vs. Austria end in a draw?",
-      "category": "General",
-      "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.16875,
-      "outcomes": [
-        {
-          "id": "2718914-0",
-          "title": "Yes",
-          "price": 0.16875
-        },
-        {
-          "id": "2718914-1",
-          "title": "No",
-          "price": 0.83125
-        }
-      ],
-      "volume": 396344.2126549976,
-      "liquidity": 492320.911525,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 479671.9268279998,
+      "liquidity": 97616.1162,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719053",
@@ -788,119 +744,53 @@
           "price": 0.885
         }
       ],
-      "volume": 347039.2523160065,
-      "liquidity": 412890.308,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 459885.2945010137,
+      "liquidity": 286736.8827,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2718926",
-      "question": "Will Switzerland vs. Algeria end in a draw?",
+      "id": "2719316",
+      "question": "Spain vs. Austria: O/U 3.5",
       "category": "General",
-      "endDate": "2026-07-03T03:00:00Z",
-      "yesPrice": 0.28875,
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.33625,
       "outcomes": [
         {
-          "id": "2718926-0",
+          "id": "2719316-0",
+          "title": "Over",
+          "price": 0.33625
+        },
+        {
+          "id": "2719316-1",
+          "title": "Under",
+          "price": 0.66375
+        }
+      ],
+      "volume": 386328.2845059997,
+      "liquidity": 448300.12375,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "category": "General",
+      "endDate": "2026-07-31T00:00:00Z",
+      "yesPrice": 0.265,
+      "outcomes": [
+        {
+          "id": "2176262-0",
           "title": "Yes",
-          "price": 0.28875
+          "price": 0.265
         },
         {
-          "id": "2718926-1",
+          "id": "2176262-1",
           "title": "No",
-          "price": 0.71125
+          "price": 0.735
         }
       ],
-      "volume": 365642.0675480004,
-      "liquidity": 371276.50195,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2758034",
-      "question": "Wimbledon ATP: Jiri Lehecka vs Alex Molcan",
-      "category": "General",
-      "endDate": "2026-07-09T13:30:00Z",
-      "yesPrice": 0.945,
-      "outcomes": [
-        {
-          "id": "2758034-0",
-          "title": "Jiri Lehecka",
-          "price": 0.945
-        },
-        {
-          "id": "2758034-1",
-          "title": "Alex Molcan",
-          "price": 0.055
-        }
-      ],
-      "volume": 317588.7857340004,
-      "liquidity": 201403.9922,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2707658",
-      "question": "Will Argentina win on 2026-07-03?",
-      "category": "General",
-      "endDate": "2026-07-03T22:00:00Z",
-      "yesPrice": 0.855,
-      "outcomes": [
-        {
-          "id": "2707658-0",
-          "title": "Yes",
-          "price": 0.855
-        },
-        {
-          "id": "2707658-1",
-          "title": "No",
-          "price": 0.145
-        }
-      ],
-      "volume": 914060.3337620388,
-      "liquidity": 1017936.9534,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2744345",
-      "question": "Wimbledon ATP: Jacob Fearnley vs Jaume Munar",
-      "category": "General",
-      "endDate": "2026-07-08T10:00:00Z",
-      "yesPrice": 0.044,
-      "outcomes": [
-        {
-          "id": "2744345-0",
-          "title": "Jacob Fearnley",
-          "price": 0.044
-        },
-        {
-          "id": "2744345-1",
-          "title": "Jaume Munar",
-          "price": 0.956
-        }
-      ],
-      "volume": 316589.3648490001,
-      "liquidity": 101638.6149,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2719049",
-      "question": "Exact Score: Portugal 1 - 1 Croatia?",
-      "category": "General",
-      "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.125,
-      "outcomes": [
-        {
-          "id": "2719049-0",
-          "title": "Yes",
-          "price": 0.125
-        },
-        {
-          "id": "2719049-1",
-          "title": "No",
-          "price": 0.875
-        }
-      ],
-      "volume": 269532.17644199956,
-      "liquidity": 235457.8213,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 11553777.64539122,
+      "liquidity": 332510.9573,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719021",
@@ -920,75 +810,273 @@
           "price": 0.885
         }
       ],
-      "volume": 267148.3158300008,
-      "liquidity": 750619.8047,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 372384.3134910027,
+      "liquidity": 476688.3571,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2754651",
-      "question": "Will Norway win on 2026-07-05?",
+      "id": "2535468",
+      "question": "Strait of Hormuz traffic returns to normal by July 15?",
       "category": "General",
-      "endDate": "2026-07-05T20:00:00Z",
-      "yesPrice": 0.215,
+      "endDate": "2026-07-15T00:00:00Z",
+      "yesPrice": 0.065,
       "outcomes": [
         {
-          "id": "2754651-0",
+          "id": "2535468-0",
           "title": "Yes",
-          "price": 0.215
+          "price": 0.065
         },
         {
-          "id": "2754651-1",
+          "id": "2535468-1",
           "title": "No",
-          "price": 0.785
+          "price": 0.935
         }
       ],
-      "volume": 308928.112501003,
-      "liquidity": 291084.0978,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 5942886.07065695,
+      "liquidity": 352099.421,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2758085",
+      "question": "Wimbledon ATP: Frances Tiafoe vs Jan Choinski",
+      "category": "General",
+      "endDate": "2026-07-09T13:30:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "2758085-0",
+          "title": "Frances Tiafoe",
+          "price": 0.595
+        },
+        {
+          "id": "2758085-1",
+          "title": "Jan Choinski",
+          "price": 0.405
+        }
+      ],
+      "volume": 369839.8233979999,
+      "liquidity": 201240.2174,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2718926",
+      "question": "Will Switzerland vs. Algeria end in a draw?",
+      "category": "General",
+      "endDate": "2026-07-03T03:00:00Z",
+      "yesPrice": 0.28875,
+      "outcomes": [
+        {
+          "id": "2718926-0",
+          "title": "Yes",
+          "price": 0.28875
+        },
+        {
+          "id": "2718926-1",
+          "title": "No",
+          "price": 0.71125
+        }
+      ],
+      "volume": 373068.0171520012,
+      "liquidity": 403537.53175,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2707660",
+      "question": "Will Cabo Verde win on 2026-07-03?",
+      "category": "General",
+      "endDate": "2026-07-03T22:00:00Z",
+      "yesPrice": 0.043,
+      "outcomes": [
+        {
+          "id": "2707660-0",
+          "title": "Yes",
+          "price": 0.043
+        },
+        {
+          "id": "2707660-1",
+          "title": "No",
+          "price": 0.957
+        }
+      ],
+      "volume": 1167436.9323239995,
+      "liquidity": 345338.15522,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719013",
+      "question": "Spain leading at halftime?",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "2719013-0",
+          "title": "Yes",
+          "price": 0.545
+        },
+        {
+          "id": "2719013-1",
+          "title": "No",
+          "price": 0.455
+        }
+      ],
+      "volume": 335041.5141959982,
+      "liquidity": 293480.017,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2766776",
+      "question": "Will Belgium win on 2026-07-06?",
+      "category": "General",
+      "endDate": "2026-07-07T00:00:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "2766776-0",
+          "title": "Yes",
+          "price": 0.355
+        },
+        {
+          "id": "2766776-1",
+          "title": "No",
+          "price": 0.645
+        }
+      ],
+      "volume": 333362.82535499986,
+      "liquidity": 223054.1133,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719261",
       "question": "Spread: Portugal (-1.5)",
       "category": "General",
       "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.32875,
+      "yesPrice": 0.33375,
       "outcomes": [
         {
           "id": "2719261-0",
           "title": "Portugal",
-          "price": 0.32875
+          "price": 0.33375
         },
         {
           "id": "2719261-1",
           "title": "Croatia",
-          "price": 0.67125
+          "price": 0.66625
         }
       ],
-      "volume": 266147.08858800045,
-      "liquidity": 736045.2342,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 318754.98935500096,
+      "liquidity": 994418.908625,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2707658",
+      "question": "Will Argentina win on 2026-07-03?",
+      "category": "General",
+      "endDate": "2026-07-03T22:00:00Z",
+      "yesPrice": 0.855,
+      "outcomes": [
+        {
+          "id": "2707658-0",
+          "title": "Yes",
+          "price": 0.855
+        },
+        {
+          "id": "2707658-1",
+          "title": "No",
+          "price": 0.145
+        }
+      ],
+      "volume": 935640.5266200391,
+      "liquidity": 1019412.0847,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719280",
       "question": "Portugal vs. Croatia: Both Teams to Score",
       "category": "General",
       "endDate": "2026-07-02T23:00:00Z",
-      "yesPrice": 0.585,
+      "yesPrice": 0.58,
       "outcomes": [
         {
           "id": "2719280-0",
           "title": "Yes",
-          "price": 0.585
+          "price": 0.58
         },
         {
           "id": "2719280-1",
           "title": "No",
-          "price": 0.415
+          "price": 0.42
         }
       ],
-      "volume": 256478.3837609976,
-      "liquidity": 341725.0901,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 303526.26281299617,
+      "liquidity": 341865.6565,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719049",
+      "question": "Exact Score: Portugal 1 - 1 Croatia?",
+      "category": "General",
+      "endDate": "2026-07-02T23:00:00Z",
+      "yesPrice": 0.125,
+      "outcomes": [
+        {
+          "id": "2719049-0",
+          "title": "Yes",
+          "price": 0.125
+        },
+        {
+          "id": "2719049-1",
+          "title": "No",
+          "price": 0.875
+        }
+      ],
+      "volume": 293344.0879829989,
+      "liquidity": 239554.1263,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719328",
+      "question": "Spain vs. Austria: Spain O/U 1.5",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.685,
+      "outcomes": [
+        {
+          "id": "2719328-0",
+          "title": "Over",
+          "price": 0.685
+        },
+        {
+          "id": "2719328-1",
+          "title": "Under",
+          "price": 0.315
+        }
+      ],
+      "volume": 275180.77195299935,
+      "liquidity": 257211.3098,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
+    },
+    {
+      "id": "2719314",
+      "question": "Spain vs. Austria: O/U 1.5",
+      "category": "General",
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.80375,
+      "outcomes": [
+        {
+          "id": "2719314-0",
+          "title": "Over",
+          "price": 0.80375
+        },
+        {
+          "id": "2719314-1",
+          "title": "Under",
+          "price": 0.19625
+        }
+      ],
+      "volume": 259323.7425319998,
+      "liquidity": 501560.793125,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
       "id": "2719238",
@@ -1008,142 +1096,98 @@
           "price": 0.505
         }
       ],
-      "volume": 233912.79687000008,
-      "liquidity": 331109.0901,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 260978.74647300056,
+      "liquidity": 322842.2055,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2740921",
-      "question": "Will Morocco win on 2026-07-04?",
+      "id": "2754651",
+      "question": "Will Norway win on 2026-07-05?",
       "category": "General",
-      "endDate": "2026-07-04T17:00:00Z",
-      "yesPrice": 0.545,
+      "endDate": "2026-07-05T20:00:00Z",
+      "yesPrice": 0.215,
       "outcomes": [
         {
-          "id": "2740921-0",
+          "id": "2754651-0",
           "title": "Yes",
-          "price": 0.545
+          "price": 0.215
         },
         {
-          "id": "2740921-1",
+          "id": "2754651-1",
           "title": "No",
-          "price": 0.455
+          "price": 0.785
         }
       ],
-      "volume": 981696.1272859863,
-      "liquidity": 503840.85,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 311961.3751710029,
+      "liquidity": 284065.5826,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2719079",
-      "question": "Exact Score: Switzerland 2 - 1 Algeria?",
-      "category": "General",
-      "endDate": "2026-07-03T03:00:00Z",
-      "yesPrice": 0.105,
-      "outcomes": [
-        {
-          "id": "2719079-0",
-          "title": "Yes",
-          "price": 0.105
-        },
-        {
-          "id": "2719079-1",
-          "title": "No",
-          "price": 0.895
-        }
-      ],
-      "volume": 206374.66138400088,
-      "liquidity": 191238.6368,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2719316",
-      "question": "Spain vs. Austria: O/U 3.5",
+      "id": "2719325",
+      "question": "Spain vs. Austria: 1st Half O/U 1.5",
       "category": "General",
       "endDate": "2026-07-02T19:00:00Z",
-      "yesPrice": 0.34,
+      "yesPrice": 0.375,
       "outcomes": [
         {
-          "id": "2719316-0",
+          "id": "2719325-0",
           "title": "Over",
-          "price": 0.34
+          "price": 0.375
         },
         {
-          "id": "2719316-1",
+          "id": "2719325-1",
           "title": "Under",
-          "price": 0.66
+          "price": 0.625
         }
       ],
-      "volume": 208035.96378900006,
-      "liquidity": 235271.9029,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 235058.86175499987,
+      "liquidity": 443891.0454,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2691857",
-      "question": "Cincinnati Reds vs. Milwaukee Brewers",
+      "id": "2718931",
+      "question": "Will Colombia win on 2026-07-03?",
       "category": "General",
-      "endDate": "2026-07-09T18:10:00Z",
-      "yesPrice": 0.345,
+      "endDate": "2026-07-04T01:30:00Z",
+      "yesPrice": 0.655,
       "outcomes": [
         {
-          "id": "2691857-0",
-          "title": "Cincinnati Reds",
-          "price": 0.345
-        },
-        {
-          "id": "2691857-1",
-          "title": "Milwaukee Brewers",
-          "price": 0.655
-        }
-      ],
-      "volume": 195776.01800399946,
-      "liquidity": 395309.923,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
-    },
-    {
-      "id": "2673621",
-      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
-      "category": "General",
-      "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.835,
-      "outcomes": [
-        {
-          "id": "2673621-0",
+          "id": "2718931-0",
           "title": "Yes",
-          "price": 0.835
+          "price": 0.655
         },
         {
-          "id": "2673621-1",
+          "id": "2718931-1",
           "title": "No",
-          "price": 0.165
+          "price": 0.345
         }
       ],
-      "volume": 411473.1293219991,
-      "liquidity": 88782.7914,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 405903.0141860029,
+      "liquidity": 915101.8751,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     },
     {
-      "id": "2756683",
-      "question": "Matteo Berrettini vs. Arthur Fils: Total Sets O/U 3.5",
+      "id": "2719305",
+      "question": "Spread: Spain (-2.5)",
       "category": "General",
-      "endDate": "2026-07-09T10:00:00Z",
-      "yesPrice": 0.76,
+      "endDate": "2026-07-02T19:00:00Z",
+      "yesPrice": 0.25875,
       "outcomes": [
         {
-          "id": "2756683-0",
-          "title": "Over 3.5",
-          "price": 0.76
+          "id": "2719305-0",
+          "title": "Spain",
+          "price": 0.25875
         },
         {
-          "id": "2756683-1",
-          "title": "Under 3.5",
-          "price": 0.24
+          "id": "2719305-1",
+          "title": "Austria",
+          "price": 0.74125
         }
       ],
-      "volume": 189761.21411300002,
-      "liquidity": 10645.975,
-      "lastUpdated": "2026-07-02T16:57:26.512Z"
+      "volume": 232234.3124850001,
+      "liquidity": 559152.6482,
+      "lastUpdated": "2026-07-02T18:41:23.358Z"
     }
   ],
-  "lastUpdated": "2026-07-02T16:57:36.067Z"
+  "lastUpdated": "2026-07-02T18:41:31.990Z"
 }
