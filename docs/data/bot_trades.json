@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 408.91593688845467,
+  "cash": 0.0862006365961652,
+  "totalValue": 403.93985398233525,
   "positions": [
     {
       "marketId": "558940",
@@ -41,27 +41,9 @@
       "shares": 52.1107006160142,
       "avgCost": 0.9594958311620635,
       "costBasis": 50
-    },
-    {
-      "marketId": "2746226",
-      "question": "Australia vs. Egypt: O/U 8.5 Total Corners",
-      "outcome": "No",
-      "shares": 172.4012731923304,
-      "avgCost": 0.03,
-      "costBasis": 5.172038195769912
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-21T10:22:13.720Z",
-      "action": "BUY",
-      "marketId": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9135,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot 'Yes' outcomes with positive edge, specifically for 'US x Iran permanent peace deal by May 22, 2026?' and 'Will Portugal win the 2026 FIFA World Cup?'. Avoided averaging down into existing positions."
-    },
     {
       "ts": "2026-05-21T11:58:59.074Z",
       "action": "BUY",
@@ -2051,8 +2033,18 @@
       "amount": 5.172038195769912,
       "price": 0.03,
       "reasoning": "Sold an existing position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-03T20:45:39.254Z",
+      "action": "SELL",
+      "marketId": "2746226",
+      "question": "Australia vs. Egypt: O/U 8.5 Total Corners",
+      "outcome": "No",
+      "proceeds": 0.0862006365961652,
+      "price": 0.0005,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-03T19:42:05.903Z",
-  "lastReasoning": "Sold an existing position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
+  "lastUpdated": "2026-07-03T20:45:39.254Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
 }
