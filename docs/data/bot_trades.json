@@ -1,6 +1,6 @@
 {
-  "cash": 0.0862006365961652,
-  "totalValue": 403.9873413859485,
+  "cash": 0,
+  "totalValue": 405.4528344230684,
   "positions": [
     {
       "marketId": "558940",
@@ -35,45 +35,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2707660",
-      "question": "Will Cabo Verde win on 2026-07-03?",
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 52.1107006160142,
-      "avgCost": 0.9594958311620635,
+      "shares": 51.57297576070139,
+      "avgCost": 0.9695,
       "costBasis": 50
+    },
+    {
+      "marketId": "2707776",
+      "question": "Exact Score: Argentina 1 - 1 Cabo Verde?",
+      "outcome": "No",
+      "shares": 1.8204050829001026,
+      "avgCost": 0.9635,
+      "costBasis": 1.753960297374249
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-21T11:58:59.074Z",
-      "action": "BUY",
-      "marketId": "2318793",
-      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.03,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
-    },
-    {
-      "ts": "2026-05-21T11:58:59.074Z",
-      "action": "BUY",
-      "marketId": "2297854",
-      "question": "US x Iran permanent peace deal by May 22, 2026?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9695,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on two longshot markets with the highest positive edge."
-    },
-    {
-      "ts": "2026-05-21T18:29:42.701Z",
-      "action": "SELL",
-      "marketId": "2318793",
-      "question": "Counter-Strike: M80 vs MOUZ (BO3) - CS Asia Championships Group A",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-05-21T18:29:42.701Z",
       "action": "BUY",
@@ -2043,8 +2021,38 @@
       "proceeds": 0.0862006365961652,
       "price": 0.0005,
       "reasoning": "Sold a dropped position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-03T22:45:06.537Z",
+      "action": "SELL",
+      "marketId": "2707660",
+      "question": "Will Cabo Verde win on 2026-07-03?",
+      "outcome": "No",
+      "proceeds": 51.66775966077808,
+      "price": 0.9915,
+      "reasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-03T22:45:06.537Z",
+      "action": "BUY",
+      "marketId": "558945",
+      "question": "Will Mexico win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9695,
+      "reasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-03T22:45:06.537Z",
+      "action": "BUY",
+      "marketId": "2707776",
+      "question": "Exact Score: Argentina 1 - 1 Cabo Verde?",
+      "outcome": "No",
+      "amount": 1.753960297374249,
+      "price": 0.9635,
+      "reasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-03T21:47:31.826Z",
-  "lastReasoning": "Insufficient cash to execute new BUY trades, as the available cash ($0.09 USDC) is below the minimum required trade amount ($20 USDC)."
+  "lastUpdated": "2026-07-03T22:45:06.537Z",
+  "lastReasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
 }
