@@ -1,26 +1,92 @@
 {
   "markets": [
     {
+      "id": "2754873",
+      "question": "Spread: France (-1.5)",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.565,
+      "outcomes": [
+        {
+          "id": "2754873-0",
+          "title": "France",
+          "price": 0.565
+        },
+        {
+          "id": "2754873-1",
+          "title": "Paraguay",
+          "price": 0.435
+        }
+      ],
+      "volume": 13706003.80602893,
+      "liquidity": 207564.6302,
+      "lastUpdated": "2026-07-04T21:08:04.595Z"
+    },
+    {
+      "id": "2754628",
+      "question": "Will France win on 2026-07-04?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.815,
+      "outcomes": [
+        {
+          "id": "2754628-0",
+          "title": "Yes",
+          "price": 0.815
+        },
+        {
+          "id": "2754628-1",
+          "title": "No",
+          "price": 0.185
+        }
+      ],
+      "volume": 6469200.541381021,
+      "liquidity": 369934.0327,
+      "lastUpdated": "2026-07-04T21:08:04.595Z"
+    },
+    {
       "id": "558938",
       "question": "Will Argentina win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.1685,
+      "yesPrice": 0.1625,
       "outcomes": [
         {
           "id": "558938-0",
           "title": "Yes",
-          "price": 0.1685
+          "price": 0.1625
         },
         {
           "id": "558938-1",
           "title": "No",
-          "price": 0.8315
+          "price": 0.8375
         }
       ],
-      "volume": 98634946.07315947,
-      "liquidity": 8723861.46686,
-      "lastUpdated": "2026-07-04T19:57:40.664Z"
+      "volume": 98775710.96955349,
+      "liquidity": 7698749.50501,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754914",
+      "question": "Paraguay vs. France: Team to Advance",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.085,
+      "outcomes": [
+        {
+          "id": "2754914-0",
+          "title": "Paraguay",
+          "price": 0.085
+        },
+        {
+          "id": "2754914-1",
+          "title": "France",
+          "price": 0.915
+        }
+      ],
+      "volume": 4346445.559555004,
+      "liquidity": 289967.422,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558947",
@@ -40,97 +106,53 @@
           "price": 0.9695
         }
       ],
-      "volume": 93812237.19363776,
-      "liquidity": 1727137.80721,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 93849411.11849576,
+      "liquidity": 1728013.00042,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "2754628",
-      "question": "Will France win on 2026-07-04?",
+      "id": "2754625",
+      "question": "Will Paraguay win on 2026-07-04?",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.825,
+      "yesPrice": 0.055,
       "outcomes": [
         {
-          "id": "2754628-0",
+          "id": "2754625-0",
           "title": "Yes",
-          "price": 0.825
+          "price": 0.055
         },
         {
-          "id": "2754628-1",
+          "id": "2754625-1",
           "title": "No",
-          "price": 0.175
+          "price": 0.945
         }
       ],
-      "volume": 4214780.436079001,
-      "liquidity": 3000458.5396,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754873",
-      "question": "Spread: France (-1.5)",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "2754873-0",
-          "title": "France",
-          "price": 0.595
-        },
-        {
-          "id": "2754873-1",
-          "title": "Paraguay",
-          "price": 0.405
-        }
-      ],
-      "volume": 3454244.547383976,
-      "liquidity": 2445531.8275,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754914",
-      "question": "Paraguay vs. France: Team to Advance",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "2754914-0",
-          "title": "Paraguay",
-          "price": 0.075
-        },
-        {
-          "id": "2754914-1",
-          "title": "France",
-          "price": 0.925
-        }
-      ],
-      "volume": 2835835.635718008,
-      "liquidity": 3869059.3484,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 3098339.1446570125,
+      "liquidity": 328489.0157,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558936",
       "question": "Will France win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.3485,
+      "yesPrice": 0.3655,
       "outcomes": [
         {
           "id": "558936-0",
           "title": "Yes",
-          "price": 0.3485
+          "price": 0.3655
         },
         {
           "id": "558936-1",
           "title": "No",
-          "price": 0.6515
+          "price": 0.6345
         }
       ],
-      "volume": 93249722.91063228,
-      "liquidity": 7016974.05358,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 93460940.58104141,
+      "liquidity": 1005531.39873,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558935",
@@ -150,31 +172,31 @@
           "price": 0.9325
         }
       ],
-      "volume": 77337249.9045017,
-      "liquidity": 4936596.26663,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 77451903.91039777,
+      "liquidity": 1511776.65832,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558940",
       "question": "Will Portugal win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0605,
+      "yesPrice": 0.0595,
       "outcomes": [
         {
           "id": "558940-0",
           "title": "Yes",
-          "price": 0.0605
+          "price": 0.0595
         },
         {
           "id": "558940-1",
           "title": "No",
-          "price": 0.9395
+          "price": 0.9405
         }
       ],
-      "volume": 97049395.50368185,
-      "liquidity": 4755287.4811,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 97098879.62870091,
+      "liquidity": 1467018.90753,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558945",
@@ -194,31 +216,97 @@
           "price": 0.9675
         }
       ],
-      "volume": 127125475.12029585,
-      "liquidity": 1268448.12434,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 127218394.78334983,
+      "liquidity": 1220497.93945,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754884",
+      "question": "Paraguay vs. France: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.565,
+      "outcomes": [
+        {
+          "id": "2754884-0",
+          "title": "Over",
+          "price": 0.565
+        },
+        {
+          "id": "2754884-1",
+          "title": "Under",
+          "price": 0.435
+        }
+      ],
+      "volume": 2117843.4799259985,
+      "liquidity": 263765.6656,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558937",
       "question": "Will Brazil win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.0655,
+      "yesPrice": 0.0645,
       "outcomes": [
         {
           "id": "558937-0",
           "title": "Yes",
-          "price": 0.0655
+          "price": 0.0645
         },
         {
           "id": "558937-1",
           "title": "No",
-          "price": 0.9345
+          "price": 0.9355
         }
       ],
-      "volume": 76739545.17823082,
-      "liquidity": 4239914.31142,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 76796656.28862181,
+      "liquidity": 944360.37534,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2775161",
+      "question": "Wimbledon ATP: Frances Tiafoe vs Alexander Bublik",
+      "category": "General",
+      "endDate": "2026-07-11T10:00:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "2775161-0",
+          "title": "Frances Tiafoe",
+          "price": 0.335
+        },
+        {
+          "id": "2775161-1",
+          "title": "Alexander Bublik",
+          "price": 0.665
+        }
+      ],
+      "volume": 1816149.9108119945,
+      "liquidity": 78781.9387,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754875",
+      "question": "Spread: France (-2.5)",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.315,
+      "outcomes": [
+        {
+          "id": "2754875-0",
+          "title": "France",
+          "price": 0.315
+        },
+        {
+          "id": "2754875-1",
+          "title": "Paraguay",
+          "price": 0.685
+        }
+      ],
+      "volume": 2020176.271944993,
+      "liquidity": 237805.4127,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "558934",
@@ -238,9 +326,9 @@
           "price": 0.8765
         }
       ],
-      "volume": 84235235.56872728,
-      "liquidity": 7721151.50151,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 84289062.09643129,
+      "liquidity": 7464354.27397,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "1357388",
@@ -260,97 +348,53 @@
           "price": 0.9615
         }
       ],
-      "volume": 2294934.883350944,
-      "liquidity": 143174.37333,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 2295020.480563944,
+      "liquidity": 138926.91013,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "2775161",
-      "question": "Wimbledon ATP: Frances Tiafoe vs Alexander Bublik",
-      "category": "General",
-      "endDate": "2026-07-11T10:00:00Z",
-      "yesPrice": 0.485,
-      "outcomes": [
-        {
-          "id": "2775161-0",
-          "title": "Frances Tiafoe",
-          "price": 0.485
-        },
-        {
-          "id": "2775161-1",
-          "title": "Alexander Bublik",
-          "price": 0.515
-        }
-      ],
-      "volume": 1302042.2287939994,
-      "liquidity": 100008.5359,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754884",
-      "question": "Paraguay vs. France: O/U 2.5",
+      "id": "2754683",
+      "question": "Exact Score: Paraguay 1 - 3 France?",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.595,
+      "yesPrice": 0.075,
       "outcomes": [
         {
-          "id": "2754884-0",
-          "title": "Over",
-          "price": 0.595
-        },
-        {
-          "id": "2754884-1",
-          "title": "Under",
-          "price": 0.405
-        }
-      ],
-      "volume": 1269812.0426420015,
-      "liquidity": 951191.4718,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754625",
-      "question": "Will Paraguay win on 2026-07-04?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.045,
-      "outcomes": [
-        {
-          "id": "2754625-0",
+          "id": "2754683-0",
           "title": "Yes",
-          "price": 0.045
+          "price": 0.075
         },
         {
-          "id": "2754625-1",
+          "id": "2754683-1",
           "title": "No",
-          "price": 0.955
+          "price": 0.925
         }
       ],
-      "volume": 1152672.2280790128,
-      "liquidity": 3366130.5117,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1248365.9015120072,
+      "liquidity": 117597.732,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2754883",
       "question": "Paraguay vs. France: O/U 1.5",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.825,
+      "yesPrice": 0.795,
       "outcomes": [
         {
           "id": "2754883-0",
           "title": "Over",
-          "price": 0.825
+          "price": 0.795
         },
         {
           "id": "2754883-1",
           "title": "Under",
-          "price": 0.175
+          "price": 0.205
         }
       ],
-      "volume": 949313.7258630003,
-      "liquidity": 414601.8621,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1185220.422478002,
+      "liquidity": 375419.9779,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2766762",
@@ -370,31 +414,9 @@
           "price": 0.605
         }
       ],
-      "volume": 1042831.0362320007,
-      "liquidity": 924566.3842,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754683",
-      "question": "Exact Score: Paraguay 1 - 3 France?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.085,
-      "outcomes": [
-        {
-          "id": "2754683-0",
-          "title": "Yes",
-          "price": 0.085
-        },
-        {
-          "id": "2754683-1",
-          "title": "No",
-          "price": 0.915
-        }
-      ],
-      "volume": 830286.7990080061,
-      "liquidity": 1012997.091,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1249388.7145890004,
+      "liquidity": 844772.0843,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2754679",
@@ -414,119 +436,75 @@
           "price": 0.855
         }
       ],
-      "volume": 808054.1010139824,
-      "liquidity": 887307.0989,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1141905.685647976,
+      "liquidity": 53684.1384,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2754675",
       "question": "Exact Score: Paraguay 0 - 2 France?",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.175,
+      "yesPrice": 0.17,
       "outcomes": [
         {
           "id": "2754675-0",
           "title": "Yes",
-          "price": 0.175
+          "price": 0.17
         },
         {
           "id": "2754675-1",
           "title": "No",
-          "price": 0.825
+          "price": 0.83
         }
       ],
-      "volume": 746769.6805169914,
-      "liquidity": 1122029.2827,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1063621.2815499892,
+      "liquidity": 57819.6944,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "2775166",
-      "question": "Wimbledon ATP: Grigor Dimitrov vs Matteo Berrettini",
-      "category": "General",
-      "endDate": "2026-07-11T10:00:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "2775166-0",
-          "title": "Grigor Dimitrov",
-          "price": 0.495
-        },
-        {
-          "id": "2775166-1",
-          "title": "Matteo Berrettini",
-          "price": 0.505
-        }
-      ],
-      "volume": 686564.6305549989,
-      "liquidity": 155589.2104,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754875",
-      "question": "Spread: France (-2.5)",
+      "id": "2754885",
+      "question": "Paraguay vs. France: O/U 3.5",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.345,
+      "yesPrice": 0.315,
       "outcomes": [
         {
-          "id": "2754875-0",
-          "title": "France",
-          "price": 0.345
+          "id": "2754885-0",
+          "title": "Over",
+          "price": 0.315
         },
         {
-          "id": "2754875-1",
-          "title": "Paraguay",
-          "price": 0.655
+          "id": "2754885-1",
+          "title": "Under",
+          "price": 0.685
         }
       ],
-      "volume": 951836.0929189948,
-      "liquidity": 536551.9327,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754627",
-      "question": "Will Paraguay vs. France end in a draw?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.135,
-      "outcomes": [
-        {
-          "id": "2754627-0",
-          "title": "Yes",
-          "price": 0.135
-        },
-        {
-          "id": "2754627-1",
-          "title": "No",
-          "price": 0.865
-        }
-      ],
-      "volume": 602544.7838959993,
-      "liquidity": 4001260.7845,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 905877.2144149996,
+      "liquidity": 247680.5438,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2754680",
       "question": "Exact Score: Paraguay 1 - 2 France?",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.085,
+      "yesPrice": 0.095,
       "outcomes": [
         {
           "id": "2754680-0",
           "title": "Yes",
-          "price": 0.085
+          "price": 0.095
         },
         {
           "id": "2754680-1",
           "title": "No",
-          "price": 0.915
+          "price": 0.905
         }
       ],
-      "volume": 576769.3644710009,
-      "liquidity": 844824.0508,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 798483.8410330018,
+      "liquidity": 61204.166,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2767034",
@@ -546,9 +524,119 @@
           "price": 0.535
         }
       ],
-      "volume": 894935.0853009976,
-      "liquidity": 1662918.1245,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1128777.645516996,
+      "liquidity": 1820254.4091,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754665",
+      "question": "France leading at halftime?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.585,
+      "outcomes": [
+        {
+          "id": "2754665-0",
+          "title": "Yes",
+          "price": 0.585
+        },
+        {
+          "id": "2754665-1",
+          "title": "No",
+          "price": 0.415
+        }
+      ],
+      "volume": 738996.0416340024,
+      "liquidity": 148034.0926,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754627",
+      "question": "Will Paraguay vs. France end in a draw?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.135,
+      "outcomes": [
+        {
+          "id": "2754627-0",
+          "title": "Yes",
+          "price": 0.135
+        },
+        {
+          "id": "2754627-1",
+          "title": "No",
+          "price": 0.865
+        }
+      ],
+      "volume": 728922.9730909945,
+      "liquidity": 411397.0632,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754891",
+      "question": "Paraguay vs. France: Both Teams to Score",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.375,
+      "outcomes": [
+        {
+          "id": "2754891-0",
+          "title": "Yes",
+          "price": 0.375
+        },
+        {
+          "id": "2754891-1",
+          "title": "No",
+          "price": 0.625
+        }
+      ],
+      "volume": 650093.8461390056,
+      "liquidity": 137648.4174,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754671",
+      "question": "Exact Score: Paraguay 0 - 0 France?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.0485,
+      "outcomes": [
+        {
+          "id": "2754671-0",
+          "title": "Yes",
+          "price": 0.0485
+        },
+        {
+          "id": "2754671-1",
+          "title": "No",
+          "price": 0.9515
+        }
+      ],
+      "volume": 633107.8151910001,
+      "liquidity": 62641.53044,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2793559",
+      "question": "Kylian Mbappé: 1+ goals",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.645,
+      "outcomes": [
+        {
+          "id": "2793559-0",
+          "title": "Yes",
+          "price": 0.645
+        },
+        {
+          "id": "2793559-1",
+          "title": "No",
+          "price": 0.355
+        }
+      ],
+      "volume": 574696.1264479996,
+      "liquidity": 37100.6852,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2766759",
@@ -568,53 +656,97 @@
           "price": 0.695
         }
       ],
-      "volume": 1160374.3498099968,
-      "liquidity": 814227.0626,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 1200782.5933649968,
+      "liquidity": 766053.6002,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "560317",
-      "question": "Putin out as President of Russia by December 31, 2026?",
+      "id": "2720204",
+      "question": "Toronto Blue Jays vs. Seattle Mariners",
       "category": "General",
-      "endDate": "2026-12-31T18:30:00Z",
-      "yesPrice": 0.105,
+      "endDate": "2026-07-11T20:10:00Z",
+      "yesPrice": 0.055,
       "outcomes": [
         {
-          "id": "560317-0",
-          "title": "Yes",
-          "price": 0.105
+          "id": "2720204-0",
+          "title": "Toronto Blue Jays",
+          "price": 0.055
         },
         {
-          "id": "560317-1",
-          "title": "No",
-          "price": 0.895
+          "id": "2720204-1",
+          "title": "Seattle Mariners",
+          "price": 0.945
         }
       ],
-      "volume": 15531641.841498079,
-      "liquidity": 2169029.3327,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 510076.2759870006,
+      "liquidity": 170809.8709,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "2754885",
-      "question": "Paraguay vs. France: O/U 3.5",
+      "id": "2754877",
+      "question": "Spread: France (-3.5)",
       "category": "General",
       "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.355,
+      "yesPrice": 0.145,
       "outcomes": [
         {
-          "id": "2754885-0",
-          "title": "Over",
-          "price": 0.355
+          "id": "2754877-0",
+          "title": "France",
+          "price": 0.145
         },
         {
-          "id": "2754885-1",
-          "title": "Under",
-          "price": 0.645
+          "id": "2754877-1",
+          "title": "Paraguay",
+          "price": 0.855
         }
       ],
-      "volume": 580570.3536229997,
-      "liquidity": 440543.7172,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
+      "volume": 500753.9413549993,
+      "liquidity": 319523.7193,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754672",
+      "question": "Exact Score: Paraguay 0 - 1 France?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.135,
+      "outcomes": [
+        {
+          "id": "2754672-0",
+          "title": "Yes",
+          "price": 0.135
+        },
+        {
+          "id": "2754672-1",
+          "title": "No",
+          "price": 0.865
+        }
+      ],
+      "volume": 441740.62055300217,
+      "liquidity": 57895.405,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754901",
+      "question": "Paraguay vs. France: France O/U 2.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "2754901-0",
+          "title": "Over",
+          "price": 0.435
+        },
+        {
+          "id": "2754901-1",
+          "title": "Under",
+          "price": 0.565
+        }
+      ],
+      "volume": 434933.50318000006,
+      "liquidity": 161990.1378,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2754839",
@@ -634,559 +766,9 @@
           "price": 0.455
         }
       ],
-      "volume": 457347.8862880008,
-      "liquidity": 347758.7712,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754671",
-      "question": "Exact Score: Paraguay 0 - 0 France?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.0415,
-      "outcomes": [
-        {
-          "id": "2754671-0",
-          "title": "Yes",
-          "price": 0.0415
-        },
-        {
-          "id": "2754671-1",
-          "title": "No",
-          "price": 0.9585
-        }
-      ],
-      "volume": 387575.6196200001,
-      "liquidity": 551708.39541,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754665",
-      "question": "France leading at halftime?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.625,
-      "outcomes": [
-        {
-          "id": "2754665-0",
-          "title": "Yes",
-          "price": 0.625
-        },
-        {
-          "id": "2754665-1",
-          "title": "No",
-          "price": 0.375
-        }
-      ],
-      "volume": 390654.9998620013,
-      "liquidity": 336106.4871,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2793559",
-      "question": "Kylian Mbappé: 1+ goals",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.665,
-      "outcomes": [
-        {
-          "id": "2793559-0",
-          "title": "Yes",
-          "price": 0.665
-        },
-        {
-          "id": "2793559-1",
-          "title": "No",
-          "price": 0.335
-        }
-      ],
-      "volume": 358258.279888,
-      "liquidity": 241525.8838,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2720204",
-      "question": "Toronto Blue Jays vs. Seattle Mariners",
-      "category": "General",
-      "endDate": "2026-07-11T20:10:00Z",
-      "yesPrice": 0.405,
-      "outcomes": [
-        {
-          "id": "2720204-0",
-          "title": "Toronto Blue Jays",
-          "price": 0.405
-        },
-        {
-          "id": "2720204-1",
-          "title": "Seattle Mariners",
-          "price": 0.595
-        }
-      ],
-      "volume": 331991.0510330004,
-      "liquidity": 683507.2837,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754877",
-      "question": "Spread: France (-3.5)",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.165,
-      "outcomes": [
-        {
-          "id": "2754877-0",
-          "title": "France",
-          "price": 0.165
-        },
-        {
-          "id": "2754877-1",
-          "title": "Paraguay",
-          "price": 0.835
-        }
-      ],
-      "volume": 331775.7478379998,
-      "liquidity": 235474.5294,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2720200",
-      "question": "Minnesota Twins vs. New York Yankees",
-      "category": "General",
-      "endDate": "2026-07-11T17:35:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "2720200-0",
-          "title": "Minnesota Twins",
-          "price": 0.595
-        },
-        {
-          "id": "2720200-1",
-          "title": "New York Yankees",
-          "price": 0.405
-        }
-      ],
-      "volume": 278761.14129000035,
-      "liquidity": 115831.0056,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754891",
-      "question": "Paraguay vs. France: Both Teams to Score",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.405,
-      "outcomes": [
-        {
-          "id": "2754891-0",
-          "title": "Yes",
-          "price": 0.405
-        },
-        {
-          "id": "2754891-1",
-          "title": "No",
-          "price": 0.595
-        }
-      ],
-      "volume": 275207.4870209998,
-      "liquidity": 408131.7593,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2535468",
-      "question": "Strait of Hormuz traffic returns to normal by July 15?",
-      "category": "General",
-      "endDate": "2026-07-15T00:00:00Z",
-      "yesPrice": 0.045,
-      "outcomes": [
-        {
-          "id": "2535468-0",
-          "title": "Yes",
-          "price": 0.045
-        },
-        {
-          "id": "2535468-1",
-          "title": "No",
-          "price": 0.955
-        }
-      ],
-      "volume": 6638541.848993953,
-      "liquidity": 523868.2267,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754672",
-      "question": "Exact Score: Paraguay 0 - 1 France?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.115,
-      "outcomes": [
-        {
-          "id": "2754672-0",
-          "title": "Yes",
-          "price": 0.115
-        },
-        {
-          "id": "2754672-1",
-          "title": "No",
-          "price": 0.885
-        }
-      ],
-      "volume": 244979.46640199958,
-      "liquidity": 1301889.9438,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754901",
-      "question": "Paraguay vs. France: France O/U 2.5",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.465,
-      "outcomes": [
-        {
-          "id": "2754901-0",
-          "title": "Over",
-          "price": 0.465
-        },
-        {
-          "id": "2754901-1",
-          "title": "Under",
-          "price": 0.535
-        }
-      ],
-      "volume": 243670.1139429999,
-      "liquidity": 290439.9522,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754647",
-      "question": "Will Brazil win on 2026-07-05?",
-      "category": "General",
-      "endDate": "2026-07-05T20:00:00Z",
-      "yesPrice": 0.535,
-      "outcomes": [
-        {
-          "id": "2754647-0",
-          "title": "Yes",
-          "price": 0.535
-        },
-        {
-          "id": "2754647-1",
-          "title": "No",
-          "price": 0.465
-        }
-      ],
-      "volume": 724976.8569779894,
-      "liquidity": 1199669.8707,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2781976",
-      "question": "Will Spain win on 2026-07-06?",
-      "category": "General",
-      "endDate": "2026-07-06T19:00:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "2781976-0",
-          "title": "Yes",
-          "price": 0.515
-        },
-        {
-          "id": "2781976-1",
-          "title": "No",
-          "price": 0.485
-        }
-      ],
-      "volume": 350356.1485190012,
-      "liquidity": 718199.0377,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754882",
-      "question": "Paraguay vs. France: O/U 0.5",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.9595,
-      "outcomes": [
-        {
-          "id": "2754882-0",
-          "title": "Over",
-          "price": 0.9595
-        },
-        {
-          "id": "2754882-1",
-          "title": "Under",
-          "price": 0.0405
-        }
-      ],
-      "volume": 221253.81235000034,
-      "liquidity": 163753.35024,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2176262",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "category": "General",
-      "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.175,
-      "outcomes": [
-        {
-          "id": "2176262-0",
-          "title": "Yes",
-          "price": 0.175
-        },
-        {
-          "id": "2176262-1",
-          "title": "No",
-          "price": 0.825
-        }
-      ],
-      "volume": 11945131.137948254,
-      "liquidity": 603202.0607,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754676",
-      "question": "Exact Score: Paraguay 1 - 1 France?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.0675,
-      "outcomes": [
-        {
-          "id": "2754676-0",
-          "title": "Yes",
-          "price": 0.0675
-        },
-        {
-          "id": "2754676-1",
-          "title": "No",
-          "price": 0.9325
-        }
-      ],
-      "volume": 221899.1283320003,
-      "liquidity": 402703.40341,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2696746",
-      "question": "US-Iran Final Nuclear Deal by September 30, 2026?",
-      "category": "General",
-      "endDate": "2026-09-30T23:59:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "2696746-0",
-          "title": "Yes",
-          "price": 0.295
-        },
-        {
-          "id": "2696746-1",
-          "title": "No",
-          "price": 0.705
-        }
-      ],
-      "volume": 328736.3917839968,
-      "liquidity": 272157.2975,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754715",
-      "question": "Exact Score: Brazil 2 - 1 Norway?",
-      "category": "General",
-      "endDate": "2026-07-05T20:00:00Z",
-      "yesPrice": 0.115,
-      "outcomes": [
-        {
-          "id": "2754715-0",
-          "title": "Yes",
-          "price": 0.115
-        },
-        {
-          "id": "2754715-1",
-          "title": "No",
-          "price": 0.885
-        }
-      ],
-      "volume": 210455.0520619998,
-      "liquidity": 147564.2117,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2069635",
-      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.365,
-      "outcomes": [
-        {
-          "id": "2069635-0",
-          "title": "Yes",
-          "price": 0.365
-        },
-        {
-          "id": "2069635-1",
-          "title": "No",
-          "price": 0.635
-        }
-      ],
-      "volume": 1868246.641637009,
-      "liquidity": 55564.44537,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2720210",
-      "question": "Tampa Bay Rays vs. Houston Astros",
-      "category": "General",
-      "endDate": "2026-07-11T23:10:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "2720210-0",
-          "title": "Tampa Bay Rays",
-          "price": 0.495
-        },
-        {
-          "id": "2720210-1",
-          "title": "Houston Astros",
-          "price": 0.505
-        }
-      ],
-      "volume": 200954.09133699987,
-      "liquidity": 446937.4612,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754869",
-      "question": "Brazil vs. Norway: Team to Advance",
-      "category": "General",
-      "endDate": "2026-07-05T20:00:00Z",
-      "yesPrice": 0.675,
-      "outcomes": [
-        {
-          "id": "2754869-0",
-          "title": "Brazil",
-          "price": 0.675
-        },
-        {
-          "id": "2754869-1",
-          "title": "Norway",
-          "price": 0.325
-        }
-      ],
-      "volume": 541027.3546549999,
-      "liquidity": 308996.5006,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754894",
-      "question": "Paraguay vs. France: 1st Half O/U 1.5",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.375,
-      "outcomes": [
-        {
-          "id": "2754894-0",
-          "title": "Over",
-          "price": 0.375
-        },
-        {
-          "id": "2754894-1",
-          "title": "Under",
-          "price": 0.625
-        }
-      ],
-      "volume": 205527.67928100005,
-      "liquidity": 383695.1652,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754900",
-      "question": "Paraguay vs. France: France O/U 1.5",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.745,
-      "outcomes": [
-        {
-          "id": "2754900-0",
-          "title": "Over",
-          "price": 0.745
-        },
-        {
-          "id": "2754900-1",
-          "title": "Under",
-          "price": 0.255
-        }
-      ],
-      "volume": 187581.5890839999,
-      "liquidity": 286587.0824,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2720206",
-      "question": "Baltimore Orioles vs. Cincinnati Reds",
-      "category": "General",
-      "endDate": "2026-07-11T23:10:00Z",
-      "yesPrice": 0.455,
-      "outcomes": [
-        {
-          "id": "2720206-0",
-          "title": "Baltimore Orioles",
-          "price": 0.455
-        },
-        {
-          "id": "2720206-1",
-          "title": "Cincinnati Reds",
-          "price": 0.545
-        }
-      ],
-      "volume": 179226.86780500013,
-      "liquidity": 360767.965,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2069638",
-      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "2069638-0",
-          "title": "Yes",
-          "price": 0.505
-        },
-        {
-          "id": "2069638-1",
-          "title": "No",
-          "price": 0.495
-        }
-      ],
-      "volume": 2080089.092427995,
-      "liquidity": 193791.7603,
-      "lastUpdated": "2026-07-04T19:57:40.665Z"
-    },
-    {
-      "id": "2754663",
-      "question": "Paraguay leading at halftime?",
-      "category": "General",
-      "endDate": "2026-07-04T21:00:00Z",
-      "yesPrice": 0.055,
-      "outcomes": [
-        {
-          "id": "2754663-0",
-          "title": "Yes",
-          "price": 0.055
-        },
-        {
-          "id": "2754663-1",
-          "title": "No",
-          "price": 0.945
-        }
-      ],
-      "volume": 176857.72211300005,
-      "liquidity": 318375.0069,
-      "lastUpdated": "2026-07-04T19:57:40.666Z"
+      "volume": 467856.47269900073,
+      "liquidity": 489330.5997,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
       "id": "2761094",
@@ -1206,54 +788,494 @@
           "price": 0.515
         }
       ],
-      "volume": 155652.5214239998,
-      "liquidity": 164177.0708,
-      "lastUpdated": "2026-07-04T19:57:40.666Z"
+      "volume": 389607.11138700007,
+      "liquidity": 33017.8276,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
     },
     {
-      "id": "2766773",
-      "question": "Will United States win on 2026-07-06?",
+      "id": "560317",
+      "question": "Putin out as President of Russia by December 31, 2026?",
       "category": "General",
-      "endDate": "2026-07-07T00:00:00Z",
+      "endDate": "2026-12-31T18:30:00Z",
+      "yesPrice": 0.105,
+      "outcomes": [
+        {
+          "id": "560317-0",
+          "title": "Yes",
+          "price": 0.105
+        },
+        {
+          "id": "560317-1",
+          "title": "No",
+          "price": 0.895
+        }
+      ],
+      "volume": 15560496.573186075,
+      "liquidity": 2254152.6026,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754900",
+      "question": "Paraguay vs. France: France O/U 1.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.705,
+      "outcomes": [
+        {
+          "id": "2754900-0",
+          "title": "Over",
+          "price": 0.705
+        },
+        {
+          "id": "2754900-1",
+          "title": "Under",
+          "price": 0.295
+        }
+      ],
+      "volume": 376618.3353029991,
+      "liquidity": 120647.0918,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754676",
+      "question": "Exact Score: Paraguay 1 - 1 France?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.0695,
+      "outcomes": [
+        {
+          "id": "2754676-0",
+          "title": "Yes",
+          "price": 0.0695
+        },
+        {
+          "id": "2754676-1",
+          "title": "No",
+          "price": 0.9305
+        }
+      ],
+      "volume": 361378.09388999967,
+      "liquidity": 64619.5844,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754894",
+      "question": "Paraguay vs. France: 1st Half O/U 1.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "2754894-0",
+          "title": "Over",
+          "price": 0.335
+        },
+        {
+          "id": "2754894-1",
+          "title": "Under",
+          "price": 0.665
+        }
+      ],
+      "volume": 341604.7544229997,
+      "liquidity": 243950.8095,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754663",
+      "question": "Paraguay leading at halftime?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.065,
+      "outcomes": [
+        {
+          "id": "2754663-0",
+          "title": "Yes",
+          "price": 0.065
+        },
+        {
+          "id": "2754663-1",
+          "title": "No",
+          "price": 0.935
+        }
+      ],
+      "volume": 327078.03963100014,
+      "liquidity": 85836.9221,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2793560",
+      "question": "Kylian Mbappé: 2+ goals",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.31,
+      "outcomes": [
+        {
+          "id": "2793560-0",
+          "title": "Yes",
+          "price": 0.31
+        },
+        {
+          "id": "2793560-1",
+          "title": "No",
+          "price": 0.69
+        }
+      ],
+      "volume": 307921.2012699984,
+      "liquidity": 29248.9603,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2754882",
+      "question": "Paraguay vs. France: O/U 0.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.9505,
+      "outcomes": [
+        {
+          "id": "2754882-0",
+          "title": "Over",
+          "price": 0.9505
+        },
+        {
+          "id": "2754882-1",
+          "title": "Under",
+          "price": 0.0495
+        }
+      ],
+      "volume": 284906.7042470005,
+      "liquidity": 232361.70937,
+      "lastUpdated": "2026-07-04T21:08:04.596Z"
+    },
+    {
+      "id": "2535468",
+      "question": "Strait of Hormuz traffic returns to normal by July 15?",
+      "category": "General",
+      "endDate": "2026-07-15T00:00:00Z",
+      "yesPrice": 0.055,
+      "outcomes": [
+        {
+          "id": "2535468-0",
+          "title": "Yes",
+          "price": 0.055
+        },
+        {
+          "id": "2535468-1",
+          "title": "No",
+          "price": 0.945
+        }
+      ],
+      "volume": 6644648.478943953,
+      "liquidity": 505705.1693,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754647",
+      "question": "Will Brazil win on 2026-07-05?",
+      "category": "General",
+      "endDate": "2026-07-05T20:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "2754647-0",
+          "title": "Yes",
+          "price": 0.535
+        },
+        {
+          "id": "2754647-1",
+          "title": "No",
+          "price": 0.465
+        }
+      ],
+      "volume": 748128.1430299883,
+      "liquidity": 1829295.1621,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "category": "General",
+      "endDate": "2026-07-31T00:00:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "2176262-0",
+          "title": "Yes",
+          "price": 0.175
+        },
+        {
+          "id": "2176262-1",
+          "title": "No",
+          "price": 0.825
+        }
+      ],
+      "volume": 11971977.916050257,
+      "liquidity": 516607.8159,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2781976",
+      "question": "Will Spain win on 2026-07-06?",
+      "category": "General",
+      "endDate": "2026-07-06T19:00:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "2781976-0",
+          "title": "Yes",
+          "price": 0.515
+        },
+        {
+          "id": "2781976-1",
+          "title": "No",
+          "price": 0.485
+        }
+      ],
+      "volume": 355342.3864370015,
+      "liquidity": 741122.3142,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754869",
+      "question": "Brazil vs. Norway: Team to Advance",
+      "category": "General",
+      "endDate": "2026-07-05T20:00:00Z",
+      "yesPrice": 0.675,
+      "outcomes": [
+        {
+          "id": "2754869-0",
+          "title": "Brazil",
+          "price": 0.675
+        },
+        {
+          "id": "2754869-1",
+          "title": "Norway",
+          "price": 0.325
+        }
+      ],
+      "volume": 559876.9430379998,
+      "liquidity": 383193.1874,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2696746",
+      "question": "US-Iran Final Nuclear Deal by September 30, 2026?",
+      "category": "General",
+      "endDate": "2026-09-30T23:59:00Z",
+      "yesPrice": 0.295,
+      "outcomes": [
+        {
+          "id": "2696746-0",
+          "title": "Yes",
+          "price": 0.295
+        },
+        {
+          "id": "2696746-1",
+          "title": "No",
+          "price": 0.705
+        }
+      ],
+      "volume": 329337.64699399675,
+      "liquidity": 273307.4336,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754896",
+      "question": "Paraguay vs. France: Paraguay O/U 0.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.395,
+      "outcomes": [
+        {
+          "id": "2754896-0",
+          "title": "Over",
+          "price": 0.395
+        },
+        {
+          "id": "2754896-1",
+          "title": "Under",
+          "price": 0.605
+        }
+      ],
+      "volume": 214834.79465500003,
+      "liquidity": 119942.5958,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754715",
+      "question": "Exact Score: Brazil 2 - 1 Norway?",
+      "category": "General",
+      "endDate": "2026-07-05T20:00:00Z",
+      "yesPrice": 0.115,
+      "outcomes": [
+        {
+          "id": "2754715-0",
+          "title": "Yes",
+          "price": 0.115
+        },
+        {
+          "id": "2754715-1",
+          "title": "No",
+          "price": 0.885
+        }
+      ],
+      "volume": 212635.2152259998,
+      "liquidity": 147523.2335,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2069635",
+      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.3615,
+      "outcomes": [
+        {
+          "id": "2069635-0",
+          "title": "Yes",
+          "price": 0.3615
+        },
+        {
+          "id": "2069635-1",
+          "title": "No",
+          "price": 0.6385
+        }
+      ],
+      "volume": 1873496.7129030088,
+      "liquidity": 46343.42851,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2720210",
+      "question": "Tampa Bay Rays vs. Houston Astros",
+      "category": "General",
+      "endDate": "2026-07-11T23:10:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "2720210-0",
+          "title": "Tampa Bay Rays",
+          "price": 0.485
+        },
+        {
+          "id": "2720210-1",
+          "title": "Houston Astros",
+          "price": 0.515
+        }
+      ],
+      "volume": 206031.1377299998,
+      "liquidity": 473468.3644,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754664",
+      "question": "Paraguay vs. France: Draw at halftime?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
       "yesPrice": 0.345,
       "outcomes": [
         {
-          "id": "2766773-0",
+          "id": "2754664-0",
           "title": "Yes",
           "price": 0.345
         },
         {
-          "id": "2766773-1",
+          "id": "2754664-1",
           "title": "No",
           "price": 0.655
         }
       ],
-      "volume": 351546.63310699584,
-      "liquidity": 982684.8701,
-      "lastUpdated": "2026-07-04T19:57:40.666Z"
+      "volume": 197814.4738660001,
+      "liquidity": 139816.5034,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
     },
     {
-      "id": "2782155",
-      "question": "Portugal vs. Spain: Team to Advance",
+      "id": "2069638",
+      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
       "category": "General",
-      "endDate": "2026-07-06T19:00:00Z",
-      "yesPrice": 0.335,
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.52,
       "outcomes": [
         {
-          "id": "2782155-0",
-          "title": "Portugal",
-          "price": 0.335
+          "id": "2069638-0",
+          "title": "Yes",
+          "price": 0.52
         },
         {
-          "id": "2782155-1",
-          "title": "Spain",
-          "price": 0.665
+          "id": "2069638-1",
+          "title": "No",
+          "price": 0.48
         }
       ],
-      "volume": 219300.75080700035,
-      "liquidity": 338945.0165,
-      "lastUpdated": "2026-07-04T19:57:40.666Z"
+      "volume": 2086932.3564279957,
+      "liquidity": 81081.2514,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754689",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.235,
+      "outcomes": [
+        {
+          "id": "2754689-0",
+          "title": "Yes",
+          "price": 0.235
+        },
+        {
+          "id": "2754689-1",
+          "title": "No",
+          "price": 0.765
+        }
+      ],
+      "volume": 190707.06274699915,
+      "liquidity": 30024.2143,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2720206",
+      "question": "Baltimore Orioles vs. Cincinnati Reds",
+      "category": "General",
+      "endDate": "2026-07-11T23:10:00Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "2720206-0",
+          "title": "Baltimore Orioles",
+          "price": 0.455
+        },
+        {
+          "id": "2720206-1",
+          "title": "Cincinnati Reds",
+          "price": 0.545
+        }
+      ],
+      "volume": 179915.7156150002,
+      "liquidity": 367149.901,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
+    },
+    {
+      "id": "2754893",
+      "question": "Paraguay vs. France: 1st Half O/U 0.5",
+      "category": "General",
+      "endDate": "2026-07-04T21:00:00Z",
+      "yesPrice": 0.715,
+      "outcomes": [
+        {
+          "id": "2754893-0",
+          "title": "Over",
+          "price": 0.715
+        },
+        {
+          "id": "2754893-1",
+          "title": "Under",
+          "price": 0.285
+        }
+      ],
+      "volume": 172087.0897099998,
+      "liquidity": 124678.6004,
+      "lastUpdated": "2026-07-04T21:08:04.597Z"
     }
   ],
-  "lastUpdated": "2026-07-04T19:57:48.509Z"
+  "lastUpdated": "2026-07-04T21:08:14.404Z"
 }
