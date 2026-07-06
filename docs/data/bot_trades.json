@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 397.121383721783,
+  "cash": 0.15503875968992276,
+  "totalValue": 397.8032077390374,
   "positions": [
     {
       "marketId": "558940",
@@ -30,17 +30,9 @@
       "marketId": "558947",
       "question": "Will Colombia win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 22.757709914943085,
-      "avgCost": 0.9675,
-      "costBasis": 22.018084342707436
-    },
-    {
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 51.679586563307495,
-      "avgCost": 0.9675,
-      "costBasis": 50
+      "shares": 74.33068567564447,
+      "avgCost": 0.9688876631243725,
+      "costBasis": 72.01808434270744
     },
     {
       "marketId": "1357388",
@@ -52,26 +44,6 @@
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-22T21:46:08.706Z",
-      "action": "BUY",
-      "marketId": "1808970",
-      "question": "US obtains Iranian enriched uranium by May 31?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9645,
-      "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-05-22T21:46:08.706Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9655,
-      "reasoning": "Sold a resolved position to reclaim cash and initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-05-23T07:26:30.292Z",
       "action": "SELL",
@@ -2051,8 +2023,28 @@
       "amount": 1.5471892728210435,
       "price": 0.9605,
       "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-06T13:33:34.020Z",
+      "action": "SELL",
+      "marketId": "558943",
+      "question": "Will USA win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 50.15503875968992,
+      "price": 0.9705,
+      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
+    },
+    {
+      "ts": "2026-07-06T13:33:34.020Z",
+      "action": "BUY",
+      "marketId": "558947",
+      "question": "Will Colombia win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9695,
+      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-06T09:45:42.698Z",
-  "lastReasoning": "No trades were executed due to insufficient cash. The strategy requires cash to open new positions, and the current balance is $0.00 USDC. No stop-loss positions were identified."
+  "lastUpdated": "2026-07-06T13:33:34.020Z",
+  "lastReasoning": "Exploited favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
 }
