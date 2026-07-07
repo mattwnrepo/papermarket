@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 405.9179080328936,
+  "cash": 12.656545497011734,
+  "totalValue": 407.5939752705689,
   "positions": [
     {
       "marketId": "558935",
@@ -17,14 +17,6 @@
       "shares": 5.533251822267367,
       "avgCost": 0.8945,
       "costBasis": 4.9494937550181595
-    },
-    {
-      "marketId": "558947",
-      "question": "Will Colombia win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 198.30833298714538,
-      "avgCost": 0.9682804622998586,
-      "costBasis": 192.01808434270743
     },
     {
       "marketId": "1357388",
@@ -49,39 +41,25 @@
       "shares": 4.901717690629485,
       "avgCost": 0.935,
       "costBasis": 4.583106040738569
+    },
+    {
+      "marketId": "1654958",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "outcome": "Yes",
+      "shares": 109.0909090909091,
+      "avgCost": 0.825,
+      "costBasis": 90
+    },
+    {
+      "marketId": "679019",
+      "question": "Will Jordan Bardella win the 2027 French presidential election?",
+      "outcome": "No",
+      "shares": 94.63722397476342,
+      "avgCost": 0.951,
+      "costBasis": 90
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-23T19:51:46.612Z",
-      "action": "SELL",
-      "marketId": "1708109",
-      "question": "Kharg Island no longer under Iranian control by May 31?",
-      "outcome": "No",
-      "proceeds": 50.57321521625847,
-      "price": 0.9705,
-      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-23T19:51:46.612Z",
-      "action": "BUY",
-      "marketId": "2074235",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in May?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9685,
-      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-23T19:51:46.612Z",
-      "action": "BUY",
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9665,
-      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-23T22:38:35.728Z",
       "action": "SELL",
@@ -2051,8 +2029,38 @@
       "amount": 4.583106040738569,
       "price": 0.935,
       "reasoning": "Sold a resolved position and bought new 'No' longshot positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-07T21:55:52.382Z",
+      "action": "SELL",
+      "marketId": "558947",
+      "question": "Will Colombia win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 192.65654549701173,
+      "price": 0.9715,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-07T21:55:52.382Z",
+      "action": "BUY",
+      "marketId": "1654958",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "outcome": "Yes",
+      "amount": 90,
+      "price": 0.825,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-07T21:55:52.382Z",
+      "action": "BUY",
+      "marketId": "679019",
+      "question": "Will Jordan Bardella win the 2027 French presidential election?",
+      "outcome": "No",
+      "amount": 90,
+      "price": 0.951,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-07T20:28:08.310Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots and 'Yes' on favourites with positive edge, while adhering to capital constraints and avoiding averaging down on existing losing positions."
+  "lastUpdated": "2026-07-07T21:55:52.382Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
 }
