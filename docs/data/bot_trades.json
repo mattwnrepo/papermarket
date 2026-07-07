@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 407.07937080940417,
+  "totalValue": 406.6580256041108,
   "positions": [
     {
       "marketId": "558935",
@@ -43,35 +43,15 @@
       "costBasis": 4.2
     },
     {
-      "marketId": "2793741",
-      "question": "Will Egypt win on 2026-07-07?",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 4.585398740108623,
-      "avgCost": 0.915,
-      "costBasis": 4.1956398471993905
+      "shares": 4.901717690629485,
+      "avgCost": 0.935,
+      "costBasis": 4.583106040738569
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-23T19:51:46.612Z",
-      "action": "SELL",
-      "marketId": "1808970",
-      "question": "US obtains Iranian enriched uranium by May 31?",
-      "outcome": "No",
-      "proceeds": 101.29670774885174,
-      "price": 0.9765,
-      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-23T19:51:46.612Z",
-      "action": "SELL",
-      "marketId": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 50,
-      "price": 0.9485,
-      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-23T19:51:46.612Z",
       "action": "SELL",
@@ -2051,8 +2031,28 @@
       "amount": 4.1956398471993905,
       "price": 0.915,
       "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots with positive edge, prioritizing higher edge trades within cash limits."
+    },
+    {
+      "ts": "2026-07-07T18:22:43.887Z",
+      "action": "SELL",
+      "marketId": "2793741",
+      "question": "Will Egypt win on 2026-07-07?",
+      "outcome": "No",
+      "proceeds": 4.583106040738569,
+      "price": 0.9995,
+      "reasoning": "Sold a resolved position and bought new 'No' longshot positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-07T18:22:43.887Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 4.583106040738569,
+      "price": 0.935,
+      "reasoning": "Sold a resolved position and bought new 'No' longshot positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-07T16:12:29.925Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots with positive edge, prioritizing higher edge trades within cash limits."
+  "lastUpdated": "2026-07-07T18:22:43.887Z",
+  "lastReasoning": "Sold a resolved position and bought new 'No' longshot positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
 }
