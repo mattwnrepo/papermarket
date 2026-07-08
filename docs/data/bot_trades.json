@@ -1,6 +1,6 @@
 {
-  "cash": 0.007020750252191732,
-  "totalValue": 380.0851439578708,
+  "cash": 0.35167431798745596,
+  "totalValue": 380.15303349532405,
   "positions": [
     {
       "marketId": "558935",
@@ -46,40 +46,12 @@
       "marketId": "2804884",
       "question": "Exact Score: France 1 - 2 Morocco?",
       "outcome": "No",
-      "shares": 52.05622071837585,
-      "avgCost": 0.9605,
-      "costBasis": 50
-    },
-    {
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "shares": 20.93071354705274,
-      "avgCost": 0.967,
-      "costBasis": 20.24
+      "shares": 72.8787090057262,
+      "avgCost": 0.9604999999999999,
+      "costBasis": 70
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T23:43:22.149Z",
-      "action": "SELL",
-      "marketId": "2238716",
-      "question": "Will Club Atlético de Madrid win on 2026-05-24?",
-      "outcome": "No",
-      "proceeds": 52.883597883597886,
-      "price": 0.9995,
-      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
-    },
-    {
-      "ts": "2026-05-24T23:43:22.149Z",
-      "action": "BUY",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9685,
-      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
-    },
     {
       "ts": "2026-05-24T23:43:22.149Z",
       "action": "BUY",
@@ -2059,8 +2031,28 @@
       "amount": 20.24,
       "price": 0.967,
       "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with positive edge, prioritizing the highest edge given limited cash."
+    },
+    {
+      "ts": "2026-07-08T23:52:06.505Z",
+      "action": "SELL",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "proceeds": 20.344653567735264,
+      "price": 0.972,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T23:52:06.505Z",
+      "action": "BUY",
+      "marketId": "2804884",
+      "question": "Exact Score: France 1 - 2 Morocco?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9605,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-08T22:48:33.449Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, prioritizing the highest edge opportunities."
+  "lastUpdated": "2026-07-08T23:52:06.505Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
 }
