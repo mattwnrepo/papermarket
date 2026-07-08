@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 401.3397597132863,
+  "cash": 11.438903771992926,
+  "totalValue": 399.83228933629766,
   "positions": [
     {
       "marketId": "558935",
@@ -17,14 +17,6 @@
       "shares": 5.533251822267367,
       "avgCost": 0.8945,
       "costBasis": 4.9494937550181595
-    },
-    {
-      "marketId": "1357388",
-      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
-      "outcome": "No",
-      "shares": 74.33808925285425,
-      "avgCost": 0.9624566624178326,
-      "costBasis": 71.54718927282104
     },
     {
       "marketId": "558951",
@@ -57,39 +49,25 @@
       "shares": 94.63722397476342,
       "avgCost": 0.951,
       "costBasis": 90
+    },
+    {
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "shares": 30.943785456420834,
+      "avgCost": 0.9695,
+      "costBasis": 30
+    },
+    {
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 30.97573567372225,
+      "avgCost": 0.9685,
+      "costBasis": 30
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-23T22:38:35.728Z",
-      "action": "BUY",
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "amount": 26.52,
-      "price": 0.965,
-      "reasoning": "Sold a profitable existing position and initiated new trades based on positive edge signals from the favourite-longshot bias, prioritizing higher edge opportunities."
-    },
-    {
-      "ts": "2026-05-24T08:05:53.693Z",
-      "action": "SELL",
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "proceeds": 160.8833626781185,
-      "price": 0.9765,
-      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T08:05:53.693Z",
-      "action": "SELL",
-      "marketId": "2308197",
-      "question": "Will the Iran ceasefire continue through May 24?",
-      "outcome": "Yes",
-      "proceeds": 57.280701754385966,
-      "price": 0.9795,
-      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-24T08:05:53.693Z",
       "action": "BUY",
@@ -2059,8 +2037,38 @@
       "amount": 12.656545497011734,
       "price": 0.9415,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge."
+    },
+    {
+      "ts": "2026-07-08T14:42:29.804Z",
+      "action": "SELL",
+      "marketId": "1357388",
+      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
+      "outcome": "No",
+      "proceeds": 71.43890377199293,
+      "price": 0.961,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T14:42:29.804Z",
+      "action": "BUY",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.9695,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T14:42:29.804Z",
+      "action": "BUY",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.9685,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-08T12:09:06.871Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge."
+  "lastUpdated": "2026-07-08T14:42:29.804Z",
+  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
 }
