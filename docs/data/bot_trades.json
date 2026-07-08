@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 378.7134526224853,
+  "cash": 0.5950744997386153,
+  "totalValue": 380.92550445448364,
   "positions": [
     {
       "marketId": "558935",
@@ -43,71 +43,23 @@
       "costBasis": 90
     },
     {
-      "marketId": "679019",
-      "question": "Will Jordan Bardella win the 2027 French presidential election?",
-      "outcome": "No",
-      "shares": 94.63722397476342,
-      "avgCost": 0.951,
-      "costBasis": 90
-    },
-    {
-      "marketId": "558963",
-      "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 30.97573567372225,
-      "avgCost": 0.9685,
-      "costBasis": 30
-    },
-    {
       "marketId": "2804894",
       "question": "Exact Score: France 3 - 2 Morocco?",
       "outcome": "No",
-      "shares": 1.4841709870994597,
-      "avgCost": 0.9695,
-      "costBasis": 1.4389037719929263
+      "shares": 94.36342795304374,
+      "avgCost": 0.9690078641218282,
+      "costBasis": 91.43890377199293
+    },
+    {
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "shares": 28.89576883384933,
+      "avgCost": 0.969,
+      "costBasis": 28
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T15:49:17.326Z",
-      "action": "SELL",
-      "marketId": "2074236",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
-      "outcome": "No",
-      "proceeds": 49.76635514018692,
-      "price": 0.9585,
-      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T15:49:17.326Z",
-      "action": "SELL",
-      "marketId": "2341184",
-      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T15:49:17.326Z",
-      "action": "BUY",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9655,
-      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T15:49:17.326Z",
-      "action": "BUY",
-      "marketId": "2227281",
-      "question": "Will Manchester City FC win on 2026-05-24?",
-      "outcome": "Yes",
-      "amount": 50,
-      "price": 0.855,
-      "reasoning": "Sold resolved and dropped positions to reclaim cash, then placed new BUY trades on markets exhibiting positive edge from the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-24T19:54:07.365Z",
       "action": "SELL",
@@ -2067,8 +2019,48 @@
       "amount": 1.4389037719929263,
       "price": 0.9695,
       "reasoning": "Sold a resolved position to reclaim cash, then identified new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T19:47:26.408Z",
+      "action": "SELL",
+      "marketId": "679019",
+      "question": "Will Jordan Bardella win the 2027 French presidential election?",
+      "outcome": "No",
+      "proceeds": 88.53312302839117,
+      "price": 0.9355,
+      "reasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T19:47:26.409Z",
+      "action": "SELL",
+      "marketId": "558963",
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 30.061951471347445,
+      "price": 0.9705,
+      "reasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T19:47:26.409Z",
+      "action": "BUY",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "amount": 90,
+      "price": 0.969,
+      "reasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T19:47:26.409Z",
+      "action": "BUY",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "amount": 28,
+      "price": 0.969,
+      "reasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-08T17:55:21.881Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash, then identified new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-08T19:47:26.409Z",
+  "lastReasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
 }
