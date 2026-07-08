@@ -1,6 +1,6 @@
 {
-  "cash": 1.4389037719929263,
-  "totalValue": 397.74986650817834,
+  "cash": 0,
+  "totalValue": 378.7134526224853,
   "positions": [
     {
       "marketId": "558935",
@@ -59,35 +59,15 @@
       "costBasis": 30
     },
     {
-      "marketId": "2822403",
-      "question": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
       "outcome": "No",
-      "shares": 266.6666666666667,
-      "avgCost": 0.075,
-      "costBasis": 20
+      "shares": 1.4841709870994597,
+      "avgCost": 0.9695,
+      "costBasis": 1.4389037719929263
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T11:55:29.380Z",
-      "action": "BUY",
-      "marketId": "2341184",
-      "question": "Dota 2: Team Spirit vs Aurora - Game 1 Winner",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.03,
-      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T11:55:29.380Z",
-      "action": "BUY",
-      "marketId": "2132776",
-      "question": "Will Bitcoin reach $85,000 in May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.951,
-      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-24T15:49:17.326Z",
       "action": "SELL",
@@ -2067,8 +2047,28 @@
       "amount": 20,
       "price": 0.955,
       "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
+    },
+    {
+      "ts": "2026-07-08T17:55:21.881Z",
+      "action": "SELL",
+      "marketId": "2822403",
+      "question": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash, then identified new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T17:55:21.881Z",
+      "action": "BUY",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "amount": 1.4389037719929263,
+      "price": 0.9695,
+      "reasoning": "Sold a resolved position to reclaim cash, then identified new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-08T16:22:22.812Z",
-  "lastReasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
+  "lastUpdated": "2026-07-08T17:55:21.881Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash, then identified new BUY_NO_LONGSHOT opportunities with positive edge to exploit the favourite-longshot bias."
 }
