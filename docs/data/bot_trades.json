@@ -1,6 +1,6 @@
 {
-  "cash": 0.5950744997386153,
-  "totalValue": 380.92550445448364,
+  "cash": 20.24702075025219,
+  "totalValue": 380.0483799275888,
   "positions": [
     {
       "marketId": "558935",
@@ -30,9 +30,9 @@
       "marketId": "2176262",
       "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 25.84412606759284,
-      "avgCost": 0.9512067065624045,
-      "costBasis": 24.58310604073857
+      "shares": 78.20014701000122,
+      "avgCost": 0.9537463661187229,
+      "costBasis": 74.58310604073857
     },
     {
       "marketId": "1654958",
@@ -43,63 +43,15 @@
       "costBasis": 90
     },
     {
-      "marketId": "2804894",
-      "question": "Exact Score: France 3 - 2 Morocco?",
+      "marketId": "2804884",
+      "question": "Exact Score: France 1 - 2 Morocco?",
       "outcome": "No",
-      "shares": 94.36342795304374,
-      "avgCost": 0.9690078641218282,
-      "costBasis": 91.43890377199293
-    },
-    {
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "shares": 28.89576883384933,
-      "avgCost": 0.969,
-      "costBasis": 28
+      "shares": 52.05622071837585,
+      "avgCost": 0.9605,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T19:54:07.365Z",
-      "action": "SELL",
-      "marketId": "553866",
-      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-      "outcome": "No",
-      "proceeds": 49.70570924072984,
-      "price": 0.8445,
-      "reasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
-    },
-    {
-      "ts": "2026-05-24T19:54:07.365Z",
-      "action": "SELL",
-      "marketId": "2227281",
-      "question": "Will Manchester City FC win on 2026-05-24?",
-      "outcome": "Yes",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
-    },
-    {
-      "ts": "2026-05-24T19:54:07.365Z",
-      "action": "BUY",
-      "marketId": "2111563",
-      "question": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by May 31?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.965,
-      "reasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
-    },
-    {
-      "ts": "2026-05-24T19:54:07.365Z",
-      "action": "BUY",
-      "marketId": "2238716",
-      "question": "Will Club Atlético de Madrid win on 2026-05-24?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.945,
-      "reasoning": "Selling resolved and dropped positions to reclaim cash, then buying new positions with positive edge based on the favourite-longshot bias, prioritizing highest edge."
-    },
     {
       "ts": "2026-05-24T23:43:22.149Z",
       "action": "SELL",
@@ -2059,8 +2011,48 @@
       "amount": 28,
       "price": 0.969,
       "reasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T20:47:26.842Z",
+      "action": "SELL",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "proceeds": 91.57970682842895,
+      "price": 0.9705,
+      "reasoning": "Sold existing positions to free up cash, then bought NO shares on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T20:47:26.842Z",
+      "action": "SELL",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "proceeds": 28.072239422084625,
+      "price": 0.9715,
+      "reasoning": "Sold existing positions to free up cash, then bought NO shares on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T20:47:26.842Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.955,
+      "reasoning": "Sold existing positions to free up cash, then bought NO shares on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T20:47:26.842Z",
+      "action": "BUY",
+      "marketId": "2804884",
+      "question": "Exact Score: France 1 - 2 Morocco?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9605,
+      "reasoning": "Sold existing positions to free up cash, then bought NO shares on longshot markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-08T19:47:26.409Z",
-  "lastReasoning": "Sold two dropped positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-08T20:47:26.842Z",
+  "lastReasoning": "Sold existing positions to free up cash, then bought NO shares on longshot markets with positive edge, exploiting the favourite-longshot bias."
 }
