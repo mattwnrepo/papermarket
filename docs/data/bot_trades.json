@@ -1,6 +1,6 @@
 {
-  "cash": 11.438903771992926,
-  "totalValue": 399.83228933629766,
+  "cash": 1.4389037719929263,
+  "totalValue": 397.74986650817834,
   "positions": [
     {
       "marketId": "558935",
@@ -30,9 +30,9 @@
       "marketId": "2176262",
       "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 4.901717690629485,
-      "avgCost": 0.935,
-      "costBasis": 4.583106040738569
+      "shares": 25.84412606759284,
+      "avgCost": 0.9512067065624045,
+      "costBasis": 24.58310604073857
     },
     {
       "marketId": "1654958",
@@ -51,53 +51,23 @@
       "costBasis": 90
     },
     {
-      "marketId": "2804894",
-      "question": "Exact Score: France 3 - 2 Morocco?",
-      "outcome": "No",
-      "shares": 30.943785456420834,
-      "avgCost": 0.9695,
-      "costBasis": 30
-    },
-    {
       "marketId": "558963",
       "question": "Will Morocco win the 2026 FIFA World Cup?",
       "outcome": "No",
       "shares": 30.97573567372225,
       "avgCost": 0.9685,
       "costBasis": 30
+    },
+    {
+      "marketId": "2822403",
+      "question": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
+      "outcome": "No",
+      "shares": 266.6666666666667,
+      "avgCost": 0.075,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T08:05:53.693Z",
-      "action": "BUY",
-      "marketId": "2074236",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.963,
-      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T08:05:53.693Z",
-      "action": "BUY",
-      "marketId": "2132780",
-      "question": "Will Bitcoin dip to $65,000 in May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9695,
-      "reasoning": "Sold profitable resolved positions to reclaim cash and bought into new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-24T11:55:29.380Z",
-      "action": "SELL",
-      "marketId": "2132780",
-      "question": "Will Bitcoin dip to $65,000 in May?",
-      "outcome": "No",
-      "proceeds": 50.51572975760701,
-      "price": 0.9795,
-      "reasoning": "Sold a profitable existing position to reclaim cash and bought two new BUY_NO_LONGSHOT positions with positive edge, adhering to the strategy of exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-24T11:55:29.380Z",
       "action": "BUY",
@@ -2067,8 +2037,38 @@
       "amount": 30,
       "price": 0.9685,
       "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-08T16:22:22.812Z",
+      "action": "SELL",
+      "marketId": "2804894",
+      "question": "Exact Score: France 3 - 2 Morocco?",
+      "outcome": "No",
+      "proceeds": 30,
+      "price": 0.9695,
+      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
+    },
+    {
+      "ts": "2026-07-08T16:22:22.812Z",
+      "action": "BUY",
+      "marketId": "2822403",
+      "question": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.075,
+      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
+    },
+    {
+      "ts": "2026-07-08T16:22:22.812Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.955,
+      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
     }
   ],
-  "lastUpdated": "2026-07-08T14:42:29.804Z",
-  "lastReasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-08T16:22:22.812Z",
+  "lastReasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
 }
