@@ -1,6 +1,6 @@
 {
-  "cash": 0.35167431798745596,
-  "totalValue": 388.7536834659662,
+  "cash": 73.19394396921079,
+  "totalValue": 390.6122666437725,
   "positions": [
     {
       "marketId": "558935",
@@ -41,27 +41,9 @@
       "shares": 109.0909090909091,
       "avgCost": 0.825,
       "costBasis": 90
-    },
-    {
-      "marketId": "2804884",
-      "question": "Exact Score: France 1 - 2 Morocco?",
-      "outcome": "No",
-      "shares": 72.8787090057262,
-      "avgCost": 0.9604999999999999,
-      "costBasis": 70
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-24T23:43:22.149Z",
-      "action": "BUY",
-      "marketId": "958443",
-      "question": "Will the Iranian regime fall by June 30?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9675,
-      "reasoning": "Sold dropped positions to reclaim cash and then bought into new BUY_NO_LONGSHOT signals with positive edge."
-    },
     {
       "ts": "2026-05-25T12:48:16.590Z",
       "action": "SELL",
@@ -2051,8 +2033,18 @@
       "amount": 20,
       "price": 0.9605,
       "reasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-09T22:05:11.522Z",
+      "action": "SELL",
+      "marketId": "2804884",
+      "question": "Exact Score: France 1 - 2 Morocco?",
+      "outcome": "No",
+      "proceeds": 72.84226965122333,
+      "price": 0.9995,
+      "reasoning": "Sold a resolved position to reclaim capital. No new buy trades were made due to insufficient cash after the sale, as each new trade requires $20-$100 USDC."
     }
   ],
-  "lastUpdated": "2026-07-09T20:24:51.020Z",
-  "lastReasoning": "Holding cash because current funds ($0.35 USDC) are insufficient to meet the minimum trade size of $20 USDC for new positions."
+  "lastUpdated": "2026-07-09T22:05:11.522Z",
+  "lastReasoning": "Sold a resolved position to reclaim capital. No new buy trades were made due to insufficient cash after the sale, as each new trade requires $20-$100 USDC."
 }
