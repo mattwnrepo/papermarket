@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 343.4339021848487,
+  "cash": 15.410323925680387,
+  "totalValue": 347.16537427649166,
   "positions": [
     {
       "marketId": "558935",
@@ -35,63 +35,23 @@
       "costBasis": 90
     },
     {
-      "marketId": "2829204",
-      "question": "Exact Score: Spain 3 - 2 Belgium?",
+      "marketId": "2829385",
+      "question": "Spain vs. Belgium: O/U 4.5",
       "outcome": "No",
-      "shares": 51.86721991701245,
-      "avgCost": 0.964,
-      "costBasis": 50
+      "shares": 827.5862068965517,
+      "avgCost": 0.03625,
+      "costBasis": 30
     },
     {
-      "marketId": "2829195",
-      "question": "Exact Score: Spain 1 - 2 Belgium?",
+      "marketId": "2835428",
+      "question": "Spain vs. Belgium: O/U 8.5 Total Corners",
       "outcome": "No",
-      "shares": 25.844126067592843,
-      "avgCost": 0.955,
-      "costBasis": 24.681140394551164
+      "shares": 600,
+      "avgCost": 0.05,
+      "costBasis": 30
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-25T22:17:20.821Z",
-      "action": "BUY",
-      "marketId": "2074237",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9495,
-      "reasoning": "Sold a resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias, prioritizing new markets."
-    },
-    {
-      "ts": "2026-05-26T23:43:58.971Z",
-      "action": "SELL",
-      "marketId": "2262267",
-      "question": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
-      "outcome": "No",
-      "proceeds": 99.42287513116476,
-      "price": 0.9475,
-      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-26T23:43:58.971Z",
-      "action": "SELL",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "proceeds": 151.2650960775785,
-      "price": 0.9765,
-      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-26T23:43:58.971Z",
-      "action": "SELL",
-      "marketId": "2074237",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
-      "outcome": "No",
-      "proceeds": 49.947340705634545,
-      "price": 0.9485,
-      "reasoning": "Sold existing positions to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-26T23:43:58.971Z",
       "action": "BUY",
@@ -2051,8 +2011,48 @@
       "amount": 24.681140394551164,
       "price": 0.955,
       "reasoning": "Sold a resolved position to reclaim cash and then bought into two highly-edged longshot NO positions, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-10T20:54:31.209Z",
+      "action": "SELL",
+      "marketId": "2829204",
+      "question": "Exact Score: Spain 3 - 2 Belgium?",
+      "outcome": "No",
+      "proceeds": 51.607883817427386,
+      "price": 0.995,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-10T20:54:31.209Z",
+      "action": "SELL",
+      "marketId": "2829195",
+      "question": "Exact Score: Spain 1 - 2 Belgium?",
+      "outcome": "No",
+      "proceeds": 23.80244010825301,
+      "price": 0.921,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-10T20:54:31.209Z",
+      "action": "BUY",
+      "marketId": "2829385",
+      "question": "Spain vs. Belgium: O/U 4.5",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.03625,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-10T20:54:31.209Z",
+      "action": "BUY",
+      "marketId": "2835428",
+      "question": "Spain vs. Belgium: O/U 8.5 Total Corners",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.05,
+      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-10T19:45:47.637Z",
-  "lastReasoning": "Exploited favourite-longshot bias by buying 'No' on longshot 'Will Belgium win on 2026-07-10?' and 'Exact Score: Spain 1 - 1 Belgium?', and 'Yes' on favourite 'Spain vs. Belgium: O/U 2.5' where a positive edge was identified, while avoiding existing positions and negative edge signals."
+  "lastUpdated": "2026-07-10T20:54:31.209Z",
+  "lastReasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
 }
