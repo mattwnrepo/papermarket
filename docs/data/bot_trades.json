@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 391.955363439913,
+  "totalValue": 353.0606578532473,
   "positions": [
     {
       "marketId": "558935",
@@ -22,9 +22,9 @@
       "marketId": "558951",
       "question": "Will Norway win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 17.942155145606012,
-      "avgCost": 0.9394939103031811,
-      "costBasis": 16.856545497011734
+      "shares": 55.83438529921111,
+      "avgCost": 0.9408553511445781,
+      "costBasis": 52.532080186630935
     },
     {
       "marketId": "2176262",
@@ -41,55 +41,9 @@
       "shares": 109.0909090909091,
       "avgCost": 0.825,
       "costBasis": 90
-    },
-    {
-      "marketId": "2744616",
-      "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
-      "outcome": "No",
-      "shares": 36.515388628064684,
-      "avgCost": 0.9585,
-      "costBasis": 35
-    },
-    {
-      "marketId": "2783451",
-      "question": "Seattle Mariners vs. Miami Marlins",
-      "outcome": "No",
-      "shares": 883.8851741618547,
-      "avgCost": 0.0445,
-      "costBasis": 39.33289025020253
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-25T12:48:16.590Z",
-      "action": "BUY",
-      "marketId": "2262267",
-      "question": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.953,
-      "reasoning": "Sold all existing positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-25T12:48:16.590Z",
-      "action": "BUY",
-      "marketId": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9485,
-      "reasoning": "Sold all existing positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-25T18:18:33.220Z",
-      "action": "BUY",
-      "marketId": "1809560",
-      "question": "Strait of Hormuz traffic returns to normal by end of May?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.968,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshots with positive edge and 'Yes' on favourites with positive edge."
-    },
     {
       "ts": "2026-05-25T18:18:33.220Z",
       "action": "BUY",
@@ -2059,8 +2013,38 @@
       "amount": 39.33289025020253,
       "price": 0.0445,
       "reasoning": "Sold a resolved position to reclaim cash and identified multiple BUY_NO_LONGSHOT and BUY_YES_FAVOURITE signals with positive edge."
+    },
+    {
+      "ts": "2026-07-10T05:10:20.094Z",
+      "action": "SELL",
+      "marketId": "2744616",
+      "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
+      "outcome": "No",
+      "proceeds": 35.6755346896192,
+      "price": 0.977,
+      "reasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-10T05:10:20.094Z",
+      "action": "SELL",
+      "marketId": "2783451",
+      "question": "Seattle Mariners vs. Miami Marlins",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-10T05:10:20.094Z",
+      "action": "BUY",
+      "marketId": "558951",
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 35.6755346896192,
+      "price": 0.9415,
+      "reasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-10T01:11:42.739Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and identified multiple BUY_NO_LONGSHOT and BUY_YES_FAVOURITE signals with positive edge."
+  "lastUpdated": "2026-07-10T05:10:20.094Z",
+  "lastReasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
 }
