@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 289.31880721045826,
+  "cash": 1.6363636363636402,
+  "totalValue": 289.23904379580233,
   "positions": [
     {
       "marketId": "558935",
@@ -27,53 +27,23 @@
       "costBasis": 52.532080186630935
     },
     {
-      "marketId": "1654958",
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "outcome": "Yes",
-      "shares": 109.0909090909091,
-      "avgCost": 0.825,
-      "costBasis": 90
-    },
-    {
       "marketId": "2815476",
       "question": "Exact Score: Norway 2 - 0 England?",
       "outcome": "No",
-      "shares": 15.952686237806432,
-      "avgCost": 0.9655,
-      "costBasis": 15.40231856260211
+      "shares": 59.566393402915466,
+      "avgCost": 0.963669533831346,
+      "costBasis": 57.40231856260211
+    },
+    {
+      "marketId": "2815487",
+      "question": "Exact Score: Norway 3 - 2 England?",
+      "outcome": "No",
+      "shares": 43.36602994321115,
+      "avgCost": 0.9685,
+      "costBasis": 42
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-27T20:36:40.572Z",
-      "action": "BUY",
-      "marketId": "1472548",
-      "question": "Will Reza Pahlavi lead Iran in 2026?",
-      "outcome": "No",
-      "amount": 75,
-      "price": 0.9365,
-      "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-27T20:36:40.572Z",
-      "action": "BUY",
-      "marketId": "2126542",
-      "question": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
-      "outcome": "No",
-      "amount": 75,
-      "price": 0.9215,
-      "reasoning": "Sold a dropped position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-28T12:52:36.917Z",
-      "action": "SELL",
-      "marketId": "2169995",
-      "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-      "outcome": "No",
-      "proceeds": 43.69509043927649,
-      "price": 0.8455,
-      "reasoning": "Sold existing positions to free up cash and exploited the favourite-longshot bias by buying 'No' on markets with positive edge where the 'Yes' price was a longshot."
-    },
     {
       "ts": "2026-05-28T12:52:36.917Z",
       "action": "SELL",
@@ -2043,8 +2013,38 @@
       "amount": 15.40231856260211,
       "price": 0.9655,
       "reasoning": "Sold a dropped position to reclaim cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T17:18:05.127Z",
+      "action": "SELL",
+      "marketId": "1654958",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "outcome": "Yes",
+      "proceeds": 85.63636363636364,
+      "price": 0.785,
+      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T17:18:05.127Z",
+      "action": "BUY",
+      "marketId": "2815487",
+      "question": "Exact Score: Norway 3 - 2 England?",
+      "outcome": "No",
+      "amount": 42,
+      "price": 0.9685,
+      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T17:18:05.127Z",
+      "action": "BUY",
+      "marketId": "2815476",
+      "question": "Exact Score: Norway 2 - 0 England?",
+      "outcome": "No",
+      "amount": 42,
+      "price": 0.963,
+      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-11T16:12:15.715Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias by buying NO on longshots and YES on favourites with positive edge."
+  "lastUpdated": "2026-07-11T17:18:05.127Z",
+  "lastReasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
 }
