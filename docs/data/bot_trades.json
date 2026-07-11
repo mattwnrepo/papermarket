@@ -1,6 +1,6 @@
 {
-  "cash": 34.415343454591,
-  "totalValue": 280.3475127358397,
+  "cash": 43.95195366080502,
+  "totalValue": 283.9579216266234,
   "positions": [
     {
       "marketId": "558935",
@@ -27,45 +27,23 @@
       "costBasis": 52.532080186630935
     },
     {
-      "marketId": "2815476",
-      "question": "Exact Score: Norway 2 - 0 England?",
+      "marketId": "2815487",
+      "question": "Exact Score: Norway 3 - 2 England?",
       "outcome": "No",
-      "shares": 59.566393402915466,
-      "avgCost": 0.963669533831346,
-      "costBasis": 57.40231856260211
+      "shares": 26.028110359187924,
+      "avgCost": 0.9605,
+      "costBasis": 25
+    },
+    {
+      "marketId": "2815565",
+      "question": "Spread: Norway (-1.5)",
+      "outcome": "No",
+      "shares": 606.060606060606,
+      "avgCost": 0.04125,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-29T19:55:22.592Z",
-      "action": "SELL",
-      "marketId": "2354002",
-      "question": "US announces new Iran agreement/ceasefire extension by May 28?",
-      "outcome": "No",
-      "proceeds": 51.59958720330238,
-      "price": 1,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-29T19:55:22.592Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9625,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-29T19:55:22.592Z",
-      "action": "BUY",
-      "marketId": "2109455",
-      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.958,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two new 'BUY_NO_LONGSHOT' signals with positive edge, diversifying across different market types to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-30T00:16:35.601Z",
       "action": "SELL",
@@ -2035,8 +2013,38 @@
       "proceeds": 10.370370370370372,
       "price": 0.0175,
       "reasoning": "I am selling existing positions to reclaim cash, as I currently have insufficient funds to make new BUY trades according to the strategy's minimum trade size, and there are no stop-loss positions."
+    },
+    {
+      "ts": "2026-07-11T22:26:19.305Z",
+      "action": "SELL",
+      "marketId": "2815476",
+      "question": "Exact Score: Norway 2 - 0 England?",
+      "outcome": "No",
+      "proceeds": 59.536610206214014,
+      "price": 0.9995,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T22:26:19.305Z",
+      "action": "BUY",
+      "marketId": "2815487",
+      "question": "Exact Score: Norway 3 - 2 England?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9605,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T22:26:19.305Z",
+      "action": "BUY",
+      "marketId": "2815565",
+      "question": "Spread: Norway (-1.5)",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.04125,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-11T21:25:54.611Z",
-  "lastReasoning": "I am selling existing positions to reclaim cash, as I currently have insufficient funds to make new BUY trades according to the strategy's minimum trade size, and there are no stop-loss positions."
+  "lastUpdated": "2026-07-11T22:26:19.305Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
 }
