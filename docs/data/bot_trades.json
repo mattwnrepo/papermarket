@@ -1,6 +1,6 @@
 {
-  "cash": 43.95195366080502,
-  "totalValue": 283.9579216266234,
+  "cash": 25.66566085681282,
+  "totalValue": 255.26310799691043,
   "positions": [
     {
       "marketId": "558935",
@@ -19,81 +19,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "558951",
-      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 55.83438529921111,
-      "avgCost": 0.9408553511445781,
-      "costBasis": 52.532080186630935
+      "shares": 52.91005291005291,
+      "avgCost": 0.945,
+      "costBasis": 50
     },
     {
-      "marketId": "2815487",
-      "question": "Exact Score: Norway 3 - 2 England?",
+      "marketId": "2844091",
+      "question": "Exact Score: Argentina 3 - 1 Switzerland?",
       "outcome": "No",
-      "shares": 26.028110359187924,
-      "avgCost": 0.9605,
-      "costBasis": 25
-    },
-    {
-      "marketId": "2815565",
-      "question": "Spread: Norway (-1.5)",
-      "outcome": "No",
-      "shares": 606.060606060606,
-      "avgCost": 0.04125,
-      "costBasis": 25
+      "shares": 52.91005291005291,
+      "avgCost": 0.945,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-30T00:16:35.601Z",
-      "action": "SELL",
-      "marketId": "2133405",
-      "question": "Iran closes its airspace by May 31?",
-      "outcome": "No",
-      "proceeds": 48.11320754716981,
-      "price": 0.8925,
-      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
-    },
-    {
-      "ts": "2026-05-30T00:16:35.601Z",
-      "action": "BUY",
-      "marketId": "2126515",
-      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9665,
-      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
-    },
-    {
-      "ts": "2026-05-30T00:16:35.601Z",
-      "action": "BUY",
-      "marketId": "2109455",
-      "question": "Will Ryan Flaherty be the next permanent manager of the Philadelphia Phillies?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.957,
-      "reasoning": "Sold a dropped position to free up cash, then bought two new 'No' longshot positions with positive edge, prioritizing the highest edge and avoiding averaging down."
-    },
-    {
-      "ts": "2026-05-30T09:06:01.773Z",
-      "action": "SELL",
-      "marketId": "2126515",
-      "question": "Israel x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "No",
-      "proceeds": 25.68546301086394,
-      "price": 0.993,
-      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-30T09:06:01.773Z",
-      "action": "BUY",
-      "marketId": "1919425",
-      "question": "US x Iran permanent peace deal by May 31, 2026?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.955,
-      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-30T09:06:01.773Z",
       "action": "BUY",
@@ -2043,8 +1985,58 @@
       "amount": 25,
       "price": 0.04125,
       "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T23:31:42.176Z",
+      "action": "SELL",
+      "marketId": "558951",
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 54.94103513442373,
+      "price": 0.984,
+      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T23:31:42.176Z",
+      "action": "SELL",
+      "marketId": "2815487",
+      "question": "Exact Score: Norway 3 - 2 England?",
+      "outcome": "No",
+      "proceeds": 26.01509630400833,
+      "price": 0.9995,
+      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T23:31:42.176Z",
+      "action": "SELL",
+      "marketId": "2815565",
+      "question": "Spread: Norway (-1.5)",
+      "outcome": "No",
+      "proceeds": 0.7575757575757576,
+      "price": 0.00125,
+      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T23:31:42.176Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.945,
+      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-11T23:31:42.176Z",
+      "action": "BUY",
+      "marketId": "2844091",
+      "question": "Exact Score: Argentina 3 - 1 Switzerland?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.945,
+      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-11T22:26:19.305Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-11T23:31:42.176Z",
+  "lastReasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
 }
