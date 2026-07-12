@@ -1,6 +1,6 @@
 {
-  "cash": 0.08294528624778152,
-  "totalValue": 257.00134152402813,
+  "cash": 0,
+  "totalValue": 257.0013792066137,
   "positions": [
     {
       "marketId": "558935",
@@ -46,40 +46,12 @@
       "marketId": "567621",
       "question": "Will China invade Taiwan by end of 2026?",
       "outcome": "No",
-      "shares": 22.611660845131283,
+      "shares": 43.49875942677224,
       "avgCost": 0.9615,
-      "costBasis": 21.74111190259373
-    },
-    {
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "shares": 20.73613271124935,
-      "avgCost": 0.9645,
-      "costBasis": 20
+      "costBasis": 41.82405718884151
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-14T20:23:30.033Z",
-      "action": "SELL",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 315.7593242879308,
-      "price": 0.9435,
-      "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-14T20:23:30.033Z",
-      "action": "BUY",
-      "marketId": "2508397",
-      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
-      "outcome": "No",
-      "amount": 70,
-      "price": 0.9695,
-      "reasoning": "Sold a portion of an existing position to free up cash, then bought into two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-06-14T20:23:30.033Z",
       "action": "BUY",
@@ -2059,8 +2031,28 @@
       "amount": 20,
       "price": 0.9645,
       "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T18:30:08.572Z",
+      "action": "SELL",
+      "marketId": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "outcome": "No",
+      "proceeds": 20,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-12T18:30:08.572Z",
+      "action": "BUY",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "amount": 20.08294528624778,
+      "price": 0.9615,
+      "reasoning": "Sold a dropped position to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-12T17:28:06.826Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-12T18:30:08.572Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
 }
