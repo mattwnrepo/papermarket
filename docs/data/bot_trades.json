@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 257.09501976548336,
+  "cash": 0.06231609594350118,
+  "totalValue": 256.98067465113826,
   "positions": [
     {
       "marketId": "558935",
@@ -35,14 +35,6 @@
       "costBasis": 20
     },
     {
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "shares": 41.53687516427527,
-      "avgCost": 0.9629997403946001,
-      "costBasis": 40
-    },
-    {
       "marketId": "2555350",
       "question": "Israel closes its airspace by July 15?",
       "outcome": "No",
@@ -54,42 +46,20 @@
       "marketId": "567621",
       "question": "Will China invade Taiwan by end of 2026?",
       "outcome": "No",
-      "shares": 1.8108288118499527,
+      "shares": 22.611660845131283,
       "avgCost": 0.9615,
-      "costBasis": 1.7411119025937296
+      "costBasis": 21.74111190259373
+    },
+    {
+      "marketId": "2880039",
+      "question": "Exact Score: France 3 - 2 Spain?",
+      "outcome": "No",
+      "shares": 20.629190304280556,
+      "avgCost": 0.9695,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-31T15:03:42.460Z",
-      "action": "SELL",
-      "marketId": "2340843",
-      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
-      "outcome": "No",
-      "proceeds": 36.85405405405405,
-      "price": 0.974,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-31T15:03:42.460Z",
-      "action": "BUY",
-      "marketId": "1972137",
-      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9675,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-05-31T15:03:42.460Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 40.49657686383462,
-      "price": 0.9585,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-05-31T18:56:41.215Z",
       "action": "SELL",
@@ -2059,8 +2029,38 @@
       "amount": 1.7411119025937296,
       "price": 0.9615,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with the highest positive edge, prioritizing diversification across different event types."
+    },
+    {
+      "ts": "2026-07-12T16:15:25.501Z",
+      "action": "SELL",
+      "marketId": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "outcome": "No",
+      "proceeds": 40.0623160959435,
+      "price": 0.9645,
+      "reasoning": "Sold a resolved position to free up cash, then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T16:15:25.501Z",
+      "action": "BUY",
+      "marketId": "2880039",
+      "question": "Exact Score: France 3 - 2 Spain?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9695,
+      "reasoning": "Sold a resolved position to free up cash, then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T16:15:25.501Z",
+      "action": "BUY",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9615,
+      "reasoning": "Sold a resolved position to free up cash, then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-12T15:19:25.253Z",
-  "lastReasoning": "No new trades were executed as the cash balance is zero, and the strategy prohibits buying without available funds. Existing positions were held as no stop-loss or resolved conditions were met."
+  "lastUpdated": "2026-07-12T16:15:25.501Z",
+  "lastReasoning": "Sold a resolved position to free up cash, then bought two new longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
 }
