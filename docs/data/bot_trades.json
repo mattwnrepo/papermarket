@@ -1,6 +1,6 @@
 {
-  "cash": 41.58610482831824,
-  "totalValue": 258.0664112790303,
+  "cash": 21.679224331680885,
+  "totalValue": 257.8250915510938,
   "positions": [
     {
       "marketId": "558935",
@@ -27,53 +27,31 @@
       "costBasis": 50
     },
     {
-      "marketId": "2069639",
-      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 20.693222969477496,
-      "avgCost": 0.9665,
-      "costBasis": 20
-    },
-    {
       "marketId": "2069670",
       "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
       "shares": 20.714655618850337,
       "avgCost": 0.9655,
       "costBasis": 20
+    },
+    {
+      "marketId": "2874930",
+      "question": "Iran commits not to attack ships in Hormuz by Sunday?",
+      "outcome": "No",
+      "shares": 20.629190304280556,
+      "avgCost": 0.9695,
+      "costBasis": 20
+    },
+    {
+      "marketId": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "outcome": "No",
+      "shares": 20.77922077922078,
+      "avgCost": 0.9625,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-30T16:36:15.802Z",
-      "action": "BUY",
-      "marketId": "1927582",
-      "question": "Will Satoshi's identity be revealed by December 31?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.925,
-      "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
-    },
-    {
-      "ts": "2026-05-30T16:36:15.802Z",
-      "action": "BUY",
-      "marketId": "2324483",
-      "question": "Spread: Paris Saint-Germain FC (-1.5)",
-      "outcome": "No",
-      "amount": 5.659986316392697,
-      "price": 0.085,
-      "reasoning": "Sold a resolved position to reclaim cash and bought two new 'No' longshot positions with positive edge, avoiding averaging down into existing positions at less favorable prices."
-    },
-    {
-      "ts": "2026-05-30T20:18:13.486Z",
-      "action": "SELL",
-      "marketId": "2324483",
-      "question": "Spread: Paris Saint-Germain FC (-1.5)",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy."
-    },
     {
       "ts": "2026-05-30T23:44:51.684Z",
       "action": "SELL",
@@ -2043,8 +2021,38 @@
       "amount": 20,
       "price": 0.9655,
       "reasoning": "Sold resolved positions to free up cash and bought into new longshot 'No' and favourite 'Yes' signals with positive edge, adhering to trade size limits."
+    },
+    {
+      "ts": "2026-07-12T07:09:52.195Z",
+      "action": "SELL",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 20.093119503362647,
+      "price": 0.971,
+      "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T07:09:52.195Z",
+      "action": "BUY",
+      "marketId": "2874930",
+      "question": "Iran commits not to attack ships in Hormuz by Sunday?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9695,
+      "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T07:09:52.195Z",
+      "action": "BUY",
+      "marketId": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9625,
+      "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-12T04:34:11.423Z",
-  "lastReasoning": "Sold resolved positions to free up cash and bought into new longshot 'No' and favourite 'Yes' signals with positive edge, adhering to trade size limits."
+  "lastUpdated": "2026-07-12T07:09:52.195Z",
+  "lastReasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
 }
