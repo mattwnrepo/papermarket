@@ -1,70 +1,48 @@
 {
   "markets": [
     {
-      "id": "2874512",
-      "question": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
-      "category": "General",
-      "endDate": "2026-07-19T15:00:00Z",
-      "yesPrice": 0.875,
-      "outcomes": [
-        {
-          "id": "2874512-0",
-          "title": "Jannik Sinner",
-          "price": 0.875
-        },
-        {
-          "id": "2874512-1",
-          "title": "Alexander Zverev",
-          "price": 0.125
-        }
-      ],
-      "volume": 10878268.275653133,
-      "liquidity": 245052.5109,
-      "lastUpdated": "2026-07-12T18:29:59.954Z"
-    },
-    {
       "id": "558938",
       "question": "Will Argentina win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.1855,
+      "yesPrice": 0.1825,
       "outcomes": [
         {
           "id": "558938-0",
           "title": "Yes",
-          "price": 0.1855
+          "price": 0.1825
         },
         {
           "id": "558938-1",
           "title": "No",
-          "price": 0.8145
+          "price": 0.8175
         }
       ],
-      "volume": 131370387.22814019,
-      "liquidity": 7209437.07171,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 131494107.27320229,
+      "liquidity": 7120805.23833,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "558935",
       "question": "Will England win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.2155,
+      "yesPrice": 0.2145,
       "outcomes": [
         {
           "id": "558935-0",
           "title": "Yes",
-          "price": 0.2155
+          "price": 0.2145
         },
         {
           "id": "558935-1",
           "title": "No",
-          "price": 0.7845
+          "price": 0.7855
         }
       ],
-      "volume": 98088314.6665269,
-      "liquidity": 5945036.4556,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 98218370.67308904,
+      "liquidity": 5873683.54326,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880319",
@@ -84,9 +62,9 @@
           "price": 0.405
         }
       ],
-      "volume": 3484836.062611907,
-      "liquidity": 2604743.5163,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 3515676.8000649028,
+      "liquidity": 2679482.6695,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "558936",
@@ -106,31 +84,31 @@
           "price": 0.6115
         }
       ],
-      "volume": 114657211.44500048,
-      "liquidity": 6344187.01537,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 114753760.1309156,
+      "liquidity": 6238248.28684,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "558934",
       "question": "Will Spain win the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.2005,
+      "yesPrice": 0.2025,
       "outcomes": [
         {
           "id": "558934-0",
           "title": "Yes",
-          "price": 0.2005
+          "price": 0.2025
         },
         {
           "id": "558934-1",
           "title": "No",
-          "price": 0.7995
+          "price": 0.7975
         }
       ],
-      "volume": 105869873.50447914,
-      "liquidity": 7444476.73121,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 106184209.82983111,
+      "liquidity": 7072452.4782,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2879968",
@@ -150,9 +128,9 @@
           "price": 0.585
         }
       ],
-      "volume": 2443849.6207939754,
-      "liquidity": 3368250.1128,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 2475274.8731139726,
+      "liquidity": 3504307.7231,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2176262",
@@ -172,9 +150,31 @@
           "price": 0.955
         }
       ],
-      "volume": 15683577.847608292,
-      "liquidity": 1021948.5376,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 15684196.137183294,
+      "liquidity": 1022987.1321,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2816920",
+      "question": "New York Yankees vs. Washington Nationals",
+      "category": "General",
+      "endDate": "2026-07-19T17:35:00Z",
+      "yesPrice": 0.255,
+      "outcomes": [
+        {
+          "id": "2816920-0",
+          "title": "New York Yankees",
+          "price": 0.255
+        },
+        {
+          "id": "2816920-1",
+          "title": "Washington Nationals",
+          "price": 0.745
+        }
+      ],
+      "volume": 575169.5969629997,
+      "liquidity": 109948.6952,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880287",
@@ -194,97 +194,31 @@
           "price": 0.485
         }
       ],
-      "volume": 553231.1799800005,
-      "liquidity": 1748602.0088,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2816949",
-      "question": "Athletics vs. Chicago White Sox",
-      "category": "General",
-      "endDate": "2026-07-19T18:10:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "2816949-0",
-          "title": "Athletics",
-          "price": 0.255
-        },
-        {
-          "id": "2816949-1",
-          "title": "Chicago White Sox",
-          "price": 0.745
-        }
-      ],
-      "volume": 402705.5567530002,
-      "liquidity": 75593.1135,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 555279.2516140004,
+      "liquidity": 1835906.0785,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2816938",
       "question": "Cleveland Guardians vs. Miami Marlins",
       "category": "General",
       "endDate": "2026-07-19T17:40:00Z",
-      "yesPrice": 0.735,
+      "yesPrice": 0.825,
       "outcomes": [
         {
           "id": "2816938-0",
           "title": "Cleveland Guardians",
-          "price": 0.735
+          "price": 0.825
         },
         {
           "id": "2816938-1",
           "title": "Miami Marlins",
-          "price": 0.265
+          "price": 0.175
         }
       ],
-      "volume": 401200.7960239995,
-      "liquidity": 113488.2843,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2686769",
-      "question": "Iran full airspace closure by July 15?",
-      "category": "General",
-      "endDate": "2026-07-15T23:59:00Z",
-      "yesPrice": 0.0845,
-      "outcomes": [
-        {
-          "id": "2686769-0",
-          "title": "Yes",
-          "price": 0.0845
-        },
-        {
-          "id": "2686769-1",
-          "title": "No",
-          "price": 0.9155
-        }
-      ],
-      "volume": 2093104.824840002,
-      "liquidity": 50873.34575,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2816920",
-      "question": "New York Yankees vs. Washington Nationals",
-      "category": "General",
-      "endDate": "2026-07-19T17:35:00Z",
-      "yesPrice": 0.385,
-      "outcomes": [
-        {
-          "id": "2816920-0",
-          "title": "New York Yankees",
-          "price": 0.385
-        },
-        {
-          "id": "2816920-1",
-          "title": "Washington Nationals",
-          "price": 0.615
-        }
-      ],
-      "volume": 369040.22063199966,
-      "liquidity": 132830.3165,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 444747.4748739999,
+      "liquidity": 52293.1609,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880028",
@@ -304,31 +238,53 @@
           "price": 0.895
         }
       ],
-      "volume": 360636.46936400037,
-      "liquidity": 382689.4568,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 378905.8368020005,
+      "liquidity": 447763.348,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2686769",
+      "question": "Iran full airspace closure by July 15?",
+      "category": "General",
+      "endDate": "2026-07-15T23:59:00Z",
+      "yesPrice": 0.0905,
+      "outcomes": [
+        {
+          "id": "2686769-0",
+          "title": "Yes",
+          "price": 0.0905
+        },
+        {
+          "id": "2686769-1",
+          "title": "No",
+          "price": 0.9095
+        }
+      ],
+      "volume": 2096653.4268800023,
+      "liquidity": 50840.6966,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "665374",
       "question": "Will the U.S. invade Iran before 2027?",
       "category": "General",
       "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.175,
+      "yesPrice": 0.165,
       "outcomes": [
         {
           "id": "665374-0",
           "title": "Yes",
-          "price": 0.175
+          "price": 0.165
         },
         {
           "id": "665374-1",
           "title": "No",
-          "price": 0.825
+          "price": 0.835
         }
       ],
-      "volume": 40742026.544659145,
-      "liquidity": 418105.0013,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 40749476.09465916,
+      "liquidity": 465863.0855,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2643405",
@@ -348,9 +304,9 @@
           "price": 0.635
         }
       ],
-      "volume": 1376005.9286650014,
-      "liquidity": 66016.5663,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1379410.9188630015,
+      "liquidity": 68486.6428,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880294",
@@ -370,31 +326,31 @@
           "price": 0.405
         }
       ],
-      "volume": 297636.2785970004,
-      "liquidity": 377780.3099,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 311588.51694700046,
+      "liquidity": 375105.6803,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2875769",
-      "question": "Set Handicap: Sinner (-1.5) vs Zverev (+1.5)",
+      "id": "2816940",
+      "question": "Boston Red Sox vs. New York Mets",
       "category": "General",
-      "endDate": "2026-07-19T15:00:00Z",
-      "yesPrice": 0.64,
+      "endDate": "2026-07-19T17:40:00Z",
+      "yesPrice": 0.045,
       "outcomes": [
         {
-          "id": "2875769-0",
-          "title": "Sinner",
-          "price": 0.64
+          "id": "2816940-0",
+          "title": "Boston Red Sox",
+          "price": 0.045
         },
         {
-          "id": "2875769-1",
-          "title": "Zverev",
-          "price": 0.36
+          "id": "2816940-1",
+          "title": "New York Mets",
+          "price": 0.955
         }
       ],
-      "volume": 264310.02885799983,
-      "liquidity": 61981.7607,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 288170.6984019998,
+      "liquidity": 144840.879,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2069638",
@@ -414,31 +370,9 @@
           "price": 0.435
         }
       ],
-      "volume": 3107651.0603068955,
-      "liquidity": 987563.7911,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "1087890",
-      "question": "Will Jannik Sinner be the 2026 Men’s Wimbledon winner?",
-      "category": "General",
-      "endDate": "2026-07-12T00:00:00Z",
-      "yesPrice": 0.875,
-      "outcomes": [
-        {
-          "id": "1087890-0",
-          "title": "Yes",
-          "price": 0.875
-        },
-        {
-          "id": "1087890-1",
-          "title": "No",
-          "price": 0.125
-        }
-      ],
-      "volume": 1171660.9298560002,
-      "liquidity": 14365.1588,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 3111493.9576768978,
+      "liquidity": 845978.3937,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2879970",
@@ -458,9 +392,9 @@
           "price": 0.715
         }
       ],
-      "volume": 237572.55381799932,
-      "liquidity": 1954076.9606,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 243734.6147359994,
+      "liquidity": 2045590.6007,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2069635",
@@ -480,119 +414,75 @@
           "price": 0.6555
         }
       ],
-      "volume": 3082604.0326669933,
-      "liquidity": 451868.29229,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 3090438.7253389936,
+      "liquidity": 330559.80285,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2816944",
-      "question": "Seattle Mariners vs. Tampa Bay Rays",
+      "id": "2816955",
+      "question": "Los Angeles Angels vs. Minnesota Twins",
       "category": "General",
-      "endDate": "2026-07-19T17:40:00Z",
-      "yesPrice": 0.795,
+      "endDate": "2026-07-19T18:10:00Z",
+      "yesPrice": 0.145,
       "outcomes": [
         {
-          "id": "2816944-0",
-          "title": "Seattle Mariners",
-          "price": 0.795
+          "id": "2816955-0",
+          "title": "Los Angeles Angels",
+          "price": 0.145
         },
         {
-          "id": "2816944-1",
-          "title": "Tampa Bay Rays",
-          "price": 0.205
+          "id": "2816955-1",
+          "title": "Minnesota Twins",
+          "price": 0.855
         }
       ],
-      "volume": 221994.7849140004,
-      "liquidity": 80865.5203,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2816940",
-      "question": "Boston Red Sox vs. New York Mets",
-      "category": "General",
-      "endDate": "2026-07-19T17:40:00Z",
-      "yesPrice": 0.365,
-      "outcomes": [
-        {
-          "id": "2816940-0",
-          "title": "Boston Red Sox",
-          "price": 0.365
-        },
-        {
-          "id": "2816940-1",
-          "title": "New York Mets",
-          "price": 0.635
-        }
-      ],
-      "volume": 215495.65977299988,
-      "liquidity": 215753.3035,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 226592.08558300015,
+      "liquidity": 155650.2547,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2883484",
       "question": "Seattle Mariners vs. Tampa Bay Rays: O/U 7.5",
       "category": "General",
       "endDate": "2026-07-12T17:40:00Z",
-      "yesPrice": 0.67,
+      "yesPrice": 0.73,
       "outcomes": [
         {
           "id": "2883484-0",
           "title": "Over",
-          "price": 0.67
+          "price": 0.73
         },
         {
           "id": "2883484-1",
           "title": "Under",
-          "price": 0.33
+          "price": 0.27
         }
       ],
-      "volume": 211947.41887600007,
-      "liquidity": 50546.8875,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 215829.77436800007,
+      "liquidity": 50774.25147,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2891217",
       "question": "Granby: Nicolas Arseneault vs Andres Martin",
       "category": "General",
       "endDate": "2026-07-20T14:00:00Z",
-      "yesPrice": 0.305,
+      "yesPrice": 0.245,
       "outcomes": [
         {
           "id": "2891217-0",
           "title": "Nicolas Arseneault",
-          "price": 0.305
+          "price": 0.245
         },
         {
           "id": "2891217-1",
           "title": "Andres Martin",
-          "price": 0.695
+          "price": 0.755
         }
       ],
-      "volume": 211733.574688,
-      "liquidity": 12279.1867,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2883469",
-      "question": "Philadelphia Phillies vs. Detroit Tigers: O/U 7.5",
-      "category": "General",
-      "endDate": "2026-07-12T17:40:00Z",
-      "yesPrice": 0.35,
-      "outcomes": [
-        {
-          "id": "2883469-0",
-          "title": "Over",
-          "price": 0.35
-        },
-        {
-          "id": "2883469-1",
-          "title": "Under",
-          "price": 0.65
-        }
-      ],
-      "volume": 202363.57656000007,
-      "liquidity": 66416.5107,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 214651.51877799994,
+      "liquidity": 31751.1027,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2891695",
@@ -612,31 +502,31 @@
           "price": 0.445
         }
       ],
-      "volume": 198640.63484799885,
-      "liquidity": 753932.4884,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 212283.76835299868,
+      "liquidity": 781637.0517,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "1087894",
-      "question": "Will Alexander Zverev be the 2026 Men’s Wimbledon winner?",
+      "id": "2883469",
+      "question": "Philadelphia Phillies vs. Detroit Tigers: O/U 7.5",
       "category": "General",
-      "endDate": "2026-07-12T00:00:00Z",
-      "yesPrice": 0.129,
+      "endDate": "2026-07-12T17:40:00Z",
+      "yesPrice": 0.475,
       "outcomes": [
         {
-          "id": "1087894-0",
-          "title": "Yes",
-          "price": 0.129
+          "id": "2883469-0",
+          "title": "Over",
+          "price": 0.475
         },
         {
-          "id": "1087894-1",
-          "title": "No",
-          "price": 0.871
+          "id": "2883469-1",
+          "title": "Under",
+          "price": 0.525
         }
       ],
-      "volume": 1556491.4800050033,
-      "liquidity": 12476.2671,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 205567.78928000003,
+      "liquidity": 92816.0005,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880035",
@@ -656,119 +546,53 @@
           "price": 0.9525
         }
       ],
-      "volume": 179805.61340800006,
-      "liquidity": 284165.45729,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2832147",
-      "question": "Will Count Binface win the Clacton by-election?",
-      "category": "General",
-      "endDate": "2027-06-30T23:59:00Z",
-      "yesPrice": 0.057,
-      "outcomes": [
-        {
-          "id": "2832147-0",
-          "title": "Yes",
-          "price": 0.057
-        },
-        {
-          "id": "2832147-1",
-          "title": "No",
-          "price": 0.943
-        }
-      ],
-      "volume": 1232348.7586559998,
-      "liquidity": 417496.12811,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2071554",
-      "question": "Will Argentina reach the 2026 FIFA World Cup final?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.455,
-      "outcomes": [
-        {
-          "id": "2071554-0",
-          "title": "Yes",
-          "price": 0.455
-        },
-        {
-          "id": "2071554-1",
-          "title": "No",
-          "price": 0.545
-        }
-      ],
-      "volume": 1144492.5363020005,
-      "liquidity": 615772.0654,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 181965.4033930001,
+      "liquidity": 288361.87736,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2069670",
       "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.041,
+      "yesPrice": 0.046,
       "outcomes": [
         {
           "id": "2069670-0",
           "title": "Yes",
-          "price": 0.041
+          "price": 0.046
         },
         {
           "id": "2069670-1",
           "title": "No",
-          "price": 0.959
+          "price": 0.954
         }
       ],
-      "volume": 2178361.3792689973,
-      "liquidity": 90810.44499,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 2199409.560974997,
+      "liquidity": 99217.64157,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2816955",
-      "question": "Los Angeles Angels vs. Minnesota Twins",
+      "id": "2816916",
+      "question": "Kansas City Royals vs. Baltimore Orioles",
       "category": "General",
-      "endDate": "2026-07-19T18:10:00Z",
-      "yesPrice": 0.465,
+      "endDate": "2026-07-19T17:35:00Z",
+      "yesPrice": 0.105,
       "outcomes": [
         {
-          "id": "2816955-0",
-          "title": "Los Angeles Angels",
-          "price": 0.465
+          "id": "2816916-0",
+          "title": "Kansas City Royals",
+          "price": 0.105
         },
         {
-          "id": "2816955-1",
-          "title": "Minnesota Twins",
-          "price": 0.535
+          "id": "2816916-1",
+          "title": "Baltimore Orioles",
+          "price": 0.895
         }
       ],
-      "volume": 153440.04862700016,
-      "liquidity": 162512.5329,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2507618",
-      "question": "Kharg Island no longer under Iranian control by August 31?",
-      "category": "General",
-      "endDate": "2026-06-30T23:55:00Z",
-      "yesPrice": 0.0435,
-      "outcomes": [
-        {
-          "id": "2507618-0",
-          "title": "Yes",
-          "price": 0.0435
-        },
-        {
-          "id": "2507618-1",
-          "title": "No",
-          "price": 0.9565
-        }
-      ],
-      "volume": 957451.0026290009,
-      "liquidity": 170310.98551,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 167766.86939699997,
+      "liquidity": 100716.1118,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "1654958",
@@ -788,75 +612,163 @@
           "price": 0.205
         }
       ],
-      "volume": 13231609.145520004,
-      "liquidity": 404312.6553,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 13249511.473020002,
+      "liquidity": 478124.7592,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2816934",
-      "question": "Philadelphia Phillies vs. Detroit Tigers",
-      "category": "General",
-      "endDate": "2026-07-19T17:40:00Z",
-      "yesPrice": 0.575,
-      "outcomes": [
-        {
-          "id": "2816934-0",
-          "title": "Philadelphia Phillies",
-          "price": 0.575
-        },
-        {
-          "id": "2816934-1",
-          "title": "Detroit Tigers",
-          "price": 0.425
-        }
-      ],
-      "volume": 145850.8959730001,
-      "liquidity": 112912.6127,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2774056",
-      "question": "Strait of Hormuz traffic returns to normal by August 31?",
-      "category": "General",
-      "endDate": "2026-08-31T00:00:00Z",
-      "yesPrice": 0.165,
-      "outcomes": [
-        {
-          "id": "2774056-0",
-          "title": "Yes",
-          "price": 0.165
-        },
-        {
-          "id": "2774056-1",
-          "title": "No",
-          "price": 0.835
-        }
-      ],
-      "volume": 596099.8631259995,
-      "liquidity": 175968.6173,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2071562",
-      "question": "Will England reach the 2026 FIFA World Cup final?",
+      "id": "2071554",
+      "question": "Will Argentina reach the 2026 FIFA World Cup final?",
       "category": "General",
       "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.545,
+      "yesPrice": 0.455,
       "outcomes": [
         {
-          "id": "2071562-0",
+          "id": "2071554-0",
           "title": "Yes",
-          "price": 0.545
+          "price": 0.455
         },
         {
-          "id": "2071562-1",
+          "id": "2071554-1",
           "title": "No",
-          "price": 0.455
+          "price": 0.545
         }
       ],
-      "volume": 680312.7455129855,
-      "liquidity": 692432.1935,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1145962.783956,
+      "liquidity": 498890.26881,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2883439",
+      "question": "Kansas City Royals vs. Baltimore Orioles: O/U 9.5",
+      "category": "General",
+      "endDate": "2026-07-12T17:35:00Z",
+      "yesPrice": 0.56,
+      "outcomes": [
+        {
+          "id": "2883439-0",
+          "title": "Over",
+          "price": 0.56
+        },
+        {
+          "id": "2883439-1",
+          "title": "Under",
+          "price": 0.44
+        }
+      ],
+      "volume": 158504.755694,
+      "liquidity": 60522.6874,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2816961",
+      "question": "Houston Astros vs. Texas Rangers",
+      "category": "General",
+      "endDate": "2026-07-19T18:35:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "2816961-0",
+          "title": "Houston Astros",
+          "price": 0.175
+        },
+        {
+          "id": "2816961-1",
+          "title": "Texas Rangers",
+          "price": 0.825
+        }
+      ],
+      "volume": 158266.1251959999,
+      "liquidity": 135928.2557,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2816925",
+      "question": "Chicago Cubs vs. Cincinnati Reds",
+      "category": "General",
+      "endDate": "2026-07-19T17:40:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "2816925-0",
+          "title": "Chicago Cubs",
+          "price": 0.745
+        },
+        {
+          "id": "2816925-1",
+          "title": "Cincinnati Reds",
+          "price": 0.255
+        }
+      ],
+      "volume": 155713.19018999994,
+      "liquidity": 131598.5101,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2507618",
+      "question": "Kharg Island no longer under Iranian control by August 31?",
+      "category": "General",
+      "endDate": "2026-06-30T23:55:00Z",
+      "yesPrice": 0.0495,
+      "outcomes": [
+        {
+          "id": "2507618-0",
+          "title": "Yes",
+          "price": 0.0495
+        },
+        {
+          "id": "2507618-1",
+          "title": "No",
+          "price": 0.9505
+        }
+      ],
+      "volume": 967789.1230100009,
+      "liquidity": 171360.85596,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2883514",
+      "question": "Los Angeles Angels vs. Minnesota Twins: O/U 8.5",
+      "category": "General",
+      "endDate": "2026-07-12T18:10:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "2883514-0",
+          "title": "Over",
+          "price": 0.335
+        },
+        {
+          "id": "2883514-1",
+          "title": "Under",
+          "price": 0.665
+        }
+      ],
+      "volume": 147600.015369,
+      "liquidity": 74489.5711,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2832147",
+      "question": "Will Count Binface win the Clacton by-election?",
+      "category": "General",
+      "endDate": "2027-06-30T23:59:00Z",
+      "yesPrice": 0.0565,
+      "outcomes": [
+        {
+          "id": "2832147-0",
+          "title": "Yes",
+          "price": 0.0565
+        },
+        {
+          "id": "2832147-1",
+          "title": "No",
+          "price": 0.9435
+        }
+      ],
+      "volume": 1234165.5045639998,
+      "liquidity": 440637.59676,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880020",
@@ -876,9 +788,53 @@
           "price": 0.845
         }
       ],
-      "volume": 137232.90342699998,
-      "liquidity": 409675.8496,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 138716.88929199992,
+      "liquidity": 420479.4312,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2071562",
+      "question": "Will England reach the 2026 FIFA World Cup final?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "2071562-0",
+          "title": "Yes",
+          "price": 0.545
+        },
+        {
+          "id": "2071562-1",
+          "title": "No",
+          "price": 0.455
+        }
+      ],
+      "volume": 680379.8754669855,
+      "liquidity": 568827.2344,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2774056",
+      "question": "Strait of Hormuz traffic returns to normal by August 31?",
+      "category": "General",
+      "endDate": "2026-08-31T00:00:00Z",
+      "yesPrice": 0.165,
+      "outcomes": [
+        {
+          "id": "2774056-0",
+          "title": "Yes",
+          "price": 0.165
+        },
+        {
+          "id": "2774056-1",
+          "title": "No",
+          "price": 0.835
+        }
+      ],
+      "volume": 596120.2331259995,
+      "liquidity": 175718.2902,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2071550",
@@ -898,53 +854,31 @@
           "price": 0.395
         }
       ],
-      "volume": 1390601.352100993,
-      "liquidity": 935701.0421,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1392813.5438809937,
+      "liquidity": 1162323.625,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2883514",
-      "question": "Los Angeles Angels vs. Minnesota Twins: O/U 8.5",
+      "id": "2884378",
+      "question": "Atlanta Braves vs. St. Louis Cardinals: O/U 8.5",
       "category": "General",
-      "endDate": "2026-07-12T18:10:00Z",
-      "yesPrice": 0.485,
+      "endDate": "2026-07-12T18:15:00Z",
+      "yesPrice": 0.325,
       "outcomes": [
         {
-          "id": "2883514-0",
+          "id": "2884378-0",
           "title": "Over",
-          "price": 0.485
+          "price": 0.325
         },
         {
-          "id": "2883514-1",
+          "id": "2884378-1",
           "title": "Under",
-          "price": 0.515
+          "price": 0.675
         }
       ],
-      "volume": 134601.927156,
-      "liquidity": 108837.4676,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2883439",
-      "question": "Kansas City Royals vs. Baltimore Orioles: O/U 9.5",
-      "category": "General",
-      "endDate": "2026-07-12T17:35:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "2883439-0",
-          "title": "Over",
-          "price": 0.585
-        },
-        {
-          "id": "2883439-1",
-          "title": "Under",
-          "price": 0.415
-        }
-      ],
-      "volume": 131014.27828100005,
-      "liquidity": 80501.5699,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 132574.31843599997,
+      "liquidity": 84050.4267,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880275",
@@ -964,31 +898,9 @@
           "price": 0.805
         }
       ],
-      "volume": 131118.23529200003,
-      "liquidity": 192004.941,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2884378",
-      "question": "Atlanta Braves vs. St. Louis Cardinals: O/U 8.5",
-      "category": "General",
-      "endDate": "2026-07-12T18:15:00Z",
-      "yesPrice": 0.445,
-      "outcomes": [
-        {
-          "id": "2884378-0",
-          "title": "Over",
-          "price": 0.445
-        },
-        {
-          "id": "2884378-1",
-          "title": "Under",
-          "price": 0.555
-        }
-      ],
-      "volume": 128994.95735799999,
-      "liquidity": 15463.3586,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 131929.10516400004,
+      "liquidity": 201530.059,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2880022",
@@ -1008,53 +920,53 @@
           "price": 0.925
         }
       ],
-      "volume": 123321.418132,
-      "liquidity": 387248.44,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 124820.60813200001,
+      "liquidity": 396103.4573,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
-      "id": "2816925",
-      "question": "Chicago Cubs vs. Cincinnati Reds",
+      "id": "2816959",
+      "question": "Atlanta Braves vs. St. Louis Cardinals",
       "category": "General",
-      "endDate": "2026-07-19T17:40:00Z",
-      "yesPrice": 0.755,
+      "endDate": "2026-07-19T18:15:00Z",
+      "yesPrice": 0.645,
       "outcomes": [
         {
-          "id": "2816925-0",
-          "title": "Chicago Cubs",
-          "price": 0.755
+          "id": "2816959-0",
+          "title": "Atlanta Braves",
+          "price": 0.645
         },
         {
-          "id": "2816925-1",
-          "title": "Cincinnati Reds",
-          "price": 0.245
+          "id": "2816959-1",
+          "title": "St. Louis Cardinals",
+          "price": 0.355
         }
       ],
-      "volume": 120011.86978700012,
-      "liquidity": 129298.2847,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 121353.70382100012,
+      "liquidity": 135188.0985,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "908713",
       "question": "Fed rate hike in 2026?",
       "category": "General",
       "endDate": "2026-12-09T00:00:00Z",
-      "yesPrice": 0.605,
+      "yesPrice": 0.595,
       "outcomes": [
         {
           "id": "908713-0",
           "title": "Yes",
-          "price": 0.605
+          "price": 0.595
         },
         {
           "id": "908713-1",
           "title": "No",
-          "price": 0.395
+          "price": 0.405
         }
       ],
-      "volume": 3800390.027969003,
-      "liquidity": 101287.8554,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 3800851.306656003,
+      "liquidity": 105264.7509,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2176270",
@@ -1074,9 +986,9 @@
           "price": 0.375
         }
       ],
-      "volume": 4978518.3109169705,
-      "liquidity": 299462.4417,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 4978836.33393097,
+      "liquidity": 299064.018,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "2633429",
@@ -1096,31 +1008,53 @@
           "price": 0.935
         }
       ],
-      "volume": 1284170.7139860021,
-      "liquidity": 393109.9828,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1285622.8254130022,
+      "liquidity": 409586.0686,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
+    },
+    {
+      "id": "2658294",
+      "question": "Mojtaba Khamenei seen in public by July 15?",
+      "category": "General",
+      "endDate": "2026-07-15T00:00:00Z",
+      "yesPrice": 0.0875,
+      "outcomes": [
+        {
+          "id": "2658294-0",
+          "title": "Yes",
+          "price": 0.0875
+        },
+        {
+          "id": "2658294-1",
+          "title": "No",
+          "price": 0.9125
+        }
+      ],
+      "volume": 1052789.1923960021,
+      "liquidity": 48155.35185,
+      "lastUpdated": "2026-07-12T19:41:54.107Z"
     },
     {
       "id": "677366",
       "question": "Will Russia capture Kostyantynivka by December 31, 2026?",
       "category": "General",
       "endDate": "2026-12-31T12:00:00Z",
-      "yesPrice": 0.9215,
+      "yesPrice": 0.9505,
       "outcomes": [
         {
           "id": "677366-0",
           "title": "Yes",
-          "price": 0.9215
+          "price": 0.9505
         },
         {
           "id": "677366-1",
           "title": "No",
-          "price": 0.0785
+          "price": 0.0495
         }
       ],
-      "volume": 1040553.4280079997,
-      "liquidity": 130659.74052,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1041687.0180079998,
+      "liquidity": 130974.41032,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2880025",
@@ -1140,75 +1074,31 @@
           "price": 0.925
         }
       ],
-      "volume": 108587.19504300007,
-      "liquidity": 448193.8416,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 109442.32004300007,
+      "liquidity": 457762.2911,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
-      "id": "2658294",
-      "question": "Mojtaba Khamenei seen in public by July 15?",
+      "id": "2853044",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
       "category": "General",
-      "endDate": "2026-07-15T00:00:00Z",
-      "yesPrice": 0.0955,
+      "endDate": "2026-07-17T23:59:00Z",
+      "yesPrice": 0.0715,
       "outcomes": [
         {
-          "id": "2658294-0",
+          "id": "2853044-0",
           "title": "Yes",
-          "price": 0.0955
+          "price": 0.0715
         },
         {
-          "id": "2658294-1",
+          "id": "2853044-1",
           "title": "No",
-          "price": 0.9045
+          "price": 0.9285
         }
       ],
-      "volume": 1046797.6929070024,
-      "liquidity": 47627.82974,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2816916",
-      "question": "Kansas City Royals vs. Baltimore Orioles",
-      "category": "General",
-      "endDate": "2026-07-19T17:35:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "2816916-0",
-          "title": "Kansas City Royals",
-          "price": 0.295
-        },
-        {
-          "id": "2816916-1",
-          "title": "Baltimore Orioles",
-          "price": 0.705
-        }
-      ],
-      "volume": 103629.03458699994,
-      "liquidity": 112976.7158,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2643400",
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
-      "category": "General",
-      "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.155,
-      "outcomes": [
-        {
-          "id": "2643400-0",
-          "title": "Yes",
-          "price": 0.155
-        },
-        {
-          "id": "2643400-1",
-          "title": "No",
-          "price": 0.845
-        }
-      ],
-      "volume": 1262820.5073930006,
-      "liquidity": 107609.5348,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 184394.96310999998,
+      "liquidity": 51140.75032,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2879969",
@@ -1228,31 +1118,75 @@
           "price": 0.705
         }
       ],
-      "volume": 102864.87792299934,
-      "liquidity": 2976494.7428,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 105880.71963499929,
+      "liquidity": 3085387.421,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
-      "id": "2853044",
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
+      "id": "2725616",
+      "question": "New York Liberty vs. Toronto Tempo",
       "category": "General",
-      "endDate": "2026-07-17T23:59:00Z",
-      "yesPrice": 0.0735,
+      "endDate": "2026-07-12T19:00:00Z",
+      "yesPrice": 0.665,
       "outcomes": [
         {
-          "id": "2853044-0",
-          "title": "Yes",
-          "price": 0.0735
+          "id": "2725616-0",
+          "title": "New York Liberty",
+          "price": 0.665
         },
         {
-          "id": "2853044-1",
-          "title": "No",
-          "price": 0.9265
+          "id": "2725616-1",
+          "title": "Toronto Tempo",
+          "price": 0.335
         }
       ],
-      "volume": 178917.26464999997,
-      "liquidity": 56567.7666,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 99719.97916099991,
+      "liquidity": 103460.599,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2643400",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
+      "category": "General",
+      "endDate": "2026-07-31T23:59:00Z",
+      "yesPrice": 0.155,
+      "outcomes": [
+        {
+          "id": "2643400-0",
+          "title": "Yes",
+          "price": 0.155
+        },
+        {
+          "id": "2643400-1",
+          "title": "No",
+          "price": 0.845
+        }
+      ],
+      "volume": 1263247.7632670004,
+      "liquidity": 117008.3911,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2677864",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $80 in July?",
+      "category": "General",
+      "endDate": "2026-08-01T03:59:59.999Z",
+      "yesPrice": 0.47,
+      "outcomes": [
+        {
+          "id": "2677864-0",
+          "title": "Yes",
+          "price": 0.47
+        },
+        {
+          "id": "2677864-1",
+          "title": "No",
+          "price": 0.53
+        }
+      ],
+      "volume": 438085.1120389995,
+      "liquidity": 23175.1734,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2880017",
@@ -1272,31 +1206,9 @@
           "price": 0.905
         }
       ],
-      "volume": 92791.16718599996,
-      "liquidity": 403698.8559,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
-    },
-    {
-      "id": "2677864",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $80 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T03:59:59.999Z",
-      "yesPrice": 0.46,
-      "outcomes": [
-        {
-          "id": "2677864-0",
-          "title": "Yes",
-          "price": 0.46
-        },
-        {
-          "id": "2677864-1",
-          "title": "No",
-          "price": 0.54
-        }
-      ],
-      "volume": 434395.6328959995,
-      "liquidity": 28060.3889,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 96120.70476299996,
+      "liquidity": 409833.9696,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "1654959",
@@ -1316,31 +1228,31 @@
           "price": 0.802
         }
       ],
-      "volume": 11721852.074499138,
-      "liquidity": 454885.94564,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 11722211.844499137,
+      "liquidity": 374753.66454,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2555350",
       "question": "Israel closes its airspace by July 15?",
       "category": "General",
       "endDate": "2026-07-15T00:00:00Z",
-      "yesPrice": 0.0425,
+      "yesPrice": 0.0435,
       "outcomes": [
         {
           "id": "2555350-0",
           "title": "Yes",
-          "price": 0.0425
+          "price": 0.0435
         },
         {
           "id": "2555350-1",
           "title": "No",
-          "price": 0.9575
+          "price": 0.9565
         }
       ],
-      "volume": 1344859.1317479962,
-      "liquidity": 83470.11021,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 1345796.1126339962,
+      "liquidity": 103745.85244,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2891665",
@@ -1360,9 +1272,9 @@
           "price": 0.585
         }
       ],
-      "volume": 85388.52734899998,
-      "liquidity": 310028.6814,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 85460.88797,
+      "liquidity": 284200.0452,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "567621",
@@ -1382,54 +1294,164 @@
           "price": 0.9615
         }
       ],
-      "volume": 38370041.81342694,
-      "liquidity": 826565.96059,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 38370381.23605196,
+      "liquidity": 843102.5239,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2791006",
+      "question": "Will Elon Musk post 160-179 tweets from July 7 to July 14, 2026?",
+      "category": "General",
+      "endDate": "2026-07-14T16:00:00Z",
+      "yesPrice": 0.0315,
+      "outcomes": [
+        {
+          "id": "2791006-0",
+          "title": "Yes",
+          "price": 0.0315
+        },
+        {
+          "id": "2791006-1",
+          "title": "No",
+          "price": 0.9685
+        }
+      ],
+      "volume": 213754.5741769998,
+      "liquidity": 37525.87661,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2888397",
+      "question": "Houston Astros vs. Texas Rangers: O/U 8.5",
+      "category": "General",
+      "endDate": "2026-07-12T18:35:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "2888397-0",
+          "title": "Over",
+          "price": 0.515
+        },
+        {
+          "id": "2888397-1",
+          "title": "Under",
+          "price": 0.485
+        }
+      ],
+      "volume": 75727.39821899984,
+      "liquidity": 95667.2101,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
       "id": "2677863",
       "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?",
       "category": "General",
       "endDate": "2026-08-01T03:59:59.999Z",
-      "yesPrice": 0.128,
+      "yesPrice": 0.1275,
       "outcomes": [
         {
           "id": "2677863-0",
           "title": "Yes",
-          "price": 0.128
+          "price": 0.1275
         },
         {
           "id": "2677863-1",
           "title": "No",
-          "price": 0.872
+          "price": 0.8725
         }
       ],
-      "volume": 300008.3989360002,
-      "liquidity": 61915.78113,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 300122.2166860002,
+      "liquidity": 58143.13975,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     },
     {
-      "id": "2816959",
-      "question": "Atlanta Braves vs. St. Louis Cardinals",
+      "id": "2816965",
+      "question": "Arizona Diamondbacks vs. Los Angeles Dodgers",
       "category": "General",
-      "endDate": "2026-07-19T18:15:00Z",
-      "yesPrice": 0.445,
+      "endDate": "2026-07-19T20:10:00Z",
+      "yesPrice": 0.335,
       "outcomes": [
         {
-          "id": "2816959-0",
-          "title": "Atlanta Braves",
-          "price": 0.445
+          "id": "2816965-0",
+          "title": "Arizona Diamondbacks",
+          "price": 0.335
         },
         {
-          "id": "2816959-1",
-          "title": "St. Louis Cardinals",
-          "price": 0.555
+          "id": "2816965-1",
+          "title": "Los Angeles Dodgers",
+          "price": 0.665
         }
       ],
-      "volume": 76004.78466799998,
-      "liquidity": 41535.585,
-      "lastUpdated": "2026-07-12T18:29:59.955Z"
+      "volume": 78502.44125199998,
+      "liquidity": 596480.2095,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2891176",
+      "question": "Newport: Jacob Fearnley vs Adam Walton",
+      "category": "General",
+      "endDate": "2026-07-19T18:00:00Z",
+      "yesPrice": 0.295,
+      "outcomes": [
+        {
+          "id": "2891176-0",
+          "title": "Jacob Fearnley",
+          "price": 0.295
+        },
+        {
+          "id": "2891176-1",
+          "title": "Adam Walton",
+          "price": 0.705
+        }
+      ],
+      "volume": 73067.80068999997,
+      "liquidity": 207366.4228,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2883544",
+      "question": "Colorado Rockies vs. San Francisco Giants: O/U 8.5",
+      "category": "General",
+      "endDate": "2026-07-12T20:05:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "2883544-0",
+          "title": "Over",
+          "price": 0.595
+        },
+        {
+          "id": "2883544-1",
+          "title": "Under",
+          "price": 0.405
+        }
+      ],
+      "volume": 70982.02466300002,
+      "liquidity": 150357.3801,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
+    },
+    {
+      "id": "2880032",
+      "question": "Exact Score: France 2 - 2 Spain?",
+      "category": "General",
+      "endDate": "2026-07-14T19:00:00Z",
+      "yesPrice": 0.065,
+      "outcomes": [
+        {
+          "id": "2880032-0",
+          "title": "Yes",
+          "price": 0.065
+        },
+        {
+          "id": "2880032-1",
+          "title": "No",
+          "price": 0.935
+        }
+      ],
+      "volume": 80780.47917200002,
+      "liquidity": 433382.8317,
+      "lastUpdated": "2026-07-12T19:41:54.108Z"
     }
   ],
-  "lastUpdated": "2026-07-12T18:30:08.573Z"
+  "lastUpdated": "2026-07-12T19:42:02.811Z"
 }
