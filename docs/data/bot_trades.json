@@ -1,6 +1,6 @@
 {
-  "cash": 21.679224331680885,
-  "totalValue": 257.8250915510938,
+  "cash": 1.7411119025937296,
+  "totalValue": 257.62139183330123,
   "positions": [
     {
       "marketId": "558935",
@@ -35,53 +35,23 @@
       "costBasis": 20
     },
     {
-      "marketId": "2874930",
-      "question": "Iran commits not to attack ships in Hormuz by Sunday?",
-      "outcome": "No",
-      "shares": 20.629190304280556,
-      "avgCost": 0.9695,
-      "costBasis": 20
-    },
-    {
       "marketId": "2034729",
       "question": "Will the US confirm that aliens exist by September 30?",
       "outcome": "No",
-      "shares": 20.77922077922078,
-      "avgCost": 0.9625,
+      "shares": 41.53687516427527,
+      "avgCost": 0.9629997403946001,
+      "costBasis": 40
+    },
+    {
+      "marketId": "2555350",
+      "question": "Israel closes its airspace by July 15?",
+      "outcome": "No",
+      "shares": 20.79002079002079,
+      "avgCost": 0.962,
       "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-05-30T23:44:51.684Z",
-      "action": "SELL",
-      "marketId": "2111640",
-      "question": "US-Iran nuclear deal by May 31?",
-      "outcome": "No",
-      "proceeds": 73.10198226924003,
-      "price": 0.979,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
-    },
-    {
-      "ts": "2026-05-30T23:44:51.684Z",
-      "action": "BUY",
-      "marketId": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.8995,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
-    },
-    {
-      "ts": "2026-05-30T23:44:51.684Z",
-      "action": "BUY",
-      "marketId": "2340843",
-      "question": "US announces new Iran agreement/ceasefire extension by May 31?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.925,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
-    },
     {
       "ts": "2026-05-31T15:03:42.460Z",
       "action": "SELL",
@@ -2051,8 +2021,38 @@
       "amount": 20,
       "price": 0.9625,
       "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T09:18:46.823Z",
+      "action": "SELL",
+      "marketId": "2874930",
+      "question": "Iran commits not to attack ships in Hormuz by Sunday?",
+      "outcome": "No",
+      "proceeds": 20.06188757091284,
+      "price": 0.9725,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T09:18:46.824Z",
+      "action": "BUY",
+      "marketId": "2555350",
+      "question": "Israel closes its airspace by July 15?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.962,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-12T09:18:46.824Z",
+      "action": "BUY",
+      "marketId": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9635,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-12T07:09:52.195Z",
-  "lastReasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY NO longshot trades with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-12T09:18:46.824Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
 }
