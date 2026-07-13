@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 258.0318768019705,
+  "cash": 13.610415430126608,
+  "totalValue": 258.4370380074755,
   "positions": [
     {
       "marketId": "558935",
@@ -19,63 +19,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2069670",
-      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 20.714655618850337,
-      "avgCost": 0.9655,
-      "costBasis": 20
+      "marketId": "2885098",
+      "question": "Swedish Open: Jesper de Jong vs Vilius Gaubas",
+      "outcome": "Yes",
+      "shares": 72.72727272727273,
+      "avgCost": 0.825,
+      "costBasis": 60
     },
     {
-      "marketId": "2069639",
-      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 117.3412735220728,
-      "avgCost": 0.9675280005640273,
-      "costBasis": 113.53096775444773
+      "shares": 62.27296315516347,
+      "avgCost": 0.9635,
+      "costBasis": 60
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-14T23:19:43.111Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9495,
-      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
-    },
-    {
-      "ts": "2026-06-15T01:42:23.781Z",
-      "action": "SELL",
-      "marketId": "2508397",
-      "question": "US announces new Iran agreement/ceasefire extension by June 13?",
-      "outcome": "No",
-      "proceeds": 50.8051948051948,
-      "price": 0.978,
-      "reasoning": "Sold a resolved position and initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-15T01:42:23.781Z",
-      "action": "BUY",
-      "marketId": "558941",
-      "question": "Will Netherlands win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9495,
-      "reasoning": "Sold a resolved position and initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-15T01:42:23.781Z",
-      "action": "BUY",
-      "marketId": "2241674",
-      "question": "Israel closes its airspace by June 30?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.945,
-      "reasoning": "Sold a resolved position and initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-06-15T13:23:27.349Z",
       "action": "BUY",
@@ -2035,8 +1995,48 @@
       "amount": 36.70691056560622,
       "price": 0.9655,
       "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying two new 'No' longshot positions with positive edge."
+    },
+    {
+      "ts": "2026-07-13T16:08:44.821Z",
+      "action": "SELL",
+      "marketId": "2069670",
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 19.730709476954946,
+      "price": 0.9525,
+      "reasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
+    },
+    {
+      "ts": "2026-07-13T16:08:44.821Z",
+      "action": "SELL",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 113.87970595317165,
+      "price": 0.9705,
+      "reasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
+    },
+    {
+      "ts": "2026-07-13T16:08:44.821Z",
+      "action": "BUY",
+      "marketId": "2885098",
+      "question": "Swedish Open: Jesper de Jong vs Vilius Gaubas",
+      "outcome": "Yes",
+      "amount": 60,
+      "price": 0.825,
+      "reasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
+    },
+    {
+      "ts": "2026-07-13T16:08:44.821Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 60,
+      "price": 0.9635,
+      "reasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
     }
   ],
-  "lastUpdated": "2026-07-13T13:40:20.666Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, as per the core strategy and signal key."
+  "lastUpdated": "2026-07-13T16:08:44.821Z",
+  "lastReasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
 }
