@@ -1,6 +1,6 @@
 {
-  "cash": 13.610415430126608,
-  "totalValue": 258.4370380074755,
+  "cash": 0,
+  "totalValue": 271.1920557898397,
   "positions": [
     {
       "marketId": "558935",
@@ -19,53 +19,23 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2885098",
-      "question": "Swedish Open: Jesper de Jong vs Vilius Gaubas",
-      "outcome": "Yes",
-      "shares": 72.72727272727273,
-      "avgCost": 0.825,
-      "costBasis": 60
-    },
-    {
       "marketId": "2176262",
       "question": "Strait of Hormuz traffic returns to normal by July 31?",
       "outcome": "No",
-      "shares": 62.27296315516347,
-      "avgCost": 0.9635,
-      "costBasis": 60
+      "shares": 114.0060205788572,
+      "avgCost": 0.9648613243536005,
+      "costBasis": 110
+    },
+    {
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 37.59719416182032,
+      "avgCost": 0.9665,
+      "costBasis": 36.33768815739934
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-15T13:23:27.349Z",
-      "action": "BUY",
-      "marketId": "2471081",
-      "question": "Will the price of Bitcoin be above $68,000 on June 15?",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.963,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
-    },
-    {
-      "ts": "2026-06-15T13:23:27.349Z",
-      "action": "BUY",
-      "marketId": "2354011",
-      "question": "Israel x Hezbollah permanent peace deal by June 15, 2026?",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.9355,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Bitcoin price and Israel-Hezbollah peace deal, while respecting the maximum trade limit and cash constraints."
-    },
-    {
-      "ts": "2026-06-15T21:25:52.640Z",
-      "action": "SELL",
-      "marketId": "2241674",
-      "question": "Israel closes its airspace by June 30?",
-      "outcome": "No",
-      "proceeds": 100,
-      "price": 0.945,
-      "reasoning": "Sold resolved and dropped positions to reclaim cash. Identified new BUY_NO_LONGSHOT opportunities with positive edge, avoiding markets where I already hold a losing position."
-    },
     {
       "ts": "2026-06-15T21:25:52.640Z",
       "action": "SELL",
@@ -2035,8 +2005,38 @@
       "amount": 60,
       "price": 0.9635,
       "reasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
+    },
+    {
+      "ts": "2026-07-13T18:11:44.446Z",
+      "action": "SELL",
+      "marketId": "2885098",
+      "question": "Swedish Open: Jesper de Jong vs Vilius Gaubas",
+      "outcome": "Yes",
+      "proceeds": 72.72727272727273,
+      "price": 1,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T18:11:44.446Z",
+      "action": "BUY",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9665,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with the highest positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T18:11:44.446Z",
+      "action": "BUY",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 36.33768815739934,
+      "price": 0.9665,
+      "reasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with the highest positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-13T16:08:44.821Z",
-  "lastReasoning": "Sold existing positions in dropped markets to free up cash. Then, bought into new markets exhibiting the favourite-longshot bias with positive edge, specifically buying 'No' for longshots and 'Yes' for favourites."
+  "lastUpdated": "2026-07-13T18:11:44.446Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and opened two new BUY_NO_LONGSHOT positions with the highest positive edge to exploit the favourite-longshot bias."
 }
