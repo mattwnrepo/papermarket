@@ -1,6 +1,6 @@
 {
-  "cash": 36.272032899315406,
-  "totalValue": 270.8898226531331,
+  "cash": 0,
+  "totalValue": 271.25576877801393,
   "positions": [
     {
       "marketId": "558935",
@@ -19,14 +19,6 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "shares": 11.123938978655406,
-      "avgCost": 0.967,
-      "costBasis": 10.756848992359778
-    },
-    {
       "marketId": "2555350",
       "question": "Israel closes its airspace by July 15?",
       "outcome": "No",
@@ -41,39 +33,25 @@
       "shares": 52.27391531625719,
       "avgCost": 0.9565,
       "costBasis": 50
+    },
+    {
+      "marketId": "1235552",
+      "question": "Will the Cleveland Guardians win the 2026 World Series?",
+      "outcome": "No",
+      "shares": 25.77319587628866,
+      "avgCost": 0.97,
+      "costBasis": 25
+    },
+    {
+      "marketId": "2737255",
+      "question": "Will the Iranian regime fall by September 30?",
+      "outcome": "No",
+      "shares": 22.810857484944055,
+      "avgCost": 0.9645,
+      "costBasis": 22.001072044228543
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-16T07:36:55.403Z",
-      "action": "SELL",
-      "marketId": "2326687",
-      "question": "Spread: Uruguay (-1.5)",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought two new 'No' longshot positions with the highest positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-27T11:57:13.390Z",
-      "action": "SELL",
-      "marketId": "558938",
-      "question": "Will Argentina win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 44.4899072558647,
-      "price": 0.8155,
-      "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
-    },
-    {
-      "ts": "2026-06-27T11:57:13.390Z",
-      "action": "BUY",
-      "marketId": "1971905",
-      "question": "Strait of Hormuz traffic returns to normal by end of June?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.961,
-      "reasoning": "Sold a position that no longer had a strong bias signal and bought into new strong longshot bias opportunities with positive edge."
-    },
     {
       "ts": "2026-06-27T11:57:13.390Z",
       "action": "BUY",
@@ -2043,8 +2021,38 @@
       "amount": 50,
       "price": 0.9565,
       "reasoning": "Selling a resolved position to reclaim cash and buying into two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T22:39:49.304Z",
+      "action": "SELL",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "proceeds": 10.72903914491314,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T22:39:49.304Z",
+      "action": "BUY",
+      "marketId": "1235552",
+      "question": "Will the Cleveland Guardians win the 2026 World Series?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.97,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T22:39:49.304Z",
+      "action": "BUY",
+      "marketId": "2737255",
+      "question": "Will the Iranian regime fall by September 30?",
+      "outcome": "No",
+      "amount": 22.001072044228543,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-13T21:37:48.145Z",
-  "lastReasoning": "Selling a resolved position to reclaim cash and buying into two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-13T22:39:49.305Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' positions with positive edge, exploiting the favourite-longshot bias."
 }
