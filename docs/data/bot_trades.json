@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 257.33692652481017,
+  "cash": 1.4351714351714406,
+  "totalValue": 257.9104858044367,
   "positions": [
     {
       "marketId": "558935",
@@ -19,14 +19,6 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2176262",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "outcome": "No",
-      "shares": 52.91005291005291,
-      "avgCost": 0.945,
-      "costBasis": 50
-    },
-    {
       "marketId": "2069670",
       "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
@@ -35,63 +27,23 @@
       "costBasis": 20
     },
     {
-      "marketId": "2555350",
-      "question": "Israel closes its airspace by July 15?",
-      "outcome": "No",
-      "shares": 20.79002079002079,
-      "avgCost": 0.962,
-      "costBasis": 20
-    },
-    {
       "marketId": "2069639",
       "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 43.184364676139914,
-      "avgCost": 0.9685,
-      "costBasis": 41.82405718884151
+      "shares": 79.32272296214921,
+      "avgCost": 0.9684999999999999,
+      "costBasis": 76.82405718884151
+    },
+    {
+      "marketId": "2658294",
+      "question": "Mojtaba Khamenei seen in public by July 15?",
+      "outcome": "No",
+      "shares": 36.231884057971016,
+      "avgCost": 0.966,
+      "costBasis": 35
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-14T21:53:34.810Z",
-      "action": "SELL",
-      "marketId": "1708086",
-      "question": "Kharg Island no longer under Iranian control by June 30?",
-      "outcome": "No",
-      "proceeds": 70.25270758122744,
-      "price": 0.973,
-      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-14T21:53:34.810Z",
-      "action": "BUY",
-      "marketId": "2481461",
-      "question": "Will Iran close its airspace by June 15?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9565,
-      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-14T21:53:34.810Z",
-      "action": "BUY",
-      "marketId": "2481460",
-      "question": "Will Iran close its airspace by June 14?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9555,
-      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' and bought into new 'BUY_NO_LONGSHOT' positions with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-06-14T23:19:43.111Z",
-      "action": "SELL",
-      "marketId": "2481461",
-      "question": "Will Iran close its airspace by June 15?",
-      "outcome": "No",
-      "proceeds": 51.411395713538944,
-      "price": 0.9835,
-      "reasoning": "Sold existing positions that were marked for 'SELL_ONLY' to reclaim cash. Initiated new 'BUY_YES_FAVOURITE' and 'BUY_NO_LONGSHOT' trades with positive edge, diversifying across different markets."
-    },
     {
       "ts": "2026-06-14T23:19:43.111Z",
       "action": "SELL",
@@ -2051,8 +2003,48 @@
       "amount": 41.82405718884151,
       "price": 0.9685,
       "reasoning": "Sold a dropped position to free up cash, then initiated new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-13T04:49:44.158Z",
+      "action": "SELL",
+      "marketId": "2176262",
+      "question": "Strait of Hormuz traffic returns to normal by July 31?",
+      "outcome": "No",
+      "proceeds": 51.50793650793651,
+      "price": 0.9735,
+      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-13T04:49:44.158Z",
+      "action": "SELL",
+      "marketId": "2555350",
+      "question": "Israel closes its airspace by July 15?",
+      "outcome": "No",
+      "proceeds": 19.927234927234927,
+      "price": 0.9585,
+      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-13T04:49:44.158Z",
+      "action": "BUY",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 35,
+      "price": 0.9685,
+      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-13T04:49:44.158Z",
+      "action": "BUY",
+      "marketId": "2658294",
+      "question": "Mojtaba Khamenei seen in public by July 15?",
+      "outcome": "No",
+      "amount": 35,
+      "price": 0.966,
+      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-13T01:07:48.387Z",
-  "lastReasoning": "Sold a dropped position to free up cash, then initiated new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-13T04:49:44.158Z",
+  "lastReasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
 }
