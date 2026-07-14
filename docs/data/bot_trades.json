@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 243.7394034222595,
+  "totalValue": 250.81627451747033,
   "positions": [
     {
       "marketId": "558935",
@@ -19,63 +19,23 @@
       "costBasis": 20
     },
     {
-      "marketId": "2880031",
-      "question": "Exact Score: France 1 - 3 Spain?",
+      "marketId": "2891239",
+      "question": "Exact Score: England 3 - 1 Argentina?",
       "outcome": "No",
-      "shares": 20.629190304280556,
-      "avgCost": 0.9695,
-      "costBasis": 20
+      "shares": 103.57327809425168,
+      "avgCost": 0.9655,
+      "costBasis": 100
     },
     {
-      "marketId": "558936",
-      "question": "Will France win the 2026 FIFA World Cup?",
+      "marketId": "2431010",
+      "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 91.83623564311914,
-      "avgCost": 0.9665,
-      "costBasis": 88.75972174907464
+      "shares": 12.869956300080972,
+      "avgCost": 0.965,
+      "costBasis": 12.419507829578137
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-01T00:16:45.997Z",
-      "action": "BUY",
-      "marketId": "2410575",
-      "question": "Will Bitcoin dip to $57,500 in June?",
-      "outcome": "No",
-      "amount": 6.142284109344729,
-      "price": 0.952,
-      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshot markets with positive edge and buying 'Yes' on favourite markets with positive edge, while adhering to cash limits and avoiding averaging down."
-    },
-    {
-      "ts": "2026-07-01T04:56:01.754Z",
-      "action": "SELL",
-      "marketId": "2410575",
-      "question": "Will Bitcoin dip to $57,500 in June?",
-      "outcome": "No",
-      "proceeds": 6.448753116901321,
-      "price": 0.9995,
-      "reasoning": "Sold a highly profitable resolved position to reclaim cash, but did not have sufficient funds to initiate new trades within the specified range."
-    },
-    {
-      "ts": "2026-07-01T08:53:11.173Z",
-      "action": "SELL",
-      "marketId": "558963",
-      "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 162.21500064292144,
-      "price": 0.9785,
-      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
-    },
-    {
-      "ts": "2026-07-01T08:53:11.173Z",
-      "action": "SELL",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 25.154718927282104,
-      "price": 0.9755,
-      "reasoning": "Sold dropped positions to reclaim cash and then bought into the top two BUY_NO_LONGSHOT signals with positive edge, respecting the cash limits."
-    },
     {
       "ts": "2026-07-01T08:53:11.173Z",
       "action": "BUY",
@@ -2035,8 +1995,48 @@
       "amount": 88.75972174907464,
       "price": 0.9665,
       "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-14T21:40:53.099Z",
+      "action": "SELL",
+      "marketId": "2880031",
+      "question": "Exact Score: France 1 - 3 Spain?",
+      "outcome": "No",
+      "proceeds": 20.629190304280556,
+      "price": 1,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then bought two strong BUY_NO_LONGSHOT signals with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T21:40:53.099Z",
+      "action": "SELL",
+      "marketId": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 91.79031752529758,
+      "price": 0.9995,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then bought two strong BUY_NO_LONGSHOT signals with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T21:40:53.099Z",
+      "action": "BUY",
+      "marketId": "2891239",
+      "question": "Exact Score: England 3 - 1 Argentina?",
+      "outcome": "No",
+      "amount": 100,
+      "price": 0.9655,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then bought two strong BUY_NO_LONGSHOT signals with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T21:40:53.099Z",
+      "action": "BUY",
+      "marketId": "2431010",
+      "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 12.419507829578137,
+      "price": 0.965,
+      "reasoning": "Sold resolved and dropped positions to reclaim cash, then bought two strong BUY_NO_LONGSHOT signals with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-14T20:44:43.742Z",
-  "lastReasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
+  "lastUpdated": "2026-07-14T21:40:53.099Z",
+  "lastReasoning": "Sold resolved and dropped positions to reclaim cash, then bought two strong BUY_NO_LONGSHOT signals with positive edge to exploit the favourite-longshot bias."
 }
