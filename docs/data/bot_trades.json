@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 273.3358162934954,
+  "cash": 16.884707728315718,
+  "totalValue": 273.58062935847755,
   "positions": [
     {
       "marketId": "558935",
@@ -19,14 +19,6 @@
       "costBasis": 4.9494937550181595
     },
     {
-      "marketId": "2555350",
-      "question": "Israel closes its airspace by July 15?",
-      "outcome": "No",
-      "shares": 52.27391531625719,
-      "avgCost": 0.9565,
-      "costBasis": 50
-    },
-    {
       "marketId": "2880019",
       "question": "Exact Score: France 0 - 2 Spain?",
       "outcome": "No",
@@ -43,55 +35,23 @@
       "costBasis": 22.001072044228543
     },
     {
-      "marketId": "2871626",
-      "question": "Will Munetaka Murakami win the 2026 MLB Home Run Derby?",
+      "marketId": "2686769",
+      "question": "Iran full airspace closure by July 15?",
       "outcome": "No",
-      "shares": 25.813092464332453,
-      "avgCost": 0.969,
-      "costBasis": 25.012886597938145
+      "shares": 31.16883116883117,
+      "avgCost": 0.9625,
+      "costBasis": 30
+    },
+    {
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "shares": 30.943785456420834,
+      "avgCost": 0.9695,
+      "costBasis": 30
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-27T16:35:04.697Z",
-      "action": "BUY",
-      "marketId": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.9605,
-      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
-    },
-    {
-      "ts": "2026-06-27T16:35:04.697Z",
-      "action": "BUY",
-      "marketId": "1897440",
-      "question": "Will Jordan win on 2026-06-27?",
-      "outcome": "No",
-      "amount": 4.729241282919851,
-      "price": 0.9555,
-      "reasoning": "Sold a resolved position to reclaim cash and placed two new BUY trades on markets exhibiting the favourite-longshot bias with the highest positive edge."
-    },
-    {
-      "ts": "2026-06-28T06:34:25.561Z",
-      "action": "SELL",
-      "marketId": "1897440",
-      "question": "Will Jordan win on 2026-06-27?",
-      "outcome": "No",
-      "proceeds": 4.9494937550181595,
-      "price": 1,
-      "reasoning": "Sold a resolved position to reclaim cash, but the amount was insufficient to make new trades within the specified $20-$100 range."
-    },
-    {
-      "ts": "2026-06-28T09:44:23.225Z",
-      "action": "BUY",
-      "marketId": "558934",
-      "question": "Will Spain win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 4.9494937550181595,
-      "price": 0.8945,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, specifically for Spain winning the 2026 FIFA World Cup and the US confirming aliens exist before 2027."
-    },
     {
       "ts": "2026-06-30T01:27:08.849Z",
       "action": "SELL",
@@ -2051,8 +2011,48 @@
       "amount": 25.012886597938145,
       "price": 0.969,
       "reasoning": "Sold a resolved position to free up cash, then bought two 'No' outcomes on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T06:28:06.774Z",
+      "action": "SELL",
+      "marketId": "2555350",
+      "question": "Israel closes its airspace by July 15?",
+      "outcome": "No",
+      "proceeds": 51.07161526398327,
+      "price": 0.977,
+      "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T06:28:06.774Z",
+      "action": "SELL",
+      "marketId": "2871626",
+      "question": "Will Munetaka Murakami win the 2026 MLB Home Run Derby?",
+      "outcome": "No",
+      "proceeds": 25.813092464332453,
+      "price": 1,
+      "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T06:28:06.775Z",
+      "action": "BUY",
+      "marketId": "2686769",
+      "question": "Iran full airspace closure by July 15?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.9625,
+      "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T06:28:06.775Z",
+      "action": "BUY",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "amount": 30,
+      "price": 0.9695,
+      "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-14T04:12:25.098Z",
-  "lastReasoning": "Sold a resolved position to free up cash, then bought two 'No' outcomes on longshot markets with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-14T06:28:06.775Z",
+  "lastReasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
 }
