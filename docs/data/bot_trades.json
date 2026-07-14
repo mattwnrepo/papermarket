@@ -1,6 +1,6 @@
 {
-  "cash": 16.884707728315718,
-  "totalValue": 273.58062935847755,
+  "cash": 7.132258011967082,
+  "totalValue": 273.8568626765341,
   "positions": [
     {
       "marketId": "558935",
@@ -43,45 +43,23 @@
       "costBasis": 30
     },
     {
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 30.943785456420834,
-      "avgCost": 0.9695,
-      "costBasis": 30
+      "shares": 20.70393374741201,
+      "avgCost": 0.966,
+      "costBasis": 20
+    },
+    {
+      "marketId": "2891239",
+      "question": "Exact Score: England 3 - 1 Argentina?",
+      "outcome": "No",
+      "shares": 20.714655618850337,
+      "avgCost": 0.9655,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-30T01:27:08.849Z",
-      "action": "SELL",
-      "marketId": "558939",
-      "question": "Will Germany win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 126.18898795517293,
-      "price": 0.9995,
-      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
-    },
-    {
-      "ts": "2026-06-30T01:27:08.849Z",
-      "action": "BUY",
-      "marketId": "2706370",
-      "question": "Spread: Morocco (-2.5)",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.03,
-      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
-    },
-    {
-      "ts": "2026-06-30T01:27:08.849Z",
-      "action": "BUY",
-      "marketId": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9495,
-      "reasoning": "Sold a highly profitable dropped position to free up cash, then initiated two new trades exploiting the favourite-longshot bias on high-edge BUY_NO_LONGSHOT signals."
-    },
     {
       "ts": "2026-06-30T05:49:46.020Z",
       "action": "SELL",
@@ -2051,8 +2029,38 @@
       "amount": 30,
       "price": 0.9695,
       "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T08:38:14.353Z",
+      "action": "SELL",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "proceeds": 30.247550283651368,
+      "price": 0.9775,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought 'No' on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T08:38:14.354Z",
+      "action": "BUY",
+      "marketId": "2069639",
+      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.966,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought 'No' on longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T08:38:14.354Z",
+      "action": "BUY",
+      "marketId": "2891239",
+      "question": "Exact Score: England 3 - 1 Argentina?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9655,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought 'No' on longshot markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-14T06:28:06.775Z",
-  "lastReasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-14T08:38:14.354Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought 'No' on longshot markets with positive edge, exploiting the favourite-longshot bias."
 }
