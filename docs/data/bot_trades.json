@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 260.1474544401849,
+  "totalValue": 243.7394034222595,
   "positions": [
     {
       "marketId": "558935",
@@ -9,14 +9,6 @@
       "shares": 153.5405825517483,
       "avgCost": 0.9118110513408749,
       "costBasis": 140
-    },
-    {
-      "marketId": "2880019",
-      "question": "Exact Score: France 0 - 2 Spain?",
-      "outcome": "No",
-      "shares": 52.27391531625719,
-      "avgCost": 0.9565,
-      "costBasis": 50
     },
     {
       "marketId": "1654959",
@@ -35,63 +27,15 @@
       "costBasis": 20
     },
     {
-      "marketId": "2431010",
-      "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
+      "marketId": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
       "outcome": "No",
-      "shares": 51.54639175257732,
-      "avgCost": 0.97,
-      "costBasis": 50
-    },
-    {
-      "marketId": "2880039",
-      "question": "Exact Score: France 3 - 2 Spain?",
-      "outcome": "No",
-      "shares": 6.553034161982784,
-      "avgCost": 0.97,
-      "costBasis": 6.3564431371233
+      "shares": 91.83623564311914,
+      "avgCost": 0.9665,
+      "costBasis": 88.75972174907464
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-30T20:21:35.841Z",
-      "action": "SELL",
-      "marketId": "2702189",
-      "question": "Wimbledon ATP: Tallon Griekspoor vs James Duckworth",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-06-30T20:21:35.841Z",
-      "action": "SELL",
-      "marketId": "2707704",
-      "question": "Exact Score: Côte d'Ivoire 1 - 3 Norway?",
-      "outcome": "No",
-      "proceeds": 26.55337227827934,
-      "price": 1,
-      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-06-30T20:21:35.841Z",
-      "action": "BUY",
-      "marketId": "2702245",
-      "question": "Wimbledon ATP: Frances Tiafoe vs Terence Atmane",
-      "outcome": "Yes",
-      "amount": 25,
-      "price": 0.8445,
-      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-06-30T20:21:35.841Z",
-      "action": "BUY",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9695,
-      "reasoning": "Sold resolved positions to reclaim cash and opened new positions exploiting the favourite-longshot bias with positive edge."
-    },
     {
       "ts": "2026-07-01T00:16:45.997Z",
       "action": "BUY",
@@ -2051,8 +1995,48 @@
       "amount": 6.3564431371233,
       "price": 0.97,
       "reasoning": "Sold stop-loss and dropped positions to reclaim cash, then bought new favourite and longshot signals with positive edge."
+    },
+    {
+      "ts": "2026-07-14T20:44:43.742Z",
+      "action": "SELL",
+      "marketId": "2880019",
+      "question": "Exact Score: France 0 - 2 Spain?",
+      "outcome": "No",
+      "proceeds": 32.95870360690015,
+      "price": 0.6305,
+      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-14T20:44:43.742Z",
+      "action": "SELL",
+      "marketId": "2431010",
+      "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 49.329896907216494,
+      "price": 0.957,
+      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-14T20:44:43.742Z",
+      "action": "SELL",
+      "marketId": "2880039",
+      "question": "Exact Score: France 3 - 2 Spain?",
+      "outcome": "No",
+      "proceeds": 6.471121234957999,
+      "price": 0.9875,
+      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-14T20:44:43.742Z",
+      "action": "BUY",
+      "marketId": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 88.75972174907464,
+      "price": 0.9665,
+      "reasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-14T19:45:52.250Z",
-  "lastReasoning": "Sold stop-loss and dropped positions to reclaim cash, then bought new favourite and longshot signals with positive edge."
+  "lastUpdated": "2026-07-14T20:44:43.742Z",
+  "lastReasoning": "Sold stop-loss and dropped positions to free up cash, then bought into new longshot bias signals with positive edge."
 }
