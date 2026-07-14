@@ -1,6 +1,6 @@
 {
-  "cash": 7.070124766981969,
-  "totalValue": 273.8513103258796,
+  "cash": 0,
+  "totalValue": 273.2478257301319,
   "positions": [
     {
       "marketId": "558935",
@@ -27,14 +27,6 @@
       "costBasis": 50
     },
     {
-      "marketId": "2737255",
-      "question": "Will the Iranian regime fall by September 30?",
-      "outcome": "No",
-      "shares": 22.810857484944055,
-      "avgCost": 0.9645,
-      "costBasis": 22.001072044228543
-    },
-    {
       "marketId": "2686769",
       "question": "Iran full airspace closure by July 15?",
       "outcome": "No",
@@ -54,42 +46,20 @@
       "marketId": "2880039",
       "question": "Exact Score: France 3 - 2 Spain?",
       "outcome": "No",
-      "shares": 20.629190304280556,
-      "avgCost": 0.9695,
-      "costBasis": 20
+      "shares": 41.26902518560151,
+      "avgCost": 0.9692499355171524,
+      "costBasis": 40
+    },
+    {
+      "marketId": "2880277",
+      "question": "Spread: France (-2.5)",
+      "outcome": "No",
+      "shares": 155.17988980732596,
+      "avgCost": 0.05875,
+      "costBasis": 9.1168185261804
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-06-30T08:48:09.987Z",
-      "action": "BUY",
-      "marketId": "558963",
-      "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 75,
-      "price": 0.9625,
-      "reasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
-    },
-    {
-      "ts": "2026-06-30T08:48:09.987Z",
-      "action": "BUY",
-      "marketId": "2069670",
-      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 75,
-      "price": 0.9635,
-      "reasoning": "Identified BUY_NO_LONGSHOT signals with positive edge for Morocco, Portugal, England, Sweden, AOC, Elon Musk tweets, and Harry Kane, and selected the top two based on edge, avoiding averaging down into existing losing positions."
-    },
-    {
-      "ts": "2026-06-30T11:34:32.184Z",
-      "action": "BUY",
-      "marketId": "558963",
-      "question": "Will Morocco win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 24.5,
-      "price": 0.9625,
-      "reasoning": "Exploited the favourite-longshot bias by placing two BUY_NO_LONGSHOT trades with the highest positive edge, prioritizing markets with higher edge and ensuring trades are within the $20-$100 range and available cash."
-    },
     {
       "ts": "2026-06-30T11:34:32.184Z",
       "action": "BUY",
@@ -2059,8 +2029,38 @@
       "amount": 20,
       "price": 0.9695,
       "reasoning": "Sold dropped positions to reclaim cash and then bought into multiple BUY_NO_LONGSHOT markets with positive edge, diversifying across several longshot 'No' outcomes as per the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-07-14T16:53:51.546Z",
+      "action": "SELL",
+      "marketId": "2737255",
+      "question": "Will the Iranian regime fall by September 30?",
+      "outcome": "No",
+      "proceeds": 22.04669375919843,
+      "price": 0.9665,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T16:53:51.546Z",
+      "action": "BUY",
+      "marketId": "2880039",
+      "question": "Exact Score: France 3 - 2 Spain?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.969,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-14T16:53:51.546Z",
+      "action": "BUY",
+      "marketId": "2880277",
+      "question": "Spread: France (-2.5)",
+      "outcome": "No",
+      "amount": 9.1168185261804,
+      "price": 0.05875,
+      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-14T15:38:45.108Z",
-  "lastReasoning": "I held cash as there were no strong BUY_YES_FAVOURITE or BUY_NO_LONGSHOT signals with a positive edge, and no stop-loss positions to sell."
+  "lastUpdated": "2026-07-14T16:53:51.546Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
 }
