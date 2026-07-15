@@ -1,6 +1,6 @@
 {
-  "cash": 120.74365972945324,
-  "totalValue": 291.2228198344401,
+  "cash": 20.743659729453242,
+  "totalValue": 290.85901789171896,
   "positions": [
     {
       "marketId": "1654959",
@@ -25,29 +25,25 @@
       "shares": 53.475935828877,
       "avgCost": 0.935,
       "costBasis": 50
+    },
+    {
+      "marketId": "2673621",
+      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "Yes",
+      "shares": 59.523809523809526,
+      "avgCost": 0.84,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-01T17:24:05.874Z",
-      "action": "BUY",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 40,
-      "price": 0.9695,
-      "reasoning": "Sold resolved and profitable positions to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge, prioritizing markets with higher edge and avoiding averaging down into existing positions."
-    },
-    {
-      "ts": "2026-07-01T19:20:07.612Z",
-      "action": "SELL",
-      "marketId": "2069636",
-      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 50.07828810020877,
-      "price": 0.9595,
-      "reasoning": "Exploited the favourite-longshot bias by selling existing positions and buying new ones with positive edge signals."
-    },
     {
       "ts": "2026-07-01T19:20:07.612Z",
       "action": "SELL",
@@ -2027,8 +2023,28 @@
       "amount": 50,
       "price": 0.935,
       "reasoning": "I sold two resolved positions to free up cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-15T22:15:47.426Z",
+      "action": "BUY",
+      "marketId": "2673621",
+      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.84,
+      "reasoning": "I exploited the favourite-longshot bias by buying 'Yes' on a favourite and 'No' on a longshot, both with positive edge, ensuring I did not average down into losing positions."
+    },
+    {
+      "ts": "2026-07-15T22:15:47.426Z",
+      "action": "BUY",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "I exploited the favourite-longshot bias by buying 'Yes' on a favourite and 'No' on a longshot, both with positive edge, ensuring I did not average down into losing positions."
     }
   ],
-  "lastUpdated": "2026-07-15T21:09:41.955Z",
-  "lastReasoning": "I sold two resolved positions to free up cash and then initiated two new BUY_NO_LONGSHOT trades with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-15T22:15:47.426Z",
+  "lastReasoning": "I exploited the favourite-longshot bias by buying 'Yes' on a favourite and 'No' on a longshot, both with positive edge, ensuring I did not average down into losing positions."
 }
