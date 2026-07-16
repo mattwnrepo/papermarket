@@ -1,14 +1,14 @@
 {
-  "cash": 0,
-  "totalValue": 295.16613190046064,
+  "cash": 10.297748850143435,
+  "totalValue": 295.4313515359039,
   "positions": [
     {
       "marketId": "1654959",
       "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
       "outcome": "No",
-      "shares": 125.2322410454659,
-      "avgCost": 0.9582196964472885,
-      "costBasis": 120
+      "shares": 176.83182824876826,
+      "avgCost": 0.9613653926647345,
+      "costBasis": 170
     },
     {
       "marketId": "1654958",
@@ -19,89 +19,23 @@
       "costBasis": 50
     },
     {
-      "marketId": "2673621",
-      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
-      "outcome": "Yes",
-      "shares": 59.523809523809526,
-      "avgCost": 0.84,
-      "costBasis": 50
-    },
-    {
-      "marketId": "567621",
-      "question": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "shares": 31.16883116883117,
-      "avgCost": 0.9625,
-      "costBasis": 30
-    },
-    {
-      "marketId": "2832147",
-      "question": "Will Count Binface win the Clacton by-election?",
-      "outcome": "No",
-      "shares": 31.23373243102551,
-      "avgCost": 0.9605,
-      "costBasis": 30
-    },
-    {
       "marketId": "2942018",
       "question": "Exact Score: Spain 3 - 0 Argentina?",
       "outcome": "No",
       "shares": 13.527254945318836,
       "avgCost": 0.9675,
       "costBasis": 13.087619159595974
+    },
+    {
+      "marketId": "2944713",
+      "question": "LoL: Karmine Corp vs Sentinels (BO3) - Esports World Cup Group B",
+      "outcome": "Yes",
+      "shares": 57.80346820809249,
+      "avgCost": 0.865,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-01T22:23:48.650Z",
-      "action": "SELL",
-      "marketId": "2719358",
-      "question": "Belgium vs. Senegal: O/U 1.5",
-      "outcome": "Yes",
-      "proceeds": 58.450292397660824,
-      "price": 0.9995,
-      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
-    },
-    {
-      "ts": "2026-07-01T22:23:48.650Z",
-      "action": "BUY",
-      "marketId": "693485",
-      "question": "Will Lebanon recognize Israel by June 30?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.962,
-      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
-    },
-    {
-      "ts": "2026-07-01T22:23:48.650Z",
-      "action": "BUY",
-      "marketId": "567621",
-      "question": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9635,
-      "reasoning": "Exploited the favourite-longshot bias by selling a dropped position to reclaim cash and buying 'No' on longshot markets with positive edge."
-    },
-    {
-      "ts": "2026-07-01T23:52:45.873Z",
-      "action": "SELL",
-      "marketId": "693485",
-      "question": "Will Lebanon recognize Israel by June 30?",
-      "outcome": "No",
-      "proceeds": 25.285862785862786,
-      "price": 0.973,
-      "reasoning": "Sold a profitable, resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with the highest positive edge, avoiding averaging down into existing losing positions."
-    },
-    {
-      "ts": "2026-07-01T23:52:45.873Z",
-      "action": "BUY",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.97,
-      "reasoning": "Sold a profitable, resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with the highest positive edge, avoiding averaging down into existing losing positions."
-    },
     {
       "ts": "2026-07-01T23:52:45.873Z",
       "action": "BUY",
@@ -2051,8 +1985,58 @@
       "amount": 13.087619159595974,
       "price": 0.9675,
       "reasoning": "Sold a profitable position to reclaim cash and then bought into two strong BUY_NO_LONGSHOT signals with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
+    },
+    {
+      "ts": "2026-07-16T12:04:14.365Z",
+      "action": "SELL",
+      "marketId": "2673621",
+      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "Yes",
+      "proceeds": 50.29761904761905,
+      "price": 0.845,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T12:04:14.365Z",
+      "action": "SELL",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "proceeds": 29.93766233766234,
+      "price": 0.9605,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T12:04:14.365Z",
+      "action": "SELL",
+      "marketId": "2832147",
+      "question": "Will Count Binface win the Clacton by-election?",
+      "outcome": "No",
+      "proceeds": 30.062467464862053,
+      "price": 0.9625,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T12:04:14.365Z",
+      "action": "BUY",
+      "marketId": "2944713",
+      "question": "LoL: Karmine Corp vs Sentinels (BO3) - Esports World Cup Group B",
+      "outcome": "Yes",
+      "amount": 50,
+      "price": 0.865,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T12:04:14.365Z",
+      "action": "BUY",
+      "marketId": "1654959",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.969,
+      "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-16T10:30:04.502Z",
-  "lastReasoning": "Sold a profitable position to reclaim cash and then bought into two strong BUY_NO_LONGSHOT signals with positive edge, adhering to the favourite-longshot bias strategy and trade limits."
+  "lastUpdated": "2026-07-16T12:04:14.365Z",
+  "lastReasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
 }
