@@ -1,14 +1,14 @@
 {
-  "cash": 10.297748850143435,
-  "totalValue": 295.4313515359039,
+  "cash": 0,
+  "totalValue": 302.12146087201177,
   "positions": [
     {
       "marketId": "1654959",
       "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
       "outcome": "No",
-      "shares": 176.83182824876826,
-      "avgCost": 0.9613653926647345,
-      "costBasis": 170
+      "shares": 195.56932469680547,
+      "avgCost": 0.9616657193846921,
+      "costBasis": 188.07231532413186
     },
     {
       "marketId": "1654958",
@@ -27,45 +27,15 @@
       "costBasis": 13.087619159595974
     },
     {
-      "marketId": "2944713",
-      "question": "LoL: Karmine Corp vs Sentinels (BO3) - Esports World Cup Group B",
-      "outcome": "Yes",
-      "shares": 57.80346820809249,
-      "avgCost": 0.865,
+      "marketId": "2853044",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
+      "outcome": "No",
+      "shares": 51.679586563307495,
+      "avgCost": 0.9675,
       "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-01T23:52:45.873Z",
-      "action": "BUY",
-      "marketId": "2155000",
-      "question": "Hantavirus pandemic in 2026?",
-      "outcome": "No",
-      "amount": 19.311671070691844,
-      "price": 0.9685,
-      "reasoning": "Sold a profitable, resolved position to reclaim cash. Initiated two new BUY_NO_LONGSHOT trades with the highest positive edge, avoiding averaging down into existing losing positions."
-    },
-    {
-      "ts": "2026-07-02T04:14:56.338Z",
-      "action": "SELL",
-      "marketId": "2721770",
-      "question": "United States vs. Bosnia and Herzegovina: Team to Advance",
-      "outcome": "Yes",
-      "proceeds": 59.880239520958085,
-      "price": 1,
-      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-02T04:14:56.338Z",
-      "action": "SELL",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 50.07731958762887,
-      "price": 0.9715,
-      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-02T04:14:56.338Z",
       "action": "BUY",
@@ -2035,8 +2005,38 @@
       "amount": 50,
       "price": 0.969,
       "reasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T14:14:51.481Z",
+      "action": "SELL",
+      "marketId": "2944713",
+      "question": "LoL: Karmine Corp vs Sentinels (BO3) - Esports World Cup Group B",
+      "outcome": "Yes",
+      "proceeds": 57.77456647398844,
+      "price": 0.9995,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T14:14:51.481Z",
+      "action": "BUY",
+      "marketId": "2853044",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9675,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T14:14:51.481Z",
+      "action": "BUY",
+      "marketId": "1654959",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "outcome": "No",
+      "amount": 18.07231532413188,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-16T12:04:14.365Z",
-  "lastReasoning": "Sold dropped positions to reclaim cash and then bought into two new markets exhibiting a positive edge from the favourite-longshot bias."
+  "lastUpdated": "2026-07-16T14:14:51.481Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
 }
