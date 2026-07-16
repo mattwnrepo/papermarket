@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 301.8468017248116,
+  "cash": 0.4134366925064654,
+  "totalValue": 301.9807613502412,
   "positions": [
     {
       "marketId": "1654959",
@@ -22,40 +22,12 @@
       "marketId": "2942018",
       "question": "Exact Score: Spain 3 - 0 Argentina?",
       "outcome": "No",
-      "shares": 13.527254945318836,
-      "avgCost": 0.9675,
-      "costBasis": 13.087619159595974
-    },
-    {
-      "marketId": "2853044",
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
-      "outcome": "No",
-      "shares": 51.679586563307495,
-      "avgCost": 0.9675,
-      "costBasis": 50
+      "shares": 65.10023070602023,
+      "avgCost": 0.9690844176034827,
+      "costBasis": 63.087619159595974
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-02T04:14:56.338Z",
-      "action": "BUY",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9645,
-      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-02T04:14:56.338Z",
-      "action": "BUY",
-      "marketId": "2155000",
-      "question": "Hantavirus pandemic in 2026?",
-      "outcome": "No",
-      "amount": 9.957559108586963,
-      "price": 0.9685,
-      "reasoning": "Sold resolved and designated 'sell-only' positions to reclaim cash, then initiated new 'BUY_NO_LONGSHOT' trades with positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-02T10:22:46.429Z",
       "action": "SELL",
@@ -2035,8 +2007,28 @@
       "amount": 18.07231532413188,
       "price": 0.9645,
       "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-16T16:55:48.269Z",
+      "action": "SELL",
+      "marketId": "2853044",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
+      "outcome": "No",
+      "proceeds": 50.413436692506465,
+      "price": 0.9755,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-16T16:55:48.269Z",
+      "action": "BUY",
+      "marketId": "2942018",
+      "question": "Exact Score: Spain 3 - 0 Argentina?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9695,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-16T15:48:36.041Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-16T16:55:48.269Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
 }
