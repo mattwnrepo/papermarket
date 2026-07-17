@@ -1,28 +1,6 @@
 {
   "markets": [
     {
-      "id": "2942022",
-      "question": "Exact Score: Spain 2 - 3 Argentina?",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.0345,
-      "outcomes": [
-        {
-          "id": "2942022-0",
-          "title": "Yes",
-          "price": 0.0345
-        },
-        {
-          "id": "2942022-1",
-          "title": "No",
-          "price": 0.9655
-        }
-      ],
-      "volume": 3278637.324080993,
-      "liquidity": 262463.79495,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
       "id": "558938",
       "question": "Will Argentina win the 2026 FIFA World Cup?",
       "category": "General",
@@ -40,9 +18,31 @@
           "price": 0.5885
         }
       ],
-      "volume": 154913925.75347263,
-      "liquidity": 8949117.38947,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 154972493.0751593,
+      "liquidity": 9073762.52233,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2942022",
+      "question": "Exact Score: Spain 2 - 3 Argentina?",
+      "category": "General",
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.0345,
+      "outcomes": [
+        {
+          "id": "2942022-0",
+          "title": "Yes",
+          "price": 0.0345
+        },
+        {
+          "id": "2942022-1",
+          "title": "No",
+          "price": 0.9655
+        }
+      ],
+      "volume": 3312597.8942759954,
+      "liquidity": 274047.0669,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "558934",
@@ -62,31 +62,31 @@
           "price": 0.4145
         }
       ],
-      "volume": 122135853.75290757,
-      "liquidity": 9037215.03775,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 122173179.81930767,
+      "liquidity": 9345526.85356,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2923037",
       "question": "Swiss Open: Alexander Bublik vs Quentin Halys",
       "category": "General",
       "endDate": "2026-07-22T08:00:00Z",
-      "yesPrice": 0.6875,
+      "yesPrice": 0.7295,
       "outcomes": [
         {
           "id": "2923037-0",
           "title": "Alexander Bublik",
-          "price": 0.6875
+          "price": 0.7295
         },
         {
           "id": "2923037-1",
           "title": "Quentin Halys",
-          "price": 0.3125
+          "price": 0.2705
         }
       ],
-      "volume": 1183602.419849999,
-      "liquidity": 116985.22485,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 1196644.3018989984,
+      "liquidity": 98363.08366,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941971",
@@ -106,31 +106,9 @@
           "price": 0.505
         }
       ],
-      "volume": 1124023.4623309998,
-      "liquidity": 2314530.1571,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2943451",
-      "question": "France vs. England: Team to Win",
-      "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.645,
-      "outcomes": [
-        {
-          "id": "2943451-0",
-          "title": "France",
-          "price": 0.645
-        },
-        {
-          "id": "2943451-1",
-          "title": "England",
-          "price": 0.355
-        }
-      ],
-      "volume": 972848.5248410159,
-      "liquidity": 719677.6852,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 1144930.4646810004,
+      "liquidity": 2262422.6138,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2942083",
@@ -150,31 +128,97 @@
           "price": 0.415
         }
       ],
-      "volume": 998254.4207549975,
-      "liquidity": 5177615.8306,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 1023874.9541829961,
+      "liquidity": 5198306.7321,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2943451",
+      "question": "France vs. England: Team to Win",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.645,
+      "outcomes": [
+        {
+          "id": "2943451-0",
+          "title": "France",
+          "price": 0.645
+        },
+        {
+          "id": "2943451-1",
+          "title": "England",
+          "price": 0.355
+        }
+      ],
+      "volume": 994883.2353760169,
+      "liquidity": 730332.3632,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2947354",
+      "question": "LoL: Hanwha Life Esports vs T1 (BO3) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-07-17T17:00:00Z",
+      "yesPrice": 0.655,
+      "outcomes": [
+        {
+          "id": "2947354-0",
+          "title": "Hanwha Life Esports",
+          "price": 0.655
+        },
+        {
+          "id": "2947354-1",
+          "title": "T1",
+          "price": 0.345
+        }
+      ],
+      "volume": 823648.3055229991,
+      "liquidity": 454560.3623,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2938114",
+      "question": "Swiss Open: Raphael Collignon vs Valentin Vacherot",
+      "category": "General",
+      "endDate": "2026-07-24T08:00:00Z",
+      "yesPrice": 0.44,
+      "outcomes": [
+        {
+          "id": "2938114-0",
+          "title": "Raphael Collignon",
+          "price": 0.44
+        },
+        {
+          "id": "2938114-1",
+          "title": "Valentin Vacherot",
+          "price": 0.56
+        }
+      ],
+      "volume": 715711.159821002,
+      "liquidity": 173561.3536,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "665374",
       "question": "Will the U.S. invade Iran before 2027?",
       "category": "General",
       "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.235,
+      "yesPrice": 0.23,
       "outcomes": [
         {
           "id": "665374-0",
           "title": "Yes",
-          "price": 0.235
+          "price": 0.23
         },
         {
           "id": "665374-1",
           "title": "No",
-          "price": 0.765
+          "price": 0.77
         }
       ],
-      "volume": 43665907.920131125,
-      "liquidity": 634308.89,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 43684310.58875712,
+      "liquidity": 885640.2511,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2942114",
@@ -194,53 +238,31 @@
           "price": 0.555
         }
       ],
-      "volume": 589837.708512,
-      "liquidity": 621845.7372,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2947354",
-      "question": "LoL: Hanwha Life Esports vs T1 (BO3) - Esports World Cup Playoffs",
-      "category": "General",
-      "endDate": "2026-07-17T17:00:00Z",
-      "yesPrice": 0.665,
-      "outcomes": [
-        {
-          "id": "2947354-0",
-          "title": "Hanwha Life Esports",
-          "price": 0.665
-        },
-        {
-          "id": "2947354-1",
-          "title": "T1",
-          "price": 0.335
-        }
-      ],
-      "volume": 531324.6353199994,
-      "liquidity": 533982.4878,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 592055.285482,
+      "liquidity": 663849.2312,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "1931108",
       "question": "Will LeBron James play for the Golden State Warriors in 2026-27?",
       "category": "General",
       "endDate": "2026-10-31T03:59:00Z",
-      "yesPrice": 0.316,
+      "yesPrice": 0.3235,
       "outcomes": [
         {
           "id": "1931108-0",
           "title": "Yes",
-          "price": 0.316
+          "price": 0.3235
         },
         {
           "id": "1931108-1",
           "title": "No",
-          "price": 0.684
+          "price": 0.6765
         }
       ],
-      "volume": 2431493.513857998,
-      "liquidity": 102120.97745,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 2434921.602592997,
+      "liquidity": 110296.7159,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "1654958",
@@ -260,9 +282,9 @@
           "price": 0.0435
         }
       ],
-      "volume": 19613724.01240806,
-      "liquidity": 585951.61735,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 19616712.911862053,
+      "liquidity": 565707.03805,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941976",
@@ -282,31 +304,9 @@
           "price": 0.735
         }
       ],
-      "volume": 649611.8118570049,
-      "liquidity": 3792367.2601,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942076",
-      "question": "Spain vs. Argentina: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.425,
-      "outcomes": [
-        {
-          "id": "2942076-0",
-          "title": "Over",
-          "price": 0.425
-        },
-        {
-          "id": "2942076-1",
-          "title": "Under",
-          "price": 0.575
-        }
-      ],
-      "volume": 447844.86463200056,
-      "liquidity": 421175.3059,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 664101.5816760046,
+      "liquidity": 3733277.6558,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "1654959",
@@ -326,31 +326,9 @@
           "price": 0.9635
         }
       ],
-      "volume": 14469826.543076182,
-      "liquidity": 473993.61152,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2941974",
-      "question": "Will Spain win on 2026-07-19?",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.425,
-      "outcomes": [
-        {
-          "id": "2941974-0",
-          "title": "Yes",
-          "price": 0.425
-        },
-        {
-          "id": "2941974-1",
-          "title": "No",
-          "price": 0.575
-        }
-      ],
-      "volume": 457962.1359989988,
-      "liquidity": 3776843.1523,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 14480024.967930181,
+      "liquidity": 479948.61331,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941983",
@@ -370,141 +348,9 @@
           "price": 0.9625
         }
       ],
-      "volume": 404850.0175330011,
-      "liquidity": 429946.87162,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2941995",
-      "question": "Exact Score: France 3 - 1 England?",
-      "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.065,
-      "outcomes": [
-        {
-          "id": "2941995-0",
-          "title": "Yes",
-          "price": 0.065
-        },
-        {
-          "id": "2941995-1",
-          "title": "No",
-          "price": 0.935
-        }
-      ],
-      "volume": 436131.0806599992,
-      "liquidity": 2121536.0361,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942016",
-      "question": "Exact Score: Spain 1 - 2 Argentina?",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.07,
-      "outcomes": [
-        {
-          "id": "2942016-0",
-          "title": "Yes",
-          "price": 0.07
-        },
-        {
-          "id": "2942016-1",
-          "title": "No",
-          "price": 0.93
-        }
-      ],
-      "volume": 360590.7260089983,
-      "liquidity": 1597536.8267,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2938114",
-      "question": "Swiss Open: Raphael Collignon vs Valentin Vacherot",
-      "category": "General",
-      "endDate": "2026-07-24T08:00:00Z",
-      "yesPrice": 0.565,
-      "outcomes": [
-        {
-          "id": "2938114-0",
-          "title": "Raphael Collignon",
-          "price": 0.565
-        },
-        {
-          "id": "2938114-1",
-          "title": "Valentin Vacherot",
-          "price": 0.435
-        }
-      ],
-      "volume": 310761.140554,
-      "liquidity": 270261.3958,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2771335",
-      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "category": "General",
-      "endDate": "2027-05-30T23:59:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "2771335-0",
-          "title": "Yes",
-          "price": 0.295
-        },
-        {
-          "id": "2771335-1",
-          "title": "No",
-          "price": 0.705
-        }
-      ],
-      "volume": 343758.0361399999,
-      "liquidity": 341681.6775,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942018",
-      "question": "Exact Score: Spain 3 - 0 Argentina?",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.0345,
-      "outcomes": [
-        {
-          "id": "2942018-0",
-          "title": "Yes",
-          "price": 0.0345
-        },
-        {
-          "id": "2942018-1",
-          "title": "No",
-          "price": 0.9655
-        }
-      ],
-      "volume": 302006.735678,
-      "liquidity": 431571.42862,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2069635",
-      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.5925,
-      "outcomes": [
-        {
-          "id": "2069635-0",
-          "title": "Yes",
-          "price": 0.5925
-        },
-        {
-          "id": "2069635-1",
-          "title": "No",
-          "price": 0.4075
-        }
-      ],
-      "volume": 5422349.67715997,
-      "liquidity": 695480.23169,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 405486.6968270011,
+      "liquidity": 473345.97534,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2374271",
@@ -524,31 +370,163 @@
           "price": 0.915
         }
       ],
-      "volume": 2120660.169115993,
-      "liquidity": 348100.8442,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 2223802.1860709926,
+      "liquidity": 348400.4307,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
-      "id": "2941973",
-      "question": "Will England win on 2026-07-18?",
+      "id": "2941974",
+      "question": "Will Spain win on 2026-07-19?",
       "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.245,
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.425,
       "outcomes": [
         {
-          "id": "2941973-0",
+          "id": "2941974-0",
           "title": "Yes",
-          "price": 0.245
+          "price": 0.425
         },
         {
-          "id": "2941973-1",
+          "id": "2941974-1",
           "title": "No",
-          "price": 0.755
+          "price": 0.575
         }
       ],
-      "volume": 365545.2034429998,
-      "liquidity": 2090234.6187,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 469952.9236089988,
+      "liquidity": 3742864.1703,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2941995",
+      "question": "Exact Score: France 3 - 1 England?",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.065,
+      "outcomes": [
+        {
+          "id": "2941995-0",
+          "title": "Yes",
+          "price": 0.065
+        },
+        {
+          "id": "2941995-1",
+          "title": "No",
+          "price": 0.935
+        }
+      ],
+      "volume": 439825.36492099904,
+      "liquidity": 2073392.6422,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2942076",
+      "question": "Spain vs. Argentina: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "2942076-0",
+          "title": "Over",
+          "price": 0.425
+        },
+        {
+          "id": "2942076-1",
+          "title": "Under",
+          "price": 0.575
+        }
+      ],
+      "volume": 449507.43174100056,
+      "liquidity": 507323.7301,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2942016",
+      "question": "Exact Score: Spain 1 - 2 Argentina?",
+      "category": "General",
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.065,
+      "outcomes": [
+        {
+          "id": "2942016-0",
+          "title": "Yes",
+          "price": 0.065
+        },
+        {
+          "id": "2942016-1",
+          "title": "No",
+          "price": 0.935
+        }
+      ],
+      "volume": 378294.6666089982,
+      "liquidity": 1615521.2323,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2771335",
+      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "category": "General",
+      "endDate": "2027-05-30T23:59:00Z",
+      "yesPrice": 0.295,
+      "outcomes": [
+        {
+          "id": "2771335-0",
+          "title": "Yes",
+          "price": 0.295
+        },
+        {
+          "id": "2771335-1",
+          "title": "No",
+          "price": 0.705
+        }
+      ],
+      "volume": 344778.09280499996,
+      "liquidity": 349943.2092,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2935396",
+      "question": "Swedish Open: Adolfo Vallejo vs Stefano Travaglia",
+      "category": "General",
+      "endDate": "2026-07-24T08:00:00Z",
+      "yesPrice": 0.8465,
+      "outcomes": [
+        {
+          "id": "2935396-0",
+          "title": "Adolfo Vallejo",
+          "price": 0.8465
+        },
+        {
+          "id": "2935396-1",
+          "title": "Stefano Travaglia",
+          "price": 0.1535
+        }
+      ],
+      "volume": 248157.79838999995,
+      "liquidity": 228815.80328,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2069635",
+      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.5875,
+      "outcomes": [
+        {
+          "id": "2069635-0",
+          "title": "Yes",
+          "price": 0.5875
+        },
+        {
+          "id": "2069635-1",
+          "title": "No",
+          "price": 0.4125
+        }
+      ],
+      "volume": 5427779.897758971,
+      "liquidity": 698642.18732,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941972",
@@ -568,53 +546,9 @@
           "price": 0.745
         }
       ],
-      "volume": 277423.53857399995,
-      "liquidity": 2393702.5932,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942064",
-      "question": "Spread: Spain (-1.5)",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.205,
-      "outcomes": [
-        {
-          "id": "2942064-0",
-          "title": "Spain",
-          "price": 0.205
-        },
-        {
-          "id": "2942064-1",
-          "title": "Argentina",
-          "price": 0.795
-        }
-      ],
-      "volume": 276337.62431700045,
-      "liquidity": 303966.3886,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2069638",
-      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T00:00:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "2069638-0",
-          "title": "Yes",
-          "price": 0.395
-        },
-        {
-          "id": "2069638-1",
-          "title": "No",
-          "price": 0.605
-        }
-      ],
-      "volume": 5179134.548145898,
-      "liquidity": 555054.9717,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 278392.9362370001,
+      "liquidity": 2660241.9859,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2942017",
@@ -634,53 +568,75 @@
           "price": 0.905
         }
       ],
-      "volume": 295066.43775399984,
-      "liquidity": 1685113.1233,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 298455.1077539998,
+      "liquidity": 1655594.5111,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
-      "id": "2941997",
-      "question": "Exact Score: France 3 - 2 England?",
+      "id": "2758338",
+      "question": "Will Bitcoin reach $70,000 in July?",
+      "category": "General",
+      "endDate": "2026-08-01T04:00:00Z",
+      "yesPrice": 0.115,
+      "outcomes": [
+        {
+          "id": "2758338-0",
+          "title": "Yes",
+          "price": 0.115
+        },
+        {
+          "id": "2758338-1",
+          "title": "No",
+          "price": 0.885
+        }
+      ],
+      "volume": 866716.5076179992,
+      "liquidity": 57946.2654,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2941973",
+      "question": "Will England win on 2026-07-18?",
       "category": "General",
       "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.055,
+      "yesPrice": 0.245,
       "outcomes": [
         {
-          "id": "2941997-0",
+          "id": "2941973-0",
           "title": "Yes",
-          "price": 0.055
+          "price": 0.245
         },
         {
-          "id": "2941997-1",
+          "id": "2941973-1",
           "title": "No",
-          "price": 0.945
+          "price": 0.755
         }
       ],
-      "volume": 229563.37598000013,
-      "liquidity": 1595164.4142,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 370807.9034429997,
+      "liquidity": 2090371.3481,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
-      "id": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "id": "1469737",
+      "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
       "category": "General",
-      "endDate": "2026-06-30T23:55:00Z",
-      "yesPrice": 0.033,
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.7835,
       "outcomes": [
         {
-          "id": "2507607-0",
+          "id": "1469737-0",
           "title": "Yes",
-          "price": 0.033
+          "price": 0.7835
         },
         {
-          "id": "2507607-1",
+          "id": "1469737-1",
           "title": "No",
-          "price": 0.967
+          "price": 0.2165
         }
       ],
-      "volume": 2950646.243988,
-      "liquidity": 144258.85544,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 3375380.9624369773,
+      "liquidity": 77327.42898,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941996",
@@ -700,97 +656,31 @@
           "price": 0.9685
         }
       ],
-      "volume": 213456.24322200005,
-      "liquidity": 170743.54064,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2758338",
-      "question": "Will Bitcoin reach $70,000 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T04:00:00Z",
-      "yesPrice": 0.105,
-      "outcomes": [
-        {
-          "id": "2758338-0",
-          "title": "Yes",
-          "price": 0.105
-        },
-        {
-          "id": "2758338-1",
-          "title": "No",
-          "price": 0.895
-        }
-      ],
-      "volume": 858893.5793509992,
-      "liquidity": 67865.6383,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942113",
-      "question": "France vs. England: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.675,
-      "outcomes": [
-        {
-          "id": "2942113-0",
-          "title": "Over",
-          "price": 0.675
-        },
-        {
-          "id": "2942113-1",
-          "title": "Under",
-          "price": 0.325
-        }
-      ],
-      "volume": 224187.96640600005,
-      "liquidity": 560671.5357,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "1469737",
-      "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.7935,
-      "outcomes": [
-        {
-          "id": "1469737-0",
-          "title": "Yes",
-          "price": 0.7935
-        },
-        {
-          "id": "1469737-1",
-          "title": "No",
-          "price": 0.2065
-        }
-      ],
-      "volume": 3347404.0428489945,
-      "liquidity": 82312.5111,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 219432.66056000005,
+      "liquidity": 155425.21742,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2825509",
       "question": "Will Elon Musk post 140-159 tweets from July 10 to July 17, 2026?",
       "category": "General",
       "endDate": "2026-07-17T16:00:00Z",
-      "yesPrice": 0.265,
+      "yesPrice": 0.255,
       "outcomes": [
         {
           "id": "2825509-0",
           "title": "Yes",
-          "price": 0.265
+          "price": 0.255
         },
         {
           "id": "2825509-1",
           "title": "No",
-          "price": 0.735
+          "price": 0.745
         }
       ],
-      "volume": 324086.85198500066,
-      "liquidity": 14482.3868,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 335863.6452550002,
+      "liquidity": 9558.7759,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2942117",
@@ -810,31 +700,141 @@
           "price": 0.945
         }
       ],
-      "volume": 202687.535611,
-      "liquidity": 322319.5535,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 202708.588231,
+      "liquidity": 329495.7868,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2942113",
+      "question": "France vs. England: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.675,
+      "outcomes": [
+        {
+          "id": "2942113-0",
+          "title": "Over",
+          "price": 0.675
+        },
+        {
+          "id": "2942113-1",
+          "title": "Under",
+          "price": 0.325
+        }
+      ],
+      "volume": 224605.97815900002,
+      "liquidity": 603106.9105,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2947425",
+      "question": "LoL: Bilibili Gaming vs Dplus KIA (BO3) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-07-17T19:30:00Z",
+      "yesPrice": 0.795,
+      "outcomes": [
+        {
+          "id": "2947425-0",
+          "title": "Bilibili Gaming",
+          "price": 0.795
+        },
+        {
+          "id": "2947425-1",
+          "title": "Dplus KIA",
+          "price": 0.205
+        }
+      ],
+      "volume": 188376.355297,
+      "liquidity": 287816.2902,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2730117",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in July?",
+      "category": "General",
+      "endDate": "2026-08-01T03:59:59.999Z",
+      "yesPrice": 0.134,
+      "outcomes": [
+        {
+          "id": "2730117-0",
+          "title": "Yes",
+          "price": 0.134
+        },
+        {
+          "id": "2730117-1",
+          "title": "No",
+          "price": 0.866
+        }
+      ],
+      "volume": 810076.1014030002,
+      "liquidity": 42692.8435,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2941997",
+      "question": "Exact Score: France 3 - 2 England?",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.055,
+      "outcomes": [
+        {
+          "id": "2941997-0",
+          "title": "Yes",
+          "price": 0.055
+        },
+        {
+          "id": "2941997-1",
+          "title": "No",
+          "price": 0.945
+        }
+      ],
+      "volume": 234735.73559200016,
+      "liquidity": 1567975.6571,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2069638",
+      "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T00:00:00Z",
+      "yesPrice": 0.395,
+      "outcomes": [
+        {
+          "id": "2069638-0",
+          "title": "Yes",
+          "price": 0.395
+        },
+        {
+          "id": "2069638-1",
+          "title": "No",
+          "price": 0.605
+        }
+      ],
+      "volume": 5182191.414042898,
+      "liquidity": 539673.1349,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2686770",
       "question": "Iran full airspace closure by July 31?",
       "category": "General",
       "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.235,
+      "yesPrice": 0.245,
       "outcomes": [
         {
           "id": "2686770-0",
           "title": "Yes",
-          "price": 0.235
+          "price": 0.245
         },
         {
           "id": "2686770-1",
           "title": "No",
-          "price": 0.765
+          "price": 0.755
         }
       ],
-      "volume": 977613.7218399971,
-      "liquidity": 36716.9131,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 988645.0347269977,
+      "liquidity": 35409.1128,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2945106",
@@ -854,9 +854,31 @@
           "price": 0.315
         }
       ],
-      "volume": 162149.056476,
-      "liquidity": 272171.9498,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 166858.1247350001,
+      "liquidity": 258403.153,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
+    },
+    {
+      "id": "2947402",
+      "question": "LoL: Gen.G vs JD Gaming (BO3) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-07-17T17:00:00Z",
+      "yesPrice": 0.835,
+      "outcomes": [
+        {
+          "id": "2947402-0",
+          "title": "Gen.G",
+          "price": 0.835
+        },
+        {
+          "id": "2947402-1",
+          "title": "JD Gaming",
+          "price": 0.165
+        }
+      ],
+      "volume": 165767.64964299995,
+      "liquidity": 261562.3548,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2941984",
@@ -876,317 +898,53 @@
           "price": 0.9605
         }
       ],
-      "volume": 182512.36544800006,
-      "liquidity": 171648.73079,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2845812",
-      "question": "Over $30M committed to the Credible public sale?",
-      "category": "General",
-      "endDate": "2026-08-31T23:59:00Z",
-      "yesPrice": 0.9325,
-      "outcomes": [
-        {
-          "id": "2845812-0",
-          "title": "Yes",
-          "price": 0.9325
-        },
-        {
-          "id": "2845812-1",
-          "title": "No",
-          "price": 0.0675
-        }
-      ],
-      "volume": 372320.1174620012,
-      "liquidity": 74960.17897,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2730117",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T03:59:59.999Z",
-      "yesPrice": 0.102,
-      "outcomes": [
-        {
-          "id": "2730117-0",
-          "title": "Yes",
-          "price": 0.102
-        },
-        {
-          "id": "2730117-1",
-          "title": "No",
-          "price": 0.898
-        }
-      ],
-      "volume": 764278.8388800003,
-      "liquidity": 68993.675,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2431013",
-      "question": "Will Lionel Messi win the Golden Ball at the 2026 FIFA World Cup?",
-      "category": "General",
-      "endDate": "2026-07-20T03:59:00Z",
-      "yesPrice": 0.8995,
-      "outcomes": [
-        {
-          "id": "2431013-0",
-          "title": "Yes",
-          "price": 0.8995
-        },
-        {
-          "id": "2431013-1",
-          "title": "No",
-          "price": 0.1005
-        }
-      ],
-      "volume": 756410.3012350006,
-      "liquidity": 410582.60707,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2677863",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T03:59:59.999Z",
-      "yesPrice": 0.209,
-      "outcomes": [
-        {
-          "id": "2677863-0",
-          "title": "Yes",
-          "price": 0.209
-        },
-        {
-          "id": "2677863-1",
-          "title": "No",
-          "price": 0.791
-        }
-      ],
-      "volume": 733423.5921809997,
-      "liquidity": 47222.64161,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2941994",
-      "question": "Exact Score: France 2 - 2 England?",
-      "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "2941994-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "2941994-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 207929.0773730001,
-      "liquidity": 1617393.8304,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2941992",
-      "question": "Exact Score: France 3 - 0 England?",
-      "category": "General",
-      "endDate": "2026-07-18T21:00:00Z",
-      "yesPrice": 0.0455,
-      "outcomes": [
-        {
-          "id": "2941992-0",
-          "title": "Yes",
-          "price": 0.0455
-        },
-        {
-          "id": "2941992-1",
-          "title": "No",
-          "price": 0.9545
-        }
-      ],
-      "volume": 143176.58977599978,
-      "liquidity": 174159.26981,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2937523",
-      "question": "US x Iran Effective Ceasefire by July 18?",
-      "category": "General",
-      "endDate": "2026-07-18T23:59:00Z",
-      "yesPrice": 0.0435,
-      "outcomes": [
-        {
-          "id": "2937523-0",
-          "title": "Yes",
-          "price": 0.0435
-        },
-        {
-          "id": "2937523-1",
-          "title": "No",
-          "price": 0.9565
-        }
-      ],
-      "volume": 172776.57955000008,
-      "liquidity": 103875.11966,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "category": "General",
-      "endDate": "2026-09-30T00:00:00Z",
-      "yesPrice": 0.0335,
-      "outcomes": [
-        {
-          "id": "2034729-0",
-          "title": "Yes",
-          "price": 0.0335
-        },
-        {
-          "id": "2034729-1",
-          "title": "No",
-          "price": 0.9665
-        }
-      ],
-      "volume": 3205700.2605550033,
-      "liquidity": 131761.5413,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2945083",
-      "question": "Spain vs. Argentina: Both Teams to Score",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "2945083-0",
-          "title": "Yes",
-          "price": 0.515
-        },
-        {
-          "id": "2945083-1",
-          "title": "No",
-          "price": 0.485
-        }
-      ],
-      "volume": 133631.37566899942,
-      "liquidity": 248712.8296,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2947356",
-      "question": "Game Handicap: HLE (-1.5) vs T1 (+1.5)",
-      "category": "General",
-      "endDate": "2026-07-17T17:00:00Z",
-      "yesPrice": 0.385,
-      "outcomes": [
-        {
-          "id": "2947356-0",
-          "title": "Hanwha Life Esports",
-          "price": 0.385
-        },
-        {
-          "id": "2947356-1",
-          "title": "T1",
-          "price": 0.615
-        }
-      ],
-      "volume": 133101.20734900003,
-      "liquidity": 231711.9664,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 183662.50634500006,
+      "liquidity": 218125.73617,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2758339",
       "question": "Will Bitcoin reach $67,500 in July?",
       "category": "General",
       "endDate": "2026-08-01T04:00:00Z",
-      "yesPrice": 0.225,
+      "yesPrice": 0.245,
       "outcomes": [
         {
           "id": "2758339-0",
           "title": "Yes",
-          "price": 0.225
+          "price": 0.245
         },
         {
           "id": "2758339-1",
           "title": "No",
-          "price": 0.775
+          "price": 0.755
         }
       ],
-      "volume": 1223715.8271539991,
-      "liquidity": 49799.7255,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 1246988.559681999,
+      "liquidity": 47274.2906,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
-      "id": "2825515",
-      "question": "Will Elon Musk post 160-179 tweets from July 10 to July 17, 2026?",
+      "id": "2926205",
+      "question": "Swiss Open: Alexander Shevchenko vs Dominic Stephan Stricker",
       "category": "General",
-      "endDate": "2026-07-17T16:00:00Z",
-      "yesPrice": 0.695,
+      "endDate": "2026-07-23T08:00:00Z",
+      "yesPrice": 0.575,
       "outcomes": [
         {
-          "id": "2825515-0",
-          "title": "Yes",
-          "price": 0.695
+          "id": "2926205-0",
+          "title": "Alexander Shevchenko",
+          "price": 0.575
         },
         {
-          "id": "2825515-1",
-          "title": "No",
-          "price": 0.305
+          "id": "2926205-1",
+          "title": "Dominic Stephan Stricker",
+          "price": 0.425
         }
       ],
-      "volume": 233848.0008729999,
-      "liquidity": 7462.9893,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2154786",
-      "question": "Tampa Bay Rays vs. Boston Red Sox",
-      "category": "General",
-      "endDate": "2026-05-16T20:10:00Z",
-      "yesPrice": 0.455,
-      "outcomes": [
-        {
-          "id": "2154786-0",
-          "title": "Tampa Bay Rays",
-          "price": 0.455
-        },
-        {
-          "id": "2154786-1",
-          "title": "Boston Red Sox",
-          "price": 0.545
-        }
-      ],
-      "volume": 1393499.4906469951,
-      "liquidity": 246318.3694,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2871319",
-      "question": "Will the price of Bitcoin be above $62,000 on July 17?",
-      "category": "General",
-      "endDate": "2026-07-17T16:00:00Z",
-      "yesPrice": 0.8585,
-      "outcomes": [
-        {
-          "id": "2871319-0",
-          "title": "Yes",
-          "price": 0.8585
-        },
-        {
-          "id": "2871319-1",
-          "title": "No",
-          "price": 0.1415
-        }
-      ],
-      "volume": 176458.24319499952,
-      "liquidity": 26661.16041,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 170168.86600399975,
+      "liquidity": 326726.3008,
+      "lastUpdated": "2026-07-17T10:26:30.544Z"
     },
     {
       "id": "2947379",
@@ -1206,9 +964,383 @@
           "price": 0.185
         }
       ],
-      "volume": 121564.63173100004,
-      "liquidity": 302157.1046,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 149896.27654900006,
+      "liquidity": 253338.474,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2947356",
+      "question": "Game Handicap: HLE (-1.5) vs T1 (+1.5)",
+      "category": "General",
+      "endDate": "2026-07-17T17:00:00Z",
+      "yesPrice": 0.385,
+      "outcomes": [
+        {
+          "id": "2947356-0",
+          "title": "Hanwha Life Esports",
+          "price": 0.385
+        },
+        {
+          "id": "2947356-1",
+          "title": "T1",
+          "price": 0.615
+        }
+      ],
+      "volume": 148588.71225700004,
+      "liquidity": 253916.8939,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2677863",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?",
+      "category": "General",
+      "endDate": "2026-08-01T03:59:59.999Z",
+      "yesPrice": 0.271,
+      "outcomes": [
+        {
+          "id": "2677863-0",
+          "title": "Yes",
+          "price": 0.271
+        },
+        {
+          "id": "2677863-1",
+          "title": "No",
+          "price": 0.729
+        }
+      ],
+      "volume": 744622.6628749997,
+      "liquidity": 38724.04273,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2871319",
+      "question": "Will the price of Bitcoin be above $62,000 on July 17?",
+      "category": "General",
+      "endDate": "2026-07-17T16:00:00Z",
+      "yesPrice": 0.937,
+      "outcomes": [
+        {
+          "id": "2871319-0",
+          "title": "Yes",
+          "price": 0.937
+        },
+        {
+          "id": "2871319-1",
+          "title": "No",
+          "price": 0.063
+        }
+      ],
+      "volume": 194907.2341789993,
+      "liquidity": 26504.05491,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2941994",
+      "question": "Exact Score: France 2 - 2 England?",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "2941994-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "2941994-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 214097.0827440001,
+      "liquidity": 1581171.0403,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2942018",
+      "question": "Exact Score: Spain 3 - 0 Argentina?",
+      "category": "General",
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.0355,
+      "outcomes": [
+        {
+          "id": "2942018-0",
+          "title": "Yes",
+          "price": 0.0355
+        },
+        {
+          "id": "2942018-1",
+          "title": "No",
+          "price": 0.9645
+        }
+      ],
+      "volume": 306311.71579000005,
+      "liquidity": 407820.89383,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2945083",
+      "question": "Spain vs. Argentina: Both Teams to Score",
+      "category": "General",
+      "endDate": "2026-07-19T19:00:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "2945083-0",
+          "title": "Yes",
+          "price": 0.515
+        },
+        {
+          "id": "2945083-1",
+          "title": "No",
+          "price": 0.485
+        }
+      ],
+      "volume": 137696.51640799947,
+      "liquidity": 374130.7018,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2034729",
+      "question": "Will the US confirm that aliens exist by September 30?",
+      "category": "General",
+      "endDate": "2026-09-30T00:00:00Z",
+      "yesPrice": 0.0335,
+      "outcomes": [
+        {
+          "id": "2034729-0",
+          "title": "Yes",
+          "price": 0.0335
+        },
+        {
+          "id": "2034729-1",
+          "title": "No",
+          "price": 0.9665
+        }
+      ],
+      "volume": 3207712.674735003,
+      "liquidity": 142845.09074,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2937523",
+      "question": "US x Iran Effective Ceasefire by July 18?",
+      "category": "General",
+      "endDate": "2026-07-18T23:59:00Z",
+      "yesPrice": 0.047,
+      "outcomes": [
+        {
+          "id": "2937523-0",
+          "title": "Yes",
+          "price": 0.047
+        },
+        {
+          "id": "2937523-1",
+          "title": "No",
+          "price": 0.953
+        }
+      ],
+      "volume": 174264.34219300008,
+      "liquidity": 88763.87348,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2941992",
+      "question": "Exact Score: France 3 - 0 England?",
+      "category": "General",
+      "endDate": "2026-07-18T21:00:00Z",
+      "yesPrice": 0.0455,
+      "outcomes": [
+        {
+          "id": "2941992-0",
+          "title": "Yes",
+          "price": 0.0455
+        },
+        {
+          "id": "2941992-1",
+          "title": "No",
+          "price": 0.9545
+        }
+      ],
+      "volume": 144650.07166799976,
+      "liquidity": 218707.32641,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2936687",
+      "question": "Dota 2: Nigma Galaxy vs BetBoom Team (BO3) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-07-17T20:30:00Z",
+      "yesPrice": 0.325,
+      "outcomes": [
+        {
+          "id": "2936687-0",
+          "title": "Nigma Galaxy",
+          "price": 0.325
+        },
+        {
+          "id": "2936687-1",
+          "title": "BetBoom Team",
+          "price": 0.675
+        }
+      ],
+      "volume": 235761.56489899973,
+      "liquidity": 217162.5185,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2895622",
+      "question": "Valorant: FULL SENSE vs Nongshim RedForce (BO3) - VCT Pacific Group Alpha",
+      "category": "General",
+      "endDate": "2026-07-17T14:00:00Z",
+      "yesPrice": 0.625,
+      "outcomes": [
+        {
+          "id": "2895622-0",
+          "title": "FULL SENSE",
+          "price": 0.625
+        },
+        {
+          "id": "2895622-1",
+          "title": "Nongshim RedForce",
+          "price": 0.375
+        }
+      ],
+      "volume": 133069.91854499996,
+      "liquidity": 69592.1611,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2825515",
+      "question": "Will Elon Musk post 160-179 tweets from July 10 to July 17, 2026?",
+      "category": "General",
+      "endDate": "2026-07-17T16:00:00Z",
+      "yesPrice": 0.72,
+      "outcomes": [
+        {
+          "id": "2825515-0",
+          "title": "Yes",
+          "price": 0.72
+        },
+        {
+          "id": "2825515-1",
+          "title": "No",
+          "price": 0.28
+        }
+      ],
+      "volume": 241268.48140599986,
+      "liquidity": 5533.5391,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2154786",
+      "question": "Tampa Bay Rays vs. Boston Red Sox",
+      "category": "General",
+      "endDate": "2026-05-16T20:10:00Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "2154786-0",
+          "title": "Tampa Bay Rays",
+          "price": 0.455
+        },
+        {
+          "id": "2154786-1",
+          "title": "Boston Red Sox",
+          "price": 0.545
+        }
+      ],
+      "volume": 1394623.7268619945,
+      "liquidity": 230324.8225,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2947173",
+      "question": "Iasi Open: Yulia Putintseva vs Mayar Sherif",
+      "category": "General",
+      "endDate": "2026-07-24T07:00:00Z",
+      "yesPrice": 0.495,
+      "outcomes": [
+        {
+          "id": "2947173-0",
+          "title": "Yulia Putintseva",
+          "price": 0.495
+        },
+        {
+          "id": "2947173-1",
+          "title": "Mayar Sherif",
+          "price": 0.505
+        }
+      ],
+      "volume": 121421.11929999992,
+      "liquidity": 337367.8262,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2431013",
+      "question": "Will Lionel Messi win the Golden Ball at the 2026 FIFA World Cup?",
+      "category": "General",
+      "endDate": "2026-07-20T03:59:00Z",
+      "yesPrice": 0.8995,
+      "outcomes": [
+        {
+          "id": "2431013-0",
+          "title": "Yes",
+          "price": 0.8995
+        },
+        {
+          "id": "2431013-1",
+          "title": "No",
+          "price": 0.1005
+        }
+      ],
+      "volume": 758765.4523300007,
+      "liquidity": 401554.33399,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2936724",
+      "question": "Dota 2: Team Falcons vs Vici Gaming (BO3) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-07-17T17:00:00Z",
+      "yesPrice": 0.835,
+      "outcomes": [
+        {
+          "id": "2936724-0",
+          "title": "Team Falcons",
+          "price": 0.835
+        },
+        {
+          "id": "2936724-1",
+          "title": "Vici Gaming",
+          "price": 0.165
+        }
+      ],
+      "volume": 137589.760352,
+      "liquidity": 186183.742,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
+    },
+    {
+      "id": "2906929",
+      "question": "Will Rory McIlroy win the 2026 The Open Championship?",
+      "category": "General",
+      "endDate": "2026-07-19T00:00:00Z",
+      "yesPrice": 0.033,
+      "outcomes": [
+        {
+          "id": "2906929-0",
+          "title": "Yes",
+          "price": 0.033
+        },
+        {
+          "id": "2906929-1",
+          "title": "No",
+          "price": 0.967
+        }
+      ],
+      "volume": 208925.74487299984,
+      "liquidity": 21912.23726,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
     },
     {
       "id": "1931114",
@@ -1228,98 +1360,10 @@
           "price": 0.8305
         }
       ],
-      "volume": 1807804.502217,
-      "liquidity": 70665.45964,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2906929",
-      "question": "Will Rory McIlroy win the 2026 The Open Championship?",
-      "category": "General",
-      "endDate": "2026-07-19T00:00:00Z",
-      "yesPrice": 0.0345,
-      "outcomes": [
-        {
-          "id": "2906929-0",
-          "title": "Yes",
-          "price": 0.0345
-        },
-        {
-          "id": "2906929-1",
-          "title": "No",
-          "price": 0.9655
-        }
-      ],
-      "volume": 206712.31447899996,
-      "liquidity": 26154.00698,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2936687",
-      "question": "Dota 2: Nigma Galaxy vs BetBoom Team (BO3) - Esports World Cup Playoffs",
-      "category": "General",
-      "endDate": "2026-07-17T20:30:00Z",
-      "yesPrice": 0.315,
-      "outcomes": [
-        {
-          "id": "2936687-0",
-          "title": "Nigma Galaxy",
-          "price": 0.315
-        },
-        {
-          "id": "2936687-1",
-          "title": "BetBoom Team",
-          "price": 0.685
-        }
-      ],
-      "volume": 213540.24950299974,
-      "liquidity": 206705.6303,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2942075",
-      "question": "Spain vs. Argentina: O/U 1.5",
-      "category": "General",
-      "endDate": "2026-07-19T19:00:00Z",
-      "yesPrice": 0.695,
-      "outcomes": [
-        {
-          "id": "2942075-0",
-          "title": "Over",
-          "price": 0.695
-        },
-        {
-          "id": "2942075-1",
-          "title": "Under",
-          "price": 0.305
-        }
-      ],
-      "volume": 118888.20208599996,
-      "liquidity": 305846.924,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
-    },
-    {
-      "id": "2926205",
-      "question": "Swiss Open: Alexander Shevchenko vs Dominic Stephan Stricker",
-      "category": "General",
-      "endDate": "2026-07-23T08:00:00Z",
-      "yesPrice": 0.315,
-      "outcomes": [
-        {
-          "id": "2926205-0",
-          "title": "Alexander Shevchenko",
-          "price": 0.315
-        },
-        {
-          "id": "2926205-1",
-          "title": "Dominic Stephan Stricker",
-          "price": 0.685
-        }
-      ],
-      "volume": 119851.67774899978,
-      "liquidity": 132606.3748,
-      "lastUpdated": "2026-07-17T08:37:22.846Z"
+      "volume": 1808733.111105,
+      "liquidity": 62142.74404,
+      "lastUpdated": "2026-07-17T10:26:30.545Z"
     }
   ],
-  "lastUpdated": "2026-07-17T08:37:32.330Z"
+  "lastUpdated": "2026-07-17T10:26:40.216Z"
 }
