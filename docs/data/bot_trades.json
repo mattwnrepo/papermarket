@@ -1,15 +1,7 @@
 {
-  "cash": 16.62632059930945,
-  "totalValue": 298.68295875583766,
+  "cash": 39.61079380738403,
+  "totalValue": 298.8891443228479,
   "positions": [
-    {
-      "marketId": "2942018",
-      "question": "Exact Score: Spain 3 - 0 Argentina?",
-      "outcome": "No",
-      "shares": 65.10023070602023,
-      "avgCost": 0.9690844176034827,
-      "costBasis": 63.087619159595974
-    },
     {
       "marketId": "2507607",
       "question": "Kharg Island no longer under Iranian control by July 31?",
@@ -30,9 +22,9 @@
       "marketId": "2941983",
       "question": "Exact Score: France 0 - 0 England?",
       "outcome": "No",
-      "shares": 62.402496099843994,
+      "shares": 83.20332813312532,
       "avgCost": 0.9615,
-      "costBasis": 60
+      "costBasis": 80
     },
     {
       "marketId": "2895379",
@@ -41,39 +33,17 @@
       "shares": 1090.909090909091,
       "avgCost": 0.055,
       "costBasis": 60
+    },
+    {
+      "marketId": "2941996",
+      "question": "Exact Score: France 2 - 3 England?",
+      "outcome": "No",
+      "shares": 20.629190304280556,
+      "avgCost": 0.9695,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-02T16:57:36.066Z",
-      "action": "SELL",
-      "marketId": "693485",
-      "question": "Will Lebanon recognize Israel by June 30?",
-      "outcome": "No",
-      "proceeds": 49.75515209662958,
-      "price": 0.971,
-      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-02T16:57:36.066Z",
-      "action": "BUY",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9645,
-      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-02T16:57:36.066Z",
-      "action": "BUY",
-      "marketId": "2707660",
-      "question": "Will Cabo Verde win on 2026-07-03?",
-      "outcome": "No",
-      "amount": 25,
-      "price": 0.9575,
-      "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-02T22:42:04.252Z",
       "action": "SELL",
@@ -2043,8 +2013,38 @@
       "amount": 60,
       "price": 0.055,
       "reasoning": "Exploited the favourite-longshot bias by buying 'No' on several longshot markets with positive edge, prioritizing the highest edge trades within the cash limits."
+    },
+    {
+      "ts": "2026-07-18T20:23:38.223Z",
+      "action": "SELL",
+      "marketId": "2942018",
+      "question": "Exact Score: Spain 3 - 0 Argentina?",
+      "outcome": "No",
+      "proceeds": 62.98447320807457,
+      "price": 0.9675,
+      "reasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-18T20:23:38.223Z",
+      "action": "BUY",
+      "marketId": "2941996",
+      "question": "Exact Score: France 2 - 3 England?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9695,
+      "reasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-18T20:23:38.223Z",
+      "action": "BUY",
+      "marketId": "2941983",
+      "question": "Exact Score: France 0 - 0 England?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9615,
+      "reasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-18T19:34:44.106Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on several longshot markets with positive edge, prioritizing the highest edge trades within the cash limits."
+  "lastUpdated": "2026-07-18T20:23:38.223Z",
+  "lastReasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
 }
