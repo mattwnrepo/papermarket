@@ -1,6 +1,6 @@
 {
-  "cash": 39.61079380738403,
-  "totalValue": 298.8891443228479,
+  "cash": 82.77252027644279,
+  "totalValue": 240.4005621515724,
   "positions": [
     {
       "marketId": "2507607",
@@ -19,71 +19,31 @@
       "costBasis": 50
     },
     {
-      "marketId": "2941983",
-      "question": "Exact Score: France 0 - 0 England?",
-      "outcome": "No",
-      "shares": 83.20332813312532,
-      "avgCost": 0.9615,
-      "costBasis": 80
-    },
-    {
-      "marketId": "2895379",
-      "question": "Minnesota Twins vs. Chicago Cubs",
-      "outcome": "No",
-      "shares": 1090.909090909091,
-      "avgCost": 0.055,
-      "costBasis": 60
-    },
-    {
       "marketId": "2941996",
       "question": "Exact Score: France 2 - 3 England?",
       "outcome": "No",
       "shares": 20.629190304280556,
       "avgCost": 0.9695,
       "costBasis": 20
+    },
+    {
+      "marketId": "2941997",
+      "question": "Exact Score: France 3 - 2 England?",
+      "outcome": "No",
+      "shares": 21.62162162162162,
+      "avgCost": 0.925,
+      "costBasis": 20
+    },
+    {
+      "marketId": "2941998",
+      "question": "Exact Score: France 3 - 3 England?",
+      "outcome": "No",
+      "shares": 21.609940572663426,
+      "avgCost": 0.9255,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-02T22:42:04.252Z",
-      "action": "SELL",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 195.1296008294453,
-      "price": 0.9655,
-      "reasoning": "Sold a resolved position to free up cash, then bought into strong 'BUY_NO_LONGSHOT' signals with positive edge, avoiding averaging down into existing positions."
-    },
-    {
-      "ts": "2026-07-02T22:42:04.252Z",
-      "action": "BUY",
-      "marketId": "558940",
-      "question": "Will Portugal win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 100,
-      "price": 0.9375,
-      "reasoning": "Sold a resolved position to free up cash, then bought into strong 'BUY_NO_LONGSHOT' signals with positive edge, avoiding averaging down into existing positions."
-    },
-    {
-      "ts": "2026-07-02T22:42:04.252Z",
-      "action": "BUY",
-      "marketId": "558935",
-      "question": "Will England win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 90,
-      "price": 0.9235,
-      "reasoning": "Sold a resolved position to free up cash, then bought into strong 'BUY_NO_LONGSHOT' signals with positive edge, avoiding averaging down into existing positions."
-    },
-    {
-      "ts": "2026-07-03T08:17:29.975Z",
-      "action": "BUY",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 5.161379693563276,
-      "price": 0.9685,
-      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots and 'Yes' on favourites with positive edge, while adhering to trade limits and avoiding negative edge signals."
-    },
     {
       "ts": "2026-07-03T19:42:05.903Z",
       "action": "SELL",
@@ -2043,8 +2003,48 @@
       "amount": 20,
       "price": 0.9615,
       "reasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-18T21:27:35.446Z",
+      "action": "SELL",
+      "marketId": "2941983",
+      "question": "Exact Score: France 0 - 0 England?",
+      "outcome": "No",
+      "proceeds": 83.16172646905876,
+      "price": 0.9995,
+      "reasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-18T21:27:35.446Z",
+      "action": "SELL",
+      "marketId": "2895379",
+      "question": "Minnesota Twins vs. Chicago Cubs",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-18T21:27:35.446Z",
+      "action": "BUY",
+      "marketId": "2941997",
+      "question": "Exact Score: France 3 - 2 England?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.925,
+      "reasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-18T21:27:35.446Z",
+      "action": "BUY",
+      "marketId": "2941998",
+      "question": "Exact Score: France 3 - 3 England?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9255,
+      "reasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-18T20:23:38.223Z",
-  "lastReasoning": "Sold a resolved position to free up cash, then bought 'No' on two longshot markets with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-18T21:27:35.446Z",
+  "lastReasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
 }
