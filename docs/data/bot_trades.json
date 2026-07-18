@@ -1,6 +1,6 @@
 {
-  "cash": 82.77252027644279,
-  "totalValue": 240.4005621515724,
+  "cash": 46.6013423987591,
+  "totalValue": 245.9312393059756,
   "positions": [
     {
       "marketId": "2507607",
@@ -19,81 +19,23 @@
       "costBasis": 50
     },
     {
-      "marketId": "2941996",
-      "question": "Exact Score: France 2 - 3 England?",
+      "marketId": "2942020",
+      "question": "Exact Score: Spain 2 - 2 Argentina?",
       "outcome": "No",
-      "shares": 20.629190304280556,
-      "avgCost": 0.9695,
-      "costBasis": 20
+      "shares": 52.35602094240838,
+      "avgCost": 0.955,
+      "costBasis": 50
     },
     {
-      "marketId": "2941997",
-      "question": "Exact Score: France 3 - 2 England?",
+      "marketId": "2895387",
+      "question": "St. Louis Cardinals vs. Arizona Diamondbacks",
       "outcome": "No",
-      "shares": 21.62162162162162,
-      "avgCost": 0.925,
-      "costBasis": 20
-    },
-    {
-      "marketId": "2941998",
-      "question": "Exact Score: France 3 - 3 England?",
-      "outcome": "No",
-      "shares": 21.609940572663426,
-      "avgCost": 0.9255,
-      "costBasis": 20
+      "shares": 1030.9278350515463,
+      "avgCost": 0.0485,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-03T19:42:05.903Z",
-      "action": "SELL",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 5.172038195769912,
-      "price": 0.9705,
-      "reasoning": "Sold an existing position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-07-03T19:42:05.903Z",
-      "action": "BUY",
-      "marketId": "2746226",
-      "question": "Australia vs. Egypt: O/U 8.5 Total Corners",
-      "outcome": "No",
-      "amount": 5.172038195769912,
-      "price": 0.03,
-      "reasoning": "Sold an existing position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-07-03T20:45:39.254Z",
-      "action": "SELL",
-      "marketId": "2746226",
-      "question": "Australia vs. Egypt: O/U 8.5 Total Corners",
-      "outcome": "No",
-      "proceeds": 0.0862006365961652,
-      "price": 0.0005,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-07-03T22:45:06.537Z",
-      "action": "SELL",
-      "marketId": "2707660",
-      "question": "Will Cabo Verde win on 2026-07-03?",
-      "outcome": "No",
-      "proceeds": 51.66775966077808,
-      "price": 0.9915,
-      "reasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-07-03T22:45:06.537Z",
-      "action": "BUY",
-      "marketId": "558945",
-      "question": "Will Mexico win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.9695,
-      "reasoning": "Sold a resolved position and bought new positions exploiting the favourite-longshot bias with positive edge."
-    },
     {
       "ts": "2026-07-03T22:45:06.537Z",
       "action": "BUY",
@@ -2043,8 +1985,58 @@
       "amount": 20,
       "price": 0.9255,
       "reasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-18T22:26:36.049Z",
+      "action": "SELL",
+      "marketId": "2941996",
+      "question": "Exact Score: France 2 - 3 England?",
+      "outcome": "No",
+      "proceeds": 20.618875709128417,
+      "price": 0.9995,
+      "reasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
+    },
+    {
+      "ts": "2026-07-18T22:26:36.049Z",
+      "action": "SELL",
+      "marketId": "2941997",
+      "question": "Exact Score: France 3 - 2 England?",
+      "outcome": "No",
+      "proceeds": 21.61081081081081,
+      "price": 0.9995,
+      "reasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
+    },
+    {
+      "ts": "2026-07-18T22:26:36.049Z",
+      "action": "SELL",
+      "marketId": "2941998",
+      "question": "Exact Score: France 3 - 3 England?",
+      "outcome": "No",
+      "proceeds": 21.599135602377096,
+      "price": 0.9995,
+      "reasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
+    },
+    {
+      "ts": "2026-07-18T22:26:36.049Z",
+      "action": "BUY",
+      "marketId": "2942020",
+      "question": "Exact Score: Spain 2 - 2 Argentina?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.955,
+      "reasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
+    },
+    {
+      "ts": "2026-07-18T22:26:36.049Z",
+      "action": "BUY",
+      "marketId": "2895387",
+      "question": "St. Louis Cardinals vs. Arizona Diamondbacks",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.0485,
+      "reasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
     }
   ],
-  "lastUpdated": "2026-07-18T21:27:35.446Z",
-  "lastReasoning": "Sold a resolved position and a profitable 'SELL_ONLY' position to reclaim cash, then initiated two new BUY trades based on strong favourite-longshot bias signals with positive edge."
+  "lastUpdated": "2026-07-18T22:26:36.049Z",
+  "lastReasoning": "Sold existing positions that had effectively resolved to reclaim cash, then initiated new BUY trades on markets exhibiting a positive edge from the favourite-longshot bias, avoiding averaging down on existing positions."
 }
