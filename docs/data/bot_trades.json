@@ -1,6 +1,6 @@
 {
-  "cash": 0.4142931123770026,
-  "totalValue": 198.74384698073897,
+  "cash": 27.75111417760135,
+  "totalValue": 202.89660802529008,
   "positions": [
     {
       "marketId": "2507607",
@@ -11,22 +11,6 @@
       "costBasis": 50
     },
     {
-      "marketId": "2942020",
-      "question": "Exact Score: Spain 2 - 2 Argentina?",
-      "outcome": "No",
-      "shares": 52.35602094240838,
-      "avgCost": 0.955,
-      "costBasis": 50
-    },
-    {
-      "marketId": "2069635",
-      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "shares": 52.12576969746096,
-      "avgCost": 0.9185,
-      "costBasis": 47.87751946711789
-    },
-    {
       "marketId": "2942016",
       "question": "Exact Score: Spain 1 - 2 Argentina?",
       "outcome": "No",
@@ -35,65 +19,23 @@
       "costBasis": 25
     },
     {
-      "marketId": "2942021",
-      "question": "Exact Score: Spain 3 - 1 Argentina?",
+      "marketId": "2944133",
+      "question": "Lionel Messi: 2+ goals",
       "outcome": "No",
-      "shares": 25.813113061435207,
-      "avgCost": 0.9685,
-      "costBasis": 25
+      "shares": 51.59958720330238,
+      "avgCost": 0.969,
+      "costBasis": 50
+    },
+    {
+      "marketId": "2431009",
+      "question": "Will Kylian Mbappé win the Golden Ball at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "shares": 52.35602094240838,
+      "avgCost": 0.955,
+      "costBasis": 50
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-06T23:16:25.404Z",
-      "action": "BUY",
-      "marketId": "1357388",
-      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
-      "outcome": "No",
-      "amount": 40,
-      "price": 0.9625,
-      "reasoning": "Sold a profitable existing position and initiated two new BUY_NO_LONGSHOT trades with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-07T01:09:32.233Z",
-      "action": "BUY",
-      "marketId": "558947",
-      "question": "Will Colombia win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.9675,
-      "reasoning": "Exploited the favourite-longshot bias by buying NO on longshots and YES on favourites with positive edge, prioritizing by edge and respecting cash limits."
-    },
-    {
-      "ts": "2026-07-07T01:09:32.233Z",
-      "action": "BUY",
-      "marketId": "1357388",
-      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.9625,
-      "reasoning": "Exploited the favourite-longshot bias by buying NO on longshots and YES on favourites with positive edge, prioritizing by edge and respecting cash limits."
-    },
-    {
-      "ts": "2026-07-07T16:12:29.925Z",
-      "action": "BUY",
-      "marketId": "558951",
-      "question": "Will Norway win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 4.2,
-      "price": 0.9335,
-      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots with positive edge, prioritizing higher edge trades within cash limits."
-    },
-    {
-      "ts": "2026-07-07T16:12:29.925Z",
-      "action": "BUY",
-      "marketId": "2793741",
-      "question": "Will Egypt win on 2026-07-07?",
-      "outcome": "No",
-      "amount": 4.1956398471993905,
-      "price": 0.915,
-      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on longshots with positive edge, prioritizing higher edge trades within cash limits."
-    },
     {
       "ts": "2026-07-07T18:22:43.887Z",
       "action": "SELL",
@@ -2043,8 +1985,58 @@
       "amount": 25,
       "price": 0.9685,
       "reasoning": "Sold a profitable resolved position to free up cash, then bought into new longshot 'No' positions and a favourite 'Yes' position with positive edge, diversifying across markets."
+    },
+    {
+      "ts": "2026-07-19T20:26:44.363Z",
+      "action": "SELL",
+      "marketId": "2942020",
+      "question": "Exact Score: Spain 2 - 2 Argentina?",
+      "outcome": "No",
+      "proceeds": 51.204188481675395,
+      "price": 0.978,
+      "reasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-19T20:26:44.363Z",
+      "action": "SELL",
+      "marketId": "2069635",
+      "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "proceeds": 50.84868833987317,
+      "price": 0.9755,
+      "reasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-19T20:26:44.363Z",
+      "action": "SELL",
+      "marketId": "2942021",
+      "question": "Exact Score: Spain 3 - 1 Argentina?",
+      "outcome": "No",
+      "proceeds": 25.283944243675787,
+      "price": 0.9795,
+      "reasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-19T20:26:44.363Z",
+      "action": "BUY",
+      "marketId": "2944133",
+      "question": "Lionel Messi: 2+ goals",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.969,
+      "reasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-19T20:26:44.364Z",
+      "action": "BUY",
+      "marketId": "2431009",
+      "question": "Will Kylian Mbappé win the Golden Ball at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.955,
+      "reasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-19T19:35:09.389Z",
-  "lastReasoning": "Sold a profitable resolved position to free up cash, then bought into new longshot 'No' positions and a favourite 'Yes' position with positive edge, diversifying across markets."
+  "lastUpdated": "2026-07-19T20:26:44.364Z",
+  "lastReasoning": "Sold all resolved positions to reclaim cash and then bought into two BUY_NO_LONGSHOT markets with positive edge to exploit the favourite-longshot bias."
 }
