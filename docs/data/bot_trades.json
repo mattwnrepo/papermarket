@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 196.62444176127562,
+  "totalValue": 196.7778163833385,
   "positions": [
     {
       "marketId": "2507607",
@@ -14,9 +14,9 @@
       "marketId": "898413",
       "question": "Will Max Verstappen be the 2026 F1 Drivers' Champion?",
       "outcome": "No",
-      "shares": 51.81347150259067,
-      "avgCost": 0.965,
-      "costBasis": 50
+      "shares": 100.956698779905,
+      "avgCost": 0.9652433876497114,
+      "costBasis": 97.44778593624699
     },
     {
       "marketId": "2942020",
@@ -25,37 +25,9 @@
       "shares": 52.35602094240838,
       "avgCost": 0.955,
       "costBasis": 50
-    },
-    {
-      "marketId": "2942022",
-      "question": "Exact Score: Spain 2 - 3 Argentina?",
-      "outcome": "No",
-      "shares": 48.890042180573914,
-      "avgCost": 0.9685,
-      "costBasis": 47.35000585188584
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-06T05:39:02.258Z",
-      "action": "BUY",
-      "marketId": "1357388",
-      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
-      "outcome": "No",
-      "amount": 1.5471892728210435,
-      "price": 0.9605,
-      "reasoning": "Sold a profitable existing position to free up cash, then initiated two new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-06T13:33:34.020Z",
-      "action": "SELL",
-      "marketId": "558943",
-      "question": "Will USA win the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "proceeds": 50.15503875968992,
-      "price": 0.9705,
-      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
-    },
     {
       "ts": "2026-07-06T13:33:34.020Z",
       "action": "BUY",
@@ -2035,8 +2007,28 @@
       "amount": 47.35000585188584,
       "price": 0.9685,
       "reasoning": "Sold a dropped position to reclaim cash, then opened two new positions on longshot 'No' outcomes with positive edge, avoiding markets with negative or zero edge and not averaging down."
+    },
+    {
+      "ts": "2026-07-19T07:07:34.986Z",
+      "action": "SELL",
+      "marketId": "2942022",
+      "question": "Exact Score: Spain 2 - 3 Argentina?",
+      "outcome": "No",
+      "proceeds": 47.44778593624699,
+      "price": 0.9705,
+      "reasoning": "Sold a resolved position to reclaim cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-19T07:07:34.986Z",
+      "action": "BUY",
+      "marketId": "898413",
+      "question": "Will Max Verstappen be the 2026 F1 Drivers' Champion?",
+      "outcome": "No",
+      "amount": 47.44778593624699,
+      "price": 0.9655,
+      "reasoning": "Sold a resolved position to reclaim cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-19T04:28:57.636Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash, then opened two new positions on longshot 'No' outcomes with positive edge, avoiding markets with negative or zero edge and not averaging down."
+  "lastUpdated": "2026-07-19T07:07:34.986Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
 }
