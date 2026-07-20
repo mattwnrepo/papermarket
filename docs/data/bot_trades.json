@@ -1,15 +1,7 @@
 {
   "cash": 0,
-  "totalValue": 106.77510125658799,
+  "totalValue": 107.09953040662563,
   "positions": [
-    {
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "shares": 58.98711818866284,
-      "avgCost": 0.9690539383854598,
-      "costBasis": 57.161699194732314
-    },
     {
       "marketId": "1633611",
       "question": "Will China invade Taiwan by December 31, 2027?",
@@ -17,39 +9,25 @@
       "shares": 55.248618784530386,
       "avgCost": 0.905,
       "costBasis": 50
+    },
+    {
+      "marketId": "608543",
+      "question": "Will Ousmane Dembélé win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "shares": 51.89413596263622,
+      "avgCost": 0.9635,
+      "costBasis": 50
+    },
+    {
+      "marketId": "1349167",
+      "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "outcome": "No",
+      "shares": 7.414653166188643,
+      "avgCost": 0.9575,
+      "costBasis": 7.099530406625625
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-08T16:22:22.812Z",
-      "action": "SELL",
-      "marketId": "2804894",
-      "question": "Exact Score: France 3 - 2 Morocco?",
-      "outcome": "No",
-      "proceeds": 30,
-      "price": 0.9695,
-      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
-    },
-    {
-      "ts": "2026-07-08T16:22:22.812Z",
-      "action": "BUY",
-      "marketId": "2822403",
-      "question": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.075,
-      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
-    },
-    {
-      "ts": "2026-07-08T16:22:22.812Z",
-      "action": "BUY",
-      "marketId": "2176262",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.955,
-      "reasoning": "Sold a dropped market to reclaim cash and then bought two 'No' longshot positions with positive edge, diversifying into new markets."
-    },
     {
       "ts": "2026-07-08T17:55:21.881Z",
       "action": "SELL",
@@ -2019,8 +1997,38 @@
       "amount": 7.161699194732314,
       "price": 0.9625,
       "reasoning": "Sold a resolved position to reclaim cash and a position with a highly favorable price for the 'No' outcome. Then, bought into new 'BUY_NO_LONGSHOT' signals with positive edge, allocating $50 USDC to each trade."
+    },
+    {
+      "ts": "2026-07-20T04:54:49.316Z",
+      "action": "SELL",
+      "marketId": "2507607",
+      "question": "Kharg Island no longer under Iranian control by July 31?",
+      "outcome": "No",
+      "proceeds": 57.099530406625625,
+      "price": 0.968,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new positions on markets exhibiting strong favourite-longshot bias with positive edge, specifically buying 'No' on longshots."
+    },
+    {
+      "ts": "2026-07-20T04:54:49.316Z",
+      "action": "BUY",
+      "marketId": "608543",
+      "question": "Will Ousmane Dembélé win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "amount": 50,
+      "price": 0.9635,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new positions on markets exhibiting strong favourite-longshot bias with positive edge, specifically buying 'No' on longshots."
+    },
+    {
+      "ts": "2026-07-20T04:54:49.316Z",
+      "action": "BUY",
+      "marketId": "1349167",
+      "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+      "outcome": "No",
+      "amount": 7.099530406625625,
+      "price": 0.9575,
+      "reasoning": "Sold a dropped position to reclaim cash and opened two new positions on markets exhibiting strong favourite-longshot bias with positive edge, specifically buying 'No' on longshots."
     }
   ],
-  "lastUpdated": "2026-07-20T01:07:32.174Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with positive edge, prioritizing new markets and higher edge."
+  "lastUpdated": "2026-07-20T04:54:49.317Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and opened two new positions on markets exhibiting strong favourite-longshot bias with positive edge, specifically buying 'No' on longshots."
 }
