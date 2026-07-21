@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 83.18720111923851,
+  "totalValue": 83.1885047162789,
   "positions": [
     {
       "marketId": "608565",
@@ -27,35 +27,15 @@
       "costBasis": 24.735449735449738
     },
     {
-      "marketId": "2952471",
-      "question": "Israel x Iran ceasefire continues through July 22?",
-      "outcome": "Yes",
-      "shares": 5.797196913307292,
-      "avgCost": 0.905,
-      "costBasis": 5.246463206543099
+      "marketId": "608568",
+      "question": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "shares": 5.531105873965183,
+      "avgCost": 0.9695,
+      "costBasis": 5.362407144809245
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-10T20:54:31.209Z",
-      "action": "SELL",
-      "marketId": "2829195",
-      "question": "Exact Score: Spain 1 - 2 Belgium?",
-      "outcome": "No",
-      "proceeds": 23.80244010825301,
-      "price": 0.921,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
-    },
-    {
-      "ts": "2026-07-10T20:54:31.209Z",
-      "action": "BUY",
-      "marketId": "2829385",
-      "question": "Spain vs. Belgium: O/U 4.5",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.03625,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
-    },
     {
       "ts": "2026-07-10T20:54:31.209Z",
       "action": "BUY",
@@ -2035,8 +2015,28 @@
       "amount": 5.246463206543099,
       "price": 0.905,
       "reasoning": "Sold a resolved position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge, adhering to maximum trade limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-21T23:42:46.730Z",
+      "action": "SELL",
+      "marketId": "2952471",
+      "question": "Israel x Iran ceasefire continues through July 22?",
+      "outcome": "Yes",
+      "proceeds": 5.362407144809245,
+      "price": 0.925,
+      "reasoning": "Exploited favourite-longshot bias by selling an existing position with negative edge to free up capital, then buying a new BUY_NO_LONGSHOT signal with positive edge."
+    },
+    {
+      "ts": "2026-07-21T23:42:46.730Z",
+      "action": "BUY",
+      "marketId": "608568",
+      "question": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "amount": 5.362407144809245,
+      "price": 0.9695,
+      "reasoning": "Exploited favourite-longshot bias by selling an existing position with negative edge to free up capital, then buying a new BUY_NO_LONGSHOT signal with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-21T22:39:07.323Z",
-  "lastReasoning": "No cash available to execute new BUY trades, and no stop-loss positions to sell to generate cash."
+  "lastUpdated": "2026-07-21T23:42:46.730Z",
+  "lastReasoning": "Exploited favourite-longshot bias by selling an existing position with negative edge to free up capital, then buying a new BUY_NO_LONGSHOT signal with positive edge."
 }
