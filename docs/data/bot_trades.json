@@ -1,15 +1,7 @@
 {
   "cash": 0,
-  "totalValue": 108.15990547968447,
+  "totalValue": 107.6890402760297,
   "positions": [
-    {
-      "marketId": "2977246",
-      "question": "Israel closes its airspace by July 24?",
-      "outcome": "No",
-      "shares": 26.455026455026456,
-      "avgCost": 0.945,
-      "costBasis": 25
-    },
     {
       "marketId": "608565",
       "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
@@ -41,29 +33,17 @@
       "shares": 25.866177679198596,
       "avgCost": 0.9655,
       "costBasis": 24.973794549266245
+    },
+    {
+      "marketId": "2758336",
+      "question": "Will Bitcoin reach $75,000 in July?",
+      "outcome": "No",
+      "shares": 25.996268770835247,
+      "avgCost": 0.9515,
+      "costBasis": 24.735449735449738
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-09T22:05:11.522Z",
-      "action": "SELL",
-      "marketId": "2804884",
-      "question": "Exact Score: France 1 - 2 Morocco?",
-      "outcome": "No",
-      "proceeds": 72.84226965122333,
-      "price": 0.9995,
-      "reasoning": "Sold a resolved position to reclaim capital. No new buy trades were made due to insufficient cash after the sale, as each new trade requires $20-$100 USDC."
-    },
-    {
-      "ts": "2026-07-09T23:22:44.324Z",
-      "action": "BUY",
-      "marketId": "2738403",
-      "question": "Will Elon Musk post 140-159 tweets from July 3 to July 10, 2026?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.968,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets and 'Yes' on favourite markets with positive statistical edge."
-    },
     {
       "ts": "2026-07-09T23:22:44.324Z",
       "action": "BUY",
@@ -2043,8 +2023,28 @@
       "amount": 24.973794549266245,
       "price": 0.9655,
       "reasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-21T11:30:09.540Z",
+      "action": "SELL",
+      "marketId": "2977246",
+      "question": "Israel closes its airspace by July 24?",
+      "outcome": "No",
+      "proceeds": 24.735449735449738,
+      "price": 0.935,
+      "reasoning": "Exploited the favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
+    },
+    {
+      "ts": "2026-07-21T11:30:09.540Z",
+      "action": "BUY",
+      "marketId": "2758336",
+      "question": "Will Bitcoin reach $75,000 in July?",
+      "outcome": "No",
+      "amount": 24.735449735449738,
+      "price": 0.9515,
+      "reasoning": "Exploited the favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-21T09:41:53.171Z",
-  "lastReasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
+  "lastUpdated": "2026-07-21T11:30:09.540Z",
+  "lastReasoning": "Exploited the favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
 }
