@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 82.69423643156907,
+  "totalValue": 82.9209080114514,
   "positions": [
     {
       "marketId": "608565",
@@ -27,35 +27,15 @@
       "costBasis": 24.735449735449738
     },
     {
-      "marketId": "2948830",
-      "question": "Will GNK Dinamo Zagreb win on 2026-07-21?",
-      "outcome": "No",
-      "shares": 5.246463206543099,
-      "avgCost": 0.9675,
-      "costBasis": 5.075953152330449
+      "marketId": "2952471",
+      "question": "Israel x Iran ceasefire continues through July 22?",
+      "outcome": "Yes",
+      "shares": 5.797196913307292,
+      "avgCost": 0.905,
+      "costBasis": 5.246463206543099
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-10T17:54:30.727Z",
-      "action": "BUY",
-      "marketId": "2829195",
-      "question": "Exact Score: Spain 1 - 2 Belgium?",
-      "outcome": "No",
-      "amount": 24.681140394551164,
-      "price": 0.955,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two highly-edged longshot NO positions, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-10T20:54:31.209Z",
-      "action": "SELL",
-      "marketId": "2829204",
-      "question": "Exact Score: Spain 3 - 2 Belgium?",
-      "outcome": "No",
-      "proceeds": 51.607883817427386,
-      "price": 0.995,
-      "reasoning": "Sold two resolved positions to reclaim cash, then initiated two new trades exploiting the favourite-longshot bias with positive edge."
-    },
     {
       "ts": "2026-07-10T20:54:31.209Z",
       "action": "SELL",
@@ -2035,8 +2015,28 @@
       "amount": 5.075953152330449,
       "price": 0.9675,
       "reasoning": "Sold a dropped position to reclaim cash and bought new positions based on positive edge from favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-21T20:50:34.244Z",
+      "action": "SELL",
+      "marketId": "2948830",
+      "question": "Will GNK Dinamo Zagreb win on 2026-07-21?",
+      "outcome": "No",
+      "proceeds": 5.246463206543099,
+      "price": 1,
+      "reasoning": "Sold a resolved position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge, adhering to maximum trade limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-21T20:50:34.244Z",
+      "action": "BUY",
+      "marketId": "2952471",
+      "question": "Israel x Iran ceasefire continues through July 22?",
+      "outcome": "Yes",
+      "amount": 5.246463206543099,
+      "price": 0.905,
+      "reasoning": "Sold a resolved position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge, adhering to maximum trade limits and avoiding averaging down."
     }
   ],
-  "lastUpdated": "2026-07-21T19:43:54.142Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and bought new positions based on positive edge from favourite-longshot bias."
+  "lastUpdated": "2026-07-21T20:50:34.244Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge, adhering to maximum trade limits and avoiding averaging down."
 }
