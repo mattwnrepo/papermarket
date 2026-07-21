@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 107.26694104711336,
+  "totalValue": 107.4064063730471,
   "positions": [
     {
       "marketId": "608565",
@@ -27,43 +27,23 @@
       "costBasis": 25
     },
     {
-      "marketId": "2243312",
-      "question": "Will Denver Nuggets win the 2027 NBA Finals?",
-      "outcome": "No",
-      "shares": 25.866177679198596,
-      "avgCost": 0.9655,
-      "costBasis": 24.973794549266245
-    },
-    {
       "marketId": "2758336",
       "question": "Will Bitcoin reach $75,000 in July?",
       "outcome": "No",
       "shares": 25.996268770835247,
       "avgCost": 0.9515,
       "costBasis": 24.735449735449738
+    },
+    {
+      "marketId": "2963626",
+      "question": "Counter-Strike: Nuclear TigeRES vs MOUZ (BO3) - BLAST Bounty Qualifier",
+      "outcome": "No",
+      "shares": 384.2122238348653,
+      "avgCost": 0.065,
+      "costBasis": 24.973794549266245
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-09T23:22:44.324Z",
-      "action": "BUY",
-      "marketId": "2744616",
-      "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.9585,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets and 'Yes' on favourite markets with positive statistical edge."
-    },
-    {
-      "ts": "2026-07-10T01:11:42.739Z",
-      "action": "SELL",
-      "marketId": "2738403",
-      "question": "Will Elon Musk post 140-159 tweets from July 3 to July 10, 2026?",
-      "outcome": "No",
-      "proceeds": 36.13894628099174,
-      "price": 0.9995,
-      "reasoning": "Sold a resolved position to reclaim cash and identified multiple BUY_NO_LONGSHOT and BUY_YES_FAVOURITE signals with positive edge."
-    },
     {
       "ts": "2026-07-10T01:11:42.739Z",
       "action": "BUY",
@@ -2043,8 +2023,28 @@
       "amount": 24.735449735449738,
       "price": 0.9515,
       "reasoning": "Exploited the favourite-longshot bias by selling a resolved position and buying into new longshot 'No' markets with positive edge."
+    },
+    {
+      "ts": "2026-07-21T16:45:09.645Z",
+      "action": "SELL",
+      "marketId": "2243312",
+      "question": "Will Denver Nuggets win the 2027 NBA Finals?",
+      "outcome": "No",
+      "proceeds": 24.973794549266245,
+      "price": 0.9655,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-21T16:45:09.645Z",
+      "action": "BUY",
+      "marketId": "2963626",
+      "question": "Counter-Strike: Nuclear TigeRES vs MOUZ (BO3) - BLAST Bounty Qualifier",
+      "outcome": "No",
+      "amount": 24.973794549266245,
+      "price": 0.065,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-21T15:10:42.332Z",
-  "lastReasoning": "No stop-loss positions to sell, and with $0.00 USDC cash, no new BUY trades can be initiated, even for markets with strong positive edge signals."
+  "lastUpdated": "2026-07-21T16:45:09.646Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
 }
