@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 107.4064063730471,
+  "totalValue": 82.9069360504572,
   "positions": [
     {
       "marketId": "608565",
@@ -19,14 +19,6 @@
       "costBasis": 3.376083405321303
     },
     {
-      "marketId": "2995866",
-      "question": "Iran invades Kuwait by August 31?",
-      "outcome": "No",
-      "shares": 25.826446280991735,
-      "avgCost": 0.968,
-      "costBasis": 25
-    },
-    {
       "marketId": "2758336",
       "question": "Will Bitcoin reach $75,000 in July?",
       "outcome": "No",
@@ -35,45 +27,15 @@
       "costBasis": 24.735449735449738
     },
     {
-      "marketId": "2963626",
-      "question": "Counter-Strike: Nuclear TigeRES vs MOUZ (BO3) - BLAST Bounty Qualifier",
+      "marketId": "2758343",
+      "question": "Will Bitcoin dip to $57,500 in July?",
       "outcome": "No",
-      "shares": 384.2122238348653,
-      "avgCost": 0.065,
-      "costBasis": 24.973794549266245
+      "shares": 25.958543635952847,
+      "avgCost": 0.9655,
+      "costBasis": 25.062973880512473
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-10T01:11:42.739Z",
-      "action": "BUY",
-      "marketId": "2783451",
-      "question": "Seattle Mariners vs. Miami Marlins",
-      "outcome": "No",
-      "amount": 39.33289025020253,
-      "price": 0.0445,
-      "reasoning": "Sold a resolved position to reclaim cash and identified multiple BUY_NO_LONGSHOT and BUY_YES_FAVOURITE signals with positive edge."
-    },
-    {
-      "ts": "2026-07-10T05:10:20.094Z",
-      "action": "SELL",
-      "marketId": "2744616",
-      "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
-      "outcome": "No",
-      "proceeds": 35.6755346896192,
-      "price": 0.977,
-      "reasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-07-10T05:10:20.094Z",
-      "action": "SELL",
-      "marketId": "2783451",
-      "question": "Seattle Mariners vs. Miami Marlins",
-      "outcome": "No",
-      "proceeds": 0,
-      "price": 0,
-      "reasoning": "Sold resolved and 'SELL_ONLY' positions to reclaim cash, then initiated new BUY trades on markets exhibiting strong favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-07-10T05:10:20.094Z",
       "action": "BUY",
@@ -2043,8 +2005,38 @@
       "amount": 24.973794549266245,
       "price": 0.065,
       "reasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-21T18:00:56.801Z",
+      "action": "SELL",
+      "marketId": "2995866",
+      "question": "Iran invades Kuwait by August 31?",
+      "outcome": "No",
+      "proceeds": 24.87086776859504,
+      "price": 0.963,
+      "reasoning": "Sold dropped positions to reclaim cash and bought new positions with the highest positive edge signals, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-21T18:00:56.801Z",
+      "action": "SELL",
+      "marketId": "2963626",
+      "question": "Counter-Strike: Nuclear TigeRES vs MOUZ (BO3) - BLAST Bounty Qualifier",
+      "outcome": "No",
+      "proceeds": 0.19210611191743265,
+      "price": 0.0005,
+      "reasoning": "Sold dropped positions to reclaim cash and bought new positions with the highest positive edge signals, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-21T18:00:56.802Z",
+      "action": "BUY",
+      "marketId": "2758343",
+      "question": "Will Bitcoin dip to $57,500 in July?",
+      "outcome": "No",
+      "amount": 25.062973880512473,
+      "price": 0.9655,
+      "reasoning": "Sold dropped positions to reclaim cash and bought new positions with the highest positive edge signals, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-21T16:45:09.646Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and then bought two new positions exploiting the favourite-longshot bias with positive edge."
+  "lastUpdated": "2026-07-21T18:00:56.802Z",
+  "lastReasoning": "Sold dropped positions to reclaim cash and bought new positions with the highest positive edge signals, exploiting the favourite-longshot bias."
 }
