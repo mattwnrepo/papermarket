@@ -1,15 +1,7 @@
 {
   "cash": 0,
-  "totalValue": 107.67957586994328,
+  "totalValue": 108.15990547968447,
   "positions": [
-    {
-      "marketId": "2633429",
-      "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
-      "outcome": "No",
-      "shares": 52.41090146750524,
-      "avgCost": 0.954,
-      "costBasis": 50
-    },
     {
       "marketId": "2977246",
       "question": "Israel closes its airspace by July 24?",
@@ -33,39 +25,25 @@
       "shares": 3.6399821081631303,
       "avgCost": 0.9275,
       "costBasis": 3.376083405321303
+    },
+    {
+      "marketId": "2995866",
+      "question": "Iran invades Kuwait by August 31?",
+      "outcome": "No",
+      "shares": 25.826446280991735,
+      "avgCost": 0.968,
+      "costBasis": 25
+    },
+    {
+      "marketId": "2243312",
+      "question": "Will Denver Nuggets win the 2027 NBA Finals?",
+      "outcome": "No",
+      "shares": 25.866177679198596,
+      "avgCost": 0.9655,
+      "costBasis": 24.973794549266245
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-08T21:51:11.870Z",
-      "action": "BUY",
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "amount": 20.24,
-      "price": 0.967,
-      "reasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with positive edge, prioritizing the highest edge given limited cash."
-    },
-    {
-      "ts": "2026-07-08T23:52:06.505Z",
-      "action": "SELL",
-      "marketId": "2507607",
-      "question": "Kharg Island no longer under Iranian control by July 31?",
-      "outcome": "No",
-      "proceeds": 20.344653567735264,
-      "price": 0.972,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-08T23:52:06.505Z",
-      "action": "BUY",
-      "marketId": "2804884",
-      "question": "Exact Score: France 1 - 2 Morocco?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.9605,
-      "reasoning": "Sold a resolved position to reclaim cash and then bought into two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-09T22:05:11.522Z",
       "action": "SELL",
@@ -2035,8 +2013,38 @@
       "amount": 3.376083405321303,
       "price": 0.9275,
       "reasoning": "Identified two BUY_NO_LONGSHOT signals with positive edge, respecting the maximum trade limit and avoiding averaging down into existing losing positions."
+    },
+    {
+      "ts": "2026-07-21T09:41:53.171Z",
+      "action": "SELL",
+      "marketId": "2633429",
+      "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
+      "outcome": "No",
+      "proceeds": 49.973794549266245,
+      "price": 0.9535,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-21T09:41:53.171Z",
+      "action": "BUY",
+      "marketId": "2995866",
+      "question": "Iran invades Kuwait by August 31?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.968,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
+    },
+    {
+      "ts": "2026-07-21T09:41:53.171Z",
+      "action": "BUY",
+      "marketId": "2243312",
+      "question": "Will Denver Nuggets win the 2027 NBA Finals?",
+      "outcome": "No",
+      "amount": 24.973794549266245,
+      "price": 0.9655,
+      "reasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
     }
   ],
-  "lastUpdated": "2026-07-21T07:14:51.470Z",
-  "lastReasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with positive edge, avoiding markets where positions already exist or edge is negative, and adhering to maximum trade limits."
+  "lastUpdated": "2026-07-21T09:41:53.171Z",
+  "lastReasoning": "Exploited favourite-longshot bias by selling a dropped position to free up cash, then buying into new high-edge longshot NO markets and a favourite YES market, adhering to trade limits and avoiding averaging down."
 }
