@@ -1,15 +1,7 @@
 {
-  "cash": 0,
-  "totalValue": 83.43266576223598,
+  "cash": 0.8019492253068421,
+  "totalValue": 82.82867378738909,
   "positions": [
-    {
-      "marketId": "608565",
-      "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "shares": 52.34046161356473,
-      "avgCost": 0.9552838943063856,
-      "costBasis": 50
-    },
     {
       "marketId": "1654959",
       "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
@@ -33,39 +25,25 @@
       "shares": 6.166442335928253,
       "avgCost": 0.9095,
       "costBasis": 5.608379304526746
+    },
+    {
+      "marketId": "2243301",
+      "question": "Will Cleveland Cavaliers win the 2027 NBA Finals?",
+      "outcome": "No",
+      "shares": 25.92016588906169,
+      "avgCost": 0.9645,
+      "costBasis": 25
+    },
+    {
+      "marketId": "2937524",
+      "question": "US x Iran Effective Ceasefire by July 24?",
+      "outcome": "No",
+      "shares": 26.229508196721312,
+      "avgCost": 0.915,
+      "costBasis": 24
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T09:50:31.329Z",
-      "action": "SELL",
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "proceeds": 15.40231856260211,
-      "price": 0.962,
-      "reasoning": "Sold a dropped position to reclaim cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T09:50:31.329Z",
-      "action": "BUY",
-      "marketId": "2815476",
-      "question": "Exact Score: Norway 2 - 0 England?",
-      "outcome": "No",
-      "amount": 15.40231856260211,
-      "price": 0.9655,
-      "reasoning": "Sold a dropped position to reclaim cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T17:18:05.127Z",
-      "action": "SELL",
-      "marketId": "1654958",
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "outcome": "Yes",
-      "proceeds": 85.63636363636364,
-      "price": 0.785,
-      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-11T17:18:05.127Z",
       "action": "BUY",
@@ -2035,8 +2013,38 @@
       "amount": 5.608379304526746,
       "price": 0.9095,
       "reasoning": "Sold a profitable existing position to free up cash, then initiated new BUY trades on favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-22T13:04:55.946Z",
+      "action": "SELL",
+      "marketId": "608565",
+      "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "proceeds": 49.80194922530684,
+      "price": 0.9515,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-22T13:04:55.946Z",
+      "action": "BUY",
+      "marketId": "2243301",
+      "question": "Will Cleveland Cavaliers win the 2027 NBA Finals?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-22T13:04:55.946Z",
+      "action": "BUY",
+      "marketId": "2937524",
+      "question": "US x Iran Effective Ceasefire by July 24?",
+      "outcome": "No",
+      "amount": 24,
+      "price": 0.915,
+      "reasoning": "Sold a dropped position to free up cash, then bought two new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-22T11:31:39.391Z",
-  "lastReasoning": "No trades were executed due to having $0.00 USDC cash available for new positions."
+  "lastUpdated": "2026-07-22T13:04:55.947Z",
+  "lastReasoning": "Sold a dropped position to free up cash, then bought two new positions exploiting the favourite-longshot bias with positive edge."
 }
