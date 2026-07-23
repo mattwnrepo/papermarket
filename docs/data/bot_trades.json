@@ -1,6 +1,6 @@
 {
-  "cash": 0.8019492253068421,
-  "totalValue": 81.3919374715971,
+  "cash": 0,
+  "totalValue": 81.32465931217277,
   "positions": [
     {
       "marketId": "1654959",
@@ -27,53 +27,23 @@
       "costBasis": 5.608379304526746
     },
     {
-      "marketId": "2243301",
-      "question": "Will Cleveland Cavaliers win the 2027 NBA Finals?",
-      "outcome": "No",
-      "shares": 25.92016588906169,
-      "avgCost": 0.9645,
-      "costBasis": 25
-    },
-    {
       "marketId": "2937524",
       "question": "US x Iran Effective Ceasefire by July 24?",
       "outcome": "No",
-      "shares": 26.229508196721312,
-      "avgCost": 0.915,
-      "costBasis": 24
+      "shares": 47.00872897594209,
+      "avgCost": 0.9359963768115942,
+      "costBasis": 44
+    },
+    {
+      "marketId": "2677861",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in July?",
+      "outcome": "No",
+      "shares": 6.046846508918022,
+      "avgCost": 0.9595,
+      "costBasis": 5.801949225306842
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T17:18:05.127Z",
-      "action": "BUY",
-      "marketId": "2815487",
-      "question": "Exact Score: Norway 3 - 2 England?",
-      "outcome": "No",
-      "amount": 42,
-      "price": 0.9685,
-      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T17:18:05.127Z",
-      "action": "BUY",
-      "marketId": "2815476",
-      "question": "Exact Score: Norway 2 - 0 England?",
-      "outcome": "No",
-      "amount": 42,
-      "price": 0.963,
-      "reasoning": "Sold a dropped position to free up cash, then bought into two longshot 'No' markets with the highest positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T18:10:31.258Z",
-      "action": "BUY",
-      "marketId": "2815487",
-      "question": "Exact Score: Norway 3 - 2 England?",
-      "outcome": "No",
-      "amount": 1.6363636363636402,
-      "price": 0.9685,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'NO' on longshots and 'YES' on favourites with positive edge, prioritizing higher edge trades within cash limits."
-    },
     {
       "ts": "2026-07-11T19:34:41.273Z",
       "action": "SELL",
@@ -2043,8 +2013,38 @@
       "amount": 24,
       "price": 0.915,
       "reasoning": "Sold a dropped position to free up cash, then bought two new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-23T04:37:53.378Z",
+      "action": "SELL",
+      "marketId": "2243301",
+      "question": "Will Cleveland Cavaliers win the 2027 NBA Finals?",
+      "outcome": "No",
+      "proceeds": 25,
+      "price": 0.9645,
+      "reasoning": "Sold a dropped position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-23T04:37:53.378Z",
+      "action": "BUY",
+      "marketId": "2937524",
+      "question": "US x Iran Effective Ceasefire by July 24?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.9625,
+      "reasoning": "Sold a dropped position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-23T04:37:53.378Z",
+      "action": "BUY",
+      "marketId": "2677861",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in July?",
+      "outcome": "No",
+      "amount": 5.801949225306842,
+      "price": 0.9595,
+      "reasoning": "Sold a dropped position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-23T01:16:11.964Z",
-  "lastReasoning": "Exploited favourite-longshot bias by buying 'No' on longshot markets with positive edge, avoiding markets where positions already exist."
+  "lastUpdated": "2026-07-23T04:37:53.379Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge."
 }
