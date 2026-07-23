@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 81.46090599214081,
+  "totalValue": 79.6878461661575,
   "positions": [
     {
       "marketId": "1654959",
@@ -35,35 +35,15 @@
       "costBasis": 44
     },
     {
-      "marketId": "2677861",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in July?",
+      "marketId": "3017888",
+      "question": "Livesport Prague Open: Mai Hontama vs Lilli Tagger",
       "outcome": "No",
-      "shares": 6.046846508918022,
-      "avgCost": 0.9595,
-      "costBasis": 5.801949225306842
+      "shares": 161.34085912431266,
+      "avgCost": 0.033,
+      "costBasis": 5.324248351102318
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T19:34:41.273Z",
-      "action": "SELL",
-      "marketId": "2815487",
-      "question": "Exact Score: Norway 3 - 2 England?",
-      "outcome": "No",
-      "proceeds": 43.794058290702594,
-      "price": 0.972,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T19:34:41.273Z",
-      "action": "BUY",
-      "marketId": "2815486",
-      "question": "Exact Score: Norway 2 - 3 England?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.9565,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-11T19:34:41.273Z",
       "action": "BUY",
@@ -2043,8 +2023,28 @@
       "amount": 5.801949225306842,
       "price": 0.9595,
       "reasoning": "Sold a dropped position to reclaim cash and bought new positions exploiting the favourite-longshot bias with positive edge."
+    },
+    {
+      "ts": "2026-07-23T14:24:31.889Z",
+      "action": "SELL",
+      "marketId": "2677861",
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in July?",
+      "outcome": "No",
+      "proceeds": 5.324248351102318,
+      "price": 0.8805,
+      "reasoning": "Sold a dropped position to reclaim cash and opened new positions on favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-23T14:24:31.889Z",
+      "action": "BUY",
+      "marketId": "3017888",
+      "question": "Livesport Prague Open: Mai Hontama vs Lilli Tagger",
+      "outcome": "No",
+      "amount": 5.324248351102318,
+      "price": 0.033,
+      "reasoning": "Sold a dropped position to reclaim cash and opened new positions on favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-23T11:56:21.939Z",
-  "lastReasoning": "Holding cash due to insufficient funds to make new trades, despite strong signals identified."
+  "lastUpdated": "2026-07-23T14:24:31.889Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and opened new positions on favourite-longshot bias signals with positive edge."
 }
