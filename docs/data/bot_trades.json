@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 79.6878461661575,
+  "totalValue": 75.37641075989279,
   "positions": [
     {
       "marketId": "1654959",
@@ -33,27 +33,9 @@
       "shares": 47.00872897594209,
       "avgCost": 0.9359963768115942,
       "costBasis": 44
-    },
-    {
-      "marketId": "3017888",
-      "question": "Livesport Prague Open: Mai Hontama vs Lilli Tagger",
-      "outcome": "No",
-      "shares": 161.34085912431266,
-      "avgCost": 0.033,
-      "costBasis": 5.324248351102318
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T19:34:41.273Z",
-      "action": "BUY",
-      "marketId": "2815570",
-      "question": "Spread: England (-3.5)",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.03375,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two longshot 'No' outcomes with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-11T21:25:54.611Z",
       "action": "SELL",
@@ -2043,8 +2025,18 @@
       "amount": 5.324248351102318,
       "price": 0.033,
       "reasoning": "Sold a dropped position to reclaim cash and opened new positions on favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-23T16:09:39.696Z",
+      "action": "SELL",
+      "marketId": "3017888",
+      "question": "Livesport Prague Open: Mai Hontama vs Lilli Tagger",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-23T14:24:31.889Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and opened new positions on favourite-longshot bias signals with positive edge."
+  "lastUpdated": "2026-07-23T16:09:39.696Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and then bought two new favourite-longshot bias signals with positive edge."
 }
