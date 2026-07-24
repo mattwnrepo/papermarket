@@ -1,6 +1,6 @@
 {
   "cash": 0.7903500946323199,
-  "totalValue": 76.34180336296973,
+  "totalValue": 75.56492508429342,
   "positions": [
     {
       "marketId": "1654959",
@@ -27,43 +27,23 @@
       "costBasis": 5.608379304526746
     },
     {
-      "marketId": "608565",
-      "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
-      "outcome": "No",
-      "shares": 20.80083203328133,
-      "avgCost": 0.9615,
-      "costBasis": 20
-    },
-    {
       "marketId": "2977246",
       "question": "Israel closes its airspace by July 24?",
       "outcome": "No",
       "shares": 25.89331952356292,
       "avgCost": 0.9655,
       "costBasis": 25
+    },
+    {
+      "marketId": "3030558",
+      "question": "Bitcoin Up or Down on July 24?",
+      "outcome": "No",
+      "shares": 533.3333333333334,
+      "avgCost": 0.0375,
+      "costBasis": 20
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T23:31:42.176Z",
-      "action": "BUY",
-      "marketId": "2844091",
-      "question": "Exact Score: Argentina 3 - 1 Switzerland?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.945,
-      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-12T01:07:13.572Z",
-      "action": "BUY",
-      "marketId": "2844086",
-      "question": "Exact Score: Argentina 2 - 1 Switzerland?",
-      "outcome": "No",
-      "amount": 25.66,
-      "price": 0.895,
-      "reasoning": "Exploiting the favourite-longshot bias by buying 'No' on an overpriced longshot with a positive edge, using available cash for a single trade."
-    },
     {
       "ts": "2026-07-12T04:34:11.423Z",
       "action": "SELL",
@@ -2043,8 +2023,28 @@
       "amount": 25,
       "price": 0.9655,
       "reasoning": "Sold a dropped position to reclaim cash, then bought two new longshot positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-24T14:15:38.827Z",
+      "action": "SELL",
+      "marketId": "608565",
+      "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
+      "outcome": "No",
+      "proceeds": 20,
+      "price": 0.9615,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought a longshot 'No' position with a positive edge, following the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-07-24T14:15:38.827Z",
+      "action": "BUY",
+      "marketId": "3030558",
+      "question": "Bitcoin Up or Down on July 24?",
+      "outcome": "No",
+      "amount": 20,
+      "price": 0.0375,
+      "reasoning": "Sold a dropped position to reclaim cash and then bought a longshot 'No' position with a positive edge, following the favourite-longshot bias strategy."
     }
   ],
-  "lastUpdated": "2026-07-24T12:08:02.071Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash, then bought two new longshot positions with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-24T14:15:38.827Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash and then bought a longshot 'No' position with a positive edge, following the favourite-longshot bias strategy."
 }
