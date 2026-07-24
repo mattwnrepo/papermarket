@@ -1,6 +1,6 @@
 {
-  "cash": 5.749049113734024,
-  "totalValue": 76.10809829602536,
+  "cash": 0.7903500946323199,
+  "totalValue": 76.34180336296973,
   "positions": [
     {
       "marketId": "1654959",
@@ -35,35 +35,15 @@
       "costBasis": 20
     },
     {
-      "marketId": "2758337",
-      "question": "Will Bitcoin reach $72,500 in July?",
+      "marketId": "2977246",
+      "question": "Israel closes its airspace by July 24?",
       "outcome": "No",
-      "shares": 20.650490449148165,
-      "avgCost": 0.9685,
-      "costBasis": 20
+      "shares": 25.89331952356292,
+      "avgCost": 0.9655,
+      "costBasis": 25
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-11T23:31:42.176Z",
-      "action": "SELL",
-      "marketId": "2815565",
-      "question": "Spread: Norway (-1.5)",
-      "outcome": "No",
-      "proceeds": 0.7575757575757576,
-      "price": 0.00125,
-      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-11T23:31:42.176Z",
-      "action": "BUY",
-      "marketId": "2176262",
-      "question": "Strait of Hormuz traffic returns to normal by July 31?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.945,
-      "reasoning": "Sold existing profitable positions and an unavailable market to reclaim cash, then initiated new BUY_NO_LONGSHOT trades with positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-11T23:31:42.176Z",
       "action": "BUY",
@@ -2043,8 +2023,28 @@
       "amount": 20,
       "price": 0.9685,
       "reasoning": "Sold two dropped positions to reclaim cash, then bought two new positions with the highest positive edge from BUY_NO_LONGSHOT signals, adhering to the cash limits and trade count."
+    },
+    {
+      "ts": "2026-07-24T12:08:02.070Z",
+      "action": "SELL",
+      "marketId": "2758337",
+      "question": "Will Bitcoin reach $72,500 in July?",
+      "outcome": "No",
+      "proceeds": 20.041300980898296,
+      "price": 0.9705,
+      "reasoning": "Sold a dropped position to reclaim cash, then bought two new longshot positions with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-24T12:08:02.070Z",
+      "action": "BUY",
+      "marketId": "2977246",
+      "question": "Israel closes its airspace by July 24?",
+      "outcome": "No",
+      "amount": 25,
+      "price": 0.9655,
+      "reasoning": "Sold a dropped position to reclaim cash, then bought two new longshot positions with positive edge to exploit the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-24T10:49:28.997Z",
-  "lastReasoning": "Sold two dropped positions to reclaim cash, then bought two new positions with the highest positive edge from BUY_NO_LONGSHOT signals, adhering to the cash limits and trade count."
+  "lastUpdated": "2026-07-24T12:08:02.071Z",
+  "lastReasoning": "Sold a dropped position to reclaim cash, then bought two new longshot positions with positive edge to exploit the favourite-longshot bias."
 }
