@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 30.160567638627047,
+  "totalValue": 30.676840811843377,
   "positions": [
     {
       "marketId": "1654959",
@@ -19,35 +19,15 @@
       "costBasis": 25
     },
     {
-      "marketId": "2730676",
-      "question": "Iran leadership change by July 31?",
+      "marketId": "2911873",
+      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
       "outcome": "No",
-      "shares": 6.339315476250053,
-      "avgCost": 0.9515,
-      "costBasis": 6.031858675651925
+      "shares": 6.437599437122146,
+      "avgCost": 0.9675,
+      "costBasis": 6.228377455415677
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-12T09:18:46.824Z",
-      "action": "BUY",
-      "marketId": "2555350",
-      "question": "Israel closes its airspace by July 15?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.962,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-12T09:18:46.824Z",
-      "action": "BUY",
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.9635,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-12T14:17:31.663Z",
       "action": "BUY",
@@ -2027,8 +2007,28 @@
       "proceeds": 0,
       "price": 0,
       "reasoning": "Sold a resolved position to reclaim cash and initiated two new BUY_NO_LONGSHOT trades with positive edge, adhering to the favourite-longshot bias strategy."
+    },
+    {
+      "ts": "2026-07-25T10:11:13.660Z",
+      "action": "SELL",
+      "marketId": "2730676",
+      "question": "Iran leadership change by July 31?",
+      "outcome": "No",
+      "proceeds": 6.228377455415677,
+      "price": 0.9825,
+      "reasoning": "Sold a profitable existing position to reclaim cash, then initiated two new BUY trades on strong favourite-longshot bias signals with positive edge and highest edge values."
+    },
+    {
+      "ts": "2026-07-25T10:11:13.661Z",
+      "action": "BUY",
+      "marketId": "2911873",
+      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
+      "outcome": "No",
+      "amount": 6.228377455415677,
+      "price": 0.9675,
+      "reasoning": "Sold a profitable existing position to reclaim cash, then initiated two new BUY trades on strong favourite-longshot bias signals with positive edge and highest edge values."
     }
   ],
-  "lastUpdated": "2026-07-25T08:33:06.647Z",
-  "lastReasoning": "Exploiting the favourite-longshot bias, I initiated new BUY NO trades on longshot markets with positive statistical edge."
+  "lastUpdated": "2026-07-25T10:11:13.661Z",
+  "lastReasoning": "Sold a profitable existing position to reclaim cash, then initiated two new BUY trades on strong favourite-longshot bias signals with positive edge and highest edge values."
 }
