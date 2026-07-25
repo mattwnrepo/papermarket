@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 31.473306293109175,
+  "totalValue": 31.776002871327883,
   "positions": [
     {
       "marketId": "1654959",
@@ -19,35 +19,15 @@
       "costBasis": 25
     },
     {
-      "marketId": "2643400",
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
+      "marketId": "2884698",
+      "question": "LoL: FlyQuest vs LYON - Game 1 Winner",
       "outcome": "No",
-      "shares": 6.447564761328218,
-      "avgCost": 0.969,
-      "costBasis": 6.247690253727043
+      "shares": 178.78176002482957,
+      "avgCost": 0.035,
+      "costBasis": 6.257361600869036
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-12T17:28:06.826Z",
-      "action": "BUY",
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.9645,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought two new 'No' longshot positions with positive edge, exploiting the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-12T18:30:08.572Z",
-      "action": "SELL",
-      "marketId": "2034729",
-      "question": "Will the US confirm that aliens exist by September 30?",
-      "outcome": "No",
-      "proceeds": 20,
-      "price": 0.9645,
-      "reasoning": "Sold a dropped position to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-07-12T18:30:08.572Z",
       "action": "BUY",
@@ -2027,8 +2007,28 @@
       "amount": 3.1276902537270432,
       "price": 0.969,
       "reasoning": "Sold a dropped position to reclaim cash and then initiated two new BUY trades on markets exhibiting a positive favourite-longshot bias, specifically buying 'No' on longshots with positive edge."
+    },
+    {
+      "ts": "2026-07-25T20:34:26.275Z",
+      "action": "SELL",
+      "marketId": "2643400",
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
+      "outcome": "No",
+      "proceeds": 6.257361600869036,
+      "price": 0.9705,
+      "reasoning": "Sold a resolved position to reclaim cash, then initiated two new BUY trades on markets showing positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-25T20:34:26.275Z",
+      "action": "BUY",
+      "marketId": "2884698",
+      "question": "LoL: FlyQuest vs LYON - Game 1 Winner",
+      "outcome": "No",
+      "amount": 6.257361600869036,
+      "price": 0.035,
+      "reasoning": "Sold a resolved position to reclaim cash, then initiated two new BUY trades on markets showing positive edge from the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-25T19:46:40.492Z",
-  "lastReasoning": "Sold a dropped position to reclaim cash and then initiated two new BUY trades on markets exhibiting a positive favourite-longshot bias, specifically buying 'No' on longshots with positive edge."
+  "lastUpdated": "2026-07-25T20:34:26.275Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash, then initiated two new BUY trades on markets showing positive edge from the favourite-longshot bias."
 }
