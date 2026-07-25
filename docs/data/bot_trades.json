@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 31.776002871327883,
+  "cash": 0.08939088001241478,
+  "totalValue": 25.6662725664513,
   "positions": [
     {
       "marketId": "1654959",
@@ -17,27 +17,9 @@
       "shares": 29.120559114735002,
       "avgCost": 0.8585,
       "costBasis": 25
-    },
-    {
-      "marketId": "2884698",
-      "question": "LoL: FlyQuest vs LYON - Game 1 Winner",
-      "outcome": "No",
-      "shares": 178.78176002482957,
-      "avgCost": 0.035,
-      "costBasis": 6.257361600869036
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-12T18:30:08.572Z",
-      "action": "BUY",
-      "marketId": "567621",
-      "question": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "amount": 20.08294528624778,
-      "price": 0.9615,
-      "reasoning": "Sold a dropped position to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-07-13T01:07:48.386Z",
       "action": "SELL",
@@ -2027,8 +2009,18 @@
       "amount": 6.257361600869036,
       "price": 0.035,
       "reasoning": "Sold a resolved position to reclaim cash, then initiated two new BUY trades on markets showing positive edge from the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-25T21:29:11.983Z",
+      "action": "SELL",
+      "marketId": "2884698",
+      "question": "LoL: FlyQuest vs LYON - Game 1 Winner",
+      "outcome": "No",
+      "proceeds": 0.08939088001241478,
+      "price": 0.0005,
+      "reasoning": "Sold a dropped market to reclaim cash, then bought two favourable longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-07-25T20:34:26.275Z",
-  "lastReasoning": "Sold a resolved position to reclaim cash, then initiated two new BUY trades on markets showing positive edge from the favourite-longshot bias."
+  "lastUpdated": "2026-07-25T21:29:11.984Z",
+  "lastReasoning": "Sold a dropped market to reclaim cash, then bought two favourable longshot bias signals with positive edge."
 }
