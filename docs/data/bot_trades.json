@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 50.10903543005383,
+  "totalValue": 29.99384190497757,
   "positions": [
     {
       "marketId": "1654959",
@@ -19,14 +19,6 @@
       "costBasis": 25
     },
     {
-      "marketId": "3069264",
-      "question": "New York Yankees vs. Philadelphia Phillies: O/U 7.5",
-      "outcome": "No",
-      "shares": 645.1612903225806,
-      "avgCost": 0.031,
-      "costBasis": 20
-    },
-    {
       "marketId": "2730676",
       "question": "Iran leadership change by July 31?",
       "outcome": "No",
@@ -36,16 +28,6 @@
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-12T09:18:46.823Z",
-      "action": "SELL",
-      "marketId": "2874930",
-      "question": "Iran commits not to attack ships in Hormuz by Sunday?",
-      "outcome": "No",
-      "proceeds": 20.06188757091284,
-      "price": 0.9725,
-      "reasoning": "Sold a dropped position to reclaim cash and then bought into two longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-12T09:18:46.824Z",
       "action": "BUY",
@@ -2035,8 +2017,18 @@
       "amount": 6.031858675651925,
       "price": 0.9515,
       "reasoning": "Sold a dropped position for cash and initiated new BUY trades on favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-07-25T04:21:19.597Z",
+      "action": "SELL",
+      "marketId": "3069264",
+      "question": "New York Yankees vs. Philadelphia Phillies: O/U 7.5",
+      "outcome": "No",
+      "proceeds": 0,
+      "price": 0,
+      "reasoning": "Sold a resolved position to reclaim cash and initiated two new BUY_NO_LONGSHOT trades with positive edge, adhering to the favourite-longshot bias strategy."
     }
   ],
-  "lastUpdated": "2026-07-25T01:06:13.581Z",
-  "lastReasoning": "Sold a dropped position for cash and initiated new BUY trades on favourite-longshot bias signals with positive edge."
+  "lastUpdated": "2026-07-25T04:21:19.597Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash and initiated two new BUY_NO_LONGSHOT trades with positive edge, adhering to the favourite-longshot bias strategy."
 }
