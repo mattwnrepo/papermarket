@@ -1,92 +1,70 @@
 {
   "markets": [
     {
-      "id": "3082219",
-      "question": "Generali Open: Alexander Bublik vs Quentin Halys",
-      "category": "General",
-      "endDate": "2026-08-01T11:00:00Z",
-      "yesPrice": 0.195,
-      "outcomes": [
-        {
-          "id": "3082219-0",
-          "title": "Alexander Bublik",
-          "price": 0.195
-        },
-        {
-          "id": "3082219-1",
-          "title": "Quentin Halys",
-          "price": 0.805
-        }
-      ],
-      "volume": 1239571.0166859978,
-      "liquidity": 108195.8805,
-      "lastUpdated": "2026-07-25T12:46:25.240Z"
-    },
-    {
-      "id": "1654958",
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.7485,
-      "outcomes": [
-        {
-          "id": "1654958-0",
-          "title": "Yes",
-          "price": 0.7485
-        },
-        {
-          "id": "1654958-1",
-          "title": "No",
-          "price": 0.2515
-        }
-      ],
-      "volume": 27265479.9498007,
-      "liquidity": 389865.51367,
-      "lastUpdated": "2026-07-25T12:46:25.240Z"
-    },
-    {
-      "id": "2937007",
-      "question": "LoL: Top Esports vs ThunderTalk Gaming - Game 1 Winner",
+      "id": "2937047",
+      "question": "LoL: Top Esports vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
       "category": "General",
       "endDate": "2026-07-25T18:10:00Z",
-      "yesPrice": 0.245,
+      "yesPrice": 0.605,
       "outcomes": [
         {
-          "id": "2937007-0",
+          "id": "2937047-0",
           "title": "Top Esports",
-          "price": 0.245
+          "price": 0.605
         },
         {
-          "id": "2937007-1",
+          "id": "2937047-1",
           "title": "ThunderTalk Gaming",
-          "price": 0.755
+          "price": 0.395
         }
       ],
-      "volume": 840210.1410669992,
-      "liquidity": 15527.4697,
-      "lastUpdated": "2026-07-25T12:46:25.240Z"
+      "volume": 1214124.0771480002,
+      "liquidity": 137230.8401,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "665374",
       "question": "Will the U.S. invade Iran before 2027?",
       "category": "General",
       "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.275,
+      "yesPrice": 0.265,
       "outcomes": [
         {
           "id": "665374-0",
           "title": "Yes",
-          "price": 0.275
+          "price": 0.265
         },
         {
           "id": "665374-1",
           "title": "No",
-          "price": 0.725
+          "price": 0.735
         }
       ],
-      "volume": 47423756.629951686,
-      "liquidity": 759299.3299,
-      "lastUpdated": "2026-07-25T12:46:25.240Z"
+      "volume": 47488806.961292684,
+      "liquidity": 550990.4644,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "1654958",
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-07-29T00:00:00Z",
+      "yesPrice": 0.7495,
+      "outcomes": [
+        {
+          "id": "1654958-0",
+          "title": "Yes",
+          "price": 0.7495
+        },
+        {
+          "id": "1654958-1",
+          "title": "No",
+          "price": 0.2505
+        }
+      ],
+      "volume": 27287427.93848071,
+      "liquidity": 315929.19054,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "2884951",
@@ -106,9 +84,53 @@
           "price": 0.515
         }
       ],
-      "volume": 597902.431697,
-      "liquidity": 146193.38,
-      "lastUpdated": "2026-07-25T12:46:25.240Z"
+      "volume": 648293.451358,
+      "liquidity": 106045.1418,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "3092706",
+      "question": "Counter-Strike: Liquid vs G2 (BO3) - BLAST Bounty Qualifier",
+      "category": "General",
+      "endDate": "2026-07-25T18:55:00Z",
+      "yesPrice": 0.865,
+      "outcomes": [
+        {
+          "id": "3092706-0",
+          "title": "Liquid",
+          "price": 0.865
+        },
+        {
+          "id": "3092706-1",
+          "title": "G2",
+          "price": 0.135
+        }
+      ],
+      "volume": 639167.4703829997,
+      "liquidity": 120100.5429,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "3081988",
+      "question": "Hamburg European Open: Elina Avanesyan vs Anna Bondar",
+      "category": "General",
+      "endDate": "2026-08-01T12:00:00Z",
+      "yesPrice": 0.2255,
+      "outcomes": [
+        {
+          "id": "3081988-0",
+          "title": "Elina Avanesyan",
+          "price": 0.2255
+        },
+        {
+          "id": "3081988-1",
+          "title": "Anna Bondar",
+          "price": 0.7745
+        }
+      ],
+      "volume": 543709.020544,
+      "liquidity": 198434.71868,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "3044546",
@@ -128,185 +150,185 @@
           "price": 0.065
         }
       ],
-      "volume": 393906.83006299986,
-      "liquidity": 62283.7961,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 435193.2581619998,
+      "liquidity": 65943.8518,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "2885074",
+      "question": "UFC Fight Night: Brendson Ribeiro vs. Magomed Tuchalov (Light Heavyweight, Prelims)",
+      "category": "General",
+      "endDate": "2026-07-26T03:59:59.999Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "2885074-0",
+          "title": "Brendson Ribeiro",
+          "price": 0.425
+        },
+        {
+          "id": "2885074-1",
+          "title": "Magomed Tuchalov",
+          "price": 0.575
+        }
+      ],
+      "volume": 376460.5416649998,
+      "liquidity": 5797.5807,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "2948596",
       "question": "Will Trump meet with Netanyahu by July 31, 2026?",
       "category": "General",
       "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.947,
+      "yesPrice": 0.9605,
       "outcomes": [
         {
           "id": "2948596-0",
           "title": "Yes",
-          "price": 0.947
+          "price": 0.9605
         },
         {
           "id": "2948596-1",
           "title": "No",
-          "price": 0.053
+          "price": 0.0395
         }
       ],
-      "volume": 421631.5232169989,
-      "liquidity": 59292.18975,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "3082135",
-      "question": "Livesport Prague Open: Tereza Valentova vs Daria Snigur",
-      "category": "General",
-      "endDate": "2026-08-01T11:30:00Z",
-      "yesPrice": 0.26,
-      "outcomes": [
-        {
-          "id": "3082135-0",
-          "title": "Tereza Valentova",
-          "price": 0.26
-        },
-        {
-          "id": "3082135-1",
-          "title": "Daria Snigur",
-          "price": 0.74
-        }
-      ],
-      "volume": 316380.99295700016,
-      "liquidity": 83201.5624,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "3092706",
-      "question": "Counter-Strike: Liquid vs G2 (BO3) - BLAST Bounty Qualifier",
-      "category": "General",
-      "endDate": "2026-07-25T18:30:00Z",
-      "yesPrice": 0.345,
-      "outcomes": [
-        {
-          "id": "3092706-0",
-          "title": "Liquid",
-          "price": 0.345
-        },
-        {
-          "id": "3092706-1",
-          "title": "G2",
-          "price": 0.655
-        }
-      ],
-      "volume": 304838.23998699925,
-      "liquidity": 109260.5211,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 426876.72562699893,
+      "liquidity": 66878.47699,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "2952486",
       "question": "Israel x Iran ceasefire continues through July 31?",
       "category": "General",
       "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.785,
+      "yesPrice": 0.825,
       "outcomes": [
         {
           "id": "2952486-0",
           "title": "Yes",
-          "price": 0.785
+          "price": 0.825
         },
         {
           "id": "2952486-1",
           "title": "No",
-          "price": 0.215
+          "price": 0.175
         }
       ],
-      "volume": 927586.7736129975,
-      "liquidity": 47860.095,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 938164.136175997,
+      "liquidity": 38424.3992,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
-      "id": "2911873",
-      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
+      "id": "3092699",
+      "question": "Counter-Strike: Liquid vs G2 - Map 2 Winner",
       "category": "General",
-      "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.03,
+      "endDate": "2026-07-25T18:55:00Z",
+      "yesPrice": 0.795,
       "outcomes": [
         {
-          "id": "2911873-0",
-          "title": "Yes",
-          "price": 0.03
+          "id": "3092699-0",
+          "title": "Liquid",
+          "price": 0.795
         },
         {
-          "id": "2911873-1",
-          "title": "No",
-          "price": 0.97
+          "id": "3092699-1",
+          "title": "G2",
+          "price": 0.205
         }
       ],
-      "volume": 851056.0290270005,
-      "liquidity": 207084.57996,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "1654959",
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-07-29T00:00:00Z",
-      "yesPrice": 0.2485,
-      "outcomes": [
-        {
-          "id": "1654959-0",
-          "title": "Yes",
-          "price": 0.2485
-        },
-        {
-          "id": "1654959-1",
-          "title": "No",
-          "price": 0.7515
-        }
-      ],
-      "volume": 18386218.67459967,
-      "liquidity": 427365.67919,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 238417.3465779998,
+      "liquidity": 85316.9557,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "2243308",
       "question": "Will Philadelphia 76ers win the 2027 NBA Finals?",
       "category": "General",
       "endDate": "2027-07-01T00:00:00Z",
-      "yesPrice": 0.134,
+      "yesPrice": 0.1345,
       "outcomes": [
         {
           "id": "2243308-0",
           "title": "Yes",
-          "price": 0.134
+          "price": 0.1345
         },
         {
           "id": "2243308-1",
           "title": "No",
-          "price": 0.866
+          "price": 0.8655
         }
       ],
-      "volume": 690644.0555749998,
-      "liquidity": 204067.34115,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 710774.0730459999,
+      "liquidity": 193849.15689,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
-      "id": "2937047",
-      "question": "LoL: Top Esports vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
+      "id": "1654959",
+      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
       "category": "General",
-      "endDate": "2026-07-25T18:10:00Z",
-      "yesPrice": 0.61,
+      "endDate": "2026-07-29T00:00:00Z",
+      "yesPrice": 0.2475,
       "outcomes": [
         {
-          "id": "2937047-0",
-          "title": "Top Esports",
-          "price": 0.61
+          "id": "1654959-0",
+          "title": "Yes",
+          "price": 0.2475
         },
         {
-          "id": "2937047-1",
-          "title": "ThunderTalk Gaming",
-          "price": 0.39
+          "id": "1654959-1",
+          "title": "No",
+          "price": 0.7525
         }
       ],
-      "volume": 214223.42716500018,
-      "liquidity": 55011.2384,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 18390907.403013673,
+      "liquidity": 358253.70822,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "3092717",
+      "question": "Counter-Strike: HOTU vs Astralis (BO3) - BLAST Bounty Qualifier",
+      "category": "General",
+      "endDate": "2026-07-25T21:00:00Z",
+      "yesPrice": 0.415,
+      "outcomes": [
+        {
+          "id": "3092717-0",
+          "title": "HOTU",
+          "price": 0.415
+        },
+        {
+          "id": "3092717-1",
+          "title": "Astralis",
+          "price": 0.585
+        }
+      ],
+      "volume": 220854.30428299998,
+      "liquidity": 147721.8269,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
+    },
+    {
+      "id": "3082154",
+      "question": "Zug: Thiago Seyboth Wild vs Dylan Dietrich",
+      "category": "General",
+      "endDate": "2026-08-01T13:00:00Z",
+      "yesPrice": 0.755,
+      "outcomes": [
+        {
+          "id": "3082154-0",
+          "title": "Thiago Seyboth Wild",
+          "price": 0.755
+        },
+        {
+          "id": "3082154-1",
+          "title": "Dylan Dietrich",
+          "price": 0.245
+        }
+      ],
+      "volume": 209566.20017299982,
+      "liquidity": 288925.6154,
+      "lastUpdated": "2026-07-25T14:20:13.062Z"
     },
     {
       "id": "2907083",
@@ -326,229 +348,251 @@
           "price": 0.555
         }
       ],
-      "volume": 243255.71306000018,
-      "liquidity": 105042.361,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 250335.0393940002,
+      "liquidity": 114670.0057,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2555351",
       "question": "Israel closes its airspace by July 31?",
       "category": "General",
       "endDate": "2026-07-31T00:00:00Z",
-      "yesPrice": 0.125,
+      "yesPrice": 0.115,
       "outcomes": [
         {
           "id": "2555351-0",
           "title": "Yes",
-          "price": 0.125
+          "price": 0.115
         },
         {
           "id": "2555351-1",
           "title": "No",
-          "price": 0.875
+          "price": 0.885
         }
       ],
-      "volume": 2430074.669548003,
-      "liquidity": 52959.1371,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2937049",
-      "question": "Game Handicap: TES (-1.5) vs ThunderTalk Gaming (+1.5)",
-      "category": "General",
-      "endDate": "2026-07-25T18:10:00Z",
-      "yesPrice": 0.25,
-      "outcomes": [
-        {
-          "id": "2937049-0",
-          "title": "Top Esports",
-          "price": 0.25
-        },
-        {
-          "id": "2937049-1",
-          "title": "ThunderTalk Gaming",
-          "price": 0.75
-        }
-      ],
-      "volume": 187186.22162900007,
-      "liquidity": 7514.2737,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 2439277.165690003,
+      "liquidity": 52625.771,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2774056",
       "question": "Strait of Hormuz traffic returns to normal by August 31?",
       "category": "General",
       "endDate": "2026-08-31T00:00:00Z",
-      "yesPrice": 0.125,
+      "yesPrice": 0.135,
       "outcomes": [
         {
           "id": "2774056-0",
           "title": "Yes",
-          "price": 0.125
+          "price": 0.135
         },
         {
           "id": "2774056-1",
           "title": "No",
-          "price": 0.875
+          "price": 0.865
         }
       ],
-      "volume": 2152859.4303939957,
-      "liquidity": 234342.982,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 2162871.1977219954,
+      "liquidity": 202514.04,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3059501",
+      "question": "Bitcoin Up or Down on July 25?",
+      "category": "General",
+      "endDate": "2026-07-25T16:00:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "3059501-0",
+          "title": "Up",
+          "price": 0.745
+        },
+        {
+          "id": "3059501-1",
+          "title": "Down",
+          "price": 0.255
+        }
+      ],
+      "volume": 182650.92600900016,
+      "liquidity": 26325.8132,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "1105744",
       "question": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
       "category": "General",
       "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.8255,
+      "yesPrice": 0.827,
       "outcomes": [
         {
           "id": "1105744-0",
           "title": "Yes",
-          "price": 0.8255
+          "price": 0.827
         },
         {
           "id": "1105744-1",
           "title": "No",
-          "price": 0.1745
+          "price": 0.173
         }
       ],
-      "volume": 2302118.580215984,
-      "liquidity": 61603.59974,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 2302135.530215984,
+      "liquidity": 62042.88659,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "559655",
       "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "category": "General",
       "endDate": "2028-11-07T00:00:00Z",
-      "yesPrice": 0.052,
+      "yesPrice": 0.0515,
       "outcomes": [
         {
           "id": "559655-0",
           "title": "Yes",
-          "price": 0.052
+          "price": 0.0515
         },
         {
           "id": "559655-1",
           "title": "No",
-          "price": 0.948
+          "price": 0.9485
         }
       ],
-      "volume": 9364956.593297157,
-      "liquidity": 389725.94642,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 9367744.665065158,
+      "liquidity": 418626.0694,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
-      "id": "2884502",
-      "question": "Will Liaoning Tieren FC win on 2026-07-25?",
+      "id": "2885013",
+      "question": "UFC Fight Night: Thomas Petersen vs. Valter Walker (Heavyweight, Prelims)",
       "category": "General",
-      "endDate": "2026-07-25T11:35:00Z",
-      "yesPrice": 0.245,
+      "endDate": "2026-07-26T03:59:59.999Z",
+      "yesPrice": 0.375,
       "outcomes": [
         {
-          "id": "2884502-0",
-          "title": "Yes",
-          "price": 0.245
+          "id": "2885013-0",
+          "title": "Thomas Petersen",
+          "price": 0.375
         },
         {
-          "id": "2884502-1",
-          "title": "No",
-          "price": 0.755
+          "id": "2885013-1",
+          "title": "Valter Walker",
+          "price": 0.625
         }
       ],
-      "volume": 163346.9159839999,
-      "liquidity": 24050.7235,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 196343.96817400007,
+      "liquidity": 112220.4146,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3055679",
+      "question": "Will Kuopion Palloseura win on 2026-07-25?",
+      "category": "General",
+      "endDate": "2026-07-25T14:00:00Z",
+      "yesPrice": 0.88,
+      "outcomes": [
+        {
+          "id": "3055679-0",
+          "title": "Yes",
+          "price": 0.88
+        },
+        {
+          "id": "3055679-1",
+          "title": "No",
+          "price": 0.12
+        }
+      ],
+      "volume": 175086.44154600005,
+      "liquidity": 47472.4396,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3091074",
+      "question": "Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova",
+      "category": "General",
+      "endDate": "2026-08-01T13:00:00Z",
+      "yesPrice": 0.48,
+      "outcomes": [
+        {
+          "id": "3091074-0",
+          "title": "Lilli Tagger",
+          "price": 0.48
+        },
+        {
+          "id": "3091074-1",
+          "title": "Barbora Krejcikova",
+          "price": 0.52
+        }
+      ],
+      "volume": 160571.03521399983,
+      "liquidity": 266580.9593,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "1163699",
       "question": "Clarity Act signed into law in 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.35,
+      "yesPrice": 0.345,
       "outcomes": [
         {
           "id": "1163699-0",
           "title": "Yes",
-          "price": 0.35
+          "price": 0.345
         },
         {
           "id": "1163699-1",
           "title": "No",
-          "price": 0.65
+          "price": 0.655
         }
       ],
-      "volume": 2661418.4748289874,
-      "liquidity": 165185.788,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2758339",
-      "question": "Will Bitcoin reach $67,500 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T04:00:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "2758339-0",
-          "title": "Yes",
-          "price": 0.215
-        },
-        {
-          "id": "2758339-1",
-          "title": "No",
-          "price": 0.785
-        }
-      ],
-      "volume": 2042501.055930007,
-      "liquidity": 56219.0652,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "3056104",
-      "question": "T20 Lanka Premier League: Galle Gallants vs Kandy Royals",
-      "category": "General",
-      "endDate": "2026-08-01T05:30:00Z",
-      "yesPrice": 0.375,
-      "outcomes": [
-        {
-          "id": "3056104-0",
-          "title": "Galle Gallants",
-          "price": 0.375
-        },
-        {
-          "id": "3056104-1",
-          "title": "Kandy Royals",
-          "price": 0.625
-        }
-      ],
-      "volume": 155162.88910900004,
-      "liquidity": 12655.4521,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 2662625.9200479877,
+      "liquidity": 156639.8781,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2937525",
       "question": "US x Iran Effective Ceasefire by July 31?",
       "category": "General",
       "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.29,
+      "yesPrice": 0.285,
       "outcomes": [
         {
           "id": "2937525-0",
           "title": "Yes",
-          "price": 0.29
+          "price": 0.285
         },
         {
           "id": "2937525-1",
           "title": "No",
-          "price": 0.71
+          "price": 0.715
         }
       ],
-      "volume": 755508.7703859984,
-      "liquidity": 50622.6378,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 760105.7460289983,
+      "liquidity": 55872.7065,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3021219",
+      "question": "UFC Fight Night: Dustin Jacoby vs. Muhammad Said (Light Heavyweight, Prelims)",
+      "category": "General",
+      "endDate": "2026-07-26T03:59:59.999Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "3021219-0",
+          "title": "Dustin Jacoby",
+          "price": 0.635
+        },
+        {
+          "id": "3021219-1",
+          "title": "Muhammad Said",
+          "price": 0.365
+        }
+      ],
+      "volume": 160115.23554300005,
+      "liquidity": 231039.9938,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2243324",
@@ -568,383 +612,207 @@
           "price": 0.805
         }
       ],
-      "volume": 416481.7711349998,
-      "liquidity": 391571.4718,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2758338",
-      "question": "Will Bitcoin reach $70,000 in July?",
-      "category": "General",
-      "endDate": "2026-08-01T04:00:00Z",
-      "yesPrice": 0.0435,
-      "outcomes": [
-        {
-          "id": "2758338-0",
-          "title": "Yes",
-          "price": 0.0435
-        },
-        {
-          "id": "2758338-1",
-          "title": "No",
-          "price": 0.9565
-        }
-      ],
-      "volume": 1568474.6315949955,
-      "liquidity": 73346.42926,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2673621",
-      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
-      "category": "General",
-      "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.765,
-      "outcomes": [
-        {
-          "id": "2673621-0",
-          "title": "Yes",
-          "price": 0.765
-        },
-        {
-          "id": "2673621-1",
-          "title": "No",
-          "price": 0.235
-        }
-      ],
-      "volume": 1960900.4146469927,
-      "liquidity": 61435.2236,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 416516.7711349998,
+      "liquidity": 397168.6468,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2937524",
       "question": "US x Iran Effective Ceasefire by July 24?",
       "category": "General",
       "endDate": "2026-07-24T23:59:00Z",
-      "yesPrice": 0.1825,
+      "yesPrice": 0.148,
       "outcomes": [
         {
           "id": "2937524-0",
           "title": "Yes",
-          "price": 0.1825
+          "price": 0.148
         },
         {
           "id": "2937524-1",
           "title": "No",
-          "price": 0.8175
+          "price": 0.852
         }
       ],
-      "volume": 1072549.5846920006,
-      "liquidity": 36754.24311,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 1084006.2138620005,
+      "liquidity": 40471.3699,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
-      "id": "3092717",
-      "question": "Counter-Strike: HOTU vs Astralis (BO3) - BLAST Bounty Qualifier",
+      "id": "2758339",
+      "question": "Will Bitcoin reach $67,500 in July?",
       "category": "General",
-      "endDate": "2026-07-25T21:00:00Z",
-      "yesPrice": 0.395,
+      "endDate": "2026-08-01T04:00:00Z",
+      "yesPrice": 0.225,
       "outcomes": [
         {
-          "id": "3092717-0",
-          "title": "HOTU",
-          "price": 0.395
+          "id": "2758339-0",
+          "title": "Yes",
+          "price": 0.225
         },
         {
-          "id": "3092717-1",
-          "title": "Astralis",
-          "price": 0.605
+          "id": "2758339-1",
+          "title": "No",
+          "price": 0.775
         }
       ],
-      "volume": 146418.72068799997,
-      "liquidity": 92893.853,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 2043257.542334007,
+      "liquidity": 65032.5127,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
-      "id": "3059501",
-      "question": "Bitcoin Up or Down on July 25?",
+      "id": "2758338",
+      "question": "Will Bitcoin reach $70,000 in July?",
       "category": "General",
-      "endDate": "2026-07-25T16:00:00Z",
-      "yesPrice": 0.585,
+      "endDate": "2026-08-01T04:00:00Z",
+      "yesPrice": 0.0455,
       "outcomes": [
         {
-          "id": "3059501-0",
-          "title": "Up",
-          "price": 0.585
+          "id": "2758338-0",
+          "title": "Yes",
+          "price": 0.0455
         },
         {
-          "id": "3059501-1",
-          "title": "Down",
-          "price": 0.415
+          "id": "2758338-1",
+          "title": "No",
+          "price": 0.9545
         }
       ],
-      "volume": 145492.67126400012,
-      "liquidity": 15038.4586,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 1570797.9757469953,
+      "liquidity": 71211.78107,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2987879",
+      "question": "Arizona Diamondbacks vs. Washington Nationals",
+      "category": "General",
+      "endDate": "2026-08-01T20:05:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "2987879-0",
+          "title": "Arizona Diamondbacks",
+          "price": 0.425
+        },
+        {
+          "id": "2987879-1",
+          "title": "Washington Nationals",
+          "price": 0.575
+        }
+      ],
+      "volume": 146482.23748199997,
+      "liquidity": 366318.3215,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "3092735",
       "question": "Counter-Strike: FOKUS vs MOUZ (BO3) - BLAST Bounty Qualifier",
       "category": "General",
       "endDate": "2026-07-25T23:30:00Z",
-      "yesPrice": 0.225,
+      "yesPrice": 0.215,
       "outcomes": [
         {
           "id": "3092735-0",
           "title": "FOKUS",
-          "price": 0.225
+          "price": 0.215
         },
         {
           "id": "3092735-1",
           "title": "MOUZ",
-          "price": 0.775
+          "price": 0.785
         }
       ],
-      "volume": 140356.28343100002,
-      "liquidity": 66730.3244,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 146033.20124000002,
+      "liquidity": 120559.7544,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2885054",
+      "question": "UFC Fight Night: Ismael Bonfim vs. Axel Sola (Lightweight, Prelims)",
+      "category": "General",
+      "endDate": "2026-07-26T03:59:59.999Z",
+      "yesPrice": 0.365,
+      "outcomes": [
+        {
+          "id": "2885054-0",
+          "title": "Ismael Bonfim",
+          "price": 0.365
+        },
+        {
+          "id": "2885054-1",
+          "title": "Axel Sola",
+          "price": 0.635
+        }
+      ],
+      "volume": 167013.806175,
+      "liquidity": 112788.5581,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "3002471",
       "question": "Will Elon Musk post 115-139 tweets from July 23 to July 25, 2026?",
       "category": "General",
       "endDate": "2026-07-25T16:00:00Z",
-      "yesPrice": 0.5885,
+      "yesPrice": 0.4605,
       "outcomes": [
         {
           "id": "3002471-0",
           "title": "Yes",
-          "price": 0.5885
+          "price": 0.4605
         },
         {
           "id": "3002471-1",
           "title": "No",
-          "price": 0.4115
+          "price": 0.5395
         }
       ],
-      "volume": 187113.66645700004,
-      "liquidity": 1668.81424,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 193506.89009799995,
+      "liquidity": 5982.70032,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
-      "id": "2948597",
-      "question": "Will Trump meet with Netanyahu by August 31, 2026?",
-      "category": "General",
-      "endDate": "2026-08-31T23:59:00Z",
-      "yesPrice": 0.961,
-      "outcomes": [
-        {
-          "id": "2948597-0",
-          "title": "Yes",
-          "price": 0.961
-        },
-        {
-          "id": "2948597-1",
-          "title": "No",
-          "price": 0.039
-        }
-      ],
-      "volume": 158220.02597599998,
-      "liquidity": 38931.52031,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "608547",
-      "question": "Will Harry Kane win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2026-10-31T00:00:00Z",
-      "yesPrice": 0.4095,
-      "outcomes": [
-        {
-          "id": "608547-0",
-          "title": "Yes",
-          "price": 0.4095
-        },
-        {
-          "id": "608547-1",
-          "title": "No",
-          "price": 0.5905
-        }
-      ],
-      "volume": 2291390.525203013,
-      "liquidity": 394692.27525,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "1469737",
-      "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.778,
-      "outcomes": [
-        {
-          "id": "1469737-0",
-          "title": "Yes",
-          "price": 0.778
-        },
-        {
-          "id": "1469737-1",
-          "title": "No",
-          "price": 0.222
-        }
-      ],
-      "volume": 5036807.961870982,
-      "liquidity": 53432.723,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "3002470",
-      "question": "Will Elon Musk post 90-114 tweets from July 23 to July 25, 2026?",
-      "category": "General",
-      "endDate": "2026-07-25T16:00:00Z",
-      "yesPrice": 0.4145,
-      "outcomes": [
-        {
-          "id": "3002470-0",
-          "title": "Yes",
-          "price": 0.4145
-        },
-        {
-          "id": "3002470-1",
-          "title": "No",
-          "price": 0.5855
-        }
-      ],
-      "volume": 173091.042602,
-      "liquidity": 3284.34405,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "560317",
-      "question": "Putin out as President of Russia by December 31, 2026?",
-      "category": "General",
-      "endDate": "2026-12-31T18:30:00Z",
-      "yesPrice": 0.085,
-      "outcomes": [
-        {
-          "id": "560317-0",
-          "title": "Yes",
-          "price": 0.085
-        },
-        {
-          "id": "560317-1",
-          "title": "No",
-          "price": 0.915
-        }
-      ],
-      "volume": 17771929.094980005,
-      "liquidity": 968425.7625,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2507618",
-      "question": "Kharg Island no longer under Iranian control by August 31?",
-      "category": "General",
-      "endDate": "2026-06-30T23:55:00Z",
-      "yesPrice": 0.0815,
-      "outcomes": [
-        {
-          "id": "2507618-0",
-          "title": "Yes",
-          "price": 0.0815
-        },
-        {
-          "id": "2507618-1",
-          "title": "No",
-          "price": 0.9185
-        }
-      ],
-      "volume": 2517660.3383400063,
-      "liquidity": 162513.71264,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "3081988",
-      "question": "Hamburg European Open: Elina Avanesyan vs Anna Bondar",
-      "category": "General",
-      "endDate": "2026-08-01T12:00:00Z",
-      "yesPrice": 0.625,
-      "outcomes": [
-        {
-          "id": "3081988-0",
-          "title": "Elina Avanesyan",
-          "price": 0.625
-        },
-        {
-          "id": "3081988-1",
-          "title": "Anna Bondar",
-          "price": 0.375
-        }
-      ],
-      "volume": 123550.06909799993,
-      "liquidity": 106008.0619,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "637910",
-      "question": "Mitch McConnell steps down from Senate before his term ends?",
-      "category": "General",
-      "endDate": "2027-01-03T00:00:00Z",
-      "yesPrice": 0.465,
-      "outcomes": [
-        {
-          "id": "637910-0",
-          "title": "Yes",
-          "price": 0.465
-        },
-        {
-          "id": "637910-1",
-          "title": "No",
-          "price": 0.535
-        }
-      ],
-      "volume": 826434.2722529998,
-      "liquidity": 60783.9437,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2176270",
-      "question": "Strait of Hormuz traffic returns to normal by December 31?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.535,
-      "outcomes": [
-        {
-          "id": "2176270-0",
-          "title": "Yes",
-          "price": 0.535
-        },
-        {
-          "id": "2176270-1",
-          "title": "No",
-          "price": 0.465
-        }
-      ],
-      "volume": 5955180.42108199,
-      "liquidity": 221969.8187,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
-    },
-    {
-      "id": "2643400",
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
+      "id": "2673621",
+      "question": "Will NVIDIA be the largest company in the world by market cap on July 31?",
       "category": "General",
       "endDate": "2026-07-31T23:59:00Z",
-      "yesPrice": 0.0315,
+      "yesPrice": 0.775,
       "outcomes": [
         {
-          "id": "2643400-0",
+          "id": "2673621-0",
           "title": "Yes",
-          "price": 0.0315
+          "price": 0.775
         },
         {
-          "id": "2643400-1",
+          "id": "2673621-1",
           "title": "No",
-          "price": 0.9685
+          "price": 0.225
         }
       ],
-      "volume": 2951153.2999210004,
-      "liquidity": 160734.48671,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 1961182.1600809926,
+      "liquidity": 75881.5615,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2981210",
+      "question": "Will Djurgardens IF win on 2026-07-25?",
+      "category": "General",
+      "endDate": "2026-07-25T13:00:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "2981210-0",
+          "title": "Yes",
+          "price": 0.745
+        },
+        {
+          "id": "2981210-1",
+          "title": "No",
+          "price": 0.255
+        }
+      ],
+      "volume": 140561.53386000005,
+      "liquidity": 18307.0768,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     },
     {
       "id": "2882973",
@@ -964,10 +832,208 @@
           "price": 0.815
         }
       ],
-      "volume": 118302.51123000006,
-      "liquidity": 107431.6797,
-      "lastUpdated": "2026-07-25T12:46:25.241Z"
+      "volume": 147460.81285600012,
+      "liquidity": 147420.462,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3002470",
+      "question": "Will Elon Musk post 90-114 tweets from July 23 to July 25, 2026?",
+      "category": "General",
+      "endDate": "2026-07-25T16:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "3002470-0",
+          "title": "Yes",
+          "price": 0.535
+        },
+        {
+          "id": "3002470-1",
+          "title": "No",
+          "price": 0.465
+        }
+      ],
+      "volume": 179453.974065,
+      "liquidity": 3576.58035,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "608547",
+      "question": "Will Harry Kane win the 2026 Ballon d'Or?",
+      "category": "General",
+      "endDate": "2026-10-31T00:00:00Z",
+      "yesPrice": 0.4095,
+      "outcomes": [
+        {
+          "id": "608547-0",
+          "title": "Yes",
+          "price": 0.4095
+        },
+        {
+          "id": "608547-1",
+          "title": "No",
+          "price": 0.5905
+        }
+      ],
+      "volume": 2291548.741528013,
+      "liquidity": 309230.10601,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2176270",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "category": "General",
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.525,
+      "outcomes": [
+        {
+          "id": "2176270-0",
+          "title": "Yes",
+          "price": 0.525
+        },
+        {
+          "id": "2176270-1",
+          "title": "No",
+          "price": 0.475
+        }
+      ],
+      "volume": 5966388.01089199,
+      "liquidity": 219374.9393,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2507618",
+      "question": "Kharg Island no longer under Iranian control by August 31?",
+      "category": "General",
+      "endDate": "2026-06-30T23:55:00Z",
+      "yesPrice": 0.0785,
+      "outcomes": [
+        {
+          "id": "2507618-0",
+          "title": "Yes",
+          "price": 0.0785
+        },
+        {
+          "id": "2507618-1",
+          "title": "No",
+          "price": 0.9215
+        }
+      ],
+      "volume": 2519914.758340006,
+      "liquidity": 169693.41828,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "3070931",
+      "question": "Valorant: TYLOO vs XLG Gaming (BO3) - VCT China Stage 2 Seed Deciders",
+      "category": "General",
+      "endDate": "2026-07-25T18:50:00Z",
+      "yesPrice": 0.105,
+      "outcomes": [
+        {
+          "id": "3070931-0",
+          "title": "TYLOO",
+          "price": 0.105
+        },
+        {
+          "id": "3070931-1",
+          "title": "XLG Gaming",
+          "price": 0.895
+        }
+      ],
+      "volume": 126066.27907000003,
+      "liquidity": 13569.8436,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "1469737",
+      "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+      "category": "General",
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.7815,
+      "outcomes": [
+        {
+          "id": "1469737-0",
+          "title": "Yes",
+          "price": 0.7815
+        },
+        {
+          "id": "1469737-1",
+          "title": "No",
+          "price": 0.2185
+        }
+      ],
+      "volume": 5040167.811870983,
+      "liquidity": 57033.94615,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "637910",
+      "question": "Mitch McConnell steps down from Senate before his term ends?",
+      "category": "General",
+      "endDate": "2027-01-03T00:00:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "637910-0",
+          "title": "Yes",
+          "price": 0.465
+        },
+        {
+          "id": "637910-1",
+          "title": "No",
+          "price": 0.535
+        }
+      ],
+      "volume": 826440.6522529998,
+      "liquidity": 69855.954,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2987881",
+      "question": "Toronto Blue Jays vs. Boston Red Sox",
+      "category": "General",
+      "endDate": "2026-08-01T20:10:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "2987881-0",
+          "title": "Toronto Blue Jays",
+          "price": 0.505
+        },
+        {
+          "id": "2987881-1",
+          "title": "Boston Red Sox",
+          "price": 0.495
+        }
+      ],
+      "volume": 118802.25661699996,
+      "liquidity": 466515.7689,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
+    },
+    {
+      "id": "2987885",
+      "question": "New York Yankees vs. Philadelphia Phillies",
+      "category": "General",
+      "endDate": "2026-08-01T22:05:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "2987885-0",
+          "title": "New York Yankees",
+          "price": 0.535
+        },
+        {
+          "id": "2987885-1",
+          "title": "Philadelphia Phillies",
+          "price": 0.465
+        }
+      ],
+      "volume": 118864.66261300002,
+      "liquidity": 256610.4766,
+      "lastUpdated": "2026-07-25T14:20:13.063Z"
     }
   ],
-  "lastUpdated": "2026-07-25T12:46:33.484Z"
+  "lastUpdated": "2026-07-25T14:20:21.168Z"
 }
