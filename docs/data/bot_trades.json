@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 30.676840811843377,
+  "cash": 6.247690253727043,
+  "totalValue": 30.65975308682368,
   "positions": [
     {
       "marketId": "1654959",
@@ -17,27 +17,9 @@
       "shares": 29.120559114735002,
       "avgCost": 0.8585,
       "costBasis": 25
-    },
-    {
-      "marketId": "2911873",
-      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
-      "outcome": "No",
-      "shares": 6.437599437122146,
-      "avgCost": 0.9675,
-      "costBasis": 6.228377455415677
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-12T14:17:31.663Z",
-      "action": "BUY",
-      "marketId": "567621",
-      "question": "Will China invade Taiwan by end of 2026?",
-      "outcome": "No",
-      "amount": 1.7411119025937296,
-      "price": 0.9615,
-      "reasoning": "Exploited the favourite-longshot bias by buying 'No' on longshot markets with the highest positive edge, prioritizing diversification across different event types."
-    },
     {
       "ts": "2026-07-12T16:15:25.501Z",
       "action": "SELL",
@@ -2027,8 +2009,18 @@
       "amount": 6.228377455415677,
       "price": 0.9675,
       "reasoning": "Sold a profitable existing position to reclaim cash, then initiated two new BUY trades on strong favourite-longshot bias signals with positive edge and highest edge values."
+    },
+    {
+      "ts": "2026-07-25T11:37:39.775Z",
+      "action": "SELL",
+      "marketId": "2911873",
+      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
+      "outcome": "No",
+      "proceeds": 6.247690253727043,
+      "price": 0.9705,
+      "reasoning": "Sold a resolved position to reclaim cash, but the available cash was insufficient to make new trades within the specified range, so no new positions were opened."
     }
   ],
-  "lastUpdated": "2026-07-25T10:11:13.661Z",
-  "lastReasoning": "Sold a profitable existing position to reclaim cash, then initiated two new BUY trades on strong favourite-longshot bias signals with positive edge and highest edge values."
+  "lastUpdated": "2026-07-25T11:37:39.775Z",
+  "lastReasoning": "Sold a resolved position to reclaim cash, but the available cash was insufficient to make new trades within the specified range, so no new positions were opened."
 }
