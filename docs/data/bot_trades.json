@@ -1,6 +1,6 @@
 {
   "cash": 0,
-  "totalValue": 32.8335518322991,
+  "totalValue": 32.83281403005885,
   "positions": [
     {
       "marketId": "559668",
@@ -11,35 +11,15 @@
       "costBasis": 25
     },
     {
-      "marketId": "3145329",
-      "question": "Will Iran target Ukraine by August 31, 2026?",
+      "marketId": "3126962",
+      "question": "The Hundred: MI London vs London Spirit",
       "outcome": "No",
-      "shares": 8.130308077113753,
-      "avgCost": 0.9635,
-      "costBasis": 7.833551832299101
+      "shares": 261.52490981382573,
+      "avgCost": 0.03,
+      "costBasis": 7.845747294414771
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-13T04:49:44.158Z",
-      "action": "BUY",
-      "marketId": "2069639",
-      "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.9685,
-      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
-    {
-      "ts": "2026-07-13T04:49:44.158Z",
-      "action": "BUY",
-      "marketId": "2658294",
-      "question": "Mojtaba Khamenei seen in public by July 15?",
-      "outcome": "No",
-      "amount": 35,
-      "price": 0.966,
-      "reasoning": "Sold existing positions to reclaim cash and bought new positions based on strong favourite-longshot bias signals with positive edge."
-    },
     {
       "ts": "2026-07-13T11:23:34.840Z",
       "action": "SELL",
@@ -2019,8 +1999,28 @@
       "amount": 7.833551832299101,
       "price": 0.9635,
       "reasoning": "Sold two resolved positions to reclaim cash and then bought into two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-29T19:54:31.561Z",
+      "action": "SELL",
+      "marketId": "3145329",
+      "question": "Will Iran target Ukraine by August 31, 2026?",
+      "outcome": "No",
+      "proceeds": 7.845747294414771,
+      "price": 0.965,
+      "reasoning": "Sold a previously held position to free up cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-29T19:54:31.561Z",
+      "action": "BUY",
+      "marketId": "3126962",
+      "question": "The Hundred: MI London vs London Spirit",
+      "outcome": "No",
+      "amount": 7.845747294414771,
+      "price": 0.03,
+      "reasoning": "Sold a previously held position to free up cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-29T18:33:03.803Z",
-  "lastReasoning": "Sold two resolved positions to reclaim cash and then bought into two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-07-29T19:54:31.561Z",
+  "lastReasoning": "Sold a previously held position to free up cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
 }
