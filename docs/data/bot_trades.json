@@ -1,6 +1,6 @@
 {
-  "cash": 0,
-  "totalValue": 32.83281403005885,
+  "cash": 0.13076245490691288,
+  "totalValue": 25.130762454906915,
   "positions": [
     {
       "marketId": "559668",
@@ -9,27 +9,9 @@
       "shares": 25.86652871184687,
       "avgCost": 0.9665,
       "costBasis": 25
-    },
-    {
-      "marketId": "3126962",
-      "question": "The Hundred: MI London vs London Spirit",
-      "outcome": "No",
-      "shares": 261.52490981382573,
-      "avgCost": 0.03,
-      "costBasis": 7.845747294414771
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-13T11:23:34.840Z",
-      "action": "SELL",
-      "marketId": "2658294",
-      "question": "Mojtaba Khamenei seen in public by July 15?",
-      "outcome": "No",
-      "proceeds": 35.27173913043478,
-      "price": 0.9735,
-      "reasoning": "Exploited favourite-longshot bias by selling a resolved position and buying two new 'No' longshot positions with positive edge."
-    },
     {
       "ts": "2026-07-13T11:23:34.840Z",
       "action": "BUY",
@@ -2019,8 +2001,18 @@
       "amount": 7.845747294414771,
       "price": 0.03,
       "reasoning": "Sold a previously held position to free up cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-07-29T21:06:29.050Z",
+      "action": "SELL",
+      "marketId": "3126962",
+      "question": "The Hundred: MI London vs London Spirit",
+      "outcome": "No",
+      "proceeds": 0.13076245490691288,
+      "price": 0.0005,
+      "reasoning": "Sold a dropped market to reclaim cash, then initiated new positions on two strong BUY_NO_LONGSHOT signals with positive edge, exploiting the favourite-longshot bias."
     }
   ],
-  "lastUpdated": "2026-07-29T19:54:31.561Z",
-  "lastReasoning": "Sold a previously held position to free up cash, then bought into two longshot 'No' markets with positive edge, exploiting the favourite-longshot bias."
+  "lastUpdated": "2026-07-29T21:06:29.050Z",
+  "lastReasoning": "Sold a dropped market to reclaim cash, then initiated new positions on two strong BUY_NO_LONGSHOT signals with positive edge, exploiting the favourite-longshot bias."
 }
