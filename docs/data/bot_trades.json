@@ -1,15 +1,7 @@
 {
-  "cash": 0.001345151199166006,
-  "totalValue": 2.747752336827909,
+  "cash": 0.018560341072583728,
+  "totalValue": 1.4213747123300688,
   "positions": [
-    {
-      "marketId": "3355641",
-      "question": "LoL: Shifters vs GIANTX (BO3) - LEC Regular Season",
-      "outcome": "No",
-      "shares": 34.43037974683544,
-      "avgCost": 0.0395,
-      "costBasis": 1.36
-    },
     {
       "marketId": "2937525",
       "question": "US x Iran Effective Ceasefire by July 31?",
@@ -20,16 +12,6 @@
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-14T06:28:06.775Z",
-      "action": "BUY",
-      "marketId": "2686769",
-      "question": "Iran full airspace closure by July 15?",
-      "outcome": "No",
-      "amount": 30,
-      "price": 0.9625,
-      "reasoning": "Sold resolved and dropped positions to free up cash, then initiated two new BUY NO trades on longshot markets with positive edge, exploiting the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-14T06:28:06.775Z",
       "action": "BUY",
@@ -2019,8 +2001,18 @@
       "amount": 1.37,
       "price": 0.835,
       "reasoning": "Exploited the favourite-longshot bias by buying 'NO' on a longshot and 'YES' on a favourite, both with positive edge, within cash limits."
+    },
+    {
+      "ts": "2026-08-07T19:33:09.460Z",
+      "action": "SELL",
+      "marketId": "3355641",
+      "question": "LoL: Shifters vs GIANTX (BO3) - LEC Regular Season",
+      "outcome": "No",
+      "proceeds": 0.017215189873417722,
+      "price": 0.0005,
+      "reasoning": "Sold a dropped market to reclaim cash, but did not have sufficient capital ($20-$100) to initiate new trades based on favourite-longshot bias signals."
     }
   ],
-  "lastUpdated": "2026-08-07T18:24:50.613Z",
-  "lastReasoning": "Exploited the favourite-longshot bias by buying 'NO' on a longshot and 'YES' on a favourite, both with positive edge, within cash limits."
+  "lastUpdated": "2026-08-07T19:33:09.460Z",
+  "lastReasoning": "Sold a dropped market to reclaim cash, but did not have sufficient capital ($20-$100) to initiate new trades based on favourite-longshot bias signals."
 }
