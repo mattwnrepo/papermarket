@@ -1,6 +1,50 @@
 {
   "markets": [
     {
+      "id": "3527198",
+      "question": "National Bank Open: Rafael Jodar vs Brandon Nakashima",
+      "category": "General",
+      "endDate": "2026-08-19T19:00:00Z",
+      "yesPrice": 0.145,
+      "outcomes": [
+        {
+          "id": "3527198-0",
+          "title": "Rafael Jodar",
+          "price": 0.145
+        },
+        {
+          "id": "3527198-1",
+          "title": "Brandon Nakashima",
+          "price": 0.855
+        }
+      ],
+      "volume": 1338034.3876949998,
+      "liquidity": 443933.7146,
+      "lastUpdated": "2026-08-12T23:25:25.912Z"
+    },
+    {
+      "id": "3379546",
+      "question": "Milwaukee Brewers vs. San Diego Padres",
+      "category": "General",
+      "endDate": "2026-08-19T20:10:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "3379546-0",
+          "title": "Milwaukee Brewers",
+          "price": 0.475
+        },
+        {
+          "id": "3379546-1",
+          "title": "San Diego Padres",
+          "price": 0.525
+        }
+      ],
+      "volume": 980291.0228329992,
+      "liquidity": 191265.4796,
+      "lastUpdated": "2026-08-12T23:25:25.912Z"
+    },
+    {
       "id": "2252244",
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "category": "General",
@@ -18,53 +62,31 @@
           "price": 0.335
         }
       ],
-      "volume": 6855995.301478,
-      "liquidity": 305084.9424,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 6857072.860580007,
+      "liquidity": 321186.6889,
+      "lastUpdated": "2026-08-12T23:25:25.912Z"
     },
     {
-      "id": "3379546",
-      "question": "Milwaukee Brewers vs. San Diego Padres",
+      "id": "3523538",
+      "question": "Seattle Mariners vs. New York Yankees: O/U 8.5",
       "category": "General",
-      "endDate": "2026-08-19T20:10:00Z",
-      "yesPrice": 0.765,
+      "endDate": "2026-08-12T23:05:00Z",
+      "yesPrice": 0.715,
       "outcomes": [
         {
-          "id": "3379546-0",
-          "title": "Milwaukee Brewers",
-          "price": 0.765
+          "id": "3523538-0",
+          "title": "Over",
+          "price": 0.715
         },
         {
-          "id": "3379546-1",
-          "title": "San Diego Padres",
-          "price": 0.235
+          "id": "3523538-1",
+          "title": "Under",
+          "price": 0.285
         }
       ],
-      "volume": 770265.3385170002,
-      "liquidity": 194540.5766,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3527198",
-      "question": "National Bank Open: Rafael Jodar vs Brandon Nakashima",
-      "category": "General",
-      "endDate": "2026-08-19T19:00:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "3527198-0",
-          "title": "Rafael Jodar",
-          "price": 0.595
-        },
-        {
-          "id": "3527198-1",
-          "title": "Brandon Nakashima",
-          "price": 0.405
-        }
-      ],
-      "volume": 748379.349509,
-      "liquidity": 399316.4236,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 588324.356693,
+      "liquidity": 63393.8436,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2252245",
@@ -84,9 +106,31 @@
           "price": 0.675
         }
       ],
-      "volume": 6485630.129184003,
-      "liquidity": 396902.8848,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 6488709.969184004,
+      "liquidity": 425399.5422,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3143036",
+      "question": "Will CF Monterrey win on 2026-08-12?",
+      "category": "General",
+      "endDate": "2026-08-13T00:00:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "3143036-0",
+          "title": "Yes",
+          "price": 0.505
+        },
+        {
+          "id": "3143036-1",
+          "title": "No",
+          "price": 0.495
+        }
+      ],
+      "volume": 577666.396822,
+      "liquidity": 207561.5151,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "1163699",
@@ -106,75 +150,9 @@
           "price": 0.805
         }
       ],
-      "volume": 6939543.427971004,
-      "liquidity": 209243.4057,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3523538",
-      "question": "Seattle Mariners vs. New York Yankees: O/U 8.5",
-      "category": "General",
-      "endDate": "2026-08-12T23:05:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "3523538-0",
-          "title": "Over",
-          "price": 0.495
-        },
-        {
-          "id": "3523538-1",
-          "title": "Under",
-          "price": 0.505
-        }
-      ],
-      "volume": 435921.00590700004,
-      "liquidity": 422947.143,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.175,
-      "outcomes": [
-        {
-          "id": "665374-0",
-          "title": "Yes",
-          "price": 0.175
-        },
-        {
-          "id": "665374-1",
-          "title": "No",
-          "price": 0.825
-        }
-      ],
-      "volume": 58496707.73826698,
-      "liquidity": 1003008.9144,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3260912",
-      "question": "Spread: SE Palmeiras (-1.5)",
-      "category": "General",
-      "endDate": "2026-08-12T22:00:00Z",
-      "yesPrice": 0.365,
-      "outcomes": [
-        {
-          "id": "3260912-0",
-          "title": "SE Palmeiras",
-          "price": 0.365
-        },
-        {
-          "id": "3260912-1",
-          "title": "Club Cerro Porteño",
-          "price": 0.635
-        }
-      ],
-      "volume": 253441.07236600007,
-      "liquidity": 82638.7354,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 6939543.427971,
+      "liquidity": 211414.6202,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3533421",
@@ -194,75 +172,9 @@
           "price": 0.655
         }
       ],
-      "volume": 235715.07859599998,
-      "liquidity": 680376.1196,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3143036",
-      "question": "Will CF Monterrey win on 2026-08-12?",
-      "category": "General",
-      "endDate": "2026-08-13T00:00:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "3143036-0",
-          "title": "Yes",
-          "price": 0.475
-        },
-        {
-          "id": "3143036-1",
-          "title": "No",
-          "price": 0.525
-        }
-      ],
-      "volume": 236920.27376899996,
-      "liquidity": 172961.9614,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "908713",
-      "question": "Fed rate hike in 2026?",
-      "category": "General",
-      "endDate": "2026-12-09T00:00:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "908713-0",
-          "title": "Yes",
-          "price": 0.545
-        },
-        {
-          "id": "908713-1",
-          "title": "No",
-          "price": 0.455
-        }
-      ],
-      "volume": 7313723.484874002,
-      "liquidity": 288891.4049,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "2910437",
-      "question": "US announces end of Iranian blockade by August 15, 2026?",
-      "category": "General",
-      "endDate": "2026-08-15T23:59:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "2910437-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "2910437-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 2561651.494464998,
-      "liquidity": 99554.2911,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 397996.10976699996,
+      "liquidity": 700207.2613,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3506124",
@@ -282,31 +194,119 @@
           "price": 0.315
         }
       ],
-      "volume": 218128.12490999987,
-      "liquidity": 34118.0617,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 308266.25322199997,
+      "liquidity": 256609.9247,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "category": "General",
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "665374-0",
+          "title": "Yes",
+          "price": 0.175
+        },
+        {
+          "id": "665374-1",
+          "title": "No",
+          "price": 0.825
+        }
+      ],
+      "volume": 58496722.458267,
+      "liquidity": 1041327.9281,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3260912",
+      "question": "Spread: SE Palmeiras (-1.5)",
+      "category": "General",
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.215,
+      "outcomes": [
+        {
+          "id": "3260912-0",
+          "title": "SE Palmeiras",
+          "price": 0.215
+        },
+        {
+          "id": "3260912-1",
+          "title": "Club Cerro Porteño",
+          "price": 0.785
+        }
+      ],
+      "volume": 264935.802076,
+      "liquidity": 6906.8833,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "908713",
+      "question": "Fed rate hike in 2026?",
+      "category": "General",
+      "endDate": "2026-12-09T00:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "908713-0",
+          "title": "Yes",
+          "price": 0.545
+        },
+        {
+          "id": "908713-1",
+          "title": "No",
+          "price": 0.455
+        }
+      ],
+      "volume": 7313723.484873999,
+      "liquidity": 313475.6973,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "2910437",
+      "question": "US announces end of Iranian blockade by August 15, 2026?",
+      "category": "General",
+      "endDate": "2026-08-15T23:59:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "2910437-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "2910437-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 2562794.2901609982,
+      "liquidity": 99999.5616,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3533006",
       "question": "Chicago Cubs vs. Washington Nationals: O/U 9.5",
       "category": "General",
       "endDate": "2026-08-12T22:45:00Z",
-      "yesPrice": 0.505,
+      "yesPrice": 0.34,
       "outcomes": [
         {
           "id": "3533006-0",
           "title": "Over",
-          "price": 0.505
+          "price": 0.34
         },
         {
           "id": "3533006-1",
           "title": "Under",
-          "price": 0.495
+          "price": 0.66
         }
       ],
-      "volume": 211042.66922300003,
-      "liquidity": 64286.1262,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 212391.86659999998,
+      "liquidity": 62012.7955,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2663611",
@@ -326,9 +326,31 @@
           "price": 0.745
         }
       ],
-      "volume": 1527120.1589829994,
-      "liquidity": 61516.4634,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 1527125.1589829994,
+      "liquidity": 62508.22,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3222548",
+      "question": "Will SE Palmeiras win on 2026-08-12?",
+      "category": "General",
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.585,
+      "outcomes": [
+        {
+          "id": "3222548-0",
+          "title": "Yes",
+          "price": 0.585
+        },
+        {
+          "id": "3222548-1",
+          "title": "No",
+          "price": 0.415
+        }
+      ],
+      "volume": 200806.742698,
+      "liquidity": 144327.3574,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3533675",
@@ -348,53 +370,75 @@
           "price": 0.455
         }
       ],
-      "volume": 195733.43117699993,
-      "liquidity": 408349.8242,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 195950.06200299997,
+      "liquidity": 374469.0704,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3222548",
-      "question": "Will SE Palmeiras win on 2026-08-12?",
+      "id": "3143033",
+      "question": "Will Orlando City SC win on 2026-08-12?",
       "category": "General",
-      "endDate": "2026-08-12T22:00:00Z",
-      "yesPrice": 0.705,
+      "endDate": "2026-08-12T23:30:00Z",
+      "yesPrice": 0.535,
       "outcomes": [
         {
-          "id": "3222548-0",
+          "id": "3143033-0",
           "title": "Yes",
-          "price": 0.705
+          "price": 0.535
         },
         {
-          "id": "3222548-1",
+          "id": "3143033-1",
           "title": "No",
-          "price": 0.295
+          "price": 0.465
         }
       ],
-      "volume": 191136.94592000003,
-      "liquidity": 129367.2509,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 193111.01274399998,
+      "liquidity": 170992.5139,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3275573",
-      "question": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
+      "id": "3523580",
+      "question": "New York Mets vs. Atlanta Braves: O/U 8.5",
       "category": "General",
-      "endDate": "2026-08-16T03:59:59.999Z",
-      "yesPrice": 0.765,
+      "endDate": "2026-08-12T23:15:00Z",
+      "yesPrice": 0.535,
       "outcomes": [
         {
-          "id": "3275573-0",
-          "title": "Islam Makhachev",
-          "price": 0.765
+          "id": "3523580-0",
+          "title": "Over",
+          "price": 0.535
         },
         {
-          "id": "3275573-1",
-          "title": "Ian Machado Garry",
-          "price": 0.235
+          "id": "3523580-1",
+          "title": "Under",
+          "price": 0.465
         }
       ],
-      "volume": 447608.40244000003,
-      "liquidity": 148845.2555,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 187293.79965999996,
+      "liquidity": 113778.756,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3379566",
+      "question": "Chicago Cubs vs. Washington Nationals",
+      "category": "General",
+      "endDate": "2026-08-19T22:45:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "3379566-0",
+          "title": "Chicago Cubs",
+          "price": 0.425
+        },
+        {
+          "id": "3379566-1",
+          "title": "Washington Nationals",
+          "price": 0.575
+        }
+      ],
+      "volume": 184920.77276100006,
+      "liquidity": 221657.8437,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3533524",
@@ -414,251 +458,251 @@
           "price": 0.505
         }
       ],
-      "volume": 182837.647225,
-      "liquidity": 364904.6726,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 183179.667613,
+      "liquidity": 366147.4711,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "2896080",
-      "question": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+      "id": "3143030",
+      "question": "Will Inter Miami CF win on 2026-08-12?",
       "category": "General",
-      "endDate": "2026-08-11T00:00:00Z",
-      "yesPrice": 0.77,
+      "endDate": "2026-08-12T23:30:00Z",
+      "yesPrice": 0.535,
       "outcomes": [
         {
-          "id": "2896080-0",
+          "id": "3143030-0",
           "title": "Yes",
-          "price": 0.77
+          "price": 0.535
         },
         {
-          "id": "2896080-1",
+          "id": "3143030-1",
           "title": "No",
-          "price": 0.23
+          "price": 0.465
         }
       ],
-      "volume": 799552.394765,
-      "liquidity": 68348.61854,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3523580",
-      "question": "New York Mets vs. Atlanta Braves: O/U 8.5",
-      "category": "General",
-      "endDate": "2026-08-12T23:15:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3523580-0",
-          "title": "Over",
-          "price": 0.545
-        },
-        {
-          "id": "3523580-1",
-          "title": "Under",
-          "price": 0.455
-        }
-      ],
-      "volume": 173616.456639,
-      "liquidity": 367059.5145,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 188129.00624999998,
+      "liquidity": 178196.6593,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3379554",
       "question": "Cleveland Guardians vs. Detroit Tigers",
       "category": "General",
       "endDate": "2026-08-19T22:40:00Z",
-      "yesPrice": 0.605,
+      "yesPrice": 0.475,
       "outcomes": [
         {
           "id": "3379554-0",
           "title": "Cleveland Guardians",
-          "price": 0.605
+          "price": 0.475
         },
         {
           "id": "3379554-1",
           "title": "Detroit Tigers",
-          "price": 0.395
+          "price": 0.525
         }
       ],
-      "volume": 164678.55428599997,
-      "liquidity": 209617.0949,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 181547.1793430001,
+      "liquidity": 209748.4514,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3506212",
+      "question": "Cincinnati Open, Qualification: Mark Lajal vs Dalibor Svrcina",
+      "category": "General",
+      "endDate": "2026-08-18T20:30:00Z",
+      "yesPrice": 0.555,
+      "outcomes": [
+        {
+          "id": "3506212-0",
+          "title": "Mark Lajal",
+          "price": 0.555
+        },
+        {
+          "id": "3506212-1",
+          "title": "Dalibor Svrcina",
+          "price": 0.445
+        }
+      ],
+      "volume": 180457.09623599998,
+      "liquidity": 267173.4774,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "2896080",
+      "question": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+      "category": "General",
+      "endDate": "2026-08-11T00:00:00Z",
+      "yesPrice": 0.7725,
+      "outcomes": [
+        {
+          "id": "2896080-0",
+          "title": "Yes",
+          "price": 0.7725
+        },
+        {
+          "id": "2896080-1",
+          "title": "No",
+          "price": 0.2275
+        }
+      ],
+      "volume": 810126.4447649999,
+      "liquidity": 72619.48816,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3533441",
       "question": "Cincinnati Open, Qualification: Alina Korneeva vs Alina Charaeva",
       "category": "General",
       "endDate": "2026-08-19T17:00:00Z",
-      "yesPrice": 0.735,
+      "yesPrice": 0.725,
       "outcomes": [
         {
           "id": "3533441-0",
           "title": "Alina Korneeva",
-          "price": 0.735
+          "price": 0.725
         },
         {
           "id": "3533441-1",
           "title": "Alina Charaeva",
-          "price": 0.265
+          "price": 0.275
         }
       ],
-      "volume": 159520.730588,
-      "liquidity": 88806.5522,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3143033",
-      "question": "Will Orlando City SC win on 2026-08-12?",
-      "category": "General",
-      "endDate": "2026-08-12T23:30:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "3143033-0",
-          "title": "Yes",
-          "price": 0.585
-        },
-        {
-          "id": "3143033-1",
-          "title": "No",
-          "price": 0.415
-        }
-      ],
-      "volume": 159076.73220799997,
-      "liquidity": 149908.6957,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3291396",
-      "question": "Will CA Tigre win on 2026-08-12?",
-      "category": "General",
-      "endDate": "2026-08-12T22:00:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "3291396-0",
-          "title": "Yes",
-          "price": 0.395
-        },
-        {
-          "id": "3291396-1",
-          "title": "No",
-          "price": 0.605
-        }
-      ],
-      "volume": 137901.99154499997,
-      "liquidity": 140167.5037,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3435291",
-      "question": "Brownsburg: Ugo Blanchet vs Rei Sakamoto",
-      "category": "General",
-      "endDate": "2026-08-17T14:00:00Z",
-      "yesPrice": 0.4,
-      "outcomes": [
-        {
-          "id": "3435291-0",
-          "title": "Ugo Blanchet",
-          "price": 0.4
-        },
-        {
-          "id": "3435291-1",
-          "title": "Rei Sakamoto",
-          "price": 0.6
-        }
-      ],
-      "volume": 292900.7051690001,
-      "liquidity": 21358.9285,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 162353.18923699996,
+      "liquidity": 88488.1472,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3506208",
       "question": "Cincinnati Open, Qualification: Aleksandar Vukic vs Darwin Blanch",
       "category": "General",
       "endDate": "2026-08-18T20:30:00Z",
-      "yesPrice": 0.605,
+      "yesPrice": 0.825,
       "outcomes": [
         {
           "id": "3506208-0",
           "title": "Aleksandar Vukic",
-          "price": 0.605
+          "price": 0.825
         },
         {
           "id": "3506208-1",
           "title": "Darwin Blanch",
-          "price": 0.395
+          "price": 0.175
         }
       ],
-      "volume": 135125.59275099996,
-      "liquidity": 29790.2171,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 159791.22035499988,
+      "liquidity": 281568.7944,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3275573",
+      "question": "UFC 330: Islam Makhachev vs. Ian Machado Garry (Welterweight, Main Card)",
+      "category": "General",
+      "endDate": "2026-08-16T03:59:59.999Z",
+      "yesPrice": 0.765,
+      "outcomes": [
+        {
+          "id": "3275573-0",
+          "title": "Islam Makhachev",
+          "price": 0.765
+        },
+        {
+          "id": "3275573-1",
+          "title": "Ian Machado Garry",
+          "price": 0.235
+        }
+      ],
+      "volume": 448359.159985,
+      "liquidity": 148235.1468,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3291396",
+      "question": "Will CA Tigre win on 2026-08-12?",
+      "category": "General",
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "3291396-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "3291396-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 142171.26222899993,
+      "liquidity": 160620.7125,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3523520",
       "question": "Milwaukee Brewers vs. San Diego Padres: O/U 7.5",
       "category": "General",
       "endDate": "2026-08-12T20:10:00Z",
-      "yesPrice": 0.04,
+      "yesPrice": 0.205,
       "outcomes": [
         {
           "id": "3523520-0",
           "title": "Over",
-          "price": 0.04
+          "price": 0.205
         },
         {
           "id": "3523520-1",
           "title": "Under",
-          "price": 0.96
+          "price": 0.795
         }
       ],
-      "volume": 115138.13438500003,
-      "liquidity": 76179.4292,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 115842.21016300003,
+      "liquidity": 61999.8004,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3523508",
       "question": "Milwaukee Brewers vs. San Diego Padres: O/U 8.5",
       "category": "General",
       "endDate": "2026-08-12T20:10:00Z",
-      "yesPrice": 0.0395,
+      "yesPrice": 0.1605,
       "outcomes": [
         {
           "id": "3523508-0",
           "title": "Over",
-          "price": 0.0395
+          "price": 0.1605
         },
         {
           "id": "3523508-1",
           "title": "Under",
-          "price": 0.9605
+          "price": 0.8395
         }
       ],
-      "volume": 113672.09472699996,
-      "liquidity": 76913.28741,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 114824.70156999999,
+      "liquidity": 61696.3787,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3379566",
-      "question": "Chicago Cubs vs. Washington Nationals",
+      "id": "3222552",
+      "question": "Will CA Platense win on 2026-08-12?",
       "category": "General",
-      "endDate": "2026-08-19T22:45:00Z",
-      "yesPrice": 0.595,
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.785,
       "outcomes": [
         {
-          "id": "3379566-0",
-          "title": "Chicago Cubs",
-          "price": 0.595
+          "id": "3222552-0",
+          "title": "Yes",
+          "price": 0.785
         },
         {
-          "id": "3379566-1",
-          "title": "Washington Nationals",
-          "price": 0.405
+          "id": "3222552-1",
+          "title": "No",
+          "price": 0.215
         }
       ],
-      "volume": 105851.01896999996,
-      "liquidity": 189639.5775,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 112402.751652,
+      "liquidity": 118411.6273,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2736047",
@@ -679,30 +723,30 @@
         }
       ],
       "volume": 176752.702698,
-      "liquidity": 111590.373,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "liquidity": 83468.9182,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3222552",
-      "question": "Will CA Platense win on 2026-08-12?",
+      "id": "559653",
+      "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
       "category": "General",
-      "endDate": "2026-08-12T22:00:00Z",
-      "yesPrice": 0.785,
+      "endDate": "2028-11-07T00:00:00Z",
+      "yesPrice": 0.217,
       "outcomes": [
         {
-          "id": "3222552-0",
+          "id": "559653-0",
           "title": "Yes",
-          "price": 0.785
+          "price": 0.217
         },
         {
-          "id": "3222552-1",
+          "id": "559653-1",
           "title": "No",
-          "price": 0.215
+          "price": 0.783
         }
       ],
-      "volume": 107652.60486700003,
-      "liquidity": 132809.1049,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 14349980.254422996,
+      "liquidity": 242010.10487,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2910438",
@@ -722,53 +766,53 @@
           "price": 0.645
         }
       ],
-      "volume": 1289686.035532,
-      "liquidity": 80264.2501,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 1290266.2880720003,
+      "liquidity": 63526.2838,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3527877",
-      "question": "Set Handicap: Jodar (-1.5) vs Nakashima (+1.5)",
+      "id": "3506194",
+      "question": "Cincinnati Open, Qualification: Nadia Podoroska vs Ella Seidel",
       "category": "General",
-      "endDate": "2026-08-19T19:00:00Z",
-      "yesPrice": 0.365,
+      "endDate": "2026-08-18T20:30:00Z",
+      "yesPrice": 0.495,
       "outcomes": [
         {
-          "id": "3527877-0",
-          "title": "Jodar",
-          "price": 0.365
+          "id": "3506194-0",
+          "title": "Nadia Podoroska",
+          "price": 0.495
         },
         {
-          "id": "3527877-1",
-          "title": "Nakashima",
-          "price": 0.635
+          "id": "3506194-1",
+          "title": "Ella Seidel",
+          "price": 0.505
         }
       ],
-      "volume": 98679.133725,
-      "liquidity": 15581.103,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 102527.13974700001,
+      "liquidity": 134536.176,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3379570",
       "question": "Boston Red Sox vs. Toronto Blue Jays",
       "category": "General",
       "endDate": "2026-08-19T23:07:00Z",
-      "yesPrice": 0.555,
+      "yesPrice": 0.545,
       "outcomes": [
         {
           "id": "3379570-0",
           "title": "Boston Red Sox",
-          "price": 0.555
+          "price": 0.545
         },
         {
           "id": "3379570-1",
           "title": "Toronto Blue Jays",
-          "price": 0.445
+          "price": 0.455
         }
       ],
-      "volume": 95474.37943999999,
-      "liquidity": 1085476.7928,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 98199.127599,
+      "liquidity": 240433.6681,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3325001",
@@ -788,9 +832,31 @@
           "price": 0.885
         }
       ],
-      "volume": 172040.752025,
-      "liquidity": 27846.6063,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 173575.32869000002,
+      "liquidity": 29676.3037,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3260920",
+      "question": "SE Palmeiras vs. Club Cerro Porteño: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "3260920-0",
+          "title": "Over",
+          "price": 0.075
+        },
+        {
+          "id": "3260920-1",
+          "title": "Under",
+          "price": 0.925
+        }
+      ],
+      "volume": 95434.64883,
+      "liquidity": 43495.2202,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3470856",
@@ -810,9 +876,53 @@
           "price": 0.505
         }
       ],
-      "volume": 98674.35301099998,
-      "liquidity": 65552.9137,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 99197.52301099998,
+      "liquidity": 65303.2104,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3260829",
+      "question": "Cruzeiro EC vs. CR Flamengo: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-08-13T00:30:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "3260829-0",
+          "title": "Over",
+          "price": 0.435
+        },
+        {
+          "id": "3260829-1",
+          "title": "Under",
+          "price": 0.565
+        }
+      ],
+      "volume": 94988.40546500002,
+      "liquidity": 114699.0026,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3379572",
+      "question": "New York Mets vs. Atlanta Braves",
+      "category": "General",
+      "endDate": "2026-08-19T23:15:00Z",
+      "yesPrice": 0.375,
+      "outcomes": [
+        {
+          "id": "3379572-0",
+          "title": "New York Mets",
+          "price": 0.375
+        },
+        {
+          "id": "3379572-1",
+          "title": "Atlanta Braves",
+          "price": 0.625
+        }
+      ],
+      "volume": 93244.079184,
+      "liquidity": 246781.8784,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2155000",
@@ -832,31 +942,9 @@
           "price": 0.963
         }
       ],
-      "volume": 17811939.278583013,
-      "liquidity": 344622.98124,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "3260920",
-      "question": "SE Palmeiras vs. Club Cerro Porteño: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-08-12T22:00:00Z",
-      "yesPrice": 0.225,
-      "outcomes": [
-        {
-          "id": "3260920-0",
-          "title": "Over",
-          "price": 0.225
-        },
-        {
-          "id": "3260920-1",
-          "title": "Under",
-          "price": 0.775
-        }
-      ],
-      "volume": 91143.14637100002,
-      "liquidity": 95611.1467,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 17811939.278583035,
+      "liquidity": 344609.77884,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3399427",
@@ -876,31 +964,53 @@
           "price": 0.9695
         }
       ],
-      "volume": 350481.256602,
-      "liquidity": 96121.07026,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 351018.5815240002,
+      "liquidity": 92612.67055,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3143030",
-      "question": "Will Inter Miami CF win on 2026-08-12?",
+      "id": "601825",
+      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
       "category": "General",
-      "endDate": "2026-08-12T23:30:00Z",
-      "yesPrice": 0.455,
+      "endDate": "2026-10-04T00:00:00Z",
+      "yesPrice": 0.0725,
       "outcomes": [
         {
-          "id": "3143030-0",
+          "id": "601825-0",
           "title": "Yes",
-          "price": 0.455
+          "price": 0.0725
         },
         {
-          "id": "3143030-1",
+          "id": "601825-1",
           "title": "No",
-          "price": 0.545
+          "price": 0.9275
         }
       ],
-      "volume": 93402.964423,
-      "liquidity": 181380.0025,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 9534195.219574,
+      "liquidity": 315907.04715,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3506130",
+      "question": "Cincinnati Open, Qualification: Nicolas Mejia vs Jacob Fearnley",
+      "category": "General",
+      "endDate": "2026-08-18T20:30:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "3506130-0",
+          "title": "Nicolas Mejia",
+          "price": 0.505
+        },
+        {
+          "id": "3506130-1",
+          "title": "Jacob Fearnley",
+          "price": 0.495
+        }
+      ],
+      "volume": 83593.05333400001,
+      "liquidity": 191186.8825,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3515314",
@@ -920,53 +1030,9 @@
           "price": 0.495
         }
       ],
-      "volume": 80470.26908900001,
-      "liquidity": 117933.5467,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "601825",
-      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.0735,
-      "outcomes": [
-        {
-          "id": "601825-0",
-          "title": "Yes",
-          "price": 0.0735
-        },
-        {
-          "id": "601825-1",
-          "title": "No",
-          "price": 0.9265
-        }
-      ],
-      "volume": 9530144.941170996,
-      "liquidity": 315639.86806,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
-    },
-    {
-      "id": "2896071",
-      "question": "Will Ralph Norman be the new Republican nominee for Senate in South Carolina?",
-      "category": "General",
-      "endDate": "2026-08-11T00:00:00Z",
-      "yesPrice": 0.235,
-      "outcomes": [
-        {
-          "id": "2896071-0",
-          "title": "Yes",
-          "price": 0.235
-        },
-        {
-          "id": "2896071-1",
-          "title": "No",
-          "price": 0.765
-        }
-      ],
-      "volume": 247346.30057499997,
-      "liquidity": 53751.336,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 80470.269089,
+      "liquidity": 230274.2504,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2911874",
@@ -986,31 +1052,53 @@
           "price": 0.9685
         }
       ],
-      "volume": 1752621.078839,
-      "liquidity": 142681.65284,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 1752621.0788389996,
+      "liquidity": 139170.47066,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "559653",
-      "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "id": "3379578",
+      "question": "Kansas City Royals vs. Los Angeles Dodgers",
       "category": "General",
-      "endDate": "2028-11-07T00:00:00Z",
-      "yesPrice": 0.1845,
+      "endDate": "2026-08-20T02:10:00Z",
+      "yesPrice": 0.335,
       "outcomes": [
         {
-          "id": "559653-0",
-          "title": "Yes",
-          "price": 0.1845
+          "id": "3379578-0",
+          "title": "Kansas City Royals",
+          "price": 0.335
         },
         {
-          "id": "559653-1",
-          "title": "No",
-          "price": 0.8155
+          "id": "3379578-1",
+          "title": "Los Angeles Dodgers",
+          "price": 0.665
         }
       ],
-      "volume": 14317691.763321,
-      "liquidity": 296002.18347,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 73233.463463,
+      "liquidity": 572914.5712,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3379562",
+      "question": "Pittsburgh Pirates vs. Miami Marlins",
+      "category": "General",
+      "endDate": "2026-08-19T22:40:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "3379562-0",
+          "title": "Pittsburgh Pirates",
+          "price": 0.465
+        },
+        {
+          "id": "3379562-1",
+          "title": "Miami Marlins",
+          "price": 0.535
+        }
+      ],
+      "volume": 72050.26303199999,
+      "liquidity": 265480.5603,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "2774057",
@@ -1031,53 +1119,163 @@
         }
       ],
       "volume": 3040343.619313999,
-      "liquidity": 480904.4774,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "liquidity": 521901.6461,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
-      "id": "3379578",
-      "question": "Kansas City Royals vs. Los Angeles Dodgers",
+      "id": "2896071",
+      "question": "Will Ralph Norman be the new Republican nominee for Senate in South Carolina?",
       "category": "General",
-      "endDate": "2026-08-20T02:10:00Z",
-      "yesPrice": 0.335,
+      "endDate": "2026-08-11T00:00:00Z",
+      "yesPrice": 0.235,
       "outcomes": [
         {
-          "id": "3379578-0",
-          "title": "Kansas City Royals",
-          "price": 0.335
+          "id": "2896071-0",
+          "title": "Yes",
+          "price": 0.235
         },
         {
-          "id": "3379578-1",
-          "title": "Los Angeles Dodgers",
-          "price": 0.665
+          "id": "2896071-1",
+          "title": "No",
+          "price": 0.765
         }
       ],
-      "volume": 71743.78520900001,
-      "liquidity": 462531.2248,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 247718.69018300003,
+      "liquidity": 55229.9847,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3379568",
+      "question": "Seattle Mariners vs. New York Yankees",
+      "category": "General",
+      "endDate": "2026-08-19T23:05:00Z",
+      "yesPrice": 0.725,
+      "outcomes": [
+        {
+          "id": "3379568-0",
+          "title": "Seattle Mariners",
+          "price": 0.725
+        },
+        {
+          "id": "3379568-1",
+          "title": "New York Yankees",
+          "price": 0.275
+        }
+      ],
+      "volume": 69683.29703099997,
+      "liquidity": 185435.7507,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3222550",
+      "question": "Will Club Cerro Porteño win on 2026-08-12?",
+      "category": "General",
+      "endDate": "2026-08-12T22:00:00Z",
+      "yesPrice": 0.055,
+      "outcomes": [
+        {
+          "id": "3222550-0",
+          "title": "Yes",
+          "price": 0.055
+        },
+        {
+          "id": "3222550-1",
+          "title": "No",
+          "price": 0.945
+        }
+      ],
+      "volume": 68955.78670199998,
+      "liquidity": 4596.5982,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     },
     {
       "id": "3325020",
       "question": "Will Elon Musk post 180-199 tweets from August 7 to August 14, 2026?",
       "category": "General",
       "endDate": "2026-08-14T16:00:00Z",
-      "yesPrice": 0.285,
+      "yesPrice": 0.275,
       "outcomes": [
         {
           "id": "3325020-0",
           "title": "Yes",
-          "price": 0.285
+          "price": 0.275
         },
         {
           "id": "3325020-1",
           "title": "No",
-          "price": 0.715
+          "price": 0.725
         }
       ],
-      "volume": 129536.65960799994,
-      "liquidity": 21112.8466,
-      "lastUpdated": "2026-08-12T22:51:46.608Z"
+      "volume": 130127.87960799993,
+      "liquidity": 23853.308,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "3527167",
+      "question": "Cincinnati Open, Qualification: Lilli Tagger vs Robin Montgomery",
+      "category": "General",
+      "endDate": "2026-08-19T14:00:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "3527167-0",
+          "title": "Lilli Tagger",
+          "price": 0.595
+        },
+        {
+          "id": "3527167-1",
+          "title": "Robin Montgomery",
+          "price": 0.405
+        }
+      ],
+      "volume": 64968.871448000005,
+      "liquidity": 194745.0227,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "2730712",
+      "question": "Israel closes its airspace by August 31?",
+      "category": "General",
+      "endDate": "2026-07-15T00:00:00Z",
+      "yesPrice": 0.055,
+      "outcomes": [
+        {
+          "id": "2730712-0",
+          "title": "Yes",
+          "price": 0.055
+        },
+        {
+          "id": "2730712-1",
+          "title": "No",
+          "price": 0.945
+        }
+      ],
+      "volume": 984160.9257949999,
+      "liquidity": 66546.4538,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
+    },
+    {
+      "id": "2412367",
+      "question": "Will Venezuela recognize Israel by December 31?",
+      "category": "General",
+      "endDate": "2026-12-31T17:00:00Z",
+      "yesPrice": 0.605,
+      "outcomes": [
+        {
+          "id": "2412367-0",
+          "title": "Yes",
+          "price": 0.605
+        },
+        {
+          "id": "2412367-1",
+          "title": "No",
+          "price": 0.395
+        }
+      ],
+      "volume": 98592.99677900002,
+      "liquidity": 37189.7969,
+      "lastUpdated": "2026-08-12T23:25:25.913Z"
     }
   ],
-  "lastUpdated": "2026-08-12T22:51:53.367Z"
+  "lastUpdated": "2026-08-12T23:25:33.789Z"
 }
