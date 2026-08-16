@@ -1,114 +1,224 @@
 {
   "markets": [
     {
-      "id": "3300152",
-      "question": "Will RCD Espanyol de Barcelona win on 2026-08-16?",
-      "category": "General",
-      "endDate": "2026-08-16T17:00:00Z",
-      "yesPrice": 0.925,
-      "outcomes": [
-        {
-          "id": "3300152-0",
-          "title": "Yes",
-          "price": 0.925
-        },
-        {
-          "id": "3300152-1",
-          "title": "No",
-          "price": 0.075
-        }
-      ],
-      "volume": 683955.6654699997,
-      "liquidity": 199480.2579,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
-    },
-    {
       "id": "3582698",
       "question": "Counter-Strike: Astralis vs NIP (BO3) - Esports World Cup Group B",
       "category": "General",
       "endDate": "2026-08-16T22:00:00Z",
-      "yesPrice": 0.575,
+      "yesPrice": 0.925,
       "outcomes": [
         {
           "id": "3582698-0",
           "title": "Astralis",
-          "price": 0.575
+          "price": 0.925
         },
         {
           "id": "3582698-1",
           "title": "NIP",
-          "price": 0.425
+          "price": 0.075
         }
       ],
-      "volume": 573480.691437,
-      "liquidity": 159434.1681,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
-    },
-    {
-      "id": "3593546",
-      "question": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
-      "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.225,
-      "outcomes": [
-        {
-          "id": "3593546-0",
-          "title": "Stefanos Tsitsipas",
-          "price": 0.225
-        },
-        {
-          "id": "3593546-1",
-          "title": "Felix Auger-Aliassime",
-          "price": 0.775
-        }
-      ],
-      "volume": 383331.7113280001,
-      "liquidity": 340440.1545,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
-    },
-    {
-      "id": "3596119",
-      "question": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
-      "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.729,
-      "outcomes": [
-        {
-          "id": "3596119-0",
-          "title": "Janice Tjen",
-          "price": 0.729
-        },
-        {
-          "id": "3596119-1",
-          "title": "Viktorija Golubic",
-          "price": 0.271
-        }
-      ],
-      "volume": 305776.4008129999,
-      "liquidity": 338078.30272,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 983399.6766219994,
+      "liquidity": 150593.1354,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3527007",
       "question": "LoL: G2 Esports vs Fnatic (BO3) - LEC Regular Season",
       "category": "General",
       "endDate": "2026-08-16T23:05:00Z",
-      "yesPrice": 0.545,
+      "yesPrice": 0.105,
       "outcomes": [
         {
           "id": "3527007-0",
           "title": "G2 Esports",
-          "price": 0.545
+          "price": 0.105
         },
         {
           "id": "3527007-1",
           "title": "Fnatic",
-          "price": 0.455
+          "price": 0.895
         }
       ],
-      "volume": 224803.93954999986,
-      "liquidity": 235777.6039,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 471408.44831699965,
+      "liquidity": 184611.0727,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3589343",
+      "question": "Counter-Strike: Legacy vs MIBR - Map 1 Winner",
+      "category": "General",
+      "endDate": "2026-08-16T23:50:00Z",
+      "yesPrice": 0.905,
+      "outcomes": [
+        {
+          "id": "3589343-0",
+          "title": "Legacy",
+          "price": 0.905
+        },
+        {
+          "id": "3589343-1",
+          "title": "MIBR",
+          "price": 0.095
+        }
+      ],
+      "volume": 428639.66741100006,
+      "liquidity": 134448.0257,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3527006",
+      "question": "LoL: G2 Esports vs Fnatic - Game 2 Winner",
+      "category": "General",
+      "endDate": "2026-08-16T23:05:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "3527006-0",
+          "title": "G2 Esports",
+          "price": 0.075
+        },
+        {
+          "id": "3527006-1",
+          "title": "Fnatic",
+          "price": 0.925
+        }
+      ],
+      "volume": 391853.85963299987,
+      "liquidity": 178335.3208,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3484861",
+      "question": "Miami Marlins vs. Cincinnati Reds",
+      "category": "General",
+      "endDate": "2026-08-23T17:40:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "3484861-0",
+          "title": "Miami Marlins",
+          "price": 0.535
+        },
+        {
+          "id": "3484861-1",
+          "title": "Cincinnati Reds",
+          "price": 0.465
+        }
+      ],
+      "volume": 303773.32693400007,
+      "liquidity": 163813.5427,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3316685",
+      "question": "Will CA Mineiro win on 2026-08-15?",
+      "category": "General",
+      "endDate": "2026-08-16T19:00:00Z",
+      "yesPrice": 0.555,
+      "outcomes": [
+        {
+          "id": "3316685-0",
+          "title": "Yes",
+          "price": 0.555
+        },
+        {
+          "id": "3316685-1",
+          "title": "No",
+          "price": 0.445
+        }
+      ],
+      "volume": 293174.15943399986,
+      "liquidity": 318592.8868,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3461634",
+      "question": "Will Paris Saint-Germain win on 2026-08-16?",
+      "category": "General",
+      "endDate": "2026-08-16T18:45:00Z",
+      "yesPrice": 0.575,
+      "outcomes": [
+        {
+          "id": "3461634-0",
+          "title": "Yes",
+          "price": 0.575
+        },
+        {
+          "id": "3461634-1",
+          "title": "No",
+          "price": 0.425
+        }
+      ],
+      "volume": 293001.82953499985,
+      "liquidity": 305836.0088,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3589345",
+      "question": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
+      "category": "General",
+      "endDate": "2026-08-16T23:50:00Z",
+      "yesPrice": 0.765,
+      "outcomes": [
+        {
+          "id": "3589345-0",
+          "title": "Legacy",
+          "price": 0.765
+        },
+        {
+          "id": "3589345-1",
+          "title": "MIBR",
+          "price": 0.235
+        }
+      ],
+      "volume": 274017.58990099997,
+      "liquidity": 142094.5735,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3596111",
+      "question": "Cincinnati Open: Daria Snigur vs Madison Keys",
+      "category": "General",
+      "endDate": "2026-08-23T14:00:00Z",
+      "yesPrice": 0.07,
+      "outcomes": [
+        {
+          "id": "3596111-0",
+          "title": "Daria Snigur",
+          "price": 0.07
+        },
+        {
+          "id": "3596111-1",
+          "title": "Madison Keys",
+          "price": 0.93
+        }
+      ],
+      "volume": 246831.9383729998,
+      "liquidity": 381755.9021,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3484881",
+      "question": "Chicago White Sox vs. Detroit Tigers",
+      "category": "General",
+      "endDate": "2026-08-23T17:40:00Z",
+      "yesPrice": 0.155,
+      "outcomes": [
+        {
+          "id": "3484881-0",
+          "title": "Chicago White Sox",
+          "price": 0.155
+        },
+        {
+          "id": "3484881-1",
+          "title": "Detroit Tigers",
+          "price": 0.845
+        }
+      ],
+      "volume": 236480.9653079999,
+      "liquidity": 291319.9086,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "2910438",
@@ -128,53 +238,53 @@
           "price": 0.855
         }
       ],
-      "volume": 1891667.2066609997,
-      "liquidity": 97376.3147,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 1893285.8824729999,
+      "liquidity": 103560.5618,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3484881",
-      "question": "Chicago White Sox vs. Detroit Tigers",
+      "id": "3355483",
+      "question": "RCD Espanyol de Barcelona vs. Levante UD: O/U 2.5",
       "category": "General",
-      "endDate": "2026-08-23T17:40:00Z",
-      "yesPrice": 0.485,
+      "endDate": "2026-08-16T17:00:00Z",
+      "yesPrice": 0.535,
       "outcomes": [
         {
-          "id": "3484881-0",
-          "title": "Chicago White Sox",
-          "price": 0.485
+          "id": "3355483-0",
+          "title": "Over",
+          "price": 0.535
         },
         {
-          "id": "3484881-1",
-          "title": "Detroit Tigers",
-          "price": 0.515
+          "id": "3355483-1",
+          "title": "Under",
+          "price": 0.465
         }
       ],
-      "volume": 214663.95731,
-      "liquidity": 264350.7361,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 214419.56689399993,
+      "liquidity": 70000.9173,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3461634",
-      "question": "Will Paris Saint-Germain win on 2026-08-16?",
+      "id": "3593560",
+      "question": "Cincinnati Open: Joao Fonseca vs Botic van de Zandschulp",
       "category": "General",
-      "endDate": "2026-08-16T18:45:00Z",
-      "yesPrice": 0.585,
+      "endDate": "2026-08-23T14:00:00Z",
+      "yesPrice": 0.866,
       "outcomes": [
         {
-          "id": "3461634-0",
-          "title": "Yes",
-          "price": 0.585
+          "id": "3593560-0",
+          "title": "Joao Fonseca",
+          "price": 0.866
         },
         {
-          "id": "3461634-1",
-          "title": "No",
-          "price": 0.415
+          "id": "3593560-1",
+          "title": "Botic van de Zandschulp",
+          "price": 0.134
         }
       ],
-      "volume": 212926.976315,
-      "liquidity": 269865.85,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 200148.9760359998,
+      "liquidity": 374397.42252,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "2952493",
@@ -194,31 +304,53 @@
           "price": 0.045
         }
       ],
-      "volume": 2070741.2338370006,
-      "liquidity": 99280.0437,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 2070741.233837,
+      "liquidity": 99935.1726,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3596111",
-      "question": "Cincinnati Open: Daria Snigur vs Madison Keys",
+      "id": "3484837",
+      "question": "Boston Red Sox vs. Pittsburgh Pirates",
       "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.295,
+      "endDate": "2026-08-23T17:35:00Z",
+      "yesPrice": 0.085,
       "outcomes": [
         {
-          "id": "3596111-0",
-          "title": "Daria Snigur",
-          "price": 0.295
+          "id": "3484837-0",
+          "title": "Boston Red Sox",
+          "price": 0.085
         },
         {
-          "id": "3596111-1",
-          "title": "Madison Keys",
-          "price": 0.705
+          "id": "3484837-1",
+          "title": "Pittsburgh Pirates",
+          "price": 0.915
         }
       ],
-      "volume": 192336.6903299999,
-      "liquidity": 421692.7788,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 167259.53871000005,
+      "liquidity": 227065.4063,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3484816",
+      "question": "Arizona Diamondbacks vs. Atlanta Braves",
+      "category": "General",
+      "endDate": "2026-08-23T17:35:00Z",
+      "yesPrice": 0.405,
+      "outcomes": [
+        {
+          "id": "3484816-0",
+          "title": "Arizona Diamondbacks",
+          "price": 0.405
+        },
+        {
+          "id": "3484816-1",
+          "title": "Atlanta Braves",
+          "price": 0.595
+        }
+      ],
+      "volume": 166689.89413499995,
+      "liquidity": 181512.7701,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "2774057",
@@ -238,53 +370,9 @@
           "price": 0.885
         }
       ],
-      "volume": 3587727.426570999,
-      "liquidity": 449895.3263,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
-    },
-    {
-      "id": "3484861",
-      "question": "Miami Marlins vs. Cincinnati Reds",
-      "category": "General",
-      "endDate": "2026-08-23T17:40:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "3484861-0",
-          "title": "Miami Marlins",
-          "price": 0.505
-        },
-        {
-          "id": "3484861-1",
-          "title": "Cincinnati Reds",
-          "price": 0.495
-        }
-      ],
-      "volume": 151496.57764800003,
-      "liquidity": 282527.9426,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
-    },
-    {
-      "id": "3593560",
-      "question": "Cincinnati Open: Joao Fonseca vs Botic van de Zandschulp",
-      "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.875,
-      "outcomes": [
-        {
-          "id": "3593560-0",
-          "title": "Joao Fonseca",
-          "price": 0.875
-        },
-        {
-          "id": "3593560-1",
-          "title": "Botic van de Zandschulp",
-          "price": 0.125
-        }
-      ],
-      "volume": 148772.42953499992,
-      "liquidity": 487083.9504,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 3590247.426571,
+      "liquidity": 447039.298,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3593552",
@@ -304,31 +392,31 @@
           "price": 0.315
         }
       ],
-      "volume": 146098.77925499997,
-      "liquidity": 286673.4387,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 150064.64583999995,
+      "liquidity": 345792.5712,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "701502",
       "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.245,
+      "yesPrice": 0.25,
       "outcomes": [
         {
           "id": "701502-0",
           "title": "Yes",
-          "price": 0.245
+          "price": 0.25
         },
         {
           "id": "701502-1",
           "title": "No",
-          "price": 0.755
+          "price": 0.75
         }
       ],
-      "volume": 4242039.314466001,
-      "liquidity": 98928.2596,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 4245530.464466001,
+      "liquidity": 95375.0283,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3399428",
@@ -348,119 +436,207 @@
           "price": 0.945
         }
       ],
-      "volume": 647562.5234569996,
-      "liquidity": 90299.8199,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 648754.0167889994,
+      "liquidity": 89374.8022,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3484837",
-      "question": "Boston Red Sox vs. Pittsburgh Pirates",
+      "id": "3484852",
+      "question": "New York Yankees vs. Toronto Blue Jays",
       "category": "General",
-      "endDate": "2026-08-23T17:35:00Z",
-      "yesPrice": 0.295,
+      "endDate": "2026-08-23T17:37:00Z",
+      "yesPrice": 0.675,
       "outcomes": [
         {
-          "id": "3484837-0",
-          "title": "Boston Red Sox",
-          "price": 0.295
+          "id": "3484852-0",
+          "title": "New York Yankees",
+          "price": 0.675
         },
         {
-          "id": "3484837-1",
-          "title": "Pittsburgh Pirates",
-          "price": 0.705
+          "id": "3484852-1",
+          "title": "Toronto Blue Jays",
+          "price": 0.325
         }
       ],
-      "volume": 130111.14539799986,
-      "liquidity": 237274.9006,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 121453.42574400007,
+      "liquidity": 153886.4411,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3589345",
-      "question": "Counter-Strike: Legacy vs MIBR (BO3) - Esports World Cup Group B",
+      "id": "3593556",
+      "question": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
       "category": "General",
-      "endDate": "2026-08-16T23:50:00Z",
-      "yesPrice": 0.65,
+      "endDate": "2026-08-23T14:00:00Z",
+      "yesPrice": 0.805,
       "outcomes": [
         {
-          "id": "3589345-0",
-          "title": "Legacy",
-          "price": 0.65
+          "id": "3593556-0",
+          "title": "Arthur Rinderknech",
+          "price": 0.805
         },
         {
-          "id": "3589345-1",
-          "title": "MIBR",
-          "price": 0.35
+          "id": "3593556-1",
+          "title": "Juan Manuel Cerundolo",
+          "price": 0.195
         }
       ],
-      "volume": 123771.15139900001,
-      "liquidity": 132792.7548,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 120757.8332929998,
+      "liquidity": 355748.5041,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3612992",
       "question": "Miami Marlins vs. Cincinnati Reds: O/U 8.5",
       "category": "General",
       "endDate": "2026-08-16T17:40:00Z",
-      "yesPrice": 0.455,
+      "yesPrice": 0.225,
       "outcomes": [
         {
           "id": "3612992-0",
           "title": "Over",
-          "price": 0.455
+          "price": 0.225
         },
         {
           "id": "3612992-1",
           "title": "Under",
-          "price": 0.545
+          "price": 0.775
         }
       ],
-      "volume": 115630.28669499999,
-      "liquidity": 105691.2146,
-      "lastUpdated": "2026-08-16T17:59:35.463Z"
+      "volume": 119163.91964000001,
+      "liquidity": 3594.603,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3613040",
+      "question": "Kansas City Royals vs. Los Angeles Angels: O/U 8.5",
+      "category": "General",
+      "endDate": "2026-08-16T20:07:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "3613040-0",
+          "title": "Over",
+          "price": 0.505
+        },
+        {
+          "id": "3613040-1",
+          "title": "Under",
+          "price": 0.495
+        }
+      ],
+      "volume": 118957.54970399998,
+      "liquidity": 341700,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3319126",
       "question": "Will Fredrikstad FK win on 2026-08-16?",
       "category": "General",
       "endDate": "2026-08-16T17:15:00Z",
-      "yesPrice": 0.725,
+      "yesPrice": 0.745,
       "outcomes": [
         {
           "id": "3319126-0",
           "title": "Yes",
-          "price": 0.725
+          "price": 0.745
         },
         {
           "id": "3319126-1",
           "title": "No",
-          "price": 0.275
+          "price": 0.255
         }
       ],
-      "volume": 108075.26579200003,
-      "liquidity": 136601.2742,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 118594.09803400001,
+      "liquidity": 126425.7026,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3613004",
+      "question": "Texas Rangers vs. Athletics: O/U 9.5",
+      "category": "General",
+      "endDate": "2026-08-16T20:05:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "3613004-0",
+          "title": "Over",
+          "price": 0.475
+        },
+        {
+          "id": "3613004-1",
+          "title": "Under",
+          "price": 0.525
+        }
+      ],
+      "volume": 109264.85076099997,
+      "liquidity": 304713.0301,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3608128",
       "question": "Arizona Diamondbacks vs. Atlanta Braves: O/U 9.5",
       "category": "General",
       "endDate": "2026-08-16T17:35:00Z",
-      "yesPrice": 0.36,
+      "yesPrice": 0.35,
       "outcomes": [
         {
           "id": "3608128-0",
           "title": "Over",
-          "price": 0.36
+          "price": 0.35
         },
         {
           "id": "3608128-1",
           "title": "Under",
-          "price": 0.64
+          "price": 0.65
         }
       ],
-      "volume": 107443.54051100004,
-      "liquidity": 2264.1709,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 108434.52178600001,
+      "liquidity": 799.2374,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3613002",
+      "question": "St. Louis Cardinals vs. Chicago Cubs: O/U 8.5",
+      "category": "General",
+      "endDate": "2026-08-16T19:15:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "3613002-0",
+          "title": "Over",
+          "price": 0.545
+        },
+        {
+          "id": "3613002-1",
+          "title": "Under",
+          "price": 0.455
+        }
+      ],
+      "volume": 107649.26303000003,
+      "liquidity": 280984.7238,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3292893",
+      "question": "Will Liverpool FC win on 2026-08-16?",
+      "category": "General",
+      "endDate": "2026-08-16T17:00:00Z",
+      "yesPrice": 0.965,
+      "outcomes": [
+        {
+          "id": "3292893-0",
+          "title": "Yes",
+          "price": 0.965
+        },
+        {
+          "id": "3292893-1",
+          "title": "No",
+          "price": 0.035
+        }
+      ],
+      "volume": 107203.30511200005,
+      "liquidity": 148248.5884,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3598453",
@@ -480,31 +656,9 @@
           "price": 0.265
         }
       ],
-      "volume": 102709.54616799991,
-      "liquidity": 237643.1718,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "3355483",
-      "question": "RCD Espanyol de Barcelona vs. Levante UD: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-08-16T17:00:00Z",
-      "yesPrice": 0.755,
-      "outcomes": [
-        {
-          "id": "3355483-0",
-          "title": "Over",
-          "price": 0.755
-        },
-        {
-          "id": "3355483-1",
-          "title": "Under",
-          "price": 0.245
-        }
-      ],
-      "volume": 100633.941904,
-      "liquidity": 84174.7095,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 104988.833138,
+      "liquidity": 243968.9554,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3484914",
@@ -524,31 +678,75 @@
           "price": 0.455
         }
       ],
-      "volume": 94186.28306400002,
-      "liquidity": 545230.3239,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 97176.069183,
+      "liquidity": 562184.3179,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3414461",
       "question": "Will Elon Musk post 140-159 tweets from August 11 to August 18, 2026?",
       "category": "General",
       "endDate": "2026-08-18T16:00:00Z",
-      "yesPrice": 0.077,
+      "yesPrice": 0.0745,
       "outcomes": [
         {
           "id": "3414461-0",
           "title": "Yes",
-          "price": 0.077
+          "price": 0.0745
         },
         {
           "id": "3414461-1",
           "title": "No",
-          "price": 0.923
+          "price": 0.9255
         }
       ],
-      "volume": 171802.45392800003,
-      "liquidity": 18222.492,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 198061.00678700005,
+      "liquidity": 20405.41756,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3595191",
+      "question": "The Hundred: Trent Rockets vs Manchester Super Giants",
+      "category": "General",
+      "endDate": "2026-08-23T13:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "3595191-0",
+          "title": "Trent Rockets",
+          "price": 0.535
+        },
+        {
+          "id": "3595191-1",
+          "title": "Manchester Super Giants",
+          "price": 0.465
+        }
+      ],
+      "volume": 91962.868349,
+      "liquidity": 219129.5486,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3307351",
+      "question": "Will Beşiktaş JK win on 2026-08-16?",
+      "category": "General",
+      "endDate": "2026-08-16T18:30:00Z",
+      "yesPrice": 0.755,
+      "outcomes": [
+        {
+          "id": "3307351-0",
+          "title": "Yes",
+          "price": 0.755
+        },
+        {
+          "id": "3307351-1",
+          "title": "No",
+          "price": 0.245
+        }
+      ],
+      "volume": 91959.28356800001,
+      "liquidity": 116084.5779,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3257358",
@@ -569,162 +767,118 @@
         }
       ],
       "volume": 399827.0992130001,
-      "liquidity": 75565.7229,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "3613002",
-      "question": "St. Louis Cardinals vs. Chicago Cubs: O/U 8.5",
-      "category": "General",
-      "endDate": "2026-08-16T19:15:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3613002-0",
-          "title": "Over",
-          "price": 0.545
-        },
-        {
-          "id": "3613002-1",
-          "title": "Under",
-          "price": 0.455
-        }
-      ],
-      "volume": 87682.41734500001,
-      "liquidity": 312126.4973,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "liquidity": 61251.7837,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3634849",
       "question": "Bitcoin Up or Down on August 17?",
       "category": "General",
       "endDate": "2026-08-17T16:00:00Z",
-      "yesPrice": 0.515,
+      "yesPrice": 0.525,
       "outcomes": [
         {
           "id": "3634849-0",
           "title": "Up",
-          "price": 0.515
+          "price": 0.525
         },
         {
           "id": "3634849-1",
           "title": "Down",
-          "price": 0.485
-        }
-      ],
-      "volume": 84425.23642199999,
-      "liquidity": 25233.0841,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "601825",
-      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.049,
-      "outcomes": [
-        {
-          "id": "601825-0",
-          "title": "Yes",
-          "price": 0.049
-        },
-        {
-          "id": "601825-1",
-          "title": "No",
-          "price": 0.951
-        }
-      ],
-      "volume": 9762341.754266005,
-      "liquidity": 334775.70913,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "3484852",
-      "question": "New York Yankees vs. Toronto Blue Jays",
-      "category": "General",
-      "endDate": "2026-08-23T17:37:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "3484852-0",
-          "title": "New York Yankees",
           "price": 0.475
-        },
-        {
-          "id": "3484852-1",
-          "title": "Toronto Blue Jays",
-          "price": 0.525
         }
       ],
-      "volume": 83808.46007300007,
-      "liquidity": 265378.5709,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 86580.91694099999,
+      "liquidity": 17331.7101,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
-      "id": "3292893",
-      "question": "Will Liverpool FC win on 2026-08-16?",
+      "id": "3335476",
+      "question": "Spread: CA Mineiro (-1.5)",
       "category": "General",
-      "endDate": "2026-08-16T17:00:00Z",
-      "yesPrice": 0.925,
+      "endDate": "2026-08-16T19:00:00Z",
+      "yesPrice": 0.315,
       "outcomes": [
         {
-          "id": "3292893-0",
-          "title": "Yes",
-          "price": 0.925
+          "id": "3335476-0",
+          "title": "CA Mineiro",
+          "price": 0.315
         },
         {
-          "id": "3292893-1",
-          "title": "No",
-          "price": 0.075
+          "id": "3335476-1",
+          "title": "Grêmio FBPA",
+          "price": 0.685
         }
       ],
-      "volume": 81566.30166400003,
-      "liquidity": 182584.9231,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 84370.49110199999,
+      "liquidity": 93617.433,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3593554",
+      "question": "Cincinnati Open: Taylor Fritz vs Alex Michelsen",
+      "category": "General",
+      "endDate": "2026-08-23T14:00:00Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "3593554-0",
+          "title": "Taylor Fritz",
+          "price": 0.635
+        },
+        {
+          "id": "3593554-1",
+          "title": "Alex Michelsen",
+          "price": 0.365
+        }
+      ],
+      "volume": 86623.59077800001,
+      "liquidity": 395500.0559,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3608164",
       "question": "New York Yankees vs. Toronto Blue Jays: O/U 7.5",
       "category": "General",
       "endDate": "2026-08-16T17:37:00Z",
-      "yesPrice": 0.335,
+      "yesPrice": 0.19,
       "outcomes": [
         {
           "id": "3608164-0",
           "title": "Over",
-          "price": 0.335
+          "price": 0.19
         },
         {
           "id": "3608164-1",
           "title": "Under",
-          "price": 0.665
+          "price": 0.81
         }
       ],
-      "volume": 81174.42991099997,
-      "liquidity": 117585.5884,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 82311.00574099999,
+      "liquidity": 62965.1245,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3608143",
       "question": "Arizona Diamondbacks vs. Atlanta Braves: O/U 8.5",
       "category": "General",
       "endDate": "2026-08-16T17:35:00Z",
-      "yesPrice": 0.43,
+      "yesPrice": 0.38,
       "outcomes": [
         {
           "id": "3608143-0",
           "title": "Over",
-          "price": 0.43
+          "price": 0.38
         },
         {
           "id": "3608143-1",
           "title": "Under",
-          "price": 0.57
+          "price": 0.62
         }
       ],
-      "volume": 80407.757087,
-      "liquidity": 5813.1721,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 81422.014428,
+      "liquidity": 34221.8359,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3598440",
@@ -744,9 +898,31 @@
           "price": 0.475
         }
       ],
-      "volume": 79312.960405,
-      "liquidity": 305946.6143,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 79439.63209899997,
+      "liquidity": 281745.4123,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
+    },
+    {
+      "id": "3316724",
+      "question": "Will SK Slavia Praha win on 2026-08-16?",
+      "category": "General",
+      "endDate": "2026-08-16T18:00:00Z",
+      "yesPrice": 0.68,
+      "outcomes": [
+        {
+          "id": "3316724-0",
+          "title": "Yes",
+          "price": 0.68
+        },
+        {
+          "id": "3316724-1",
+          "title": "No",
+          "price": 0.32
+        }
+      ],
+      "volume": 78907.74811699997,
+      "liquidity": 10458.435,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "2252244",
@@ -766,53 +942,9 @@
           "price": 0.265
         }
       ],
-      "volume": 7807142.879559006,
-      "liquidity": 642241.209,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "3593556",
-      "question": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
-      "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.83,
-      "outcomes": [
-        {
-          "id": "3593556-0",
-          "title": "Arthur Rinderknech",
-          "price": 0.83
-        },
-        {
-          "id": "3593556-1",
-          "title": "Juan Manuel Cerundolo",
-          "price": 0.17
-        }
-      ],
-      "volume": 78303.55496600004,
-      "liquidity": 385235.4272,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "3619271",
-      "question": "Prague: Eduardo Ribeiro vs Andrew Paulson",
-      "category": "General",
-      "endDate": "2026-08-23T09:10:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "3619271-0",
-          "title": "Eduardo Ribeiro",
-          "price": 0.505
-        },
-        {
-          "id": "3619271-1",
-          "title": "Andrew Paulson",
-          "price": 0.495
-        }
-      ],
-      "volume": 74237.00379,
-      "liquidity": 61948.0725,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 7808452.136305004,
+      "liquidity": 629187.0691,
+      "lastUpdated": "2026-08-16T18:39:30.639Z"
     },
     {
       "id": "3608228",
@@ -832,32 +964,10 @@
           "price": 0.575
         }
       ],
-      "volume": 73017.396827,
-      "liquidity": 97109.0245,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
-    },
-    {
-      "id": "601819",
-      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.665,
-      "outcomes": [
-        {
-          "id": "601819-0",
-          "title": "Yes",
-          "price": 0.665
-        },
-        {
-          "id": "601819-1",
-          "title": "No",
-          "price": 0.335
-        }
-      ],
-      "volume": 8387761.139785995,
-      "liquidity": 382382.4316,
-      "lastUpdated": "2026-08-16T17:59:35.464Z"
+      "volume": 73175.65140500001,
+      "liquidity": 127360.643,
+      "lastUpdated": "2026-08-16T18:39:30.640Z"
     }
   ],
-  "lastUpdated": "2026-08-16T17:59:43.042Z"
+  "lastUpdated": "2026-08-16T18:39:39.417Z"
 }
