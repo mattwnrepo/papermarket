@@ -1,37 +1,17 @@
 {
   "cash": 0,
-  "totalValue": 1.6160416738088277,
+  "totalValue": 1.185321560851972,
   "positions": [
     {
-      "marketId": "2663611",
-      "question": "US-Iran 60 day negotiation period extended?",
+      "marketId": "3501952",
+      "question": "Strait of Hormuz traffic returns to normal by September 15?",
       "outcome": "No",
-      "shares": 1.6825004412377176,
-      "avgCost": 0.9605,
-      "costBasis": 1.6160416738088277
+      "shares": 1.2283124982921991,
+      "avgCost": 0.965,
+      "costBasis": 1.185321560851972
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-14T16:53:51.546Z",
-      "action": "SELL",
-      "marketId": "2737255",
-      "question": "Will the Iranian regime fall by September 30?",
-      "outcome": "No",
-      "proceeds": 22.04669375919843,
-      "price": 0.9665,
-      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
-    },
-    {
-      "ts": "2026-07-14T16:53:51.546Z",
-      "action": "BUY",
-      "marketId": "2880039",
-      "question": "Exact Score: France 3 - 2 Spain?",
-      "outcome": "No",
-      "amount": 20,
-      "price": 0.969,
-      "reasoning": "Sold a dropped position to reclaim cash and bought two longshot 'No' outcomes with positive edge to exploit the favourite-longshot bias."
-    },
     {
       "ts": "2026-07-14T16:53:51.546Z",
       "action": "BUY",
@@ -2011,8 +1991,28 @@
       "amount": 1.6160416738088277,
       "price": 0.9605,
       "reasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-08-17T10:49:50.047Z",
+      "action": "SELL",
+      "marketId": "2663611",
+      "question": "US-Iran 60 day negotiation period extended?",
+      "outcome": "No",
+      "proceeds": 1.185321560851972,
+      "price": 0.7045,
+      "reasoning": "Sold a stop-loss position and initiated new trades on favourite-longshot bias signals with positive edge."
+    },
+    {
+      "ts": "2026-08-17T10:49:50.047Z",
+      "action": "BUY",
+      "marketId": "3501952",
+      "question": "Strait of Hormuz traffic returns to normal by September 15?",
+      "outcome": "No",
+      "amount": 1.185321560851972,
+      "price": 0.965,
+      "reasoning": "Sold a stop-loss position and initiated new trades on favourite-longshot bias signals with positive edge."
     }
   ],
-  "lastUpdated": "2026-08-17T10:17:23.036Z",
-  "lastReasoning": "Sold a resolved position to free up cash, then bought two high-edge longshot 'No' positions to exploit the favourite-longshot bias."
+  "lastUpdated": "2026-08-17T10:49:50.048Z",
+  "lastReasoning": "Sold a stop-loss position and initiated new trades on favourite-longshot bias signals with positive edge."
 }
