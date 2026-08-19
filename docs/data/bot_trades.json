@@ -3,35 +3,15 @@
   "totalValue": 1.188354805126633,
   "positions": [
     {
-      "marketId": "567621",
-      "question": "Will China invade Taiwan by end of 2026?",
+      "marketId": "559651",
+      "question": "Xi Jinping out before 2027?",
       "outcome": "No",
-      "shares": 1.2359384348690932,
-      "avgCost": 0.9605,
-      "costBasis": 1.187118866691764
+      "shares": 1.2411016241531416,
+      "avgCost": 0.9575,
+      "costBasis": 1.188354805126633
     }
   ],
   "tradeLog": [
-    {
-      "ts": "2026-07-14T19:45:52.250Z",
-      "action": "SELL",
-      "marketId": "2880277",
-      "question": "Spread: France (-2.5)",
-      "outcome": "No",
-      "proceeds": 2.133723484850732,
-      "price": 0.01375,
-      "reasoning": "Sold stop-loss and dropped positions to reclaim cash, then bought new favourite and longshot signals with positive edge."
-    },
-    {
-      "ts": "2026-07-14T19:45:52.250Z",
-      "action": "BUY",
-      "marketId": "2431010",
-      "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
-      "outcome": "No",
-      "amount": 50,
-      "price": 0.97,
-      "reasoning": "Sold stop-loss and dropped positions to reclaim cash, then bought new favourite and longshot signals with positive edge."
-    },
     {
       "ts": "2026-07-14T19:45:52.250Z",
       "action": "BUY",
@@ -2011,8 +1991,28 @@
       "amount": 1.187118866691764,
       "price": 0.9605,
       "reasoning": "Sold an existing position to reclaim cash and then bought into multiple longshot 'No' markets and one favourite 'Yes' market with positive edge, exploiting the favourite-longshot bias."
+    },
+    {
+      "ts": "2026-08-19T13:02:12.836Z",
+      "action": "SELL",
+      "marketId": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "outcome": "No",
+      "proceeds": 1.188354805126633,
+      "price": 0.9615,
+      "reasoning": "Sold existing position to reclaim cash, then initiated new BUY trades on markets exhibiting a positive favourite-longshot bias edge, prioritizing the highest edge within the allowed trade limits."
+    },
+    {
+      "ts": "2026-08-19T13:02:12.836Z",
+      "action": "BUY",
+      "marketId": "559651",
+      "question": "Xi Jinping out before 2027?",
+      "outcome": "No",
+      "amount": 1.188354805126633,
+      "price": 0.9575,
+      "reasoning": "Sold existing position to reclaim cash, then initiated new BUY trades on markets exhibiting a positive favourite-longshot bias edge, prioritizing the highest edge within the allowed trade limits."
     }
   ],
-  "lastUpdated": "2026-08-19T12:02:46.883Z",
-  "lastReasoning": "Despite multiple strong BUY signals identified for exploiting the favourite-longshot bias, no trades can be executed as the portfolio has $0.00 USDC cash."
+  "lastUpdated": "2026-08-19T13:02:12.836Z",
+  "lastReasoning": "Sold existing position to reclaim cash, then initiated new BUY trades on markets exhibiting a positive favourite-longshot bias edge, prioritizing the highest edge within the allowed trade limits."
 }
