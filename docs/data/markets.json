@@ -1,6 +1,28 @@
 {
   "markets": [
     {
+      "id": "3787071",
+      "question": "Counter-Strike: FUT Esports vs Spirit (BO5) - Esports World Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-08-23T18:15:00Z",
+      "yesPrice": 0.305,
+      "outcomes": [
+        {
+          "id": "3787071-0",
+          "title": "FUT Esports",
+          "price": 0.305
+        },
+        {
+          "id": "3787071-1",
+          "title": "Spirit",
+          "price": 0.695
+        }
+      ],
+      "volume": 2407256.8426270024,
+      "liquidity": 1210860.5296,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
       "id": "3474314",
       "question": "Will Liverpool FC win on 2026-08-23?",
       "category": "General",
@@ -18,97 +40,75 @@
           "price": 0.495
         }
       ],
-      "volume": 1672705.619592999,
-      "liquidity": 1638661.0266,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3787071",
-      "question": "Counter-Strike: FUT Esports vs Spirit (BO5) - Esports World Cup Playoffs",
-      "category": "General",
-      "endDate": "2026-08-23T18:15:00Z",
-      "yesPrice": 0.285,
-      "outcomes": [
-        {
-          "id": "3787071-0",
-          "title": "FUT Esports",
-          "price": 0.285
-        },
-        {
-          "id": "3787071-1",
-          "title": "Spirit",
-          "price": 0.715
-        }
-      ],
-      "volume": 1300948.8037489997,
-      "liquidity": 1066502.7364,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 1722145.540491001,
+      "liquidity": 2433812.609,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3474252",
       "question": "Will Manchester City FC win on 2026-08-23?",
       "category": "General",
       "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.355,
+      "yesPrice": 0.185,
       "outcomes": [
         {
           "id": "3474252-0",
           "title": "Yes",
-          "price": 0.355
+          "price": 0.185
         },
         {
           "id": "3474252-1",
           "title": "No",
-          "price": 0.645
+          "price": 0.815
         }
       ],
-      "volume": 1079091.1858839998,
-      "liquidity": 346713.5059,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 1340707.4766990019,
+      "liquidity": 267508.3496,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3787065",
+      "question": "Counter-Strike: FUT Esports vs Spirit - Map 2 Winner",
+      "category": "General",
+      "endDate": "2026-08-23T18:15:00Z",
+      "yesPrice": 0.12,
+      "outcomes": [
+        {
+          "id": "3787065-0",
+          "title": "FUT Esports",
+          "price": 0.12
+        },
+        {
+          "id": "3787065-1",
+          "title": "Spirit",
+          "price": 0.88
+        }
+      ],
+      "volume": 577718.9053450004,
+      "liquidity": 114154.52454,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3589312",
       "question": "LoL: Bilibili Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
       "category": "General",
       "endDate": "2026-08-23T18:20:00Z",
-      "yesPrice": 0.375,
+      "yesPrice": 0.625,
       "outcomes": [
         {
           "id": "3589312-0",
           "title": "Bilibili Gaming",
-          "price": 0.375
+          "price": 0.625
         },
         {
           "id": "3589312-1",
           "title": "Anyone's Legend",
-          "price": 0.625
+          "price": 0.375
         }
       ],
-      "volume": 502735.4725390002,
-      "liquidity": 198961.4755,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3589311",
-      "question": "LoL: Bilibili Gaming vs Anyone's Legend - Game 2 Winner",
-      "category": "General",
-      "endDate": "2026-08-23T18:20:00Z",
-      "yesPrice": 0.8,
-      "outcomes": [
-        {
-          "id": "3589311-0",
-          "title": "Bilibili Gaming",
-          "price": 0.8
-        },
-        {
-          "id": "3589311-1",
-          "title": "Anyone's Legend",
-          "price": 0.2
-        }
-      ],
-      "volume": 405067.81936600007,
-      "liquidity": 187094.6533,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 572502.0771390001,
+      "liquidity": 274873.7209,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "701553",
@@ -128,9 +128,9 @@
           "price": 0.945
         }
       ],
-      "volume": 1952361.8958949996,
-      "liquidity": 95419.6012,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 1952361.895895,
+      "liquidity": 100100.278,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3476559",
@@ -150,9 +150,31 @@
           "price": 0.275
         }
       ],
-      "volume": 385501.0794689996,
-      "liquidity": 486856.0905,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 387678.797776001,
+      "liquidity": 493859.988,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3476543",
+      "question": "Will Club Atlético de Madrid win on 2026-08-23?",
+      "category": "General",
+      "endDate": "2026-08-23T15:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "3476543-0",
+          "title": "Yes",
+          "price": 0.535
+        },
+        {
+          "id": "3476543-1",
+          "title": "No",
+          "price": 0.465
+        }
+      ],
+      "volume": 352840.6307720002,
+      "liquidity": 1461744.623,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "701554",
@@ -172,119 +194,119 @@
           "price": 0.955
         }
       ],
-      "volume": 1609588.017734,
-      "liquidity": 66289.5268,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3476543",
-      "question": "Will Club Atlético de Madrid win on 2026-08-23?",
-      "category": "General",
-      "endDate": "2026-08-23T15:00:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3476543-0",
-          "title": "Yes",
-          "price": 0.545
-        },
-        {
-          "id": "3476543-1",
-          "title": "No",
-          "price": 0.455
-        }
-      ],
-      "volume": 340638.2694920002,
-      "liquidity": 1538609.7038,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3787065",
-      "question": "Counter-Strike: FUT Esports vs Spirit - Map 2 Winner",
-      "category": "General",
-      "endDate": "2026-08-23T18:15:00Z",
-      "yesPrice": 0.115,
-      "outcomes": [
-        {
-          "id": "3787065-0",
-          "title": "FUT Esports",
-          "price": 0.115
-        },
-        {
-          "id": "3787065-1",
-          "title": "Spirit",
-          "price": 0.885
-        }
-      ],
-      "volume": 307228.3116380001,
-      "liquidity": 170784.4468,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3763464",
-      "question": "Bitcoin Up or Down on August 23?",
-      "category": "General",
-      "endDate": "2026-08-23T16:00:00Z",
-      "yesPrice": 0.835,
-      "outcomes": [
-        {
-          "id": "3763464-0",
-          "title": "Up",
-          "price": 0.835
-        },
-        {
-          "id": "3763464-1",
-          "title": "Down",
-          "price": 0.165
-        }
-      ],
-      "volume": 268724.07993899996,
-      "liquidity": 36581.2341,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3787078",
-      "question": "Map Handicap: TS (-1.5) vs FUT Esports (+1.5)",
-      "category": "General",
-      "endDate": "2026-08-23T18:15:00Z",
-      "yesPrice": 0.4,
-      "outcomes": [
-        {
-          "id": "3787078-0",
-          "title": "Spirit",
-          "price": 0.4
-        },
-        {
-          "id": "3787078-1",
-          "title": "FUT Esports",
-          "price": 0.6
-        }
-      ],
-      "volume": 265677.2213820001,
-      "liquidity": 42568.0994,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 1609588.0177340002,
+      "liquidity": 68536.3433,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3474262",
       "question": "Will AFC Bournemouth win on 2026-08-23?",
       "category": "General",
       "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.325,
+      "yesPrice": 0.485,
       "outcomes": [
         {
           "id": "3474262-0",
           "title": "Yes",
-          "price": 0.325
+          "price": 0.485
         },
         {
           "id": "3474262-1",
           "title": "No",
-          "price": 0.675
+          "price": 0.515
         }
       ],
-      "volume": 234357.90895799993,
-      "liquidity": 294516.5817,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 325019.9359450002,
+      "liquidity": 265457.6042,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3763464",
+      "question": "Bitcoin Up or Down on August 23?",
+      "category": "General",
+      "endDate": "2026-08-23T16:00:00Z",
+      "yesPrice": 0.88,
+      "outcomes": [
+        {
+          "id": "3763464-0",
+          "title": "Up",
+          "price": 0.88
+        },
+        {
+          "id": "3763464-1",
+          "title": "Down",
+          "price": 0.12
+        }
+      ],
+      "volume": 278652.2620439999,
+      "liquidity": 28973.5256,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3787078",
+      "question": "Map Handicap: TS (-1.5) vs FUT Esports (+1.5)",
+      "category": "General",
+      "endDate": "2026-08-23T18:15:00Z",
+      "yesPrice": 0.39,
+      "outcomes": [
+        {
+          "id": "3787078-0",
+          "title": "Spirit",
+          "price": 0.39
+        },
+        {
+          "id": "3787078-1",
+          "title": "FUT Esports",
+          "price": 0.61
+        }
+      ],
+      "volume": 269761.81792,
+      "liquidity": 45608.8287,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3475955",
+      "question": "Manchester City FC vs. AFC Bournemouth: O/U 3.5",
+      "category": "General",
+      "endDate": "2026-08-23T13:00:00Z",
+      "yesPrice": 0.085,
+      "outcomes": [
+        {
+          "id": "3475955-0",
+          "title": "Over",
+          "price": 0.085
+        },
+        {
+          "id": "3475955-1",
+          "title": "Under",
+          "price": 0.915
+        }
+      ],
+      "volume": 230675.90891599993,
+      "liquidity": 131905.0029,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3475949",
+      "question": "Manchester City FC vs. AFC Bournemouth: O/U 1.5",
+      "category": "General",
+      "endDate": "2026-08-23T13:00:00Z",
+      "yesPrice": 0.695,
+      "outcomes": [
+        {
+          "id": "3475949-0",
+          "title": "Over",
+          "price": 0.695
+        },
+        {
+          "id": "3475949-1",
+          "title": "Under",
+          "price": 0.305
+        }
+      ],
+      "volume": 220975.81063799988,
+      "liquidity": 89892.9845,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3240746",
@@ -304,31 +326,9 @@
           "price": 0.9605
         }
       ],
-      "volume": 263969.149195,
-      "liquidity": 31351.26495,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3475955",
-      "question": "Manchester City FC vs. AFC Bournemouth: O/U 3.5",
-      "category": "General",
-      "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "3475955-0",
-          "title": "Over",
-          "price": 0.295
-        },
-        {
-          "id": "3475955-1",
-          "title": "Under",
-          "price": 0.705
-        }
-      ],
-      "volume": 222338.48458500003,
-      "liquidity": 144903.9973,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 263969.14919500006,
+      "liquidity": 32062.77501,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "2252244",
@@ -348,31 +348,9 @@
           "price": 0.315
         }
       ],
-      "volume": 10090241.626259014,
-      "liquidity": 691800.4597,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3475949",
-      "question": "Manchester City FC vs. AFC Bournemouth: O/U 1.5",
-      "category": "General",
-      "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.885,
-      "outcomes": [
-        {
-          "id": "3475949-0",
-          "title": "Over",
-          "price": 0.885
-        },
-        {
-          "id": "3475949-1",
-          "title": "Under",
-          "price": 0.115
-        }
-      ],
-      "volume": 205687.233206,
-      "liquidity": 134391.6663,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 10093444.740016013,
+      "liquidity": 640844.1678,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3471471",
@@ -392,141 +370,75 @@
           "price": 0.485
         }
       ],
-      "volume": 174962.86482099994,
-      "liquidity": 529855.4485,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 176611.71999200006,
+      "liquidity": 452302.4091,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3475937",
       "question": "Spread: AFC Bournemouth (-1.5)",
       "category": "General",
       "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.1015,
+      "yesPrice": 0.11,
       "outcomes": [
         {
           "id": "3475937-0",
           "title": "AFC Bournemouth",
-          "price": 0.1015
+          "price": 0.11
         },
         {
           "id": "3475937-1",
           "title": "Manchester City FC",
-          "price": 0.8985
+          "price": 0.89
         }
       ],
-      "volume": 170930.48619899998,
-      "liquidity": 124977.13676,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 173554.52046499992,
+      "liquidity": 111478.43078,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
-      "id": "3475958",
-      "question": "Manchester City FC vs. AFC Bournemouth: O/U 4.5",
+      "id": "666861",
+      "question": "Trump out as President before 2027?",
       "category": "General",
-      "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.115,
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.065,
       "outcomes": [
         {
-          "id": "3475958-0",
-          "title": "Over",
-          "price": 0.115
-        },
-        {
-          "id": "3475958-1",
-          "title": "Under",
-          "price": 0.885
-        }
-      ],
-      "volume": 167741.38519700003,
-      "liquidity": 157621.7525,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "559653",
-      "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "category": "General",
-      "endDate": "2028-11-07T00:00:00Z",
-      "yesPrice": 0.2145,
-      "outcomes": [
-        {
-          "id": "559653-0",
+          "id": "666861-0",
           "title": "Yes",
-          "price": 0.2145
+          "price": 0.065
         },
         {
-          "id": "559653-1",
+          "id": "666861-1",
           "title": "No",
-          "price": 0.7855
+          "price": 0.935
         }
       ],
-      "volume": 14955245.507402,
-      "liquidity": 330434.86813,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 11124230.905502995,
+      "liquidity": 232202.6988,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
-      "id": "561231",
-      "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+      "id": "559651",
+      "question": "Xi Jinping out before 2027?",
       "category": "General",
-      "endDate": "2028-11-07T00:00:00Z",
-      "yesPrice": 0.1415,
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.0525,
       "outcomes": [
         {
-          "id": "561231-0",
+          "id": "559651-0",
           "title": "Yes",
-          "price": 0.1415
+          "price": 0.0525
         },
         {
-          "id": "561231-1",
+          "id": "559651-1",
           "title": "No",
-          "price": 0.8585
+          "price": 0.9475
         }
       ],
-      "volume": 13445652.076990996,
-      "liquidity": 324852.37748,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "1163699",
-      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.245,
-      "outcomes": [
-        {
-          "id": "1163699-0",
-          "title": "Yes",
-          "price": 0.245
-        },
-        {
-          "id": "1163699-1",
-          "title": "No",
-          "price": 0.755
-        }
-      ],
-      "volume": 7921423.699571991,
-      "liquidity": 458293.9984,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3781930",
-      "question": "St. Louis Cardinals vs. Philadelphia Phillies: O/U 7.5",
-      "category": "General",
-      "endDate": "2026-08-23T17:35:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3781930-0",
-          "title": "Over",
-          "price": 0.545
-        },
-        {
-          "id": "3781930-1",
-          "title": "Under",
-          "price": 0.455
-        }
-      ],
-      "volume": 136605.21458200002,
-      "liquidity": 235885.526,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 12554038.568571996,
+      "liquidity": 124124.743,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "703257",
@@ -546,9 +458,53 @@
           "price": 0.9605
         }
       ],
-      "volume": 37472420.45021394,
-      "liquidity": 696676.5022,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 37478497.54021394,
+      "liquidity": 682088.8772,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "1163699",
+      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.245,
+      "outcomes": [
+        {
+          "id": "1163699-0",
+          "title": "Yes",
+          "price": 0.245
+        },
+        {
+          "id": "1163699-1",
+          "title": "No",
+          "price": 0.755
+        }
+      ],
+      "volume": 7921427.69957199,
+      "liquidity": 451003.9084,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3781930",
+      "question": "St. Louis Cardinals vs. Philadelphia Phillies: O/U 7.5",
+      "category": "General",
+      "endDate": "2026-08-23T17:35:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "3781930-0",
+          "title": "Over",
+          "price": 0.545
+        },
+        {
+          "id": "3781930-1",
+          "title": "Under",
+          "price": 0.455
+        }
+      ],
+      "volume": 136605.21458200004,
+      "liquidity": 249658.9963,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "701502",
@@ -569,8 +525,8 @@
         }
       ],
       "volume": 5271293.467151001,
-      "liquidity": 182553.3246,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "liquidity": 232873.5638,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3763515",
@@ -590,53 +546,163 @@
           "price": 0.9405
         }
       ],
-      "volume": 187986.044918,
-      "liquidity": 54569.48702,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 197246.534918,
+      "liquidity": 47614.62314,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "2910438",
       "question": "US announces end of Iranian blockade by August 31, 2026?",
       "category": "General",
       "endDate": "2026-09-01T03:59:00Z",
-      "yesPrice": 0.0455,
+      "yesPrice": 0.0425,
       "outcomes": [
         {
           "id": "2910438-0",
           "title": "Yes",
-          "price": 0.0455
+          "price": 0.0425
         },
         {
           "id": "2910438-1",
           "title": "No",
-          "price": 0.9545
+          "price": 0.9575
         }
       ],
-      "volume": 2763007.94439,
-      "liquidity": 138952.61424,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 2765640.340047999,
+      "liquidity": 144087.98768,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3128887",
       "question": "US announces end of Iranian blockade by September 30, 2026?",
       "category": "General",
       "endDate": "2026-10-01T03:59:00Z",
-      "yesPrice": 0.345,
+      "yesPrice": 0.35,
       "outcomes": [
         {
           "id": "3128887-0",
           "title": "Yes",
-          "price": 0.345
+          "price": 0.35
         },
         {
           "id": "3128887-1",
           "title": "No",
-          "price": 0.655
+          "price": 0.65
         }
       ],
-      "volume": 1322412.4251079995,
-      "liquidity": 110038.2691,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 1322758.0951079987,
+      "liquidity": 112977.7941,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3475952",
+      "question": "Manchester City FC vs. AFC Bournemouth: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-08-23T13:00:00Z",
+      "yesPrice": 0.305,
+      "outcomes": [
+        {
+          "id": "3475952-0",
+          "title": "Over",
+          "price": 0.305
+        },
+        {
+          "id": "3475952-1",
+          "title": "Under",
+          "price": 0.695
+        }
+      ],
+      "volume": 121976.49453100009,
+      "liquidity": 100031.9965,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "601825",
+      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+      "category": "General",
+      "endDate": "2026-10-04T00:00:00Z",
+      "yesPrice": 0.0335,
+      "outcomes": [
+        {
+          "id": "601825-0",
+          "title": "Yes",
+          "price": 0.0335
+        },
+        {
+          "id": "601825-1",
+          "title": "No",
+          "price": 0.9665
+        }
+      ],
+      "volume": 10632116.114341998,
+      "liquidity": 339099.98746,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "2176270",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "category": "General",
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.315,
+      "outcomes": [
+        {
+          "id": "2176270-0",
+          "title": "Yes",
+          "price": 0.315
+        },
+        {
+          "id": "2176270-1",
+          "title": "No",
+          "price": 0.685
+        }
+      ],
+      "volume": 8973565.362515999,
+      "liquidity": 476157.7341,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3257338",
+      "question": "Will Bitcoin reach $80,000 in August?",
+      "category": "General",
+      "endDate": "2026-09-01T04:00:00Z",
+      "yesPrice": 0.615,
+      "outcomes": [
+        {
+          "id": "3257338-0",
+          "title": "Yes",
+          "price": 0.615
+        },
+        {
+          "id": "3257338-1",
+          "title": "No",
+          "price": 0.385
+        }
+      ],
+      "volume": 1136856.9439129985,
+      "liquidity": 69000.12065,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3474256",
+      "question": "Will Manchester City FC vs. AFC Bournemouth end in a draw?",
+      "category": "General",
+      "endDate": "2026-08-23T13:00:00Z",
+      "yesPrice": 0.325,
+      "outcomes": [
+        {
+          "id": "3474256-0",
+          "title": "Yes",
+          "price": 0.325
+        },
+        {
+          "id": "3474256-1",
+          "title": "No",
+          "price": 0.675
+        }
+      ],
+      "volume": 112729.92936999998,
+      "liquidity": 231977.8774,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3700194",
@@ -657,96 +723,52 @@
         }
       ],
       "volume": 544577.8271620001,
-      "liquidity": 198436.8149,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "liquidity": 182131.5196,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
-      "id": "2176270",
-      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "id": "3492888",
+      "question": "AC Horsens vs. Lyngby BK: O/U 2.5",
       "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.315,
+      "endDate": "2026-08-23T14:00:00Z",
+      "yesPrice": 0.63,
       "outcomes": [
         {
-          "id": "2176270-0",
-          "title": "Yes",
-          "price": 0.315
+          "id": "3492888-0",
+          "title": "Over",
+          "price": 0.63
         },
         {
-          "id": "2176270-1",
-          "title": "No",
-          "price": 0.685
+          "id": "3492888-1",
+          "title": "Under",
+          "price": 0.37
         }
       ],
-      "volume": 8973560.217515996,
-      "liquidity": 444977.9371,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "601825",
-      "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.0325,
-      "outcomes": [
-        {
-          "id": "601825-0",
-          "title": "Yes",
-          "price": 0.0325
-        },
-        {
-          "id": "601825-1",
-          "title": "No",
-          "price": 0.9675
-        }
-      ],
-      "volume": 10627206.094342005,
-      "liquidity": 290249.85311,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3257338",
-      "question": "Will Bitcoin reach $80,000 in August?",
-      "category": "General",
-      "endDate": "2026-09-01T04:00:00Z",
-      "yesPrice": 0.615,
-      "outcomes": [
-        {
-          "id": "3257338-0",
-          "title": "Yes",
-          "price": 0.615
-        },
-        {
-          "id": "3257338-1",
-          "title": "No",
-          "price": 0.385
-        }
-      ],
-      "volume": 1134814.327355999,
-      "liquidity": 72102.74779,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 107054.65631500001,
+      "liquidity": 75270.5135,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "2293900",
       "question": "No one announced as next James Bond?",
       "category": "General",
       "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.2155,
+      "yesPrice": 0.2165,
       "outcomes": [
         {
           "id": "2293900-0",
           "title": "Yes",
-          "price": 0.2155
+          "price": 0.2165
         },
         {
           "id": "2293900-1",
           "title": "No",
-          "price": 0.7845
+          "price": 0.7835
         }
       ],
-      "volume": 171424.33628899997,
-      "liquidity": 82220.06676,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 172162.29248499998,
+      "liquidity": 68833.36823,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "2774057",
@@ -766,9 +788,9 @@
           "price": 0.945
         }
       ],
-      "volume": 5296464.029707998,
-      "liquidity": 748464.1584,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 5296464.029707997,
+      "liquidity": 786679.6605,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "3478194",
@@ -788,53 +810,9 @@
           "price": 0.495
         }
       ],
-      "volume": 104956.03799299995,
-      "liquidity": 280665.171,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3475952",
-      "question": "Manchester City FC vs. AFC Bournemouth: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-08-23T13:00:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "3475952-0",
-          "title": "Over",
-          "price": 0.585
-        },
-        {
-          "id": "3475952-1",
-          "title": "Under",
-          "price": 0.415
-        }
-      ],
-      "volume": 96669.870142,
-      "liquidity": 169257.1325,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3476029",
-      "question": "Frosinone Calcio vs. Juventus FC: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-08-23T16:30:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "3476029-0",
-          "title": "Over",
-          "price": 0.585
-        },
-        {
-          "id": "3476029-1",
-          "title": "Under",
-          "price": 0.415
-        }
-      ],
-      "volume": 92610.17213699999,
-      "liquidity": 309897.7761,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 105529.598771,
+      "liquidity": 289694.8883,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
     },
     {
       "id": "665374",
@@ -854,9 +832,75 @@
           "price": 0.835
         }
       ],
-      "volume": 59395504.169277996,
-      "liquidity": 932694.0909,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 59403961.04974799,
+      "liquidity": 918170.4471,
+      "lastUpdated": "2026-08-23T14:31:18.906Z"
+    },
+    {
+      "id": "3699382",
+      "question": "LoL: Team Heretics vs GIANTX (BO3) - LEC Regular Season",
+      "category": "General",
+      "endDate": "2026-08-23T21:00:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "3699382-0",
+          "title": "Team Heretics",
+          "price": 0.335
+        },
+        {
+          "id": "3699382-1",
+          "title": "GIANTX",
+          "price": 0.665
+        }
+      ],
+      "volume": 97333.29597700003,
+      "liquidity": 313373.19,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
+    },
+    {
+      "id": "3476029",
+      "question": "Frosinone Calcio vs. Juventus FC: O/U 2.5",
+      "category": "General",
+      "endDate": "2026-08-23T16:30:00Z",
+      "yesPrice": 0.585,
+      "outcomes": [
+        {
+          "id": "3476029-0",
+          "title": "Over",
+          "price": 0.585
+        },
+        {
+          "id": "3476029-1",
+          "title": "Under",
+          "price": 0.415
+        }
+      ],
+      "volume": 93209.03467399998,
+      "liquidity": 307260.3706,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
+    },
+    {
+      "id": "3474310",
+      "question": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
+      "category": "General",
+      "endDate": "2026-08-23T15:30:00Z",
+      "yesPrice": 0.245,
+      "outcomes": [
+        {
+          "id": "3474310-0",
+          "title": "Yes",
+          "price": 0.245
+        },
+        {
+          "id": "3474310-1",
+          "title": "No",
+          "price": 0.755
+        }
+      ],
+      "volume": 183876.75196199983,
+      "liquidity": 937698.7438,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     },
     {
       "id": "1633611",
@@ -877,30 +921,8 @@
         }
       ],
       "volume": 2974647.3173190006,
-      "liquidity": 234302.5562,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3474310",
-      "question": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
-      "category": "General",
-      "endDate": "2026-08-23T15:30:00Z",
-      "yesPrice": 0.245,
-      "outcomes": [
-        {
-          "id": "3474310-0",
-          "title": "Yes",
-          "price": 0.245
-        },
-        {
-          "id": "3474310-1",
-          "title": "No",
-          "price": 0.755
-        }
-      ],
-      "volume": 182721.4361749998,
-      "liquidity": 956225.5943,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "liquidity": 232968.0325,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     },
     {
       "id": "3795946",
@@ -920,75 +942,53 @@
           "price": 0.335
         }
       ],
-      "volume": 89187.44197299998,
-      "liquidity": 117534.5356,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 89865.206675,
+      "liquidity": 132317.4664,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     },
     {
-      "id": "3492888",
-      "question": "AC Horsens vs. Lyngby BK: O/U 2.5",
+      "id": "3667742",
+      "question": "Chicago Cubs vs. Seattle Mariners",
       "category": "General",
-      "endDate": "2026-08-23T14:00:00Z",
-      "yesPrice": 0.495,
+      "endDate": "2026-08-30T20:10:00Z",
+      "yesPrice": 0.515,
       "outcomes": [
         {
-          "id": "3492888-0",
-          "title": "Over",
-          "price": 0.495
+          "id": "3667742-0",
+          "title": "Chicago Cubs",
+          "price": 0.515
         },
         {
-          "id": "3492888-1",
-          "title": "Under",
-          "price": 0.505
+          "id": "3667742-1",
+          "title": "Seattle Mariners",
+          "price": 0.485
         }
       ],
-      "volume": 82183.909226,
-      "liquidity": 178784.2844,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3763512",
-      "question": "Will Bitcoin dip to $75,000 in August?",
-      "category": "General",
-      "endDate": "2026-09-01T04:00:00Z",
-      "yesPrice": 0.615,
-      "outcomes": [
-        {
-          "id": "3763512-0",
-          "title": "Yes",
-          "price": 0.615
-        },
-        {
-          "id": "3763512-1",
-          "title": "No",
-          "price": 0.385
-        }
-      ],
-      "volume": 93132.146014,
-      "liquidity": 51338.1092,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 88381.9002,
+      "liquidity": 527514.7433,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     },
     {
       "id": "3257334",
       "question": "Will Bitcoin reach $85,000 in August?",
       "category": "General",
       "endDate": "2026-09-01T04:00:00Z",
-      "yesPrice": 0.1985,
+      "yesPrice": 0.199,
       "outcomes": [
         {
           "id": "3257334-0",
           "title": "Yes",
-          "price": 0.1985
+          "price": 0.199
         },
         {
           "id": "3257334-1",
           "title": "No",
-          "price": 0.8015
+          "price": 0.801
         }
       ],
-      "volume": 684065.6726869998,
-      "liquidity": 78815.99456,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 685089.0426869999,
+      "liquidity": 73853.21942,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     },
     {
       "id": "3792975",
@@ -1008,32 +1008,10 @@
           "price": 0.425
         }
       ],
-      "volume": 80137.061677,
-      "liquidity": 102423.5132,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
-    },
-    {
-      "id": "3763466",
-      "question": "Ethereum Up or Down on August 23?",
-      "category": "General",
-      "endDate": "2026-08-23T16:00:00Z",
-      "yesPrice": 0.9615,
-      "outcomes": [
-        {
-          "id": "3763466-0",
-          "title": "Up",
-          "price": 0.9615
-        },
-        {
-          "id": "3763466-1",
-          "title": "Down",
-          "price": 0.0385
-        }
-      ],
-      "volume": 80109.141723,
-      "liquidity": 30260.09699,
-      "lastUpdated": "2026-08-23T14:02:24.051Z"
+      "volume": 80341.71483800001,
+      "liquidity": 103144.251,
+      "lastUpdated": "2026-08-23T14:31:18.907Z"
     }
   ],
-  "lastUpdated": "2026-08-23T14:02:34.158Z"
+  "lastUpdated": "2026-08-23T14:31:27.389Z"
 }
