@@ -5,22 +5,22 @@
       "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
       "category": "General",
       "endDate": "2026-09-16T00:00:00Z",
-      "yesPrice": 0.575,
+      "yesPrice": 0.565,
       "outcomes": [
         {
           "id": "2252244-0",
           "title": "Yes",
-          "price": 0.575
+          "price": 0.565
         },
         {
           "id": "2252244-1",
           "title": "No",
-          "price": 0.425
+          "price": 0.435
         }
       ],
-      "volume": 21206771.108786996,
-      "liquidity": 577708.2974,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 21287420.804387074,
+      "liquidity": 524123.2313,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "2252245",
@@ -40,31 +40,141 @@
           "price": 0.575
         }
       ],
-      "volume": 17438029.976984993,
-      "liquidity": 487787.788,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 17441037.324566,
+      "liquidity": 520345.3525,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4177005",
-      "question": "US Open ATP: Benjamin Bonzi vs Ignacio Buse",
+      "id": "4177001",
+      "question": "US Open ATP: Botic van de Zandschulp vs Alex de Minaur",
       "category": "General",
-      "endDate": "2026-09-10T15:00:00Z",
-      "yesPrice": 0.585,
+      "endDate": "2026-09-10T20:30:00Z",
+      "yesPrice": 0.845,
       "outcomes": [
         {
-          "id": "4177005-0",
-          "title": "Benjamin Bonzi",
-          "price": 0.585
+          "id": "4177001-0",
+          "title": "Botic van de Zandschulp",
+          "price": 0.845
         },
         {
-          "id": "4177005-1",
-          "title": "Ignacio Buse",
-          "price": 0.415
+          "id": "4177001-1",
+          "title": "Alex de Minaur",
+          "price": 0.155
         }
       ],
-      "volume": 891998.5778430009,
-      "liquidity": 105731.7117,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 583044.0656340002,
+      "liquidity": 132706.0638,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4108202",
+      "question": "US Open ATP: Gael Monfils vs Learner Tien",
+      "category": "General",
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.115,
+      "outcomes": [
+        {
+          "id": "4108202-0",
+          "title": "Gael Monfils",
+          "price": 0.115
+        },
+        {
+          "id": "4108202-1",
+          "title": "Learner Tien",
+          "price": 0.885
+        }
+      ],
+      "volume": 379457.2580480001,
+      "liquidity": 243485.4955,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3952038",
+      "question": "Milwaukee Brewers vs. Chicago Cubs",
+      "category": "General",
+      "endDate": "2026-09-10T23:15:00Z",
+      "yesPrice": 0.325,
+      "outcomes": [
+        {
+          "id": "3952038-0",
+          "title": "Milwaukee Brewers",
+          "price": 0.325
+        },
+        {
+          "id": "3952038-1",
+          "title": "Chicago Cubs",
+          "price": 0.675
+        }
+      ],
+      "volume": 355871.78988,
+      "liquidity": 101138.0583,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4176075",
+      "question": "US Open WTA: Paula Badosa vs Coco Gauff",
+      "category": "General",
+      "endDate": "2026-09-10T23:00:00Z",
+      "yesPrice": 0.095,
+      "outcomes": [
+        {
+          "id": "4176075-0",
+          "title": "Paula Badosa",
+          "price": 0.095
+        },
+        {
+          "id": "4176075-1",
+          "title": "Coco Gauff",
+          "price": 0.905
+        }
+      ],
+      "volume": 348737.6953779999,
+      "liquidity": 102682.2719,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3952042",
+      "question": "Tampa Bay Rays vs. Texas Rangers",
+      "category": "General",
+      "endDate": "2026-09-11T00:05:00Z",
+      "yesPrice": 0.495,
+      "outcomes": [
+        {
+          "id": "3952042-0",
+          "title": "Tampa Bay Rays",
+          "price": 0.495
+        },
+        {
+          "id": "3952042-1",
+          "title": "Texas Rangers",
+          "price": 0.505
+        }
+      ],
+      "volume": 313808.1478260001,
+      "liquidity": 150659.6005,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4082020",
+      "question": "US Open WTA: Maria Sakkari vs Yulia Starodubtseva",
+      "category": "General",
+      "endDate": "2026-09-09T15:00:00Z",
+      "yesPrice": 0.6415,
+      "outcomes": [
+        {
+          "id": "4082020-0",
+          "title": "Maria Sakkari",
+          "price": 0.6415
+        },
+        {
+          "id": "4082020-1",
+          "title": "Yulia Starodubtseva",
+          "price": 0.3585
+        }
+      ],
+      "volume": 313190.9498729997,
+      "liquidity": 60934.63105,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "665374",
@@ -84,31 +194,53 @@
           "price": 0.855
         }
       ],
-      "volume": 64610511.306027025,
-      "liquidity": 827074.2076,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 64619589.38741805,
+      "liquidity": 865018.1004,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4054698",
-      "question": "Will OpenAI’s Astra model be released by September 3, 2026?",
+      "id": "4176999",
+      "question": "US Open ATP: Zachary Svajda vs Arthur Gea",
       "category": "General",
-      "endDate": "2026-09-03T23:59:00Z",
-      "yesPrice": 0.0825,
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.295,
       "outcomes": [
         {
-          "id": "4054698-0",
-          "title": "Yes",
-          "price": 0.0825
+          "id": "4176999-0",
+          "title": "Zachary Svajda",
+          "price": 0.295
         },
         {
-          "id": "4054698-1",
-          "title": "No",
-          "price": 0.9175
+          "id": "4176999-1",
+          "title": "Arthur Gea",
+          "price": 0.705
         }
       ],
-      "volume": 377806.4813039999,
-      "liquidity": 3809.03759,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 302126.80754799984,
+      "liquidity": 175989.506,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3952036",
+      "question": "Boston Red Sox vs. Baltimore Orioles",
+      "category": "General",
+      "endDate": "2026-09-10T23:15:00Z",
+      "yesPrice": 0.225,
+      "outcomes": [
+        {
+          "id": "3952036-0",
+          "title": "Boston Red Sox",
+          "price": 0.225
+        },
+        {
+          "id": "3952036-1",
+          "title": "Baltimore Orioles",
+          "price": 0.775
+        }
+      ],
+      "volume": 291196.0325350002,
+      "liquidity": 68973.6207,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "1163699",
@@ -128,9 +260,9 @@
           "price": 0.825
         }
       ],
-      "volume": 11937655.273435002,
-      "liquidity": 392667.8863,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 11939236.330099,
+      "liquidity": 471301.3699,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "3772656",
@@ -150,119 +282,119 @@
           "price": 0.355
         }
       ],
-      "volume": 244840.00282300005,
-      "liquidity": 229616.1011,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3952042",
-      "question": "Tampa Bay Rays vs. Texas Rangers",
-      "category": "General",
-      "endDate": "2026-09-11T00:05:00Z",
-      "yesPrice": 0.525,
-      "outcomes": [
-        {
-          "id": "3952042-0",
-          "title": "Tampa Bay Rays",
-          "price": 0.525
-        },
-        {
-          "id": "3952042-1",
-          "title": "Texas Rangers",
-          "price": 0.475
-        }
-      ],
-      "volume": 239940.24320999996,
-      "liquidity": 525993.5432,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 257872.035897,
+      "liquidity": 225894.0133,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "3701690",
       "question": "Israel closes its airspace by September 30?",
       "category": "General",
       "endDate": "2026-10-01T03:59:00Z",
-      "yesPrice": 0.105,
+      "yesPrice": 0.1,
       "outcomes": [
         {
           "id": "3701690-0",
           "title": "Yes",
-          "price": 0.105
+          "price": 0.1
         },
         {
           "id": "3701690-1",
           "title": "No",
-          "price": 0.895
+          "price": 0.9
         }
       ],
-      "volume": 348443.237444,
-      "liquidity": 33582.0151,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 363570.66744400014,
+      "liquidity": 34184.0685,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4108202",
-      "question": "US Open ATP: Gael Monfils vs Learner Tien",
+      "id": "3775011",
+      "question": "Will Real Madrid CF win on 2026-09-04?",
       "category": "General",
-      "endDate": "2026-09-10T15:00:00Z",
-      "yesPrice": 0.165,
+      "endDate": "2026-09-04T19:00:00Z",
+      "yesPrice": 0.695,
       "outcomes": [
         {
-          "id": "4108202-0",
-          "title": "Gael Monfils",
-          "price": 0.165
+          "id": "3775011-0",
+          "title": "Yes",
+          "price": 0.695
         },
         {
-          "id": "4108202-1",
-          "title": "Learner Tien",
-          "price": 0.835
+          "id": "3775011-1",
+          "title": "No",
+          "price": 0.305
         }
       ],
-      "volume": 200103.47777300005,
-      "liquidity": 163839.4516,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 434215.0767870001,
+      "liquidity": 488742.1158,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "3865999",
       "question": "Will Ethereum dip to $2,000 by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.295,
+      "yesPrice": 0.33,
       "outcomes": [
         {
           "id": "3865999-0",
           "title": "Yes",
-          "price": 0.295
+          "price": 0.33
         },
         {
           "id": "3865999-1",
           "title": "No",
-          "price": 0.705
+          "price": 0.67
         }
       ],
-      "volume": 250248.88942099994,
-      "liquidity": 33713.5582,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 250258.88942099994,
+      "liquidity": 17231.4484,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "701502",
-      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "id": "3866000",
+      "question": "Will Ethereum dip to $2,250 by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.065,
+      "yesPrice": 0.575,
       "outcomes": [
         {
-          "id": "701502-0",
+          "id": "3866000-0",
           "title": "Yes",
-          "price": 0.065
+          "price": 0.575
         },
         {
-          "id": "701502-1",
+          "id": "3866000-1",
           "title": "No",
-          "price": 0.935
+          "price": 0.425
         }
       ],
-      "volume": 6368725.510438995,
-      "liquidity": 434756.2965,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 197675.24388799994,
+      "liquidity": 32828.0899,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4158956",
+      "question": "Miami Marlins vs. Kansas City Royals: O/U 9.5",
+      "category": "General",
+      "endDate": "2026-09-03T23:40:00Z",
+      "yesPrice": 0.525,
+      "outcomes": [
+        {
+          "id": "4158956-0",
+          "title": "Over",
+          "price": 0.525
+        },
+        {
+          "id": "4158956-1",
+          "title": "Under",
+          "price": 0.475
+        }
+      ],
+      "volume": 183569.203117,
+      "liquidity": 31110.1649,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "1088472",
@@ -282,141 +414,97 @@
           "price": 0.57
         }
       ],
-      "volume": 1500208.7653849989,
-      "liquidity": 66484.8362,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 1500615.142777998,
+      "liquidity": 68490.9216,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "3775011",
-      "question": "Will Real Madrid CF win on 2026-09-04?",
+      "id": "4158867",
+      "question": "Milwaukee Brewers vs. Chicago Cubs: O/U 8.5",
       "category": "General",
-      "endDate": "2026-09-04T19:00:00Z",
-      "yesPrice": 0.705,
+      "endDate": "2026-09-03T23:15:00Z",
+      "yesPrice": 0.445,
       "outcomes": [
         {
-          "id": "3775011-0",
-          "title": "Yes",
-          "price": 0.705
-        },
-        {
-          "id": "3775011-1",
-          "title": "No",
-          "price": 0.295
-        }
-      ],
-      "volume": 422413.0491950005,
-      "liquidity": 451749.9144,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3952036",
-      "question": "Boston Red Sox vs. Baltimore Orioles",
-      "category": "General",
-      "endDate": "2026-09-10T23:15:00Z",
-      "yesPrice": 0.535,
-      "outcomes": [
-        {
-          "id": "3952036-0",
-          "title": "Boston Red Sox",
-          "price": 0.535
-        },
-        {
-          "id": "3952036-1",
-          "title": "Baltimore Orioles",
-          "price": 0.465
-        }
-      ],
-      "volume": 163407.46864499993,
-      "liquidity": 370914.2895,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3866000",
-      "question": "Will Ethereum dip to $2,250 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.555,
-      "outcomes": [
-        {
-          "id": "3866000-0",
-          "title": "Yes",
-          "price": 0.555
-        },
-        {
-          "id": "3866000-1",
-          "title": "No",
+          "id": "4158867-0",
+          "title": "Over",
           "price": 0.445
+        },
+        {
+          "id": "4158867-1",
+          "title": "Under",
+          "price": 0.555
         }
       ],
-      "volume": 163809.94223099996,
-      "liquidity": 33348.3971,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 169418.87758199996,
+      "liquidity": 20560.5239,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3952046",
+      "question": "St. Louis Cardinals vs. Los Angeles Dodgers",
+      "category": "General",
+      "endDate": "2026-09-11T02:10:00Z",
+      "yesPrice": 0.285,
+      "outcomes": [
+        {
+          "id": "3952046-0",
+          "title": "St. Louis Cardinals",
+          "price": 0.285
+        },
+        {
+          "id": "3952046-1",
+          "title": "Los Angeles Dodgers",
+          "price": 0.715
+        }
+      ],
+      "volume": 158729.73553399995,
+      "liquidity": 426225.3236,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4166650",
+      "question": "St. Louis Cardinals vs. Los Angeles Dodgers: O/U 7.5",
+      "category": "General",
+      "endDate": "2026-09-04T02:10:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "4166650-0",
+          "title": "Over",
+          "price": 0.475
+        },
+        {
+          "id": "4166650-1",
+          "title": "Under",
+          "price": 0.525
+        }
+      ],
+      "volume": 152274.27420499994,
+      "liquidity": 318711.511,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "4060942",
       "question": "Will OpenAI's Astra model be released on September 3, 2026?",
       "category": "General",
       "endDate": "2026-09-03T23:59:00Z",
-      "yesPrice": 0.1095,
+      "yesPrice": 0.0345,
       "outcomes": [
         {
           "id": "4060942-0",
           "title": "Yes",
-          "price": 0.1095
+          "price": 0.0345
         },
         {
           "id": "4060942-1",
           "title": "No",
-          "price": 0.8905
+          "price": 0.9655
         }
       ],
-      "volume": 160283.72913899997,
-      "liquidity": 18710.19739,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3952038",
-      "question": "Milwaukee Brewers vs. Chicago Cubs",
-      "category": "General",
-      "endDate": "2026-09-10T23:15:00Z",
-      "yesPrice": 0.535,
-      "outcomes": [
-        {
-          "id": "3952038-0",
-          "title": "Milwaukee Brewers",
-          "price": 0.535
-        },
-        {
-          "id": "3952038-1",
-          "title": "Chicago Cubs",
-          "price": 0.465
-        }
-      ],
-      "volume": 148055.91186799997,
-      "liquidity": 413984.0204,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "2176270",
-      "question": "Strait of Hormuz traffic returns to normal by December 31?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.275,
-      "outcomes": [
-        {
-          "id": "2176270-0",
-          "title": "Yes",
-          "price": 0.275
-        },
-        {
-          "id": "2176270-1",
-          "title": "No",
-          "price": 0.725
-        }
-      ],
-      "volume": 10361751.175084999,
-      "liquidity": 444522.6923,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 165869.880547,
+      "liquidity": 24440.71726,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "3976924",
@@ -436,53 +524,31 @@
           "price": 0.315
         }
       ],
-      "volume": 199789.19423999992,
-      "liquidity": 112505.8365,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 201646.99234699993,
+      "liquidity": 217501.0075,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4158867",
-      "question": "Milwaukee Brewers vs. Chicago Cubs: O/U 8.5",
+      "id": "601826",
+      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
       "category": "General",
-      "endDate": "2026-09-03T23:15:00Z",
-      "yesPrice": 0.485,
+      "endDate": "2026-10-04T00:00:00Z",
+      "yesPrice": 0.4395,
       "outcomes": [
         {
-          "id": "4158867-0",
-          "title": "Over",
-          "price": 0.485
-        },
-        {
-          "id": "4158867-1",
-          "title": "Under",
-          "price": 0.515
-        }
-      ],
-      "volume": 140623.55131799998,
-      "liquidity": 232095.3834,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3962584",
-      "question": "Will Grand Theft Auto VI Extended Look get between 20 and 22 million views on week 1?",
-      "category": "General",
-      "endDate": "2026-09-03T23:59:00Z",
-      "yesPrice": 0.923,
-      "outcomes": [
-        {
-          "id": "3962584-0",
+          "id": "601826-0",
           "title": "Yes",
-          "price": 0.923
+          "price": 0.4395
         },
         {
-          "id": "3962584-1",
+          "id": "601826-1",
           "title": "No",
-          "price": 0.077
+          "price": 0.5605
         }
       ],
-      "volume": 369510.0040740002,
-      "liquidity": 7764.6552,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 9621831.426070001,
+      "liquidity": 244663.06147,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "701496",
@@ -502,75 +568,141 @@
           "price": 0.68
         }
       ],
-      "volume": 3225554.033224999,
-      "liquidity": 48331.0174,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 3225654.0332249994,
+      "liquidity": 63531.4152,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4176075",
-      "question": "US Open WTA: Paula Badosa vs Coco Gauff",
+      "id": "2176270",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
       "category": "General",
-      "endDate": "2026-09-10T23:00:00Z",
-      "yesPrice": 0.145,
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.275,
       "outcomes": [
         {
-          "id": "4176075-0",
-          "title": "Paula Badosa",
-          "price": 0.145
+          "id": "2176270-0",
+          "title": "Yes",
+          "price": 0.275
         },
         {
-          "id": "4176075-1",
-          "title": "Coco Gauff",
+          "id": "2176270-1",
+          "title": "No",
+          "price": 0.725
+        }
+      ],
+      "volume": 10362613.302344,
+      "liquidity": 453313.3306,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4177007",
+      "question": "US Open ATP: Zizou Bergs vs Jesper de Jong",
+      "category": "General",
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "4177007-0",
+          "title": "Zizou Bergs",
+          "price": 0.635
+        },
+        {
+          "id": "4177007-1",
+          "title": "Jesper de Jong",
+          "price": 0.365
+        }
+      ],
+      "volume": 125720.56742799994,
+      "liquidity": 317657.722,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4121578",
+      "question": "US Open ATP: Alexander Zverev vs Quentin Halys",
+      "category": "General",
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.855,
+      "outcomes": [
+        {
+          "id": "4121578-0",
+          "title": "Alexander Zverev",
           "price": 0.855
-        }
-      ],
-      "volume": 131547.20919900003,
-      "liquidity": 108801.6581,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "601826",
-      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.4325,
-      "outcomes": [
-        {
-          "id": "601826-0",
-          "title": "Yes",
-          "price": 0.4325
         },
         {
-          "id": "601826-1",
-          "title": "No",
-          "price": 0.5675
+          "id": "4121578-1",
+          "title": "Quentin Halys",
+          "price": 0.145
         }
       ],
-      "volume": 9608334.796506995,
-      "liquidity": 221276.18373,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 137929.1537800001,
+      "liquidity": 111852.1736,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "3962585",
-      "question": "Will Grand Theft Auto VI Extended Look get between 22 and 24 million views on week 1?",
+      "id": "4166551",
+      "question": "Athletics vs. Seattle Mariners: O/U 7.5",
       "category": "General",
-      "endDate": "2026-09-03T23:59:00Z",
-      "yesPrice": 0.0685,
+      "endDate": "2026-09-04T01:40:00Z",
+      "yesPrice": 0.475,
       "outcomes": [
         {
-          "id": "3962585-0",
-          "title": "Yes",
-          "price": 0.0685
+          "id": "4166551-0",
+          "title": "Over",
+          "price": 0.475
         },
         {
-          "id": "3962585-1",
-          "title": "No",
-          "price": 0.9315
+          "id": "4166551-1",
+          "title": "Under",
+          "price": 0.525
         }
       ],
-      "volume": 253250.36015800002,
-      "liquidity": 4205.33227,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 123276.36013099998,
+      "liquidity": 354151.8977,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4052420",
+      "question": "Will Bitcoin reach $82,500 in September?",
+      "category": "General",
+      "endDate": "2026-10-01T04:00:00Z",
+      "yesPrice": 0.845,
+      "outcomes": [
+        {
+          "id": "4052420-0",
+          "title": "Yes",
+          "price": 0.845
+        },
+        {
+          "id": "4052420-1",
+          "title": "No",
+          "price": 0.155
+        }
+      ],
+      "volume": 185015.38611,
+      "liquidity": 18250.1402,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "561229",
+      "question": "Will JD Vance win the 2028 US Presidential Election?",
+      "category": "General",
+      "endDate": "2028-11-07T00:00:00Z",
+      "yesPrice": 0.2365,
+      "outcomes": [
+        {
+          "id": "561229-0",
+          "title": "Yes",
+          "price": 0.2365
+        },
+        {
+          "id": "561229-1",
+          "title": "No",
+          "price": 0.7635
+        }
+      ],
+      "volume": 16126465.858812988,
+      "liquidity": 452812.47841,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "701503",
@@ -590,97 +722,31 @@
           "price": 0.955
         }
       ],
-      "volume": 3174584.527676001,
-      "liquidity": 160814.8806,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 3174584.527676,
+      "liquidity": 131335.3642,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
-      "id": "4052420",
-      "question": "Will Bitcoin reach $82,500 in September?",
+      "id": "4182438",
+      "question": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
       "category": "General",
-      "endDate": "2026-10-01T04:00:00Z",
-      "yesPrice": 0.855,
+      "endDate": "2026-09-11T15:00:00Z",
+      "yesPrice": 0.065,
       "outcomes": [
         {
-          "id": "4052420-0",
-          "title": "Yes",
-          "price": 0.855
+          "id": "4182438-0",
+          "title": "Yibing Wu",
+          "price": 0.065
         },
         {
-          "id": "4052420-1",
-          "title": "No",
-          "price": 0.145
+          "id": "4182438-1",
+          "title": "Carlos Alcaraz",
+          "price": 0.935
         }
       ],
-      "volume": 180300.244068,
-      "liquidity": 19686.0425,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "4121578",
-      "question": "US Open ATP: Alexander Zverev vs Quentin Halys",
-      "category": "General",
-      "endDate": "2026-09-10T15:00:00Z",
-      "yesPrice": 0.845,
-      "outcomes": [
-        {
-          "id": "4121578-0",
-          "title": "Alexander Zverev",
-          "price": 0.845
-        },
-        {
-          "id": "4121578-1",
-          "title": "Quentin Halys",
-          "price": 0.155
-        }
-      ],
-      "volume": 126885.78004500004,
-      "liquidity": 120964.0046,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "561229",
-      "question": "Will JD Vance win the 2028 US Presidential Election?",
-      "category": "General",
-      "endDate": "2028-11-07T00:00:00Z",
-      "yesPrice": 0.237,
-      "outcomes": [
-        {
-          "id": "561229-0",
-          "title": "Yes",
-          "price": 0.237
-        },
-        {
-          "id": "561229-1",
-          "title": "No",
-          "price": 0.763
-        }
-      ],
-      "volume": 16121627.567446979,
-      "liquidity": 467792.65363,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "2771335",
-      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "category": "General",
-      "endDate": "2027-05-30T23:59:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "2771335-0",
-          "title": "Yes",
-          "price": 0.255
-        },
-        {
-          "id": "2771335-1",
-          "title": "No",
-          "price": 0.745
-        }
-      ],
-      "volume": 2092989.8359260003,
-      "liquidity": 245325.5963,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 115068.04851800001,
+      "liquidity": 122404.3436,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
     },
     {
       "id": "1339767",
@@ -700,9 +766,119 @@
           "price": 0.88
         }
       ],
-      "volume": 3486587.678372001,
-      "liquidity": 185514.233,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
+      "volume": 3487904.35633,
+      "liquidity": 185981.9598,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "2771335",
+      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "category": "General",
+      "endDate": "2027-05-30T23:59:00Z",
+      "yesPrice": 0.255,
+      "outcomes": [
+        {
+          "id": "2771335-0",
+          "title": "Yes",
+          "price": 0.255
+        },
+        {
+          "id": "2771335-1",
+          "title": "No",
+          "price": 0.745
+        }
+      ],
+      "volume": 2092993.7559260002,
+      "liquidity": 259085.3119,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4177003",
+      "question": "US Open ATP: Yunchaokete Bu vs Michael Zheng",
+      "category": "General",
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.23,
+      "outcomes": [
+        {
+          "id": "4177003-0",
+          "title": "Yunchaokete Bu",
+          "price": 0.23
+        },
+        {
+          "id": "4177003-1",
+          "title": "Michael Zheng",
+          "price": 0.77
+        }
+      ],
+      "volume": 108311.84925500001,
+      "liquidity": 244378.1264,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3866138",
+      "question": "Will Elon Musk post 220-239 tweets from August 28 to September 4, 2026?",
+      "category": "General",
+      "endDate": "2026-09-04T16:00:00Z",
+      "yesPrice": 0.52,
+      "outcomes": [
+        {
+          "id": "3866138-0",
+          "title": "Yes",
+          "price": 0.52
+        },
+        {
+          "id": "3866138-1",
+          "title": "No",
+          "price": 0.48
+        }
+      ],
+      "volume": 178990.47725599993,
+      "liquidity": 10726.7989,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "3953599",
+      "question": "Will the price of Bitcoin be above $80,000 on September 4?",
+      "category": "General",
+      "endDate": "2026-09-04T16:00:00Z",
+      "yesPrice": 0.775,
+      "outcomes": [
+        {
+          "id": "3953599-0",
+          "title": "Yes",
+          "price": 0.775
+        },
+        {
+          "id": "3953599-1",
+          "title": "No",
+          "price": 0.225
+        }
+      ],
+      "volume": 143888.80842599995,
+      "liquidity": 29696.5585,
+      "lastUpdated": "2026-09-04T00:18:14.629Z"
+    },
+    {
+      "id": "4105080",
+      "question": "US Open WTA: Jessica Bouzas Maneiro vs Elena Rybakina",
+      "category": "General",
+      "endDate": "2026-09-10T15:00:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "4105080-0",
+          "title": "Jessica Bouzas Maneiro",
+          "price": 0.175
+        },
+        {
+          "id": "4105080-1",
+          "title": "Elena Rybakina",
+          "price": 0.825
+        }
+      ],
+      "volume": 146833.11967699998,
+      "liquidity": 73214.9051,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
       "id": "3399458",
@@ -722,97 +898,9 @@
           "price": 0.165
         }
       ],
-      "volume": 989022.3873879998,
-      "liquidity": 41046.9155,
-      "lastUpdated": "2026-09-03T22:29:09.217Z"
-    },
-    {
-      "id": "3866138",
-      "question": "Will Elon Musk post 220-239 tweets from August 28 to September 4, 2026?",
-      "category": "General",
-      "endDate": "2026-09-04T16:00:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "3866138-0",
-          "title": "Yes",
-          "price": 0.585
-        },
-        {
-          "id": "3866138-1",
-          "title": "No",
-          "price": 0.415
-        }
-      ],
-      "volume": 175083.98707699997,
-      "liquidity": 4405.1792,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "4182438",
-      "question": "US Open ATP: Yibing Wu vs Carlos Alcaraz",
-      "category": "General",
-      "endDate": "2026-09-11T15:00:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "4182438-0",
-          "title": "Yibing Wu",
-          "price": 0.075
-        },
-        {
-          "id": "4182438-1",
-          "title": "Carlos Alcaraz",
-          "price": 0.925
-        }
-      ],
-      "volume": 97970.71533899999,
-      "liquidity": 67371.215,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "4176999",
-      "question": "US Open ATP: Zachary Svajda vs Arthur Gea",
-      "category": "General",
-      "endDate": "2026-09-10T15:00:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "4176999-0",
-          "title": "Zachary Svajda",
-          "price": 0.585
-        },
-        {
-          "id": "4176999-1",
-          "title": "Arthur Gea",
-          "price": 0.415
-        }
-      ],
-      "volume": 97931.45504700001,
-      "liquidity": 176637.254,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "3008494",
-      "question": "Will Anthropic have the best AI model at the end of September 2026?",
-      "category": "General",
-      "endDate": "2026-10-01T03:59:00Z",
-      "yesPrice": 0.795,
-      "outcomes": [
-        {
-          "id": "3008494-0",
-          "title": "Yes",
-          "price": 0.795
-        },
-        {
-          "id": "3008494-1",
-          "title": "No",
-          "price": 0.205
-        }
-      ],
-      "volume": 266455.90449799993,
-      "liquidity": 20886.3058,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 989749.9767690001,
+      "liquidity": 38520.1934,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
       "id": "4187810",
@@ -832,163 +920,141 @@
           "price": 0.645
         }
       ],
-      "volume": 95016.43026099997,
-      "liquidity": 160561.9796,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "3953599",
-      "question": "Will the price of Bitcoin be above $80,000 on September 4?",
-      "category": "General",
-      "endDate": "2026-09-04T16:00:00Z",
-      "yesPrice": 0.795,
-      "outcomes": [
-        {
-          "id": "3953599-0",
-          "title": "Yes",
-          "price": 0.795
-        },
-        {
-          "id": "3953599-1",
-          "title": "No",
-          "price": 0.205
-        }
-      ],
-      "volume": 117636.71280699995,
-      "liquidity": 25578.7686,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 102453.704418,
+      "liquidity": 169492.0411,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
       "id": "4054699",
       "question": "Will OpenAI’s Astra model be released by September 4, 2026?",
       "category": "General",
       "endDate": "2026-09-04T23:59:00Z",
-      "yesPrice": 0.385,
+      "yesPrice": 0.4165,
       "outcomes": [
         {
           "id": "4054699-0",
           "title": "Yes",
-          "price": 0.385
+          "price": 0.4165
         },
         {
           "id": "4054699-1",
           "title": "No",
-          "price": 0.615
+          "price": 0.5835
         }
       ],
-      "volume": 110118.30302300007,
-      "liquidity": 8804.88942,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "4177001",
-      "question": "US Open ATP: Botic van de Zandschulp vs Alex de Minaur",
-      "category": "General",
-      "endDate": "2026-09-10T20:30:00Z",
-      "yesPrice": 0.345,
-      "outcomes": [
-        {
-          "id": "4177001-0",
-          "title": "Botic van de Zandschulp",
-          "price": 0.345
-        },
-        {
-          "id": "4177001-1",
-          "title": "Alex de Minaur",
-          "price": 0.655
-        }
-      ],
-      "volume": 88352.637349,
-      "liquidity": 267716.8067,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "3866135",
-      "question": "Will Elon Musk post 200-219 tweets from August 28 to September 4, 2026?",
-      "category": "General",
-      "endDate": "2026-09-04T16:00:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "3866135-0",
-          "title": "Yes",
-          "price": 0.265
-        },
-        {
-          "id": "3866135-1",
-          "title": "No",
-          "price": 0.735
-        }
-      ],
-      "volume": 160056.02411399985,
-      "liquidity": 10162.5732,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
-    },
-    {
-      "id": "3584199",
-      "question": "Will GPT-6 be released by September 15, 2026?",
-      "category": "General",
-      "endDate": "2026-09-16T03:59:00Z",
-      "yesPrice": 0.9525,
-      "outcomes": [
-        {
-          "id": "3584199-0",
-          "title": "Yes",
-          "price": 0.9525
-        },
-        {
-          "id": "3584199-1",
-          "title": "No",
-          "price": 0.0475
-        }
-      ],
-      "volume": 213397.84295,
-      "liquidity": 28880.53705,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 119597.50819400008,
+      "liquidity": 10612.90866,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
       "id": "3008499",
       "question": "Will OpenAI have the best AI model at the end of September 2026?",
       "category": "General",
       "endDate": "2026-10-01T03:59:00Z",
-      "yesPrice": 0.1685,
+      "yesPrice": 0.1765,
       "outcomes": [
         {
           "id": "3008499-0",
           "title": "Yes",
-          "price": 0.1685
+          "price": 0.1765
         },
         {
           "id": "3008499-1",
           "title": "No",
-          "price": 0.8315
+          "price": 0.8235
         }
       ],
-      "volume": 178340.94925799998,
-      "liquidity": 25504.70833,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 189750.42356499998,
+      "liquidity": 26915.90687,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
-      "id": "3702042",
-      "question": "US announces end of Iranian blockade by September 14, 2026?",
+      "id": "3889323",
+      "question": "UMass vs. Rutgers",
       "category": "General",
-      "endDate": "2026-09-15T03:59:00Z",
-      "yesPrice": 0.045,
+      "endDate": "2026-09-03T22:00:00Z",
+      "yesPrice": 0.9205,
       "outcomes": [
         {
-          "id": "3702042-0",
-          "title": "Yes",
-          "price": 0.045
+          "id": "3889323-0",
+          "title": "UMass",
+          "price": 0.9205
         },
         {
-          "id": "3702042-1",
-          "title": "No",
-          "price": 0.955
+          "id": "3889323-1",
+          "title": "Rutgers",
+          "price": 0.0795
         }
       ],
-      "volume": 772513.928175,
-      "liquidity": 114002.2962,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 94310.10287999999,
+      "liquidity": 14863.508,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3866135",
+      "question": "Will Elon Musk post 200-219 tweets from August 28 to September 4, 2026?",
+      "category": "General",
+      "endDate": "2026-09-04T16:00:00Z",
+      "yesPrice": 0.345,
+      "outcomes": [
+        {
+          "id": "3866135-0",
+          "title": "Yes",
+          "price": 0.345
+        },
+        {
+          "id": "3866135-1",
+          "title": "No",
+          "price": 0.655
+        }
+      ],
+      "volume": 167229.45422999986,
+      "liquidity": 14736.8663,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3775549",
+      "question": "Real Betis Balompié vs. Real Madrid CF: O/U 1.5",
+      "category": "General",
+      "endDate": "2026-09-04T19:00:00Z",
+      "yesPrice": 0.875,
+      "outcomes": [
+        {
+          "id": "3775549-0",
+          "title": "Over",
+          "price": 0.875
+        },
+        {
+          "id": "3775549-1",
+          "title": "Under",
+          "price": 0.125
+        }
+      ],
+      "volume": 86955.80747100001,
+      "liquidity": 42730.0538,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3008494",
+      "question": "Will Anthropic have the best AI model at the end of September 2026?",
+      "category": "General",
+      "endDate": "2026-10-01T03:59:00Z",
+      "yesPrice": 0.795,
+      "outcomes": [
+        {
+          "id": "3008494-0",
+          "title": "Yes",
+          "price": 0.795
+        },
+        {
+          "id": "3008494-1",
+          "title": "No",
+          "price": 0.205
+        }
+      ],
+      "volume": 269048.1554469998,
+      "liquidity": 24981.1147,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     },
     {
       "id": "4129413",
@@ -1008,10 +1074,252 @@
           "price": 0.425
         }
       ],
-      "volume": 85953.04430000002,
-      "liquidity": 139646.3408,
-      "lastUpdated": "2026-09-03T22:29:09.218Z"
+      "volume": 86296.57498700003,
+      "liquidity": 146725.4446,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3702042",
+      "question": "US announces end of Iranian blockade by September 14, 2026?",
+      "category": "General",
+      "endDate": "2026-09-15T03:59:00Z",
+      "yesPrice": 0.045,
+      "outcomes": [
+        {
+          "id": "3702042-0",
+          "title": "Yes",
+          "price": 0.045
+        },
+        {
+          "id": "3702042-1",
+          "title": "No",
+          "price": 0.955
+        }
+      ],
+      "volume": 772517.0781750018,
+      "liquidity": 119185.6184,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "2467206",
+      "question": "Will Bitcoin reach $95,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.45,
+      "outcomes": [
+        {
+          "id": "2467206-0",
+          "title": "Yes",
+          "price": 0.45
+        },
+        {
+          "id": "2467206-1",
+          "title": "No",
+          "price": 0.55
+        }
+      ],
+      "volume": 474912.96226099995,
+      "liquidity": 50744.3661,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "701502",
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.065,
+      "outcomes": [
+        {
+          "id": "701502-0",
+          "title": "Yes",
+          "price": 0.065
+        },
+        {
+          "id": "701502-1",
+          "title": "No",
+          "price": 0.935
+        }
+      ],
+      "volume": 6377730.140439001,
+      "liquidity": 432183.5202,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3866141",
+      "question": "Will Elon Musk post 240-259 tweets from August 28 to September 4, 2026?",
+      "category": "General",
+      "endDate": "2026-09-04T16:00:00Z",
+      "yesPrice": 0.1065,
+      "outcomes": [
+        {
+          "id": "3866141-0",
+          "title": "Yes",
+          "price": 0.1065
+        },
+        {
+          "id": "3866141-1",
+          "title": "No",
+          "price": 0.8935
+        }
+      ],
+      "volume": 152321.10838099997,
+      "liquidity": 13111.48285,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "4052413",
+      "question": "Will Bitcoin reach $100,000 in September?",
+      "category": "General",
+      "endDate": "2026-10-01T04:00:00Z",
+      "yesPrice": 0.0805,
+      "outcomes": [
+        {
+          "id": "4052413-0",
+          "title": "Yes",
+          "price": 0.0805
+        },
+        {
+          "id": "4052413-1",
+          "title": "No",
+          "price": 0.9195
+        }
+      ],
+      "volume": 215737.67105899996,
+      "liquidity": 41451.54846,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3889342",
+      "question": "Colorado vs. Georgia Tech",
+      "category": "General",
+      "endDate": "2026-09-04T00:00:00Z",
+      "yesPrice": 0.315,
+      "outcomes": [
+        {
+          "id": "3889342-0",
+          "title": "Colorado",
+          "price": 0.315
+        },
+        {
+          "id": "3889342-1",
+          "title": "Georgia Tech",
+          "price": 0.685
+        }
+      ],
+      "volume": 114767.55466199998,
+      "liquidity": 77913.9978,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "601819",
+      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "category": "General",
+      "endDate": "2026-10-04T00:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "601819-0",
+          "title": "Yes",
+          "price": 0.545
+        },
+        {
+          "id": "601819-1",
+          "title": "No",
+          "price": 0.455
+        }
+      ],
+      "volume": 9660789.103583997,
+      "liquidity": 317497.4532,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3128769",
+      "question": "Iran full airspace closure by September 30?",
+      "category": "General",
+      "endDate": "2026-10-01T03:59:00Z",
+      "yesPrice": 0.085,
+      "outcomes": [
+        {
+          "id": "3128769-0",
+          "title": "Yes",
+          "price": 0.085
+        },
+        {
+          "id": "3128769-1",
+          "title": "No",
+          "price": 0.915
+        }
+      ],
+      "volume": 518333.77154699987,
+      "liquidity": 29386.3107,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "4052419",
+      "question": "Will Bitcoin reach $85,000 in September?",
+      "category": "General",
+      "endDate": "2026-10-01T04:00:00Z",
+      "yesPrice": 0.645,
+      "outcomes": [
+        {
+          "id": "4052419-0",
+          "title": "Yes",
+          "price": 0.645
+        },
+        {
+          "id": "4052419-1",
+          "title": "No",
+          "price": 0.355
+        }
+      ],
+      "volume": 166178.39109299998,
+      "liquidity": 25588.6805,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3953603",
+      "question": "Will the price of Bitcoin be above $84,000 on September 4?",
+      "category": "General",
+      "endDate": "2026-09-04T16:00:00Z",
+      "yesPrice": 0.066,
+      "outcomes": [
+        {
+          "id": "3953603-0",
+          "title": "Yes",
+          "price": 0.066
+        },
+        {
+          "id": "3953603-1",
+          "title": "No",
+          "price": 0.934
+        }
+      ],
+      "volume": 79472.23256900001,
+      "liquidity": 26795.45748,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
+    },
+    {
+      "id": "3952040",
+      "question": "Miami Marlins vs. Kansas City Royals",
+      "category": "General",
+      "endDate": "2026-09-10T23:40:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "3952040-0",
+          "title": "Miami Marlins",
+          "price": 0.745
+        },
+        {
+          "id": "3952040-1",
+          "title": "Kansas City Royals",
+          "price": 0.255
+        }
+      ],
+      "volume": 67982.40546199998,
+      "liquidity": 75698.5221,
+      "lastUpdated": "2026-09-04T00:18:14.630Z"
     }
   ],
-  "lastUpdated": "2026-09-03T22:29:15.928Z"
+  "lastUpdated": "2026-09-04T00:18:23.372Z"
 }
