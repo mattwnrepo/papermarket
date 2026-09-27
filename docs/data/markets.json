@@ -1,6 +1,50 @@
 {
   "markets": [
     {
+      "id": "3701367",
+      "question": "Spread: Chiefs (-10.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "3701367-0",
+          "title": "Chiefs",
+          "price": 0.455
+        },
+        {
+          "id": "3701367-1",
+          "title": "Dolphins",
+          "price": 0.545
+        }
+      ],
+      "volume": 1598384.6039890004,
+      "liquidity": 207863.8052,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4855332",
+      "question": "Spread: Bills (-7.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "4855332-0",
+          "title": "Bills",
+          "price": 0.475
+        },
+        {
+          "id": "4855332-1",
+          "title": "Chargers",
+          "price": 0.525
+        }
+      ],
+      "volume": 1446468.8394329995,
+      "liquidity": 224423.7863,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
       "id": "3701393",
       "question": "Spread: Lions (-6.5)",
       "category": "General",
@@ -18,845 +62,9 @@
           "price": 0.485
         }
       ],
-      "volume": 949145.3757460001,
-      "liquidity": 365457.754,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "4855332",
-      "question": "Spread: Bills (-7.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "4855332-0",
-          "title": "Bills",
-          "price": 0.495
-        },
-        {
-          "id": "4855332-1",
-          "title": "Chargers",
-          "price": 0.505
-        }
-      ],
-      "volume": 1306094.307962,
-      "liquidity": 566985.9001,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "3701367",
-      "question": "Spread: Chiefs (-10.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.45,
-      "outcomes": [
-        {
-          "id": "3701367-0",
-          "title": "Chiefs",
-          "price": 0.45
-        },
-        {
-          "id": "3701367-1",
-          "title": "Dolphins",
-          "price": 0.55
-        }
-      ],
-      "volume": 865420.1053240001,
-      "liquidity": 470129.5483,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "4641064",
-      "question": "US x Iran ceasefire continues through September 30?",
-      "category": "General",
-      "endDate": "2026-09-30T23:59:00Z",
-      "yesPrice": 0.875,
-      "outcomes": [
-        {
-          "id": "4641064-0",
-          "title": "Yes",
-          "price": 0.875
-        },
-        {
-          "id": "4641064-1",
-          "title": "No",
-          "price": 0.125
-        }
-      ],
-      "volume": 1523209.2398599999,
-      "liquidity": 170210.4631,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "3664753",
-      "question": "Panthers vs. Browns",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3664753-0",
-          "title": "Panthers",
-          "price": 0.545
-        },
-        {
-          "id": "3664753-1",
-          "title": "Browns",
-          "price": 0.455
-        }
-      ],
-      "volume": 485980.58438899985,
-      "liquidity": 955695.2434,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "703257",
-      "question": "Will the US confirm that aliens exist before 2027?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0365,
-      "outcomes": [
-        {
-          "id": "703257-0",
-          "title": "Yes",
-          "price": 0.0365
-        },
-        {
-          "id": "703257-1",
-          "title": "No",
-          "price": 0.9635
-        }
-      ],
-      "volume": 39854405.22003208,
-      "liquidity": 804565.72878,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "4549739",
-      "question": "Will Greece win on 2026-09-27?",
-      "category": "General",
-      "endDate": "2026-09-27T18:45:00Z",
-      "yesPrice": 0.105,
-      "outcomes": [
-        {
-          "id": "4549739-0",
-          "title": "Yes",
-          "price": 0.105
-        },
-        {
-          "id": "4549739-1",
-          "title": "No",
-          "price": 0.895
-        }
-      ],
-      "volume": 235175.40988999992,
-      "liquidity": 305621.3949,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "4856023",
-      "question": "Cardinals vs. 49ers: O/U 48.5",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "4856023-0",
-          "title": "Over",
-          "price": 0.505
-        },
-        {
-          "id": "4856023-1",
-          "title": "Under",
-          "price": 0.495
-        }
-      ],
-      "volume": 390121.4445050001,
-      "liquidity": 194437.5478,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "3701323",
-      "question": "Spread: 49ers (-7.5)",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.485,
-      "outcomes": [
-        {
-          "id": "3701323-0",
-          "title": "49ers",
-          "price": 0.485
-        },
-        {
-          "id": "3701323-1",
-          "title": "Cardinals",
-          "price": 0.515
-        }
-      ],
-      "volume": 233588.994851,
-      "liquidity": 330311.0283,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.155,
-      "outcomes": [
-        {
-          "id": "665374-0",
-          "title": "Yes",
-          "price": 0.155
-        },
-        {
-          "id": "665374-1",
-          "title": "No",
-          "price": 0.845
-        }
-      ],
-      "volume": 69748613.85167702,
-      "liquidity": 858979.656,
-      "lastUpdated": "2026-09-27T07:08:11.650Z"
-    },
-    {
-      "id": "4855337",
-      "question": "Spread: Bills (-14.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.275,
-      "outcomes": [
-        {
-          "id": "4855337-0",
-          "title": "Bills",
-          "price": 0.275
-        },
-        {
-          "id": "4855337-1",
-          "title": "Chargers",
-          "price": 0.725
-        }
-      ],
-      "volume": 207613.884798,
-      "liquidity": 157063.8808,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4946897",
-      "question": "Hangzhou Open: Fabian Marozsan vs Kyrian Jacquet",
-      "category": "General",
-      "endDate": "2026-10-04T02:00:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "4946897-0",
-          "title": "Fabian Marozsan",
-          "price": 0.215
-        },
-        {
-          "id": "4946897-1",
-          "title": "Kyrian Jacquet",
-          "price": 0.785
-        }
-      ],
-      "volume": 207612.10224200005,
-      "liquidity": 62267.9523,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701363",
-      "question": "Spread: Chiefs (-3.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.745,
-      "outcomes": [
-        {
-          "id": "3701363-0",
-          "title": "Chiefs",
-          "price": 0.745
-        },
-        {
-          "id": "3701363-1",
-          "title": "Dolphins",
-          "price": 0.255
-        }
-      ],
-      "volume": 198229.76437400005,
-      "liquidity": 173547.2329,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3664775",
-      "question": "Patriots vs. Jaguars",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.415,
-      "outcomes": [
-        {
-          "id": "3664775-0",
-          "title": "Patriots",
-          "price": 0.415
-        },
-        {
-          "id": "3664775-1",
-          "title": "Jaguars",
-          "price": 0.585
-        }
-      ],
-      "volume": 275556.39702800004,
-      "liquidity": 981969.4709,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4856419",
-      "question": "Spread: Cowboys (-3.5)",
-      "category": "General",
-      "endDate": "2026-09-27T20:25:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "4856419-0",
-          "title": "Cowboys",
-          "price": 0.255
-        },
-        {
-          "id": "4856419-1",
-          "title": "Ravens",
-          "price": 0.745
-        }
-      ],
-      "volume": 319077.85268,
-      "liquidity": 132725.6539,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4986334",
-      "question": "Korea Open: Maya Joint vs Kimberly Birrell",
-      "category": "General",
-      "endDate": "2026-10-04T06:30:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "4986334-0",
-          "title": "Maya Joint",
-          "price": 0.495
-        },
-        {
-          "id": "4986334-1",
-          "title": "Kimberly Birrell",
-          "price": 0.505
-        }
-      ],
-      "volume": 175442.08851600002,
-      "liquidity": 67271.8057,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4581768",
-      "question": "Will France win on 2026-09-28?",
-      "category": "General",
-      "endDate": "2026-09-28T18:45:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "4581768-0",
-          "title": "Yes",
-          "price": 0.515
-        },
-        {
-          "id": "4581768-1",
-          "title": "No",
-          "price": 0.485
-        }
-      ],
-      "volume": 192330.75953300006,
-      "liquidity": 138635.0537,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4856120",
-      "question": "Spread: Raiders (-3.5)",
-      "category": "General",
-      "endDate": "2026-09-27T20:25:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "4856120-0",
-          "title": "Raiders",
-          "price": 0.255
-        },
-        {
-          "id": "4856120-1",
-          "title": "Saints",
-          "price": 0.745
-        }
-      ],
-      "volume": 173704.71015300002,
-      "liquidity": 157170.3108,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4853589",
-      "question": "Spread: Giants (-2.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "4853589-0",
-          "title": "Giants",
-          "price": 0.505
-        },
-        {
-          "id": "4853589-1",
-          "title": "Titans",
-          "price": 0.495
-        }
-      ],
-      "volume": 176292.657274,
-      "liquidity": 375358.9868,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3664743",
-      "question": "Chargers vs. Bills",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "3664743-0",
-          "title": "Chargers",
-          "price": 0.255
-        },
-        {
-          "id": "3664743-1",
-          "title": "Bills",
-          "price": 0.745
-        }
-      ],
-      "volume": 195595.58945800003,
-      "liquidity": 1015344.6042,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701397",
-      "question": "Spread: Lions (-14.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.255,
-      "outcomes": [
-        {
-          "id": "3701397-0",
-          "title": "Lions",
-          "price": 0.255
-        },
-        {
-          "id": "3701397-1",
-          "title": "Jets",
-          "price": 0.745
-        }
-      ],
-      "volume": 148009.102779,
-      "liquidity": 171640.1597,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "629040",
-      "question": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "category": "General",
-      "endDate": "2026-12-31T23:59:00Z",
-      "yesPrice": 0.587,
-      "outcomes": [
-        {
-          "id": "629040-0",
-          "title": "Yes",
-          "price": 0.587
-        },
-        {
-          "id": "629040-1",
-          "title": "No",
-          "price": 0.413
-        }
-      ],
-      "volume": 2158710.712004,
-      "liquidity": 91458.92425,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4549724",
-      "question": "Will Netherlands win on 2026-09-27?",
-      "category": "General",
-      "endDate": "2026-09-27T16:00:00Z",
-      "yesPrice": 0.685,
-      "outcomes": [
-        {
-          "id": "4549724-0",
-          "title": "Yes",
-          "price": 0.685
-        },
-        {
-          "id": "4549724-1",
-          "title": "No",
-          "price": 0.315
-        }
-      ],
-      "volume": 151929.50795700002,
-      "liquidity": 200898.3503,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3128887",
-      "question": "US announces end of Iranian blockade by September 30, 2026?",
-      "category": "General",
-      "endDate": "2026-10-01T03:59:00Z",
-      "yesPrice": 0.0375,
-      "outcomes": [
-        {
-          "id": "3128887-0",
-          "title": "Yes",
-          "price": 0.0375
-        },
-        {
-          "id": "3128887-1",
-          "title": "No",
-          "price": 0.9625
-        }
-      ],
-      "volume": 4837246.189336,
-      "liquidity": 103458.08408,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701357",
-      "question": "Spread: Giants (-7.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.285,
-      "outcomes": [
-        {
-          "id": "3701357-0",
-          "title": "Giants",
-          "price": 0.285
-        },
-        {
-          "id": "3701357-1",
-          "title": "Titans",
-          "price": 0.715
-        }
-      ],
-      "volume": 139025.09653999997,
-      "liquidity": 191629.1047,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "2176270",
-      "question": "Strait of Hormuz traffic returns to normal by December 31?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.205,
-      "outcomes": [
-        {
-          "id": "2176270-0",
-          "title": "Yes",
-          "price": 0.205
-        },
-        {
-          "id": "2176270-1",
-          "title": "No",
-          "price": 0.795
-        }
-      ],
-      "volume": 13310266.731494993,
-      "liquidity": 465393.7232,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701400",
-      "question": "Jets vs. Lions: O/U 47.5",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "3701400-0",
-          "title": "Over",
-          "price": 0.545
-        },
-        {
-          "id": "3701400-1",
-          "title": "Under",
-          "price": 0.455
-        }
-      ],
-      "volume": 229173.14548900002,
-      "liquidity": 132939.2746,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4855869",
-      "question": "Spread: 49ers (-8.5)",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.455,
-      "outcomes": [
-        {
-          "id": "4855869-0",
-          "title": "49ers",
-          "price": 0.455
-        },
-        {
-          "id": "4855869-1",
-          "title": "Cardinals",
-          "price": 0.545
-        }
-      ],
-      "volume": 238906.392895,
-      "liquidity": 202866.5522,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4519722",
-      "question": "Valorant: 100 Thieves vs T1 (BO3) - VCT Champions Group A",
-      "category": "General",
-      "endDate": "2026-09-27T15:00:00Z",
-      "yesPrice": 0.685,
-      "outcomes": [
-        {
-          "id": "4519722-0",
-          "title": "100 Thieves",
-          "price": 0.685
-        },
-        {
-          "id": "4519722-1",
-          "title": "T1",
-          "price": 0.315
-        }
-      ],
-      "volume": 134167.81666199997,
-      "liquidity": 172631.7325,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3664825",
-      "question": "Vikings vs. Buccaneers",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.525,
-      "outcomes": [
-        {
-          "id": "3664825-0",
-          "title": "Vikings",
-          "price": 0.525
-        },
-        {
-          "id": "3664825-1",
-          "title": "Buccaneers",
-          "price": 0.475
-        }
-      ],
-      "volume": 195825.62024200003,
-      "liquidity": 432133.4665,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701394",
-      "question": "Spread: Lions (-7.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.435,
-      "outcomes": [
-        {
-          "id": "3701394-0",
-          "title": "Lions",
-          "price": 0.435
-        },
-        {
-          "id": "3701394-1",
-          "title": "Jets",
-          "price": 0.565
-        }
-      ],
-      "volume": 203098.02975100002,
-      "liquidity": 166950.57,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3695205",
-      "question": "Eagles vs. Bears",
-      "category": "General",
-      "endDate": "2026-09-29T00:15:00Z",
-      "yesPrice": 0.635,
-      "outcomes": [
-        {
-          "id": "3695205-0",
-          "title": "Eagles",
-          "price": 0.635
-        },
-        {
-          "id": "3695205-1",
-          "title": "Bears",
-          "price": 0.365
-        }
-      ],
-      "volume": 203822.93157800002,
-      "liquidity": 259504.5691,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4550220",
-      "question": "Spread: Serbia (-1.5)",
-      "category": "General",
-      "endDate": "2026-09-27T16:00:00Z",
-      "yesPrice": 0.0405,
-      "outcomes": [
-        {
-          "id": "4550220-0",
-          "title": "Serbia",
-          "price": 0.0405
-        },
-        {
-          "id": "4550220-1",
-          "title": "Netherlands",
-          "price": 0.9595
-        }
-      ],
-      "volume": 104983.659963,
-      "liquidity": 26264.05874,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4902920",
-      "question": "LoL: Karmine Corp Blue vs White Dragons (BO1) - EMEA Masters Swiss Stage",
-      "category": "General",
-      "endDate": "2026-09-27T00:00:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "4902920-0",
-          "title": "Karmine Corp Blue",
-          "price": 0.505
-        },
-        {
-          "id": "4902920-1",
-          "title": "White Dragons",
-          "price": 0.495
-        }
-      ],
-      "volume": 107635.899995,
-      "liquidity": 24890.1169,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4641065",
-      "question": "US x Iran ceasefire continues through October 31?",
-      "category": "General",
-      "endDate": "2026-10-31T23:59:00Z",
-      "yesPrice": 0.5,
-      "outcomes": [
-        {
-          "id": "4641065-0",
-          "title": "Yes",
-          "price": 0.5
-        },
-        {
-          "id": "4641065-1",
-          "title": "No",
-          "price": 0.5
-        }
-      ],
-      "volume": 666517.5774560003,
-      "liquidity": 71887.1256,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701412",
-      "question": "Panthers vs. Browns: O/U 42.5",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "3701412-0",
-          "title": "Over",
-          "price": 0.495
-        },
-        {
-          "id": "3701412-1",
-          "title": "Under",
-          "price": 0.505
-        }
-      ],
-      "volume": 176306.844813,
-      "liquidity": 166494.2533,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701346",
-      "question": "Spread: Bengals (-3.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.465,
-      "outcomes": [
-        {
-          "id": "3701346-0",
-          "title": "Bengals",
-          "price": 0.465
-        },
-        {
-          "id": "3701346-1",
-          "title": "Steelers",
-          "price": 0.535
-        }
-      ],
-      "volume": 368221.22075499996,
-      "liquidity": 462663.8074,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701327",
-      "question": "Spread: 49ers (-14.5)",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "3701327-0",
-          "title": "49ers",
-          "price": 0.295
-        },
-        {
-          "id": "3701327-1",
-          "title": "Cardinals",
-          "price": 0.705
-        }
-      ],
-      "volume": 98506.60952599999,
-      "liquidity": 156263.6143,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3664817",
-      "question": "Cardinals vs. 49ers",
-      "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.235,
-      "outcomes": [
-        {
-          "id": "3664817-0",
-          "title": "Cardinals",
-          "price": 0.235
-        },
-        {
-          "id": "3664817-1",
-          "title": "49ers",
-          "price": 0.765
-        }
-      ],
-      "volume": 241363.52216299996,
-      "liquidity": 538885.22,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 1565577.2497909998,
+      "liquidity": 477942.8789,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
       "id": "3664783",
@@ -876,273 +84,603 @@
           "price": 0.155
         }
       ],
-      "volume": 534968.2027799999,
-      "liquidity": 983278.6716,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 1317972.356244,
+      "liquidity": 1040494.4476,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4549931",
-      "question": "Exact Score: Israel 0 - 0 Republic of Ireland?",
+      "id": "3701412",
+      "question": "Panthers vs. Browns: O/U 42.5",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "3701412-0",
+          "title": "Over",
+          "price": 0.475
+        },
+        {
+          "id": "3701412-1",
+          "title": "Under",
+          "price": 0.525
+        }
+      ],
+      "volume": 550133.621088,
+      "liquidity": 170201.3501,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664753",
+      "question": "Panthers vs. Browns",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "3664753-0",
+          "title": "Panthers",
+          "price": 0.545
+        },
+        {
+          "id": "3664753-1",
+          "title": "Browns",
+          "price": 0.455
+        }
+      ],
+      "volume": 502750.8109229999,
+      "liquidity": 1131139.911,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4549739",
+      "question": "Will Greece win on 2026-09-27?",
       "category": "General",
       "endDate": "2026-09-27T18:45:00Z",
-      "yesPrice": 0.095,
+      "yesPrice": 0.125,
       "outcomes": [
         {
-          "id": "4549931-0",
+          "id": "4549739-0",
           "title": "Yes",
-          "price": 0.095
+          "price": 0.125
         },
         {
-          "id": "4549931-1",
+          "id": "4549739-1",
           "title": "No",
-          "price": 0.905
+          "price": 0.875
         }
       ],
-      "volume": 84904.72646800001,
-      "liquidity": 60929.1154,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 434049.2666440001,
+      "liquidity": 268194.7267,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4855047",
-      "question": "Spread: Panthers (-5.5)",
+      "id": "3664806",
+      "question": "Seahawks vs. Commanders",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.345,
+      "yesPrice": 0.775,
       "outcomes": [
         {
-          "id": "4855047-0",
-          "title": "Panthers",
-          "price": 0.345
+          "id": "3664806-0",
+          "title": "Seahawks",
+          "price": 0.775
         },
         {
-          "id": "4855047-1",
-          "title": "Browns",
-          "price": 0.655
+          "id": "3664806-1",
+          "title": "Commanders",
+          "price": 0.225
         }
       ],
-      "volume": 84719.37111,
-      "liquidity": 42941.7685,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 462174.399051,
+      "liquidity": 1175956.11,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "2771335",
-      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
-      "category": "General",
-      "endDate": "2027-05-30T23:59:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "2771335-0",
-          "title": "Yes",
-          "price": 0.215
-        },
-        {
-          "id": "2771335-1",
-          "title": "No",
-          "price": 0.785
-        }
-      ],
-      "volume": 2801133.2112810006,
-      "liquidity": 313822.2567,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "601819",
-      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-04T00:00:00Z",
-      "yesPrice": 0.435,
-      "outcomes": [
-        {
-          "id": "601819-0",
-          "title": "Yes",
-          "price": 0.435
-        },
-        {
-          "id": "601819-1",
-          "title": "No",
-          "price": 0.565
-        }
-      ],
-      "volume": 12390871.00819999,
-      "liquidity": 306817.4222,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701407",
-      "question": "Spread: Panthers (-4.5)",
+      "id": "3664793",
+      "question": "Bengals vs. Steelers",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.375,
+      "yesPrice": 0.605,
       "outcomes": [
         {
-          "id": "3701407-0",
-          "title": "Panthers",
-          "price": 0.375
-        },
-        {
-          "id": "3701407-1",
-          "title": "Browns",
-          "price": 0.625
-        }
-      ],
-      "volume": 82312.01333399999,
-      "liquidity": 107688.6282,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701406",
-      "question": "Spread: Panthers (-3.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "3701406-0",
-          "title": "Panthers",
-          "price": 0.395
-        },
-        {
-          "id": "3701406-1",
-          "title": "Browns",
+          "id": "3664793-0",
+          "title": "Bengals",
           "price": 0.605
-        }
-      ],
-      "volume": 87917.54672099999,
-      "liquidity": 135503.5206,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "2772176",
-      "question": "Will Barcelona win the 2026-27 UEFA Champions League Championship?",
-      "category": "General",
-      "endDate": "2027-05-30T23:59:00Z",
-      "yesPrice": 0.235,
-      "outcomes": [
-        {
-          "id": "2772176-0",
-          "title": "Yes",
-          "price": 0.235
         },
         {
-          "id": "2772176-1",
-          "title": "No",
-          "price": 0.765
+          "id": "3664793-1",
+          "title": "Steelers",
+          "price": 0.395
         }
       ],
-      "volume": 1296880.968785,
-      "liquidity": 930527.8305,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 533541.847074,
+      "liquidity": 827936.9781,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "608545",
-      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.2775,
-      "outcomes": [
-        {
-          "id": "608545-0",
-          "title": "Yes",
-          "price": 0.2775
-        },
-        {
-          "id": "608545-1",
-          "title": "No",
-          "price": 0.7225
-        }
-      ],
-      "volume": 2709170.435259,
-      "liquidity": 114203.30494,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4990808",
-      "question": "Dota 2: LGD Gaming vs Natus Vincere (BO3) - PGL Wallachia Playoffs",
-      "category": "General",
-      "endDate": "2026-09-27T14:00:00Z",
-      "yesPrice": 0.385,
-      "outcomes": [
-        {
-          "id": "4990808-0",
-          "title": "LGD Gaming",
-          "price": 0.385
-        },
-        {
-          "id": "4990808-1",
-          "title": "Natus Vincere",
-          "price": 0.615
-        }
-      ],
-      "volume": 76311.29624299998,
-      "liquidity": 119089.3949,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4854521",
-      "question": "Spread: Colts (-3.5)",
+      "id": "3664775",
+      "question": "Patriots vs. Jaguars",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.335,
+      "yesPrice": 0.415,
       "outcomes": [
         {
-          "id": "4854521-0",
-          "title": "Colts",
-          "price": 0.335
+          "id": "3664775-0",
+          "title": "Patriots",
+          "price": 0.415
         },
         {
-          "id": "4854521-1",
-          "title": "Texans",
-          "price": 0.665
+          "id": "3664775-1",
+          "title": "Jaguars",
+          "price": 0.585
         }
       ],
-      "volume": 159056.44148799998,
-      "liquidity": 153506.2896,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 434670.61501300003,
+      "liquidity": 1228028.7769,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4852776",
-      "question": "Spread: Steelers (-3.5)",
+      "id": "4549733",
+      "question": "Will Norway win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T18:45:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "4549733-0",
+          "title": "Yes",
+          "price": 0.425
+        },
+        {
+          "id": "4549733-1",
+          "title": "No",
+          "price": 0.575
+        }
+      ],
+      "volume": 358183.12089800026,
+      "liquidity": 378346.6809,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4641064",
+      "question": "US x Iran ceasefire continues through September 30?",
+      "category": "General",
+      "endDate": "2026-09-30T23:59:00Z",
+      "yesPrice": 0.895,
+      "outcomes": [
+        {
+          "id": "4641064-0",
+          "title": "Yes",
+          "price": 0.895
+        },
+        {
+          "id": "4641064-1",
+          "title": "No",
+          "price": 0.105
+        }
+      ],
+      "volume": 1574818.2905410004,
+      "liquidity": 155584.6017,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701346",
+      "question": "Spread: Bengals (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "3701346-0",
+          "title": "Bengals",
+          "price": 0.455
+        },
+        {
+          "id": "3701346-1",
+          "title": "Steelers",
+          "price": 0.545
+        }
+      ],
+      "volume": 598539.43941,
+      "liquidity": 253175.9632,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4976987",
+      "question": "Chengdu Open: Lloyd Harris vs Hubert Hurkacz",
+      "category": "General",
+      "endDate": "2026-10-04T09:30:00Z",
+      "yesPrice": 0.08,
+      "outcomes": [
+        {
+          "id": "4976987-0",
+          "title": "Lloyd Harris",
+          "price": 0.08
+        },
+        {
+          "id": "4976987-1",
+          "title": "Hubert Hurkacz",
+          "price": 0.92
+        }
+      ],
+      "volume": 291043.55288599996,
+      "liquidity": 66322.7345,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4962443",
+      "question": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
+      "category": "General",
+      "endDate": "2026-09-27T15:00:00Z",
+      "yesPrice": 0.09,
+      "outcomes": [
+        {
+          "id": "4962443-0",
+          "title": "Dplus KIA Challengers",
+          "price": 0.09
+        },
+        {
+          "id": "4962443-1",
+          "title": "DN SOOPers Challengers",
+          "price": 0.91
+        }
+      ],
+      "volume": 286870.5601400005,
+      "liquidity": 44507.5955,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4549724",
+      "question": "Will Netherlands win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T16:00:00Z",
+      "yesPrice": 0.705,
+      "outcomes": [
+        {
+          "id": "4549724-0",
+          "title": "Yes",
+          "price": 0.705
+        },
+        {
+          "id": "4549724-1",
+          "title": "No",
+          "price": 0.295
+        }
+      ],
+      "volume": 246895.60989400008,
+      "liquidity": 245484.7403,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "5013920",
+      "question": "Laver Cup: Carlos Alcaraz vs Alex de Minaur",
+      "category": "General",
+      "endDate": "2026-10-04T14:00:00Z",
+      "yesPrice": 0.66,
+      "outcomes": [
+        {
+          "id": "5013920-0",
+          "title": "Carlos Alcaraz",
+          "price": 0.66
+        },
+        {
+          "id": "5013920-1",
+          "title": "Alex de Minaur",
+          "price": 0.34
+        }
+      ],
+      "volume": 233390.75993100004,
+      "liquidity": 102380.5478,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4856023",
+      "question": "Cardinals vs. 49ers: O/U 48.5",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "4856023-0",
+          "title": "Over",
+          "price": 0.505
+        },
+        {
+          "id": "4856023-1",
+          "title": "Under",
+          "price": 0.495
+        }
+      ],
+      "volume": 394293.36685900006,
+      "liquidity": 171949.9198,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4852664",
+      "question": "Seahawks vs. Commanders: O/U 40.5",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "4852664-0",
+          "title": "Over",
+          "price": 0.485
+        },
+        {
+          "id": "4852664-1",
+          "title": "Under",
+          "price": 0.515
+        }
+      ],
+      "volume": 327239.16783600004,
+      "liquidity": 179163.6062,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701323",
+      "question": "Spread: 49ers (-7.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "3701323-0",
+          "title": "49ers",
+          "price": 0.485
+        },
+        {
+          "id": "3701323-1",
+          "title": "Cardinals",
+          "price": 0.515
+        }
+      ],
+      "volume": 234393.072592,
+      "liquidity": 365622.5573,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701400",
+      "question": "Jets vs. Lions: O/U 47.5",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "3701400-0",
+          "title": "Over",
+          "price": 0.545
+        },
+        {
+          "id": "3701400-1",
+          "title": "Under",
+          "price": 0.455
+        }
+      ],
+      "volume": 307247.00351600006,
+      "liquidity": 172319.6265,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4524545",
+      "question": "Valorant: JD Gaming vs FUT Esports - Map 2 Winner",
+      "category": "General",
+      "endDate": "2026-09-27T17:40:00Z",
+      "yesPrice": 0.42,
+      "outcomes": [
+        {
+          "id": "4524545-0",
+          "title": "JD Gaming",
+          "price": 0.42
+        },
+        {
+          "id": "4524545-1",
+          "title": "FUT Esports",
+          "price": 0.58
+        }
+      ],
+      "volume": 207294.1126940004,
+      "liquidity": 13526.8034,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4855337",
+      "question": "Spread: Bills (-14.5)",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
       "yesPrice": 0.275,
       "outcomes": [
         {
-          "id": "4852776-0",
-          "title": "Steelers",
+          "id": "4855337-0",
+          "title": "Bills",
           "price": 0.275
         },
         {
-          "id": "4852776-1",
-          "title": "Bengals",
+          "id": "4855337-1",
+          "title": "Chargers",
           "price": 0.725
         }
       ],
-      "volume": 155681.84383300002,
-      "liquidity": 139988.4733,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 207687.545265,
+      "liquidity": 208083.668,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "3664769",
-      "question": "Texans vs. Colts",
+      "id": "4990933",
+      "question": "Counter-Strike: fnatic vs Team Nemesis (BO3) - Stake Ranked Episode 5: Closed Qualifier Playoffs",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.525,
+      "yesPrice": 0.595,
       "outcomes": [
         {
-          "id": "3664769-0",
-          "title": "Texans",
-          "price": 0.525
+          "id": "4990933-0",
+          "title": "fnatic",
+          "price": 0.595
         },
         {
-          "id": "3664769-1",
-          "title": "Colts",
-          "price": 0.475
+          "id": "4990933-1",
+          "title": "Team Nemesis",
+          "price": 0.405
         }
       ],
-      "volume": 198497.808717,
-      "liquidity": 1057879.7563,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 202809.32767600002,
+      "liquidity": 17086.6168,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4524546",
+      "question": "Valorant: JD Gaming vs FUT Esports (BO3) - VCT Champions Group A",
+      "category": "General",
+      "endDate": "2026-09-27T17:40:00Z",
+      "yesPrice": 0.135,
+      "outcomes": [
+        {
+          "id": "4524546-0",
+          "title": "JD Gaming",
+          "price": 0.135
+        },
+        {
+          "id": "4524546-1",
+          "title": "FUT Esports",
+          "price": 0.865
+        }
+      ],
+      "volume": 204323.40167599983,
+      "liquidity": 26307.2833,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4856419",
+      "question": "Spread: Cowboys (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:25:00Z",
+      "yesPrice": 0.255,
+      "outcomes": [
+        {
+          "id": "4856419-0",
+          "title": "Cowboys",
+          "price": 0.255
+        },
+        {
+          "id": "4856419-1",
+          "title": "Ravens",
+          "price": 0.745
+        }
+      ],
+      "volume": 331945.638822,
+      "liquidity": 170241.5819,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.155,
+      "outcomes": [
+        {
+          "id": "665374-0",
+          "title": "Yes",
+          "price": 0.155
+        },
+        {
+          "id": "665374-1",
+          "title": "No",
+          "price": 0.845
+        }
+      ],
+      "volume": 69756228.23506103,
+      "liquidity": 841357.468,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664743",
+      "question": "Chargers vs. Bills",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.245,
+      "outcomes": [
+        {
+          "id": "3664743-0",
+          "title": "Chargers",
+          "price": 0.245
+        },
+        {
+          "id": "3664743-1",
+          "title": "Bills",
+          "price": 0.755
+        }
+      ],
+      "volume": 227956.77576900006,
+      "liquidity": 1310505.6732,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701363",
+      "question": "Spread: Chiefs (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "3701363-0",
+          "title": "Chiefs",
+          "price": 0.745
+        },
+        {
+          "id": "3701363-1",
+          "title": "Dolphins",
+          "price": 0.255
+        }
+      ],
+      "volume": 199579.94488100003,
+      "liquidity": 179234.6547,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4856120",
+      "question": "Spread: Raiders (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:25:00Z",
+      "yesPrice": 0.255,
+      "outcomes": [
+        {
+          "id": "4856120-0",
+          "title": "Raiders",
+          "price": 0.255
+        },
+        {
+          "id": "4856120-1",
+          "title": "Saints",
+          "price": 0.745
+        }
+      ],
+      "volume": 187861.80295900002,
+      "liquidity": 187357.1002,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4853589",
+      "question": "Spread: Giants (-2.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.495,
+      "outcomes": [
+        {
+          "id": "4853589-0",
+          "title": "Giants",
+          "price": 0.495
+        },
+        {
+          "id": "4853589-1",
+          "title": "Titans",
+          "price": 0.505
+        }
+      ],
+      "volume": 195045.366491,
+      "liquidity": 417098.9137,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
       "id": "4852138",
@@ -1162,362 +700,1022 @@
           "price": 0.475
         }
       ],
-      "volume": 514199.943115,
-      "liquidity": 237945.9003,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 622826.2039369999,
+      "liquidity": 187323.324,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "5027152",
+      "question": "Dota 2: Team Yandex vs Natus Vincere (BO5) - PGL Wallachia Playoffs",
+      "category": "General",
+      "endDate": "2026-09-27T18:55:00Z",
+      "yesPrice": 0.865,
+      "outcomes": [
+        {
+          "id": "5027152-0",
+          "title": "Team Yandex",
+          "price": 0.865
+        },
+        {
+          "id": "5027152-1",
+          "title": "Natus Vincere",
+          "price": 0.135
+        }
+      ],
+      "volume": 73388.69605000001,
+      "liquidity": 53676.0077,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "5002740",
+      "question": "Counter-Strike: GamerLegion vs 3DMAX (BO3) - 1win Private Club #1 Playoffs",
+      "category": "General",
+      "endDate": "2026-09-27T17:40:00Z",
+      "yesPrice": 0.785,
+      "outcomes": [
+        {
+          "id": "5002740-0",
+          "title": "GamerLegion",
+          "price": 0.785
+        },
+        {
+          "id": "5002740-1",
+          "title": "3DMAX",
+          "price": 0.215
+        }
+      ],
+      "volume": 176172.75999499988,
+      "liquidity": 25949.4328,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701397",
+      "question": "Spread: Lions (-14.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.255,
+      "outcomes": [
+        {
+          "id": "3701397-0",
+          "title": "Lions",
+          "price": 0.255
+        },
+        {
+          "id": "3701397-1",
+          "title": "Jets",
+          "price": 0.745
+        }
+      ],
+      "volume": 156376.265597,
+      "liquidity": 170674.0922,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4581768",
+      "question": "Will France win on 2026-09-28?",
+      "category": "General",
+      "endDate": "2026-09-28T18:45:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "4581768-0",
+          "title": "Yes",
+          "price": 0.515
+        },
+        {
+          "id": "4581768-1",
+          "title": "No",
+          "price": 0.485
+        }
+      ],
+      "volume": 196497.41800100013,
+      "liquidity": 190489.9891,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4852145",
+      "question": "Spread: Seahawks (-17.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.225,
+      "outcomes": [
+        {
+          "id": "4852145-0",
+          "title": "Seahawks",
+          "price": 0.225
+        },
+        {
+          "id": "4852145-1",
+          "title": "Commanders",
+          "price": 0.775
+        }
+      ],
+      "volume": 150705.248908,
+      "liquidity": 164342.284,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701394",
+      "question": "Spread: Lions (-7.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "3701394-0",
+          "title": "Lions",
+          "price": 0.435
+        },
+        {
+          "id": "3701394-1",
+          "title": "Jets",
+          "price": 0.565
+        }
+      ],
+      "volume": 232067.44922399998,
+      "liquidity": 255946.2734,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701357",
+      "question": "Spread: Giants (-7.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.285,
+      "outcomes": [
+        {
+          "id": "3701357-0",
+          "title": "Giants",
+          "price": 0.285
+        },
+        {
+          "id": "3701357-1",
+          "title": "Titans",
+          "price": 0.715
+        }
+      ],
+      "volume": 139201.21203899998,
+      "liquidity": 225027.8143,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3695205",
+      "question": "Eagles vs. Bears",
+      "category": "General",
+      "endDate": "2026-09-29T00:15:00Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "3695205-0",
+          "title": "Eagles",
+          "price": 0.635
+        },
+        {
+          "id": "3695205-1",
+          "title": "Bears",
+          "price": 0.365
+        }
+      ],
+      "volume": 236162.120059,
+      "liquidity": 235702.9536,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
       "id": "3701415",
       "question": "Spread: Bills (-3.5)",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.645,
+      "yesPrice": 0.635,
       "outcomes": [
         {
           "id": "3701415-0",
           "title": "Bills",
-          "price": 0.645
+          "price": 0.635
         },
         {
           "id": "3701415-1",
           "title": "Chargers",
-          "price": 0.355
-        }
-      ],
-      "volume": 71124.19786100001,
-      "liquidity": 106300.4296,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4962399",
-      "question": "LoL: Solary vs ⁠Movistar KOI Fénix (BO5) - World Star Challengers Invitational Playoffs",
-      "category": "General",
-      "endDate": "2026-09-27T12:00:00Z",
-      "yesPrice": 0.945,
-      "outcomes": [
-        {
-          "id": "4962399-0",
-          "title": "Solary",
-          "price": 0.945
-        },
-        {
-          "id": "4962399-1",
-          "title": "⁠Movistar KOI Fénix",
-          "price": 0.055
-        }
-      ],
-      "volume": 72058.573382,
-      "liquidity": 35461.6098,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3664830",
-      "question": "Raiders vs. Saints",
-      "category": "General",
-      "endDate": "2026-09-27T20:25:00Z",
-      "yesPrice": 0.385,
-      "outcomes": [
-        {
-          "id": "3664830-0",
-          "title": "Raiders",
-          "price": 0.385
-        },
-        {
-          "id": "3664830-1",
-          "title": "Saints",
-          "price": 0.615
-        }
-      ],
-      "volume": 123754.03053599998,
-      "liquidity": 448053.8659,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3701385",
-      "question": "Spread: Texans (-2.5)",
-      "category": "General",
-      "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "3701385-0",
-          "title": "Texans",
-          "price": 0.475
-        },
-        {
-          "id": "3701385-1",
-          "title": "Colts",
-          "price": 0.525
-        }
-      ],
-      "volume": 164810.432024,
-      "liquidity": 234356.7796,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "4549742",
-      "question": "Will Republic of Ireland win on 2026-09-27?",
-      "category": "General",
-      "endDate": "2026-09-27T18:45:00Z",
-      "yesPrice": 0.365,
-      "outcomes": [
-        {
-          "id": "4549742-0",
-          "title": "Yes",
           "price": 0.365
-        },
-        {
-          "id": "4549742-1",
-          "title": "No",
-          "price": 0.635
         }
       ],
-      "volume": 70769.81642100032,
-      "liquidity": 122855.0855,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 138157.456698,
+      "liquidity": 109562.1096,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "703257",
+      "question": "Will the US confirm that aliens exist before 2027?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.0375,
+      "outcomes": [
+        {
+          "id": "703257-0",
+          "title": "Yes",
+          "price": 0.0375
+        },
+        {
+          "id": "703257-1",
+          "title": "No",
+          "price": 0.9625
+        }
+      ],
+      "volume": 39856038.579752095,
+      "liquidity": 880422.37189,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664825",
+      "question": "Vikings vs. Buccaneers",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "3664825-0",
+          "title": "Vikings",
+          "price": 0.515
+        },
+        {
+          "id": "3664825-1",
+          "title": "Buccaneers",
+          "price": 0.485
+        }
+      ],
+      "volume": 211201.86432500003,
+      "liquidity": 527573.3643,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
       "id": "4855590",
       "question": "Spread: Vikings (-7.5)",
       "category": "General",
       "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.265,
+      "yesPrice": 0.255,
       "outcomes": [
         {
           "id": "4855590-0",
           "title": "Vikings",
-          "price": 0.265
+          "price": 0.255
         },
         {
           "id": "4855590-1",
           "title": "Buccaneers",
-          "price": 0.735
+          "price": 0.745
         }
       ],
-      "volume": 66742.577559,
-      "liquidity": 116388.0496,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 130861.14341700001,
+      "liquidity": 123277.8019,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "2589813",
-      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "id": "3701419",
+      "question": "Chargers vs. Bills: O/U 50.5",
       "category": "General",
-      "endDate": "2026-10-29T03:59:00Z",
-      "yesPrice": 0.645,
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.475,
       "outcomes": [
         {
-          "id": "2589813-0",
-          "title": "Yes",
-          "price": 0.645
+          "id": "3701419-0",
+          "title": "Over",
+          "price": 0.475
         },
         {
-          "id": "2589813-1",
-          "title": "No",
-          "price": 0.355
+          "id": "3701419-1",
+          "title": "Under",
+          "price": 0.525
         }
       ],
-      "volume": 3712160.665344001,
-      "liquidity": 717479.7402,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 135108.977009,
+      "liquidity": 223827.1121,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4798880",
-      "question": "Will Bitcoin dip to $82,000 September 21-27?",
+      "id": "4855869",
+      "question": "Spread: 49ers (-8.5)",
       "category": "General",
-      "endDate": "2026-09-28T04:00:00Z",
-      "yesPrice": 0.0365,
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.455,
       "outcomes": [
         {
-          "id": "4798880-0",
-          "title": "Yes",
-          "price": 0.0365
+          "id": "4855869-0",
+          "title": "49ers",
+          "price": 0.455
         },
         {
-          "id": "4798880-1",
-          "title": "No",
-          "price": 0.9635
+          "id": "4855869-1",
+          "title": "Cardinals",
+          "price": 0.545
         }
       ],
-      "volume": 137346.99255699996,
-      "liquidity": 37656.27331,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 239040.420605,
+      "liquidity": 212049.6967,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4856766",
-      "question": "Spread: Broncos (-3.5)",
+      "id": "4852776",
+      "question": "Spread: Steelers (-3.5)",
       "category": "General",
-      "endDate": "2026-09-28T00:20:00Z",
-      "yesPrice": 0.315,
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.275,
       "outcomes": [
         {
-          "id": "4856766-0",
-          "title": "Broncos",
-          "price": 0.315
+          "id": "4852776-0",
+          "title": "Steelers",
+          "price": 0.275
         },
         {
-          "id": "4856766-1",
-          "title": "Rams",
-          "price": 0.685
+          "id": "4852776-1",
+          "title": "Bengals",
+          "price": 0.725
         }
       ],
-      "volume": 155268.513208,
-      "liquidity": 307690.4402,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "608565",
-      "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0355,
-      "outcomes": [
-        {
-          "id": "608565-0",
-          "title": "Yes",
-          "price": 0.0355
-        },
-        {
-          "id": "608565-1",
-          "title": "No",
-          "price": 0.9645
-        }
-      ],
-      "volume": 3102427.1650329996,
-      "liquidity": 166744.9499,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
-    },
-    {
-      "id": "3128888",
-      "question": "US announces end of Iranian blockade by October 31, 2026?",
-      "category": "General",
-      "endDate": "2026-11-01T03:59:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "3128888-0",
-          "title": "Yes",
-          "price": 0.265
-        },
-        {
-          "id": "3128888-1",
-          "title": "No",
-          "price": 0.735
-        }
-      ],
-      "volume": 2323896.8193960004,
-      "liquidity": 117651.6104,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 208616.82320200003,
+      "liquidity": 143945.0427,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
       "id": "4550088",
       "question": "Spread: Germany (-1.5)",
       "category": "General",
       "endDate": "2026-09-27T18:45:00Z",
-      "yesPrice": 0.435,
+      "yesPrice": 0.445,
       "outcomes": [
         {
           "id": "4550088-0",
           "title": "Germany",
-          "price": 0.435
+          "price": 0.445
         },
         {
           "id": "4550088-1",
           "title": "Greece",
-          "price": 0.565
+          "price": 0.555
         }
       ],
-      "volume": 64937.210784000024,
-      "liquidity": 134058.0566,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 144298.28503200007,
+      "liquidity": 187988.9793,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4761632",
-      "question": "Will the price of Bitcoin be above $84,000 on September 27?",
+      "id": "3128887",
+      "question": "US announces end of Iranian blockade by September 30, 2026?",
+      "category": "General",
+      "endDate": "2026-10-01T03:59:00Z",
+      "yesPrice": 0.0395,
+      "outcomes": [
+        {
+          "id": "3128887-0",
+          "title": "Yes",
+          "price": 0.0395
+        },
+        {
+          "id": "3128887-1",
+          "title": "No",
+          "price": 0.9605
+        }
+      ],
+      "volume": 4861019.737805002,
+      "liquidity": 111077.44208,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "2176270",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.195,
+      "outcomes": [
+        {
+          "id": "2176270-0",
+          "title": "Yes",
+          "price": 0.195
+        },
+        {
+          "id": "2176270-1",
+          "title": "No",
+          "price": 0.805
+        }
+      ],
+      "volume": 13315799.92149499,
+      "liquidity": 510155.9449,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4549735",
+      "question": "Will Portugal win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T18:45:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "4549735-0",
+          "title": "Yes",
+          "price": 0.335
+        },
+        {
+          "id": "4549735-1",
+          "title": "No",
+          "price": 0.665
+        }
+      ],
+      "volume": 116053.010505,
+      "liquidity": 290626.1761,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664817",
+      "question": "Cardinals vs. 49ers",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.235,
+      "outcomes": [
+        {
+          "id": "3664817-0",
+          "title": "Cardinals",
+          "price": 0.235
+        },
+        {
+          "id": "3664817-1",
+          "title": "49ers",
+          "price": 0.765
+        }
+      ],
+      "volume": 266548.35749399994,
+      "liquidity": 561783.9483,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701304",
+      "question": "Spread: Saints (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:25:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "3701304-0",
+          "title": "Saints",
+          "price": 0.475
+        },
+        {
+          "id": "3701304-1",
+          "title": "Raiders",
+          "price": 0.525
+        }
+      ],
+      "volume": 114628.01243200002,
+      "liquidity": 309773.6734,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4549736",
+      "question": "Will Germany win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T18:45:00Z",
+      "yesPrice": 0.685,
+      "outcomes": [
+        {
+          "id": "4549736-0",
+          "title": "Yes",
+          "price": 0.685
+        },
+        {
+          "id": "4549736-1",
+          "title": "No",
+          "price": 0.315
+        }
+      ],
+      "volume": 153777.36985000005,
+      "liquidity": 302972.8057,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4902920",
+      "question": "LoL: Karmine Corp Blue vs White Dragons (BO1) - EMEA Masters Swiss Stage",
+      "category": "General",
+      "endDate": "2026-09-27T00:00:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "4902920-0",
+          "title": "Karmine Corp Blue",
+          "price": 0.505
+        },
+        {
+          "id": "4902920-1",
+          "title": "White Dragons",
+          "price": 0.495
+        }
+      ],
+      "volume": 108358.20999499998,
+      "liquidity": 24013.8002,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4550220",
+      "question": "Spread: Serbia (-1.5)",
       "category": "General",
       "endDate": "2026-09-27T16:00:00Z",
+      "yesPrice": 0.0335,
+      "outcomes": [
+        {
+          "id": "4550220-0",
+          "title": "Serbia",
+          "price": 0.0335
+        },
+        {
+          "id": "4550220-1",
+          "title": "Netherlands",
+          "price": 0.9665
+        }
+      ],
+      "volume": 105088.064683,
+      "liquidity": 66497.60907,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4856766",
+      "question": "Spread: Broncos (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-28T00:20:00Z",
+      "yesPrice": 0.325,
+      "outcomes": [
+        {
+          "id": "4856766-0",
+          "title": "Broncos",
+          "price": 0.325
+        },
+        {
+          "id": "4856766-1",
+          "title": "Rams",
+          "price": 0.675
+        }
+      ],
+      "volume": 196104.81910299996,
+      "liquidity": 140901.6988,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701406",
+      "question": "Spread: Panthers (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.395,
+      "outcomes": [
+        {
+          "id": "3701406-0",
+          "title": "Panthers",
+          "price": 0.395
+        },
+        {
+          "id": "3701406-1",
+          "title": "Browns",
+          "price": 0.605
+        }
+      ],
+      "volume": 110382.85919,
+      "liquidity": 165908.9079,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664830",
+      "question": "Raiders vs. Saints",
+      "category": "General",
+      "endDate": "2026-09-27T20:25:00Z",
+      "yesPrice": 0.375,
+      "outcomes": [
+        {
+          "id": "3664830-0",
+          "title": "Raiders",
+          "price": 0.375
+        },
+        {
+          "id": "3664830-1",
+          "title": "Saints",
+          "price": 0.625
+        }
+      ],
+      "volume": 158000.78284399997,
+      "liquidity": 500896.9422,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4758409",
+      "question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+      "category": "General",
+      "endDate": "2026-10-04T09:30:00Z",
       "yesPrice": 0.925,
       "outcomes": [
         {
-          "id": "4761632-0",
-          "title": "Yes",
+          "id": "4758409-0",
+          "title": "England",
           "price": 0.925
         },
         {
-          "id": "4761632-1",
-          "title": "No",
+          "id": "4758409-1",
+          "title": "Sri Lanka",
           "price": 0.075
         }
       ],
-      "volume": 84137.71593199999,
-      "liquidity": 40916.1942,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 113593.98516099998,
+      "liquidity": 77799.9225,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
     },
     {
-      "id": "4855584",
-      "question": "Spread: Vikings (-1.5)",
+      "id": "2772176",
+      "question": "Will Barcelona win the 2026-27 UEFA Champions League Championship?",
       "category": "General",
-      "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.495,
+      "endDate": "2027-05-30T23:59:00Z",
+      "yesPrice": 0.235,
       "outcomes": [
         {
-          "id": "4855584-0",
-          "title": "Vikings",
-          "price": 0.495
+          "id": "2772176-0",
+          "title": "Yes",
+          "price": 0.235
         },
         {
-          "id": "4855584-1",
-          "title": "Buccaneers",
-          "price": 0.505
+          "id": "2772176-1",
+          "title": "No",
+          "price": 0.765
         }
       ],
-      "volume": 126859.68538000001,
-      "liquidity": 316008.7304,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 1318496.4121199993,
+      "liquidity": 888101.3102,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4549721",
+      "question": "Will Serbia win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T16:00:00Z",
+      "yesPrice": 0.105,
+      "outcomes": [
+        {
+          "id": "4549721-0",
+          "title": "Yes",
+          "price": 0.105
+        },
+        {
+          "id": "4549721-1",
+          "title": "No",
+          "price": 0.895
+        }
+      ],
+      "volume": 101861.91097500002,
+      "liquidity": 260241.5511,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664769",
+      "question": "Texans vs. Colts",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "3664769-0",
+          "title": "Texans",
+          "price": 0.535
+        },
+        {
+          "id": "3664769-1",
+          "title": "Colts",
+          "price": 0.465
+        }
+      ],
+      "volume": 219827.87223599994,
+      "liquidity": 1191655.854,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4854521",
+      "question": "Spread: Colts (-3.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "4854521-0",
+          "title": "Colts",
+          "price": 0.335
+        },
+        {
+          "id": "4854521-1",
+          "title": "Texans",
+          "price": 0.665
+        }
+      ],
+      "volume": 177126.85519900004,
+      "liquidity": 149923.035,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701327",
+      "question": "Spread: 49ers (-14.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.295,
+      "outcomes": [
+        {
+          "id": "3701327-0",
+          "title": "49ers",
+          "price": 0.295
+        },
+        {
+          "id": "3701327-1",
+          "title": "Cardinals",
+          "price": 0.705
+        }
+      ],
+      "volume": 101403.56581599999,
+      "liquidity": 182415.886,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4852761",
+      "question": "Spread: Bengals (-5.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.405,
+      "outcomes": [
+        {
+          "id": "4852761-0",
+          "title": "Bengals",
+          "price": 0.405
+        },
+        {
+          "id": "4852761-1",
+          "title": "Steelers",
+          "price": 0.595
+        }
+      ],
+      "volume": 92103.148933,
+      "liquidity": 155438.2847,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "2771335",
+      "question": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+      "category": "General",
+      "endDate": "2027-05-30T23:59:00Z",
+      "yesPrice": 0.215,
+      "outcomes": [
+        {
+          "id": "2771335-0",
+          "title": "Yes",
+          "price": 0.215
+        },
+        {
+          "id": "2771335-1",
+          "title": "No",
+          "price": 0.785
+        }
+      ],
+      "volume": 2810117.7480149996,
+      "liquidity": 318541.756,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3701347",
+      "question": "Spread: Bengals (-4.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "3701347-0",
+          "title": "Bengals",
+          "price": 0.425
+        },
+        {
+          "id": "3701347-1",
+          "title": "Steelers",
+          "price": 0.575
+        }
+      ],
+      "volume": 107829.418321,
+      "liquidity": 200497.3062,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4987510",
+      "question": "Hangzhou Open: Daniil Medvedev vs Coleman Wong",
+      "category": "General",
+      "endDate": "2026-10-04T11:30:00Z",
+      "yesPrice": 0.875,
+      "outcomes": [
+        {
+          "id": "4987510-0",
+          "title": "Daniil Medvedev",
+          "price": 0.875
+        },
+        {
+          "id": "4987510-1",
+          "title": "Coleman Wong",
+          "price": 0.125
+        }
+      ],
+      "volume": 88292.75991200004,
+      "liquidity": 169373.5613,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "4855047",
+      "question": "Spread: Panthers (-5.5)",
+      "category": "General",
+      "endDate": "2026-09-27T17:00:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "4855047-0",
+          "title": "Panthers",
+          "price": 0.355
+        },
+        {
+          "id": "4855047-1",
+          "title": "Browns",
+          "price": 0.645
+        }
+      ],
+      "volume": 85015.84734600001,
+      "liquidity": 41343.5967,
+      "lastUpdated": "2026-09-27T13:06:17.268Z"
+    },
+    {
+      "id": "3664737",
+      "question": "Ravens vs. Cowboys",
+      "category": "General",
+      "endDate": "2026-09-27T20:25:00Z",
+      "yesPrice": 0.625,
+      "outcomes": [
+        {
+          "id": "3664737-0",
+          "title": "Ravens",
+          "price": 0.625
+        },
+        {
+          "id": "3664737-1",
+          "title": "Cowboys",
+          "price": 0.375
+        }
+      ],
+      "volume": 238871.021539,
+      "liquidity": 635785.3114,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
     },
     {
       "id": "3701330",
       "question": "Cardinals vs. 49ers: O/U 47.5",
       "category": "General",
       "endDate": "2026-09-27T20:05:00Z",
-      "yesPrice": 0.545,
+      "yesPrice": 0.535,
       "outcomes": [
         {
           "id": "3701330-0",
           "title": "Over",
-          "price": 0.545
+          "price": 0.535
         },
         {
           "id": "3701330-1",
           "title": "Under",
-          "price": 0.455
+          "price": 0.465
         }
       ],
-      "volume": 82939.693142,
-      "liquidity": 244820.9114,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 108469.18320700001,
+      "liquidity": 126647.146,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
     },
     {
-      "id": "3664790",
-      "question": "Titans vs. Giants",
+      "id": "3701407",
+      "question": "Spread: Panthers (-4.5)",
       "category": "General",
       "endDate": "2026-09-27T17:00:00Z",
-      "yesPrice": 0.445,
+      "yesPrice": 0.375,
       "outcomes": [
         {
-          "id": "3664790-0",
-          "title": "Titans",
-          "price": 0.445
+          "id": "3701407-0",
+          "title": "Panthers",
+          "price": 0.375
         },
         {
-          "id": "3664790-1",
-          "title": "Giants",
-          "price": 0.555
+          "id": "3701407-1",
+          "title": "Browns",
+          "price": 0.625
         }
       ],
-      "volume": 112677.678285,
-      "liquidity": 676487.6343,
-      "lastUpdated": "2026-09-27T07:08:11.651Z"
+      "volume": 82372.022215,
+      "liquidity": 77541.6619,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
+    },
+    {
+      "id": "4793380",
+      "question": "Arizona Diamondbacks vs. San Diego Padres",
+      "category": "General",
+      "endDate": "2026-10-04T19:10:00Z",
+      "yesPrice": 0.575,
+      "outcomes": [
+        {
+          "id": "4793380-0",
+          "title": "Arizona Diamondbacks",
+          "price": 0.575
+        },
+        {
+          "id": "4793380-1",
+          "title": "San Diego Padres",
+          "price": 0.425
+        }
+      ],
+      "volume": 82067.85038700001,
+      "liquidity": 151777.668,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
+    },
+    {
+      "id": "629040",
+      "question": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "category": "General",
+      "endDate": "2026-12-31T23:59:00Z",
+      "yesPrice": 0.5855,
+      "outcomes": [
+        {
+          "id": "629040-0",
+          "title": "Yes",
+          "price": 0.5855
+        },
+        {
+          "id": "629040-1",
+          "title": "No",
+          "price": 0.4145
+        }
+      ],
+      "volume": 2159070.4730870007,
+      "liquidity": 163819.65903,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
+    },
+    {
+      "id": "608545",
+      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.2785,
+      "outcomes": [
+        {
+          "id": "608545-0",
+          "title": "Yes",
+          "price": 0.2785
+        },
+        {
+          "id": "608545-1",
+          "title": "No",
+          "price": 0.7215
+        }
+      ],
+      "volume": 2714167.256293,
+      "liquidity": 119991.77149,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
+    },
+    {
+      "id": "4549725",
+      "question": "Will Denmark win on 2026-09-27?",
+      "category": "General",
+      "endDate": "2026-09-27T16:00:00Z",
+      "yesPrice": 0.705,
+      "outcomes": [
+        {
+          "id": "4549725-0",
+          "title": "Yes",
+          "price": 0.705
+        },
+        {
+          "id": "4549725-1",
+          "title": "No",
+          "price": 0.295
+        }
+      ],
+      "volume": 80928.93499499993,
+      "liquidity": 213299.5675,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
+    },
+    {
+      "id": "4855584",
+      "question": "Spread: Vikings (-1.5)",
+      "category": "General",
+      "endDate": "2026-09-27T20:05:00Z",
+      "yesPrice": 0.475,
+      "outcomes": [
+        {
+          "id": "4855584-0",
+          "title": "Vikings",
+          "price": 0.475
+        },
+        {
+          "id": "4855584-1",
+          "title": "Buccaneers",
+          "price": 0.525
+        }
+      ],
+      "volume": 146745.146967,
+      "liquidity": 227036.6972,
+      "lastUpdated": "2026-09-27T13:06:17.269Z"
     }
   ],
-  "lastUpdated": "2026-09-27T07:08:20.851Z"
+  "lastUpdated": "2026-09-27T13:06:25.804Z"
 }
