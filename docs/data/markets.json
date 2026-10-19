@@ -1,268 +1,400 @@
 {
   "markets": [
     {
-      "id": "5839896",
-      "question": "Ningbo Open: Elise Mertens vs Leylah Fernandez",
-      "category": "General",
-      "endDate": "2026-10-26T02:00:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "5839896-0",
-          "title": "Elise Mertens",
-          "price": 0.265
-        },
-        {
-          "id": "5839896-1",
-          "title": "Leylah Fernandez",
-          "price": 0.735
-        }
-      ],
-      "volume": 762319.3328319999,
-      "liquidity": 281295.4119,
-      "lastUpdated": "2026-10-19T06:56:28.824Z"
-    },
-    {
-      "id": "682705",
-      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.285,
-      "outcomes": [
-        {
-          "id": "682705-0",
-          "title": "Yes",
-          "price": 0.285
-        },
-        {
-          "id": "682705-1",
-          "title": "No",
-          "price": 0.715
-        }
-      ],
-      "volume": 8653452.960142002,
-      "liquidity": 511428.2664,
-      "lastUpdated": "2026-10-19T06:56:28.824Z"
-    },
-    {
-      "id": "601826",
-      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-05T03:59:00Z",
-      "yesPrice": 0.7865,
-      "outcomes": [
-        {
-          "id": "601826-0",
-          "title": "Yes",
-          "price": 0.7865
-        },
-        {
-          "id": "601826-1",
-          "title": "No",
-          "price": 0.2135
-        }
-      ],
-      "volume": 22810643.243694004,
-      "liquidity": 761425.71917,
-      "lastUpdated": "2026-10-19T06:56:28.824Z"
-    },
-    {
-      "id": "601819",
-      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-05T03:59:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "601819-0",
-          "title": "Yes",
-          "price": 0.215
-        },
-        {
-          "id": "601819-1",
-          "title": "No",
-          "price": 0.785
-        }
-      ],
-      "volume": 26543633.041522,
-      "liquidity": 723435.0776,
-      "lastUpdated": "2026-10-19T06:56:28.824Z"
-    },
-    {
       "id": "2589812",
       "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
       "category": "General",
       "endDate": "2026-10-29T03:59:00Z",
-      "yesPrice": 0.875,
+      "yesPrice": 0.855,
       "outcomes": [
         {
           "id": "2589812-0",
           "title": "Yes",
-          "price": 0.875
+          "price": 0.855
         },
         {
           "id": "2589812-1",
           "title": "No",
-          "price": 0.125
+          "price": 0.145
         }
       ],
-      "volume": 13709384.483526,
-      "liquidity": 1115302.7729,
-      "lastUpdated": "2026-10-19T06:56:28.824Z"
-    },
-    {
-      "id": "4641065",
-      "question": "US x Iran ceasefire continues through October 31?",
-      "category": "General",
-      "endDate": "2026-10-31T23:59:00Z",
-      "yesPrice": 0.825,
-      "outcomes": [
-        {
-          "id": "4641065-0",
-          "title": "Yes",
-          "price": 0.825
-        },
-        {
-          "id": "4641065-1",
-          "title": "No",
-          "price": 0.175
-        }
-      ],
-      "volume": 4054861.130576,
-      "liquidity": 459289.5979,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5611321",
-      "question": "Counter-Strike: Alliance vs TheMongolz (BO3) - 1win Private Club #2 Playoffs",
-      "category": "General",
-      "endDate": "2026-10-19T15:00:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "5611321-0",
-          "title": "Alliance",
-          "price": 0.395
-        },
-        {
-          "id": "5611321-1",
-          "title": "TheMongolz",
-          "price": 0.605
-        }
-      ],
-      "volume": 211635.708354,
-      "liquidity": 166772.5163,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5686979",
-      "question": "US x Iran ceasefire continues through October 22?",
-      "category": "General",
-      "endDate": "2026-10-23T03:59:00Z",
-      "yesPrice": 0.955,
-      "outcomes": [
-        {
-          "id": "5686979-0",
-          "title": "Yes",
-          "price": 0.955
-        },
-        {
-          "id": "5686979-1",
-          "title": "No",
-          "price": 0.045
-        }
-      ],
-      "volume": 347306.51279,
-      "liquidity": 108876.1026,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "663583",
-      "question": "Will the Iranian regime fall before 2027?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.045,
-      "outcomes": [
-        {
-          "id": "663583-0",
-          "title": "Yes",
-          "price": 0.045
-        },
-        {
-          "id": "663583-1",
-          "title": "No",
-          "price": 0.955
-        }
-      ],
-      "volume": 27538806.870212004,
-      "liquidity": 561604.9615,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5611345",
-      "question": "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playoffs",
-      "category": "General",
-      "endDate": "2026-10-20T00:00:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "5611345-0",
-          "title": "PARIVISION",
-          "price": 0.595
-        },
-        {
-          "id": "5611345-1",
-          "title": "magic",
-          "price": 0.405
-        }
-      ],
-      "volume": 291400.308161,
-      "liquidity": 110749.3853,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 14235169.052658,
+      "liquidity": 482809.8595,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
     },
     {
       "id": "2589813",
       "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
       "category": "General",
       "endDate": "2026-10-29T03:59:00Z",
-      "yesPrice": 0.115,
+      "yesPrice": 0.145,
       "outcomes": [
         {
           "id": "2589813-0",
           "title": "Yes",
-          "price": 0.115
+          "price": 0.145
         },
         {
           "id": "2589813-1",
           "title": "No",
-          "price": 0.885
+          "price": 0.855
         }
       ],
-      "volume": 10356641.371847998,
-      "liquidity": 947793.0924,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 11031426.701368999,
+      "liquidity": 454472.5361,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "682705",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.265,
+      "outcomes": [
+        {
+          "id": "682705-0",
+          "title": "Yes",
+          "price": 0.265
+        },
+        {
+          "id": "682705-1",
+          "title": "No",
+          "price": 0.735
+        }
+      ],
+      "volume": 8788798.93493,
+      "liquidity": 460464.7917,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "601826",
+      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "category": "General",
+      "endDate": "2026-10-05T03:59:00Z",
+      "yesPrice": 0.7685,
+      "outcomes": [
+        {
+          "id": "601826-0",
+          "title": "Yes",
+          "price": 0.7685
+        },
+        {
+          "id": "601826-1",
+          "title": "No",
+          "price": 0.2315
+        }
+      ],
+      "volume": 22937567.638908997,
+      "liquidity": 600903.04338,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5843262",
+      "question": "Lyon Open: Jaime Faria vs Felix Balshaw",
+      "category": "General",
+      "endDate": "2026-10-26T08:00:00Z",
+      "yesPrice": 0.495,
+      "outcomes": [
+        {
+          "id": "5843262-0",
+          "title": "Jaime Faria",
+          "price": 0.495
+        },
+        {
+          "id": "5843262-1",
+          "title": "Felix Balshaw",
+          "price": 0.505
+        }
+      ],
+      "volume": 439478.01860699995,
+      "liquidity": 277203.704,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "601819",
+      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "category": "General",
+      "endDate": "2026-10-05T03:59:00Z",
+      "yesPrice": 0.235,
+      "outcomes": [
+        {
+          "id": "601819-0",
+          "title": "Yes",
+          "price": 0.235
+        },
+        {
+          "id": "601819-1",
+          "title": "No",
+          "price": 0.765
+        }
+      ],
+      "volume": 26638776.167294994,
+      "liquidity": 624325.0912,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5801197",
+      "question": "Japan Women's Open: Katie Boulter vs Himeno Sakatsume",
+      "category": "General",
+      "endDate": "2026-10-26T01:00:00Z",
+      "yesPrice": 0.935,
+      "outcomes": [
+        {
+          "id": "5801197-0",
+          "title": "Katie Boulter",
+          "price": 0.935
+        },
+        {
+          "id": "5801197-1",
+          "title": "Himeno Sakatsume",
+          "price": 0.065
+        }
+      ],
+      "volume": 367843.030753,
+      "liquidity": 113349.4474,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5130621",
+      "question": "Commanders vs. 49ers: O/U 52.5",
+      "category": "General",
+      "endDate": "2026-10-20T00:15:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "5130621-0",
+          "title": "Over",
+          "price": 0.465
+        },
+        {
+          "id": "5130621-1",
+          "title": "Under",
+          "price": 0.535
+        }
+      ],
+      "volume": 315299.959828,
+      "liquidity": 341086.5747,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5611345",
+      "question": "Counter-Strike: PARIVISION vs magic (BO3) - 1win Private Club #2 Playoffs",
+      "category": "General",
+      "endDate": "2026-10-20T00:00:00Z",
+      "yesPrice": 0.585,
+      "outcomes": [
+        {
+          "id": "5611345-0",
+          "title": "PARIVISION",
+          "price": 0.585
+        },
+        {
+          "id": "5611345-1",
+          "title": "magic",
+          "price": 0.415
+        }
+      ],
+      "volume": 393864.040222,
+      "liquidity": 117776.5259,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "4641065",
+      "question": "US x Iran ceasefire continues through October 31?",
+      "category": "General",
+      "endDate": "2026-10-31T23:59:00Z",
+      "yesPrice": 0.835,
+      "outcomes": [
+        {
+          "id": "4641065-0",
+          "title": "Yes",
+          "price": 0.835
+        },
+        {
+          "id": "4641065-1",
+          "title": "No",
+          "price": 0.165
+        }
+      ],
+      "volume": 4094820.7037190003,
+      "liquidity": 117370.1474,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5686979",
+      "question": "US x Iran ceasefire continues through October 22?",
+      "category": "General",
+      "endDate": "2026-10-23T03:59:00Z",
+      "yesPrice": 0.95,
+      "outcomes": [
+        {
+          "id": "5686979-0",
+          "title": "Yes",
+          "price": 0.95
+        },
+        {
+          "id": "5686979-1",
+          "title": "No",
+          "price": 0.05
+        }
+      ],
+      "volume": 408087.660196,
+      "liquidity": 48392.65898,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5568259",
+      "question": "Will there be no Hormuz agreement?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.881,
+      "outcomes": [
+        {
+          "id": "5568259-0",
+          "title": "Yes",
+          "price": 0.881
+        },
+        {
+          "id": "5568259-1",
+          "title": "No",
+          "price": 0.119
+        }
+      ],
+      "volume": 878386.5105010001,
+      "liquidity": 72000.13064,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5824119",
+      "question": "Bitcoin Up or Down on October 19?",
+      "category": "General",
+      "endDate": "2026-10-19T16:00:00Z",
+      "yesPrice": 0.9455,
+      "outcomes": [
+        {
+          "id": "5824119-0",
+          "title": "Up",
+          "price": 0.9455
+        },
+        {
+          "id": "5824119-1",
+          "title": "Down",
+          "price": 0.0545
+        }
+      ],
+      "volume": 163455.15049600002,
+      "liquidity": 41389.45119,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "3128886",
+      "question": "US announces end of Iranian blockade by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.3865,
+      "outcomes": [
+        {
+          "id": "3128886-0",
+          "title": "Yes",
+          "price": 0.3865
+        },
+        {
+          "id": "3128886-1",
+          "title": "No",
+          "price": 0.6135
+        }
+      ],
+      "volume": 3688169.0248320005,
+      "liquidity": 159290.62884,
+      "lastUpdated": "2026-10-19T14:34:18.345Z"
+    },
+    {
+      "id": "5611334",
+      "question": "Counter-Strike: fnatic vs Liquid (BO3) - 1win Private Club #2 Playoffs",
+      "category": "General",
+      "endDate": "2026-10-19T21:00:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "5611334-0",
+          "title": "fnatic",
+          "price": 0.435
+        },
+        {
+          "id": "5611334-1",
+          "title": "Liquid",
+          "price": 0.565
+        }
+      ],
+      "volume": 151848.70313099996,
+      "liquidity": 149853.3783,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "561979",
       "question": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
       "category": "General",
       "endDate": "2028-11-08T04:59:00Z",
-      "yesPrice": 0.0385,
+      "yesPrice": 0.0365,
       "outcomes": [
         {
           "id": "561979-0",
           "title": "Yes",
-          "price": 0.0385
+          "price": 0.0365
         },
         {
           "id": "561979-1",
           "title": "No",
-          "price": 0.9615
+          "price": 0.9635
         }
       ],
-      "volume": 15855056.734283999,
-      "liquidity": 240783.43963,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 15856834.998362001,
+      "liquidity": 249750.75286,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5447182",
+      "question": "US-Iran ceasefire continues through the midterms?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.81,
+      "outcomes": [
+        {
+          "id": "5447182-0",
+          "title": "Yes",
+          "price": 0.81
+        },
+        {
+          "id": "5447182-1",
+          "title": "No",
+          "price": 0.19
+        }
+      ],
+      "volume": 682651.7510539999,
+      "liquidity": 53910.2987,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5346689",
+      "question": "Will AC Monza win on 2026-10-19?",
+      "category": "General",
+      "endDate": "2026-10-19T16:30:00Z",
+      "yesPrice": 0.405,
+      "outcomes": [
+        {
+          "id": "5346689-0",
+          "title": "Yes",
+          "price": 0.405
+        },
+        {
+          "id": "5346689-1",
+          "title": "No",
+          "price": 0.595
+        }
+      ],
+      "volume": 137484.424788,
+      "liquidity": 355235.003,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "3399459",
@@ -282,273 +414,317 @@
           "price": 0.125
         }
       ],
-      "volume": 2513083.240926,
-      "liquidity": 101632.9857,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 2520316.583076,
+      "liquidity": 101837.144,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "3128886",
-      "question": "US announces end of Iranian blockade by December 31, 2026?",
+      "id": "4662693",
+      "question": "Will Anthropic announce bankruptcy by December 31, 2027?",
       "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.383,
-      "outcomes": [
-        {
-          "id": "3128886-0",
-          "title": "Yes",
-          "price": 0.383
-        },
-        {
-          "id": "3128886-1",
-          "title": "No",
-          "price": 0.617
-        }
-      ],
-      "volume": 3657602.8499650005,
-      "liquidity": 158717.89962,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "665374",
-      "question": "Will the U.S. invade Iran before 2027?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.155,
-      "outcomes": [
-        {
-          "id": "665374-0",
-          "title": "Yes",
-          "price": 0.155
-        },
-        {
-          "id": "665374-1",
-          "title": "No",
-          "price": 0.845
-        }
-      ],
-      "volume": 74633112.259679,
-      "liquidity": 562837.0743,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "682708",
-      "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-      "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.477,
-      "outcomes": [
-        {
-          "id": "682708-0",
-          "title": "Yes",
-          "price": 0.477
-        },
-        {
-          "id": "682708-1",
-          "title": "No",
-          "price": 0.523
-        }
-      ],
-      "volume": 3330332.267681,
-      "liquidity": 281806.19308,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5447182",
-      "question": "US-Iran ceasefire continues through the midterms?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.785,
-      "outcomes": [
-        {
-          "id": "5447182-0",
-          "title": "Yes",
-          "price": 0.785
-        },
-        {
-          "id": "5447182-1",
-          "title": "No",
-          "price": 0.215
-        }
-      ],
-      "volume": 636089.462151,
-      "liquidity": 441428.5163,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "608545",
-      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.2625,
-      "outcomes": [
-        {
-          "id": "608545-0",
-          "title": "Yes",
-          "price": 0.2625
-        },
-        {
-          "id": "608545-1",
-          "title": "No",
-          "price": 0.7375
-        }
-      ],
-      "volume": 4508979.7421740005,
-      "liquidity": 124558.9571,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5732709",
-      "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 40 and 60 million views on week 1?",
-      "category": "General",
-      "endDate": "2026-10-23T03:59:00Z",
-      "yesPrice": 0.345,
-      "outcomes": [
-        {
-          "id": "5732709-0",
-          "title": "Yes",
-          "price": 0.345
-        },
-        {
-          "id": "5732709-1",
-          "title": "No",
-          "price": 0.655
-        }
-      ],
-      "volume": 145179.77649800002,
-      "liquidity": 13142.4075,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
-    },
-    {
-      "id": "5610602",
-      "question": "Will the price of Bitcoin be above $84,000 on October 19?",
-      "category": "General",
-      "endDate": "2026-10-19T16:00:00Z",
+      "endDate": "2028-01-01T04:59:00Z",
       "yesPrice": 0.095,
       "outcomes": [
         {
-          "id": "5610602-0",
+          "id": "4662693-0",
           "title": "Yes",
           "price": 0.095
         },
         {
-          "id": "5610602-1",
+          "id": "4662693-1",
           "title": "No",
           "price": 0.905
         }
       ],
-      "volume": 122795.70575,
-      "liquidity": 40029.78959,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 1658526.1771459999,
+      "liquidity": 636871.6731,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "666861",
-      "question": "Trump out as President before 2027?",
+      "id": "5772996",
+      "question": "S&P 500 (SPX) Up or Down on October 19?",
       "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0395,
+      "endDate": "2026-10-19T20:00:00Z",
+      "yesPrice": 0.925,
       "outcomes": [
         {
-          "id": "666861-0",
-          "title": "Yes",
-          "price": 0.0395
+          "id": "5772996-0",
+          "title": "Up",
+          "price": 0.925
         },
         {
-          "id": "666861-1",
-          "title": "No",
-          "price": 0.9605
+          "id": "5772996-1",
+          "title": "Down",
+          "price": 0.075
         }
       ],
-      "volume": 12763557.992051,
-      "liquidity": 347915.87921,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 116555.656693,
+      "liquidity": 20540.1661,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "682706",
-      "question": "Will Naftali Bennett be the next Prime Minister of Israel?",
+      "id": "562803",
+      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
       "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.095,
+      "outcomes": [
+        {
+          "id": "562803-0",
+          "title": "Yes",
+          "price": 0.095
+        },
+        {
+          "id": "562803-1",
+          "title": "No",
+          "price": 0.905
+        }
+      ],
+      "volume": 7835815.6628209995,
+      "liquidity": 2756373.942,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "3128888",
+      "question": "US announces end of Iranian blockade by October 31, 2026?",
+      "category": "General",
+      "endDate": "2026-11-01T03:59:00Z",
       "yesPrice": 0.115,
       "outcomes": [
         {
-          "id": "682706-0",
+          "id": "3128888-0",
           "title": "Yes",
           "price": 0.115
         },
         {
-          "id": "682706-1",
+          "id": "3128888-1",
           "title": "No",
           "price": 0.885
         }
       ],
-      "volume": 3938844.14654,
-      "liquidity": 145043.4165,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 5302115.144302,
+      "liquidity": 100581.9559,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "679021",
-      "question": "Will Édouard Philippe win the 2027 French presidential election?",
+      "id": "5906214",
+      "question": "LoL: G2 Esports vs Dplus KIA (BO1) - Worlds Group Stage",
       "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.195,
+      "endDate": "2026-10-24T02:00:00Z",
+      "yesPrice": 0.385,
       "outcomes": [
         {
-          "id": "679021-0",
-          "title": "Yes",
-          "price": 0.195
+          "id": "5906214-0",
+          "title": "G2 Esports",
+          "price": 0.385
         },
         {
-          "id": "679021-1",
-          "title": "No",
-          "price": 0.805
+          "id": "5906214-1",
+          "title": "Dplus KIA",
+          "price": 0.615
         }
       ],
-      "volume": 2367430.4366760007,
-      "liquidity": 374653.9997,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 102854.705287,
+      "liquidity": 210413.655,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "608547",
       "question": "Will Harry Kane win the 2026 Ballon d'Or?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.668,
+      "yesPrice": 0.6765,
       "outcomes": [
         {
           "id": "608547-0",
           "title": "Yes",
-          "price": 0.668
+          "price": 0.6765
         },
         {
           "id": "608547-1",
           "title": "No",
-          "price": 0.332
+          "price": 0.3235
         }
       ],
-      "volume": 6022117.241023001,
-      "liquidity": 104900.59821,
-      "lastUpdated": "2026-10-19T06:56:28.826Z"
+      "volume": 6065655.026136,
+      "liquidity": 94499.08606,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5850538",
+      "question": "Counter-Strike: GenOne vs Omega (BO3) - Stake Ranked Episode 6: Closed Qualifier Playoffs",
+      "category": "General",
+      "endDate": "2026-10-19T18:10:00Z",
+      "yesPrice": 0.97,
+      "outcomes": [
+        {
+          "id": "5850538-0",
+          "title": "GenOne",
+          "price": 0.97
+        },
+        {
+          "id": "5850538-1",
+          "title": "Omega",
+          "price": 0.03
+        }
+      ],
+      "volume": 94995.650975,
+      "liquidity": 15771.0527,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "682708",
+      "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.4925,
+      "outcomes": [
+        {
+          "id": "682708-0",
+          "title": "Yes",
+          "price": 0.4925
+        },
+        {
+          "id": "682708-1",
+          "title": "No",
+          "price": 0.5075
+        }
+      ],
+      "volume": 3338873.2551099993,
+      "liquidity": 235012.91653,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "2176270",
+      "question": "Strait of Hormuz traffic returns to normal by December 31?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.145,
+      "outcomes": [
+        {
+          "id": "2176270-0",
+          "title": "Yes",
+          "price": 0.145
+        },
+        {
+          "id": "2176270-1",
+          "title": "No",
+          "price": 0.855
+        }
+      ],
+      "volume": 15128119.961348997,
+      "liquidity": 409593.7285,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5362507",
+      "question": "Will Tottenham Hotspur FC win on 2026-10-19?",
+      "category": "General",
+      "endDate": "2026-10-19T19:00:00Z",
+      "yesPrice": 0.635,
+      "outcomes": [
+        {
+          "id": "5362507-0",
+          "title": "Yes",
+          "price": 0.635
+        },
+        {
+          "id": "5362507-1",
+          "title": "No",
+          "price": 0.365
+        }
+      ],
+      "volume": 96687.819646,
+      "liquidity": 803151.3648,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5568257",
+      "question": "Will there be a Hormuz agreement and the Republicans win the Senate?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.0355,
+      "outcomes": [
+        {
+          "id": "5568257-0",
+          "title": "Yes",
+          "price": 0.0355
+        },
+        {
+          "id": "5568257-1",
+          "title": "No",
+          "price": 0.9645
+        }
+      ],
+      "volume": 832028.059224,
+      "liquidity": 117892.45023,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "4640849",
+      "question": "Perim Island no longer under Houthi control by December 31?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.28,
+      "outcomes": [
+        {
+          "id": "4640849-0",
+          "title": "Yes",
+          "price": 0.28
+        },
+        {
+          "id": "4640849-1",
+          "title": "No",
+          "price": 0.72
+        }
+      ],
+      "volume": 195801.50264599998,
+      "liquidity": 36072.1304,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "4662694",
+      "question": "Will Anthropic announce bankruptcy by December 31, 2028?",
+      "category": "General",
+      "endDate": "2029-01-01T04:59:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "4662694-0",
+          "title": "Yes",
+          "price": 0.175
+        },
+        {
+          "id": "4662694-1",
+          "title": "No",
+          "price": 0.825
+        }
+      ],
+      "volume": 267275.480152,
+      "liquidity": 140632.5952,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "5340069",
       "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%?",
       "category": "General",
       "endDate": "2026-10-26T03:59:00Z",
-      "yesPrice": 0.0705,
+      "yesPrice": 0.0855,
       "outcomes": [
         {
           "id": "5340069-0",
           "title": "Yes",
-          "price": 0.0705
+          "price": 0.0855
         },
         {
           "id": "5340069-1",
           "title": "No",
-          "price": 0.9295
+          "price": 0.9145
         }
       ],
-      "volume": 759184.129404,
-      "liquidity": 126142.59775,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 784742.384402,
+      "liquidity": 120911.65397,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "608565",
@@ -568,273 +744,295 @@
           "price": 0.9695
         }
       ],
-      "volume": 5038574.422907,
-      "liquidity": 210992.07245,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 5057903.364632,
+      "liquidity": 222835.26403,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5801203",
-      "question": "Japan Women's Open: Sonay Kartal vs Kimberly Birrell",
-      "category": "General",
-      "endDate": "2026-10-26T01:00:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "5801203-0",
-          "title": "Sonay Kartal",
-          "price": 0.505
-        },
-        {
-          "id": "5801203-1",
-          "title": "Kimberly Birrell",
-          "price": 0.495
-        }
-      ],
-      "volume": 79677.384302,
-      "liquidity": 228303.2653,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5141816",
-      "question": "Ballon d'Or 2026: Kylian Mbappé or Lamine Yamal to finish higher?",
+      "id": "666861",
+      "question": "Trump out as President before 2027?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.575,
+      "yesPrice": 0.035,
       "outcomes": [
         {
-          "id": "5141816-0",
-          "title": "Mbappé",
-          "price": 0.575
+          "id": "666861-0",
+          "title": "Yes",
+          "price": 0.035
         },
         {
-          "id": "5141816-1",
-          "title": "Yamal",
-          "price": 0.425
+          "id": "666861-1",
+          "title": "No",
+          "price": 0.965
         }
       ],
-      "volume": 482982.435654,
-      "liquidity": 37243.9779,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 12767650.364343999,
+      "liquidity": 366096.01045,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "1105742",
-      "question": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
+      "id": "608545",
+      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.175,
+      "yesPrice": 0.2565,
       "outcomes": [
         {
-          "id": "1105742-0",
+          "id": "608545-0",
           "title": "Yes",
-          "price": 0.175
+          "price": 0.2565
         },
         {
-          "id": "1105742-1",
+          "id": "608545-1",
           "title": "No",
-          "price": 0.825
+          "price": 0.7435
         }
       ],
-      "volume": 2389781.499443,
-      "liquidity": 104525.1108,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5340070",
-      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
-      "category": "General",
-      "endDate": "2026-10-26T03:59:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "5340070-0",
-          "title": "Yes",
-          "price": 0.295
-        },
-        {
-          "id": "5340070-1",
-          "title": "No",
-          "price": 0.705
-        }
-      ],
-      "volume": 414469.15544700006,
-      "liquidity": 97058.8805,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "4319439",
-      "question": "Will Anthropic IPO by November 30, 2026?",
-      "category": "General",
-      "endDate": "2026-12-01T04:59:00Z",
-      "yesPrice": 0.63,
-      "outcomes": [
-        {
-          "id": "4319439-0",
-          "title": "Yes",
-          "price": 0.63
-        },
-        {
-          "id": "4319439-1",
-          "title": "No",
-          "price": 0.37
-        }
-      ],
-      "volume": 388324.449384,
-      "liquidity": 13687.2509,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5824119",
-      "question": "Bitcoin Up or Down on October 19?",
-      "category": "General",
-      "endDate": "2026-10-19T16:00:00Z",
-      "yesPrice": 0.935,
-      "outcomes": [
-        {
-          "id": "5824119-0",
-          "title": "Up",
-          "price": 0.935
-        },
-        {
-          "id": "5824119-1",
-          "title": "Down",
-          "price": 0.065
-        }
-      ],
-      "volume": 65772.717178,
-      "liquidity": 39513.8966,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5686977",
-      "question": "US x Iran ceasefire continues through October 24?",
-      "category": "General",
-      "endDate": "2026-10-25T03:59:00Z",
-      "yesPrice": 0.915,
-      "outcomes": [
-        {
-          "id": "5686977-0",
-          "title": "Yes",
-          "price": 0.915
-        },
-        {
-          "id": "5686977-1",
-          "title": "No",
-          "price": 0.085
-        }
-      ],
-      "volume": 107618.341032,
-      "liquidity": 46371.2844,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 4556716.902593,
+      "liquidity": 123118.60194,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "5167210",
       "question": "Saudi Arabia military action against Yemen on October 29?",
       "category": "General",
       "endDate": "2026-10-30T03:59:00Z",
-      "yesPrice": 0.56,
+      "yesPrice": 0.69,
       "outcomes": [
         {
           "id": "5167210-0",
           "title": "Yes",
-          "price": 0.56
+          "price": 0.69
         },
         {
           "id": "5167210-1",
           "title": "No",
-          "price": 0.44
+          "price": 0.31
         }
       ],
-      "volume": 63748.826608,
-      "liquidity": 23557.5254,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 84693.95779000001,
+      "liquidity": 30956.2277,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "4824600",
-      "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+      "id": "679030",
+      "question": "Will Jean-Luc Mélenchon win the 2027 French presidential election?",
       "category": "General",
-      "endDate": "2026-10-25T23:59:00Z",
-      "yesPrice": 0.675,
-      "outcomes": [
-        {
-          "id": "4824600-0",
-          "title": "Yes",
-          "price": 0.675
-        },
-        {
-          "id": "4824600-1",
-          "title": "No",
-          "price": 0.325
-        }
-      ],
-      "volume": 712709.5333299999,
-      "liquidity": 309008.7281,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "701501",
-      "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
+      "endDate": "2027-04-19T03:59:00Z",
       "yesPrice": 0.105,
       "outcomes": [
         {
-          "id": "701501-0",
+          "id": "679030-0",
           "title": "Yes",
           "price": 0.105
         },
         {
-          "id": "701501-1",
+          "id": "679030-1",
           "title": "No",
           "price": 0.895
         }
       ],
-      "volume": 6851140.145968998,
-      "liquidity": 219468.2571,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 2367619.9125759997,
+      "liquidity": 511275.7839,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "3128888",
-      "question": "US announces end of Iranian blockade by October 31, 2026?",
+      "id": "5610600",
+      "question": "Will the price of Bitcoin be above $82,000 on October 19?",
       "category": "General",
-      "endDate": "2026-11-01T03:59:00Z",
-      "yesPrice": 0.065,
+      "endDate": "2026-10-19T16:00:00Z",
+      "yesPrice": 0.545,
       "outcomes": [
         {
-          "id": "3128888-0",
+          "id": "5610600-0",
           "title": "Yes",
-          "price": 0.065
+          "price": 0.545
         },
         {
-          "id": "3128888-1",
+          "id": "5610600-1",
           "title": "No",
-          "price": 0.935
+          "price": 0.455
         }
       ],
-      "volume": 5244451.955271001,
-      "liquidity": 147774.0577,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 85093.49646600001,
+      "liquidity": 39984.438,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "3399468",
-      "question": "Israel x Iran ceasefire continues through December 31?",
+      "id": "679029",
+      "question": "Will Raphaël Glucksmann win the 2027 French presidential election?",
       "category": "General",
-      "endDate": "2026-12-31T20:29:00Z",
-      "yesPrice": 0.485,
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.0525,
       "outcomes": [
         {
-          "id": "3399468-0",
+          "id": "679029-0",
           "title": "Yes",
-          "price": 0.485
+          "price": 0.0525
         },
         {
-          "id": "3399468-1",
+          "id": "679029-1",
           "title": "No",
-          "price": 0.515
+          "price": 0.9475
         }
       ],
-      "volume": 1140945.7685779997,
-      "liquidity": 62789.1346,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 2774564.141625,
+      "liquidity": 273085.96369,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5787490",
+      "question": "Next White House Press Secretary announced by November 30, 2026?",
+      "category": "General",
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.525,
+      "outcomes": [
+        {
+          "id": "5787490-0",
+          "title": "Yes",
+          "price": 0.525
+        },
+        {
+          "id": "5787490-1",
+          "title": "No",
+          "price": 0.475
+        }
+      ],
+      "volume": 139201.28344200004,
+      "liquidity": 150112.7633,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "679021",
+      "question": "Will Édouard Philippe win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.185,
+      "outcomes": [
+        {
+          "id": "679021-0",
+          "title": "Yes",
+          "price": 0.185
+        },
+        {
+          "id": "679021-1",
+          "title": "No",
+          "price": 0.815
+        }
+      ],
+      "volume": 2427429.6317680003,
+      "liquidity": 375336.5896,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5742117",
+      "question": "Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",
+      "category": "General",
+      "endDate": "2026-10-19T16:00:00Z",
+      "yesPrice": 0.63,
+      "outcomes": [
+        {
+          "id": "5742117-0",
+          "title": "Yes",
+          "price": 0.63
+        },
+        {
+          "id": "5742117-1",
+          "title": "No",
+          "price": 0.37
+        }
+      ],
+      "volume": 108020.543191,
+      "liquidity": 1192.9688,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5893068",
+      "question": "Almaty Open: Mikhail Kukushkin vs Stefanos Sakellaridis",
+      "category": "General",
+      "endDate": "2026-10-26T14:30:00Z",
+      "yesPrice": 0.235,
+      "outcomes": [
+        {
+          "id": "5893068-0",
+          "title": "Mikhail Kukushkin",
+          "price": 0.235
+        },
+        {
+          "id": "5893068-1",
+          "title": "Stefanos Sakellaridis",
+          "price": 0.765
+        }
+      ],
+      "volume": 77230.110938,
+      "liquidity": 80122.3734,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "682706",
+      "question": "Will Naftali Bennett be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.125,
+      "outcomes": [
+        {
+          "id": "682706-0",
+          "title": "Yes",
+          "price": 0.125
+        },
+        {
+          "id": "682706-1",
+          "title": "No",
+          "price": 0.875
+        }
+      ],
+      "volume": 3943867.7431560005,
+      "liquidity": 143891.0046,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5141816",
+      "question": "Ballon d'Or 2026: Kylian Mbappé or Lamine Yamal to finish higher?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.585,
+      "outcomes": [
+        {
+          "id": "5141816-0",
+          "title": "Mbappé",
+          "price": 0.585
+        },
+        {
+          "id": "5141816-1",
+          "title": "Yamal",
+          "price": 0.415
+        }
+      ],
+      "volume": 503777.021112,
+      "liquidity": 34722.6901,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "679022",
+      "question": "Will David Lisnard win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.1165,
+      "outcomes": [
+        {
+          "id": "679022-0",
+          "title": "Yes",
+          "price": 0.1165
+        },
+        {
+          "id": "679022-1",
+          "title": "No",
+          "price": 0.8835
+        }
+      ],
+      "volume": 5044294.468733,
+      "liquidity": 349272.46787,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "4362230",
@@ -854,229 +1052,75 @@
           "price": 0.785
         }
       ],
-      "volume": 61155.522305,
-      "liquidity": 1151528.8351,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 75958.54919200002,
+      "liquidity": 2793618.4841,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "4640849",
-      "question": "Perim Island no longer under Houthi control by December 31?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.3,
-      "outcomes": [
-        {
-          "id": "4640849-0",
-          "title": "Yes",
-          "price": 0.3
-        },
-        {
-          "id": "4640849-1",
-          "title": "No",
-          "price": 0.7
-        }
-      ],
-      "volume": 161073.10538499997,
-      "liquidity": 32996.1281,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5340068",
-      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by at least 12%?",
-      "category": "General",
-      "endDate": "2026-10-26T03:59:00Z",
-      "yesPrice": 0.0305,
-      "outcomes": [
-        {
-          "id": "5340068-0",
-          "title": "Yes",
-          "price": 0.0305
-        },
-        {
-          "id": "5340068-1",
-          "title": "No",
-          "price": 0.9695
-        }
-      ],
-      "volume": 393680.52706,
-      "liquidity": 102758.17706,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5170732",
-      "question": "Will Bitcoin reach $95,000 in October?",
-      "category": "General",
-      "endDate": "2026-11-01T04:00:00Z",
-      "yesPrice": 0.0485,
-      "outcomes": [
-        {
-          "id": "5170732-0",
-          "title": "Yes",
-          "price": 0.0485
-        },
-        {
-          "id": "5170732-1",
-          "title": "No",
-          "price": 0.9515
-        }
-      ],
-      "volume": 312206.637283,
-      "liquidity": 97597.52145,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5801195",
-      "question": "Japan Women's Open: Ashlyn Krueger vs Janice Tjen",
-      "category": "General",
-      "endDate": "2026-10-26T01:00:00Z",
-      "yesPrice": 0.745,
-      "outcomes": [
-        {
-          "id": "5801195-0",
-          "title": "Ashlyn Krueger",
-          "price": 0.745
-        },
-        {
-          "id": "5801195-1",
-          "title": "Janice Tjen",
-          "price": 0.255
-        }
-      ],
-      "volume": 51579.940461000006,
-      "liquidity": 279333.2534,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "703257",
-      "question": "Will the US confirm that aliens exist before 2027?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0455,
-      "outcomes": [
-        {
-          "id": "703257-0",
-          "title": "Yes",
-          "price": 0.0455
-        },
-        {
-          "id": "703257-1",
-          "title": "No",
-          "price": 0.9545
-        }
-      ],
-      "volume": 42177704.464678004,
-      "liquidity": 556999.66528,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "562802",
-      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.905,
-      "outcomes": [
-        {
-          "id": "562802-0",
-          "title": "Yes",
-          "price": 0.905
-        },
-        {
-          "id": "562802-1",
-          "title": "No",
-          "price": 0.095
-        }
-      ],
-      "volume": 10675794.285162004,
-      "liquidity": 3362009.4383,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5611879",
-      "question": "Will oil be below $85 on November 2 and the Republicans win the Senate?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.0325,
-      "outcomes": [
-        {
-          "id": "5611879-0",
-          "title": "Yes",
-          "price": 0.0325
-        },
-        {
-          "id": "5611879-1",
-          "title": "No",
-          "price": 0.9675
-        }
-      ],
-      "volume": 218571.947979,
-      "liquidity": 394541.92215,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "5732710",
-      "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 60 and 80 million views on week 1?",
-      "category": "General",
-      "endDate": "2026-10-23T03:59:00Z",
-      "yesPrice": 0.664,
-      "outcomes": [
-        {
-          "id": "5732710-0",
-          "title": "Yes",
-          "price": 0.664
-        },
-        {
-          "id": "5732710-1",
-          "title": "No",
-          "price": 0.336
-        }
-      ],
-      "volume": 105296.210876,
-      "liquidity": 8544.84174,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "1339767",
-      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "1339767-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "1339767-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 4452260.729555001,
-      "liquidity": 135743.4371,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "679022",
-      "question": "Will David Lisnard win the 2027 French presidential election?",
+      "id": "679018",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
       "category": "General",
       "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.1175,
+      "yesPrice": 0.4695,
       "outcomes": [
         {
-          "id": "679022-0",
+          "id": "679018-0",
           "title": "Yes",
-          "price": 0.1175
+          "price": 0.4695
         },
         {
-          "id": "679022-1",
+          "id": "679018-1",
           "title": "No",
-          "price": 0.8825
+          "price": 0.5305
         }
       ],
-      "volume": 5008857.030006999,
-      "liquidity": 318504.81025,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 4093234.3120799996,
+      "liquidity": 789695.64412,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5732709",
+      "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 40 and 60 million views on week 1?",
+      "category": "General",
+      "endDate": "2026-10-23T03:59:00Z",
+      "yesPrice": 0.605,
+      "outcomes": [
+        {
+          "id": "5732709-0",
+          "title": "Yes",
+          "price": 0.605
+        },
+        {
+          "id": "5732709-1",
+          "title": "No",
+          "price": 0.395
+        }
+      ],
+      "volume": 174109.164687,
+      "liquidity": 6549.9433,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5572739",
+      "question": "Will there be no Hormuz agreement?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.8255,
+      "outcomes": [
+        {
+          "id": "5572739-0",
+          "title": "Yes",
+          "price": 0.8255
+        },
+        {
+          "id": "5572739-1",
+          "title": "No",
+          "price": 0.1745
+        }
+      ],
+      "volume": 586750.29225,
+      "liquidity": 49395.20684,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
       "id": "5906208",
@@ -1096,230 +1140,208 @@
           "price": 0.335
         }
       ],
-      "volume": 50304.128348000006,
-      "liquidity": 94148.5882,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 68585.32934600001,
+      "liquidity": 147205.4819,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5409197",
-      "question": "Will AEK win on 2026-10-20?",
-      "category": "General",
-      "endDate": "2026-10-20T19:00:00Z",
-      "yesPrice": 0.0305,
-      "outcomes": [
-        {
-          "id": "5409197-0",
-          "title": "Yes",
-          "price": 0.0305
-        },
-        {
-          "id": "5409197-1",
-          "title": "No",
-          "price": 0.9695
-        }
-      ],
-      "volume": 57167.784798,
-      "liquidity": 164234.18764,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "634892",
-      "question": "Will the Republicans win the Nebraska Senate race in 2026?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.705,
-      "outcomes": [
-        {
-          "id": "634892-0",
-          "title": "Yes",
-          "price": 0.705
-        },
-        {
-          "id": "634892-1",
-          "title": "No",
-          "price": 0.295
-        }
-      ],
-      "volume": 381113.693177,
-      "liquidity": 306089.1772,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
-    },
-    {
-      "id": "1731346",
-      "question": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
+      "id": "608540",
+      "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.07,
+      "yesPrice": 0.0315,
       "outcomes": [
         {
-          "id": "1731346-0",
+          "id": "608540-0",
           "title": "Yes",
-          "price": 0.07
+          "price": 0.0315
         },
         {
-          "id": "1731346-1",
+          "id": "608540-1",
           "title": "No",
-          "price": 0.93
+          "price": 0.9685
         }
       ],
-      "volume": 2412223.028629,
-      "liquidity": 84959.6913,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 4231164.990860001,
+      "liquidity": 158586.86634,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "2413330",
-      "question": "Will Anthropic IPO by December 31, 2026?",
+      "id": "4319439",
+      "question": "Will Anthropic IPO by November 30, 2026?",
       "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.745,
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.635,
       "outcomes": [
         {
-          "id": "2413330-0",
+          "id": "4319439-0",
           "title": "Yes",
-          "price": 0.745
+          "price": 0.635
         },
         {
-          "id": "2413330-1",
+          "id": "4319439-1",
           "title": "No",
-          "price": 0.255
+          "price": 0.365
         }
       ],
-      "volume": 1263546.047912,
-      "liquidity": 42737.8477,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 390705.821025,
+      "liquidity": 13828.9254,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5340071",
-      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
+      "id": "5648278",
+      "question": "Cleveland Guardians vs. Tampa Bay Rays",
+      "category": "General",
+      "endDate": "2026-10-27T00:08:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "5648278-0",
+          "title": "Cleveland Guardians",
+          "price": 0.425
+        },
+        {
+          "id": "5648278-1",
+          "title": "Tampa Bay Rays",
+          "price": 0.575
+        }
+      ],
+      "volume": 62388.62916300001,
+      "liquidity": 575106.8587,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
+    },
+    {
+      "id": "5340070",
+      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
       "category": "General",
       "endDate": "2026-10-26T03:59:00Z",
-      "yesPrice": 0.39,
+      "yesPrice": 0.27,
       "outcomes": [
         {
-          "id": "5340071-0",
+          "id": "5340070-0",
           "title": "Yes",
-          "price": 0.39
+          "price": 0.27
         },
         {
-          "id": "5340071-1",
+          "id": "5340070-1",
           "title": "No",
-          "price": 0.61
+          "price": 0.73
         }
       ],
-      "volume": 388115.09370100003,
-      "liquidity": 132985.4391,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 429478.59697600006,
+      "liquidity": 93335.9777,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5742117",
-      "question": "Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",
+      "id": "5847927",
+      "question": "Paris curfew by October 21?",
       "category": "General",
-      "endDate": "2026-10-19T16:00:00Z",
-      "yesPrice": 0.58,
+      "endDate": "2026-10-22T03:59:00Z",
+      "yesPrice": 0.5725,
       "outcomes": [
         {
-          "id": "5742117-0",
+          "id": "5847927-0",
           "title": "Yes",
-          "price": 0.58
+          "price": 0.5725
         },
         {
-          "id": "5742117-1",
+          "id": "5847927-1",
           "title": "No",
-          "price": 0.42
+          "price": 0.4275
         }
       ],
-      "volume": 75469.35572200001,
-      "liquidity": 3889.322,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 67463.539977,
+      "liquidity": 38501.94186,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "679018",
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "id": "5611879",
+      "question": "Will oil be below $85 on November 2 and the Republicans win the Senate?",
       "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.4825,
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.036,
       "outcomes": [
         {
-          "id": "679018-0",
+          "id": "5611879-0",
           "title": "Yes",
-          "price": 0.4825
+          "price": 0.036
         },
         {
-          "id": "679018-1",
+          "id": "5611879-1",
           "title": "No",
-          "price": 0.5175
+          "price": 0.964
         }
       ],
-      "volume": 4056877.864502,
-      "liquidity": 633495.74692,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 230284.38090599998,
+      "liquidity": 235742.34458,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5409194",
-      "question": "Will Manchester City FC win on 2026-10-20?",
+      "id": "5568258",
+      "question": "Will there be a Hormuz agreement and the Democrats win the Senate?",
       "category": "General",
-      "endDate": "2026-10-20T19:00:00Z",
-      "yesPrice": 0.895,
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.087,
       "outcomes": [
         {
-          "id": "5409194-0",
+          "id": "5568258-0",
           "title": "Yes",
-          "price": 0.895
+          "price": 0.087
         },
         {
-          "id": "5409194-1",
+          "id": "5568258-1",
           "title": "No",
-          "price": 0.105
+          "price": 0.913
         }
       ],
-      "volume": 53770.24809999999,
-      "liquidity": 200503.3538,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 464893.61833900004,
+      "liquidity": 90869.58928,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "5889783",
-      "question": "Ningbo Open: Sorana Cirstea vs Han Shi",
+      "id": "3215007",
+      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
       "category": "General",
-      "endDate": "2026-10-26T05:30:00Z",
-      "yesPrice": 0.685,
+      "endDate": "2026-12-09T23:59:00Z",
+      "yesPrice": 0.215,
       "outcomes": [
         {
-          "id": "5889783-0",
-          "title": "Sorana Cirstea",
-          "price": 0.685
+          "id": "3215007-0",
+          "title": "Yes",
+          "price": 0.215
         },
         {
-          "id": "5889783-1",
-          "title": "Han Shi",
-          "price": 0.315
+          "id": "3215007-1",
+          "title": "No",
+          "price": 0.785
         }
       ],
-      "volume": 45790.696962999995,
-      "liquidity": 120139.6608,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 935445.189602,
+      "liquidity": 194525.5385,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     },
     {
-      "id": "2602762",
-      "question": "Will STRC hit $100 by December 31?",
+      "id": "2100984",
+      "question": "Will Yashar win the most seats in the 2026 Israeli legislative election?",
       "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.7355,
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.695,
       "outcomes": [
         {
-          "id": "2602762-0",
+          "id": "2100984-0",
           "title": "Yes",
-          "price": 0.7355
+          "price": 0.695
         },
         {
-          "id": "2602762-1",
+          "id": "2100984-1",
           "title": "No",
-          "price": 0.2645
+          "price": 0.305
         }
       ],
-      "volume": 454530.08522699995,
-      "liquidity": 6568.47276,
-      "lastUpdated": "2026-10-19T06:56:28.827Z"
+      "volume": 376182.4831090001,
+      "liquidity": 299681.0662,
+      "lastUpdated": "2026-10-19T14:34:18.346Z"
     }
   ],
-  "lastUpdated": "2026-10-19T06:56:37.327Z"
+  "lastUpdated": "2026-10-19T14:34:27.115Z"
 }
