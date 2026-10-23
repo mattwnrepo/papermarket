@@ -1,28 +1,6 @@
 {
   "markets": [
     {
-      "id": "5765055",
-      "question": "Cavaliers vs. 76ers",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "5765055-0",
-          "title": "Cavaliers",
-          "price": 0.585
-        },
-        {
-          "id": "5765055-1",
-          "title": "76ers",
-          "price": 0.415
-        }
-      ],
-      "volume": 5874906.168304,
-      "liquidity": 91318.3863,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
       "id": "2589812",
       "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
       "category": "General",
@@ -40,31 +18,53 @@
           "price": 0.065
         }
       ],
-      "volume": 16714398.202138003,
-      "liquidity": 1062091.3713,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 16728436.366942003,
+      "liquidity": 1186685.4244,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "4465810",
-      "question": "Patriots vs. Bears",
+      "id": "601826",
+      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
       "category": "General",
-      "endDate": "2026-10-23T00:15:00Z",
-      "yesPrice": 0.245,
+      "endDate": "2026-10-05T03:59:00Z",
+      "yesPrice": 0.7725,
       "outcomes": [
         {
-          "id": "4465810-0",
-          "title": "Patriots",
-          "price": 0.245
+          "id": "601826-0",
+          "title": "Yes",
+          "price": 0.7725
         },
         {
-          "id": "4465810-1",
-          "title": "Bears",
-          "price": 0.755
+          "id": "601826-1",
+          "title": "No",
+          "price": 0.2275
         }
       ],
-      "volume": 1226116.38579,
-      "liquidity": 629505.6187,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 25173238.166669995,
+      "liquidity": 587999.01263,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "682705",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.285,
+      "outcomes": [
+        {
+          "id": "682705-0",
+          "title": "Yes",
+          "price": 0.285
+        },
+        {
+          "id": "682705-1",
+          "title": "No",
+          "price": 0.715
+        }
+      ],
+      "volume": 10347870.364947002,
+      "liquidity": 534559.9685,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "2589813",
@@ -84,361 +84,9 @@
           "price": 0.945
         }
       ],
-      "volume": 12668599.558068002,
-      "liquidity": 1244179.6519,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "682705",
-      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-      "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.295,
-      "outcomes": [
-        {
-          "id": "682705-0",
-          "title": "Yes",
-          "price": 0.295
-        },
-        {
-          "id": "682705-1",
-          "title": "No",
-          "price": 0.705
-        }
-      ],
-      "volume": 10331854.875319002,
-      "liquidity": 596647.6549,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5377302",
-      "question": "Spread: Bears (-3.5)",
-      "category": "General",
-      "endDate": "2026-10-23T00:15:00Z",
-      "yesPrice": 0.645,
-      "outcomes": [
-        {
-          "id": "5377302-0",
-          "title": "Bears",
-          "price": 0.645
-        },
-        {
-          "id": "5377302-1",
-          "title": "Patriots",
-          "price": 0.355
-        }
-      ],
-      "volume": 621689.3444010001,
-      "liquidity": 69995.4401,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "601826",
-      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-05T03:59:00Z",
-      "yesPrice": 0.764,
-      "outcomes": [
-        {
-          "id": "601826-0",
-          "title": "Yes",
-          "price": 0.764
-        },
-        {
-          "id": "601826-1",
-          "title": "No",
-          "price": 0.236
-        }
-      ],
-      "volume": 25066296.304792996,
-      "liquidity": 536429.14282,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "562831",
-      "question": "2026 Balance of Power: R Senate, R House",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "562831-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "562831-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 10002299.252387004,
-      "liquidity": 3566969.9539,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5377299",
-      "question": "Spread: Bears (-2.5)",
-      "category": "General",
-      "endDate": "2026-10-23T00:15:00Z",
-      "yesPrice": 0.735,
-      "outcomes": [
-        {
-          "id": "5377299-0",
-          "title": "Bears",
-          "price": 0.735
-        },
-        {
-          "id": "5377299-1",
-          "title": "Patriots",
-          "price": 0.265
-        }
-      ],
-      "volume": 600981.0418619999,
-      "liquidity": 73422.4792,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5769220",
-      "question": "Nuggets vs. Thunder",
-      "category": "General",
-      "endDate": "2026-10-23T01:30:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "5769220-0",
-          "title": "Nuggets",
-          "price": 0.265
-        },
-        {
-          "id": "5769220-1",
-          "title": "Thunder",
-          "price": 0.735
-        }
-      ],
-      "volume": 540743.3455090001,
-      "liquidity": 3140325.3445,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5377525",
-      "question": "Patriots vs. Bears: O/U 50.5",
-      "category": "General",
-      "endDate": "2026-10-23T00:15:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "5377525-0",
-          "title": "Over",
-          "price": 0.475
-        },
-        {
-          "id": "5377525-1",
-          "title": "Under",
-          "price": 0.525
-        }
-      ],
-      "volume": 552375.26543,
-      "liquidity": 181373.1281,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5769221",
-      "question": "Spread: Thunder (-8.5)",
-      "category": "General",
-      "endDate": "2026-10-23T01:30:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "5769221-0",
-          "title": "Thunder",
-          "price": 0.475
-        },
-        {
-          "id": "5769221-1",
-          "title": "Nuggets",
-          "price": 0.525
-        }
-      ],
-      "volume": 528983.5848659999,
-      "liquidity": 734827.6929,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "562828",
-      "question": "2026 Balance of Power: D Senate, D House",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.685,
-      "outcomes": [
-        {
-          "id": "562828-0",
-          "title": "Yes",
-          "price": 0.685
-        },
-        {
-          "id": "562828-1",
-          "title": "No",
-          "price": 0.315
-        }
-      ],
-      "volume": 7222343.499942998,
-      "liquidity": 3803335.3886,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5765056",
-      "question": "Spread: 76ers (-2.5)",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.341,
-      "outcomes": [
-        {
-          "id": "5765056-0",
-          "title": "76ers",
-          "price": 0.341
-        },
-        {
-          "id": "5765056-1",
-          "title": "Cavaliers",
-          "price": 0.659
-        }
-      ],
-      "volume": 464728.32329499995,
-      "liquidity": 44324.42014,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "4950267",
-      "question": "Sharks vs. Senators",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.955,
-      "outcomes": [
-        {
-          "id": "4950267-0",
-          "title": "Sharks",
-          "price": 0.955
-        },
-        {
-          "id": "4950267-1",
-          "title": "Senators",
-          "price": 0.045
-        }
-      ],
-      "volume": 455694.59740400006,
-      "liquidity": 56654.4066,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "601819",
-      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-      "category": "General",
-      "endDate": "2026-10-05T03:59:00Z",
-      "yesPrice": 0.235,
-      "outcomes": [
-        {
-          "id": "601819-0",
-          "title": "Yes",
-          "price": 0.235
-        },
-        {
-          "id": "601819-1",
-          "title": "No",
-          "price": 0.765
-        }
-      ],
-      "volume": 28650132.189197,
-      "liquidity": 481170.2228,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "608540",
-      "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2026-10-27T03:59:00Z",
-      "yesPrice": 0.0705,
-      "outcomes": [
-        {
-          "id": "608540-0",
-          "title": "Yes",
-          "price": 0.0705
-        },
-        {
-          "id": "608540-1",
-          "title": "No",
-          "price": 0.9295
-        }
-      ],
-      "volume": 5353592.3767679995,
-      "liquidity": 120167.84243,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "4950272",
-      "question": "Ducks vs. Devils",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.055,
-      "outcomes": [
-        {
-          "id": "4950272-0",
-          "title": "Ducks",
-          "price": 0.055
-        },
-        {
-          "id": "4950272-1",
-          "title": "Devils",
-          "price": 0.945
-        }
-      ],
-      "volume": 384320.219848,
-      "liquidity": 35148.1424,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5765067",
-      "question": "Spread: 76ers (-3.5)",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.2805,
-      "outcomes": [
-        {
-          "id": "5765067-0",
-          "title": "76ers",
-          "price": 0.2805
-        },
-        {
-          "id": "5765067-1",
-          "title": "Cavaliers",
-          "price": 0.7195
-        }
-      ],
-      "volume": 376830.52286900004,
-      "liquidity": 46121.12755,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "3120760",
-      "question": "NATO x Russia military clash by October 31, 2026?",
-      "category": "General",
-      "endDate": "2026-11-01T03:59:00Z",
-      "yesPrice": 0.165,
-      "outcomes": [
-        {
-          "id": "3120760-0",
-          "title": "Yes",
-          "price": 0.165
-        },
-        {
-          "id": "3120760-1",
-          "title": "No",
-          "price": 0.835
-        }
-      ],
-      "volume": 2633580.3843759997,
-      "liquidity": 150669.1096,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 12671342.100690002,
+      "liquidity": 1306069.7019,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "562802",
@@ -458,53 +106,141 @@
           "price": 0.075
         }
       ],
-      "volume": 11794781.153671002,
-      "liquidity": 4391509.3962,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 12022729.223450001,
+      "liquidity": 4299405.2103,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "562828",
+      "question": "2026 Balance of Power: D Senate, D House",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.685,
+      "outcomes": [
+        {
+          "id": "562828-0",
+          "title": "Yes",
+          "price": 0.685
+        },
+        {
+          "id": "562828-1",
+          "title": "No",
+          "price": 0.315
+        }
+      ],
+      "volume": 7233577.0755469985,
+      "liquidity": 3801308.6869,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "608540",
+      "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "category": "General",
+      "endDate": "2026-10-27T03:59:00Z",
+      "yesPrice": 0.0635,
+      "outcomes": [
+        {
+          "id": "608540-0",
+          "title": "Yes",
+          "price": 0.0635
+        },
+        {
+          "id": "608540-1",
+          "title": "No",
+          "price": 0.9365
+        }
+      ],
+      "volume": 5402031.726171999,
+      "liquidity": 136882.38358,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "601819",
+      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "category": "General",
+      "endDate": "2026-10-05T03:59:00Z",
+      "yesPrice": 0.225,
+      "outcomes": [
+        {
+          "id": "601819-0",
+          "title": "Yes",
+          "price": 0.225
+        },
+        {
+          "id": "601819-1",
+          "title": "No",
+          "price": 0.775
+        }
+      ],
+      "volume": 28701629.010623,
+      "liquidity": 635107.8937,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "3120760",
+      "question": "NATO x Russia military clash by October 31, 2026?",
+      "category": "General",
+      "endDate": "2026-11-01T03:59:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "3120760-0",
+          "title": "Yes",
+          "price": 0.175
+        },
+        {
+          "id": "3120760-1",
+          "title": "No",
+          "price": 0.825
+        }
+      ],
+      "volume": 2643209.187296999,
+      "liquidity": 147702.0258,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "608547",
       "question": "Will Harry Kane win the 2026 Ballon d'Or?",
       "category": "General",
       "endDate": "2026-10-27T03:59:00Z",
-      "yesPrice": 0.7525,
+      "yesPrice": 0.7645,
       "outcomes": [
         {
           "id": "608547-0",
           "title": "Yes",
-          "price": 0.7525
+          "price": 0.7645
         },
         {
           "id": "608547-1",
           "title": "No",
-          "price": 0.2475
+          "price": 0.2355
         }
       ],
-      "volume": 6650966.557967,
-      "liquidity": 150989.47408,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 6811774.382433,
+      "liquidity": 222471.32626,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "5686977",
       "question": "US x Iran ceasefire continues through October 24?",
       "category": "General",
       "endDate": "2026-10-25T03:59:00Z",
-      "yesPrice": 0.915,
+      "yesPrice": 0.925,
       "outcomes": [
         {
           "id": "5686977-0",
           "title": "Yes",
-          "price": 0.915
+          "price": 0.925
         },
         {
           "id": "5686977-1",
           "title": "No",
-          "price": 0.085
+          "price": 0.075
         }
       ],
-      "volume": 810427.893821,
-      "liquidity": 59928.7348,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 835446.224485,
+      "liquidity": 60402.1445,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "1163699",
@@ -524,97 +260,9 @@
           "price": 0.9545
         }
       ],
-      "volume": 24401142.07805199,
-      "liquidity": 441928.69925,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "608545",
-      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
-      "category": "General",
-      "endDate": "2026-10-27T03:59:00Z",
-      "yesPrice": 0.1415,
-      "outcomes": [
-        {
-          "id": "608545-0",
-          "title": "Yes",
-          "price": 0.1415
-        },
-        {
-          "id": "608545-1",
-          "title": "No",
-          "price": 0.8585
-        }
-      ],
-      "volume": 5250143.340836001,
-      "liquidity": 198269.71338,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "1339767",
-      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "1339767-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "1339767-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 5029562.23767,
-      "liquidity": 172025.4301,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "629040",
-      "question": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
-      "category": "General",
-      "endDate": "2026-06-03T03:59:00Z",
-      "yesPrice": 0.5225,
-      "outcomes": [
-        {
-          "id": "629040-0",
-          "title": "Yes",
-          "price": 0.5225
-        },
-        {
-          "id": "629040-1",
-          "title": "No",
-          "price": 0.4775
-        }
-      ],
-      "volume": 3073013.1596710007,
-      "liquidity": 181019.89035,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "4950287",
-      "question": "Golden Knights vs. Blues",
-      "category": "General",
-      "endDate": "2026-10-23T00:00:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "4950287-0",
-          "title": "Golden Knights",
-          "price": 0.215
-        },
-        {
-          "id": "4950287-1",
-          "title": "Blues",
-          "price": 0.785
-        }
-      ],
-      "volume": 244598.844904,
-      "liquidity": 61736.0767,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 24401495.912655994,
+      "liquidity": 292994.46059,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "562803",
@@ -634,141 +282,119 @@
           "price": 0.925
         }
       ],
-      "volume": 8500662.694637002,
-      "liquidity": 3034001.1493,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 8542240.996591002,
+      "liquidity": 3013155.1089,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "630964",
-      "question": "Will the Republicans win the Texas Senate race in 2026?",
+      "id": "629040",
+      "question": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+      "category": "General",
+      "endDate": "2026-06-03T03:59:00Z",
+      "yesPrice": 0.5105,
+      "outcomes": [
+        {
+          "id": "629040-0",
+          "title": "Yes",
+          "price": 0.5105
+        },
+        {
+          "id": "629040-1",
+          "title": "No",
+          "price": 0.4895
+        }
+      ],
+      "volume": 3079204.5513140005,
+      "liquidity": 167366.36459,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "562831",
+      "question": "2026 Balance of Power: R Senate, R House",
       "category": "General",
       "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.325,
+      "yesPrice": 0.075,
       "outcomes": [
         {
-          "id": "630964-0",
+          "id": "562831-0",
           "title": "Yes",
-          "price": 0.325
+          "price": 0.075
         },
         {
-          "id": "630964-1",
+          "id": "562831-1",
           "title": "No",
-          "price": 0.675
+          "price": 0.925
         }
       ],
-      "volume": 3259087.3747830004,
-      "liquidity": 511821.1312,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 10006054.645721003,
+      "liquidity": 3551943.1107,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5996251",
-      "question": "Cavaliers vs. 76ers: O/U 232.5",
+      "id": "6015460",
+      "question": "Ningbo Open: Sara Bejlek vs Marie Bouzkova",
       "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.71,
+      "endDate": "2026-10-30T02:00:00Z",
+      "yesPrice": 0.175,
       "outcomes": [
         {
-          "id": "5996251-0",
-          "title": "Over",
-          "price": 0.71
+          "id": "6015460-0",
+          "title": "Sara Bejlek",
+          "price": 0.175
         },
         {
-          "id": "5996251-1",
-          "title": "Under",
-          "price": 0.29
+          "id": "6015460-1",
+          "title": "Marie Bouzkova",
+          "price": 0.825
         }
       ],
-      "volume": 219709.06910700002,
-      "liquidity": 38585.9526,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5493853",
-      "question": "CR Flamengo vs. Estudiantes de La Plata: O/U 2.5",
-      "category": "General",
-      "endDate": "2026-10-23T00:30:00Z",
-      "yesPrice": 0.25,
-      "outcomes": [
-        {
-          "id": "5493853-0",
-          "title": "Over",
-          "price": 0.25
-        },
-        {
-          "id": "5493853-1",
-          "title": "Under",
-          "price": 0.75
-        }
-      ],
-      "volume": 210910.26738200005,
-      "liquidity": 27772.0186,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "5996252",
-      "question": "Cavaliers vs. 76ers: O/U 237.5",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.53,
-      "outcomes": [
-        {
-          "id": "5996252-0",
-          "title": "Over",
-          "price": 0.53
-        },
-        {
-          "id": "5996252-1",
-          "title": "Under",
-          "price": 0.47
-        }
-      ],
-      "volume": 203867.507815,
-      "liquidity": 51620.0467,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
-    },
-    {
-      "id": "4641065",
-      "question": "US x Iran ceasefire continues through October 31?",
-      "category": "General",
-      "endDate": "2026-10-31T23:59:00Z",
-      "yesPrice": 0.775,
-      "outcomes": [
-        {
-          "id": "4641065-0",
-          "title": "Yes",
-          "price": 0.775
-        },
-        {
-          "id": "4641065-1",
-          "title": "No",
-          "price": 0.225
-        }
-      ],
-      "volume": 5485586.304416,
-      "liquidity": 249436.3354,
-      "lastUpdated": "2026-10-23T00:59:42.215Z"
+      "volume": 189306.75567599997,
+      "liquidity": 267902.9291,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "4824600",
       "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
       "category": "General",
       "endDate": "2026-10-25T23:59:00Z",
-      "yesPrice": 0.685,
+      "yesPrice": 0.71,
       "outcomes": [
         {
           "id": "4824600-0",
           "title": "Yes",
-          "price": 0.685
+          "price": 0.71
         },
         {
           "id": "4824600-1",
           "title": "No",
-          "price": 0.315
+          "price": 0.29
         }
       ],
-      "volume": 1267037.9733570002,
-      "liquidity": 339592.5321,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 1278416.3895200002,
+      "liquidity": 346345.6768,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5792075",
+      "question": "Raptors vs. Wizards",
+      "category": "General",
+      "endDate": "2026-10-23T23:00:00Z",
+      "yesPrice": 0.695,
+      "outcomes": [
+        {
+          "id": "5792075-0",
+          "title": "Raptors",
+          "price": 0.695
+        },
+        {
+          "id": "5792075-1",
+          "title": "Wizards",
+          "price": 0.305
+        }
+      ],
+      "volume": 210403.16992299998,
+      "liquidity": 151970.7878,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "5593894",
@@ -788,53 +414,53 @@
           "price": 0.545
         }
       ],
-      "volume": 212827.01823000005,
-      "liquidity": 84979.2518,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 214717.827724,
+      "liquidity": 100657.9223,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "4950282",
-      "question": "Kings vs. Islanders",
+      "id": "608545",
+      "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
       "category": "General",
-      "endDate": "2026-10-22T23:30:00Z",
-      "yesPrice": 0.855,
+      "endDate": "2026-10-27T03:59:00Z",
+      "yesPrice": 0.1585,
       "outcomes": [
         {
-          "id": "4950282-0",
-          "title": "Kings",
-          "price": 0.855
+          "id": "608545-0",
+          "title": "Yes",
+          "price": 0.1585
         },
         {
-          "id": "4950282-1",
-          "title": "Islanders",
-          "price": 0.145
+          "id": "608545-1",
+          "title": "No",
+          "price": 0.8415
         }
       ],
-      "volume": 200355.86330499998,
-      "liquidity": 32785.3689,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 5273724.609511,
+      "liquidity": 176082.95469,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "4950312",
-      "question": "Red Wings vs. Canucks",
+      "id": "4641065",
+      "question": "US x Iran ceasefire continues through October 31?",
       "category": "General",
-      "endDate": "2026-10-23T02:00:00Z",
-      "yesPrice": 0.615,
+      "endDate": "2026-10-31T23:59:00Z",
+      "yesPrice": 0.775,
       "outcomes": [
         {
-          "id": "4950312-0",
-          "title": "Red Wings",
-          "price": 0.615
+          "id": "4641065-0",
+          "title": "Yes",
+          "price": 0.775
         },
         {
-          "id": "4950312-1",
-          "title": "Canucks",
-          "price": 0.385
+          "id": "4641065-1",
+          "title": "No",
+          "price": 0.225
         }
       ],
-      "volume": 187494.63588200003,
-      "liquidity": 303725.4157,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 5503370.526358,
+      "liquidity": 244386.1641,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "5593903",
@@ -854,75 +480,9 @@
           "price": 0.695
         }
       ],
-      "volume": 217388.258093,
-      "liquidity": 92141.4217,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5614814",
-      "question": "East Carolina vs. Memphis",
-      "category": "General",
-      "endDate": "2026-10-22T23:30:00Z",
-      "yesPrice": 0.465,
-      "outcomes": [
-        {
-          "id": "5614814-0",
-          "title": "East Carolina",
-          "price": 0.465
-        },
-        {
-          "id": "5614814-1",
-          "title": "Memphis",
-          "price": 0.535
-        }
-      ],
-      "volume": 176832.649064,
-      "liquidity": 145740.7374,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "6003908",
-      "question": "Cali: Miguel Tobon vs Nicolas Mejia",
-      "category": "General",
-      "endDate": "2026-10-29T12:00:00Z",
-      "yesPrice": 0.505,
-      "outcomes": [
-        {
-          "id": "6003908-0",
-          "title": "Miguel Tobon",
-          "price": 0.505
-        },
-        {
-          "id": "6003908-1",
-          "title": "Nicolas Mejia",
-          "price": 0.495
-        }
-      ],
-      "volume": 158446.53803800003,
-      "liquidity": 81507.9498,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5765057",
-      "question": "Cavaliers vs. 76ers: O/U 236.5",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.58,
-      "outcomes": [
-        {
-          "id": "5765057-0",
-          "title": "Over",
-          "price": 0.58
-        },
-        {
-          "id": "5765057-1",
-          "title": "Under",
-          "price": 0.42
-        }
-      ],
-      "volume": 176179.727907,
-      "liquidity": 41587.4305,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 217439.846342,
+      "liquidity": 116401.6945,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "562830",
@@ -942,31 +502,31 @@
           "price": 0.765
         }
       ],
-      "volume": 4949151.420669997,
-      "liquidity": 2314890.7859,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 4952515.296038998,
+      "liquidity": 2337195.3037,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5996263",
-      "question": "Spread: Thunder (-9.5)",
+      "id": "2757891",
+      "question": "Will Aleksandar Vučić be the next Prime Minister of Serbia?",
       "category": "General",
-      "endDate": "2026-10-23T01:30:00Z",
-      "yesPrice": 0.445,
+      "endDate": "2026-10-25T23:59:00Z",
+      "yesPrice": 0.717,
       "outcomes": [
         {
-          "id": "5996263-0",
-          "title": "Thunder",
-          "price": 0.445
+          "id": "2757891-0",
+          "title": "Yes",
+          "price": 0.717
         },
         {
-          "id": "5996263-1",
-          "title": "Nuggets",
-          "price": 0.555
+          "id": "2757891-1",
+          "title": "No",
+          "price": 0.283
         }
       ],
-      "volume": 170590.581066,
-      "liquidity": 641227.7743,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 1255483.2229959995,
+      "liquidity": 186653.34547,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "562793",
@@ -986,75 +546,31 @@
           "price": 0.315
         }
       ],
-      "volume": 4514038.539151999,
-      "liquidity": 1526815.0628,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "2757891",
-      "question": "Will Aleksandar Vučić be the next Prime Minister of Serbia?",
-      "category": "General",
-      "endDate": "2026-10-25T23:59:00Z",
-      "yesPrice": 0.703,
-      "outcomes": [
-        {
-          "id": "2757891-0",
-          "title": "Yes",
-          "price": 0.703
-        },
-        {
-          "id": "2757891-1",
-          "title": "No",
-          "price": 0.297
-        }
-      ],
-      "volume": 1253766.2940259995,
-      "liquidity": 182885.98526,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 4523672.605062999,
+      "liquidity": 1877487.3606,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "666861",
       "question": "Trump out as President before 2027?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0375,
+      "yesPrice": 0.0385,
       "outcomes": [
         {
           "id": "666861-0",
           "title": "Yes",
-          "price": 0.0375
+          "price": 0.0385
         },
         {
           "id": "666861-1",
           "title": "No",
-          "price": 0.9625
+          "price": 0.9615
         }
       ],
-      "volume": 13040057.253299,
-      "liquidity": 353454.60195,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "4950297",
-      "question": "Hurricanes vs. Oilers",
-      "category": "General",
-      "endDate": "2026-10-23T01:00:00Z",
-      "yesPrice": 0.555,
-      "outcomes": [
-        {
-          "id": "4950297-0",
-          "title": "Hurricanes",
-          "price": 0.555
-        },
-        {
-          "id": "4950297-1",
-          "title": "Oilers",
-          "price": 0.445
-        }
-      ],
-      "volume": 159865.47782,
-      "liquidity": 277622.2859,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 13041103.833299002,
+      "liquidity": 345742.96033,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "5126779",
@@ -1074,31 +590,31 @@
           "price": 0.855
         }
       ],
-      "volume": 4954113.460282,
-      "liquidity": 477556.1544,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 4954116.062608,
+      "liquidity": 484623.7136,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5769222",
-      "question": "Nuggets vs. Thunder: O/U 236.5",
+      "id": "3580932",
+      "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
       "category": "General",
-      "endDate": "2026-10-23T01:30:00Z",
-      "yesPrice": 0.495,
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.64,
       "outcomes": [
         {
-          "id": "5769222-0",
-          "title": "Over",
-          "price": 0.495
+          "id": "3580932-0",
+          "title": "Yes",
+          "price": 0.64
         },
         {
-          "id": "5769222-1",
-          "title": "Under",
-          "price": 0.505
+          "id": "3580932-1",
+          "title": "No",
+          "price": 0.36
         }
       ],
-      "volume": 145658.570313,
-      "liquidity": 261513.6105,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 784990.830654,
+      "liquidity": 107315.3025,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "665374",
@@ -1118,405 +634,229 @@
           "price": 0.835
         }
       ],
-      "volume": 75044870.413339,
-      "liquidity": 329717.608,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 75049089.22686999,
+      "liquidity": 345543.5524,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5614453",
-      "question": "Spread: Liberty (-8.5)",
+      "id": "5792081",
+      "question": "Bulls vs. Bucks",
       "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.835,
+      "endDate": "2026-10-23T20:00:00Z",
+      "yesPrice": 0.495,
       "outcomes": [
         {
-          "id": "5614453-0",
-          "title": "Liberty",
-          "price": 0.835
+          "id": "5792081-0",
+          "title": "Bulls",
+          "price": 0.495
         },
         {
-          "id": "5614453-1",
-          "title": "Kennesaw State",
-          "price": 0.165
+          "id": "5792081-1",
+          "title": "Bucks",
+          "price": 0.505
         }
       ],
-      "volume": 134468.287035,
-      "liquidity": 54366.5521,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "3580932",
-      "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
-      "category": "General",
-      "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.625,
-      "outcomes": [
-        {
-          "id": "3580932-0",
-          "title": "Yes",
-          "price": 0.625
-        },
-        {
-          "id": "3580932-1",
-          "title": "No",
-          "price": 0.375
-        }
-      ],
-      "volume": 778830.4123330001,
-      "liquidity": 113257.7463,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5493839",
-      "question": "Spread: CR Flamengo (-1.5)",
-      "category": "General",
-      "endDate": "2026-10-23T00:30:00Z",
-      "yesPrice": 0.26,
-      "outcomes": [
-        {
-          "id": "5493839-0",
-          "title": "CR Flamengo",
-          "price": 0.26
-        },
-        {
-          "id": "5493839-1",
-          "title": "Estudiantes de La Plata",
-          "price": 0.74
-        }
-      ],
-      "volume": 128442.83804000005,
-      "liquidity": 19571.4429,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5769241",
-      "question": "Spread: Thunder (-7.5)",
-      "category": "General",
-      "endDate": "2026-10-23T01:30:00Z",
-      "yesPrice": 0.525,
-      "outcomes": [
-        {
-          "id": "5769241-0",
-          "title": "Thunder",
-          "price": 0.525
-        },
-        {
-          "id": "5769241-1",
-          "title": "Nuggets",
-          "price": 0.475
-        }
-      ],
-      "volume": 126680.054561,
-      "liquidity": 759167.8827,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "630963",
-      "question": "Will the Democrats win the Texas Senate race in 2026?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.67,
-      "outcomes": [
-        {
-          "id": "630963-0",
-          "title": "Yes",
-          "price": 0.67
-        },
-        {
-          "id": "630963-1",
-          "title": "No",
-          "price": 0.33
-        }
-      ],
-      "volume": 2321144.761441,
-      "liquidity": 432727.9762,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "6005229",
-      "question": "M25 Tamworth: Sam Ryan Ziegann vs Enzo Aguiard",
-      "category": "General",
-      "endDate": "2026-10-29T00:00:00Z",
-      "yesPrice": 0.2955,
-      "outcomes": [
-        {
-          "id": "6005229-0",
-          "title": "Sam Ryan Ziegann",
-          "price": 0.2955
-        },
-        {
-          "id": "6005229-1",
-          "title": "Enzo Aguiard",
-          "price": 0.7045
-        }
-      ],
-      "volume": 122220.03777800001,
-      "liquidity": 154.24922,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "630706",
-      "question": "Will the Republicans win the Idaho Senate race in 2026?",
-      "category": "General",
-      "endDate": "2026-11-04T04:59:00Z",
-      "yesPrice": 0.9665,
-      "outcomes": [
-        {
-          "id": "630706-0",
-          "title": "Yes",
-          "price": 0.9665
-        },
-        {
-          "id": "630706-1",
-          "title": "No",
-          "price": 0.0335
-        }
-      ],
-      "volume": 243946.24230699998,
-      "liquidity": 103134.71992,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5329576",
-      "question": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amapá?",
-      "category": "General",
-      "endDate": "2026-10-26T03:59:00Z",
-      "yesPrice": 0.7,
-      "outcomes": [
-        {
-          "id": "5329576-0",
-          "title": "Yes",
-          "price": 0.7
-        },
-        {
-          "id": "5329576-1",
-          "title": "No",
-          "price": 0.3
-        }
-      ],
-      "volume": 432720.781505,
-      "liquidity": 125411.5453,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5614839",
-      "question": "Spread: Memphis (-10.5)",
-      "category": "General",
-      "endDate": "2026-10-22T23:30:00Z",
-      "yesPrice": 0.16,
-      "outcomes": [
-        {
-          "id": "5614839-0",
-          "title": "Memphis",
-          "price": 0.16
-        },
-        {
-          "id": "5614839-1",
-          "title": "East Carolina",
-          "price": 0.84
-        }
-      ],
-      "volume": 119109.41372,
-      "liquidity": 46659.4409,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "3399459",
-      "question": "Israel x Iran ceasefire continues through October 31?",
-      "category": "General",
-      "endDate": "2026-10-31T20:29:00Z",
-      "yesPrice": 0.83,
-      "outcomes": [
-        {
-          "id": "3399459-0",
-          "title": "Yes",
-          "price": 0.83
-        },
-        {
-          "id": "3399459-1",
-          "title": "No",
-          "price": 0.17
-        }
-      ],
-      "volume": 2961093.598588,
-      "liquidity": 53182.4118,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "679018",
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
-      "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.4625,
-      "outcomes": [
-        {
-          "id": "679018-0",
-          "title": "Yes",
-          "price": 0.4625
-        },
-        {
-          "id": "679018-1",
-          "title": "No",
-          "price": 0.5375
-        }
-      ],
-      "volume": 4327043.816324001,
-      "liquidity": 932239.81023,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5614642",
-      "question": "James Madison vs. Appalachian State",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.795,
-      "outcomes": [
-        {
-          "id": "5614642-0",
-          "title": "James Madison",
-          "price": 0.795
-        },
-        {
-          "id": "5614642-1",
-          "title": "Appalachian State",
-          "price": 0.205
-        }
-      ],
-      "volume": 109795.338655,
-      "liquidity": 91095.1346,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "4950292",
-      "question": "Jets vs. Stars",
-      "category": "General",
-      "endDate": "2026-10-23T00:00:00Z",
-      "yesPrice": 0.375,
-      "outcomes": [
-        {
-          "id": "4950292-0",
-          "title": "Jets",
-          "price": 0.375
-        },
-        {
-          "id": "4950292-1",
-          "title": "Stars",
-          "price": 0.625
-        }
-      ],
-      "volume": 112030.829205,
-      "liquidity": 42192.8333,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
-    },
-    {
-      "id": "5910788",
-      "question": "Cavaliers vs. 76ers: O/U 235.5",
-      "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "5910788-0",
-          "title": "Over",
-          "price": 0.595
-        },
-        {
-          "id": "5910788-1",
-          "title": "Under",
-          "price": 0.405
-        }
-      ],
-      "volume": 105102.95625,
-      "liquidity": 50182.9914,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 131970.603083,
+      "liquidity": 147979.4083,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "3741671",
       "question": "Will Russia and Ukraine hold any diplomatic meeting by October 31, 2026?",
       "category": "General",
       "endDate": "2026-11-01T03:59:00Z",
-      "yesPrice": 0.655,
+      "yesPrice": 0.57,
       "outcomes": [
         {
           "id": "3741671-0",
           "title": "Yes",
-          "price": 0.655
+          "price": 0.57
         },
         {
           "id": "3741671-1",
           "title": "No",
-          "price": 0.345
+          "price": 0.43
         }
       ],
-      "volume": 290723.788806,
-      "liquidity": 55938.8663,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 317412.773663,
+      "liquidity": 58433.2721,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5377523",
-      "question": "Patriots vs. Bears: O/U 46.5",
+      "id": "6017250",
+      "question": "Guangzhou 2: Yi Zhou vs Andre Ilagan",
       "category": "General",
-      "endDate": "2026-10-23T00:15:00Z",
-      "yesPrice": 0.595,
+      "endDate": "2026-10-30T02:00:00Z",
+      "yesPrice": 0.825,
       "outcomes": [
         {
-          "id": "5377523-0",
-          "title": "Over",
-          "price": 0.595
+          "id": "6017250-0",
+          "title": "Yi Zhou",
+          "price": 0.825
         },
         {
-          "id": "5377523-1",
-          "title": "Under",
-          "price": 0.405
+          "id": "6017250-1",
+          "title": "Andre Ilagan",
+          "price": 0.175
         }
       ],
-      "volume": 35357.473028,
-      "liquidity": 83291.1077,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 10517.303160000001,
+      "liquidity": 209888.8573,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "3399459",
+      "question": "Israel x Iran ceasefire continues through October 31?",
+      "category": "General",
+      "endDate": "2026-10-31T20:29:00Z",
+      "yesPrice": 0.845,
+      "outcomes": [
+        {
+          "id": "3399459-0",
+          "title": "Yes",
+          "price": 0.845
+        },
+        {
+          "id": "3399459-1",
+          "title": "No",
+          "price": 0.155
+        }
+      ],
+      "volume": 2973534.1097000004,
+      "liquidity": 61523.1749,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "630706",
+      "question": "Will the Republicans win the Idaho Senate race in 2026?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.966,
+      "outcomes": [
+        {
+          "id": "630706-0",
+          "title": "Yes",
+          "price": 0.966
+        },
+        {
+          "id": "630706-1",
+          "title": "No",
+          "price": 0.034
+        }
+      ],
+      "volume": 244054.53435899998,
+      "liquidity": 116639.29737,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "679018",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.4635,
+      "outcomes": [
+        {
+          "id": "679018-0",
+          "title": "Yes",
+          "price": 0.4635
+        },
+        {
+          "id": "679018-1",
+          "title": "No",
+          "price": 0.5365
+        }
+      ],
+      "volume": 4327506.997279001,
+      "liquidity": 943827.79457,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5329576",
+      "question": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amapá?",
+      "category": "General",
+      "endDate": "2026-10-26T03:59:00Z",
+      "yesPrice": 0.675,
+      "outcomes": [
+        {
+          "id": "5329576-0",
+          "title": "Yes",
+          "price": 0.675
+        },
+        {
+          "id": "5329576-1",
+          "title": "No",
+          "price": 0.325
+        }
+      ],
+      "volume": 453806.0984990001,
+      "liquidity": 87675.3031,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "1090496",
       "question": "NATO x Russia military clash by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.345,
+      "yesPrice": 0.35,
       "outcomes": [
         {
           "id": "1090496-0",
           "title": "Yes",
-          "price": 0.345
+          "price": 0.35
         },
         {
           "id": "1090496-1",
           "title": "No",
-          "price": 0.655
+          "price": 0.65
         }
       ],
-      "volume": 3117308.147976,
-      "liquidity": 94936.3164,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 3124859.38461,
+      "liquidity": 108336.4232,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5996250",
-      "question": "Cavaliers vs. 76ers: O/U 227.5",
+      "id": "562794",
+      "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
       "category": "General",
-      "endDate": "2026-10-22T23:00:00Z",
-      "yesPrice": 0.85,
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.315,
       "outcomes": [
         {
-          "id": "5996250-0",
-          "title": "Over",
-          "price": 0.85
+          "id": "562794-0",
+          "title": "Yes",
+          "price": 0.315
         },
         {
-          "id": "5996250-1",
-          "title": "Under",
-          "price": 0.15
+          "id": "562794-1",
+          "title": "No",
+          "price": 0.685
         }
       ],
-      "volume": 97731.82877600001,
-      "liquidity": 44228.4107,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 3432131.4794960003,
+      "liquidity": 3103313.6084,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5969232",
+      "question": "Tampa Bay Rays vs. Milwaukee Brewers",
+      "category": "General",
+      "endDate": "2026-10-31T00:00:00Z",
+      "yesPrice": 0.375,
+      "outcomes": [
+        {
+          "id": "5969232-0",
+          "title": "Tampa Bay Rays",
+          "price": 0.375
+        },
+        {
+          "id": "5969232-1",
+          "title": "Milwaukee Brewers",
+          "price": 0.625
+        }
+      ],
+      "volume": 111972.05540900001,
+      "liquidity": 679635.2168,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
       "id": "4620900",
@@ -1536,32 +876,582 @@
           "price": 0.235
         }
       ],
-      "volume": 992671.327201,
-      "liquidity": 264671.6564,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 995100.6740819999,
+      "liquidity": 282742.1564,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     },
     {
-      "id": "5969232",
-      "question": "Tampa Bay Rays vs. Milwaukee Brewers",
+      "id": "2757900",
+      "question": "Will Ilija Srdanović be the next prime minister of Serbia?",
       "category": "General",
-      "endDate": "2026-10-31T00:00:00Z",
-      "yesPrice": 0.365,
+      "endDate": "2026-10-25T23:59:00Z",
+      "yesPrice": 0.135,
       "outcomes": [
         {
-          "id": "5969232-0",
-          "title": "Tampa Bay Rays",
-          "price": 0.365
+          "id": "2757900-0",
+          "title": "Yes",
+          "price": 0.135
         },
         {
-          "id": "5969232-1",
-          "title": "Milwaukee Brewers",
-          "price": 0.635
+          "id": "2757900-1",
+          "title": "No",
+          "price": 0.865
         }
       ],
-      "volume": 106530.77915599999,
-      "liquidity": 754296.1639,
-      "lastUpdated": "2026-10-23T00:59:42.216Z"
+      "volume": 297170.615669,
+      "liquidity": 218577.2725,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5340070",
+      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
+      "category": "General",
+      "endDate": "2026-10-26T03:59:00Z",
+      "yesPrice": 0.28,
+      "outcomes": [
+        {
+          "id": "5340070-0",
+          "title": "Yes",
+          "price": 0.28
+        },
+        {
+          "id": "5340070-1",
+          "title": "No",
+          "price": 0.72
+        }
+      ],
+      "volume": 816120.5052459999,
+      "liquidity": 91350.0085,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "3215008",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-12-09T23:59:00Z",
+      "yesPrice": 0.715,
+      "outcomes": [
+        {
+          "id": "3215008-0",
+          "title": "Yes",
+          "price": 0.715
+        },
+        {
+          "id": "3215008-1",
+          "title": "No",
+          "price": 0.285
+        }
+      ],
+      "volume": 1060337.6561079996,
+      "liquidity": 173503.9275,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "630964",
+      "question": "Will the Republicans win the Texas Senate race in 2026?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "630964-0",
+          "title": "Yes",
+          "price": 0.335
+        },
+        {
+          "id": "630964-1",
+          "title": "No",
+          "price": 0.665
+        }
+      ],
+      "volume": 3305915.9907550006,
+      "liquidity": 509218.5501,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "630805",
+      "question": "Will the Democrats win the Michigan Senate race in 2026?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.715,
+      "outcomes": [
+        {
+          "id": "630805-0",
+          "title": "Yes",
+          "price": 0.715
+        },
+        {
+          "id": "630805-1",
+          "title": "No",
+          "price": 0.285
+        }
+      ],
+      "volume": 1254823.9376120002,
+      "liquidity": 267091.07,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5191218",
+      "question": "Will Jared Kushner attend a US x Iran diplomatic meeting by December 31, 2026?",
+      "category": "General",
+      "endDate": "2026-12-31T23:59:00Z",
+      "yesPrice": 0.35,
+      "outcomes": [
+        {
+          "id": "5191218-0",
+          "title": "Yes",
+          "price": 0.35
+        },
+        {
+          "id": "5191218-1",
+          "title": "No",
+          "price": 0.65
+        }
+      ],
+      "volume": 98583.0864,
+      "liquidity": 36731.1271,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5776852",
+      "question": "Will the price of Bitcoin be above $84,000 on October 23?",
+      "category": "General",
+      "endDate": "2026-10-23T16:00:00Z",
+      "yesPrice": 0.0395,
+      "outcomes": [
+        {
+          "id": "5776852-0",
+          "title": "Yes",
+          "price": 0.0395
+        },
+        {
+          "id": "5776852-1",
+          "title": "No",
+          "price": 0.9605
+        }
+      ],
+      "volume": 95832.03247499999,
+      "liquidity": 42759.6355,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5340072",
+      "question": "Will Luiz Inácio Lula da Silva win the second round of the 2026 Brazilian presidential election by less than 4%?",
+      "category": "General",
+      "endDate": "2026-10-26T03:59:00Z",
+      "yesPrice": 0.205,
+      "outcomes": [
+        {
+          "id": "5340072-0",
+          "title": "Yes",
+          "price": 0.205
+        },
+        {
+          "id": "5340072-1",
+          "title": "No",
+          "price": 0.795
+        }
+      ],
+      "volume": 498498.646431,
+      "liquidity": 82825.6604,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "630707",
+      "question": "Will Todd Achilles win the Idaho Senate race in 2026?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.0345,
+      "outcomes": [
+        {
+          "id": "630707-0",
+          "title": "Yes",
+          "price": 0.0345
+        },
+        {
+          "id": "630707-1",
+          "title": "No",
+          "price": 0.9655
+        }
+      ],
+      "volume": 115155.973897,
+      "liquidity": 95210.3377,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5797992",
+      "question": "Trail Blazers vs. Kings",
+      "category": "General",
+      "endDate": "2026-10-24T02:00:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "5797992-0",
+          "title": "Trail Blazers",
+          "price": 0.745
+        },
+        {
+          "id": "5797992-1",
+          "title": "Kings",
+          "price": 0.255
+        }
+      ],
+      "volume": 81302.25030999997,
+      "liquidity": 167652.6803,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "630963",
+      "question": "Will the Democrats win the Texas Senate race in 2026?",
+      "category": "General",
+      "endDate": "2026-11-04T04:59:00Z",
+      "yesPrice": 0.665,
+      "outcomes": [
+        {
+          "id": "630963-0",
+          "title": "Yes",
+          "price": 0.665
+        },
+        {
+          "id": "630963-1",
+          "title": "No",
+          "price": 0.335
+        }
+      ],
+      "volume": 2325980.3040899998,
+      "liquidity": 440169.6574,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5340069",
+      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%?",
+      "category": "General",
+      "endDate": "2026-10-26T03:59:00Z",
+      "yesPrice": 0.071,
+      "outcomes": [
+        {
+          "id": "5340069-0",
+          "title": "Yes",
+          "price": 0.071
+        },
+        {
+          "id": "5340069-1",
+          "title": "No",
+          "price": 0.929
+        }
+      ],
+      "volume": 1135821.393796,
+      "liquidity": 117469.02757,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "3580933",
+      "question": "Will Puma Shen win the next Taipei Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.3605,
+      "outcomes": [
+        {
+          "id": "3580933-0",
+          "title": "Yes",
+          "price": 0.3605
+        },
+        {
+          "id": "3580933-1",
+          "title": "No",
+          "price": 0.6395
+        }
+      ],
+      "volume": 852577.375518,
+      "liquidity": 139414.4793,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5640340",
+      "question": "Will Elon Musk post 260-279 tweets from October 16 to October 23, 2026?",
+      "category": "General",
+      "endDate": "2026-10-23T16:00:00Z",
+      "yesPrice": 0.205,
+      "outcomes": [
+        {
+          "id": "5640340-0",
+          "title": "Yes",
+          "price": 0.205
+        },
+        {
+          "id": "5640340-1",
+          "title": "No",
+          "price": 0.795
+        }
+      ],
+      "volume": 163776.214694,
+      "liquidity": 3899.8343,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "3128886",
+      "question": "US announces end of Iranian blockade by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.364,
+      "outcomes": [
+        {
+          "id": "3128886-0",
+          "title": "Yes",
+          "price": 0.364
+        },
+        {
+          "id": "3128886-1",
+          "title": "No",
+          "price": 0.636
+        }
+      ],
+      "volume": 3867186.76387,
+      "liquidity": 100866.72919,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "4824602",
+      "question": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?",
+      "category": "General",
+      "endDate": "2026-10-25T23:59:00Z",
+      "yesPrice": 0.295,
+      "outcomes": [
+        {
+          "id": "4824602-0",
+          "title": "Yes",
+          "price": 0.295
+        },
+        {
+          "id": "4824602-1",
+          "title": "No",
+          "price": 0.705
+        }
+      ],
+      "volume": 1784878.2150009999,
+      "liquidity": 404289.2015,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5407561",
+      "question": "Will Bitcoin reach $85,000 in October?",
+      "category": "General",
+      "endDate": "2026-11-01T04:00:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "5407561-0",
+          "title": "Yes",
+          "price": 0.465
+        },
+        {
+          "id": "5407561-1",
+          "title": "No",
+          "price": 0.535
+        }
+      ],
+      "volume": 410090.9568270001,
+      "liquidity": 55688.7123,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5640349",
+      "question": "Will Elon Musk post 300-319 tweets from October 16 to October 23, 2026?",
+      "category": "General",
+      "endDate": "2026-10-23T16:00:00Z",
+      "yesPrice": 0.089,
+      "outcomes": [
+        {
+          "id": "5640349-0",
+          "title": "Yes",
+          "price": 0.089
+        },
+        {
+          "id": "5640349-1",
+          "title": "No",
+          "price": 0.911
+        }
+      ],
+      "volume": 144779.8362,
+      "liquidity": 7567.76115,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "2747387",
+      "question": "Iran coup attempt by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "2747387-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "2747387-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 176387.800888,
+      "liquidity": 50604.5649,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "6028872",
+      "question": "Counter-Strike: Lynn Vision vs Chinggis Warriors (BO3) - VOID Autumn Cup Playoffs",
+      "category": "General",
+      "endDate": "2026-10-23T09:00:00Z",
+      "yesPrice": 0.89,
+      "outcomes": [
+        {
+          "id": "6028872-0",
+          "title": "Lynn Vision",
+          "price": 0.89
+        },
+        {
+          "id": "6028872-1",
+          "title": "Chinggis Warriors",
+          "price": 0.11
+        }
+      ],
+      "volume": 66425.221875,
+      "liquidity": 9892.6485,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5619442",
+      "question": "Spread: Utah (-6.5)",
+      "category": "General",
+      "endDate": "2026-10-25T02:15:00Z",
+      "yesPrice": 0.525,
+      "outcomes": [
+        {
+          "id": "5619442-0",
+          "title": "Utah",
+          "price": 0.525
+        },
+        {
+          "id": "5619442-1",
+          "title": "Houston",
+          "price": 0.475
+        }
+      ],
+      "volume": 69121.863253,
+      "liquidity": 190975.6325,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5792066",
+      "question": "Hawks vs. Hornets",
+      "category": "General",
+      "endDate": "2026-10-23T23:00:00Z",
+      "yesPrice": 0.565,
+      "outcomes": [
+        {
+          "id": "5792066-0",
+          "title": "Hawks",
+          "price": 0.565
+        },
+        {
+          "id": "5792066-1",
+          "title": "Hornets",
+          "price": 0.435
+        }
+      ],
+      "volume": 69259.226635,
+      "liquidity": 128556.6704,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "629030",
+      "question": "Will Karen Bass win the 2026 Los Angeles mayoral election?",
+      "category": "General",
+      "endDate": "2026-06-03T03:59:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "629030-0",
+          "title": "Yes",
+          "price": 0.485
+        },
+        {
+          "id": "629030-1",
+          "title": "No",
+          "price": 0.515
+        }
+      ],
+      "volume": 1620485.829183,
+      "liquidity": 164650.8479,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5792072",
+      "question": "Timberwolves vs. Magic",
+      "category": "General",
+      "endDate": "2026-10-23T23:00:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "5792072-0",
+          "title": "Timberwolves",
+          "price": 0.535
+        },
+        {
+          "id": "5792072-1",
+          "title": "Magic",
+          "price": 0.465
+        }
+      ],
+      "volume": 71008.570938,
+      "liquidity": 123654.8166,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "1811265",
+      "question": "Pete Hegseth out as Secretary of Defense by December 31?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.2,
+      "outcomes": [
+        {
+          "id": "1811265-0",
+          "title": "Yes",
+          "price": 0.2
+        },
+        {
+          "id": "1811265-1",
+          "title": "No",
+          "price": 0.8
+        }
+      ],
+      "volume": 676040.119543,
+      "liquidity": 51331.7577,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
+    },
+    {
+      "id": "5523020",
+      "question": "UFC 333: Merab Dvalishvili vs. Petr Yan (Bantamweight, Main Card)",
+      "category": "General",
+      "endDate": "2026-10-25T03:59:59.999Z",
+      "yesPrice": 0.415,
+      "outcomes": [
+        {
+          "id": "5523020-0",
+          "title": "Merab Dvalishvili",
+          "price": 0.415
+        },
+        {
+          "id": "5523020-1",
+          "title": "Petr Yan",
+          "price": 0.585
+        }
+      ],
+      "volume": 211518.64255899994,
+      "liquidity": 178544.0186,
+      "lastUpdated": "2026-10-23T05:54:56.002Z"
     }
   ],
-  "lastUpdated": "2026-10-23T00:59:51.164Z"
+  "lastUpdated": "2026-10-23T05:55:05.138Z"
 }
