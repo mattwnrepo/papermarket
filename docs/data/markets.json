@@ -1,70 +1,48 @@
 {
   "markets": [
     {
-      "id": "6742003",
-      "question": "Wizards vs. Bulls",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.205,
-      "outcomes": [
-        {
-          "id": "6742003-0",
-          "title": "Wizards",
-          "price": 0.205
-        },
-        {
-          "id": "6742003-1",
-          "title": "Bulls",
-          "price": 0.795
-        }
-      ],
-      "volume": 1278698.16313,
-      "liquidity": 117779.5374,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742001",
-      "question": "Pacers vs. Cavaliers",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.235,
-      "outcomes": [
-        {
-          "id": "6742001-0",
-          "title": "Pacers",
-          "price": 0.235
-        },
-        {
-          "id": "6742001-1",
-          "title": "Cavaliers",
-          "price": 0.765
-        }
-      ],
-      "volume": 1226135.1727020002,
-      "liquidity": 107673.8961,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
       "id": "3215007",
       "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
       "category": "General",
       "endDate": "2026-12-09T23:59:00Z",
-      "yesPrice": 0.0795,
+      "yesPrice": 0.0785,
       "outcomes": [
         {
           "id": "3215007-0",
           "title": "Yes",
-          "price": 0.0795
+          "price": 0.0785
         },
         {
           "id": "3215007-1",
           "title": "No",
-          "price": 0.9205
+          "price": 0.9215
         }
       ],
-      "volume": 12312222.114245,
-      "liquidity": 441147.22964,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 12501368.608535998,
+      "liquidity": 452808.08412,
+      "lastUpdated": "2026-11-21T09:38:12.554Z"
+    },
+    {
+      "id": "701501",
+      "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.725,
+      "outcomes": [
+        {
+          "id": "701501-0",
+          "title": "Yes",
+          "price": 0.725
+        },
+        {
+          "id": "701501-1",
+          "title": "No",
+          "price": 0.275
+        }
+      ],
+      "volume": 9284145.758043999,
+      "liquidity": 81385.0201,
+      "lastUpdated": "2026-11-21T09:38:12.554Z"
     },
     {
       "id": "3215008",
@@ -84,405 +62,317 @@
           "price": 0.105
         }
       ],
-      "volume": 10869225.951070001,
-      "liquidity": 675794.2241,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 10943247.669386,
+      "liquidity": 566286.4901,
+      "lastUpdated": "2026-11-21T09:38:12.554Z"
     },
     {
       "id": "6367372",
       "question": "Israel x Iran ceasefire continues through November 22?",
       "category": "General",
       "endDate": "2026-11-23T04:59:00Z",
-      "yesPrice": 0.925,
+      "yesPrice": 0.9655,
       "outcomes": [
         {
           "id": "6367372-0",
           "title": "Yes",
-          "price": 0.925
+          "price": 0.9655
         },
         {
           "id": "6367372-1",
           "title": "No",
-          "price": 0.075
+          "price": 0.0345
         }
       ],
-      "volume": 2496677.227743,
-      "liquidity": 49827.43,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 2589043.759502,
+      "liquidity": 65860.13669,
+      "lastUpdated": "2026-11-21T09:38:12.554Z"
     },
     {
-      "id": "7180304",
-      "question": "Spread: Hawks (-7.5)",
+      "id": "1339767",
+      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "category": "General",
-      "endDate": "2026-11-21T00:00:00Z",
-      "yesPrice": 0.875,
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.437,
       "outcomes": [
         {
-          "id": "7180304-0",
-          "title": "Hawks",
-          "price": 0.875
-        },
-        {
-          "id": "7180304-1",
-          "title": "Hornets",
-          "price": 0.125
-        }
-      ],
-      "volume": 567785.2344729999,
-      "liquidity": 16536.2128,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742000",
-      "question": "Magic vs. Nets",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.635,
-      "outcomes": [
-        {
-          "id": "6742000-0",
-          "title": "Magic",
-          "price": 0.635
-        },
-        {
-          "id": "6742000-1",
-          "title": "Nets",
-          "price": 0.365
-        }
-      ],
-      "volume": 427477.82602499996,
-      "liquidity": 99371.6491,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742004",
-      "question": "Pelicans vs. Thunder",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.485,
-      "outcomes": [
-        {
-          "id": "6742004-0",
-          "title": "Pelicans",
-          "price": 0.485
-        },
-        {
-          "id": "6742004-1",
-          "title": "Thunder",
-          "price": 0.515
-        }
-      ],
-      "volume": 441453.57498399995,
-      "liquidity": 105006.248,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6821075",
-      "question": "Clemson vs. Duke",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.445,
-      "outcomes": [
-        {
-          "id": "6821075-0",
-          "title": "Clemson",
-          "price": 0.445
-        },
-        {
-          "id": "6821075-1",
-          "title": "Duke",
-          "price": 0.555
-        }
-      ],
-      "volume": 341464.5886700001,
-      "liquidity": 278708.1578,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6821109",
-      "question": "Clemson vs. Duke: O/U 41.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.043,
-      "outcomes": [
-        {
-          "id": "6821109-0",
-          "title": "Over",
-          "price": 0.043
-        },
-        {
-          "id": "6821109-1",
-          "title": "Under",
-          "price": 0.957
-        }
-      ],
-      "volume": 337608.13588,
-      "liquidity": 37887.55957,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742006",
-      "question": "Rockets vs. Nuggets",
-      "category": "General",
-      "endDate": "2026-11-21T03:00:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "6742006-0",
-          "title": "Rockets",
-          "price": 0.515
-        },
-        {
-          "id": "6742006-1",
-          "title": "Nuggets",
-          "price": 0.485
-        }
-      ],
-      "volume": 316397.86097599997,
-      "liquidity": 925115.2097,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180293",
-      "question": "Hornets vs. Hawks: O/U 218.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:00:00Z",
-      "yesPrice": 0.145,
-      "outcomes": [
-        {
-          "id": "7180293-0",
-          "title": "Over",
-          "price": 0.145
-        },
-        {
-          "id": "7180293-1",
-          "title": "Under",
-          "price": 0.855
-        }
-      ],
-      "volume": 306565.34891500004,
-      "liquidity": 14375.1948,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180272",
-      "question": "Magic vs. Nets: O/U 223.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.735,
-      "outcomes": [
-        {
-          "id": "7180272-0",
-          "title": "Over",
-          "price": 0.735
-        },
-        {
-          "id": "7180272-1",
-          "title": "Under",
-          "price": 0.265
-        }
-      ],
-      "volume": 299760.34131700004,
-      "liquidity": 29731.9381,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742002",
-      "question": "Raptors vs. Pistons",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "6742002-0",
-          "title": "Raptors",
-          "price": 0.595
-        },
-        {
-          "id": "6742002-1",
-          "title": "Pistons",
-          "price": 0.405
-        }
-      ],
-      "volume": 286246.959008,
-      "liquidity": 123982.7514,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6821233",
-      "question": "Spread: Oregon (-17.5)",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.445,
-      "outcomes": [
-        {
-          "id": "6821233-0",
-          "title": "Oregon",
-          "price": 0.445
-        },
-        {
-          "id": "6821233-1",
-          "title": "Michigan State",
-          "price": 0.555
-        }
-      ],
-      "volume": 261405.275545,
-      "liquidity": 9374.0395,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6821231",
-      "question": "Oregon vs. Michigan State",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.925,
-      "outcomes": [
-        {
-          "id": "6821231-0",
-          "title": "Oregon",
-          "price": 0.925
-        },
-        {
-          "id": "6821231-1",
-          "title": "Michigan State",
-          "price": 0.075
-        }
-      ],
-      "volume": 219526.49007900004,
-      "liquidity": 71094.40154,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6919847",
-      "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-      "category": "General",
-      "endDate": "2029-01-01T04:59:00Z",
-      "yesPrice": 0.1115,
-      "outcomes": [
-        {
-          "id": "6919847-0",
+          "id": "1339767-0",
           "title": "Yes",
-          "price": 0.1115
+          "price": 0.437
         },
         {
-          "id": "6919847-1",
+          "id": "1339767-1",
           "title": "No",
-          "price": 0.8885
+          "price": 0.563
         }
       ],
-      "volume": 4059988.635524,
-      "liquidity": 218982.46548,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 6717605.841322999,
+      "liquidity": 102569.49833,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6820386",
+      "question": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+      "category": "General",
+      "endDate": "2026-11-22T04:59:59.999Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "6820386-0",
+          "title": "Aljamain Sterling",
+          "price": 0.455
+        },
+        {
+          "id": "6820386-1",
+          "title": "Kevin Vallejos",
+          "price": 0.545
+        }
+      ],
+      "volume": 307919.713788,
+      "liquidity": 160551.9579,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "701552",
+      "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.6865,
+      "outcomes": [
+        {
+          "id": "701552-0",
+          "title": "Yes",
+          "price": 0.6865
+        },
+        {
+          "id": "701552-1",
+          "title": "No",
+          "price": 0.3135
+        }
+      ],
+      "volume": 3819701.418781,
+      "liquidity": 60108.79186,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6841248",
+      "question": "Will Real Madrid CF win on 2026-11-21?",
+      "category": "General",
+      "endDate": "2026-11-21T20:00:00Z",
+      "yesPrice": 0.855,
+      "outcomes": [
+        {
+          "id": "6841248-0",
+          "title": "Yes",
+          "price": 0.855
+        },
+        {
+          "id": "6841248-1",
+          "title": "No",
+          "price": 0.145
+        }
+      ],
+      "volume": 276949.5956129999,
+      "liquidity": 259158.6383,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "701502",
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.2215,
+      "outcomes": [
+        {
+          "id": "701502-0",
+          "title": "Yes",
+          "price": 0.2215
+        },
+        {
+          "id": "701502-1",
+          "title": "No",
+          "price": 0.7785
+        }
+      ],
+      "volume": 10486142.621178001,
+      "liquidity": 137110.12216,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6507392",
+      "question": "Will Bitcoin dip to $55,000 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.5975,
+      "outcomes": [
+        {
+          "id": "6507392-0",
+          "title": "Yes",
+          "price": 0.5975
+        },
+        {
+          "id": "6507392-1",
+          "title": "No",
+          "price": 0.4025
+        }
+      ],
+      "volume": 911882.384173,
+      "liquidity": 60823.16069,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "561975",
+      "question": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "category": "General",
+      "endDate": "2028-11-08T04:59:00Z",
+      "yesPrice": 0.2205,
+      "outcomes": [
+        {
+          "id": "561975-0",
+          "title": "Yes",
+          "price": 0.2205
+        },
+        {
+          "id": "561975-1",
+          "title": "No",
+          "price": 0.7795
+        }
+      ],
+      "volume": 12082464.670484003,
+      "liquidity": 254923.83167,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "6998285",
       "question": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0565,
+      "yesPrice": 0.0555,
       "outcomes": [
         {
           "id": "6998285-0",
           "title": "Yes",
-          "price": 0.0565
+          "price": 0.0555
         },
         {
           "id": "6998285-1",
           "title": "No",
-          "price": 0.9435
+          "price": 0.9445
         }
       ],
-      "volume": 3560913.8743299996,
-      "liquidity": 143746.5815,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3602348.3904759996,
+      "liquidity": 204863.14396,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6841065",
+      "question": "Will Rayo Vallecano de Madrid win on 2026-11-21?",
+      "category": "General",
+      "endDate": "2026-11-21T15:15:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "6841065-0",
+          "title": "Yes",
+          "price": 0.505
+        },
+        {
+          "id": "6841065-1",
+          "title": "No",
+          "price": 0.495
+        }
+      ],
+      "volume": 207755.564374,
+      "liquidity": 332440.0544,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6919847",
+      "question": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+      "category": "General",
+      "endDate": "2029-01-01T04:59:00Z",
+      "yesPrice": 0.1075,
+      "outcomes": [
+        {
+          "id": "6919847-0",
+          "title": "Yes",
+          "price": 0.1075
+        },
+        {
+          "id": "6919847-1",
+          "title": "No",
+          "price": 0.8925
+        }
+      ],
+      "volume": 4077214.083483,
+      "liquidity": 267314.66663,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "679034",
       "question": "Will Dominique de Villepin win the 2027 French presidential election?",
       "category": "General",
       "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.033,
+      "yesPrice": 0.0345,
       "outcomes": [
         {
           "id": "679034-0",
           "title": "Yes",
-          "price": 0.033
+          "price": 0.0345
         },
         {
           "id": "679034-1",
           "title": "No",
-          "price": 0.967
+          "price": 0.9655
         }
       ],
-      "volume": 4347354.974741,
-      "liquidity": 297115.46259,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7080269",
-      "question": "Spread: Air Force (-21.5)",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.82,
-      "outcomes": [
-        {
-          "id": "7080269-0",
-          "title": "Air Force",
-          "price": 0.82
-        },
-        {
-          "id": "7080269-1",
-          "title": "UTEP",
-          "price": 0.18
-        }
-      ],
-      "volume": 206706.74708499998,
-      "liquidity": 47037.5558,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6742005",
-      "question": "Suns vs. Jazz",
-      "category": "General",
-      "endDate": "2026-11-21T02:30:00Z",
-      "yesPrice": 0.635,
-      "outcomes": [
-        {
-          "id": "6742005-0",
-          "title": "Suns",
-          "price": 0.635
-        },
-        {
-          "id": "6742005-1",
-          "title": "Jazz",
-          "price": 0.365
-        }
-      ],
-      "volume": 211903.73221400002,
-      "liquidity": 1015239.7248,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 4347533.723312999,
+      "liquidity": 256011.61849,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "691340",
       "question": "AI bubble burst in 2026?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.5955,
+      "yesPrice": 0.59,
       "outcomes": [
         {
           "id": "691340-0",
           "title": "Yes",
-          "price": 0.5955
+          "price": 0.59
         },
         {
           "id": "691340-1",
           "title": "No",
-          "price": 0.4045
+          "price": 0.41
         }
       ],
-      "volume": 3347930.124078001,
-      "liquidity": 49080.66273,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3368218.749872001,
+      "liquidity": 65675.29661,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "3902370",
+      "question": "Israel x Iran ceasefire continues through November 30?",
+      "category": "General",
+      "endDate": "2026-11-30T20:29:00Z",
+      "yesPrice": 0.845,
+      "outcomes": [
+        {
+          "id": "3902370-0",
+          "title": "Yes",
+          "price": 0.845
+        },
+        {
+          "id": "3902370-1",
+          "title": "No",
+          "price": 0.155
+        }
+      ],
+      "volume": 2200183.575285,
+      "liquidity": 73072.728,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "665374",
@@ -502,317 +392,9 @@
           "price": 0.925
         }
       ],
-      "volume": 80951994.80257,
-      "liquidity": 289147.2154,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "3902370",
-      "question": "Israel x Iran ceasefire continues through November 30?",
-      "category": "General",
-      "endDate": "2026-11-30T20:29:00Z",
-      "yesPrice": 0.815,
-      "outcomes": [
-        {
-          "id": "3902370-0",
-          "title": "Yes",
-          "price": 0.815
-        },
-        {
-          "id": "3902370-1",
-          "title": "No",
-          "price": 0.185
-        }
-      ],
-      "volume": 2160153.505634,
-      "liquidity": 50384.3895,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7139727",
-      "question": "Valorant: FlyQuest vs Masterclass (BO3) - VCT Americas Kickoff: North America Swiss Stage",
-      "category": "General",
-      "endDate": "2026-11-21T06:30:00Z",
-      "yesPrice": 0.46,
-      "outcomes": [
-        {
-          "id": "7139727-0",
-          "title": "FlyQuest",
-          "price": 0.46
-        },
-        {
-          "id": "7139727-1",
-          "title": "Masterclass",
-          "price": 0.54
-        }
-      ],
-      "volume": 171685.719264,
-      "liquidity": 10660.0662,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7182536",
-      "question": "Suns vs. Jazz: O/U 225.5",
-      "category": "General",
-      "endDate": "2026-11-21T02:30:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "7182536-0",
-          "title": "Over",
-          "price": 0.515
-        },
-        {
-          "id": "7182536-1",
-          "title": "Under",
-          "price": 0.485
-        }
-      ],
-      "volume": 163747.83276999995,
-      "liquidity": 176814.2904,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180222",
-      "question": "Spread: Bulls (-2.5)",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.735,
-      "outcomes": [
-        {
-          "id": "7180222-0",
-          "title": "Bulls",
-          "price": 0.735
-        },
-        {
-          "id": "7180222-1",
-          "title": "Wizards",
-          "price": 0.265
-        }
-      ],
-      "volume": 160862.21184000003,
-      "liquidity": 25492.2634,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "701501",
-      "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.615,
-      "outcomes": [
-        {
-          "id": "701501-0",
-          "title": "Yes",
-          "price": 0.615
-        },
-        {
-          "id": "701501-1",
-          "title": "No",
-          "price": 0.385
-        }
-      ],
-      "volume": 8710752.347706998,
-      "liquidity": 91554.9775,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7182236",
-      "question": "Hornets vs. Hawks: O/U 219.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:00:00Z",
-      "yesPrice": 0.09,
-      "outcomes": [
-        {
-          "id": "7182236-0",
-          "title": "Over",
-          "price": 0.09
-        },
-        {
-          "id": "7182236-1",
-          "title": "Under",
-          "price": 0.91
-        }
-      ],
-      "volume": 149244.875239,
-      "liquidity": 21630.712,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "701502",
-      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.1555,
-      "outcomes": [
-        {
-          "id": "701502-0",
-          "title": "Yes",
-          "price": 0.1555
-        },
-        {
-          "id": "701502-1",
-          "title": "No",
-          "price": 0.8445
-        }
-      ],
-      "volume": 10410031.179100001,
-      "liquidity": 147759.19109,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "3580933",
-      "question": "Will Puma Shen win the next Taipei Mayor election?",
-      "category": "General",
-      "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.3645,
-      "outcomes": [
-        {
-          "id": "3580933-0",
-          "title": "Yes",
-          "price": 0.3645
-        },
-        {
-          "id": "3580933-1",
-          "title": "No",
-          "price": 0.6355
-        }
-      ],
-      "volume": 3776460.4837420005,
-      "liquidity": 453900.53902,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180252",
-      "question": "Raptors vs. Pistons: O/U 216.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "7180252-0",
-          "title": "Over",
-          "price": 0.265
-        },
-        {
-          "id": "7180252-1",
-          "title": "Under",
-          "price": 0.735
-        }
-      ],
-      "volume": 145527.105538,
-      "liquidity": 13444.1557,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7183418",
-      "question": "Pacers vs. Cavaliers: O/U 234.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.8,
-      "outcomes": [
-        {
-          "id": "7183418-0",
-          "title": "Over",
-          "price": 0.8
-        },
-        {
-          "id": "7183418-1",
-          "title": "Under",
-          "price": 0.2
-        }
-      ],
-      "volume": 143470.823053,
-      "liquidity": 29735.2665,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "1339767",
-      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.3755,
-      "outcomes": [
-        {
-          "id": "1339767-0",
-          "title": "Yes",
-          "price": 0.3755
-        },
-        {
-          "id": "1339767-1",
-          "title": "No",
-          "price": 0.6245
-        }
-      ],
-      "volume": 6556350.557523,
-      "liquidity": 106978.79018,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180273",
-      "question": "Pacers vs. Cavaliers: O/U 237.5",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.72,
-      "outcomes": [
-        {
-          "id": "7180273-0",
-          "title": "Over",
-          "price": 0.72
-        },
-        {
-          "id": "7180273-1",
-          "title": "Under",
-          "price": 0.28
-        }
-      ],
-      "volume": 141888.633211,
-      "liquidity": 21427.188,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7085177",
-      "question": "Will Bitcoin dip to $56,000 November 16-22?",
-      "category": "General",
-      "endDate": "2026-11-23T05:00:00Z",
-      "yesPrice": 0.218,
-      "outcomes": [
-        {
-          "id": "7085177-0",
-          "title": "Yes",
-          "price": 0.218
-        },
-        {
-          "id": "7085177-1",
-          "title": "No",
-          "price": 0.782
-        }
-      ],
-      "volume": 239842.77950099998,
-      "liquidity": 41101.24183,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "679021",
-      "question": "Will Édouard Philippe win the 2027 French presidential election?",
-      "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.055,
-      "outcomes": [
-        {
-          "id": "679021-0",
-          "title": "Yes",
-          "price": 0.055
-        },
-        {
-          "id": "679021-1",
-          "title": "No",
-          "price": 0.945
-        }
-      ],
-      "volume": 3834032.3208140004,
-      "liquidity": 203887.6274,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 80956041.24429502,
+      "liquidity": 349222.6481,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "6820321",
@@ -832,317 +414,207 @@
           "price": 0.625
         }
       ],
-      "volume": 192477.51088200003,
-      "liquidity": 361161.0703,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 242859.09079699998,
+      "liquidity": 403819.4916,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180229",
-      "question": "Pacers vs. Cavaliers: O/U 235.5",
+      "id": "7085181",
+      "question": "Will Bitcoin dip to $52,000 November 16-22?",
       "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.77,
+      "endDate": "2026-11-23T05:00:00Z",
+      "yesPrice": 0.0795,
       "outcomes": [
         {
-          "id": "7180229-0",
-          "title": "Over",
-          "price": 0.77
-        },
-        {
-          "id": "7180229-1",
-          "title": "Under",
-          "price": 0.23
-        }
-      ],
-      "volume": 135656.46561899997,
-      "liquidity": 23294.3971,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7018707",
-      "question": "Will Bitcoin reach $70,000 in November?",
-      "category": "General",
-      "endDate": "2026-12-01T05:00:00Z",
-      "yesPrice": 0.055,
-      "outcomes": [
-        {
-          "id": "7018707-0",
+          "id": "7085181-0",
           "title": "Yes",
-          "price": 0.055
+          "price": 0.0795
         },
         {
-          "id": "7018707-1",
+          "id": "7085181-1",
           "title": "No",
-          "price": 0.945
+          "price": 0.9205
         }
       ],
-      "volume": 369988.47353400005,
-      "liquidity": 76026.0711,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 261917.996696,
+      "liquidity": 57446.50195,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7181822",
-      "question": "Pelicans vs. Thunder: O/U 229.5",
+      "id": "7085183",
+      "question": "Will Bitcoin dip to $50,000 November 16-22?",
       "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.56,
+      "endDate": "2026-11-23T05:00:00Z",
+      "yesPrice": 0.03,
       "outcomes": [
         {
-          "id": "7181822-0",
-          "title": "Over",
-          "price": 0.56
-        },
-        {
-          "id": "7181822-1",
-          "title": "Under",
-          "price": 0.44
-        }
-      ],
-      "volume": 128317.33656500002,
-      "liquidity": 26140.6024,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "561975",
-      "question": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-      "category": "General",
-      "endDate": "2028-11-08T04:59:00Z",
-      "yesPrice": 0.2505,
-      "outcomes": [
-        {
-          "id": "561975-0",
+          "id": "7085183-0",
           "title": "Yes",
-          "price": 0.2505
+          "price": 0.03
         },
         {
-          "id": "561975-1",
+          "id": "7085183-1",
           "title": "No",
-          "price": 0.7495
+          "price": 0.97
         }
       ],
-      "volume": 11891481.131199002,
-      "liquidity": 267093.48759,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "4620900",
-      "question": "Another Fed rate hike in 2026?",
-      "category": "General",
-      "endDate": "2026-12-10T04:59:00Z",
-      "yesPrice": 0.9145,
-      "outcomes": [
-        {
-          "id": "4620900-0",
-          "title": "Yes",
-          "price": 0.9145
-        },
-        {
-          "id": "4620900-1",
-          "title": "No",
-          "price": 0.0855
-        }
-      ],
-      "volume": 2309897.223391,
-      "liquidity": 113875.01392,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "561229",
-      "question": "Will JD Vance win the 2028 US Presidential Election?",
-      "category": "General",
-      "endDate": "2028-11-08T04:59:00Z",
-      "yesPrice": 0.1475,
-      "outcomes": [
-        {
-          "id": "561229-0",
-          "title": "Yes",
-          "price": 0.1475
-        },
-        {
-          "id": "561229-1",
-          "title": "No",
-          "price": 0.8525
-        }
-      ],
-      "volume": 19509056.462375,
-      "liquidity": 704824.13131,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "2299955",
-      "question": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-      "category": "General",
-      "endDate": "2027-01-05T04:59:00Z",
-      "yesPrice": 0.215,
-      "outcomes": [
-        {
-          "id": "2299955-0",
-          "title": "Yes",
-          "price": 0.215
-        },
-        {
-          "id": "2299955-1",
-          "title": "No",
-          "price": 0.785
-        }
-      ],
-      "volume": 1627839.0718560002,
-      "liquidity": 76833.5448,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6281141",
-      "question": "Iran full airspace closure by November 30, 2026?",
-      "category": "General",
-      "endDate": "2026-12-01T04:59:00Z",
-      "yesPrice": 0.075,
-      "outcomes": [
-        {
-          "id": "6281141-0",
-          "title": "Yes",
-          "price": 0.075
-        },
-        {
-          "id": "6281141-1",
-          "title": "No",
-          "price": 0.925
-        }
-      ],
-      "volume": 784909.619561,
-      "liquidity": 47781.8957,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180220",
-      "question": "Spread: Cavaliers (-6.5)",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "7180220-0",
-          "title": "Cavaliers",
-          "price": 0.495
-        },
-        {
-          "id": "7180220-1",
-          "title": "Pacers",
-          "price": 0.505
-        }
-      ],
-      "volume": 98657.80240100001,
-      "liquidity": 28367.0645,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180243",
-      "question": "Spread: Thunder (-11.5)",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.145,
-      "outcomes": [
-        {
-          "id": "7180243-0",
-          "title": "Thunder",
-          "price": 0.145
-        },
-        {
-          "id": "7180243-1",
-          "title": "Pelicans",
-          "price": 0.855
-        }
-      ],
-      "volume": 102003.62731099999,
-      "liquidity": 27447.4191,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "6995752",
-      "question": "Exact Score: Any Other Score?",
-      "category": "General",
-      "endDate": "2026-11-26T17:45:00Z",
-      "yesPrice": 0.135,
-      "outcomes": [
-        {
-          "id": "6995752-0",
-          "title": "Yes",
-          "price": 0.135
-        },
-        {
-          "id": "6995752-1",
-          "title": "No",
-          "price": 0.865
-        }
-      ],
-      "volume": 118770,
-      "liquidity": 221.6469,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180341",
-      "question": "Wizards vs. Bulls: O/U 237.5",
-      "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.365,
-      "outcomes": [
-        {
-          "id": "7180341-0",
-          "title": "Over",
-          "price": 0.365
-        },
-        {
-          "id": "7180341-1",
-          "title": "Under",
-          "price": 0.635
-        }
-      ],
-      "volume": 99152.25009900001,
-      "liquidity": 13619.8511,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 205718.320274,
+      "liquidity": 61221.82798,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "1339768",
       "question": "Will Bitcoin dip to $40,000 by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.114,
+      "yesPrice": 0.1245,
       "outcomes": [
         {
           "id": "1339768-0",
           "title": "Yes",
-          "price": 0.114
+          "price": 0.1245
         },
         {
           "id": "1339768-1",
           "title": "No",
-          "price": 0.886
+          "price": 0.8755
         }
       ],
-      "volume": 3267792.4416410006,
-      "liquidity": 111750.86925,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3323209.1948019997,
+      "liquidity": 100981.94345,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180240",
-      "question": "Spread: Cavaliers (-5.5)",
+      "id": "7042819",
+      "question": "Will the price of Bitcoin be above $56,000 on November 21?",
       "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.565,
+      "endDate": "2026-11-21T17:00:00Z",
+      "yesPrice": 0.913,
       "outcomes": [
         {
-          "id": "7180240-0",
-          "title": "Cavaliers",
-          "price": 0.565
+          "id": "7042819-0",
+          "title": "Yes",
+          "price": 0.913
         },
         {
-          "id": "7180240-1",
-          "title": "Pacers",
-          "price": 0.435
+          "id": "7042819-1",
+          "title": "No",
+          "price": 0.087
         }
       ],
-      "volume": 97666.90390599999,
-      "liquidity": 26909.526,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 168634.94955999998,
+      "liquidity": 45388.59063,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6834615",
+      "question": "Will Chelsea FC win on 2026-11-21?",
+      "category": "General",
+      "endDate": "2026-11-21T15:00:00Z",
+      "yesPrice": 0.465,
+      "outcomes": [
+        {
+          "id": "6834615-0",
+          "title": "Yes",
+          "price": 0.465
+        },
+        {
+          "id": "6834615-1",
+          "title": "No",
+          "price": 0.535
+        }
+      ],
+      "volume": 149150.11670599997,
+      "liquidity": 654770.7867,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7085179",
+      "question": "Will Bitcoin dip to $54,000 November 16-22?",
+      "category": "General",
+      "endDate": "2026-11-23T05:00:00Z",
+      "yesPrice": 0.2025,
+      "outcomes": [
+        {
+          "id": "7085179-0",
+          "title": "Yes",
+          "price": 0.2025
+        },
+        {
+          "id": "7085179-1",
+          "title": "No",
+          "price": 0.7975
+        }
+      ],
+      "volume": 219044.43274000002,
+      "liquidity": 35243.44064,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7209711",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-28T20:30:00Z",
+      "yesPrice": 0.225,
+      "outcomes": [
+        {
+          "id": "7209711-0",
+          "title": "Yes",
+          "price": 0.225
+        },
+        {
+          "id": "7209711-1",
+          "title": "No",
+          "price": 0.775
+        }
+      ],
+      "volume": 128628,
+      "liquidity": 125.3099,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7074445",
+      "question": "Will Bitcoin dip to $50,000 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.1905,
+      "outcomes": [
+        {
+          "id": "7074445-0",
+          "title": "Yes",
+          "price": 0.1905
+        },
+        {
+          "id": "7074445-1",
+          "title": "No",
+          "price": 0.8095
+        }
+      ],
+      "volume": 302721.44998100004,
+      "liquidity": 65428.00617,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "2657589",
+      "question": "Will 1 Fed rate hike happen in 2026?",
+      "category": "General",
+      "endDate": "2026-12-31T23:59:00Z",
+      "yesPrice": 0.0895,
+      "outcomes": [
+        {
+          "id": "2657589-0",
+          "title": "Yes",
+          "price": 0.0895
+        },
+        {
+          "id": "2657589-1",
+          "title": "No",
+          "price": 0.9105
+        }
+      ],
+      "volume": 975689.2464369999,
+      "liquidity": 111742.85615,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "6367369",
@@ -1162,428 +634,934 @@
           "price": 0.305
         }
       ],
-      "volume": 1249376.200903,
-      "liquidity": 54646.4501,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 1275596.833418,
+      "liquidity": 73363.0238,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "682705",
-      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "id": "4620900",
+      "question": "Another Fed rate hike in 2026?",
       "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.208,
+      "endDate": "2026-12-10T04:59:00Z",
+      "yesPrice": 0.9055,
       "outcomes": [
         {
-          "id": "682705-0",
+          "id": "4620900-0",
           "title": "Yes",
-          "price": 0.208
+          "price": 0.9055
         },
         {
-          "id": "682705-1",
+          "id": "4620900-1",
           "title": "No",
-          "price": 0.792
+          "price": 0.0945
         }
       ],
-      "volume": 35676293.147864,
-      "liquidity": 294037.73084,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 2338438.256091,
+      "liquidity": 109797.74029,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "6831495",
-      "question": "US x Iran Effective Ceasefire by November 22?",
+      "id": "679021",
+      "question": "Will Édouard Philippe win the 2027 French presidential election?",
       "category": "General",
-      "endDate": "2026-11-22T20:29:00Z",
-      "yesPrice": 0.395,
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.055,
       "outcomes": [
         {
-          "id": "6831495-0",
+          "id": "679021-0",
           "title": "Yes",
-          "price": 0.395
+          "price": 0.055
         },
         {
-          "id": "6831495-1",
+          "id": "679021-1",
           "title": "No",
-          "price": 0.605
+          "price": 0.945
         }
       ],
-      "volume": 605477.054315,
-      "liquidity": 34709.3964,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3835501.1574810003,
+      "liquidity": 158874.9215,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "3580932",
-      "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+      "id": "3580933",
+      "question": "Will Puma Shen win the next Taipei Mayor election?",
       "category": "General",
       "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.645,
+      "yesPrice": 0.3375,
       "outcomes": [
         {
-          "id": "3580932-0",
+          "id": "3580933-0",
           "title": "Yes",
-          "price": 0.645
+          "price": 0.3375
         },
         {
-          "id": "3580932-1",
+          "id": "3580933-1",
           "title": "No",
+          "price": 0.6625
+        }
+      ],
+      "volume": 3810328.2863950003,
+      "liquidity": 380252.3809,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7140208",
+      "question": "England Tour of Australia T20s: Australia vs England",
+      "category": "General",
+      "endDate": "2026-11-28T08:15:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "7140208-0",
+          "title": "Australia",
           "price": 0.355
+        },
+        {
+          "id": "7140208-1",
+          "title": "England",
+          "price": 0.645
         }
       ],
-      "volume": 3062991.4742550002,
-      "liquidity": 473856.191,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 107120.90940399998,
+      "liquidity": 111671.6262,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "3399468",
-      "question": "Israel x Iran ceasefire continues through December 31?",
+      "id": "561234",
+      "question": "Will Marco Rubio win the 2028 US Presidential Election?",
       "category": "General",
-      "endDate": "2026-12-31T20:29:00Z",
-      "yesPrice": 0.615,
+      "endDate": "2028-11-08T04:59:00Z",
+      "yesPrice": 0.0735,
       "outcomes": [
         {
-          "id": "3399468-0",
+          "id": "561234-0",
           "title": "Yes",
-          "price": 0.615
+          "price": 0.0735
         },
         {
-          "id": "3399468-1",
+          "id": "561234-1",
           "title": "No",
-          "price": 0.385
+          "price": 0.9265
         }
       ],
-      "volume": 3215285.8663740004,
-      "liquidity": 50970.7687,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 13940690.951856004,
+      "liquidity": 304996.8585,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7182381",
-      "question": "Suns vs. Jazz: O/U 227.5",
+      "id": "561229",
+      "question": "Will JD Vance win the 2028 US Presidential Election?",
       "category": "General",
-      "endDate": "2026-11-21T02:30:00Z",
-      "yesPrice": 0.475,
+      "endDate": "2028-11-08T04:59:00Z",
+      "yesPrice": 0.15,
       "outcomes": [
         {
-          "id": "7182381-0",
-          "title": "Over",
-          "price": 0.475
-        },
-        {
-          "id": "7182381-1",
-          "title": "Under",
-          "price": 0.525
-        }
-      ],
-      "volume": 80839.395585,
-      "liquidity": 122812.8466,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "7180239",
-      "question": "Spread: Magic (-6.5)",
-      "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.415,
-      "outcomes": [
-        {
-          "id": "7180239-0",
-          "title": "Magic",
-          "price": 0.415
-        },
-        {
-          "id": "7180239-1",
-          "title": "Nets",
-          "price": 0.585
-        }
-      ],
-      "volume": 93805.40802300001,
-      "liquidity": 30313.7447,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
-    },
-    {
-      "id": "1105744",
-      "question": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.8955,
-      "outcomes": [
-        {
-          "id": "1105744-0",
+          "id": "561229-0",
           "title": "Yes",
-          "price": 0.8955
+          "price": 0.15
         },
         {
-          "id": "1105744-1",
+          "id": "561229-1",
           "title": "No",
-          "price": 0.1045
+          "price": 0.85
         }
       ],
-      "volume": 4393408.508432998,
-      "liquidity": 58041.67729,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 19512668.125872,
+      "liquidity": 663911.1094,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180225",
-      "question": "Spread: Nuggets (-1.5)",
+      "id": "7208477",
+      "question": "Exact Score: Any Other Score?",
       "category": "General",
-      "endDate": "2026-11-21T03:00:00Z",
-      "yesPrice": 0.455,
+      "endDate": "2026-11-28T20:00:00Z",
+      "yesPrice": 0.235,
       "outcomes": [
         {
-          "id": "7180225-0",
-          "title": "Nuggets",
-          "price": 0.455
+          "id": "7208477-0",
+          "title": "Yes",
+          "price": 0.235
         },
         {
-          "id": "7180225-1",
-          "title": "Rockets",
-          "price": 0.545
+          "id": "7208477-1",
+          "title": "No",
+          "price": 0.765
         }
       ],
-      "volume": 86322.372826,
-      "liquidity": 594326.5711,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 110188,
+      "liquidity": 24.5898,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "679018",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.4635,
+      "outcomes": [
+        {
+          "id": "679018-0",
+          "title": "Yes",
+          "price": 0.4635
+        },
+        {
+          "id": "679018-1",
+          "title": "No",
+          "price": 0.5365
+        }
+      ],
+      "volume": 6132093.055064002,
+      "liquidity": 638584.79021,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7042822",
+      "question": "Will the price of Bitcoin be above $58,000 on November 21?",
+      "category": "General",
+      "endDate": "2026-11-21T17:00:00Z",
+      "yesPrice": 0.4945,
+      "outcomes": [
+        {
+          "id": "7042822-0",
+          "title": "Yes",
+          "price": 0.4945
+        },
+        {
+          "id": "7042822-1",
+          "title": "No",
+          "price": 0.5055
+        }
+      ],
+      "volume": 134071.596791,
+      "liquidity": 36566.33522,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "679060",
       "question": "Will Christine Lagarde win the 2027 French presidential election?",
       "category": "General",
       "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.0375,
+      "yesPrice": 0.0385,
       "outcomes": [
         {
           "id": "679060-0",
           "title": "Yes",
-          "price": 0.0375
+          "price": 0.0385
         },
         {
           "id": "679060-1",
           "title": "No",
-          "price": 0.9625
+          "price": 0.9615
         }
       ],
-      "volume": 3471069.8299279995,
-      "liquidity": 249906.40504,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3494591.7003629995,
+      "liquidity": 235088.88149,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7182380",
-      "question": "Wizards vs. Bulls: O/U 240.5",
+      "id": "6831495",
+      "question": "US x Iran Effective Ceasefire by November 22?",
       "category": "General",
-      "endDate": "2026-11-21T01:00:00Z",
-      "yesPrice": 0.255,
+      "endDate": "2026-11-22T20:29:00Z",
+      "yesPrice": 0.405,
       "outcomes": [
         {
-          "id": "7182380-0",
-          "title": "Over",
-          "price": 0.255
+          "id": "6831495-0",
+          "title": "Yes",
+          "price": 0.405
         },
         {
-          "id": "7182380-1",
-          "title": "Under",
-          "price": 0.745
+          "id": "6831495-1",
+          "title": "No",
+          "price": 0.595
         }
       ],
-      "volume": 89261.472271,
-      "liquidity": 27155.1247,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 629801.789799,
+      "liquidity": 46235.3955,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "2126461",
-      "question": "Will Crude Oil reach a new all-time high by December 31?",
+      "id": "7176939",
+      "question": "Will Bitcoin dip to $47,500 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.144,
+      "outcomes": [
+        {
+          "id": "7176939-0",
+          "title": "Yes",
+          "price": 0.144
+        },
+        {
+          "id": "7176939-1",
+          "title": "No",
+          "price": 0.856
+        }
+      ],
+      "volume": 118871.45365999998,
+      "liquidity": 56698.32454,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "4418520",
+      "question": "Will the Riemann Hypothesis be the next Millennium Prize Problem solved by AI?",
+      "category": "General",
+      "endDate": "2028-01-01T04:59:00Z",
+      "yesPrice": 0.849,
+      "outcomes": [
+        {
+          "id": "4418520-0",
+          "title": "Yes",
+          "price": 0.849
+        },
+        {
+          "id": "4418520-1",
+          "title": "No",
+          "price": 0.151
+        }
+      ],
+      "volume": 126754.61594899998,
+      "liquidity": 30956.61204,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "1105744",
+      "question": "Will Nicolás Maduro be the leader of Venezuela end of 2026?",
       "category": "General",
       "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.0375,
+      "yesPrice": 0.898,
       "outcomes": [
         {
-          "id": "2126461-0",
+          "id": "1105744-0",
           "title": "Yes",
-          "price": 0.0375
+          "price": 0.898
         },
         {
-          "id": "2126461-1",
+          "id": "1105744-1",
           "title": "No",
-          "price": 0.9625
+          "price": 0.102
         }
       ],
-      "volume": 3108037.8311579996,
-      "liquidity": 76721.47328,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 4409270.264524998,
+      "liquidity": 64040.58901,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180183",
-      "question": "Exact Score: Any Other Score?",
+      "id": "6281141",
+      "question": "Iran full airspace closure by November 30, 2026?",
       "category": "General",
-      "endDate": "2026-11-27T20:00:00Z",
-      "yesPrice": 0.18,
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.075,
       "outcomes": [
         {
-          "id": "7180183-0",
+          "id": "6281141-0",
           "title": "Yes",
-          "price": 0.18
+          "price": 0.075
         },
         {
-          "id": "7180183-1",
+          "id": "6281141-1",
           "title": "No",
-          "price": 0.82
+          "price": 0.925
         }
       ],
-      "volume": 87564,
-      "liquidity": 441.3387,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 786332.075154,
+      "liquidity": 45292.5689,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "559661",
-      "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+      "id": "7150681",
+      "question": "Will Bitcoin reach $65,000 in November?",
       "category": "General",
-      "endDate": "2028-11-08T04:59:00Z",
-      "yesPrice": 0.2505,
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.205,
       "outcomes": [
         {
-          "id": "559661-0",
+          "id": "7150681-0",
           "title": "Yes",
-          "price": 0.2505
+          "price": 0.205
         },
         {
-          "id": "559661-1",
+          "id": "7150681-1",
           "title": "No",
-          "price": 0.7495
+          "price": 0.795
         }
       ],
-      "volume": 15238986.407817,
-      "liquidity": 295943.88438,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 134888.80835900002,
+      "liquidity": 60272.4295,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "682705",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.1975,
+      "outcomes": [
+        {
+          "id": "682705-0",
+          "title": "Yes",
+          "price": 0.1975
+        },
+        {
+          "id": "682705-1",
+          "title": "No",
+          "price": 0.8025
+        }
+      ],
+      "volume": 35679709.70048,
+      "liquidity": 275251.06812,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7018707",
+      "question": "Will Bitcoin reach $70,000 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.06,
+      "outcomes": [
+        {
+          "id": "7018707-0",
+          "title": "Yes",
+          "price": 0.06
+        },
+        {
+          "id": "7018707-1",
+          "title": "No",
+          "price": 0.94
+        }
+      ],
+      "volume": 386059.42004900007,
+      "liquidity": 66705.5005,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "3399468",
+      "question": "Israel x Iran ceasefire continues through December 31?",
+      "category": "General",
+      "endDate": "2026-12-31T20:29:00Z",
+      "yesPrice": 0.625,
+      "outcomes": [
+        {
+          "id": "3399468-0",
+          "title": "Yes",
+          "price": 0.625
+        },
+        {
+          "id": "3399468-1",
+          "title": "No",
+          "price": 0.375
+        }
+      ],
+      "volume": 3249467.682782,
+      "liquidity": 75965.2965,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7177339",
+      "question": "Will Bitcoin reach $64,000 November 16-22?",
+      "category": "General",
+      "endDate": "2026-11-23T05:00:00Z",
+      "yesPrice": 0.0315,
+      "outcomes": [
+        {
+          "id": "7177339-0",
+          "title": "Yes",
+          "price": 0.0315
+        },
+        {
+          "id": "7177339-1",
+          "title": "No",
+          "price": 0.9685
+        }
+      ],
+      "volume": 92434.06874300001,
+      "liquidity": 40524.92897,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6833902",
+      "question": "Will Aston Villa FC win on 2026-11-21?",
+      "category": "General",
+      "endDate": "2026-11-21T15:00:00Z",
+      "yesPrice": 0.545,
+      "outcomes": [
+        {
+          "id": "6833902-0",
+          "title": "Yes",
+          "price": 0.545
+        },
+        {
+          "id": "6833902-1",
+          "title": "No",
+          "price": 0.455
+        }
+      ],
+      "volume": 102972.76742700001,
+      "liquidity": 371228.5414,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7043499",
+      "question": "Will Bitcoin reach $67,500 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.085,
+      "outcomes": [
+        {
+          "id": "7043499-0",
+          "title": "Yes",
+          "price": 0.085
+        },
+        {
+          "id": "7043499-1",
+          "title": "No",
+          "price": 0.915
+        }
+      ],
+      "volume": 237678.40504800002,
+      "liquidity": 68648.7212,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
       "id": "3215013",
       "question": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
       "category": "General",
       "endDate": "2027-01-28T04:59:00Z",
-      "yesPrice": 0.505,
+      "yesPrice": 0.475,
       "outcomes": [
         {
           "id": "3215013-0",
           "title": "Yes",
-          "price": 0.505
+          "price": 0.475
         },
         {
           "id": "3215013-1",
           "title": "No",
-          "price": 0.495
+          "price": 0.525
         }
       ],
-      "volume": 1056765.5497,
-      "liquidity": 112974.3106,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 1061012.6322579999,
+      "liquidity": 112886.1529,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "6507392",
-      "question": "Will Bitcoin dip to $55,000 in November?",
+      "id": "6991214",
+      "question": "Will Bitcoin reach $72,500 in November?",
       "category": "General",
       "endDate": "2026-12-01T05:00:00Z",
-      "yesPrice": 0.4175,
+      "yesPrice": 0.0395,
       "outcomes": [
         {
-          "id": "6507392-0",
+          "id": "6991214-0",
           "title": "Yes",
-          "price": 0.4175
+          "price": 0.0395
         },
         {
-          "id": "6507392-1",
+          "id": "6991214-1",
           "title": "No",
-          "price": 0.5825
+          "price": 0.9605
         }
       ],
-      "volume": 771406.1465520001,
-      "liquidity": 81638.14336,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 273653.18213699997,
+      "liquidity": 87920.08992,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7182535",
-      "question": "Magic vs. Nets: O/U 222.5",
+      "id": "4906128",
+      "question": "US announces end of Iranian blockade by November 30, 2026?",
       "category": "General",
-      "endDate": "2026-11-21T00:30:00Z",
-      "yesPrice": 0.76,
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.033,
       "outcomes": [
         {
-          "id": "7182535-0",
-          "title": "Over",
-          "price": 0.76
+          "id": "4906128-0",
+          "title": "Yes",
+          "price": 0.033
         },
         {
-          "id": "7182535-1",
-          "title": "Under",
-          "price": 0.24
+          "id": "4906128-1",
+          "title": "No",
+          "price": 0.967
         }
       ],
-      "volume": 85800.675255,
-      "liquidity": 24125.8092,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 3784534.0452079996,
+      "liquidity": 104478.47198,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180266",
-      "question": "Spread: Suns (-4.5)",
+      "id": "7073762",
+      "question": "Will the price of Bitcoin be above $56,000 on November 22?",
       "category": "General",
-      "endDate": "2026-11-21T02:30:00Z",
-      "yesPrice": 0.515,
+      "endDate": "2026-11-22T17:00:00Z",
+      "yesPrice": 0.8305,
       "outcomes": [
         {
-          "id": "7180266-0",
-          "title": "Suns",
-          "price": 0.515
+          "id": "7073762-0",
+          "title": "Yes",
+          "price": 0.8305
         },
         {
-          "id": "7180266-1",
-          "title": "Jazz",
-          "price": 0.485
+          "id": "7073762-1",
+          "title": "No",
+          "price": 0.1695
         }
       ],
-      "volume": 80728.807126,
-      "liquidity": 219899.0128,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 106213.811941,
+      "liquidity": 37811.87838,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7074445",
-      "question": "Will Bitcoin dip to $50,000 in November?",
+      "id": "6833634",
+      "question": "Will Manchester City FC win on 2026-11-21?",
+      "category": "General",
+      "endDate": "2026-11-21T12:30:00Z",
+      "yesPrice": 0.715,
+      "outcomes": [
+        {
+          "id": "6833634-0",
+          "title": "Yes",
+          "price": 0.715
+        },
+        {
+          "id": "6833634-1",
+          "title": "No",
+          "price": 0.285
+        }
+      ],
+      "volume": 104833.289985,
+      "liquidity": 513401.5322,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7182512",
+      "question": "ATP World Tour Finals, Final Stage: Carlos Alcaraz vs Ben Shelton",
+      "category": "General",
+      "endDate": "2026-11-28T17:00:00Z",
+      "yesPrice": 0.805,
+      "outcomes": [
+        {
+          "id": "7182512-0",
+          "title": "Carlos Alcaraz",
+          "price": 0.805
+        },
+        {
+          "id": "7182512-1",
+          "title": "Ben Shelton",
+          "price": 0.195
+        }
+      ],
+      "volume": 77128.50730400001,
+      "liquidity": 146102.8969,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "3580932",
+      "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.655,
+      "outcomes": [
+        {
+          "id": "3580932-0",
+          "title": "Yes",
+          "price": 0.655
+        },
+        {
+          "id": "3580932-1",
+          "title": "No",
+          "price": 0.345
+        }
+      ],
+      "volume": 3102526.7793650003,
+      "liquidity": 402477.5405,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7043500",
+      "question": "Will Bitcoin dip to $52,500 in November?",
       "category": "General",
       "endDate": "2026-12-01T05:00:00Z",
-      "yesPrice": 0.136,
+      "yesPrice": 0.325,
       "outcomes": [
         {
-          "id": "7074445-0",
+          "id": "7043500-0",
           "title": "Yes",
-          "price": 0.136
+          "price": 0.325
         },
         {
-          "id": "7074445-1",
+          "id": "7043500-1",
           "title": "No",
-          "price": 0.864
+          "price": 0.675
         }
       ],
-      "volume": 246940.21119600005,
-      "liquidity": 82367.99773,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 281607.614934,
+      "liquidity": 62726.2966,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     },
     {
-      "id": "7180277",
-      "question": "Suns vs. Jazz: O/U 226.5",
+      "id": "1345531",
+      "question": "Will Bitcoin reach $90,000 by December 31, 2026?",
       "category": "General",
-      "endDate": "2026-11-21T02:30:00Z",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.0365,
+      "outcomes": [
+        {
+          "id": "1345531-0",
+          "title": "Yes",
+          "price": 0.0365
+        },
+        {
+          "id": "1345531-1",
+          "title": "No",
+          "price": 0.9635
+        }
+      ],
+      "volume": 3606191.98672,
+      "liquidity": 134509.32815,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6044504",
+      "question": "NATO x Russia military clash by November 30, 2026?",
+      "category": "General",
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.0405,
+      "outcomes": [
+        {
+          "id": "6044504-0",
+          "title": "Yes",
+          "price": 0.0405
+        },
+        {
+          "id": "6044504-1",
+          "title": "No",
+          "price": 0.9595
+        }
+      ],
+      "volume": 305431.178526,
+      "liquidity": 21037.56887,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7180183",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-27T20:00:00Z",
+      "yesPrice": 0.245,
+      "outcomes": [
+        {
+          "id": "7180183-0",
+          "title": "Yes",
+          "price": 0.245
+        },
+        {
+          "id": "7180183-1",
+          "title": "No",
+          "price": 0.755
+        }
+      ],
+      "volume": 87564,
+      "liquidity": 318.3519,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "6823400",
+      "question": "Spread: BYU (-5.5)",
+      "category": "General",
+      "endDate": "2026-11-21T17:00:00Z",
       "yesPrice": 0.495,
       "outcomes": [
         {
-          "id": "7180277-0",
-          "title": "Over",
+          "id": "6823400-0",
+          "title": "BYU",
           "price": 0.495
         },
         {
-          "id": "7180277-1",
-          "title": "Under",
+          "id": "6823400-1",
+          "title": "Kansas",
           "price": 0.505
         }
       ],
-      "volume": 80213.533848,
-      "liquidity": 222229.0888,
-      "lastUpdated": "2026-11-21T02:05:02.029Z"
+      "volume": 70587.37366900001,
+      "liquidity": 144971.7579,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7097305",
+      "question": "Will Elon Musk post 40-64 tweets from November 19 to November 21, 2026?",
+      "category": "General",
+      "endDate": "2026-11-21T17:00:00Z",
+      "yesPrice": 0.125,
+      "outcomes": [
+        {
+          "id": "7097305-0",
+          "title": "Yes",
+          "price": 0.125
+        },
+        {
+          "id": "7097305-1",
+          "title": "No",
+          "price": 0.875
+        }
+      ],
+      "volume": 86438.897834,
+      "liquidity": 4288.9916,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7205736",
+      "question": "Counter-Strike: Alliance vs Envy (BO3) - RUSH Brno Playoffs",
+      "category": "General",
+      "endDate": "2026-11-21T19:00:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "7205736-0",
+          "title": "Alliance",
+          "price": 0.485
+        },
+        {
+          "id": "7205736-1",
+          "title": "Envy",
+          "price": 0.515
+        }
+      ],
+      "volume": 69325.442151,
+      "liquidity": 119826.9296,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "2243308",
+      "question": "Will Philadelphia 76ers win the 2027 NBA Finals?",
+      "category": "General",
+      "endDate": "2027-07-01T03:59:00Z",
+      "yesPrice": 0.1095,
+      "outcomes": [
+        {
+          "id": "2243308-0",
+          "title": "Yes",
+          "price": 0.1095
+        },
+        {
+          "id": "2243308-1",
+          "title": "No",
+          "price": 0.8905
+        }
+      ],
+      "volume": 2125244.5391769996,
+      "liquidity": 133451.46123,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7042826",
+      "question": "Will the price of Bitcoin be above $60,000 on November 21?",
+      "category": "General",
+      "endDate": "2026-11-21T17:00:00Z",
+      "yesPrice": 0.0665,
+      "outcomes": [
+        {
+          "id": "7042826-0",
+          "title": "Yes",
+          "price": 0.0665
+        },
+        {
+          "id": "7042826-1",
+          "title": "No",
+          "price": 0.9335
+        }
+      ],
+      "volume": 94411.659845,
+      "liquidity": 43022.46513,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "561996",
+      "question": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
+      "category": "General",
+      "endDate": "2028-11-08T04:59:00Z",
+      "yesPrice": 0.0455,
+      "outcomes": [
+        {
+          "id": "561996-0",
+          "title": "Yes",
+          "price": 0.0455
+        },
+        {
+          "id": "561996-1",
+          "title": "No",
+          "price": 0.9545
+        }
+      ],
+      "volume": 14149876.156493,
+      "liquidity": 255701.10342,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "559661",
+      "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+      "category": "General",
+      "endDate": "2028-11-08T04:59:00Z",
+      "yesPrice": 0.2365,
+      "outcomes": [
+        {
+          "id": "559661-0",
+          "title": "Yes",
+          "price": 0.2365
+        },
+        {
+          "id": "559661-1",
+          "title": "No",
+          "price": 0.7635
+        }
+      ],
+      "volume": 15245243.245066,
+      "liquidity": 306392.10539,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "7130417",
+      "question": "Will Kai Cenat finish his GTA VI marathon by November 22?",
+      "category": "General",
+      "endDate": "2026-11-23T04:59:00Z",
+      "yesPrice": 0.9335,
+      "outcomes": [
+        {
+          "id": "7130417-0",
+          "title": "Yes",
+          "price": 0.9335
+        },
+        {
+          "id": "7130417-1",
+          "title": "No",
+          "price": 0.0665
+        }
+      ],
+      "volume": 117653.574408,
+      "liquidity": 6698.8644,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
+    },
+    {
+      "id": "1535973",
+      "question": "Iran leadership change by December 31?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.075,
+      "outcomes": [
+        {
+          "id": "1535973-0",
+          "title": "Yes",
+          "price": 0.075
+        },
+        {
+          "id": "1535973-1",
+          "title": "No",
+          "price": 0.925
+        }
+      ],
+      "volume": 6447389.772532,
+      "liquidity": 96434.9534,
+      "lastUpdated": "2026-11-21T09:38:12.555Z"
     }
   ],
-  "lastUpdated": "2026-11-21T02:05:10.889Z"
+  "lastUpdated": "2026-11-21T09:38:20.486Z"
 }
