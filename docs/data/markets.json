@@ -1,312 +1,136 @@
 {
   "markets": [
     {
-      "id": "7222313",
-      "question": "Yokohama: Ryo Ono vs Lennon Roark Jones",
-      "category": "General",
-      "endDate": "2026-11-30T01:00:00Z",
-      "yesPrice": 0.475,
-      "outcomes": [
-        {
-          "id": "7222313-0",
-          "title": "Ryo Ono",
-          "price": 0.475
-        },
-        {
-          "id": "7222313-1",
-          "title": "Lennon Roark Jones",
-          "price": 0.525
-        }
-      ],
-      "volume": 3187519.4039820004,
-      "liquidity": 0,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
       "id": "7203506",
       "question": "Will the price of Bitcoin be between $60,000 and $62,000 on November 27?",
       "category": "General",
       "endDate": "2026-11-27T17:00:00Z",
-      "yesPrice": 0.535,
+      "yesPrice": 0.58,
       "outcomes": [
         {
           "id": "7203506-0",
           "title": "Yes",
-          "price": 0.535
+          "price": 0.58
         },
         {
           "id": "7203506-1",
           "title": "No",
-          "price": 0.465
+          "price": 0.42
         }
       ],
-      "volume": 2026053.3302290002,
-      "liquidity": 43820.0544,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "6747194",
-      "question": "Eagles vs. Cowboys",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.045,
-      "outcomes": [
-        {
-          "id": "6747194-0",
-          "title": "Eagles",
-          "price": 0.045
-        },
-        {
-          "id": "6747194-1",
-          "title": "Cowboys",
-          "price": 0.955
-        }
-      ],
-      "volume": 1210829.429209,
-      "liquidity": 523017.802,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "6936803",
-      "question": "Spread: Cowboys (-8.5)",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.835,
-      "outcomes": [
-        {
-          "id": "6936803-0",
-          "title": "Cowboys",
-          "price": 0.835
-        },
-        {
-          "id": "6936803-1",
-          "title": "Eagles",
-          "price": 0.165
-        }
-      ],
-      "volume": 893949.4239620002,
-      "liquidity": 48742.5032,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "7319409",
-      "question": "San Salvador: Lucas Da Silva vs Diego Duran",
-      "category": "General",
-      "endDate": "2026-12-02T16:00:00Z",
-      "yesPrice": 0.702,
-      "outcomes": [
-        {
-          "id": "7319409-0",
-          "title": "Lucas Da Silva",
-          "price": 0.702
-        },
-        {
-          "id": "7319409-1",
-          "title": "Diego Duran",
-          "price": 0.298
-        }
-      ],
-      "volume": 554907.813239,
-      "liquidity": 72161.04522,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "6936969",
-      "question": "Eagles vs. Cowboys: O/U 48.5",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.61,
-      "outcomes": [
-        {
-          "id": "6936969-0",
-          "title": "Over",
-          "price": 0.61
-        },
-        {
-          "id": "6936969-1",
-          "title": "Under",
-          "price": 0.39
-        }
-      ],
-      "volume": 430370.61278799997,
-      "liquidity": 39360.8587,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
+      "volume": 2030300.401276,
+      "liquidity": 45518.0976,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "3580932",
       "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
       "category": "General",
       "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.625,
+      "yesPrice": 0.615,
       "outcomes": [
         {
           "id": "3580932-0",
           "title": "Yes",
-          "price": 0.625
+          "price": 0.615
         },
         {
           "id": "3580932-1",
           "title": "No",
-          "price": 0.375
+          "price": 0.385
         }
       ],
-      "volume": 4160917.9752899995,
-      "liquidity": 405893.1093,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "3580933",
-      "question": "Will Puma Shen win the next Taipei Mayor election?",
-      "category": "General",
-      "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.3885,
-      "outcomes": [
-        {
-          "id": "3580933-0",
-          "title": "Yes",
-          "price": 0.3885
-        },
-        {
-          "id": "3580933-1",
-          "title": "No",
-          "price": 0.6115
-        }
-      ],
-      "volume": 4781698.99965,
-      "liquidity": 350080.15918,
-      "lastUpdated": "2026-11-26T23:02:46.767Z"
-    },
-    {
-      "id": "6936804",
-      "question": "Spread: Cowboys (-9.5)",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.825,
-      "outcomes": [
-        {
-          "id": "6936804-0",
-          "title": "Cowboys",
-          "price": 0.825
-        },
-        {
-          "id": "6936804-1",
-          "title": "Eagles",
-          "price": 0.175
-        }
-      ],
-      "volume": 316634.457198,
-      "liquidity": 54648.547,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6936970",
-      "question": "Eagles vs. Cowboys: O/U 50.5",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.57,
-      "outcomes": [
-        {
-          "id": "6936970-0",
-          "title": "Over",
-          "price": 0.57
-        },
-        {
-          "id": "6936970-1",
-          "title": "Under",
-          "price": 0.43
-        }
-      ],
-      "volume": 273549.35331000003,
-      "liquidity": 50541.404,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "3215008",
-      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-12-09T23:59:00Z",
-      "yesPrice": 0.935,
-      "outcomes": [
-        {
-          "id": "3215008-0",
-          "title": "Yes",
-          "price": 0.935
-        },
-        {
-          "id": "3215008-1",
-          "title": "No",
-          "price": 0.065
-        }
-      ],
-      "volume": 13755122.018349,
-      "liquidity": 1150431.6753,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6937084",
-      "question": "Spread: Bills (-2.5)",
-      "category": "General",
-      "endDate": "2026-11-27T01:20:00Z",
-      "yesPrice": 0.545,
-      "outcomes": [
-        {
-          "id": "6937084-0",
-          "title": "Bills",
-          "price": 0.545
-        },
-        {
-          "id": "6937084-1",
-          "title": "Chiefs",
-          "price": 0.455
-        }
-      ],
-      "volume": 278765.185713,
-      "liquidity": 1257649.5727,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 4269442.602216001,
+      "liquidity": 384367.1232,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "7277952",
       "question": "Will the average Ornn B200 rental price in March 2027 be above $8.00?",
       "category": "General",
       "endDate": "2027-04-01T03:59:00Z",
-      "yesPrice": 0.725,
+      "yesPrice": 0.715,
       "outcomes": [
         {
           "id": "7277952-0",
           "title": "Yes",
-          "price": 0.725
+          "price": 0.715
         },
         {
           "id": "7277952-1",
           "title": "No",
-          "price": 0.275
+          "price": 0.285
         }
       ],
-      "volume": 249016.50277900003,
-      "liquidity": 193843.0504,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 319127.743978,
+      "liquidity": 108975.1522,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3580933",
+      "question": "Will Puma Shen win the next Taipei Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.395,
+      "outcomes": [
+        {
+          "id": "3580933-0",
+          "title": "Yes",
+          "price": 0.395
+        },
+        {
+          "id": "3580933-1",
+          "title": "No",
+          "price": 0.605
+        }
+      ],
+      "volume": 4835242.071807,
+      "liquidity": 372084.31408,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7338859",
+      "question": "Yokohama: Kaichi Uchida vs Ognjen Milic",
+      "category": "General",
+      "endDate": "2026-12-04T01:00:00Z",
+      "yesPrice": 0.505,
+      "outcomes": [
+        {
+          "id": "7338859-0",
+          "title": "Kaichi Uchida",
+          "price": 0.505
+        },
+        {
+          "id": "7338859-1",
+          "title": "Ognjen Milic",
+          "price": 0.495
+        }
+      ],
+      "volume": 296351.2693509999,
+      "liquidity": 159675.886,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "682705",
       "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
       "category": "General",
       "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.1155,
+      "yesPrice": 0.118,
       "outcomes": [
         {
           "id": "682705-0",
           "title": "Yes",
-          "price": 0.1155
+          "price": 0.118
         },
         {
           "id": "682705-1",
           "title": "No",
-          "price": 0.8845
+          "price": 0.882
         }
       ],
-      "volume": 36437861.260396,
-      "liquidity": 178927.81438,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 36460402.54331001,
+      "liquidity": 179798.62707,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "6937349",
@@ -326,273 +150,31 @@
           "price": 0.495
         }
       ],
-      "volume": 237101.59644100006,
-      "liquidity": 335691.7009,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 239473.92644200005,
+      "liquidity": 465791.9485,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
-      "id": "3902370",
-      "question": "Israel x Iran ceasefire continues through November 30?",
+      "id": "7023983",
+      "question": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
       "category": "General",
-      "endDate": "2026-11-30T20:29:00Z",
-      "yesPrice": 0.945,
+      "endDate": "2026-12-01T04:59:00Z",
+      "yesPrice": 0.2415,
       "outcomes": [
         {
-          "id": "3902370-0",
+          "id": "7023983-0",
           "title": "Yes",
-          "price": 0.945
+          "price": 0.2415
         },
         {
-          "id": "3902370-1",
+          "id": "7023983-1",
           "title": "No",
-          "price": 0.055
+          "price": 0.7585
         }
       ],
-      "volume": 3011150.9191819998,
-      "liquidity": 107923.8863,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6747203",
-      "question": "Chiefs vs. Bills",
-      "category": "General",
-      "endDate": "2026-11-27T01:20:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "6747203-0",
-          "title": "Chiefs",
-          "price": 0.395
-        },
-        {
-          "id": "6747203-1",
-          "title": "Bills",
-          "price": 0.605
-        }
-      ],
-      "volume": 228047.072166,
-      "liquidity": 3008278.3213,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "3215007",
-      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-      "category": "General",
-      "endDate": "2026-12-09T23:59:00Z",
-      "yesPrice": 0.038,
-      "outcomes": [
-        {
-          "id": "3215007-0",
-          "title": "Yes",
-          "price": 0.038
-        },
-        {
-          "id": "3215007-1",
-          "title": "No",
-          "price": 0.962
-        }
-      ],
-      "volume": 16779286.924123,
-      "liquidity": 523559.20148,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "682708",
-      "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-      "category": "General",
-      "endDate": "2026-10-28T03:59:00Z",
-      "yesPrice": 0.817,
-      "outcomes": [
-        {
-          "id": "682708-0",
-          "title": "Yes",
-          "price": 0.817
-        },
-        {
-          "id": "682708-1",
-          "title": "No",
-          "price": 0.183
-        }
-      ],
-      "volume": 11212193.79627,
-      "liquidity": 100117.42692,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "3580994",
-      "question": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-      "category": "General",
-      "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "3580994-0",
-          "title": "Yes",
-          "price": 0.395
-        },
-        {
-          "id": "3580994-1",
-          "title": "No",
-          "price": 0.605
-        }
-      ],
-      "volume": 523109.452268,
-      "liquidity": 125571.2221,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7287078",
-      "question": "Jensen Huang announced resignation or removal again by March 31, 2027?",
-      "category": "General",
-      "endDate": "2027-04-01T03:59:00Z",
-      "yesPrice": 0.165,
-      "outcomes": [
-        {
-          "id": "7287078-0",
-          "title": "Yes",
-          "price": 0.165
-        },
-        {
-          "id": "7287078-1",
-          "title": "No",
-          "price": 0.835
-        }
-      ],
-      "volume": 367640.743107,
-      "liquidity": 223549.1132,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "2695678",
-      "question": "Will Pedro Sánchez be the next Prime Minister of Spain?",
-      "category": "General",
-      "endDate": "2026-11-30T04:59:00Z",
-      "yesPrice": 0.0935,
-      "outcomes": [
-        {
-          "id": "2695678-0",
-          "title": "Yes",
-          "price": 0.0935
-        },
-        {
-          "id": "2695678-1",
-          "title": "No",
-          "price": 0.9065
-        }
-      ],
-      "volume": 1815953.7248800003,
-      "liquidity": 265392.6512,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6936806",
-      "question": "Spread: Cowboys (-13.5)",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.77,
-      "outcomes": [
-        {
-          "id": "6936806-0",
-          "title": "Cowboys",
-          "price": 0.77
-        },
-        {
-          "id": "6936806-1",
-          "title": "Eagles",
-          "price": 0.23
-        }
-      ],
-      "volume": 134394.734208,
-      "liquidity": 46794.8769,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "2695686",
-      "question": "Will Alberto Núñez Feijóo be the next Prime Minister of Spain?",
-      "category": "General",
-      "endDate": "2026-11-30T04:59:00Z",
-      "yesPrice": 0.905,
-      "outcomes": [
-        {
-          "id": "2695686-0",
-          "title": "Yes",
-          "price": 0.905
-        },
-        {
-          "id": "2695686-1",
-          "title": "No",
-          "price": 0.095
-        }
-      ],
-      "volume": 1380960.8697610002,
-      "liquidity": 214982.4874,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7008991",
-      "question": "76ers vs. Pacers",
-      "category": "General",
-      "endDate": "2026-11-28T00:30:00Z",
-      "yesPrice": 0.585,
-      "outcomes": [
-        {
-          "id": "7008991-0",
-          "title": "76ers",
-          "price": 0.585
-        },
-        {
-          "id": "7008991-1",
-          "title": "Pacers",
-          "price": 0.415
-        }
-      ],
-      "volume": 153813.538469,
-      "liquidity": 40334.6544,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6783355",
-      "question": "Broncos vs. Steelers",
-      "category": "General",
-      "endDate": "2026-11-27T20:00:00Z",
-      "yesPrice": 0.675,
-      "outcomes": [
-        {
-          "id": "6783355-0",
-          "title": "Broncos",
-          "price": 0.675
-        },
-        {
-          "id": "6783355-1",
-          "title": "Steelers",
-          "price": 0.325
-        }
-      ],
-      "volume": 173635.51200800002,
-      "liquidity": 381154.7832,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "3580995",
-      "question": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-      "category": "General",
-      "endDate": "2026-11-29T04:59:00Z",
-      "yesPrice": 0.605,
-      "outcomes": [
-        {
-          "id": "3580995-0",
-          "title": "Yes",
-          "price": 0.605
-        },
-        {
-          "id": "3580995-1",
-          "title": "No",
-          "price": 0.395
-        }
-      ],
-      "volume": 512484.4175960001,
-      "liquidity": 121475.4169,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 245050.988457,
+      "liquidity": 31416.47368,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "7371339",
@@ -612,141 +194,735 @@
           "price": 0.775
         }
       ],
-      "volume": 130965.61598100001,
-      "liquidity": 700247.2353,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 198916.407586,
+      "liquidity": 694784.815,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3902370",
+      "question": "Israel x Iran ceasefire continues through November 30?",
+      "category": "General",
+      "endDate": "2026-11-30T20:29:00Z",
+      "yesPrice": 0.955,
+      "outcomes": [
+        {
+          "id": "3902370-0",
+          "title": "Yes",
+          "price": 0.955
+        },
+        {
+          "id": "3902370-1",
+          "title": "No",
+          "price": 0.045
+        }
+      ],
+      "volume": 3032995.9726170003,
+      "liquidity": 95114.5674,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "682708",
+      "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+      "category": "General",
+      "endDate": "2026-10-28T03:59:00Z",
+      "yesPrice": 0.813,
+      "outcomes": [
+        {
+          "id": "682708-0",
+          "title": "Yes",
+          "price": 0.813
+        },
+        {
+          "id": "682708-1",
+          "title": "No",
+          "price": 0.187
+        }
+      ],
+      "volume": 11224886.696801,
+      "liquidity": 103185.04955,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3215007",
+      "question": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-12-09T23:59:00Z",
+      "yesPrice": 0.036,
+      "outcomes": [
+        {
+          "id": "3215007-0",
+          "title": "Yes",
+          "price": 0.036
+        },
+        {
+          "id": "3215007-1",
+          "title": "No",
+          "price": 0.964
+        }
+      ],
+      "volume": 16815987.640238,
+      "liquidity": 484263.54243,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "2695686",
+      "question": "Will Alberto Núñez Feijóo be the next Prime Minister of Spain?",
+      "category": "General",
+      "endDate": "2026-11-30T04:59:00Z",
+      "yesPrice": 0.895,
+      "outcomes": [
+        {
+          "id": "2695686-0",
+          "title": "Yes",
+          "price": 0.895
+        },
+        {
+          "id": "2695686-1",
+          "title": "No",
+          "price": 0.105
+        }
+      ],
+      "volume": 1426650.475996,
+      "liquidity": 265337.629,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7371350",
+      "question": "Counter-Strike: M80 vs 100 Thieves (BO3) - PGL Major Singapore Stage 1",
+      "category": "General",
+      "endDate": "2026-11-27T17:00:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "7371350-0",
+          "title": "M80",
+          "price": 0.355
+        },
+        {
+          "id": "7371350-1",
+          "title": "100 Thieves",
+          "price": 0.645
+        }
+      ],
+      "volume": 165208.65021800002,
+      "liquidity": 109751.0436,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "2695678",
+      "question": "Will Pedro Sánchez be the next Prime Minister of Spain?",
+      "category": "General",
+      "endDate": "2026-11-30T04:59:00Z",
+      "yesPrice": 0.09,
+      "outcomes": [
+        {
+          "id": "2695678-0",
+          "title": "Yes",
+          "price": 0.09
+        },
+        {
+          "id": "2695678-1",
+          "title": "No",
+          "price": 0.91
+        }
+      ],
+      "volume": 1854472.4188910003,
+      "liquidity": 238006.95304,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "1339767",
       "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
       "category": "General",
       "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.2915,
+      "yesPrice": 0.276,
       "outcomes": [
         {
           "id": "1339767-0",
           "title": "Yes",
-          "price": 0.2915
+          "price": 0.276
         },
         {
           "id": "1339767-1",
           "title": "No",
-          "price": 0.7085
+          "price": 0.724
         }
       ],
-      "volume": 7314535.600380998,
-      "liquidity": 116447.9473,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 7343488.794241999,
+      "liquidity": 119938.89312,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "6783355",
+      "question": "Broncos vs. Steelers",
+      "category": "General",
+      "endDate": "2026-11-27T20:00:00Z",
+      "yesPrice": 0.685,
+      "outcomes": [
+        {
+          "id": "6783355-0",
+          "title": "Broncos",
+          "price": 0.685
+        },
+        {
+          "id": "6783355-1",
+          "title": "Steelers",
+          "price": 0.315
+        }
+      ],
+      "volume": 187003.54909400005,
+      "liquidity": 652680.2297,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7333951",
+      "question": "Playford: Moerani Bouzige vs Tristan Schoolkate",
+      "category": "General",
+      "endDate": "2026-12-03T23:30:00Z",
+      "yesPrice": 0.355,
+      "outcomes": [
+        {
+          "id": "7333951-0",
+          "title": "Moerani Bouzige",
+          "price": 0.355
+        },
+        {
+          "id": "7333951-1",
+          "title": "Tristan Schoolkate",
+          "price": 0.645
+        }
+      ],
+      "volume": 125027.06942500002,
+      "liquidity": 169280.9759,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7008991",
+      "question": "76ers vs. Pacers",
+      "category": "General",
+      "endDate": "2026-11-28T00:30:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "7008991-0",
+          "title": "76ers",
+          "price": 0.595
+        },
+        {
+          "id": "7008991-1",
+          "title": "Pacers",
+          "price": 0.405
+        }
+      ],
+      "volume": 167703.137889,
+      "liquidity": 62161.699,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "1193094",
       "question": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
       "category": "General",
       "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.11,
+      "yesPrice": 0.105,
       "outcomes": [
         {
           "id": "1193094-0",
           "title": "Yes",
-          "price": 0.11
+          "price": 0.105
         },
         {
           "id": "1193094-1",
           "title": "No",
-          "price": 0.89
+          "price": 0.895
         }
       ],
-      "volume": 4138784.311875,
-      "liquidity": 132474.6528,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "2243318",
-      "question": "Will Minnesota Timberwolves win the 2027 NBA Finals?",
-      "category": "General",
-      "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.0815,
-      "outcomes": [
-        {
-          "id": "2243318-0",
-          "title": "Yes",
-          "price": 0.0815
-        },
-        {
-          "id": "2243318-1",
-          "title": "No",
-          "price": 0.9185
-        }
-      ],
-      "volume": 1557848.249632,
-      "liquidity": 212685.06775,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277964",
-      "question": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
-      "category": "General",
-      "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.625,
-      "outcomes": [
-        {
-          "id": "7277964-0",
-          "title": "Yes",
-          "price": 0.625
-        },
-        {
-          "id": "7277964-1",
-          "title": "No",
-          "price": 0.375
-        }
-      ],
-      "volume": 129176.10993800001,
-      "liquidity": 63003.1475,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7276616",
-      "question": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.445,
-      "outcomes": [
-        {
-          "id": "7276616-0",
-          "title": "Yes",
-          "price": 0.445
-        },
-        {
-          "id": "7276616-1",
-          "title": "No",
-          "price": 0.555
-        }
-      ],
-      "volume": 245148.71125100003,
-      "liquidity": 110241.1201,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 4149805.315817001,
+      "liquidity": 116090.9932,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "7362352",
       "question": "Will the average Ornn H200 rental price in January 2027 be above $7.00?",
       "category": "General",
       "endDate": "2027-02-01T04:59:00Z",
-      "yesPrice": 0.355,
+      "yesPrice": 0.335,
       "outcomes": [
         {
           "id": "7362352-0",
           "title": "Yes",
-          "price": 0.355
+          "price": 0.335
         },
         {
           "id": "7362352-1",
           "title": "No",
-          "price": 0.645
+          "price": 0.665
         }
       ],
-      "volume": 116000.97225799998,
-      "liquidity": 30388.2453,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 132710.035878,
+      "liquidity": 43291.263,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3580994",
+      "question": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.39,
+      "outcomes": [
+        {
+          "id": "3580994-0",
+          "title": "Yes",
+          "price": 0.39
+        },
+        {
+          "id": "3580994-1",
+          "title": "No",
+          "price": 0.61
+        }
+      ],
+      "volume": 524317.344708,
+      "liquidity": 148423.6944,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "5336560",
+      "question": "Will PSOE win the most seats in the 2026 Spanish general election?",
+      "category": "General",
+      "endDate": "2026-11-30T04:59:00Z",
+      "yesPrice": 0.245,
+      "outcomes": [
+        {
+          "id": "5336560-0",
+          "title": "Yes",
+          "price": 0.245
+        },
+        {
+          "id": "5336560-1",
+          "title": "No",
+          "price": 0.755
+        }
+      ],
+      "volume": 571835.4227799999,
+      "liquidity": 223541.0358,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3215008",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "category": "General",
+      "endDate": "2026-12-09T23:59:00Z",
+      "yesPrice": 0.935,
+      "outcomes": [
+        {
+          "id": "3215008-0",
+          "title": "Yes",
+          "price": 0.935
+        },
+        {
+          "id": "3215008-1",
+          "title": "No",
+          "price": 0.065
+        }
+      ],
+      "volume": 13761702.345484,
+      "liquidity": 1139465.7157,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277466",
+      "question": "Will the average Ornn B300 rental price in December 2026 be above $11.00?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.555,
+      "outcomes": [
+        {
+          "id": "7277466-0",
+          "title": "Yes",
+          "price": 0.555
+        },
+        {
+          "id": "7277466-1",
+          "title": "No",
+          "price": 0.445
+        }
+      ],
+      "volume": 203114.503277,
+      "liquidity": 38636.5623,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7353491",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-29T17:30:00Z",
+      "yesPrice": 0.1925,
+      "outcomes": [
+        {
+          "id": "7353491-0",
+          "title": "Yes",
+          "price": 0.1925
+        },
+        {
+          "id": "7353491-1",
+          "title": "No",
+          "price": 0.8075
+        }
+      ],
+      "volume": 107354,
+      "liquidity": 466.27944,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7371341",
+      "question": "Map Handicap: HERO (-1.5) vs Lynn Vision (+1.5)",
+      "category": "General",
+      "endDate": "2026-11-27T12:00:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "7371341-0",
+          "title": "Heroic",
+          "price": 0.485
+        },
+        {
+          "id": "7371341-1",
+          "title": "Lynn Vision",
+          "price": 0.515
+        }
+      ],
+      "volume": 100748.39487499998,
+      "liquidity": 123233.4941,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277635",
+      "question": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.615,
+      "outcomes": [
+        {
+          "id": "7277635-0",
+          "title": "Yes",
+          "price": 0.615
+        },
+        {
+          "id": "7277635-1",
+          "title": "No",
+          "price": 0.385
+        }
+      ],
+      "volume": 174929.007248,
+      "liquidity": 39470.3088,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "701502",
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.113,
+      "outcomes": [
+        {
+          "id": "701502-0",
+          "title": "Yes",
+          "price": 0.113
+        },
+        {
+          "id": "701502-1",
+          "title": "No",
+          "price": 0.887
+        }
+      ],
+      "volume": 11051892.203718001,
+      "liquidity": 304771.99183,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7278004",
+      "question": "Will the average Ornn H100 rental price in January 2027 be above $3.00?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "7278004-0",
+          "title": "Yes",
+          "price": 0.535
+        },
+        {
+          "id": "7278004-1",
+          "title": "No",
+          "price": 0.465
+        }
+      ],
+      "volume": 271993.974226,
+      "liquidity": 37492.1031,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "679030",
+      "question": "Will Jean-Luc Mélenchon win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.145,
+      "outcomes": [
+        {
+          "id": "679030-0",
+          "title": "Yes",
+          "price": 0.145
+        },
+        {
+          "id": "679030-1",
+          "title": "No",
+          "price": 0.855
+        }
+      ],
+      "volume": 4409311.425097001,
+      "liquidity": 741974.8992,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "1193093",
+      "question": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+      "category": "General",
+      "endDate": "2027-07-01T03:59:00Z",
+      "yesPrice": 0.8835,
+      "outcomes": [
+        {
+          "id": "1193093-0",
+          "title": "Yes",
+          "price": 0.8835
+        },
+        {
+          "id": "1193093-1",
+          "title": "No",
+          "price": 0.1165
+        }
+      ],
+      "volume": 3275402.853422001,
+      "liquidity": 52339.41086,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "679022",
+      "question": "Will David Lisnard win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.2395,
+      "outcomes": [
+        {
+          "id": "679022-0",
+          "title": "Yes",
+          "price": 0.2395
+        },
+        {
+          "id": "679022-1",
+          "title": "No",
+          "price": 0.7605
+        }
+      ],
+      "volume": 9232442.104906,
+      "liquidity": 423939.00514,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "4418550",
+      "question": "Will AI solve P versus NP in 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.1515,
+      "outcomes": [
+        {
+          "id": "4418550-0",
+          "title": "Yes",
+          "price": 0.1515
+        },
+        {
+          "id": "4418550-1",
+          "title": "No",
+          "price": 0.8485
+        }
+      ],
+      "volume": 409391.042461,
+      "liquidity": 65074.45561,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7276619",
+      "question": "Will the average Ornn H100 rental price in December 2026 be above $2.80?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.825,
+      "outcomes": [
+        {
+          "id": "7276619-0",
+          "title": "Yes",
+          "price": 0.825
+        },
+        {
+          "id": "7276619-1",
+          "title": "No",
+          "price": 0.175
+        }
+      ],
+      "volume": 183608.558273,
+      "liquidity": 35750.0193,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "2363845",
+      "question": "Will James Talarico be TIME Person of the Year 2026?",
+      "category": "General",
+      "endDate": "2026-12-31T00:00:00Z",
+      "yesPrice": 0.2795,
+      "outcomes": [
+        {
+          "id": "2363845-0",
+          "title": "Yes",
+          "price": 0.2795
+        },
+        {
+          "id": "2363845-1",
+          "title": "No",
+          "price": 0.7205
+        }
+      ],
+      "volume": 292335.712676,
+      "liquidity": 61588.07119,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "679018",
+      "question": "Will Marine Le Pen win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.4425,
+      "outcomes": [
+        {
+          "id": "679018-0",
+          "title": "Yes",
+          "price": 0.4425
+        },
+        {
+          "id": "679018-1",
+          "title": "No",
+          "price": 0.5575
+        }
+      ],
+      "volume": 6476826.423206001,
+      "liquidity": 567410.59199,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7356452",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-29T18:30:00Z",
+      "yesPrice": 0.185,
+      "outcomes": [
+        {
+          "id": "7356452-0",
+          "title": "Yes",
+          "price": 0.185
+        },
+        {
+          "id": "7356452-1",
+          "title": "No",
+          "price": 0.815
+        }
+      ],
+      "volume": 85300,
+      "liquidity": 1044.492,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7050016",
+      "question": "Spread: Texas (-10.5)",
+      "category": "General",
+      "endDate": "2026-11-28T00:30:00Z",
+      "yesPrice": 0.515,
+      "outcomes": [
+        {
+          "id": "7050016-0",
+          "title": "Texas",
+          "price": 0.515
+        },
+        {
+          "id": "7050016-1",
+          "title": "Texas A&M",
+          "price": 0.485
+        }
+      ],
+      "volume": 85040.24633200001,
+      "liquidity": 216232.3375,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277654",
+      "question": "Will the average Ornn B300 rental price in January 2027 be above $11.00?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "7277654-0",
+          "title": "Yes",
+          "price": 0.595
+        },
+        {
+          "id": "7277654-1",
+          "title": "No",
+          "price": 0.405
+        }
+      ],
+      "volume": 174954.224749,
+      "liquidity": 43957.6311,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277652",
+      "question": "Will the average Ornn B300 rental price in January 2027 be above $12.00?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.375,
+      "outcomes": [
+        {
+          "id": "7277652-0",
+          "title": "Yes",
+          "price": 0.375
+        },
+        {
+          "id": "7277652-1",
+          "title": "No",
+          "price": 0.625
+        }
+      ],
+      "volume": 142880.202394,
+      "liquidity": 37936.8617,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3580995",
+      "question": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.615,
+      "outcomes": [
+        {
+          "id": "3580995-0",
+          "title": "Yes",
+          "price": 0.615
+        },
+        {
+          "id": "3580995-1",
+          "title": "No",
+          "price": 0.385
+        }
+      ],
+      "volume": 515267.2471530001,
+      "liquidity": 135325.7208,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "7277962",
@@ -767,404 +943,8 @@
         }
       ],
       "volume": 125140.53093000001,
-      "liquidity": 15711.694,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6998756",
-      "question": "Arkansas Razorbacks vs. Michigan State Spartans",
-      "category": "General",
-      "endDate": "2026-11-26T21:30:00Z",
-      "yesPrice": 0.395,
-      "outcomes": [
-        {
-          "id": "6998756-0",
-          "title": "Arkansas Razorbacks",
-          "price": 0.395
-        },
-        {
-          "id": "6998756-1",
-          "title": "Michigan State Spartans",
-          "price": 0.605
-        }
-      ],
-      "volume": 114014.556888,
-      "liquidity": 115327.7015,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "4418550",
-      "question": "Will AI solve P versus NP in 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.1505,
-      "outcomes": [
-        {
-          "id": "4418550-0",
-          "title": "Yes",
-          "price": 0.1505
-        },
-        {
-          "id": "4418550-1",
-          "title": "No",
-          "price": 0.8495
-        }
-      ],
-      "volume": 399926.86453799997,
-      "liquidity": 55070.32559,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6994508",
-      "question": "Will Jensen Huang publicly testify before Congress by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.955,
-      "outcomes": [
-        {
-          "id": "6994508-0",
-          "title": "Yes",
-          "price": 0.955
-        },
-        {
-          "id": "6994508-1",
-          "title": "No",
-          "price": 0.045
-        }
-      ],
-      "volume": 309733.795654,
-      "liquidity": 39333.4571,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "679018",
-      "question": "Will Marine Le Pen win the 2027 French presidential election?",
-      "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.4435,
-      "outcomes": [
-        {
-          "id": "679018-0",
-          "title": "Yes",
-          "price": 0.4435
-        },
-        {
-          "id": "679018-1",
-          "title": "No",
-          "price": 0.5565
-        }
-      ],
-      "volume": 6474459.5389020005,
-      "liquidity": 495024.95941,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "679030",
-      "question": "Will Jean-Luc Mélenchon win the 2027 French presidential election?",
-      "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.145,
-      "outcomes": [
-        {
-          "id": "679030-0",
-          "title": "Yes",
-          "price": 0.145
-        },
-        {
-          "id": "679030-1",
-          "title": "No",
-          "price": 0.855
-        }
-      ],
-      "volume": 4404860.385645,
-      "liquidity": 709899.6286,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7287077",
-      "question": "Jensen Huang announced resignation or removal again by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.053,
-      "outcomes": [
-        {
-          "id": "7287077-0",
-          "title": "Yes",
-          "price": 0.053
-        },
-        {
-          "id": "7287077-1",
-          "title": "No",
-          "price": 0.947
-        }
-      ],
-      "volume": 720150.7804149999,
-      "liquidity": 179121.98602,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "1193093",
-      "question": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-      "category": "General",
-      "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.8665,
-      "outcomes": [
-        {
-          "id": "1193093-0",
-          "title": "Yes",
-          "price": 0.8665
-        },
-        {
-          "id": "1193093-1",
-          "title": "No",
-          "price": 0.1335
-        }
-      ],
-      "volume": 3273132.9382040002,
-      "liquidity": 59302.05032,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277466",
-      "question": "Will the average Ornn B300 rental price in December 2026 be above $11.00?",
-      "category": "General",
-      "endDate": "2027-01-01T04:59:00Z",
-      "yesPrice": 0.515,
-      "outcomes": [
-        {
-          "id": "7277466-0",
-          "title": "Yes",
-          "price": 0.515
-        },
-        {
-          "id": "7277466-1",
-          "title": "No",
-          "price": 0.485
-        }
-      ],
-      "volume": 167488.33643400003,
-      "liquidity": 37475.7652,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "5336560",
-      "question": "Will PSOE win the most seats in the 2026 Spanish general election?",
-      "category": "General",
-      "endDate": "2026-11-30T04:59:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "5336560-0",
-          "title": "Yes",
-          "price": 0.265
-        },
-        {
-          "id": "5336560-1",
-          "title": "No",
-          "price": 0.735
-        }
-      ],
-      "volume": 531873.690191,
-      "liquidity": 197747.4581,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277963",
-      "question": "Will the average Ornn B200 rental price in June 2027 be above $8.00?",
-      "category": "General",
-      "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.535,
-      "outcomes": [
-        {
-          "id": "7277963-0",
-          "title": "Yes",
-          "price": 0.535
-        },
-        {
-          "id": "7277963-1",
-          "title": "No",
-          "price": 0.465
-        }
-      ],
-      "volume": 221885.69358799997,
-      "liquidity": 19857.4167,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277663",
-      "question": "Will the average Ornn B300 rental price in February 2027 be above $13.00?",
-      "category": "General",
-      "endDate": "2027-03-01T04:59:00Z",
-      "yesPrice": 0.265,
-      "outcomes": [
-        {
-          "id": "7277663-0",
-          "title": "Yes",
-          "price": 0.265
-        },
-        {
-          "id": "7277663-1",
-          "title": "No",
-          "price": 0.735
-        }
-      ],
-      "volume": 130640.168675,
-      "liquidity": 22886.5757,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "679022",
-      "question": "Will David Lisnard win the 2027 French presidential election?",
-      "category": "General",
-      "endDate": "2027-04-19T03:59:00Z",
-      "yesPrice": 0.2335,
-      "outcomes": [
-        {
-          "id": "679022-0",
-          "title": "Yes",
-          "price": 0.2335
-        },
-        {
-          "id": "679022-1",
-          "title": "No",
-          "price": 0.7665
-        }
-      ],
-      "volume": 9220585.793327,
-      "liquidity": 388591.85303,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277654",
-      "question": "Will the average Ornn B300 rental price in January 2027 be above $11.00?",
-      "category": "General",
-      "endDate": "2027-02-01T04:59:00Z",
-      "yesPrice": 0.595,
-      "outcomes": [
-        {
-          "id": "7277654-0",
-          "title": "Yes",
-          "price": 0.595
-        },
-        {
-          "id": "7277654-1",
-          "title": "No",
-          "price": 0.405
-        }
-      ],
-      "volume": 141818.764585,
-      "liquidity": 29357.999,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7277960",
-      "question": "Will the average Ornn B200 rental price in June 2027 be above $11.00?",
-      "category": "General",
-      "endDate": "2027-07-01T03:59:00Z",
-      "yesPrice": 0.225,
-      "outcomes": [
-        {
-          "id": "7277960-0",
-          "title": "Yes",
-          "price": 0.225
-        },
-        {
-          "id": "7277960-1",
-          "title": "No",
-          "price": 0.775
-        }
-      ],
-      "volume": 91234.910246,
-      "liquidity": 61606.9744,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "7371341",
-      "question": "Map Handicap: HERO (-1.5) vs Lynn Vision (+1.5)",
-      "category": "General",
-      "endDate": "2026-11-27T12:00:00Z",
-      "yesPrice": 0.495,
-      "outcomes": [
-        {
-          "id": "7371341-0",
-          "title": "Heroic",
-          "price": 0.495
-        },
-        {
-          "id": "7371341-1",
-          "title": "Lynn Vision",
-          "price": 0.505
-        }
-      ],
-      "volume": 80040.21565,
-      "liquidity": 29495.6726,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "6937085",
-      "question": "Spread: Bills (-3.5)",
-      "category": "General",
-      "endDate": "2026-11-27T01:20:00Z",
-      "yesPrice": 0.445,
-      "outcomes": [
-        {
-          "id": "6937085-0",
-          "title": "Bills",
-          "price": 0.445
-        },
-        {
-          "id": "6937085-1",
-          "title": "Chiefs",
-          "price": 0.555
-        }
-      ],
-      "volume": 83340.360925,
-      "liquidity": 711750.1177,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "2363845",
-      "question": "Will James Talarico be TIME Person of the Year 2026?",
-      "category": "General",
-      "endDate": "2026-12-31T00:00:00Z",
-      "yesPrice": 0.276,
-      "outcomes": [
-        {
-          "id": "2363845-0",
-          "title": "Yes",
-          "price": 0.276
-        },
-        {
-          "id": "2363845-1",
-          "title": "No",
-          "price": 0.724
-        }
-      ],
-      "volume": 282735.23387500003,
-      "liquidity": 52343.94394,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
-    },
-    {
-      "id": "701502",
-      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-      "category": "General",
-      "endDate": "2027-01-01T05:00:00Z",
-      "yesPrice": 0.1325,
-      "outcomes": [
-        {
-          "id": "701502-0",
-          "title": "Yes",
-          "price": 0.1325
-        },
-        {
-          "id": "701502-1",
-          "title": "No",
-          "price": 0.8675
-        }
-      ],
-      "volume": 11018676.778463999,
-      "liquidity": 315872.13569,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "liquidity": 16763.5784,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     },
     {
       "id": "7277903",
@@ -1184,10 +964,560 @@
           "price": 0.405
         }
       ],
-      "volume": 77140.04685799999,
-      "liquidity": 44018.6062,
-      "lastUpdated": "2026-11-26T23:02:46.768Z"
+      "volume": 77182.14352499999,
+      "liquidity": 34869.681,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "5336561",
+      "question": "Will PP win the most seats in the 2026 Spanish general election?",
+      "category": "General",
+      "endDate": "2026-11-30T04:59:00Z",
+      "yesPrice": 0.745,
+      "outcomes": [
+        {
+          "id": "5336561-0",
+          "title": "Yes",
+          "price": 0.745
+        },
+        {
+          "id": "5336561-1",
+          "title": "No",
+          "price": 0.255
+        }
+      ],
+      "volume": 581952.440134,
+      "liquidity": 188763.3955,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277902",
+      "question": "Will the average Ornn B200 rental price in January 2027 be above $9.50?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.485,
+      "outcomes": [
+        {
+          "id": "7277902-0",
+          "title": "Yes",
+          "price": 0.485
+        },
+        {
+          "id": "7277902-1",
+          "title": "No",
+          "price": 0.515
+        }
+      ],
+      "volume": 77773.67079199999,
+      "liquidity": 39089.6814,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7278026",
+      "question": "Will the average Ornn H100 rental price in March 2027 be above $3.00?",
+      "category": "General",
+      "endDate": "2027-04-01T03:59:00Z",
+      "yesPrice": 0.425,
+      "outcomes": [
+        {
+          "id": "7278026-0",
+          "title": "Yes",
+          "price": 0.425
+        },
+        {
+          "id": "7278026-1",
+          "title": "No",
+          "price": 0.575
+        }
+      ],
+      "volume": 72524.50729000001,
+      "liquidity": 26015.1501,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "2243318",
+      "question": "Will Minnesota Timberwolves win the 2027 NBA Finals?",
+      "category": "General",
+      "endDate": "2027-07-01T03:59:00Z",
+      "yesPrice": 0.0815,
+      "outcomes": [
+        {
+          "id": "2243318-0",
+          "title": "Yes",
+          "price": 0.0815
+        },
+        {
+          "id": "2243318-1",
+          "title": "No",
+          "price": 0.9185
+        }
+      ],
+      "volume": 1557858.4096319997,
+      "liquidity": 206171.72329,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7287077",
+      "question": "Jensen Huang announced resignation or removal again by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.0515,
+      "outcomes": [
+        {
+          "id": "7287077-0",
+          "title": "Yes",
+          "price": 0.0515
+        },
+        {
+          "id": "7287077-1",
+          "title": "No",
+          "price": 0.9485
+        }
+      ],
+      "volume": 729316.932799,
+      "liquidity": 216546.58734,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3581450",
+      "question": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.81,
+      "outcomes": [
+        {
+          "id": "3581450-0",
+          "title": "Yes",
+          "price": 0.81
+        },
+        {
+          "id": "3581450-1",
+          "title": "No",
+          "price": 0.19
+        }
+      ],
+      "volume": 235486.48218599998,
+      "liquidity": 85921.488,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "6976265",
+      "question": "Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?",
+      "category": "General",
+      "endDate": "2026-11-29T04:59:00Z",
+      "yesPrice": 0.125,
+      "outcomes": [
+        {
+          "id": "6976265-0",
+          "title": "Yes",
+          "price": 0.125
+        },
+        {
+          "id": "6976265-1",
+          "title": "No",
+          "price": 0.875
+        }
+      ],
+      "volume": 186871.38162600002,
+      "liquidity": 78673.80059,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7109769",
+      "question": "Will Elon Musk post 240-259 tweets from November 20 to November 27, 2026?",
+      "category": "General",
+      "endDate": "2026-11-27T17:00:00Z",
+      "yesPrice": 0.3995,
+      "outcomes": [
+        {
+          "id": "7109769-0",
+          "title": "Yes",
+          "price": 0.3995
+        },
+        {
+          "id": "7109769-1",
+          "title": "No",
+          "price": 0.6005
+        }
+      ],
+      "volume": 139624.718818,
+      "liquidity": 12243.78616,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "701501",
+      "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T05:00:00Z",
+      "yesPrice": 0.455,
+      "outcomes": [
+        {
+          "id": "701501-0",
+          "title": "Yes",
+          "price": 0.455
+        },
+        {
+          "id": "701501-1",
+          "title": "No",
+          "price": 0.545
+        }
+      ],
+      "volume": 9786289.547557998,
+      "liquidity": 90441.4297,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7287078",
+      "question": "Jensen Huang announced resignation or removal again by March 31, 2027?",
+      "category": "General",
+      "endDate": "2027-04-01T03:59:00Z",
+      "yesPrice": 0.165,
+      "outcomes": [
+        {
+          "id": "7287078-0",
+          "title": "Yes",
+          "price": 0.165
+        },
+        {
+          "id": "7287078-1",
+          "title": "No",
+          "price": 0.835
+        }
+      ],
+      "volume": 369720.18325800006,
+      "liquidity": 256436.1374,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "3399468",
+      "question": "Israel x Iran ceasefire continues through December 31?",
+      "category": "General",
+      "endDate": "2026-12-31T20:29:00Z",
+      "yesPrice": 0.735,
+      "outcomes": [
+        {
+          "id": "3399468-0",
+          "title": "Yes",
+          "price": 0.735
+        },
+        {
+          "id": "3399468-1",
+          "title": "No",
+          "price": 0.265
+        }
+      ],
+      "volume": 3826960.224387,
+      "liquidity": 31584.8515,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "4418549",
+      "question": "Will AI solve the Riemann Hypothesis in 2026?",
+      "category": "General",
+      "endDate": "2027-01-01T04:59:00Z",
+      "yesPrice": 0.685,
+      "outcomes": [
+        {
+          "id": "4418549-0",
+          "title": "Yes",
+          "price": 0.685
+        },
+        {
+          "id": "4418549-1",
+          "title": "No",
+          "price": 0.315
+        }
+      ],
+      "volume": 598404.405665,
+      "liquidity": 16756.699,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7279400",
+      "question": "Will Bitcoin reach $66,000 November 23-29?",
+      "category": "General",
+      "endDate": "2026-11-30T05:00:00Z",
+      "yesPrice": 0.0805,
+      "outcomes": [
+        {
+          "id": "7279400-0",
+          "title": "Yes",
+          "price": 0.0805
+        },
+        {
+          "id": "7279400-1",
+          "title": "No",
+          "price": 0.9195
+        }
+      ],
+      "volume": 115366.51665599999,
+      "liquidity": 62297.25529,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277917",
+      "question": "Will the average Ornn B200 rental price in February 2027 be above $9.50?",
+      "category": "General",
+      "endDate": "2027-03-01T04:59:00Z",
+      "yesPrice": 0.435,
+      "outcomes": [
+        {
+          "id": "7277917-0",
+          "title": "Yes",
+          "price": 0.435
+        },
+        {
+          "id": "7277917-1",
+          "title": "No",
+          "price": 0.565
+        }
+      ],
+      "volume": 60091.512052,
+      "liquidity": 21809.8565,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7362370",
+      "question": "Will the average Ornn H200 rental price in January 2027 be above $6.00?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.595,
+      "outcomes": [
+        {
+          "id": "7362370-0",
+          "title": "Yes",
+          "price": 0.595
+        },
+        {
+          "id": "7362370-1",
+          "title": "No",
+          "price": 0.405
+        }
+      ],
+      "volume": 59520.179432000004,
+      "liquidity": 44903.6632,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7350664",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-29T16:15:00Z",
+      "yesPrice": 0.175,
+      "outcomes": [
+        {
+          "id": "7350664-0",
+          "title": "Yes",
+          "price": 0.175
+        },
+        {
+          "id": "7350664-1",
+          "title": "No",
+          "price": 0.825
+        }
+      ],
+      "volume": 58642,
+      "liquidity": 1904.3138,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7288834",
+      "question": "Will Bitcoin reach $62,500 in November?",
+      "category": "General",
+      "endDate": "2026-12-01T05:00:00Z",
+      "yesPrice": 0.705,
+      "outcomes": [
+        {
+          "id": "7288834-0",
+          "title": "Yes",
+          "price": 0.705
+        },
+        {
+          "id": "7288834-1",
+          "title": "No",
+          "price": 0.295
+        }
+      ],
+      "volume": 171784.929764,
+      "liquidity": 75000.0994,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277948",
+      "question": "Will the average Ornn B200 rental price in March 2027 be above $10.00?",
+      "category": "General",
+      "endDate": "2027-04-01T03:59:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "7277948-0",
+          "title": "Yes",
+          "price": 0.335
+        },
+        {
+          "id": "7277948-1",
+          "title": "No",
+          "price": 0.665
+        }
+      ],
+      "volume": 63448.871354,
+      "liquidity": 20449.1483,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "679028",
+      "question": "Will François Hollande win the 2027 French presidential election?",
+      "category": "General",
+      "endDate": "2027-04-19T03:59:00Z",
+      "yesPrice": 0.0455,
+      "outcomes": [
+        {
+          "id": "679028-0",
+          "title": "Yes",
+          "price": 0.0455
+        },
+        {
+          "id": "679028-1",
+          "title": "No",
+          "price": 0.9545
+        }
+      ],
+      "volume": 3910782.236646,
+      "liquidity": 239394.43384,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7278028",
+      "question": "Will the average Ornn H100 rental price in March 2027 be above $2.60?",
+      "category": "General",
+      "endDate": "2027-04-01T03:59:00Z",
+      "yesPrice": 0.645,
+      "outcomes": [
+        {
+          "id": "7278028-0",
+          "title": "Yes",
+          "price": 0.645
+        },
+        {
+          "id": "7278028-1",
+          "title": "No",
+          "price": 0.355
+        }
+      ],
+      "volume": 152859.96700200002,
+      "liquidity": 21004.6286,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7203527",
+      "question": "Will the price of Bitcoin be above $62,000 on November 27?",
+      "category": "General",
+      "endDate": "2026-11-27T17:00:00Z",
+      "yesPrice": 0.335,
+      "outcomes": [
+        {
+          "id": "7203527-0",
+          "title": "Yes",
+          "price": 0.335
+        },
+        {
+          "id": "7203527-1",
+          "title": "No",
+          "price": 0.665
+        }
+      ],
+      "volume": 78162.280755,
+      "liquidity": 53094.8275,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7356936",
+      "question": "Exact Score: Any Other Score?",
+      "category": "General",
+      "endDate": "2026-11-29T19:00:00Z",
+      "yesPrice": 0.23,
+      "outcomes": [
+        {
+          "id": "7356936-0",
+          "title": "Yes",
+          "price": 0.23
+        },
+        {
+          "id": "7356936-1",
+          "title": "No",
+          "price": 0.77
+        }
+      ],
+      "volume": 56718,
+      "liquidity": 423.9218,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277918",
+      "question": "Will the average Ornn B200 rental price in February 2027 be above $9.00?",
+      "category": "General",
+      "endDate": "2027-03-01T04:59:00Z",
+      "yesPrice": 0.535,
+      "outcomes": [
+        {
+          "id": "7277918-0",
+          "title": "Yes",
+          "price": 0.535
+        },
+        {
+          "id": "7277918-1",
+          "title": "No",
+          "price": 0.465
+        }
+      ],
+      "volume": 61071.489629,
+      "liquidity": 25283.168,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "7277904",
+      "question": "Will the average Ornn B200 rental price in January 2027 be above $8.50?",
+      "category": "General",
+      "endDate": "2027-02-01T04:59:00Z",
+      "yesPrice": 0.695,
+      "outcomes": [
+        {
+          "id": "7277904-0",
+          "title": "Yes",
+          "price": 0.695
+        },
+        {
+          "id": "7277904-1",
+          "title": "No",
+          "price": 0.305
+        }
+      ],
+      "volume": 55994.82750800001,
+      "liquidity": 54425.2927,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
+    },
+    {
+      "id": "2735522",
+      "question": "Will Radomir Saičić win the next Serbia presidential election?",
+      "category": "General",
+      "endDate": "2027-05-02T03:59:00Z",
+      "yesPrice": 0.93,
+      "outcomes": [
+        {
+          "id": "2735522-0",
+          "title": "Yes",
+          "price": 0.93
+        },
+        {
+          "id": "2735522-1",
+          "title": "No",
+          "price": 0.07
+        }
+      ],
+      "volume": 233637.44582100003,
+      "liquidity": 41941.6275,
+      "lastUpdated": "2026-11-27T04:54:47.194Z"
     }
   ],
-  "lastUpdated": "2026-11-26T23:02:55.953Z"
+  "lastUpdated": "2026-11-27T04:54:55.371Z"
 }
